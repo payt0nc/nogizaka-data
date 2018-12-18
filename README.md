@@ -28,3 +28,7 @@ This is a project to process the raw data of _NOGISONGS_ project to make them in
 
 - [ ] Extract `songType` from `songs`
 - [ ] Extract focus members/unit/corp from `songs`
+
+#### Songs
+
+- [ ] Pair `single` and `albums` from `songs` and `albums`
