@@ -1,11 +1,4 @@
-export enum SongType {
-  None = "none",
-  Title = "title",
-  Coupling = "coupling",
-  Under = "under",
-  Unit = "unit",
-  Solo = "solo"
-}
+import { SongType } from "../common/types";
 
 export interface ISongPerformers {
   center: string[] | undefined;
@@ -23,8 +16,9 @@ export interface ISongFormations {
 
 export interface ISong {
   title: string;
+  artwork: string;
   single: string;
-  album: string[] | undefined;
+  albums: string[] | undefined;
   type: SongType;
   performers: ISongPerformers;
   formations: ISongFormations;

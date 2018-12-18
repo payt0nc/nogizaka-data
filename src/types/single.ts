@@ -1,5 +1,5 @@
-import { ISite } from "../common/types";
-import { SongType, ISongPerformers } from "./song";
+import { SongType } from "../common/types";
+import { ICd } from "./cd";
 
 export enum CdType {
   A = "A",
@@ -16,10 +16,6 @@ interface ISingleSong {
   type: SongType;
 }
 
-export interface ISingle {
-  title: string;
-  number: number;
-  release: string;
-  shopping: ISite[];
-  songs: ISingleSong[]
+export interface ISingle extends ICd {
+  songs: ISingleSong[];
 }

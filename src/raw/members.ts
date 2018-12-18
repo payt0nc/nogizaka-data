@@ -1,8 +1,8 @@
 import {
-  JoinedGeneration,
   IMember,
+  JoinedGeneration,
   PhotoAlbumType,
-  PositionType
+  PositionType,
 } from "../types/member";
 
 const member1: IMember = {
@@ -10,14 +10,14 @@ const member1: IMember = {
   nameNotations: {
     firstName: "first name",
     lastName: "last name",
+    lastNameEn: "english",
     firstNameFurigana: "furigana",
-    lastNameFurigana: "furigana",
     firstNameEn: "english",
-    lastNameEn: "english"
+    lastNameFurigana: "furigana",
   },
   profileImage: {
     large: "path",
-    small: "path"
+    small: "path",
   },
   join: JoinedGeneration.First,
   birthday: "yyyy-mm-dd",
@@ -26,12 +26,12 @@ const member1: IMember = {
   sites: [
     {
       title: "Official",
-      url: "url"
+      url: "url",
     },
     {
       title: "Instagram",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   photoAlbums: [
     {
@@ -41,33 +41,33 @@ const member1: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
-        }
-      ]
-    }
+          url: "url",
+        },
+      ],
+    },
   ],
   units: ["unit 1", "unit 2"],
   corps: ["corp 1", "corp 2"],
   positionsHistory: [
     {
       singleNumber: 1,
-      position: PositionType.Fukujin
+      position: PositionType.Fukujin,
     },
     {
       singleNumber: 2,
-      position: PositionType.Selected
-    }
+      position: PositionType.Selected,
+    },
   ],
   positionsCounter: {
     center: 0,
     fukujin: 1,
     selected: 1,
-    under: 0
+    under: 0,
   },
   graduation: {
     isGraduated: true,
-    graduatedDate: "yyyy-mm-dd"
-  }
+    graduatedDate: "yyyy-mm-dd",
+  },
 };
 
 const member2: IMember = {
@@ -78,11 +78,11 @@ const member2: IMember = {
     firstNameFurigana: "furigana",
     lastNameFurigana: "furigana",
     firstNameEn: "english",
-    lastNameEn: "english"
+    lastNameEn: "english",
   },
   profileImage: {
     large: "path",
-    small: "path"
+    small: "path",
   },
   join: JoinedGeneration.First,
   birthday: "yyyy-mm-dd",
@@ -91,12 +91,12 @@ const member2: IMember = {
   sites: [
     {
       title: "Official",
-      url: "url"
+      url: "url",
     },
     {
       title: "Instagram",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   photoAlbums: [
     {
@@ -106,36 +106,36 @@ const member2: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
-        }
-      ]
-    }
+          url: "url",
+        },
+      ],
+    },
   ],
   units: ["unit 1", "unit 2"],
   corps: ["corp 1", "corp 2"],
   positionsHistory: [
     {
       singleNumber: 1,
-      position: PositionType.Fukujin
+      position: PositionType.Fukujin,
     },
     {
       singleNumber: 2,
-      position: PositionType.Selected
-    }
+      position: PositionType.Selected,
+    },
   ],
   positionsCounter: {
     center: 0,
     fukujin: 1,
     selected: 1,
-    under: 0
+    under: 0,
   },
   graduation: {
     isGraduated: true,
-    graduatedDate: "yyyy-mm-dd"
-  }
+    graduatedDate: "yyyy-mm-dd",
+  },
 };
 
 export const members = {
   "member-name-1": member1,
-  "member-name-2": member2
+  "member-name-2": member2,
 };
