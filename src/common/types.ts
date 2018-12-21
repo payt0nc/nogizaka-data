@@ -15,6 +15,14 @@ export enum SongType {
   ThirdGeneration = "third generation"
 }
 
+export enum CdType {
+  A = "A",
+  B = "B",
+  C = "C",
+  D = "D",
+  T = "T"
+}
+
 export enum BloodType {
   A = "a",
   B = "b",

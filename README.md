@@ -60,7 +60,7 @@ TODO:
 
 - Members
   - [x] Calculate `units` and `corps`
-  - [ ] Calculate `positionsHistory` and `positionsHistory` based on `singles`
+  - [x] Calculate `positionsHistory` and `positionsHistory` based on `singles`
 - Singles
   - [ ] Extract `songType` from `songs`
   - [ ] Extract focus members/unit/corp from `songs`
