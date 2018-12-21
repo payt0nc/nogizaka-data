@@ -1,4 +1,4 @@
-import { ISite } from "../common/types";
+import { BloodType, ISite, PhotoAlbumType, UnitType } from "../common/types";
 
 export enum JoinedGeneration {
   First = "1st",
@@ -6,11 +6,6 @@ export enum JoinedGeneration {
   Third = "3rd",
   Fourth = "4th",
   Exchange = "exchange"
-}
-
-export enum PhotoAlbumType {
-  PhotoAlbum = "photo album",
-  PhotoBook = "photo book"
 }
 
 export enum PositionType {
@@ -58,6 +53,11 @@ interface IMemberGraduation {
   graduatedDate: string;
 }
 
+export interface IMemberUnit {
+  name: string;
+  type: UnitType;
+}
+
 export interface IMember {
   name: string;
   nameNotations: IMemberNameNotations;
@@ -65,11 +65,10 @@ export interface IMember {
   join: JoinedGeneration;
   birthday: string;
   height: number;
-  bloodType: string;
+  bloodType: BloodType;
   sites: ISite[];
   photoAlbums: IMemberPhotoAlbum[];
-  units: string[];
-  corps: string[];
+  units: IMemberUnit[];
   positionsHistory: IMemberPositionHistory[];
   positionsCounter: IMemberPositionsCounter;
   graduation: IMemberGraduation;

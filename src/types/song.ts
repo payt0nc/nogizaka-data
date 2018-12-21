@@ -1,11 +1,10 @@
-import { SongType } from "../common/types";
+import { FukujinType, SongType } from "../common/types";
 
 export interface ISongPerformers {
-  center: string[] | undefined;
-  fukujin: string[] | undefined;
-  selected: string[] | undefined;
-  solo: string | undefined;
-  unit: string | undefined;
+  center: string[];
+  fukujin: FukujinType | string[];
+  solo: string;
+  unit: string;
 }
 
 export interface ISongFormations {
@@ -18,7 +17,7 @@ export interface ISong {
   title: string;
   artwork: string;
   single: string;
-  albums: string[] | undefined;
+  albums: string[];
   type: SongType;
   performers: ISongPerformers;
   formations: ISongFormations;

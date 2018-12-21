@@ -1,7 +1,4 @@
-export enum UnitType {
-  Unit = "unit",
-  Corp = "corp"
-}
+import { UnitType } from "../common/types";
 
 export interface IUnit {
   name: string;
