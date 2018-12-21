@@ -5,13 +5,16 @@
   "main": "raw-data.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack --progress --mode=development",
     "build": "webpack --progress --mode=production",
     "watch": "webpack --progress --watch",
-    "lint": "tslint --fix -c ./tslint.json './src/**/*.ts'"
+    "lint": "tslint --fix -c ./tslint.json './src/**/*.ts'",
+    "start": "node ./dist/bundle.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^10.12.18",
     "ts-loader": "^5.3.1",
     "tslint": "^5.11.0",
     "typescript": "^3.2.2",
