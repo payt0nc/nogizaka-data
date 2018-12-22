@@ -72,7 +72,7 @@ export const recordPositions = (
 
             // Check Center, Fukujin, Selected.
             if (
-              singleSong.type === SongType.Title &&
+              song.type === SongType.Title &&
               singleSong.title === song.title
             ) {
               // Check Selected.
@@ -124,7 +124,7 @@ export const recordPositions = (
 
             // Check Under.
             if (
-              singleSong.type === SongType.Under &&
+              song.type === SongType.Under &&
               singleSong.title === song.title
             ) {
               if (
