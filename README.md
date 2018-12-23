@@ -47,8 +47,9 @@ TODO:
   - [x] Main
   - [ ] photoAlbums shopping
   - [ ] profileImage
+  - [ ] singleImages
 - [ ] songs
-- [ ] singles
+- [x] singles
 - [ ] albums
 - [x] units
 
@@ -63,7 +64,7 @@ TODO:
   - [x] Calculate `positionsHistory` and `positionsHistory` based on `singles`
 - Singles
   - [x] Extract `songType` from `songs`
-  - [ ] Extract focus members/unit/corp from `songs`
+  - [x] Extract focus members/unit/corp from `songs`
 - Albums
   - [ ] Extract `songType` from `songs`
   - [ ] Extract focus members/unit/corp from `songs`

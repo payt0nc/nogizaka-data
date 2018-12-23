@@ -23,6 +23,11 @@ interface IMemberProfileImage {
   small: string;
 }
 
+interface IMemberSingleImage {
+  singleNumber: number;
+  image: string;
+}
+
 interface IMemberPhotoAlbum {
   title: string;
   release: string;
@@ -65,6 +70,7 @@ export interface IMember {
   name: string;
   nameNotations: IMemberNameNotations;
   profileImage: IMemberProfileImage;
+  singleImages: IMemberSingleImage[] | undefined;
   join: JoinedGeneration;
   birthday: string;
   height: number;

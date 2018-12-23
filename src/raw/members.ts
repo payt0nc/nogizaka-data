@@ -15,6 +15,7 @@ const akimotomanatsu: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1993-08-20",
   height: 154,
@@ -65,6 +66,7 @@ const ikutaerika: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1997-01-22",
   height: 160,
@@ -126,6 +128,7 @@ const ikomarina: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1995-12-29",
   height: 153,
@@ -176,6 +179,7 @@ const itoukarin: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Second,
   birthday: "1993-05-26",
   height: 153,
@@ -214,6 +218,7 @@ const itoujunna: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Second,
   birthday: "1998-11-30",
   height: 166,
@@ -252,6 +257,7 @@ const itouriria: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Third,
   birthday: "2002-10-08",
   height: 154,
@@ -286,6 +292,7 @@ const inouesayuri: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1994-12-14",
   height: 156,
@@ -336,6 +343,7 @@ const iwamotorenka: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Third,
   birthday: "2004-02-02",
   height: 157,
@@ -370,6 +378,7 @@ const umezawaminami: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Third,
   birthday: "1999-01-06",
   height: 170,
@@ -404,6 +413,7 @@ const etoumisa: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1993-01-04",
   height: 163,
@@ -465,6 +475,7 @@ const oozonomomoko: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Third,
   birthday: "1999-09-13",
   height: 156,
@@ -499,6 +510,7 @@ const kawagohina: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1998-03-22",
   height: 161,
@@ -537,6 +549,7 @@ const kitanohinako: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Second,
   birthday: "1996-07-17",
   height: 158,
@@ -587,6 +600,7 @@ const kuboshiori: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Third,
   birthday: "2001-07-14",
   height: 159,
@@ -621,6 +635,7 @@ const saitouasuka: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1998-08-10",
   height: 158,
@@ -671,6 +686,7 @@ const saitouyuuri: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1993-07-20",
   height: 157,
@@ -709,6 +725,7 @@ const sakaguchitamami: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Third,
   birthday: "2001-11-10",
   height: 161,
@@ -743,6 +760,7 @@ const sakuraireika: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1994-05-16",
   height: 155,
@@ -793,6 +811,7 @@ const sasakikotoko: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Second,
   birthday: "1998-08-28",
   height: 163,
@@ -827,6 +846,7 @@ const satoukaede: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Third,
   birthday: "1998-03-23",
   height: 161,
@@ -861,6 +881,7 @@ const shiraishimai: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1992-08-20",
   height: 162,
@@ -933,6 +954,7 @@ const shinuchimai: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1992-01-22",
   height: 165,
@@ -983,6 +1005,7 @@ const suzukiayane: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Second,
   birthday: "1999-03-05",
   height: 160,
@@ -1021,6 +1044,7 @@ const takayamakazumi: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1994-02-08",
   height: 162,
@@ -1071,6 +1095,7 @@ const teradaranze: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Second,
   birthday: "1998-09-23",
   height: 155,
@@ -1105,6 +1130,7 @@ const nakadakana: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1994-08-06",
   height: 158,
@@ -1143,6 +1169,7 @@ const nakamurareno: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Third,
   birthday: "2001-09-27",
   height: 167,
@@ -1177,6 +1204,7 @@ const nishinonanase: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1994-05-25",
   height: 159,
@@ -1249,6 +1277,7 @@ const noujouami: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1994-10-18",
   height: 162,
@@ -1287,6 +1316,7 @@ const higuchihina: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1998-01-31",
   height: 159,
@@ -1325,6 +1355,7 @@ const hoshinominami: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1998-02-06",
   height: 155,
@@ -1375,6 +1406,7 @@ const horimiona: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Second,
   birthday: "1996-10-15",
   height: 160,
@@ -1425,6 +1457,7 @@ const matsumurasayuri: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1992-08-27",
   height: 164,
@@ -1475,6 +1508,7 @@ const mukaihazuki: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Third,
   birthday: "1999-08-23",
   height: 152,
@@ -1509,6 +1543,7 @@ const yamazakirena: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Second,
   birthday: "1998-01-31",
   height: 159,
@@ -1547,6 +1582,7 @@ const yamashitamizuki: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Third,
   birthday: "1999-07-26",
   height: 159,
@@ -1581,6 +1617,7 @@ const yoshidaayanochristie: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Third,
   birthday: "1995-09-06",
   height: 161,
@@ -1615,6 +1652,7 @@ const yodayuuki: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Third,
   birthday: "2000-05-05",
   height: 152,
@@ -1661,6 +1699,7 @@ const wakatsukiyumi: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1994-06-27",
   height: 157,
@@ -1707,6 +1746,7 @@ const watanabemiria: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Second,
   birthday: "1999-11-01",
   height: 153,
@@ -1745,6 +1785,7 @@ const wadamaaya: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1998-04-23",
   height: 160,
@@ -1783,6 +1824,7 @@ const endousakura: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Fourth,
   birthday: "2001-10-03",
   height: 160,
@@ -1817,6 +1859,7 @@ const kakiharuka: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Fourth,
   birthday: "2001-08-08",
   height: 166,
@@ -1851,6 +1894,7 @@ const kakehashisayaka: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Fourth,
   birthday: "2002-11-20",
   height: 156,
@@ -1885,6 +1929,7 @@ const kanagawasaya: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Fourth,
   birthday: "2001-10-31",
   height: 164,
@@ -1919,6 +1964,7 @@ const kitagawayuri: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Fourth,
   birthday: "2001-08-08",
   height: 163,
@@ -1953,6 +1999,7 @@ const shibatayuna: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Fourth,
   birthday: "2003-03-03",
   height: 160,
@@ -1987,6 +2034,7 @@ const seimiyarei: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Fourth,
   birthday: "2003-08-01",
   height: 162,
@@ -2021,6 +2069,7 @@ const tamuramayu: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Fourth,
   birthday: "1999-01-12",
   height: 158,
@@ -2055,6 +2104,7 @@ const tsutsuiayame: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Fourth,
   birthday: "2004-06-08",
   height: 160,
@@ -2089,6 +2139,7 @@ const hayakawaseira: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Fourth,
   birthday: "2000-08-24",
   height: 164,
@@ -2123,6 +2174,7 @@ const yakubomio: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Fourth,
   birthday: "2002-08-14",
   height: 152,
@@ -2157,6 +2209,7 @@ const sagaraiori: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Second,
   birthday: "1997-11-26",
   height: 164,
@@ -2195,6 +2248,7 @@ const saitouchiharu: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1997-02-17",
   height: 166,
@@ -2224,6 +2278,7 @@ const kawamuramahiro: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1995-07-23",
   height: 156,
@@ -2266,6 +2321,7 @@ const nakamotohimeka: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1996-04-13",
   height: 161,
@@ -2300,6 +2356,7 @@ const itoumarika: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1996-02-20",
   height: 155,
@@ -2334,6 +2391,7 @@ const hashimotonanami: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1993-02-20",
   height: 163,
@@ -2386,6 +2444,7 @@ const fukagawamai: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1991-03-29",
   height: 162,
@@ -2443,6 +2502,7 @@ const nagashimaseira: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1994-05-19",
   height: 158,
@@ -2481,6 +2541,7 @@ const matsuirena: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Exchange,
   birthday: "1991-07-27",
   height: 162,
@@ -2519,6 +2580,7 @@ const hatanakaseira: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1995-12-05",
   height: 150,
@@ -2557,6 +2619,7 @@ const yamatorina: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1994-12-14",
   height: 162,
@@ -2595,6 +2658,7 @@ const itounene: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1995-12-12",
   height: 148,
@@ -2633,6 +2697,7 @@ const yonetokukyouka: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Second,
   birthday: "1999-04-14",
   height: 163,
@@ -2662,6 +2727,7 @@ const yadarisako: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Second,
   birthday: "1995-03-08",
   height: 158,
@@ -2691,6 +2757,7 @@ const ichikirena: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1996-01-22",
   height: 153,
@@ -2725,6 +2792,7 @@ const nishikawananami: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.Second,
   birthday: "1993-07-03",
   height: 165,
@@ -2754,6 +2822,7 @@ const miyazawaseira: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1993-10-29",
   height: 166,
@@ -2792,6 +2861,7 @@ const kashiwayukina: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1994-08-12",
   height: 158,
@@ -2826,6 +2896,7 @@ const andoumikumo: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1993-05-21",
   height: 156,
@@ -2855,6 +2926,7 @@ const iwaseyumiko: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1990-06-12",
   height: 153,
@@ -2889,6 +2961,7 @@ const yamamotohonoka: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1998-03-31",
   height: 162,
@@ -2918,6 +2991,7 @@ const yoshimotoayaka: IMember = {
     large: "path",
     small: "path"
   },
+  singleImages: undefined,
   join: JoinedGeneration.First,
   birthday: "1996-08-18",
   height: 147,

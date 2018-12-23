@@ -85,9 +85,9 @@ const songNichijo: ISong = {
 };
 
 const songJikochu: ISong = {
-  title: "ジコチューで行こう！",
+  title: "ジコチューで行こう!",
   artwork: "path",
-  single: "ジコチューで行こう！",
+  single: "ジコチューで行こう!",
   albums: [],
   type: SongType.Title,
   performers: {
@@ -130,7 +130,7 @@ const songJikochu: ISong = {
 const songSankaku: ISong = {
   title: "三角の空き地",
   artwork: "path",
-  single: "ジコチューで行こう！",
+  single: "ジコチューで行こう!",
   albums: [],
   type: SongType.Under,
   performers: {
@@ -170,6 +170,6 @@ const songSankaku: ISong = {
 export const songs = {
   "帰り道は遠回りしたくなる": songKaerimichi,
   "日常": songNichijo,
-  "ジコチューで行こう！": songJikochu,
+  "ジコチューで行こう!": songJikochu,
   "三角の空き地": songSankaku
 };
