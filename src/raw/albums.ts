@@ -15,12 +15,14 @@ const album1: IAlbum = {
     {
       number: 1,
       title: "title",
-      type: SongType.Title
+      type: SongType.Title,
+      focusPerformers: undefined
     },
     {
-      number: 1,
+      number: 2,
       title: "title",
-      type: SongType.Title
+      type: SongType.Title,
+      focusPerformers: undefined
     }
   ]
 };
@@ -39,12 +41,14 @@ const album2: IAlbum = {
     {
       number: 1,
       title: "title",
-      type: SongType.Title
+      type: SongType.Title,
+      focusPerformers: undefined
     },
     {
-      number: 1,
+      number: 2,
       title: "title",
-      type: SongType.Title
+      type: SongType.Title,
+      focusPerformers: undefined
     }
   ]
 };

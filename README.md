@@ -49,6 +49,7 @@ TODO:
   - [ ] profileImage
   - [ ] singleImages
 - [ ] songs
+  - [ ] creators
 - [x] singles
 - [ ] albums
 - [x] units
@@ -81,4 +82,28 @@ TODO:
 
 ## Store JSON Data in Firebase
 
+- [ ] Firebase Config (e.g., API keys)
+- [ ] Delete existing data on Firebase
+- [ ] Upload the new data to Firebase
+
 ## Store Images Data in Firebase
+
+Image Files Structure:
+
+- Member profile images
+  - default image
+    - large images
+    - small images
+  - image for each single
+    - large images
+    - small images
+- Single & album artwork images
+  - single artwork images
+  - album artwork images
+
+TODO:
+
+- [ ] Firebase Config (e.g., API keys)
+- [ ] Compare data in Firebase and in local
+- [ ] If differences exist, upload the different files
+  - OR, just upload every time (in this case, create a script in `package.json` specifically for uploading images)
