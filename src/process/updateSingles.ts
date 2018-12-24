@@ -1,5 +1,5 @@
-import { SongType } from "../common/types";
-import { FocusPerformersType, ISingle, ISingleSong } from "../types/single";
+import { FocusPerformersType, SongType } from "../common/types";
+import { ISingle, ISingleSong } from "../types/single";
 import { ISong } from "../types/song";
 
 export const recordSingleSongType = (
@@ -11,7 +11,7 @@ export const recordSingleSongType = (
 
     single.songs.forEach((singleSong: ISingleSong) => {
       // Reset singleSong type.
-      singleSong.type = undefined;
+      // singleSong.type = undefined;
 
       songsList.forEach((songsElement: [string, ISong]) => {
         const song = songsElement[1];
@@ -20,7 +20,7 @@ export const recordSingleSongType = (
         }
       });
 
-      console.log(singleSong.title, singleSong.type);
+      // console.log(singleSong.title, singleSong.type);
     });
   });
 };

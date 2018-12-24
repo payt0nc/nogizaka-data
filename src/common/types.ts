@@ -47,6 +47,13 @@ export enum FukujinType {
   RowOneTwo = "row-1-2"
 }
 
+export enum FocusPerformersType {
+  Center = "center",
+  Solo = "solo",
+  Unit = "unit",
+  None = ""
+}
+
 export enum MemberNames {
   AkimotoManatsu = "akimotomanatsu",
   IkutaErika = "ikutaerika",

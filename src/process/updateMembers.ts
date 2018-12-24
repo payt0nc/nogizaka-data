@@ -130,7 +130,8 @@ export const recordPositions = (
               if (
                 song.formations.firstRow.includes(member.name) ||
                 song.formations.secondRow.includes(member.name) ||
-                song.formations.thirdRow.includes(member.name)
+                song.formations.thirdRow.includes(member.name) ||
+                song.formations.fourthRow.includes(member.name)
               ) {
                 memberPositionHistory.position = PositionType.Under;
               }
@@ -146,9 +147,12 @@ export const recordPositions = (
       switch (memberPositionHistory.position) {
         case PositionType.Center:
           member.positionsCounter.center += 1;
+          member.positionsCounter.fukujin += 1;
+          member.positionsCounter.selected += 1;
           break;
         case PositionType.Fukujin:
           member.positionsCounter.fukujin += 1;
+          member.positionsCounter.selected += 1;
           break;
         case PositionType.Selected:
           member.positionsCounter.selected += 1;

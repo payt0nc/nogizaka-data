@@ -1393,7 +1393,7 @@ const hoshinominami: IMember = {
 };
 
 const horimiona: IMember = {
-  name: MemberNames.HoshinoMinami,
+  name: MemberNames.HoriMiona,
   nameNotations: {
     lastName: "堀",
     firstName: "未央奈",

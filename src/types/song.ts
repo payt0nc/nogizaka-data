@@ -11,6 +11,14 @@ export interface ISongFormations {
   firstRow: string[];
   secondRow: string[];
   thirdRow: string[];
+  fourthRow: string[];
+}
+
+interface ISongCreators {
+  lyrics: string;
+  compose: string;
+  arrange: string;
+  direct: string;
 }
 
 export interface ISong {
@@ -19,6 +27,7 @@ export interface ISong {
   single: string;
   albums: string[];
   type: SongType;
+  creators: ISongCreators | undefined;
   performers: ISongPerformers;
   formations: ISongFormations;
 }
