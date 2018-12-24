@@ -6,15 +6,15 @@ export const recordSingleSongType = (
   singlesList: Array<[string, ISingle]>,
   songsList: Array<[string, ISong]>
 ) => {
-  singlesList.forEach((singlesElement: [string, ISingle]) => {
-    const single = singlesElement[1];
+  singlesList.forEach((singleElement: [string, ISingle]) => {
+    const single = singleElement[1];
 
     single.songs.forEach((singleSong: ISingleSong) => {
       // Reset singleSong type.
       // singleSong.type = undefined;
 
-      songsList.forEach((songsElement: [string, ISong]) => {
-        const song = songsElement[1];
+      songsList.forEach((songElement: [string, ISong]) => {
+        const song = songElement[1];
         if (song.title === singleSong.title) {
           singleSong.type = song.type;
         }
@@ -29,12 +29,12 @@ export const recordFocusPerformers = (
   singlesList: Array<[string, ISingle]>,
   songsList: Array<[string, ISong]>
 ) => {
-  singlesList.forEach((singlesElement: [string, ISingle]) => {
-    const single = singlesElement[1];
+  singlesList.forEach((singleElement: [string, ISingle]) => {
+    const single = singleElement[1];
 
     single.songs.forEach((singleSong: ISingleSong) => {
-      songsList.forEach((songsElement: [string, ISong]) => {
-        const song = songsElement[1];
+      songsList.forEach((songElement: [string, ISong]) => {
+        const song = songElement[1];
         if (song.title === singleSong.title) {
           if (
             song.type === SongType.Title ||
@@ -67,7 +67,7 @@ export const recordFocusPerformers = (
         }
       });
 
-      console.log(singleSong.title, singleSong.focusPerformers);
+      // console.log(singleSong.title, singleSong.focusPerformers);
     });
   });
 };

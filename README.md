@@ -82,9 +82,8 @@ TODO:
 
 ## Store JSON Data in Firebase
 
-- [ ] Firebase Config (e.g., API keys)
-- [ ] Delete existing data on Firebase
-- [ ] Upload the new data to Firebase
+- [ ] Save object to JSON file
+- [ ] Upload to Firebase
 
 ## Store Images Data in Firebase
 
@@ -103,7 +102,4 @@ Image Files Structure:
 
 TODO:
 
-- [ ] Firebase Config (e.g., API keys)
-- [ ] Compare data in Firebase and in local
-- [ ] If differences exist, upload the different files
-  - OR, just upload every time (in this case, create a script in `package.json` specifically for uploading images)
+- [ ] Upload to Firebase

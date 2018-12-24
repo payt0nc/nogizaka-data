@@ -44,7 +44,7 @@ interface IMemberNameNotations {
   lastNameEn: string;
 }
 
-interface IMemberPositionHistory {
+export interface IMemberPositionHistory {
   singleNumber: number;
   position: PositionType;
 }

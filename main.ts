@@ -1,5 +1,4 @@
 import * as fs from "fs";
-
 import { recordPositions, recordUnits } from "./src/process/updateMembers";
 import { recordFocusPerformers, recordSingleSongType } from "./src/process/updateSingles";
 import { albums } from "./src/raw/albums";
@@ -26,15 +25,13 @@ const singlesList = Object.entries(singles);
 const albumsList = Object.entries(albums);
 const unitsList = Object.entries(units);
 
-// console.log(members);
-
 // TODO: Process the raw data.
 
-// recordUnits(membersList, unitsList);
+recordUnits(membersList, unitsList);
 recordSingleSongType(singlesList, songsList);
 recordFocusPerformers(singlesList, songsList);
-// recordPositions(membersList, singlesList, songsList);
-// console.log(songsList);
+recordPositions(membersList, singlesList, songsList);
+
 // console.log(members);
 
 // TODO: Store the processed data into a JSON file.
@@ -48,3 +45,5 @@ recordFocusPerformers(singlesList, songsList);
 // });
 
 // TODO: Post and update the remote data in Firebase.
+
+// console.log(firebase.default.database);
