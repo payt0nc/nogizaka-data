@@ -25,7 +25,7 @@ export const recordSingleSongType = (
   });
 };
 
-export const recordFocusPerformers = (
+export const recordSingleFocusPerformers = (
   singlesList: Array<[string, ISingle]>,
   songsList: Array<[string, ISong]>
 ) => {
