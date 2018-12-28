@@ -100,6 +100,169 @@ const songNichijo: ISong = {
   }
 };
 
+const songKyaraban: ISong = {
+  title: "キャラバンは眠らない",
+  artwork: "path",
+  single: "帰り道は遠回りしたくなる",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["CottON"],
+    arrange: ["CottON"],
+    direct: ["横堀光範"]
+  },
+  performers: {
+    center: [MemberNames.SaitouAsuka],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ItouRiria,
+      MemberNames.IwamotoRenka,
+      MemberNames.UmezawaMinami,
+      MemberNames.OozonoMomoko,
+      MemberNames.KitanoHinako,
+      MemberNames.KuboShiori,
+      MemberNames.SaitouAsuka,
+      MemberNames.SatouKaede,
+      MemberNames.SuzukiAyane,
+      MemberNames.TeradaRanze,
+      MemberNames.HiguchiHina,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona,
+      MemberNames.YamashitaMizuki,
+      MemberNames.YodaYuuki,
+      MemberNames.WatanabeMiria
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songTsuduku: ISong = {
+  title: "つづく",
+  artwork: "path",
+  single: "帰り道は遠回りしたくなる",
+  albums: [],
+  type: SongType.Solo,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["若田部誠"],
+    arrange: ["若田部誠"],
+    direct: ["湯浅弘章"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: MemberNames.NishinoNanase,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.NishinoNanase
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songKokuhakunojunban: ISong = {
+  title: "告白の順番",
+  artwork: "path",
+  single: "帰り道は遠回りしたくなる",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["安部純"],
+    arrange: ["安部純"],
+    direct: ["荒船泰廣"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: "女子校カルテット"
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.SakuraiReika,
+      MemberNames.NakadaKana,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songChopinnousotsuki: ISong = {
+  title: "ショパンの嘘つき",
+  artwork: "path",
+  single: "帰り道は遠回りしたくなる",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["山本加津彦"],
+    arrange: ["山本加津彦"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.ShiraishiMai,
+      MemberNames.MatsumuraSayuri
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songShiritaikoto: ISong = {
+  title: "知りたいこと",
+  artwork: "path",
+  single: "帰り道は遠回りしたくなる",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["佐々木裕"],
+    arrange: ["佐々木裕"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.SaitouAsuka,
+      MemberNames.HoshinoMinami,
+      MemberNames.YamashitaMizuki,
+      MemberNames.YodaYuuki
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
 // 21st single
 
 const songJikochu: ISong = {
@@ -1972,5 +2135,10 @@ export const songs = {
   "春のメロディー": songHarunomelody,
   "涙がまだ悲しみだった頃": songNamidagamada,
   "狼に口笛を": songOkaminikuchibuewo,
-  "左胸の勇気": songHidarimurenoyuki
+  "左胸の勇気": songHidarimurenoyuki,
+  "キャラバンは眠らない": songKyaraban,
+  "つづく": songTsuduku,
+  "告白の順番": songKokuhakunojunban,
+  "ショパンの嘘つき": songChopinnousotsuki,
+  "知りたいこと": songShiritaikoto
 };
