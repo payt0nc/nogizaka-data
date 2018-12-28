@@ -847,7 +847,12 @@ const songItsukadekirukara: ISong = {
   single: "いつかできるから今日できる",
   albums: [],
   type: SongType.Title,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Akira Sunset", "京田誠一"],
+    arrange: ["Akira Sunset", "京田誠一"],
+    direct: ["高橋栄樹"]
+  },
   performers: {
     center: [
       MemberNames.NishinoNanase,
@@ -893,7 +898,12 @@ const songMyrule: ISong = {
   single: "いつかできるから今日できる",
   albums: [],
   type: SongType.Under,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["藤田卓也"],
+    arrange: ["藤田卓也"],
+    direct: ["林希", "古屋蔵人"]
+  },
   performers: {
     center: [MemberNames.HiguchiHina],
     fukujin: undefined,
@@ -921,6 +931,180 @@ const songMyrule: ISong = {
       MemberNames.WadaMaaya,
       MemberNames.ItouJunna
     ],
+    fourthRow: []
+  }
+};
+
+const songFumensho: ISong = {
+  title: "不眠症",
+  artwork: "path",
+  single: "いつかできるから今日できる",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["大貫和紀", "河原レオ", "高木龍一"],
+    arrange: ["大貫和紀", "河原レオ", "高木龍一"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.KuboShiori, MemberNames.YamashitaMizuki],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.EtouMisa,
+      MemberNames.OozonoMomoko,
+      MemberNames.KuboShiori,
+      MemberNames.SaitouAsuka,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.ShinuchiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NishinoNanase,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.YamashitaMizuki,
+      MemberNames.YodaYuuki,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songMaaiika: ISong = {
+  title: "まあいいか?",
+  artwork: "path",
+  single: "いつかできるから今日できる",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["HRK"],
+    arrange: ["原広明"],
+    direct: ["中村太洸"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.ShiraishiMai
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songShitsurenosojinin: ISong = {
+  title: "失恋お掃除人",
+  artwork: "path",
+  single: "いつかできるから今日できる",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["さいとうくにあき", "Akira Sunset", "京田誠一"],
+    arrange: ["さいとうくにあき", "Akira Sunset", "京田誠一"],
+    direct: ["伊藤衆人"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: "若様軍団"
+  },
+  formations: {
+    firstRow: [
+      MemberNames.UmezawaMinami,
+      MemberNames.SakaguchiTamami,
+      MemberNames.YamashitaMizuki,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songBokunoshodo: ISong = {
+  title: "僕の衝動",
+  artwork: "path",
+  single: "いつかできるから今日できる",
+  albums: [],
+  type: SongType.ThirdGeneration,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["石井伸昂"],
+    arrange: ["石井伸昂"],
+    direct: ["荒船泰廣"]
+  },
+  performers: {
+    center: [MemberNames.ItouRiria],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ItouRiria,
+      MemberNames.IwamotoRenka,
+      MemberNames.UmezawaMinami,
+      MemberNames.OozonoMomoko,
+      MemberNames.KuboShiori,
+      MemberNames.SakaguchiTamami,
+      MemberNames.SatouKaede,
+      MemberNames.NakamuraReno,
+      MemberNames.YamashitaMizuki,
+      MemberNames.YoshidaAyanoChristie,
+      MemberNames.YodaYuuki,
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songAtarashiikafun: ISong = {
+  title: "新しい花粉 〜ミュージカル「見知らぬ世界」より〜",
+  artwork: "path",
+  single: "いつかできるから今日できる",
+  albums: [],
+  type: SongType.ThirdGeneration,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["新田目翔"],
+    arrange: ["若田部誠"],
+    direct: ["荒船泰廣"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.KuboShiori
+    ],
+    secondRow: [],
+    thirdRow: [],
     fourthRow: []
   }
 };
@@ -2545,5 +2729,10 @@ export const songs = {
   "雲になればいい": songKumoninarebaii,
   "スカウトマン": songScoutman,
   "トキトキメキメキ": songTokitokimekimeki,
-  "言霊砲": songKotodamaho
+  "言霊砲": songKotodamaho,
+  "不眠症": songFumensho,
+  "まあいいか?": songMaaiika,
+  "失恋お掃除人": songShitsurenosojinin,
+  "僕の衝動": songBokunoshodo,
+  "新しい花粉 ~ミュージカル「見知らぬ世界」より~": songAtarashiikafun
 };
