@@ -271,7 +271,12 @@ const songJikochu: ISong = {
   single: "ジコチューで行こう!",
   albums: [],
   type: SongType.Title,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["ナスカ"],
+    arrange: ["野中\"まさ\"雄一"],
+    direct: ["中村太洸"]
+  },
   performers: {
     center: [MemberNames.SaitouAsuka],
     fukujin: FukujinType.RowOneTwo,
@@ -310,13 +315,18 @@ const songJikochu: ISong = {
   }
 };
 
-const songSankaku: ISong = {
+const songSankakunoakichi: ISong = {
   title: "三角の空き地",
   artwork: "path",
   single: "ジコチューで行こう!",
   albums: [],
   type: SongType.Under,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Hiroki"],
+    arrange: ["Yasutaka.Ishio"],
+    direct: ["月田茂"]
+  },
   performers: {
     center: [MemberNames.NakadaKana],
     fukujin: undefined,
@@ -347,6 +357,197 @@ const songSankaku: ISong = {
       MemberNames.SasakiKotoko,
       MemberNames.MukaiHazuki,
       MemberNames.ItouJunna
+    ],
+    fourthRow: []
+  }
+};
+
+const songSoratobira: ISong = {
+  title: "空扉",
+  artwork: "path",
+  single: "ジコチューで行こう!",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["FURUTA", "Dr.Lilcom"],
+    arrange: ["Dr.Lilcom"],
+    direct: ["伊藤衆人"]
+  },
+  performers: {
+    center: [MemberNames.UmezawaMinami],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.InoueSayuri,
+      MemberNames.IwamotoRenka,
+      MemberNames.UmezawaMinami,
+      MemberNames.EtouMisa,
+      MemberNames.OozonoMomoko,
+      MemberNames.SaitouYuuri,
+      MemberNames.ShiraishiMai,
+      MemberNames.ShinuchiMai,
+      MemberNames.SuzukiAyane,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NishinoNanase,
+      MemberNames.HoshinoMinami,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.YamashitaMizuki,
+      MemberNames.YodaYuuki
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songJibunjanaikanji: ISong = {
+  title: "自分じゃない感じ",
+  artwork: "path",
+  single: "ジコチューで行こう!",
+  albums: [],
+  type: SongType.ThirdGeneration,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["ツキダタダシ"],
+    arrange: ["ツキダタダシ"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.YamashitaMizuki],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ItouRiria,
+      MemberNames.IwamotoRenka,
+      MemberNames.UmezawaMinami,
+      MemberNames.OozonoMomoko,
+      MemberNames.SakaguchiTamami,
+      MemberNames.SatouKaede,
+      MemberNames.NakamuraReno,
+      MemberNames.MukaiHazuki,
+      MemberNames.YamashitaMizuki,
+      MemberNames.YoshidaAyanoChristie,
+      MemberNames.YodaYuuki
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songKokoronomonologue: ISong = {
+  title: "心のモノローグ",
+  artwork: "path",
+  single: "ジコチューで行こう!",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["シライシ紗トリ"],
+    arrange: ["シライシ紗トリ"],
+    direct: ["英勉"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ShiraishiMai,
+      MemberNames.NishinoNanase
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songChikyugamaruinara: ISong = {
+  title: "地球が丸いなら",
+  artwork: "path",
+  single: "ジコチューで行こう!",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["山下孝之"],
+    arrange: ["山下孝之"],
+    direct: ["沖田修一"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.OozonoMomoko,
+      MemberNames.SaitouAsuka,
+      MemberNames.YodaYuuki
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songAnnanisukidattanoni: ISong = {
+  title: "あんなに好きだったのに・・・",
+  artwork: "path",
+  single: "ジコチューで行こう!",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["木下めろん"],
+    arrange: ["木下めろん"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.SaitouAsuka],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.InoueSayuri,
+      MemberNames.IwamotoRenka,
+      MemberNames.UmezawaMinami,
+      MemberNames.EtouMisa,
+      MemberNames.OozonoMomoko,
+      MemberNames.SaitouAsuka,
+      MemberNames.SaitouYuuri,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.ShinuchiMai,
+      MemberNames.SuzukiAyane,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NishinoNanase,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.YamashitaMizuki,
+      MemberNames.YodaYuuki,
+      MemberNames.WakatsukiYumi,
+    ],
+    secondRow: [
+    ],
+    thirdRow: [
     ],
     fourthRow: []
   }
@@ -2115,7 +2316,7 @@ export const songs = {
   "おいでシャンプー": songOideshampoo,
   "ぐるぐるカーテン": songGurugurucurtain,
   "日常": songNichijo,
-  "三角の空き地": songSankaku,
+  "三角の空き地": songSankakunoakichi,
   "新しい世界": songAtarashiisekai,
   "My rule": songMyrule,
   "アンダー": songUnder,
@@ -2140,5 +2341,10 @@ export const songs = {
   "つづく": songTsuduku,
   "告白の順番": songKokuhakunojunban,
   "ショパンの嘘つき": songChopinnousotsuki,
-  "知りたいこと": songShiritaikoto
+  "知りたいこと": songShiritaikoto,
+  "空扉": songSoratobira,
+  "自分じゃない感じ": songJibunjanaikanji,
+  "心のモノローグ": songKokoronomonologue,
+  "地球が丸いなら": songChikyugamaruinara,
+  "あんなに好きだったのに・・・": songAnnanisukidattanoni
 };
