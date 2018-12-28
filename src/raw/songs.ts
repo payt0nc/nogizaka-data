@@ -1,13 +1,20 @@
 import { FukujinType, MemberNames, SongType } from "../common/types";
 import { ISong } from "../types/song";
 
+// 22nd single
+
 const songKaerimichi: ISong = {
   title: "帰り道は遠回りしたくなる",
   artwork: "path",
   single: "帰り道は遠回りしたくなる",
   albums: [],
   type: SongType.Title,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["渡邉俊彦"],
+    arrange: ["渡邉俊彦", "早川博隆"],
+    direct: ["関和亮"]
+  },
   performers: {
     center: [MemberNames.NishinoNanase],
     fukujin: FukujinType.RowOneTwo,
@@ -45,6 +52,55 @@ const songKaerimichi: ISong = {
     fourthRow: []
   }
 };
+
+const songNichijo: ISong = {
+  title: "日常",
+  artwork: "path",
+  single: "帰り道は遠回りしたくなる",
+  albums: [],
+  type: SongType.Under,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Akira Sunset", "野口大志"],
+    arrange: ["Akira Sunset", "野口大志"],
+    direct: ["今泉力哉"]
+  },
+  performers: {
+    center: [MemberNames.KitanoHinako],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.SuzukiAyane,
+      MemberNames.HiguchiHina,
+      MemberNames.KitanoHinako,
+      MemberNames.TeradaRanze,
+      MemberNames.IwamotoRenka
+    ],
+    secondRow: [
+      MemberNames.SakaguchiTamami,
+      MemberNames.YamazakiRena,
+      MemberNames.KuboShiori,
+      MemberNames.NakadaKana,
+      MemberNames.WatanabeMiria,
+      MemberNames.MukaiHazuki
+    ],
+    thirdRow: [
+      MemberNames.ItouJunna,
+      MemberNames.WadaMaaya,
+      MemberNames.NakamuraReno,
+      MemberNames.KawagoHina,
+      MemberNames.ItouKarin,
+      MemberNames.SasakiKotoko,
+      MemberNames.YoshidaAyanoChristie
+    ],
+    fourthRow: []
+  }
+};
+
+// 21st single
 
 const songJikochu: ISong = {
   title: "ジコチューで行こう!",
@@ -91,6 +147,50 @@ const songJikochu: ISong = {
   }
 };
 
+const songSankaku: ISong = {
+  title: "三角の空き地",
+  artwork: "path",
+  single: "ジコチューで行こう!",
+  albums: [],
+  type: SongType.Under,
+  creators: undefined,
+  performers: {
+    center: [MemberNames.NakadaKana],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.HiguchiHina,
+      MemberNames.NakadaKana,
+      MemberNames.ItouRiria
+    ],
+    secondRow: [
+      MemberNames.YamazakiRena,
+      MemberNames.SakaguchiTamami,
+      MemberNames.KitanoHinako,
+      MemberNames.TeradaRanze,
+      MemberNames.WatanabeMiria,
+      MemberNames.SatouKaede
+    ],
+    thirdRow: [
+      MemberNames.YoshidaAyanoChristie,
+      MemberNames.WadaMaaya,
+      MemberNames.KawagoHina,
+      MemberNames.NoujouAmi,
+      MemberNames.NakamuraReno,
+      MemberNames.ItouKarin,
+      MemberNames.SasakiKotoko,
+      MemberNames.MukaiHazuki,
+      MemberNames.ItouJunna
+    ],
+    fourthRow: []
+  }
+};
+
+// 20th single
+
 const songSyncronicity: ISong = {
   title: "シンクロニシティ",
   artwork: "path",
@@ -131,920 +231,6 @@ const songSyncronicity: ISong = {
       MemberNames.WakatsukiYumi,
       MemberNames.HiguchiHina,
       MemberNames.TeradaRanze
-    ],
-    fourthRow: []
-  }
-};
-
-const songItsukadekirukara: ISong = {
-  title: "いつかできるから今日できる",
-  artwork: "path",
-  single: "いつかできるから今日できる",
-  albums: [],
-  type: SongType.Title,
-  creators: undefined,
-  performers: {
-    center: [
-      MemberNames.NishinoNanase,
-      MemberNames.SaitouAsuka
-    ],
-    fukujin: FukujinType.RowOneTwo,
-    solo: undefined,
-    unit: undefined
-  },
-  formations: {
-    firstRow: [
-      MemberNames.HoriMiona,
-      MemberNames.NishinoNanase,
-      MemberNames.SaitouAsuka,
-      MemberNames.ShiraishiMai
-    ],
-    secondRow: [
-      MemberNames.WakatsukiYumi,
-      MemberNames.InoueSayuri,
-      MemberNames.MatsumuraSayuri,
-      MemberNames.IkutaErika,
-      MemberNames.ItouMarika,
-      MemberNames.SakuraiReika,
-      MemberNames.EtouMisa
-    ],
-    thirdRow: [
-      MemberNames.ShinuchiMai,
-      MemberNames.SaitouYuuri,
-      MemberNames.HoshinoMinami,
-      MemberNames.IkomaRina,
-      MemberNames.AkimotoManatsu,
-      MemberNames.KitanoHinako,
-      MemberNames.NakadaKana,
-      MemberNames.TakayamaKazumi
-    ],
-    fourthRow: []
-  }
-};
-
-const songNigemizu: ISong = {
-  title: "逃げ水",
-  artwork: "path",
-  single: "逃げ水",
-  albums: [],
-  type: SongType.Title,
-  creators: undefined,
-  performers: {
-    center: [
-      MemberNames.OozonoMomoko,
-      MemberNames.YodaYuuki
-    ],
-    fukujin: FukujinType.RowOneTwo,
-    solo: undefined,
-    unit: undefined
-  },
-  formations: {
-    firstRow: [
-      MemberNames.SaitouAsuka,
-      MemberNames.ShiraishiMai,
-      MemberNames.OozonoMomoko,
-      MemberNames.YodaYuuki,
-      MemberNames.NishinoNanase,
-      MemberNames.HoriMiona
-    ],
-    secondRow: [
-      MemberNames.HoshinoMinami,
-      MemberNames.MatsumuraSayuri,
-      MemberNames.IkutaErika,
-      MemberNames.AkimotoManatsu,
-      MemberNames.EtouMisa,
-      MemberNames.TakayamaKazumi
-    ],
-    thirdRow: [
-      MemberNames.ItouMarika,
-      MemberNames.ShinuchiMai,
-      MemberNames.IkomaRina,
-      MemberNames.SakuraiReika,
-      MemberNames.WakatsukiYumi,
-      MemberNames.InoueSayuri
-    ],
-    fourthRow: []
-  }
-};
-
-const songInfluencer: ISong = {
-  title: "インフルエンサー",
-  artwork: "path",
-  single: "インフルエンサー",
-  albums: [],
-  type: SongType.Title,
-  creators: undefined,
-  performers: {
-    center: [
-      MemberNames.NishinoNanase,
-      MemberNames.ShiraishiMai
-    ],
-    fukujin: FukujinType.RowOneTwo,
-    solo: undefined,
-    unit: undefined
-  },
-  formations: {
-    firstRow: [
-      MemberNames.AkimotoManatsu,
-      MemberNames.HoriMiona,
-      MemberNames.NishinoNanase,
-      MemberNames.ShiraishiMai,
-      MemberNames.SaitouAsuka,
-      MemberNames.EtouMisa
-    ],
-    secondRow: [
-      MemberNames.WakatsukiYumi,
-      MemberNames.TakayamaKazumi,
-      MemberNames.IkomaRina,
-      MemberNames.IkutaErika,
-      MemberNames.MatsumuraSayuri,
-      MemberNames.SakuraiReika
-    ],
-    thirdRow: [
-      MemberNames.ShinuchiMai,
-      MemberNames.InoueSayuri,
-      MemberNames.TeradaRanze,
-      MemberNames.KitanoHinako,
-      MemberNames.ItouMarika,
-      MemberNames.HoshinoMinami,
-      MemberNames.SaitouYuuri,
-      MemberNames.HiguchiHina,
-      MemberNames.NakadaKana
-    ],
-    fourthRow: []
-  }
-};
-
-const songSayonaranoimi: ISong = {
-  title: "サヨナラの意味",
-  artwork: "path",
-  single: "サヨナラの意味",
-  albums: [],
-  type: SongType.Title,
-  creators: undefined,
-  performers: {
-    center: [
-      MemberNames.HashimotoNanami
-    ],
-    fukujin: FukujinType.RowOneTwo,
-    solo: undefined,
-    unit: undefined
-  },
-  formations: {
-    firstRow: [
-      MemberNames.TakayamaKazumi,
-      MemberNames.NishinoNanase,
-      MemberNames.HashimotoNanami,
-      MemberNames.ShiraishiMai,
-      MemberNames.IkutaErika
-    ],
-    secondRow: [
-      MemberNames.WakatsukiYumi,
-      MemberNames.MatsumuraSayuri,
-      MemberNames.HoriMiona,
-      MemberNames.SaitouAsuka,
-      MemberNames.EtouMisa,
-      MemberNames.AkimotoManatsu
-    ],
-    thirdRow: [
-      MemberNames.NakamotoHimeka,
-      MemberNames.InoueSayuri,
-      MemberNames.ShinuchiMai,
-      MemberNames.SakuraiReika,
-      MemberNames.IkomaRina,
-      MemberNames.HoshinoMinami,
-      MemberNames.KitanoHinako,
-      MemberNames.ItouMarika
-    ],
-    fourthRow: []
-  }
-};
-
-const songHadashidesummer: ISong = {
-  title: "裸足でSummer",
-  artwork: "path",
-  single: "裸足でSummer",
-  albums: [],
-  type: SongType.Title,
-  creators: undefined,
-  performers: {
-    center: [
-      MemberNames.SaitouAsuka
-    ],
-    fukujin: FukujinType.RowOneTwo,
-    solo: undefined,
-    unit: undefined
-  },
-  formations: {
-    firstRow: [
-      MemberNames.HashimotoNanami,
-      MemberNames.NishinoNanase,
-      MemberNames.SaitouAsuka,
-      MemberNames.ShiraishiMai,
-      MemberNames.IkutaErika
-    ],
-    secondRow: [
-      MemberNames.TakayamaKazumi,
-      MemberNames.EtouMisa,
-      MemberNames.MatsumuraSayuri,
-      MemberNames.AkimotoManatsu,
-      MemberNames.SakuraiReika
-    ],
-    thirdRow: [
-      MemberNames.KitanoHinako,
-      MemberNames.HoshinoMinami,
-      MemberNames.WakatsukiYumi,
-      MemberNames.IkomaRina,
-      MemberNames.HoriMiona,
-      MemberNames.NakamotoHimeka
-    ],
-    fourthRow: []
-  }
-};
-
-const songHarujion: ISong = {
-  title: "ハルジオンが咲く頃",
-  artwork: "path",
-  single: "ハルジオンが咲く頃",
-  albums: [],
-  type: SongType.Title,
-  creators: undefined,
-  performers: {
-    center: [
-      MemberNames.FukagawaMai
-    ],
-    fukujin: FukujinType.RowOneTwo,
-    solo: undefined,
-    unit: undefined
-  },
-  formations: {
-    firstRow: [
-      MemberNames.HashimotoNanami,
-      MemberNames.NishinoNanase,
-      MemberNames.FukagawaMai,
-      MemberNames.ShiraishiMai,
-      MemberNames.IkutaErika
-    ],
-    secondRow: [
-      MemberNames.SaitouAsuka,
-      MemberNames.TakayamaKazumi,
-      MemberNames.EtouMisa,
-      MemberNames.AkimotoManatsu,
-      MemberNames.HoshinoMinami
-    ],
-    thirdRow: [
-      MemberNames.SakuraiReika,
-      MemberNames.WakatsukiYumi,
-      MemberNames.MatsumuraSayuri,
-      MemberNames.IkomaRina,
-      MemberNames.ItouMarika,
-      MemberNames.InoueSayuri,
-      MemberNames.HoriMiona
-    ],
-    fourthRow: []
-  }
-};
-
-const songHanashitaidarekagairu: ISong = {
-  title: "今、話したい誰かがいる",
-  artwork: "path",
-  single: "今、話したい誰かがいる",
-  albums: [],
-  type: SongType.Title,
-  creators: undefined,
-  performers: {
-    center: [
-      MemberNames.NishinoNanase,
-      MemberNames.ShiraishiMai
-    ],
-    fukujin: FukujinType.RowOneTwo,
-    solo: undefined,
-    unit: undefined
-  },
-  formations: {
-    firstRow: [
-      MemberNames.EtouMisa,
-      MemberNames.NishinoNanase,
-      MemberNames.ShiraishiMai,
-      MemberNames.FukagawaMai
-    ],
-    secondRow: [
-      MemberNames.SaitouAsuka,
-      MemberNames.TakayamaKazumi,
-      MemberNames.HashimotoNanami,
-      MemberNames.IkutaErika,
-      MemberNames.AkimotoManatsu,
-      MemberNames.HoshinoMinami
-    ],
-    thirdRow: [
-      MemberNames.SakuraiReika,
-      MemberNames.WakatsukiYumi,
-      MemberNames.IkomaRina,
-      MemberNames.MatsumuraSayuri,
-      MemberNames.ItouMarika,
-      MemberNames.InoueSayuri
-    ],
-    fourthRow: []
-  }
-};
-
-const songTaiyoknock: ISong = {
-  title: "太陽ノック",
-  artwork: "path",
-  single: "太陽ノック",
-  albums: [],
-  type: SongType.Title,
-  creators: undefined,
-  performers: {
-    center: [
-      MemberNames.IkomaRina
-    ],
-    fukujin: FukujinType.RowOneTwo,
-    solo: undefined,
-    unit: undefined
-  },
-  formations: {
-    firstRow: [
-      MemberNames.ShiraishiMai,
-      MemberNames.NishinoNanase,
-      MemberNames.IkomaRina,
-      MemberNames.IkutaErika,
-      MemberNames.HashimotoNanami
-    ],
-    secondRow: [
-      MemberNames.TakayamaKazumi,
-      MemberNames.WakatsukiYumi,
-      MemberNames.SakuraiReika,
-      MemberNames.AkimotoManatsu,
-      MemberNames.FukagawaMai
-    ],
-    thirdRow: [
-      MemberNames.MatsumuraSayuri,
-      MemberNames.SaitouYuuri,
-      MemberNames.HoshinoMinami,
-      MemberNames.SaitouAsuka,
-      MemberNames.ItouMarika,
-      MemberNames.InoueSayuri,
-      MemberNames.ShinuchiMai,
-      MemberNames.EtouMisa
-    ],
-    fourthRow: []
-  }
-};
-
-const songInochihautsukushii: ISong = {
-  title: "命は美しい",
-  artwork: "path",
-  single: "命は美しい",
-  albums: [],
-  type: SongType.Title,
-  creators: undefined,
-  performers: {
-    center: [
-      MemberNames.NishinoNanase
-    ],
-    fukujin: FukujinType.RowOneTwo,
-    solo: undefined,
-    unit: undefined
-  },
-  formations: {
-    firstRow: [
-      MemberNames.MatsuiRena,
-      MemberNames.ShiraishiMai,
-      MemberNames.NishinoNanase,
-      MemberNames.HashimotoNanami,
-      MemberNames.IkutaErika
-    ],
-    secondRow: [
-      MemberNames.WakatsukiYumi,
-      MemberNames.AkimotoManatsu,
-      MemberNames.IkomaRina,
-      MemberNames.SakuraiReika,
-      MemberNames.FukagawaMai
-    ],
-    thirdRow: [
-      MemberNames.MatsumuraSayuri,
-      MemberNames.SagaraIori,
-      MemberNames.SaitouAsuka,
-      MemberNames.ItouMarika,
-      MemberNames.HoriMiona,
-      MemberNames.HoshinoMinami,
-      MemberNames.EtouMisa,
-      MemberNames.TakayamaKazumi
-    ],
-    fourthRow: []
-  }
-};
-
-const songNandomenoaozoraka: ISong = {
-  title: "何度目の青空か?",
-  artwork: "path",
-  single: "何度目の青空か?",
-  albums: [],
-  type: SongType.Title,
-  creators: undefined,
-  performers: {
-    center: [
-      MemberNames.IkutaErika
-    ],
-    fukujin: FukujinType.RowOneTwo,
-    solo: undefined,
-    unit: undefined
-  },
-  formations: {
-    firstRow: [
-      MemberNames.MatsuiRena,
-      MemberNames.ShiraishiMai,
-      MemberNames.IkutaErika,
-      MemberNames.NishinoNanase,
-      MemberNames.HashimotoNanami
-    ],
-    secondRow: [
-      MemberNames.MatsumuraSayuri,
-      MemberNames.AkimotoManatsu,
-      MemberNames.IkomaRina,
-      MemberNames.SakuraiReika,
-      MemberNames.FukagawaMai
-    ],
-    thirdRow: [
-      MemberNames.EtouMisa,
-      MemberNames.WakatsukiYumi,
-      MemberNames.HoriMiona,
-      MemberNames.HoshinoMinami,
-      MemberNames.TakayamaKazumi,
-      MemberNames.SaitouChiharu
-    ],
-    fourthRow: []
-  }
-};
-
-const songNatsunofreeandeasy: ISong = {
-  title: "夏のFree&Easy",
-  artwork: "path",
-  single: "夏のFree&Easy",
-  albums: [],
-  type: SongType.Title,
-  creators: undefined,
-  performers: {
-    center: [
-      MemberNames.NishinoNanase
-    ],
-    fukujin: FukujinType.RowOneTwo,
-    solo: undefined,
-    unit: undefined
-  },
-  formations: {
-    firstRow: [
-      MemberNames.MatsuiRena,
-      MemberNames.ShiraishiMai,
-      MemberNames.NishinoNanase,
-      MemberNames.HashimotoNanami,
-      MemberNames.MatsumuraSayuri
-    ],
-    secondRow: [
-      MemberNames.WakatsukiYumi,
-      MemberNames.AkimotoManatsu,
-      MemberNames.SakuraiReika,
-      MemberNames.FukagawaMai,
-      MemberNames.IkomaRina
-    ],
-    thirdRow: [
-      MemberNames.EtouMisa,
-      MemberNames.InoueSayuri,
-      MemberNames.SaitouYuuri,
-      MemberNames.HoshinoMinami,
-      MemberNames.YamatoRina,
-      MemberNames.HoriMiona,
-      MemberNames.TakayamaKazumi
-    ],
-    fourthRow: []
-  }
-};
-
-const songKizuitarakataomoi: ISong = {
-  title: "気づいたら片想い",
-  artwork: "path",
-  single: "気づいたら片想い",
-  albums: [],
-  type: SongType.Title,
-  creators: undefined,
-  performers: {
-    center: [
-      MemberNames.NishinoNanase
-    ],
-    fukujin: FukujinType.RowOne,
-    solo: undefined,
-    unit: undefined
-  },
-  formations: {
-    firstRow: [
-      MemberNames.HoriMiona,
-      MemberNames.ShiraishiMai,
-      MemberNames.NishinoNanase,
-      MemberNames.HashimotoNanami,
-      MemberNames.IkomaRina
-    ],
-    secondRow: [
-      MemberNames.SakuraiReika,
-      MemberNames.WakatsukiYumi,
-      MemberNames.IkomaRina,
-      MemberNames.MatsumuraSayuri,
-      MemberNames.FukagawaMai
-    ],
-    thirdRow: [
-      MemberNames.KawamuraMahiro,
-      MemberNames.KitanoHinako,
-      MemberNames.HiguchiHina,
-      MemberNames.AkimotoManatsu,
-      MemberNames.WadaMaaya,
-      MemberNames.TakayamaKazumi
-    ],
-    fourthRow: []
-  }
-};
-
-const songValletta: ISong = {
-  title: "バレッタ",
-  artwork: "path",
-  single: "バレッタ",
-  albums: [],
-  type: SongType.Title,
-  creators: undefined,
-  performers: {
-    center: [
-      MemberNames.HoriMiona
-    ],
-    fukujin: FukujinType.RowOneTwo,
-    solo: undefined,
-    unit: undefined
-  },
-  formations: {
-    firstRow: [
-      MemberNames.NishinoNanase,
-      MemberNames.ShiraishiMai,
-      MemberNames.HoriMiona,
-      MemberNames.HashimotoNanami,
-      MemberNames.MatsumuraSayuri
-    ],
-    secondRow: [
-      MemberNames.SakuraiReika,
-      MemberNames.IkutaErika,
-      MemberNames.IkomaRina,
-      MemberNames.WakatsukiYumi
-    ],
-    thirdRow: [
-      MemberNames.ItouMarika,
-      MemberNames.EtouMisa,
-      MemberNames.SaitouAsuka,
-      MemberNames.AkimotoManatsu,
-      MemberNames.FukagawaMai,
-      MemberNames.NakamotoHimeka,
-      MemberNames.KawagoHina,
-      MemberNames.TakayamaKazumi
-    ],
-    fourthRow: []
-  }
-};
-
-const songGirlsrule: ISong = {
-  title: "ガールズルール",
-  artwork: "path",
-  single: "ガールズルール",
-  albums: [],
-  type: SongType.Title,
-  creators: undefined,
-  performers: {
-    center: [
-      MemberNames.ShiraishiMai
-    ],
-    fukujin: FukujinType.RowOneTwo,
-    solo: undefined,
-    unit: undefined
-  },
-  formations: {
-    firstRow: [
-      MemberNames.MatsumuraSayuri,
-      MemberNames.ShiraishiMai,
-      MemberNames.HashimotoNanami
-    ],
-    secondRow: [
-      MemberNames.SakuraiReika,
-      MemberNames.IkutaErika,
-      MemberNames.IkomaRina,
-      MemberNames.NishinoNanase,
-      MemberNames.TakayamaKazumi
-    ],
-    thirdRow: [
-      MemberNames.ItouMarika,
-      MemberNames.InoueSayuri,
-      MemberNames.NakadaKana,
-      MemberNames.WakatsukiYumi,
-      MemberNames.HoshinoMinami,
-      MemberNames.AkimotoManatsu,
-      MemberNames.FukagawaMai,
-      MemberNames.SaitouYuuri
-    ],
-    fourthRow: []
-  }
-};
-
-const songKiminonahakibo: ISong = {
-  title: "君の名は希望",
-  artwork: "path",
-  single: "君の名は希望",
-  albums: [],
-  type: SongType.Title,
-  creators: undefined,
-  performers: {
-    center: [
-      MemberNames.IkomaRina
-    ],
-    fukujin: FukujinType.RowOneTwo,
-    solo: undefined,
-    unit: undefined
-  },
-  formations: {
-    firstRow: [
-      MemberNames.IkutaErika,
-      MemberNames.IkomaRina,
-      MemberNames.HoshinoMinami
-    ],
-    secondRow: [
-      MemberNames.SakuraiReika,
-      MemberNames.HashimotoNanami,
-      MemberNames.ShiraishiMai,
-      MemberNames.MatsumuraSayuri,
-      MemberNames.AkimotoManatsu
-    ],
-    thirdRow: [
-      MemberNames.ItouNene,
-      MemberNames.NakadaKana,
-      MemberNames.InoueSayuri,
-      MemberNames.NishinoNanase,
-      MemberNames.WakatsukiYumi,
-      MemberNames.FukagawaMai,
-      MemberNames.NagashimaSeira,
-      MemberNames.TakayamaKazumi
-    ],
-    fourthRow: []
-  }
-};
-
-const songSeifukunomannequin: ISong = {
-  title: "制服のマネキン",
-  artwork: "path",
-  single: "制服のマネキン",
-  albums: [],
-  type: SongType.Title,
-  creators: undefined,
-  performers: {
-    center: [
-      MemberNames.IkomaRina
-    ],
-    fukujin: FukujinType.RowOneTwo,
-    solo: undefined,
-    unit: undefined
-  },
-  formations: {
-    firstRow: [
-      MemberNames.IkutaErika,
-      MemberNames.IkomaRina,
-      MemberNames.HoshinoMinami
-    ],
-    secondRow: [
-      MemberNames.ShiraishiMai,
-      MemberNames.HashimotoNanami,
-      MemberNames.MatsumuraSayuri,
-      MemberNames.SakuraiReika,
-      MemberNames.AkimotoManatsu
-    ],
-    thirdRow: [
-      MemberNames.NoujouAmi,
-      MemberNames.SaitouAsuka,
-      MemberNames.WakatsukiYumi,
-      MemberNames.InoueSayuri,
-      MemberNames.FukagawaMai,
-      MemberNames.IchikiRena,
-      MemberNames.NishinoNanase,
-      MemberNames.TakayamaKazumi
-    ],
-    fourthRow: []
-  }
-};
-
-const songHashirebicycle: ISong = {
-  title: "走れ!Bicycle",
-  artwork: "path",
-  single: "走れ!Bicycle",
-  albums: [],
-  type: SongType.Title,
-  creators: undefined,
-  performers: {
-    center: [
-      MemberNames.IkomaRina
-    ],
-    fukujin: [
-      MemberNames.IkutaErika,
-      MemberNames.IkomaRina,
-      MemberNames.HoshinoMinami,
-      MemberNames.HashimotoNanami,
-      MemberNames.ShiraishiMai,
-      MemberNames.MatsumuraSayuri,
-      MemberNames.NishinoNanase,
-    ],
-    solo: undefined,
-    unit: undefined
-  },
-  formations: {
-    firstRow: [
-      MemberNames.IkutaErika,
-      MemberNames.IkomaRina,
-      MemberNames.HoshinoMinami,
-      MemberNames.SakuraiReika
-    ],
-    secondRow: [
-      MemberNames.NakadaKana,
-      MemberNames.HashimotoNanami,
-      MemberNames.ShiraishiMai,
-      MemberNames.MatsumuraSayuri,
-      MemberNames.NishinoNanase,
-      MemberNames.TakayamaKazumi
-    ],
-    thirdRow: [
-      MemberNames.SaitouYuuri,
-      MemberNames.WakatsukiYumi,
-      MemberNames.InoueSayuri,
-      MemberNames.IchikiRena,
-      MemberNames.ItouMarika,
-      MemberNames.FukagawaMai,
-    ],
-    fourthRow: []
-  }
-};
-
-const songOideshampoo: ISong = {
-  title: "おいでシャンプー",
-  artwork: "path",
-  single: "おいでシャンプー",
-  albums: [],
-  type: SongType.Title,
-  creators: undefined,
-  performers: {
-    center: [
-      MemberNames.IkomaRina
-    ],
-    fukujin: FukujinType.RowOneTwo,
-    solo: undefined,
-    unit: undefined
-  },
-  formations: {
-    firstRow: [
-      MemberNames.SakuraiReika,
-      MemberNames.IkomaRina,
-      MemberNames.NakadaKana
-    ],
-    secondRow: [
-      MemberNames.HashimotoNanami,
-      MemberNames.MatsumuraSayuri,
-      MemberNames.ShiraishiMai,
-      MemberNames.TakayamaKazumi
-    ],
-    thirdRow: [
-      MemberNames.IwaseYumiko,
-      MemberNames.IchikiRena,
-      MemberNames.SaitouYuuri,
-      MemberNames.IkutaErika,
-      MemberNames.InoueSayuri,
-      MemberNames.HoshinoMinami,
-      MemberNames.NishinoNanase,
-      MemberNames.HatanakaSeira,
-      MemberNames.MiyazawaSeira
-    ],
-    fourthRow: []
-  }
-};
-
-const songGurugurucurtain: ISong = {
-  title: "ぐるぐるカーテン",
-  artwork: "path",
-  single: "ぐるぐるカーテン",
-  albums: [],
-  type: SongType.Title,
-  creators: undefined,
-  performers: {
-    center: [
-      MemberNames.IkomaRina
-    ],
-    fukujin: FukujinType.RowOneTwo,
-    solo: undefined,
-    unit: undefined
-  },
-  formations: {
-    firstRow: [
-      MemberNames.IkutaErika,
-      MemberNames.IkomaRina,
-      MemberNames.HoshinoMinami
-    ],
-    secondRow: [
-      MemberNames.HashimotoNanami,
-      MemberNames.MatsumuraSayuri,
-      MemberNames.ShiraishiMai,
-      MemberNames.TakayamaKazumi
-    ],
-    thirdRow: [
-      MemberNames.KawamuraMahiro,
-      MemberNames.NoujouAmi,
-      MemberNames.NishinoNanase,
-      MemberNames.SaitouAsuka,
-      MemberNames.SaitouYuuri,
-      MemberNames.SakuraiReika,
-      MemberNames.InoueSayuri,
-      MemberNames.NakadaKana,
-      MemberNames.IchikiRena
-    ],
-    fourthRow: []
-  }
-};
-
-const songNichijo: ISong = {
-  title: "日常",
-  artwork: "path",
-  single: "帰り道は遠回りしたくなる",
-  albums: [],
-  type: SongType.Under,
-  creators: undefined,
-  performers: {
-    center: [MemberNames.KitanoHinako],
-    fukujin: undefined,
-    solo: undefined,
-    unit: undefined
-  },
-  formations: {
-    firstRow: [
-      MemberNames.SuzukiAyane,
-      MemberNames.HiguchiHina,
-      MemberNames.KitanoHinako,
-      MemberNames.TeradaRanze,
-      MemberNames.IwamotoRenka
-    ],
-    secondRow: [
-      MemberNames.SakaguchiTamami,
-      MemberNames.YamazakiRena,
-      MemberNames.KuboShiori,
-      MemberNames.NakadaKana,
-      MemberNames.WatanabeMiria,
-      MemberNames.MukaiHazuki
-    ],
-    thirdRow: [
-      MemberNames.ItouJunna,
-      MemberNames.WadaMaaya,
-      MemberNames.NakamuraReno,
-      MemberNames.KawagoHina,
-      MemberNames.ItouKarin,
-      MemberNames.SasakiKotoko,
-      MemberNames.YoshidaAyanoChristie
-    ],
-    fourthRow: []
-  }
-};
-
-const songSankaku: ISong = {
-  title: "三角の空き地",
-  artwork: "path",
-  single: "ジコチューで行こう!",
-  albums: [],
-  type: SongType.Under,
-  creators: undefined,
-  performers: {
-    center: [MemberNames.NakadaKana],
-    fukujin: undefined,
-    solo: undefined,
-    unit: undefined
-  },
-  formations: {
-    firstRow: [
-      MemberNames.HiguchiHina,
-      MemberNames.NakadaKana,
-      MemberNames.ItouRiria
-    ],
-    secondRow: [
-      MemberNames.YamazakiRena,
-      MemberNames.SakaguchiTamami,
-      MemberNames.KitanoHinako,
-      MemberNames.TeradaRanze,
-      MemberNames.WatanabeMiria,
-      MemberNames.SatouKaede
-    ],
-    thirdRow: [
-      MemberNames.YoshidaAyanoChristie,
-      MemberNames.WadaMaaya,
-      MemberNames.KawagoHina,
-      MemberNames.NoujouAmi,
-      MemberNames.NakamuraReno,
-      MemberNames.ItouKarin,
-      MemberNames.SasakiKotoko,
-      MemberNames.MukaiHazuki,
-      MemberNames.ItouJunna
     ],
     fourthRow: []
   }
@@ -1095,6 +281,54 @@ const songAtarashiisekai: ISong = {
   }
 };
 
+// 19th single
+
+const songItsukadekirukara: ISong = {
+  title: "いつかできるから今日できる",
+  artwork: "path",
+  single: "いつかできるから今日できる",
+  albums: [],
+  type: SongType.Title,
+  creators: undefined,
+  performers: {
+    center: [
+      MemberNames.NishinoNanase,
+      MemberNames.SaitouAsuka
+    ],
+    fukujin: FukujinType.RowOneTwo,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.HoriMiona,
+      MemberNames.NishinoNanase,
+      MemberNames.SaitouAsuka,
+      MemberNames.ShiraishiMai
+    ],
+    secondRow: [
+      MemberNames.WakatsukiYumi,
+      MemberNames.InoueSayuri,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.IkutaErika,
+      MemberNames.ItouMarika,
+      MemberNames.SakuraiReika,
+      MemberNames.EtouMisa
+    ],
+    thirdRow: [
+      MemberNames.ShinuchiMai,
+      MemberNames.SaitouYuuri,
+      MemberNames.HoshinoMinami,
+      MemberNames.IkomaRina,
+      MemberNames.AkimotoManatsu,
+      MemberNames.KitanoHinako,
+      MemberNames.NakadaKana,
+      MemberNames.TakayamaKazumi
+    ],
+    fourthRow: []
+  }
+};
+
 const songMyrule: ISong = {
   title: "My rule",
   artwork: "path",
@@ -1128,6 +362,53 @@ const songMyrule: ISong = {
       MemberNames.KawamuraMahiro,
       MemberNames.WadaMaaya,
       MemberNames.ItouJunna
+    ],
+    fourthRow: []
+  }
+};
+
+// 18th single
+
+const songNigemizu: ISong = {
+  title: "逃げ水",
+  artwork: "path",
+  single: "逃げ水",
+  albums: [],
+  type: SongType.Title,
+  creators: undefined,
+  performers: {
+    center: [
+      MemberNames.OozonoMomoko,
+      MemberNames.YodaYuuki
+    ],
+    fukujin: FukujinType.RowOneTwo,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.SaitouAsuka,
+      MemberNames.ShiraishiMai,
+      MemberNames.OozonoMomoko,
+      MemberNames.YodaYuuki,
+      MemberNames.NishinoNanase,
+      MemberNames.HoriMiona
+    ],
+    secondRow: [
+      MemberNames.HoshinoMinami,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.IkutaErika,
+      MemberNames.AkimotoManatsu,
+      MemberNames.EtouMisa,
+      MemberNames.TakayamaKazumi
+    ],
+    thirdRow: [
+      MemberNames.ItouMarika,
+      MemberNames.ShinuchiMai,
+      MemberNames.IkomaRina,
+      MemberNames.SakuraiReika,
+      MemberNames.WakatsukiYumi,
+      MemberNames.InoueSayuri
     ],
     fourthRow: []
   }
@@ -1178,6 +459,56 @@ const songUnder: ISong = {
   }
 };
 
+// 17th single
+
+const songInfluencer: ISong = {
+  title: "インフルエンサー",
+  artwork: "path",
+  single: "インフルエンサー",
+  albums: [],
+  type: SongType.Title,
+  creators: undefined,
+  performers: {
+    center: [
+      MemberNames.NishinoNanase,
+      MemberNames.ShiraishiMai
+    ],
+    fukujin: FukujinType.RowOneTwo,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.HoriMiona,
+      MemberNames.NishinoNanase,
+      MemberNames.ShiraishiMai,
+      MemberNames.SaitouAsuka,
+      MemberNames.EtouMisa
+    ],
+    secondRow: [
+      MemberNames.WakatsukiYumi,
+      MemberNames.TakayamaKazumi,
+      MemberNames.IkomaRina,
+      MemberNames.IkutaErika,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.SakuraiReika
+    ],
+    thirdRow: [
+      MemberNames.ShinuchiMai,
+      MemberNames.InoueSayuri,
+      MemberNames.TeradaRanze,
+      MemberNames.KitanoHinako,
+      MemberNames.ItouMarika,
+      MemberNames.HoshinoMinami,
+      MemberNames.SaitouYuuri,
+      MemberNames.HiguchiHina,
+      MemberNames.NakadaKana
+    ],
+    fourthRow: []
+  }
+};
+
 const songFusenhaikiteiru: ISong = {
   title: "風船は生きている",
   artwork: "path",
@@ -1209,6 +540,53 @@ const songFusenhaikiteiru: ISong = {
       MemberNames.WadaMaaya,
       MemberNames.ItouJunna,
       MemberNames.KawagoHina
+    ],
+    fourthRow: []
+  }
+};
+
+// 16th single
+
+const songSayonaranoimi: ISong = {
+  title: "サヨナラの意味",
+  artwork: "path",
+  single: "サヨナラの意味",
+  albums: [],
+  type: SongType.Title,
+  creators: undefined,
+  performers: {
+    center: [
+      MemberNames.HashimotoNanami
+    ],
+    fukujin: FukujinType.RowOneTwo,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.TakayamaKazumi,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami,
+      MemberNames.ShiraishiMai,
+      MemberNames.IkutaErika
+    ],
+    secondRow: [
+      MemberNames.WakatsukiYumi,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.HoriMiona,
+      MemberNames.SaitouAsuka,
+      MemberNames.EtouMisa,
+      MemberNames.AkimotoManatsu
+    ],
+    thirdRow: [
+      MemberNames.NakamotoHimeka,
+      MemberNames.InoueSayuri,
+      MemberNames.ShinuchiMai,
+      MemberNames.SakuraiReika,
+      MemberNames.IkomaRina,
+      MemberNames.HoshinoMinami,
+      MemberNames.KitanoHinako,
+      MemberNames.ItouMarika
     ],
     fourthRow: []
   }
@@ -1249,6 +627,50 @@ const songBulanko: ISong = {
       MemberNames.KawagoHina,
       MemberNames.SasakiKotoko,
       MemberNames.SagaraIori
+    ],
+    fourthRow: []
+  }
+};
+
+// 15th single
+
+const songHadashidesummer: ISong = {
+  title: "裸足でSummer",
+  artwork: "path",
+  single: "裸足でSummer",
+  albums: [],
+  type: SongType.Title,
+  creators: undefined,
+  performers: {
+    center: [
+      MemberNames.SaitouAsuka
+    ],
+    fukujin: FukujinType.RowOneTwo,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.HashimotoNanami,
+      MemberNames.NishinoNanase,
+      MemberNames.SaitouAsuka,
+      MemberNames.ShiraishiMai,
+      MemberNames.IkutaErika
+    ],
+    secondRow: [
+      MemberNames.TakayamaKazumi,
+      MemberNames.EtouMisa,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.AkimotoManatsu,
+      MemberNames.SakuraiReika
+    ],
+    thirdRow: [
+      MemberNames.KitanoHinako,
+      MemberNames.HoshinoMinami,
+      MemberNames.WakatsukiYumi,
+      MemberNames.IkomaRina,
+      MemberNames.HoriMiona,
+      MemberNames.NakamotoHimeka
     ],
     fourthRow: []
   }
@@ -1297,6 +719,51 @@ const songSecretGravity: ISong = {
   }
 };
 
+// 14th single
+
+const songHarujion: ISong = {
+  title: "ハルジオンが咲く頃",
+  artwork: "path",
+  single: "ハルジオンが咲く頃",
+  albums: [],
+  type: SongType.Title,
+  creators: undefined,
+  performers: {
+    center: [
+      MemberNames.FukagawaMai
+    ],
+    fukujin: FukujinType.RowOneTwo,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.HashimotoNanami,
+      MemberNames.NishinoNanase,
+      MemberNames.FukagawaMai,
+      MemberNames.ShiraishiMai,
+      MemberNames.IkutaErika
+    ],
+    secondRow: [
+      MemberNames.SaitouAsuka,
+      MemberNames.TakayamaKazumi,
+      MemberNames.EtouMisa,
+      MemberNames.AkimotoManatsu,
+      MemberNames.HoshinoMinami
+    ],
+    thirdRow: [
+      MemberNames.SakuraiReika,
+      MemberNames.WakatsukiYumi,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.IkomaRina,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.HoriMiona
+    ],
+    fourthRow: []
+  }
+};
+
 const songFutogo: ISong = {
   title: "不等号",
   artwork: "path",
@@ -1335,6 +802,51 @@ const songFutogo: ISong = {
       MemberNames.KawagoHina,
       MemberNames.WadaMaaya,
       MemberNames.ItouJunna
+    ],
+    fourthRow: []
+  }
+};
+
+// 13th single
+
+const songHanashitaidarekagairu: ISong = {
+  title: "今、話したい誰かがいる",
+  artwork: "path",
+  single: "今、話したい誰かがいる",
+  albums: [],
+  type: SongType.Title,
+  creators: undefined,
+  performers: {
+    center: [
+      MemberNames.NishinoNanase,
+      MemberNames.ShiraishiMai
+    ],
+    fukujin: FukujinType.RowOneTwo,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.EtouMisa,
+      MemberNames.NishinoNanase,
+      MemberNames.ShiraishiMai,
+      MemberNames.FukagawaMai
+    ],
+    secondRow: [
+      MemberNames.SaitouAsuka,
+      MemberNames.TakayamaKazumi,
+      MemberNames.HashimotoNanami,
+      MemberNames.IkutaErika,
+      MemberNames.AkimotoManatsu,
+      MemberNames.HoshinoMinami
+    ],
+    thirdRow: [
+      MemberNames.SakuraiReika,
+      MemberNames.WakatsukiYumi,
+      MemberNames.IkomaRina,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri
     ],
     fourthRow: []
   }
@@ -1388,6 +900,52 @@ const songShittonokenri: ISong = {
   }
 };
 
+// 12th single
+
+const songTaiyoknock: ISong = {
+  title: "太陽ノック",
+  artwork: "path",
+  single: "太陽ノック",
+  albums: [],
+  type: SongType.Title,
+  creators: undefined,
+  performers: {
+    center: [
+      MemberNames.IkomaRina
+    ],
+    fukujin: FukujinType.RowOneTwo,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ShiraishiMai,
+      MemberNames.NishinoNanase,
+      MemberNames.IkomaRina,
+      MemberNames.IkutaErika,
+      MemberNames.HashimotoNanami
+    ],
+    secondRow: [
+      MemberNames.TakayamaKazumi,
+      MemberNames.WakatsukiYumi,
+      MemberNames.SakuraiReika,
+      MemberNames.AkimotoManatsu,
+      MemberNames.FukagawaMai
+    ],
+    thirdRow: [
+      MemberNames.MatsumuraSayuri,
+      MemberNames.SaitouYuuri,
+      MemberNames.HoshinoMinami,
+      MemberNames.SaitouAsuka,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.ShinuchiMai,
+      MemberNames.EtouMisa
+    ],
+    fourthRow: []
+  }
+};
+
 const songWakaregiwa: ISong = {
   title: "別れ際、もっと好きになる",
   artwork: "path",
@@ -1430,6 +988,52 @@ const songWakaregiwa: ISong = {
   }
 };
 
+// 11th single
+
+const songInochihautsukushii: ISong = {
+  title: "命は美しい",
+  artwork: "path",
+  single: "命は美しい",
+  albums: [],
+  type: SongType.Title,
+  creators: undefined,
+  performers: {
+    center: [
+      MemberNames.NishinoNanase
+    ],
+    fukujin: FukujinType.RowOneTwo,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.MatsuiRena,
+      MemberNames.ShiraishiMai,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami,
+      MemberNames.IkutaErika
+    ],
+    secondRow: [
+      MemberNames.WakatsukiYumi,
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkomaRina,
+      MemberNames.SakuraiReika,
+      MemberNames.FukagawaMai
+    ],
+    thirdRow: [
+      MemberNames.MatsumuraSayuri,
+      MemberNames.SagaraIori,
+      MemberNames.SaitouAsuka,
+      MemberNames.ItouMarika,
+      MemberNames.HoriMiona,
+      MemberNames.HoshinoMinami,
+      MemberNames.EtouMisa,
+      MemberNames.TakayamaKazumi
+    ],
+    fourthRow: []
+  }
+};
+
 const songKimihabokuto: ISong = {
   title: "君は僕と会わない方がよかったのかな",
   artwork: "path",
@@ -1462,6 +1066,50 @@ const songKimihabokuto: ISong = {
       MemberNames.HiguchiHina,
       MemberNames.ItouKarin,
       MemberNames.WadaMaaya,
+      MemberNames.SaitouChiharu
+    ],
+    fourthRow: []
+  }
+};
+
+// 10th single
+
+const songNandomenoaozoraka: ISong = {
+  title: "何度目の青空か?",
+  artwork: "path",
+  single: "何度目の青空か?",
+  albums: [],
+  type: SongType.Title,
+  creators: undefined,
+  performers: {
+    center: [
+      MemberNames.IkutaErika
+    ],
+    fukujin: FukujinType.RowOneTwo,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.MatsuiRena,
+      MemberNames.ShiraishiMai,
+      MemberNames.IkutaErika,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami
+    ],
+    secondRow: [
+      MemberNames.MatsumuraSayuri,
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkomaRina,
+      MemberNames.SakuraiReika,
+      MemberNames.FukagawaMai
+    ],
+    thirdRow: [
+      MemberNames.EtouMisa,
+      MemberNames.WakatsukiYumi,
+      MemberNames.HoriMiona,
+      MemberNames.HoshinoMinami,
+      MemberNames.TakayamaKazumi,
       MemberNames.SaitouChiharu
     ],
     fourthRow: []
@@ -1509,6 +1157,51 @@ const songAnohibokuha: ISong = {
   }
 };
 
+// 9th single
+
+const songNatsunofreeandeasy: ISong = {
+  title: "夏のFree&Easy",
+  artwork: "path",
+  single: "夏のFree&Easy",
+  albums: [],
+  type: SongType.Title,
+  creators: undefined,
+  performers: {
+    center: [
+      MemberNames.NishinoNanase
+    ],
+    fukujin: FukujinType.RowOneTwo,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.MatsuiRena,
+      MemberNames.ShiraishiMai,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami,
+      MemberNames.MatsumuraSayuri
+    ],
+    secondRow: [
+      MemberNames.WakatsukiYumi,
+      MemberNames.AkimotoManatsu,
+      MemberNames.SakuraiReika,
+      MemberNames.FukagawaMai,
+      MemberNames.IkomaRina
+    ],
+    thirdRow: [
+      MemberNames.EtouMisa,
+      MemberNames.InoueSayuri,
+      MemberNames.SaitouYuuri,
+      MemberNames.HoshinoMinami,
+      MemberNames.YamatoRina,
+      MemberNames.HoriMiona,
+      MemberNames.TakayamaKazumi
+    ],
+    fourthRow: []
+  }
+};
+
 const songKokoniiruriyu: ISong = {
   title: "ここにいる理由",
   artwork: "path",
@@ -1544,6 +1237,50 @@ const songKokoniiruriyu: ISong = {
       MemberNames.ItouNene,
       MemberNames.IchikiRena,
       MemberNames.ShinuchiMai
+    ],
+    fourthRow: []
+  }
+};
+
+// 8th single
+
+const songKizuitarakataomoi: ISong = {
+  title: "気づいたら片想い",
+  artwork: "path",
+  single: "気づいたら片想い",
+  albums: [],
+  type: SongType.Title,
+  creators: undefined,
+  performers: {
+    center: [
+      MemberNames.NishinoNanase
+    ],
+    fukujin: FukujinType.RowOne,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.HoriMiona,
+      MemberNames.ShiraishiMai,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami,
+      MemberNames.IkomaRina
+    ],
+    secondRow: [
+      MemberNames.SakuraiReika,
+      MemberNames.WakatsukiYumi,
+      MemberNames.IkomaRina,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.FukagawaMai
+    ],
+    thirdRow: [
+      MemberNames.KawamuraMahiro,
+      MemberNames.KitanoHinako,
+      MemberNames.HiguchiHina,
+      MemberNames.AkimotoManatsu,
+      MemberNames.WadaMaaya,
+      MemberNames.TakayamaKazumi
     ],
     fourthRow: []
   }
@@ -1590,6 +1327,51 @@ const songUmaretamamade: ISong = {
   }
 };
 
+// 7th single
+
+const songValletta: ISong = {
+  title: "バレッタ",
+  artwork: "path",
+  single: "バレッタ",
+  albums: [],
+  type: SongType.Title,
+  creators: undefined,
+  performers: {
+    center: [
+      MemberNames.HoriMiona
+    ],
+    fukujin: FukujinType.RowOneTwo,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.NishinoNanase,
+      MemberNames.ShiraishiMai,
+      MemberNames.HoriMiona,
+      MemberNames.HashimotoNanami,
+      MemberNames.MatsumuraSayuri
+    ],
+    secondRow: [
+      MemberNames.SakuraiReika,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.WakatsukiYumi
+    ],
+    thirdRow: [
+      MemberNames.ItouMarika,
+      MemberNames.EtouMisa,
+      MemberNames.SaitouAsuka,
+      MemberNames.AkimotoManatsu,
+      MemberNames.FukagawaMai,
+      MemberNames.NakamotoHimeka,
+      MemberNames.KawagoHina,
+      MemberNames.TakayamaKazumi
+    ],
+    fourthRow: []
+  }
+};
+
 const songHatsukoinohito: ISong = {
   title: "初恋の人を今でも",
   artwork: "path",
@@ -1622,6 +1404,50 @@ const songHatsukoinohito: ISong = {
       MemberNames.YamatoRina,
       MemberNames.ItouNene,
       MemberNames.WadaMaaya
+    ],
+    fourthRow: []
+  }
+};
+
+// 6th single
+
+const songGirlsrule: ISong = {
+  title: "ガールズルール",
+  artwork: "path",
+  single: "ガールズルール",
+  albums: [],
+  type: SongType.Title,
+  creators: undefined,
+  performers: {
+    center: [
+      MemberNames.ShiraishiMai
+    ],
+    fukujin: FukujinType.RowOneTwo,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.MatsumuraSayuri,
+      MemberNames.ShiraishiMai,
+      MemberNames.HashimotoNanami
+    ],
+    secondRow: [
+      MemberNames.SakuraiReika,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.NishinoNanase,
+      MemberNames.TakayamaKazumi
+    ],
+    thirdRow: [
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.NakadaKana,
+      MemberNames.WakatsukiYumi,
+      MemberNames.HoshinoMinami,
+      MemberNames.AkimotoManatsu,
+      MemberNames.FukagawaMai,
+      MemberNames.SaitouYuuri
     ],
     fourthRow: []
   }
@@ -1668,6 +1494,50 @@ const songSenpuki: ISong = {
   }
 };
 
+// 5th single
+
+const songKiminonahakibo: ISong = {
+  title: "君の名は希望",
+  artwork: "path",
+  single: "君の名は希望",
+  albums: [],
+  type: SongType.Title,
+  creators: undefined,
+  performers: {
+    center: [
+      MemberNames.IkomaRina
+    ],
+    fukujin: FukujinType.RowOneTwo,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.HoshinoMinami
+    ],
+    secondRow: [
+      MemberNames.SakuraiReika,
+      MemberNames.HashimotoNanami,
+      MemberNames.ShiraishiMai,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.AkimotoManatsu
+    ],
+    thirdRow: [
+      MemberNames.ItouNene,
+      MemberNames.NakadaKana,
+      MemberNames.InoueSayuri,
+      MemberNames.NishinoNanase,
+      MemberNames.WakatsukiYumi,
+      MemberNames.FukagawaMai,
+      MemberNames.NagashimaSeira,
+      MemberNames.TakayamaKazumi
+    ],
+    fourthRow: []
+  }
+};
+
 const songjusannichinokiyobi: ISong = {
   title: "13日の金曜日",
   artwork: "path",
@@ -1704,6 +1574,50 @@ const songjusannichinokiyobi: ISong = {
       MemberNames.HiguchiHina,
       MemberNames.KawagoHina,
       MemberNames.MiyazawaSeira
+    ],
+    fourthRow: []
+  }
+};
+
+// 4th single
+
+const songSeifukunomannequin: ISong = {
+  title: "制服のマネキン",
+  artwork: "path",
+  single: "制服のマネキン",
+  albums: [],
+  type: SongType.Title,
+  creators: undefined,
+  performers: {
+    center: [
+      MemberNames.IkomaRina
+    ],
+    fukujin: FukujinType.RowOneTwo,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.HoshinoMinami
+    ],
+    secondRow: [
+      MemberNames.ShiraishiMai,
+      MemberNames.HashimotoNanami,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.SakuraiReika,
+      MemberNames.AkimotoManatsu
+    ],
+    thirdRow: [
+      MemberNames.NoujouAmi,
+      MemberNames.SaitouAsuka,
+      MemberNames.WakatsukiYumi,
+      MemberNames.InoueSayuri,
+      MemberNames.FukagawaMai,
+      MemberNames.IchikiRena,
+      MemberNames.NishinoNanase,
+      MemberNames.TakayamaKazumi
     ],
     fourthRow: []
   }
@@ -1750,6 +1664,57 @@ const songHarunomelody: ISong = {
     ]
   }
 };
+// 3rd single
+
+const songHashirebicycle: ISong = {
+  title: "走れ!Bicycle",
+  artwork: "path",
+  single: "走れ!Bicycle",
+  albums: [],
+  type: SongType.Title,
+  creators: undefined,
+  performers: {
+    center: [
+      MemberNames.IkomaRina
+    ],
+    fukujin: [
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.HoshinoMinami,
+      MemberNames.HashimotoNanami,
+      MemberNames.ShiraishiMai,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.NishinoNanase,
+    ],
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.HoshinoMinami,
+      MemberNames.SakuraiReika
+    ],
+    secondRow: [
+      MemberNames.NakadaKana,
+      MemberNames.HashimotoNanami,
+      MemberNames.ShiraishiMai,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.NishinoNanase,
+      MemberNames.TakayamaKazumi
+    ],
+    thirdRow: [
+      MemberNames.SaitouYuuri,
+      MemberNames.WakatsukiYumi,
+      MemberNames.InoueSayuri,
+      MemberNames.IchikiRena,
+      MemberNames.ItouMarika,
+      MemberNames.FukagawaMai,
+    ],
+    fourthRow: []
+  }
+};
 
 const songNamidagamada: ISong = {
   title: "涙がまだ悲しみだった頃",
@@ -1793,6 +1758,50 @@ const songNamidagamada: ISong = {
   }
 };
 
+// 2nd single
+
+const songOideshampoo: ISong = {
+  title: "おいでシャンプー",
+  artwork: "path",
+  single: "おいでシャンプー",
+  albums: [],
+  type: SongType.Title,
+  creators: undefined,
+  performers: {
+    center: [
+      MemberNames.IkomaRina
+    ],
+    fukujin: FukujinType.RowOneTwo,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.SakuraiReika,
+      MemberNames.IkomaRina,
+      MemberNames.NakadaKana
+    ],
+    secondRow: [
+      MemberNames.HashimotoNanami,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi
+    ],
+    thirdRow: [
+      MemberNames.IwaseYumiko,
+      MemberNames.IchikiRena,
+      MemberNames.SaitouYuuri,
+      MemberNames.IkutaErika,
+      MemberNames.InoueSayuri,
+      MemberNames.HoshinoMinami,
+      MemberNames.NishinoNanase,
+      MemberNames.HatanakaSeira,
+      MemberNames.MiyazawaSeira
+    ],
+    fourthRow: []
+  }
+};
+
 const songOkaminikuchibuewo: ISong = {
   title: "狼に口笛を",
   artwork: "path",
@@ -1832,6 +1841,50 @@ const songOkaminikuchibuewo: ISong = {
       MemberNames.NoujouAmi,
       MemberNames.WadaMaaya
     ]
+  }
+};
+
+// 1st single
+
+const songGurugurucurtain: ISong = {
+  title: "ぐるぐるカーテン",
+  artwork: "path",
+  single: "ぐるぐるカーテン",
+  albums: [],
+  type: SongType.Title,
+  creators: undefined,
+  performers: {
+    center: [
+      MemberNames.IkomaRina
+    ],
+    fukujin: FukujinType.RowOneTwo,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.HoshinoMinami
+    ],
+    secondRow: [
+      MemberNames.HashimotoNanami,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi
+    ],
+    thirdRow: [
+      MemberNames.KawamuraMahiro,
+      MemberNames.NoujouAmi,
+      MemberNames.NishinoNanase,
+      MemberNames.SaitouAsuka,
+      MemberNames.SaitouYuuri,
+      MemberNames.SakuraiReika,
+      MemberNames.InoueSayuri,
+      MemberNames.NakadaKana,
+      MemberNames.IchikiRena
+    ],
+    fourthRow: []
   }
 };
 
