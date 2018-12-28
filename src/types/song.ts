@@ -15,10 +15,10 @@ export interface ISongFormations {
 }
 
 interface ISongCreators {
-  lyrics: string;
-  compose: string;
-  arrange: string;
-  direct: string;
+  lyrics: string[];
+  compose: string[];
+  arrange: string[];
+  direct: string[];
 }
 
 export interface ISong {
