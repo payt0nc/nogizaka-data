@@ -561,7 +561,12 @@ const songSyncronicity: ISong = {
   single: "シンクロニシティ",
   albums: [],
   type: SongType.Title,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["シライシ紗トリ"],
+    arrange: ["シライシ紗トリ"],
+    direct: ["池田一真"]
+  },
   performers: {
     center: [MemberNames.ShiraishiMai],
     fukujin: FukujinType.RowOneTwo,
@@ -606,7 +611,12 @@ const songAtarashiisekai: ISong = {
   single: "シンクロニシティ",
   albums: [],
   type: SongType.Under,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["古川貴浩"],
+    arrange: ["古川貴浩"],
+    direct: ["横堀光範"]
+  },
   performers: {
     center: [MemberNames.SuzukiAyane],
     fukujin: undefined,
@@ -641,6 +651,190 @@ const songAtarashiisekai: ISong = {
       MemberNames.WadaMaaya,
       MemberNames.SagaraIori
     ],
+    fourthRow: []
+  }
+};
+
+const songAgainst: ISong = {
+  title: "Against",
+  artwork: "path",
+  single: "シンクロニシティ",
+  albums: [],
+  type: SongType.FirstGeneration,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["古川貴浩"],
+    arrange: ["古川貴浩"],
+    direct: ["丸山健志"]
+  },
+  performers: {
+    center: [MemberNames.IkomaRina],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.InoueSayuri,
+      MemberNames.EtouMisa,
+      MemberNames.KawagoHina,
+      MemberNames.SaitouAsuka,
+      MemberNames.SaitouChiharu,
+      MemberNames.SaitouYuuri,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NakadaKana,
+      MemberNames.NishinoNanase,
+      MemberNames.NoujouAmi,
+      MemberNames.HiguchiHina,
+      MemberNames.HoshinoMinami,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.WakatsukiYumi,
+      MemberNames.WadaMaaya
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songKumoninarebaii: ISong = {
+  title: "雲になればいい",
+  artwork: "path",
+  single: "シンクロニシティ",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["丸谷マナブ"],
+    arrange: ["丸谷マナブ"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: "藤桜梨"
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.EtouMisa,
+      MemberNames.SakuraiReika
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songScoutman: ISong = {
+  title: "スカウトマン",
+  artwork: "path",
+  single: "シンクロニシティ",
+  albums: [],
+  type: SongType.SecondGeneration,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["SaSA"],
+    arrange: ["SaSA"],
+    direct: ["中村太洸"]
+  },
+  performers: {
+    center: [MemberNames.HoriMiona],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ItouKarin,
+      MemberNames.ItouJunna,
+      MemberNames.SagaraIori,
+      MemberNames.SasakiKotoko,
+      MemberNames.ShinuchiMai,
+      MemberNames.SuzukiAyane,
+      MemberNames.TeradaRanze,
+      MemberNames.HoriMiona,
+      MemberNames.YamazakiRena,
+      MemberNames.WatanabeMiria
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songTokitokimekimeki: ISong = {
+  title: "トキトキメキメキ",
+  artwork: "path",
+  single: "シンクロニシティ",
+  albums: [],
+  type: SongType.ThirdGeneration,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["中山聡", "足立優"],
+    arrange: ["中山聡", "足立優"],
+    direct: ["伊藤衆人"]
+  },
+  performers: {
+    center: [MemberNames.IwamotoRenka],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ItouRiria,
+      MemberNames.IwamotoRenka,
+      MemberNames.UmezawaMinami,
+      MemberNames.OozonoMomoko,
+      MemberNames.KuboShiori,
+      MemberNames.SakaguchiTamami,
+      MemberNames.SatouKaede,
+      MemberNames.NakamuraReno,
+      MemberNames.MukaiHazuki,
+      MemberNames.YamashitaMizuki,
+      MemberNames.YoshidaAyanoChristie,
+      MemberNames.YodaYuuki
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songKotodamaho: ISong = {
+  title: "トキトキメキメキ",
+  artwork: "path",
+  single: "シンクロニシティ",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Ryota Saito", "TomoLow"],
+    arrange: ["Ryota Saito", "TomoLow"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: "いもうと坂"
+  },
+  formations: {
+    firstRow: [
+      MemberNames.OozonoMomoko,
+      MemberNames.KuboShiori,
+      MemberNames.YamashitaMizuki,
+      MemberNames.YodaYuuki
+    ],
+    secondRow: [],
+    thirdRow: [],
     fourthRow: []
   }
 };
