@@ -6,7 +6,7 @@ interface IFocusPerformers {
   name: string[];
 }
 
-interface IAlbumSong {
+export interface IAlbumSong {
   number: number;
   title: string;
   type: SongType;

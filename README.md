@@ -51,7 +51,7 @@ TODO:
 - [ ] songs
   - [ ] creators
 - [x] singles
-- [ ] albums
+- [x] albums
 - [x] units
 
 ## Raw Data Processing
@@ -67,8 +67,8 @@ TODO:
   - [x] Extract `songType` from `songs`
   - [x] Extract focus members/unit/corp from `songs`
 - Albums
-  - [ ] Extract `songType` from `songs`
-  - [ ] Extract focus members/unit/corp from `songs`
+  - [x] Extract `songType` from `songs`
+  - [x] Extract focus members/unit/corp from `songs`
 - Songs
   - [ ] Pair `single` and `albums` from `songs` and `albums`
 - Units & Corps

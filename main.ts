@@ -1,6 +1,7 @@
 import * as fs from "fs";
+import { recordAlbumFocusPerformers, recordAlbumSongType } from "./src/process/updateAlbums";
 import { recordPositions, recordUnits } from "./src/process/updateMembers";
-import { recordFocusPerformers, recordSingleSongType } from "./src/process/updateSingles";
+import { recordSingleFocusPerformers, recordSingleSongType } from "./src/process/updateSingles";
 import { albums } from "./src/raw/albums";
 import { members } from "./src/raw/members";
 import { singles } from "./src/raw/singles";
@@ -29,8 +30,11 @@ const unitsList = Object.entries(units);
 
 recordUnits(membersList, unitsList);
 recordSingleSongType(singlesList, songsList);
-recordFocusPerformers(singlesList, songsList);
+recordSingleFocusPerformers(singlesList, songsList);
 recordPositions(membersList, singlesList, songsList);
+
+recordAlbumSongType(albumsList, songsList);
+recordAlbumFocusPerformers(albumsList, songsList);
 
 // console.log(members);
 
