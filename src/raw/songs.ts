@@ -2540,5 +2540,10 @@ export const songs = {
   "自分じゃない感じ": songJibunjanaikanji,
   "心のモノローグ": songKokoronomonologue,
   "地球が丸いなら": songChikyugamaruinara,
-  "あんなに好きだったのに・・・": songAnnanisukidattanoni
+  "あんなに好きだったのに・・・": songAnnanisukidattanoni,
+  "Against": songAgainst,
+  "雲になればいい": songKumoninarebaii,
+  "スカウトマン": songScoutman,
+  "トキトキメキメキ": songTokitokimekimeki,
+  "言霊砲": songKotodamaho
 };
