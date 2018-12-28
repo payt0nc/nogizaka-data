@@ -1444,7 +1444,12 @@ const songInfluencer: ISong = {
   single: "インフルエンサー",
   albums: [],
   type: SongType.Title,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["すみだしんや"],
+    arrange: ["APAZZI"],
+    direct: ["丸山健志"]
+  },
   performers: {
     center: [
       MemberNames.NishinoNanase,
@@ -1492,7 +1497,12 @@ const songFusenhaikiteiru: ISong = {
   single: "インフルエンサー",
   albums: [],
   type: SongType.Under,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["泉佳伸", "三好翔太"],
+    arrange: ["早川博隆", "三好翔太"],
+    direct: ["多田卓也"]
+  },
   performers: {
     center: [MemberNames.WatanabeMiria],
     fukujin: undefined,
@@ -1518,6 +1528,170 @@ const songFusenhaikiteiru: ISong = {
       MemberNames.ItouJunna,
       MemberNames.KawagoHina
     ],
+    fourthRow: []
+  }
+};
+
+const songJinseiwokangae: ISong = {
+  title: "人生を考えたくなる",
+  artwork: "path",
+  single: "インフルエンサー",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["片桐周太郎"],
+    arrange: ["片桐周太郎"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: "女子校カルテット"
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.SakuraiReika,
+      MemberNames.NakadaKana,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songIgaibreak: ISong = {
+  title: "意外BREAK",
+  artwork: "path",
+  single: "インフルエンサー",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["すみだしんや"],
+    arrange: ["華原大輔"],
+    direct: ["伊藤衆人"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: "姉御坂"
+  },
+  formations: {
+    firstRow: [
+      MemberNames.EtouMisa,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.MatsumuraSayuri
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songAnotherghost: ISong = {
+  title: "Another Ghost",
+  artwork: "path",
+  single: "インフルエンサー",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["前迫潤哉", "Yasutaka.Ishio"],
+    arrange: ["Yasutaka.Ishio"],
+    direct: ["井上強"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: "ナスカ"
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ItouMarika,
+      MemberNames.SaitouAsuka,
+      MemberNames.NishinoNanase
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songSanbanmenokaze: ISong = {
+  title: "三番目の風",
+  artwork: "path",
+  single: "インフルエンサー",
+  albums: [],
+  type: SongType.ThirdGeneration,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["丸谷マナブ"],
+    arrange: ["丸谷マナブ"],
+    direct: ["岡川太郎"]
+  },
+  performers: {
+    center: [MemberNames.OozonoMomoko],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.KuboShiori,
+      MemberNames.OozonoMomoko,
+      MemberNames.YamashitaMizuki
+    ],
+    secondRow: [
+      MemberNames.SakaguchiTamami,
+      MemberNames.YodaYuuki,
+      MemberNames.ItouRiria,
+      MemberNames.IwamotoRenka
+    ],
+    thirdRow: [
+      MemberNames.UmezawaMinami,
+      MemberNames.MukaiHazuki,
+      MemberNames.NakamuraReno,
+      MemberNames.SatouKaede,
+      MemberNames.YoshidaAyanoChristie
+    ],
+    fourthRow: []
+  }
+};
+
+const songAtarisawarinonai: ISong = {
+  title: "当たり障りのない話",
+  artwork: "path",
+  single: "インフルエンサー",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["小網準"],
+    arrange: ["野中\"まさ\"雄一"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: "かすみ草"
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkomaRina,
+      MemberNames.InoueSayuri,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona
+    ],
+    secondRow: [],
+    thirdRow: [],
     fourthRow: []
   }
 };
@@ -2974,5 +3148,10 @@ export const songs = {
   "ひと夏の長さより…": songHitonatsu,
   "泣いたっていいじゃないか?": songNaidatteii,
   "ライブ神": songLiveshin,
-  "未来の答え": songMirainokotae
+  "未来の答え": songMirainokotae,
+  "人生を考えたくなる": songJinseiwokangae,
+  "意外BREAK?": songIgaibreak,
+  "Another Ghost": songAnotherghost,
+  "三番目の風": songSanbanmenokaze,
+  "当たり障りのない話": songAtarisawarinonai
 };
