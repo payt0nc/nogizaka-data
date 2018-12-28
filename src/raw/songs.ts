@@ -1117,7 +1117,12 @@ const songNigemizu: ISong = {
   single: "逃げ水",
   albums: [],
   type: SongType.Title,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["谷村庸平"],
+    arrange: ["谷村庸平"],
+    direct: ["山岸聖太"]
+  },
   performers: {
     center: [
       MemberNames.OozonoMomoko,
@@ -1162,7 +1167,12 @@ const songUnder: ISong = {
   single: "逃げ水",
   albums: [],
   type: SongType.Under,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["白土亨"],
+    arrange: ["遠藤ナオキ"],
+    direct: ["金森孝宏"]
+  },
   performers: {
     center: [
       MemberNames.NakamotoHimeka,
@@ -1197,6 +1207,231 @@ const songUnder: ISong = {
       MemberNames.SasakiKotoko,
       MemberNames.WadaMaaya
     ],
+    fourthRow: []
+  }
+};
+
+const songOnnahahitorija: ISong = {
+  title: "女は一人じゃ眠れない",
+  artwork: "path",
+  single: "逃げ水",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["小形誠"],
+    arrange: ["高橋浩一郎"],
+    direct: ["萩原健太郎"]
+  },
+  performers: {
+    center: [
+      MemberNames.OozonoMomoko,
+      MemberNames.YodaYuuki
+    ],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.EtouMisa,
+      MemberNames.OozonoMomoko,
+      MemberNames.SaitouAsuka,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.ShinuchiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NishinoNanase,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.YodaYuuki,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songHitonatsu: ISong = {
+  title: "ひと夏の長さより…",
+  artwork: "path",
+  single: "逃げ水",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["aokado"],
+    arrange: ["aokado"],
+    direct: []
+  },
+  performers: {
+    center: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.MatsumuraSayuri
+    ],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.EtouMisa,
+      MemberNames.OozonoMomoko,
+      MemberNames.SaitouAsuka,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.ShinuchiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NishinoNanase,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.YodaYuuki,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songLiveshin: ISong = {
+  title: "ライブ神",
+  artwork: "path",
+  single: "逃げ水",
+  albums: [],
+  type: SongType.SecondGeneration,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["SaSA"],
+    arrange: ["SaSA"],
+    direct: ["伊藤衆人"]
+  },
+  performers: {
+    center: [MemberNames.HoriMiona],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.TeradaRanze,
+      MemberNames.HoriMiona,
+      MemberNames.KitanoHinako
+    ],
+    secondRow: [
+      MemberNames.YamazakiRena,
+      MemberNames.WatanabeMiria,
+      MemberNames.SuzukiAyane,
+      MemberNames.ShinuchiMai
+    ],
+    thirdRow: [
+      MemberNames.ItouJunna,
+      MemberNames.ItouKarin,
+      MemberNames.SagaraIori,
+      MemberNames.SasakiKotoko
+    ],
+    fourthRow: []
+  }
+};
+
+const songMirainokotae: ISong = {
+  title: "未来の答え",
+  artwork: "path",
+  single: "逃げ水",
+  albums: [],
+  type: SongType.ThirdGeneration,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["板垣祐介"],
+    arrange: ["板垣祐介"],
+    direct: ["福島真希"]
+  },
+  performers: {
+    center: [
+      MemberNames.KuboShiori,
+      MemberNames.YamashitaMizuki
+    ],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.UmezawaMinami,
+      MemberNames.YamashitaMizuki,
+      MemberNames.KuboShiori,
+      MemberNames.ItouRiria
+    ],
+    secondRow: [
+      MemberNames.IwamotoRenka,
+      MemberNames.OozonoMomoko,
+      MemberNames.YodaYuuki,
+      MemberNames.SakaguchiTamami
+    ],
+    thirdRow: [
+      MemberNames.NakamuraReno,
+      MemberNames.MukaiHazuki,
+      MemberNames.YoshidaAyanoChristie,
+      MemberNames.SatouKaede
+    ],
+    fourthRow: []
+  }
+};
+
+const songNaidatteii: ISong = {
+  title: "未来の答え",
+  artwork: "path",
+  single: "逃げ水",
+  albums: [],
+  type: SongType.ThirdGeneration,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["K-WONDER", "SAS3"],
+    arrange: ["遠藤ナオキ"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.TakayamaKazumi],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.EtouMisa,
+      MemberNames.OozonoMomoko,
+      MemberNames.SaitouAsuka,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.ShinuchiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NishinoNanase,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.YodaYuuki,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
     fourthRow: []
   }
 };
@@ -2734,5 +2969,10 @@ export const songs = {
   "まあいいか?": songMaaiika,
   "失恋お掃除人": songShitsurenosojinin,
   "僕の衝動": songBokunoshodo,
-  "新しい花粉 ~ミュージカル「見知らぬ世界」より~": songAtarashiikafun
+  "新しい花粉 ~ミュージカル「見知らぬ世界」より~": songAtarashiikafun,
+  "女は一人じゃ眠れない": songOnnahahitorija,
+  "ひと夏の長さより…": songHitonatsu,
+  "泣いたっていいじゃないか?": songNaidatteii,
+  "ライブ神": songLiveshin,
+  "未来の答え": songMirainokotae
 };
