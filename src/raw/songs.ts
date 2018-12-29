@@ -2937,7 +2937,7 @@ const songSakanatachinolovesong: ISong = {
     center: undefined,
     fukujin: undefined,
     solo: undefined,
-    unit: undefined
+    unit: ""
   },
   formations: {
     firstRow: [
@@ -3045,7 +3045,7 @@ const songSeifukuwonuide: ISong = {
     center: undefined,
     fukujin: undefined,
     solo: undefined,
-    unit: undefined
+    unit: ""
   },
   formations: {
     firstRow: [

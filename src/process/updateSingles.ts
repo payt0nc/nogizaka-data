@@ -54,10 +54,22 @@ export const recordSingleFocusPerformers = (
               name: song.formations.firstRow
             };
           } else if (song.type === SongType.Unit) {
-            singleSong.focusPerformers = {
-              type: FocusPerformersType.Unit,
-              name: song.formations.firstRow
-            };
+            if (song.performers.unit !== "" && song.performers.unit !== undefined) {
+              singleSong.focusPerformers = {
+                type: FocusPerformersType.Unit,
+                name: [song.performers.unit]
+              };
+            } else if (song.performers.center !== undefined) {
+              singleSong.focusPerformers = {
+                type: FocusPerformersType.Unit,
+                name: song.performers.center
+              };
+            } else {
+              singleSong.focusPerformers = {
+                type: FocusPerformersType.Unit,
+                name: []
+              };
+            }
           } else if (song.type === SongType.None) {
             singleSong.focusPerformers = {
               type: FocusPerformersType.None,
@@ -67,7 +79,7 @@ export const recordSingleFocusPerformers = (
         }
       });
 
-      // console.log(singleSong.title, singleSong.focusPerformers);
+      console.log(singleSong.title, singleSong.focusPerformers);
     });
   });
 };
