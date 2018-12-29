@@ -2468,11 +2468,16 @@ const songHanashitaidarekagairu: ISong = {
   single: "今、話したい誰かがいる",
   albums: [],
   type: SongType.Title,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Akira Sunset", "APAZZI"],
+    arrange: ["Akira Sunset", "APAZZI"],
+    direct: ["萩原健太郎"]
+  },
   performers: {
     center: [
-      MemberNames.NishinoNanase,
-      MemberNames.ShiraishiMai
+      MemberNames.ShiraishiMai,
+      MemberNames.NishinoNanase
     ],
     fukujin: FukujinType.RowOneTwo,
     solo: undefined,
@@ -2510,8 +2515,13 @@ const songShittonokenri: ISong = {
   artwork: "path",
   single: "今、話したい誰かがいる",
   albums: [],
-  type: SongType.Under,
-  creators: undefined,
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["丸山真由子"],
+    arrange: ["丸山真由子"],
+    direct: ["井上強"]
+  },
   performers: {
     center: [
       MemberNames.HoriMiona,
@@ -2549,6 +2559,165 @@ const songShittonokenri: ISong = {
       MemberNames.ItouKarin,
       MemberNames.WadaMaaya
     ],
+    fourthRow: []
+  }
+};
+
+const songPopipappapa: ISong = {
+  title: "ポピパッパパー",
+  artwork: "path",
+  single: "今、話したい誰かがいる",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Akira Sunset", "ha-j"],
+    arrange: ["Akira Sunset", "ha-j"],
+    direct: ["丸山健志"]
+  },
+  performers: {
+    center: [
+      MemberNames.ShiraishiMai,
+      MemberNames.NishinoNanase
+    ],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.EtouMisa,
+      MemberNames.NishinoNanase,
+      MemberNames.ShiraishiMai,
+      MemberNames.FukagawaMai
+    ],
+    secondRow: [
+      MemberNames.SaitouAsuka,
+      MemberNames.TakayamaKazumi,
+      MemberNames.HashimotoNanami,
+      MemberNames.IkutaErika,
+      MemberNames.AkimotoManatsu,
+      MemberNames.HoshinoMinami
+    ],
+    thirdRow: [
+      MemberNames.SakuraiReika,
+      MemberNames.WakatsukiYumi,
+      MemberNames.IkomaRina,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri
+    ],
+    fourthRow: []
+  }
+};
+
+const songOtonahenochikamichi: ISong = {
+  title: "大人への近道",
+  artwork: "path",
+  single: "今、話したい誰かがいる",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["古川貴浩"],
+    arrange: ["古川貴浩"],
+    direct: ["湯浅弘章"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: "サンクエトワール"
+  },
+  formations: {
+    firstRow: [
+      MemberNames.KitanoHinako,
+      MemberNames.TeradaRanze,
+      MemberNames.NakadaKana,
+      MemberNames.NakamotoHimeka,
+      MemberNames.HoriMiona
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songKanashiminowasurekata: ISong = {
+  title: "悲しみの忘れ方",
+  artwork: "path",
+  single: "今、話したい誰かがいる",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["近藤圭一"],
+    arrange: ["久下真音"],
+    direct: ["丸山健志"]
+  },
+  performers: {
+    center: [MemberNames.IkomaRina],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.EtouMisa,
+      MemberNames.SaitouAsuka,
+      MemberNames.SaitouYuuri,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.ShinuchiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami,
+      MemberNames.FukagawaMai,
+      MemberNames.HoshinoMinami,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songSukima: ISong = {
+  title: "隙間",
+  artwork: "path",
+  single: "今、話したい誰かがいる",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Akira Sunset", "Carlos K."],
+    arrange: ["Akira Sunset", "Carlos K."],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.NishinoNanase],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.SaitouYuuri,
+      MemberNames.SakuraiReika,
+      MemberNames.NakadaKana,
+      MemberNames.NishinoNanase,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
     fourthRow: []
   }
 };
@@ -3670,5 +3839,9 @@ export const songs = {
   "強がる蕾": songTsuyogarutsubomi,
   "急斜面": songKyushamen,
   "釣り堀": songTsuribori,
-  "憂鬱と風船ガム": songYuutsutofusengamu
+  "憂鬱と風船ガム": songYuutsutofusengamu,
+  "ポピパッパパー": songPopipappapa,
+  "大人への近道": songOtonahenochikamichi,
+  "悲しみの忘れ方": songKanashiminowasurekata,
+  "隙間": songSukima
 };
