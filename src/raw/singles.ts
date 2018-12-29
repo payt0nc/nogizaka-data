@@ -723,44 +723,44 @@ const taiyoknock: ISingle = {
     },
     {
       number: 2,
-      title: "別れ際、もっと好きになる",
-      inType: CdType.A,
-      type: SongType.Under,
-      focusPerformers: undefined
-    },
-    {
-      number: 3,
       title: "もう少しの夢",
       inType: CdType.A,
       type: SongType.Solo,
       focusPerformers: undefined
     },
     {
-      number: 4,
+      number: 3,
       title: "魚たちのLOVE SONG",
       inType: CdType.B,
       type: SongType.Unit,
       focusPerformers: undefined
     },
     {
-      number: 5,
+      number: 4,
       title: "無表情",
       inType: CdType.C,
       type: SongType.Unit,
       focusPerformers: undefined
     },
     {
+      number: 5,
+      title: "別れ際、もっと好きになる",
+      inType: CdType.A,
+      type: SongType.Under,
+      focusPerformers: undefined
+    },
+    {
       number: 6,
-      title: "制服を脱いでサヨナラを…",
-      inType: CdType.D,
-      type: SongType.Unit,
+      title: "羽根の記憶",
+      inType: CdType.T,
+      type: SongType.Coupling,
       focusPerformers: undefined
     },
     {
       number: 7,
-      title: "羽根の記憶",
-      inType: CdType.T,
-      type: SongType.Coupling,
+      title: "制服を脱いでサヨナラを…",
+      inType: CdType.D,
+      type: SongType.Unit,
       focusPerformers: undefined
     }
   ],
