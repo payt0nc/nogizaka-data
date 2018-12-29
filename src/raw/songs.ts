@@ -1967,7 +1967,12 @@ const songHadashidesummer: ISong = {
   single: "裸足でSummer",
   albums: [],
   type: SongType.Title,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["福森秀敏"],
+    arrange: ["APAZZI"],
+    direct: ["丸山健志"]
+  },
   performers: {
     center: [
       MemberNames.SaitouAsuka
@@ -2009,7 +2014,12 @@ const songSecretGravity: ISong = {
   single: "裸足でSummer",
   albums: [],
   type: SongType.Under,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["ツキダタダシ"],
+    arrange: ["ツキダタダシ"],
+    direct: ["山岸聖太"]
+  },
   performers: {
     center: [MemberNames.HiguchiHina],
     fukujin: undefined,
@@ -2042,6 +2052,160 @@ const songSecretGravity: ISong = {
       MemberNames.SasakiKotoko,
       MemberNames.ItouKarin
     ],
+    fourthRow: []
+  }
+};
+
+const songBokudakenohikari: ISong = {
+  title: "僕だけの光",
+  artwork: "path",
+  single: "裸足でSummer",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Hiro Hoashi"],
+    arrange: ["Hiro Hoashi"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.SaitouAsuka],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.EtouMisa,
+      MemberNames.KitanoHinako,
+      MemberNames.SaitouAsuka,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NakamotoHimeka,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songOffshoregirl: ISong = {
+  title: "オフショアガール",
+  artwork: "path",
+  single: "裸足でSummer",
+  albums: [],
+  type: SongType.Solo,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Akira Sunset", "ha-j"],
+    arrange: ["Akira Sunset", "ha-j"],
+    direct: ["井上強"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: MemberNames.ShiraishiMai,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [MemberNames.ShiraishiMai],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songInochinoshinjitsu: ISong = {
+  title: "命の真実 ミュージカル「林檎売りとカメムシ」",
+  artwork: "path",
+  single: "裸足でSummer",
+  albums: [],
+  type: SongType.Solo,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["NA.ZU.NA"],
+    arrange: ["NA.ZU.NA"],
+    direct: ["中村太洸"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: MemberNames.IkutaErika,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [MemberNames.IkutaErika],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songHakumaisama: ISong = {
+  title: "白米様",
+  artwork: "path",
+  single: "裸足でSummer",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Ruby"],
+    arrange: ["あらケン"],
+    direct: ["伊藤衆人"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: "さゆりんご軍団"
+  },
+  formations: {
+    firstRow: [MemberNames.MatsumuraSayuri],
+    secondRow: [
+      MemberNames.SasakiKotoko,
+      MemberNames.ItouKarin,
+      MemberNames.TeradaRanze,
+    ],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songIkuatenonaibokutachi: ISong = {
+  title: "行くあてのない僕たち",
+  artwork: "path",
+  single: "裸足でSummer",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["大橋莉子"],
+    arrange: ["佐々木裕"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: "さゆりんご軍団"
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri
+    ],
+    secondRow: [],
+    thirdRow: [],
     fourthRow: []
   }
 };
@@ -3334,5 +3498,10 @@ export const songs = {
   "あの教室": songAnokyoshitsu,
   "2度目のキスから": songNidomenokisukara,
   "君に贈る花がない": songKiminiokuruhana,
-  "ないものねだり": songNaimononetari
+  "ないものねだり": songNaimononetari,
+  "僕だけの光": songBokudakenohikari,
+  "オフショアガール": songOffshoregirl,
+  "命の真実 ミュージカル「林檎売りとカメムシ」": songInochinoshinjitsu,
+  "白米様": songHakumaisama,
+  "行くあてのない僕たち": songIkuatenonaibokutachi
 };
