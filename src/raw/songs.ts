@@ -2218,7 +2218,12 @@ const songHarujion: ISong = {
   single: "ハルジオンが咲く頃",
   albums: [],
   type: SongType.Title,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Akira Sunset", "APAZZI"],
+    arrange: ["Akira Sunset", "APAZZI"],
+    direct: ["山戸結希"]
+  },
   performers: {
     center: [
       MemberNames.FukagawaMai
@@ -2261,7 +2266,12 @@ const songFutogo: ISong = {
   single: "ハルジオンが咲く頃",
   albums: [],
   type: SongType.Under,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["福田貴史"],
+    arrange: ["福田貴史"],
+    direct: ["池田千尋"]
+  },
   performers: {
     center: [MemberNames.NakamotoHimeka],
     fukujin: undefined,
@@ -2294,6 +2304,158 @@ const songFutogo: ISong = {
       MemberNames.WadaMaaya,
       MemberNames.ItouJunna
     ],
+    fourthRow: []
+  }
+};
+
+const songHarukanarubhutan: ISong = {
+  title: "遥かなるブータン",
+  artwork: "path",
+  single: "ハルジオンが咲く頃",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["ツキダタダシ"],
+    arrange: ["ha-j"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.IkutaErika],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.ItouMarika,
+      MemberNames.EtouMisa,
+      MemberNames.SaitouAsuka,
+      MemberNames.HoriMiona,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songTsuyogarutsubomi: ISong = {
+  title: "強がる蕾",
+  artwork: "path",
+  single: "ハルジオンが咲く頃",
+  albums: [],
+  type: SongType.Solo,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["大貫和紀", "河原レオ", "高木龍一"],
+    arrange: ["Carlos K."],
+    direct: ["真壁幸紀"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: MemberNames.FukagawaMai,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.FukagawaMai
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songKyushamen: ISong = {
+  title: "急斜面",
+  artwork: "path",
+  single: "ハルジオンが咲く頃",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["FURUTA", "Yasutaka Ishio"],
+    arrange: ["重永亮介"],
+    direct: ["番場秀一"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ShiraishiMai,
+      MemberNames.HashimotoNanami,
+      MemberNames.MatsumuraSayuri
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songTsuribori: ISong = {
+  title: "釣り堀",
+  artwork: "path",
+  single: "ハルジオンが咲く頃",
+  albums: [],
+  type: SongType.Solo,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Bush-I"],
+    arrange: ["APAZZI"],
+    direct: ["永田琴"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: MemberNames.NishinoNanase,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.NishinoNanase
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songYuutsutofusengamu: ISong = {
+  title: "憂鬱と風船ガム",
+  artwork: "path",
+  single: "ハルジオンが咲く頃",
+  albums: [],
+  type: SongType.Solo,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["HIROTOMO", "Dr.Lilcom"],
+    arrange: ["APAZZI"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.HoshinoMinami],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkomaRina,
+      MemberNames.InoueSayuri,
+      MemberNames.SakuraiReika,
+      MemberNames.TakayamaKazumi,
+      MemberNames.HoshinoMinami,
+    ],
+    secondRow: [],
+    thirdRow: [],
     fourthRow: []
   }
 };
@@ -3503,5 +3665,10 @@ export const songs = {
   "オフショアガール": songOffshoregirl,
   "命の真実 ミュージカル「林檎売りとカメムシ」": songInochinoshinjitsu,
   "白米様": songHakumaisama,
-  "行くあてのない僕たち": songIkuatenonaibokutachi
+  "行くあてのない僕たち": songIkuatenonaibokutachi,
+  "遥かなるブータン": songHarukanarubhutan,
+  "強がる蕾": songTsuyogarutsubomi,
+  "急斜面": songKyushamen,
+  "釣り堀": songTsuribori,
+  "憂鬱と風船ガム": songYuutsutofusengamu
 };
