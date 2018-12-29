@@ -1704,7 +1704,12 @@ const songSayonaranoimi: ISong = {
   single: "サヨナラの意味",
   albums: [],
   type: SongType.Title,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["杉山勝彦"],
+    arrange: ["若田部誠"],
+    direct: ["柳沢翔"]
+  },
   performers: {
     center: [
       MemberNames.HashimotoNanami
@@ -1749,7 +1754,12 @@ const songBulanko: ISong = {
   single: "サヨナラの意味",
   albums: [],
   type: SongType.Under,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Hiro Hoashi"],
+    arrange: ["Hiro Hoashi"],
+    direct: ["伊藤衆人"]
+  },
   performers: {
     center: [MemberNames.TeradaRanze],
     fukujin: undefined,
@@ -1779,6 +1789,172 @@ const songBulanko: ISong = {
       MemberNames.SasakiKotoko,
       MemberNames.SagaraIori
     ],
+    fourthRow: []
+  }
+};
+
+const songKodokunaaozora: ISong = {
+  title: "孤独な青空",
+  artwork: "path",
+  single: "サヨナラの意味",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["aokado"],
+    arrange: ["aokado"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.HashimotoNanami],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.EtouMisa,
+      MemberNames.KitanoHinako,
+      MemberNames.SaitouAsuka,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.ShinuchiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NakamotoHimeka,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songAnokyoshitsu: ISong = {
+  title: "あの教室",
+  artwork: "path",
+  single: "サヨナラの意味",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["カワノミチオ"],
+    arrange: ["カワノミチオ"],
+    direct: ["山岸聖太"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.SaitouAsuka,
+      MemberNames.HoriMiona
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songNidomenokisukara: ISong = {
+  title: "2度目のキスから",
+  artwork: "path",
+  single: "サヨナラの意味",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Akira Sunset", "APAZZI"],
+    arrange: ["Akira Sunset", "APAZZI"],
+    direct: ["中村太洸"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: "真夏さんリスペクト軍団"
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.SagaraIori,
+      MemberNames.SuzukiAyane,
+      MemberNames.WatanabeMiria
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songKiminiokuruhana: ISong = {
+  title: "君に贈る花がない",
+  artwork: "path",
+  single: "サヨナラの意味",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Rizz"],
+    arrange: ["山田竜平"],
+    direct: ["東市篤憲"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: "サンクエトワール"
+  },
+  formations: {
+    firstRow: [
+      MemberNames.KitanoHinako,
+      MemberNames.TeradaRanze,
+      MemberNames.NakadaKana,
+      MemberNames.NakamotoHimeka,
+      MemberNames.HoriMiona
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songNaimononetari: ISong = {
+  title: "ないものねだり",
+  artwork: "path",
+  single: "サヨナラの意味",
+  albums: [],
+  type: SongType.Solo,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["丸谷マナブ"],
+    arrange: ["丸谷マナブ", "福田貴史"],
+    direct: ["山岸聖太"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: MemberNames.HashimotoNanami,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.HashimotoNanami
+    ],
+    secondRow: [],
+    thirdRow: [],
     fourthRow: []
   }
 };
@@ -3153,5 +3329,10 @@ export const songs = {
   "意外BREAK?": songIgaibreak,
   "Another Ghost": songAnotherghost,
   "三番目の風": songSanbanmenokaze,
-  "当たり障りのない話": songAtarisawarinonai
+  "当たり障りのない話": songAtarisawarinonai,
+  "孤独な青空": songKodokunaaozora,
+  "あの教室": songAnokyoshitsu,
+  "2度目のキスから": songNidomenokisukara,
+  "君に贈る花がない": songKiminiokuruhana,
+  "ないものねだり": songNaimononetari
 };
