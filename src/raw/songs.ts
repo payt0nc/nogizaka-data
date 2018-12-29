@@ -3296,7 +3296,12 @@ const songNandomenoaozoraka: ISong = {
   musicVideo: "path",
   albums: [],
   type: SongType.Title,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["川浦正大"],
+    arrange: ["百石元"],
+    direct: ["内田けんじ"]
+  },
   performers: {
     center: [
       MemberNames.IkutaErika
@@ -3339,7 +3344,12 @@ const songAnohibokuha: ISong = {
   musicVideo: "path",
   albums: [],
   type: SongType.Under,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["三輪智也"],
+    arrange: ["京田誠一"],
+    direct: ["湯浅弘章"]
+  },
   performers: {
     center: [MemberNames.InoueSayuri],
     fukujin: undefined,
@@ -3370,6 +3380,164 @@ const songAnohibokuha: ISong = {
       MemberNames.YamatoRina,
       MemberNames.ShinuchiMai,
     ],
+    fourthRow: []
+  }
+};
+
+const songTomawarinoaijo: ISong = {
+  title: "遠回りの愛情",
+  single: "何度目の青空か?",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Noda Akiko"],
+    arrange: ["野中\"まさ\"雄一"],
+    direct: []
+  },
+  performers: {
+    center: [
+      MemberNames.NagashimaSeira,
+      MemberNames.SakuraiReika
+    ],
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.InoueSayuri,
+      MemberNames.SakuraiReika,
+      MemberNames.NakadaKana,
+      MemberNames.NagashimaSeira,
+      MemberNames.NishinoNanase,
+      MemberNames.NoujouAmi,
+      MemberNames.YamatoRina,
+      MemberNames.WakatsukiYumi,
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songKorogattakanewonarase: ISong = {
+  title: "転がった鐘を鳴らせ!",
+  single: "何度目の青空か?",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["中山英二"],
+    arrange: ["田上陽一"],
+    direct: ["丸山健志"]
+  },
+  performers: {
+    center: [MemberNames.IkutaErika],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.EtouMisa,
+      MemberNames.SaitouChiharu,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami,
+      MemberNames.FukagawaMai,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona,
+      MemberNames.MatsuiRena,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songWatashiokiru: ISong = {
+  title: "私、起きる。",
+  single: "何度目の青空か?",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Akira Sunset", "ZERO"],
+    arrange: ["Akira Sunset", "ZERO"],
+    direct: ["柳沢翔"]
+  },
+  performers: {
+    center: [MemberNames.IkutaErika],
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.KawagoHina,
+      MemberNames.KitanoHinako,
+      MemberNames.SaitouAsuka,
+      MemberNames.SaitouChiharu,
+      MemberNames.NakamotoHimeka,
+      MemberNames.HiguchiHina,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona,
+      MemberNames.WadaMaaya
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songTenderdays: ISong = {
+  title: "Tender days",
+  single: "何度目の青空か?",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["SoichiroK", "Nozomu.S"],
+    arrange: ["Soulife"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami,
+      MemberNames.FukagawaMai,
+      MemberNames.MatsumuraSayuri
+    ],
+    secondRow: [],
+    thirdRow: [],
     fourthRow: []
   }
 };
@@ -4265,5 +4433,9 @@ export const songs = {
   "あらかじめ語られるロマンス": songArakajimeromance,
   "立ち直り中": songTachinaorichu,
   "ごめんね ずっと…": songGomennezutto,
-  "ボーダー": songBorder
+  "ボーダー": songBorder,
+  "遠回りの愛情": songTomawarinoaijo,
+  "転がった鐘を鳴らせ!": songKorogattakanewonarase,
+  "私、起きる。": songWatashiokiru,
+  "Tender days": songTenderdays
 };
