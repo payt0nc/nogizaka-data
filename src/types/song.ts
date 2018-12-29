@@ -23,11 +23,12 @@ interface ISongCreators {
 
 export interface ISong {
   title: string;
-  artwork: string;
   single: string;
+  artwork: string;
+  musicVideo: string;
   albums: string[];
   type: SongType;
-  creators: ISongCreators | undefined;
+  creators: ISongCreators;
   performers: ISongPerformers;
   formations: ISongFormations;
 }
