@@ -2730,7 +2730,12 @@ const songTaiyoknock: ISong = {
   single: "太陽ノック",
   albums: [],
   type: SongType.Title,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["黒須克彦"],
+    arrange: ["長田直之"],
+    direct: ["三石直和"]
+  },
   performers: {
     center: [
       MemberNames.IkomaRina
@@ -2774,7 +2779,12 @@ const songWakaregiwa: ISong = {
   single: "太陽ノック",
   albums: [],
   type: SongType.Under,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Akira Sunset", "ha-j"],
+    arrange: ["Akira Sunset", "ha-j"],
+    direct: ["山岸聖太"]
+  },
   performers: {
     center: [MemberNames.HoriMiona],
     fukujin: undefined,
@@ -2806,6 +2816,168 @@ const songWakaregiwa: ISong = {
       MemberNames.ItouJunna,
       MemberNames.HiguchiHina
     ],
+    fourthRow: []
+  }
+};
+
+const songMosukoshinoyumewo: ISong = {
+  title: "もう少しの夢",
+  artwork: "path",
+  single: "太陽ノック",
+  albums: [],
+  type: SongType.Solo,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["丸谷マナブ"],
+    arrange: ["野中\"まさ\"雄一"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: MemberNames.NishinoNanase,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.NishinoNanase
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songSakanatachinolovesong: ISong = {
+  title: "魚たちのLOVE SONG",
+  artwork: "path",
+  single: "太陽ノック",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["渡辺拓也"],
+    arrange: ["渡辺拓也"],
+    direct: ["中村太洸"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.HashimotoNanami,
+      MemberNames.FukagawaMai,
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songMuhyojo: ISong = {
+  title: "無表情",
+  artwork: "path",
+  single: "太陽ノック",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Akira Sunset"],
+    arrange: ["Akira Sunset"],
+    direct: ["月田茂", "山本篤彦", "柴谷麻以"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: "からあげ姉妹"
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.MatsumuraSayuri
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songHanenokioku: ISong = {
+  title: "羽根の記憶",
+  artwork: "path",
+  single: "太陽ノック",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["杉山勝彦"],
+    arrange: ["杉山勝彦", "有木竜郎"],
+    direct: ["岡川太郎"]
+  },
+  performers: {
+    center: [MemberNames.IkomaRina],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.EtouMisa,
+      MemberNames.SaitouAsuka,
+      MemberNames.SaitouYuuri,
+      MemberNames.SakuraiReika,
+      MemberNames.ShinuchiMai,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami,
+      MemberNames.FukagawaMai,
+      MemberNames.HoshinoMinami,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.WakatsukiYumi,
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songSeifukuwonuide: ISong = {
+  title: "制服を脱いでサヨナラを…",
+  artwork: "path",
+  single: "太陽ノック",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["古川貴浩"],
+    arrange: ["古川貴浩"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.SaitouAsuka,
+      MemberNames.HoshinoMinami
+    ],
+    secondRow: [],
+    thirdRow: [],
     fourthRow: []
   }
 };
@@ -3843,5 +4015,10 @@ export const songs = {
   "ポピパッパパー": songPopipappapa,
   "大人への近道": songOtonahenochikamichi,
   "悲しみの忘れ方": songKanashiminowasurekata,
-  "隙間": songSukima
+  "隙間": songSukima,
+  "もう少しの夢": songMosukoshinoyumewo,
+  "魚たちのLOVE SONG": songSakanatachinolovesong,
+  "無表情": songMuhyojo,
+  "羽根の記憶": songHanenokioku,
+  "制服を脱いでサヨナラを…": songSeifukuwonuide
 };
