@@ -2990,7 +2990,12 @@ const songInochihautsukushii: ISong = {
   single: "命は美しい",
   albums: [],
   type: SongType.Title,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Hiroki Sagawa"],
+    arrange: ["Hiroki Sagawa"],
+    direct: ["井上強"]
+  },
   performers: {
     center: [
       MemberNames.NishinoNanase
@@ -3034,7 +3039,12 @@ const songKimihabokuto: ISong = {
   single: "命は美しい",
   albums: [],
   type: SongType.Under,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Akira Sunset", "ha-j"],
+    arrange: ["Akira Sunset", "ha-j"],
+    direct: ["山田篤宏"]
+  },
   performers: {
     center: [MemberNames.NakamotoHimeka],
     fukujin: undefined,
@@ -3062,6 +3072,135 @@ const songKimihabokuto: ISong = {
       MemberNames.WadaMaaya,
       MemberNames.SaitouChiharu
     ],
+    fourthRow: []
+  }
+};
+
+const songArakajimeromance: ISong = {
+  title: "あらかじめ語られるロマンス",
+  artwork: "path",
+  single: "命は美しい",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["SoichiroK", "Nozomu.S"],
+    arrange: ["SoichiroK", "Nozomu.S"],
+    direct: ["岡川太郎"]
+  },
+  performers: {
+    center: [
+      MemberNames.SaitouAsuka,
+      MemberNames.HoshinoMinami,
+    ],
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.ItouMarika,
+      MemberNames.SaitouAsuka,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songTachinaorichu: ISong = {
+  title: "立ち直り中",
+  artwork: "path",
+  single: "命は美しい",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["福田貴史"],
+    arrange: ["TATOO"],
+    direct: ["湯浅弘章"]
+  },
+  performers: {
+    center: [MemberNames.ShiraishiMai],
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.EtouMisa,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.HashimotoNanami,
+      MemberNames.FukagawaMai,
+      MemberNames.MatsumuraSayuri
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songGomennezutto: ISong = {
+  title: "ごめんね ずっと…",
+  artwork: "path",
+  single: "命は美しい",
+  albums: [],
+  type: SongType.Solo,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["山田智和"],
+    arrange: ["住谷翔平"],
+    direct: ["山戸結希"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: MemberNames.NishinoNanase,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [MemberNames.NishinoNanase],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songBorder: ISong = {
+  title: "ボーダー",
+  artwork: "path",
+  single: "命は美しい",
+  albums: [],
+  type: SongType.SecondGeneration,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["中土智博"],
+    arrange: ["中土智博"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.TeradaRanze],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ItouJunna,
+      MemberNames.SasakiKotoko,
+      MemberNames.SuzukiAyane,
+      MemberNames.TeradaRanze,
+      MemberNames.YamazakiRena,
+      MemberNames.WatanabeMiria,
+    ],
+    secondRow: [],
+    thirdRow: [],
     fourthRow: []
   }
 };
@@ -4020,5 +4159,9 @@ export const songs = {
   "魚たちのLOVE SONG": songSakanatachinolovesong,
   "無表情": songMuhyojo,
   "羽根の記憶": songHanenokioku,
-  "制服を脱いでサヨナラを…": songSeifukuwonuide
+  "制服を脱いでサヨナラを…": songSeifukuwonuide,
+  "あらかじめ語られるロマンス": songArakajimeromance,
+  "立ち直り中": songTachinaorichu,
+  "ごめんね ずっと…": songGomennezutto,
+  "ボーダー": songBorder
 };
