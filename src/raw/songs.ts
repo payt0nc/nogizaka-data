@@ -3551,7 +3551,12 @@ const songNatsunofreeandeasy: ISong = {
   musicVideo: "path",
   albums: [],
   type: SongType.Title,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["井上トモノリ"],
+    arrange: ["橋本幸太"],
+    direct: ["丸山健志"]
+  },
   performers: {
     center: [
       MemberNames.NishinoNanase
@@ -3595,7 +3600,12 @@ const songKokoniiruriyu: ISong = {
   musicVideo: "path",
   albums: [],
   type: SongType.Under,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["長谷川湊"],
+    arrange: ["Carlos K."],
+    direct: ["近藤大介"]
+  },
   performers: {
     center: [MemberNames.ItouMarika],
     fukujin: undefined,
@@ -3625,6 +3635,161 @@ const songKokoniiruriyu: ISong = {
       MemberNames.IchikiRena,
       MemberNames.ShinuchiMai
     ],
+    fourthRow: []
+  }
+};
+
+const songNanimodekizuni: ISong = {
+  title: "何もできずにそばにいる",
+  single: "夏のFree&Easy",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["角野寿和"],
+    arrange: ["京田誠一"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.NishinoNanase],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.MatsuiRena,
+      MemberNames.ShiraishiMai,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami,
+      MemberNames.MatsumuraSayuri
+    ],
+    secondRow: [
+      MemberNames.WakatsukiYumi,
+      MemberNames.AkimotoManatsu,
+      MemberNames.SakuraiReika,
+      MemberNames.FukagawaMai,
+      MemberNames.IkomaRina
+    ],
+    thirdRow: [
+      MemberNames.EtouMisa,
+      MemberNames.InoueSayuri,
+      MemberNames.SaitouYuuri,
+      MemberNames.HoshinoMinami,
+      MemberNames.YamatoRina,
+      MemberNames.HoriMiona,
+      MemberNames.TakayamaKazumi
+    ],
+    fourthRow: []
+  }
+};
+
+const songSonosakinodeguchi: ISong = {
+  title: "その先の出口!",
+  single: "夏のFree&Easy",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Carlos K."],
+    arrange: ["Carlos K."],
+    direct: ["中村太洸"]
+  },
+  performers: {
+    center: [MemberNames.ShiraishiMai],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.EtouMisa,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.HashimotoNanami,
+      MemberNames.MatsuiRena,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.FukagawaMai,
+      MemberNames.YamatoRina
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songMukuchinalion: ISong = {
+  title: "無口なライオン",
+  single: "夏のFree&Easy",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Shusui", "ヒロイズム"],
+    arrange: ["Shusui", "ヒロイズム"],
+    direct: ["湯浅弘章"]
+  },
+  performers: {
+    center: [MemberNames.NishinoNanase],
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkomaRina,
+      MemberNames.InoueSayuri,
+      MemberNames.SaitouYuuri,
+      MemberNames.SakuraiReika,
+      MemberNames.NishinoNanase,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songBokugaikanakya: ISong = {
+  title: "僕が行かなきゃ誰が行くんだ?",
+  single: "夏のFree&Easy",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["中土智博"],
+    arrange: ["中土智博"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.NishinoNanase],
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.SaitouYuuri,
+      MemberNames.SakuraiReika,
+      MemberNames.NakadaKana,
+      MemberNames.NishinoNanase,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
     fourthRow: []
   }
 };
@@ -4437,5 +4602,9 @@ export const songs = {
   "遠回りの愛情": songTomawarinoaijo,
   "転がった鐘を鳴らせ!": songKorogattakanewonarase,
   "私、起きる。": songWatashiokiru,
-  "Tender days": songTenderdays
+  "Tender days": songTenderdays,
+  "何もできずにそばにいる": songNanimodekizuni,
+  "その先の出口!": songSonosakinodeguchi,
+  "無口なライオン": songMukuchinalion,
+  "僕が行かなきゃ誰が行くんだ?": songBokugaikanakya
 };
