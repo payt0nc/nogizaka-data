@@ -4058,7 +4058,12 @@ const songValletta: ISong = {
   musicVideo: "path",
   albums: [],
   type: SongType.Title,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["サイトウヨシヒロ"],
+    arrange: ["若田部誠"],
+    direct: ["江湖広二"]
+  },
   performers: {
     center: [
       MemberNames.HoriMiona
@@ -4102,7 +4107,12 @@ const songHatsukoinohito: ISong = {
   musicVideo: "path",
   albums: [],
   type: SongType.Under,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["古川貴浩"],
+    arrange: ["古川貴浩"],
+    direct: ["田所貴司"]
+  },
   performers: {
     center: [MemberNames.HoshinoMinami],
     fukujin: undefined,
@@ -4129,6 +4139,171 @@ const songHatsukoinohito: ISong = {
       MemberNames.ItouNene,
       MemberNames.WadaMaaya
     ],
+    fourthRow: []
+  }
+};
+
+const songTsukinookisa: ISong = {
+  title: "月の大きさ",
+  single: "バレッタ",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["古川貴浩"],
+    arrange: ["古川貴浩"],
+    direct: ["大久保拓朗"]
+  },
+  performers: {
+    center: [MemberNames.HoriMiona],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.NishinoNanase,
+      MemberNames.ShiraishiMai,
+      MemberNames.HoriMiona,
+      MemberNames.HashimotoNanami,
+      MemberNames.MatsumuraSayuri
+    ],
+    secondRow: [
+      MemberNames.SakuraiReika,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.WakatsukiYumi
+    ],
+    thirdRow: [
+      MemberNames.ItouMarika,
+      MemberNames.EtouMisa,
+      MemberNames.SaitouAsuka,
+      MemberNames.AkimotoManatsu,
+      MemberNames.FukagawaMai,
+      MemberNames.NakamotoHimeka,
+      MemberNames.KawagoHina,
+      MemberNames.TakayamaKazumi
+    ],
+    fourthRow: []
+  }
+};
+
+const songWatashinotameni: ISong = {
+  title: "私のために 誰かのために",
+  single: "バレッタ",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["杉山勝彦"],
+    arrange: ["杉山勝彦", "有木竜郎"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.ShiraishiMai],
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.EtouMisa,
+      MemberNames.KawamuraMahiro,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songSonnabakana: ISong = {
+  title: "そんなバカな…",
+  single: "バレッタ",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Akira Sunset"],
+    arrange: ["Akira Sunset"],
+    direct: ["丸山健志"]
+  },
+  performers: {
+    center: [MemberNames.HoriMiona],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.EtouMisa,
+      MemberNames.KawagoHina,
+      MemberNames.SaitouAsuka,
+      MemberNames.SaitouYuuri,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NakadaKana,
+      MemberNames.NakamotoHimeka,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami,
+      MemberNames.HiguchiHina,
+      MemberNames.FukagawaMai,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songYasashisatoha: ISong = {
+  title: "やさしさとは",
+  single: "バレッタ",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["古川貴浩"],
+    arrange: ["古川貴浩"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.HashimotoNanami],
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.NakamotoHimeka,
+      MemberNames.NishinoNanase,
+      MemberNames.NoujouAmi,
+      MemberNames.HashimotoNanami,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
     fourthRow: []
   }
 };
@@ -4778,5 +4953,9 @@ export const songs = {
   "ロマンスのスタート": songRomancenostart,
   "吐息のメソッド": songToikimethod,
   "孤独兄弟": songKodokukyodai,
-  "ダンケシェーン": songDankeschon
+  "ダンケシェーン": songDankeschon,
+  "月の大きさ": songTsukinookisa,
+  "私のために 誰かのために": songWatashinotameni,
+  "そんなバカな…": songSonnabakana,
+  "やさしさとは": songYasashisatoha
 };
