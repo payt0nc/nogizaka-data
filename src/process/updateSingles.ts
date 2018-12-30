@@ -44,10 +44,17 @@ export const recordSingleFocusPerformers = (
             song.type === SongType.SecondGeneration ||
             song.type === SongType.ThirdGeneration
           ) {
-            singleSong.focusPerformers = {
-              type: FocusPerformersType.Center,
-              name: song.performers.center
-            };
+            if (song.performers.center !== undefined) {
+              singleSong.focusPerformers = {
+                type: FocusPerformersType.Center,
+                name: song.performers.center
+              };
+            } else {
+              singleSong.focusPerformers = {
+                type: FocusPerformersType.None,
+                name: []
+              };
+            }
           } else if (song.type === SongType.Solo) {
             singleSong.focusPerformers = {
               type: FocusPerformersType.Solo,
@@ -71,10 +78,17 @@ export const recordSingleFocusPerformers = (
               };
             }
           } else if (song.type === SongType.None) {
-            singleSong.focusPerformers = {
-              type: FocusPerformersType.None,
-              name: song.performers.center
-            };
+            if (song.performers.center !== undefined) {
+              singleSong.focusPerformers = {
+                type: FocusPerformersType.None,
+                name: song.performers.center
+              };
+            } else {
+              singleSong.focusPerformers = {
+                type: FocusPerformersType.None,
+                name: []
+              };
+            }
           }
         }
       });
