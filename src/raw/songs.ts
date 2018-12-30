@@ -3803,11 +3803,14 @@ const songKizuitarakataomoi: ISong = {
   musicVideo: "path",
   albums: [],
   type: SongType.Title,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Akira Sunset"],
+    arrange: ["湯浅篤"],
+    direct: ["柳沢翔"]
+  },
   performers: {
-    center: [
-      MemberNames.NishinoNanase
-    ],
+    center: [MemberNames.NishinoNanase],
     fukujin: FukujinType.RowOne,
     solo: undefined,
     unit: undefined
@@ -3846,7 +3849,12 @@ const songUmaretamamade: ISong = {
   musicVideo: "path",
   albums: [],
   type: SongType.Under,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["田中俊亮"],
+    arrange: ["鈴木裕明"],
+    direct: ["久保茂昭"]
+  },
   performers: {
     center: [MemberNames.ItouMarika],
     fukujin: undefined,
@@ -3877,6 +3885,166 @@ const songUmaretamamade: ISong = {
       MemberNames.YamatoRina,
       MemberNames.NoujouAmi
     ],
+    fourthRow: []
+  }
+};
+
+const songRomancenostart: ISong = {
+  title: "ロマンスのスタート",
+  single: "気づいたら片想い",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["押田誠"],
+    arrange: ["佐々木聡作", "押田誠"],
+    direct: ["丸山健志"]
+  },
+  performers: {
+    center: [MemberNames.NishinoNanase],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.HoriMiona,
+      MemberNames.ShiraishiMai,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami,
+      MemberNames.IkomaRina
+    ],
+    secondRow: [
+      MemberNames.SakuraiReika,
+      MemberNames.WakatsukiYumi,
+      MemberNames.IkomaRina,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.FukagawaMai
+    ],
+    thirdRow: [
+      MemberNames.KawamuraMahiro,
+      MemberNames.KitanoHinako,
+      MemberNames.HiguchiHina,
+      MemberNames.AkimotoManatsu,
+      MemberNames.WadaMaaya,
+      MemberNames.TakayamaKazumi
+    ],
+    fourthRow: []
+  }
+};
+
+const songToikimethod: ISong = {
+  title: "吐息のメソッド",
+  single: "気づいたら片想い",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["田中明仁"],
+    arrange: ["TATOO"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.KawamuraMahiro,
+      MemberNames.KitanoHinako,
+      MemberNames.SaitouAsuka,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami,
+      MemberNames.HiguchiHina,
+      MemberNames.FukagawaMai,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.WakatsukiYumi,
+      MemberNames.WadaMaaya
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songKodokukyodai: ISong = {
+  title: "孤独兄弟",
+  single: "気づいたら片想い",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Soulife"],
+    arrange: ["Soulife"],
+    direct: ["池田一真"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: "孤独兄弟"
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ShiraishiMai,
+      MemberNames.HashimotoNanami
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songDankeschon: ISong = {
+  title: "ダンケシェーン",
+  single: "気づいたら片想い",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Akira Sunset", "C#"],
+    arrange: ["Akira Sunset", "C#"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.IkutaErika],
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.SakuraiReika,
+      MemberNames.NishinoNanase,
+      MemberNames.FukagawaMai,
+      MemberNames.HoriMiona,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.WakatsukiYumi,
+    ],
+    secondRow: [],
+    thirdRow: [],
     fourthRow: []
   }
 };
@@ -4606,5 +4774,9 @@ export const songs = {
   "何もできずにそばにいる": songNanimodekizuni,
   "その先の出口!": songSonosakinodeguchi,
   "無口なライオン": songMukuchinalion,
-  "僕が行かなきゃ誰が行くんだ?": songBokugaikanakya
+  "僕が行かなきゃ誰が行くんだ?": songBokugaikanakya,
+  "ロマンスのスタート": songRomancenostart,
+  "吐息のメソッド": songToikimethod,
+  "孤独兄弟": songKodokukyodai,
+  "ダンケシェーン": songDankeschon
 };
