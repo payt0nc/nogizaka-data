@@ -44,12 +44,14 @@ Edit and input raw data in `ts` files.
 TODO:
 
 - [ ] members
-  - [x] Main
+  - [x] main
   - [ ] photoAlbums shopping
   - [ ] profileImage
   - [ ] singleImages
 - [ ] songs
+  - [ ] main
   - [ ] creators
+  - [ ] musicVideos
 - [x] singles
 - [x] albums
 - [x] units
