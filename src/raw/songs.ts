@@ -4317,7 +4317,12 @@ const songGirlsrule: ISong = {
   musicVideo: "path",
   albums: [],
   type: SongType.Title,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["後藤康二"],
+    arrange: ["後藤康二"],
+    direct: ["柳沢翔"]
+  },
   performers: {
     center: [
       MemberNames.ShiraishiMai
@@ -4360,7 +4365,12 @@ const songSenpuki: ISong = {
   musicVideo: "path",
   albums: [],
   type: SongType.Under,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["角野寿和"],
+    arrange: ["野村陽一郎"],
+    direct: ["池田一真"]
+  },
   performers: {
     center: [MemberNames.SaitouAsuka],
     fukujin: undefined,
@@ -4392,6 +4402,179 @@ const songSenpuki: ISong = {
       MemberNames.HatanakaSeira,
       MemberNames.MiyazawaSeira
     ]
+  }
+};
+
+const songSekaideichiban: ISong = {
+  title: "世界で一番 孤独なLover",
+  single: "ガールズルール",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["河原嶺旭"],
+    arrange: ["百石元"],
+    direct: ["丸山健志"]
+  },
+  performers: {
+    center: [MemberNames.ShiraishiMai],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.MatsumuraSayuri,
+      MemberNames.ShiraishiMai,
+      MemberNames.HashimotoNanami
+    ],
+    secondRow: [
+      MemberNames.SakuraiReika,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.NishinoNanase,
+      MemberNames.TakayamaKazumi
+    ],
+    thirdRow: [
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.NakadaKana,
+      MemberNames.WakatsukiYumi,
+      MemberNames.HoshinoMinami,
+      MemberNames.AkimotoManatsu,
+      MemberNames.FukagawaMai,
+      MemberNames.SaitouYuuri
+    ],
+    fourthRow: []
+  }
+};
+
+const songKomoriyo: ISong = {
+  title: "コウモリよ",
+  single: "ガールズルール",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["南田健吾"],
+    arrange: ["高梨康治"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ShiraishiMai,
+      MemberNames.NakamotoHimeka,
+      MemberNames.NoujouAmi,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songHokanohoshikara: ISong = {
+  title: "他の星から",
+  single: "ガールズルール",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Sugaya Bros.", "松村PONY"],
+    arrange: ["Sugaya Bros."],
+    direct: ["岡川太郎"]
+  },
+  performers: {
+    center: [MemberNames.NishinoNanase],
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.SaitouYuuri,
+      MemberNames.SakuraiReika,
+      MemberNames.NakadaKana,
+      MemberNames.NishinoNanase,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const sonNingentoiugaki: ISong = {
+  title: "人間という楽器",
+  single: "ガールズルール",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.FirstGeneration,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["鐘撞行孝"],
+    arrange: ["TATOO"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.IchikiRena,
+      MemberNames.ItouNene,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.EtouMisa,
+      MemberNames.KashiwaYukina,
+      MemberNames.KawagoHina,
+      MemberNames.KawamuraMahiro,
+      MemberNames.SaitouAsuka,
+      MemberNames.SaitouChiharu,
+      MemberNames.SaitouYuuri,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NakadaKana,
+      MemberNames.NakamotoHimeka,
+      MemberNames.NagashimaSeira,
+      MemberNames.NishinoNanase,
+      MemberNames.NoujouAmi,
+      MemberNames.HashimotoNanami,
+      MemberNames.HatanakaSeira,
+      MemberNames.HiguchiHina,
+      MemberNames.FukagawaMai,
+      MemberNames.HoshinoMinami,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.MiyazawaSeira,
+      MemberNames.YamatoRina,
+      MemberNames.WakatsukiYumi,
+      MemberNames.WadaMaaya
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
   }
 };
 
@@ -4957,5 +5140,9 @@ export const songs = {
   "月の大きさ": songTsukinookisa,
   "私のために 誰かのために": songWatashinotameni,
   "そんなバカな…": songSonnabakana,
-  "やさしさとは": songYasashisatoha
+  "やさしさとは": songYasashisatoha,
+  "世界で一番 孤独なLover": songSekaideichiban,
+  "コウモリよ": songKomoriyo,
+  "他の星から": songHokanohoshikara,
+  "人間という楽器": sonNingentoiugaki
 };
