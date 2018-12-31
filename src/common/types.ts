@@ -20,7 +20,8 @@ export enum CdType {
   B = "B",
   C = "C",
   D = "D",
-  T = "T"
+  T = "T",
+  L = "Limited"
 }
 
 export enum BloodType {
