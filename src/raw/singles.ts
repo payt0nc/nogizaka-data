@@ -731,21 +731,21 @@ const taiyoknock: ISingle = {
     {
       number: 3,
       title: "魚たちのLOVE SONG",
-      inType: CdType.B,
+      inType: CdType.A,
       type: SongType.Unit,
       focusPerformers: undefined
     },
     {
       number: 4,
       title: "無表情",
-      inType: CdType.C,
+      inType: CdType.B,
       type: SongType.Unit,
       focusPerformers: undefined
     },
     {
       number: 5,
       title: "別れ際、もっと好きになる",
-      inType: CdType.A,
+      inType: CdType.C,
       type: SongType.Under,
       focusPerformers: undefined
     },
@@ -759,7 +759,7 @@ const taiyoknock: ISingle = {
     {
       number: 7,
       title: "制服を脱いでサヨナラを…",
-      inType: CdType.D,
+      inType: CdType.L,
       type: SongType.Unit,
       focusPerformers: undefined
     }
