@@ -1410,7 +1410,7 @@ const oideshampoo: ISingle = {
     },
     {
       number: 4,
-      title: "水玉模様?",
+      title: "水玉模様",
       inType: CdType.B,
       type: SongType.Solo,
       focusPerformers: undefined
