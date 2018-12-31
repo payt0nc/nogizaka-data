@@ -5365,11 +5365,14 @@ const songOideshampoo: ISong = {
   musicVideo: "path",
   albums: [],
   type: SongType.Title,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["小田切大"],
+    arrange: ["TATOO"],
+    direct: ["高橋栄樹"]
+  },
   performers: {
-    center: [
-      MemberNames.IkomaRina
-    ],
+    center: [MemberNames.IkomaRina],
     fukujin: FukujinType.RowOneTwo,
     solo: undefined,
     unit: undefined
@@ -5408,7 +5411,12 @@ const songOkaminikuchibuewo: ISong = {
   musicVideo: "path",
   albums: [],
   type: SongType.Under,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Akira Sunset"],
+    arrange: ["シライシ紗トリ"],
+    direct: ["福居英晃"]
+  },
   performers: {
     center: [MemberNames.ItouMarika],
     fukujin: undefined,
@@ -5441,6 +5449,161 @@ const songOkaminikuchibuewo: ISong = {
       MemberNames.NoujouAmi,
       MemberNames.WadaMaaya
     ]
+  }
+};
+
+const songKokoronokusuri: ISong = {
+  title: "心の薬",
+  single: "おいでシャンプー",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["MIKOTO"],
+    arrange: ["木之下慶行"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.IkomaRina],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.IchikiRena,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.IwaseYumiko,
+      MemberNames.SaitouYuuri,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NakadaKana,
+      MemberNames.NagashimaSeira,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami,
+      MemberNames.HatanakaSeira,
+      MemberNames.FukagawaMai,
+      MemberNames.HoshinoMinami,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.MiyazawaSeira,
+      MemberNames.YamatoRina
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songGuzenwoiiwakenishite: ISong = {
+  title: "偶然を言い訳にして",
+  single: "おいでシャンプー",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["坂部大介"],
+    arrange: ["中土智博"],
+    direct: ["中村太洸"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.HashimotoNanami,
+      MemberNames.MatsumuraSayuri
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songMizutamamoyo: ISong = {
+  title: "水玉模様",
+  single: "おいでシャンプー",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Solo,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["若田部誠"],
+    arrange: ["若田部誠"],
+    direct: ["丸山健志"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: MemberNames.IkomaRina,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [MemberNames.IkomaRina],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songHouse: ISong = {
+  title: "ハウス!",
+  single: "おいでシャンプー",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["y@suo ohtani"],
+    arrange: ["y@suo ohtani"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.IkomaRina],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.IchikiRena,
+      MemberNames.InoueSayuri,
+      MemberNames.IwaseYumiko,
+      MemberNames.EtouMisa,
+      MemberNames.KawamuraMahiro,
+      MemberNames.SaitouYuuri,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NakadaKana,
+      MemberNames.NishinoNanase,
+      MemberNames.NoujouAmi,
+      MemberNames.HashimotoNanami,
+      MemberNames.HatanakaSeira,
+      MemberNames.HoshinoMinami,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.MiyazawaSeira,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
   }
 };
 
@@ -5664,5 +5827,9 @@ export const songs = {
   "せっかちなかたつむり": songSekkachinakatatsumuri,
   "人はなぜ走るのか?": songHitohanazehashirunoka,
   "音が出ないギター": songOtogadenaiguitar,
-  "海流の島よ": songKairyunoshimayo
+  "海流の島よ": songKairyunoshimayo,
+  "心の薬": songKokoronokusuri,
+  "偶然を言い訳にして": songGuzenwoiiwakenishite,
+  "水玉模様": songMizutamamoyo,
+  "ハウス!": songHouse
 };
