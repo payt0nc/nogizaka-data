@@ -1283,32 +1283,32 @@ const seifukunomannequin: ISingle = {
     },
     {
       number: 3,
-      title: "春のメロディー",
+      title: "やさしさなら間に合ってる",
       inType: CdType.A,
-      type: SongType.Under,
+      type: SongType.Unit,
       focusPerformers: undefined
     },
     {
       number: 4,
-      title: "渋谷ブルース",
+      title: "ここじゃないどこか",
       inType: CdType.B,
       type: SongType.Unit,
       focusPerformers: undefined
     },
     {
       number: 5,
-      title: "ここじゃないどこか",
+      title: "春のメロディー",
       inType: CdType.C,
-      type: SongType.Unit,
+      type: SongType.Under,
       focusPerformers: undefined
     },
     {
       number: 6,
-      title: "やさしさなら間に合ってる",
+      title: "渋谷ブルース",
       inType: CdType.T,
       type: SongType.Unit,
       focusPerformers: undefined
-    }
+    },
   ],
   behindPerformers: {
     trainees: [],
