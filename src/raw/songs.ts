@@ -5091,7 +5091,12 @@ const songHashirebicycle: ISong = {
   musicVideo: "path",
   albums: [],
   type: SongType.Title,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Shusui", "伊藤涼", "木村篤史", "ヒロイズム"],
+    arrange: ["湯浅篤"],
+    direct: ["中島哲也"]
+  },
   performers: {
     center: [
       MemberNames.IkomaRina
@@ -5142,7 +5147,12 @@ const songNamidagamada: ISong = {
   musicVideo: "path",
   albums: [],
   type: SongType.Under,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["内田智之"],
+    arrange: ["TATOO"],
+    direct: ["関和亮"]
+  },
   performers: {
     center: [MemberNames.ItouNene],
     fukujin: undefined,
@@ -5175,6 +5185,174 @@ const songNamidagamada: ISong = {
       MemberNames.NakamotoHimeka,
       MemberNames.SaitouChiharu
     ]
+  }
+};
+
+const songSekkachinakatatsumuri: ISong = {
+  title: "せっかちなかたつむり",
+  single: "走れ!Bicycle",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["山本加津彦"],
+    arrange: ["湯浅篤"],
+    direct: ["中村太洸"]
+  },
+  performers: {
+    center: [MemberNames.MatsumuraSayuri],
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NakadaKana,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami,
+      MemberNames.FukagawaMai,
+      MemberNames.MatsumuraSayuri,
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songHitohanazehashirunoka: ISong = {
+  title: "人はなぜ走るのか?",
+  single: "走れ!Bicycle",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["キタムラタケシ", "田上陽一"],
+    arrange: ["田上陽一"],
+    direct: ["久保茂昭"]
+  },
+  performers: {
+    center: [MemberNames.IkomaRina],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.IchikiRena,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.KashiwaYukina,
+      MemberNames.SaitouChiharu,
+      MemberNames.SaitouYuuri,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NakadaKana,
+      MemberNames.NagashimaSeira,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami,
+      MemberNames.FukagawaMai,
+      MemberNames.HoshinoMinami,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.MiyazawaSeira,
+      MemberNames.YamatoRina,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songOtogadenaiguitar: ISong = {
+  title: "音が出ないギター",
+  single: "走れ!Bicycle",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Jam9", "ArmySlick"],
+    arrange: ["シライシ紗トリ"],
+    direct: ["丸山健志"]
+  },
+  performers: {
+    center: [MemberNames.IkomaRina],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.IchikiRena,
+      MemberNames.ItouNene,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.IwaseYumiko,
+      MemberNames.EtouMisa,
+      MemberNames.KawamuraMahiro,
+      MemberNames.SaitouYuuri,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NakadaKana,
+      MemberNames.NishinoNanase,
+      MemberNames.NoujouAmi,
+      MemberNames.HashimotoNanami,
+      MemberNames.FukagawaMai,
+      MemberNames.HoshinoMinami,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songKairyunoshimayo: ISong = {
+  title: "海流の島よ",
+  single: "走れ!Bicycle",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Akira Sunset"],
+    arrange: ["京田誠一"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.SaitouAsuka],
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AndouMikumo,
+      MemberNames.KawagoHina,
+      MemberNames.SaitouAsuka,
+      MemberNames.NakamotoHimeka,
+      MemberNames.HatanakaSeira,
+      MemberNames.HiguchiHina,
+      MemberNames.WadaMaaya
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
   }
 };
 
@@ -5482,5 +5660,9 @@ export const songs = {
   "指望遠鏡": songYubiboenkyo,
   "やさしさなら間に合ってる": songYasashisanaramaniatteru,
   "ここじゃないどこか": songKokojanaidokoka,
-  "渋谷ブルース": songShibuyablues
+  "渋谷ブルース": songShibuyablues,
+  "せっかちなかたつむり": songSekkachinakatatsumuri,
+  "人はなぜ走るのか?": songHitohanazehashirunoka,
+  "音が出ないギター": songOtogadenaiguitar,
+  "海流の島よ": songKairyunoshimayo
 };
