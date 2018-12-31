@@ -1463,32 +1463,32 @@ const gurugurucurtain: ISingle = {
     },
     {
       number: 3,
-      title: "会いたかったかもしれない",
+      title: "乃木坂の詩",
       inType: CdType.A,
       type: SongType.Coupling,
       focusPerformers: undefined
     },
     {
       number: 4,
-      title: "失いたくないから",
+      title: "会いたかったかもしれない",
       inType: CdType.B,
       type: SongType.Coupling,
       focusPerformers: undefined
     },
     {
       number: 5,
-      title: "白い雲にのって",
+      title: "失いたくないから",
       inType: CdType.C,
       type: SongType.Coupling,
       focusPerformers: undefined
     },
     {
       number: 6,
-      title: "乃木坂の詩",
+      title: "白い雲にのって",
       inType: CdType.T,
       type: SongType.Coupling,
       focusPerformers: undefined
-    }
+    },
   ],
   behindPerformers: {
     trainees: [],
