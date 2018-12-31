@@ -5616,11 +5616,14 @@ const songGurugurucurtain: ISong = {
   musicVideo: "path",
   albums: [],
   type: SongType.Title,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["黒須克彦"],
+    arrange: ["湯浅篤"],
+    direct: ["操上和美"]
+  },
   performers: {
-    center: [
-      MemberNames.IkomaRina
-    ],
+    center: [MemberNames.IkomaRina],
     fukujin: FukujinType.RowOneTwo,
     solo: undefined,
     unit: undefined
@@ -5659,7 +5662,12 @@ const songHidarimurenoyuki: ISong = {
   musicVideo: "path",
   albums: [],
   type: SongType.Under,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["小内喜文"],
+    arrange: ["佐々木裕"],
+    direct: []
+  },
   performers: {
     center: [MemberNames.HatanakaSeira],
     fukujin: undefined,
@@ -5688,6 +5696,214 @@ const songHidarimurenoyuki: ISong = {
       MemberNames.FukagawaMai,
       MemberNames.MiyazawaSeira,
     ],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songNogizakanouta: ISong = {
+  title: "乃木坂の詩",
+  single: "ぐるぐるカーテン",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["井手コウジ"],
+    arrange: ["井手コウジ"],
+    direct: ["南流石"]
+  },
+  performers: {
+    center: [MemberNames.IkomaRina],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AndouMikumo,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.IchikiRena,
+      MemberNames.ItouNene,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.IwaseYumiko,
+      MemberNames.EtouMisa,
+      MemberNames.KashiwaYukina,
+      MemberNames.KawagoHina,
+      MemberNames.KawamuraMahiro,
+      MemberNames.SaitouAsuka,
+      MemberNames.SaitouChiharu,
+      MemberNames.SaitouYuuri,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NagashimaSeira,
+      MemberNames.NakadaKana,
+      MemberNames.NakamotoHimeka,
+      MemberNames.NishinoNanase,
+      MemberNames.NoujouAmi,
+      MemberNames.HashimotoNanami,
+      MemberNames.HatanakaSeira,
+      MemberNames.HiguchiHina,
+      MemberNames.FukagawaMai,
+      MemberNames.HoshinoMinami,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.MiyazawaSeira,
+      MemberNames.YamatoRina,
+      MemberNames.WakatsukiYumi,
+      MemberNames.WadaMaaya
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songAitakattakamoshirenai: ISong = {
+  title: "会いたかったかもしれない",
+  single: "ぐるぐるカーテン",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["BOUNCEBACK", "MIKOTO"],
+    arrange: ["野中雄一"],
+    direct: ["久保茂昭"]
+  },
+  performers: {
+    center: [MemberNames.IkomaRina],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.IchikiRena,
+      MemberNames.ItouNene,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.EtouMisa,
+      MemberNames.KawamuraMahiro,
+      MemberNames.SaitouAsuka,
+      MemberNames.SaitouYuuri,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NakadaKana,
+      MemberNames.NishinoNanase,
+      MemberNames.NoujouAmi,
+      MemberNames.HashimotoNanami,
+      MemberNames.HoshinoMinami,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.MiyazawaSeira
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songUshinaitakunaikara: ISong = {
+  title: "失いたくないから",
+  single: "ぐるぐるカーテン",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["蛯原ランス"],
+    arrange: ["塩川満己"],
+    direct: ["丸山健志"]
+  },
+  performers: {
+    center: [
+      MemberNames.IkomaRina,
+      MemberNames.IkutaErika
+    ],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.IchikiRena,
+      MemberNames.InoueSayuri,
+      MemberNames.KawamuraMahiro,
+      MemberNames.SaitouAsuka,
+      MemberNames.SaitouYuuri,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NakadaKana,
+      MemberNames.NagashimaSeira,
+      MemberNames.NakamotoHimeka,
+      MemberNames.NishinoNanase,
+      MemberNames.NoujouAmi,
+      MemberNames.HashimotoNanami,
+      MemberNames.HatanakaSeira,
+      MemberNames.FukagawaMai,
+      MemberNames.HoshinoMinami,
+      MemberNames.MatsumuraSayuri
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songShiroikumoninotte: ISong = {
+  title: "白い雲にのって",
+  single: "ぐるぐるカーテン",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["太田美知彦"],
+    arrange: ["太田美知彦"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.IkomaRina],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AndouMikumo,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.IchikiRena,
+      MemberNames.InoueSayuri,
+      MemberNames.IwaseYumiko,
+      MemberNames.KawagoHina,
+      MemberNames.KawamuraMahiro,
+      MemberNames.SaitouAsuka,
+      MemberNames.SaitouChiharu,
+      MemberNames.SaitouYuuri,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NakadaKana,
+      MemberNames.NishinoNanase,
+      MemberNames.NoujouAmi,
+      MemberNames.HashimotoNanami,
+      MemberNames.HoshinoMinami,
+      MemberNames.MatsumuraSayuri
+    ],
+    secondRow: [],
     thirdRow: [],
     fourthRow: []
   }
@@ -5831,5 +6047,9 @@ export const songs = {
   "心の薬": songKokoronokusuri,
   "偶然を言い訳にして": songGuzenwoiiwakenishite,
   "水玉模様": songMizutamamoyo,
-  "ハウス!": songHouse
+  "ハウス!": songHouse,
+  "乃木坂の詩": songNogizakanouta,
+  "会いたかったかもしれない": songAitakattakamoshirenai,
+  "失いたくないから": songUshinaitakunaikara,
+  "白い雲にのって": songShiroikumoninotte
 };
