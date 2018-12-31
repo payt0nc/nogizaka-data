@@ -4587,11 +4587,14 @@ const songKiminonahakibo: ISong = {
   musicVideo: "path",
   albums: [],
   type: SongType.Title,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["杉山勝彦"],
+    arrange: ["杉山勝彦", "有木竜郎"],
+    direct: ["山下敦弘"]
+  },
   performers: {
-    center: [
-      MemberNames.IkomaRina
-    ],
+    center: [MemberNames.IkomaRina],
     fukujin: FukujinType.RowOneTwo,
     solo: undefined,
     unit: undefined
@@ -4630,7 +4633,12 @@ const songjusannichinokiyobi: ISong = {
   musicVideo: "path",
   albums: [],
   type: SongType.Under,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["網本ナオノブ"],
+    arrange: ["湯浅篤"],
+    direct: ["山田篤宏"]
+  },
   performers: {
     center: [MemberNames.SaitouYuuri],
     fukujin: undefined,
@@ -4661,6 +4669,169 @@ const songjusannichinokiyobi: ISong = {
       MemberNames.KawagoHina,
       MemberNames.MiyazawaSeira
     ],
+    fourthRow: []
+  }
+};
+
+const songShakism: ISong = {
+  title: "シャキイズム",
+  single: "君の名は希望",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["岡本健介"],
+    arrange: ["岡本健介"],
+    direct: ["柳沢翔"]
+  },
+  performers: {
+    center: [
+      MemberNames.IkomaRina,
+      MemberNames.HoshinoMinami
+    ],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.ItouNene,
+      MemberNames.InoueSayuri,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NakadaKana,
+      MemberNames.NagashimaSeira,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami,
+      MemberNames.FukagawaMai,
+      MemberNames.HoshinoMinami,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songRomanticIkayaki: ISong = {
+  title: "ロマンティックいか焼き",
+  single: "君の名は希望",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["横健介"],
+    arrange: ["重永亮介"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.ItouNene,
+      MemberNames.InoueSayuri,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NakadaKana,
+      MemberNames.NagashimaSeira,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami,
+      MemberNames.FukagawaMai,
+      MemberNames.HoshinoMinami,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songDekopin: ISong = {
+  title: "でこぴん",
+  single: "君の名は希望",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["中土智博"],
+    arrange: ["中土智博"],
+    direct: ["中村太洸"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.HashimotoNanami,
+      MemberNames.FukagawaMai,
+      MemberNames.MatsumuraSayuri
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songPsychokineses: ISong = {
+  title: "サイコキネシスの可能性",
+  single: "君の名は希望",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["中土智博"],
+    arrange: ["中土智博"],
+    direct: ["中村太洸"]
+  },
+  performers: {
+    center: [
+      MemberNames.SakuraiReika,
+      MemberNames.NishinoNanase
+    ],
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.ItouNene,
+      MemberNames.InoueSayuri,
+      MemberNames.SakuraiReika,
+      MemberNames.NakadaKana,
+      MemberNames.NagashimaSeira,
+      MemberNames.NishinoNanase,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
     fourthRow: []
   }
 };
@@ -5144,5 +5315,9 @@ export const songs = {
   "世界で一番 孤独なLover": songSekaideichiban,
   "コウモリよ": songKomoriyo,
   "他の星から": songHokanohoshikara,
-  "人間という楽器": sonNingentoiugaki
+  "人間という楽器": sonNingentoiugaki,
+  "シャキイズム": songShakism,
+  "ロマンティックいか焼き": songRomanticIkayaki,
+  "でこぴん": songDekopin,
+  "サイコキネシスの可能性": songPsychokineses
 };
