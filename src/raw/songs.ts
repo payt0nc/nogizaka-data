@@ -4845,7 +4845,12 @@ const songSeifukunomannequin: ISong = {
   musicVideo: "path",
   albums: [],
   type: SongType.Title,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["杉山勝彦"],
+    arrange: ["百石元"],
+    direct: ["池田一真"]
+  },
   performers: {
     center: [
       MemberNames.IkomaRina
@@ -4888,7 +4893,12 @@ const songHarunomelody: ISong = {
   musicVideo: "path",
   albums: [],
   type: SongType.Under,
-  creators: undefined,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["フジノタカフミ"],
+    arrange: ["湯浅篤"],
+    direct: ["柿本ケンサク"]
+  },
   performers: {
     center: [MemberNames.NakadaKana],
     fukujin: undefined,
@@ -4923,6 +4933,155 @@ const songHarunomelody: ISong = {
     ]
   }
 };
+
+const songYubiboenkyo: ISong = {
+  title: "指望遠鏡",
+  single: "制服のマネキン",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["北室龍馬"],
+    arrange: ["木村有希"],
+    direct: ["丸山健志"]
+  },
+  performers: {
+    center: [
+      MemberNames.IkomaRina
+    ],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.HoshinoMinami
+    ],
+    secondRow: [
+      MemberNames.ShiraishiMai,
+      MemberNames.HashimotoNanami,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.SakuraiReika,
+      MemberNames.AkimotoManatsu
+    ],
+    thirdRow: [
+      MemberNames.NoujouAmi,
+      MemberNames.SaitouAsuka,
+      MemberNames.WakatsukiYumi,
+      MemberNames.InoueSayuri,
+      MemberNames.FukagawaMai,
+      MemberNames.IchikiRena,
+      MemberNames.NishinoNanase,
+      MemberNames.TakayamaKazumi
+    ],
+    fourthRow: []
+  }
+};
+
+const songYasashisanaramaniatteru: ISong = {
+  title: "やさしさなら間に合ってる",
+  single: "制服のマネキン",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["松田純一"],
+    arrange: ["清水武仁"],
+    direct: []
+  },
+  performers: {
+    center: [
+      MemberNames.TakayamaKazumi,
+      MemberNames.NoujouAmi
+    ],
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IchikiRena,
+      MemberNames.InoueSayuri,
+      MemberNames.SaitouAsuka,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NishinoNanase,
+      MemberNames.NoujouAmi,
+      MemberNames.FukagawaMai,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songKokojanaidokoka: ISong = {
+  title: "ここじゃないどこか",
+  single: "制服のマネキン",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["大藤史"],
+    arrange: ["京田誠一"],
+    direct: ["岡川太郎"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.HoshinoMinami
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songShibuyablues: ISong = {
+  title: "渋谷ブルース",
+  single: "制服のマネキン",
+  artwork: "path",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["佐藤嘉風"],
+    arrange: ["佐藤嘉風"],
+    direct: ["丸山健志"]
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
 // 3rd single
 
 const songHashirebicycle: ISong = {
@@ -5319,5 +5478,9 @@ export const songs = {
   "シャキイズム": songShakism,
   "ロマンティックいか焼き": songRomanticIkayaki,
   "でこぴん": songDekopin,
-  "サイコキネシスの可能性": songPsychokineses
+  "サイコキネシスの可能性": songPsychokineses,
+  "指望遠鏡": songYubiboenkyo,
+  "やさしさなら間に合ってる": songYasashisanaramaniatteru,
+  "ここじゃないどこか": songKokojanaidokoka,
+  "渋谷ブルース": songShibuyablues
 };
