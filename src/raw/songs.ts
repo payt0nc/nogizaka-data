@@ -2495,7 +2495,7 @@ const songYuutsutofusengamu: ISong = {
   artwork: "path",
   musicVideo: "path",
   albums: [],
-  type: SongType.Solo,
+  type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
     compose: ["HIROTOMO", "Dr.Lilcom"],
