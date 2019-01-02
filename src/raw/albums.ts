@@ -574,7 +574,7 @@ const sorezorenoisu: IAlbum = {
 const tomeinairo: IAlbum = {
   title: "透明な色",
   number: 1,
-  release: "20165-01-27",
+  release: "2015-01-27",
   shopping: [
     {
       title: "iTunes",
