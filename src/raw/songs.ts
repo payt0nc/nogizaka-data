@@ -1,5 +1,6 @@
 import { FukujinType, MemberNames, SongType } from "../common/types";
 import { ISong } from "../types/song";
+import { members } from "./members";
 
 // SINGLE SONGS
 
@@ -2273,7 +2274,7 @@ const songIkuatenonaibokutachi: ISong = {
 const songHarujion: ISong = {
   title: "ハルジオンが咲く頃",
   single: "ハルジオンが咲く頃",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Title,
@@ -2322,7 +2323,7 @@ const songHarujion: ISong = {
 const songFutogo: ISong = {
   title: "不等号",
   single: "ハルジオンが咲く頃",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -2371,7 +2372,7 @@ const songFutogo: ISong = {
 const songHarukanarubhutan: ISong = {
   title: "遥かなるブータン",
   single: "ハルジオンが咲く頃",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Unit,
@@ -2434,7 +2435,7 @@ const songTsuyogarutsubomi: ISong = {
 const songKyushamen: ISong = {
   title: "急斜面",
   single: "ハルジオンが咲く頃",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Unit,
@@ -2494,7 +2495,7 @@ const songTsuribori: ISong = {
 const songYuutsutofusengamu: ISong = {
   title: "憂鬱と風船ガム",
   single: "ハルジオンが咲く頃",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Unit,
@@ -2530,7 +2531,7 @@ const songYuutsutofusengamu: ISong = {
 const songHanashitaidarekagairu: ISong = {
   title: "今、話したい誰かがいる",
   single: "今、話したい誰かがいる",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Title,
@@ -2579,7 +2580,7 @@ const songHanashitaidarekagairu: ISong = {
 const songShittonokenri: ISong = {
   title: "嫉妬の権利",
   single: "今、話したい誰かがいる",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Coupling,
@@ -2633,7 +2634,7 @@ const songShittonokenri: ISong = {
 const songPopipappapa: ISong = {
   title: "ポピパッパパー",
   single: "今、話したい誰かがいる",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Coupling,
@@ -2682,7 +2683,7 @@ const songPopipappapa: ISong = {
 const songOtonahenochikamichi: ISong = {
   title: "大人への近道",
   single: "今、話したい誰かがいる",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Unit,
@@ -2715,7 +2716,7 @@ const songOtonahenochikamichi: ISong = {
 const songKanashiminowasurekata: ISong = {
   title: "悲しみの忘れ方",
   single: "今、話したい誰かがいる",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Coupling,
@@ -2761,7 +2762,7 @@ const songKanashiminowasurekata: ISong = {
 const songSukima: ISong = {
   title: "隙間",
   single: "今、話したい誰かがいる",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Unit,
@@ -2798,7 +2799,7 @@ const songSukima: ISong = {
 const songTaiyoknock: ISong = {
   title: "太陽ノック",
   single: "太陽ノック",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Title,
@@ -2848,7 +2849,7 @@ const songTaiyoknock: ISong = {
 const songWakaregiwa: ISong = {
   title: "別れ際、もっと好きになる",
   single: "太陽ノック",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -2957,7 +2958,7 @@ const songSakanatachinolovesong: ISong = {
 const songMuhyojo: ISong = {
   title: "無表情",
   single: "太陽ノック",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Unit,
@@ -2987,7 +2988,7 @@ const songMuhyojo: ISong = {
 const songHanenokioku: ISong = {
   title: "羽根の記憶",
   single: "太陽ノック",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Coupling,
@@ -3033,7 +3034,7 @@ const songHanenokioku: ISong = {
 const songSeifukuwonuide: ISong = {
   title: "制服を脱いでサヨナラを…",
   single: "太陽ノック",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Unit,
@@ -3065,7 +3066,7 @@ const songSeifukuwonuide: ISong = {
 const songInochihautsukushii: ISong = {
   title: "命は美しい",
   single: "命は美しい",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Title,
@@ -3115,7 +3116,7 @@ const songInochihautsukushii: ISong = {
 const songKimihabokuto: ISong = {
   title: "君は僕と会わない方がよかったのかな",
   single: "命は美しい",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -3159,7 +3160,7 @@ const songKimihabokuto: ISong = {
 const songArakajimeromance: ISong = {
   title: "あらかじめ語られるロマンス",
   single: "命は美しい",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Unit,
@@ -3196,7 +3197,7 @@ const songArakajimeromance: ISong = {
 const songTachinaorichu: ISong = {
   title: "立ち直り中",
   single: "命は美しい",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Unit,
@@ -3894,7 +3895,7 @@ const songUmaretamamade: ISong = {
 const songRomancenostart: ISong = {
   title: "ロマンスのスタート",
   single: "気づいたら片想い",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Coupling,
@@ -4228,7 +4229,7 @@ const songWatashinotameni: ISong = {
 const songSonnabakana: ISong = {
   title: "そんなバカな…",
   single: "バレッタ",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Coupling,
@@ -4678,7 +4679,7 @@ const songjusannichinokiyobi: ISong = {
 const songShakism: ISong = {
   title: "シャキイズム",
   single: "君の名は希望",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Coupling,
@@ -4725,7 +4726,7 @@ const songShakism: ISong = {
 const songRomanticIkayaki: ISong = {
   title: "ロマンティックいか焼き",
   single: "君の名は希望",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Coupling,
@@ -5564,7 +5565,7 @@ const songMizutamamoyo: ISong = {
 const songHouse: ISong = {
   title: "ハウス!",
   single: "おいでシャンプー",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Coupling,
@@ -5706,7 +5707,7 @@ const songHidarimurenoyuki: ISong = {
 const songNogizakanouta: ISong = {
   title: "乃木坂の詩",
   single: "ぐるぐるカーテン",
-  albums: [],
+  albums: ["それぞれの椅子"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Coupling,
@@ -5920,6 +5921,383 @@ const songShiroikumoninotte: ISong = {
 // 3rd album songs
 
 // 2nd album songs
+
+const songKikkake: ISong = {
+  title: "きっかけ",
+  single: undefined,
+  albums: ["それぞれの椅子"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["杉山勝彦"],
+    arrange: ["杉山勝彦", "有木竜郎"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.EtouMisa,
+      MemberNames.SaitouAsuka,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songTaiyonikudokarete: ISong = {
+  title: "太陽に口説かれて",
+  single: undefined,
+  albums: ["それぞれの椅子"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["フジノタカフミ"],
+    arrange: ["フジノタカフミ"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.EtouMisa,
+      MemberNames.SaitouAsuka,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songYokubonoReincarnation: ISong = {
+  title: "欲望のリインカーネーション",
+  single: undefined,
+  albums: ["それぞれの椅子"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Under,
+  creators: {
+    lyrics: ["秋元康", "本山清治"],
+    compose: ["渡辺未来"],
+    arrange: ["渡辺未来"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.KawagoHina,
+      MemberNames.KawamuraMahiro,
+      MemberNames.SaitouChiharu,
+      MemberNames.SaitouYuuri,
+      MemberNames.NakadaKana,
+      MemberNames.NakamotoHimeka,
+      MemberNames.NoujouAmi,
+      MemberNames.HiguchiHina,
+      MemberNames.WadaMaaya
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songKukikan: ISong = {
+  title: "空気感",
+  single: undefined,
+  albums: ["それぞれの椅子"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["DR QUEENBEE"],
+    arrange: ["DR QUEENBEE"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.EtouMisa,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.HashimotoNanami,
+      MemberNames.MatsumuraSayuri
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songKogoseikibo: ISong = {
+  title: "光合成希望",
+  single: undefined,
+  albums: ["それぞれの椅子"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Solo,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["吉田博"],
+    arrange: ["野中\"まさ\"雄一"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: MemberNames.NishinoNanase,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.NishinoNanase
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songThreefoldchoice: ISong = {
+  title: "Threefold choice",
+  single: undefined,
+  albums: ["それぞれの椅子"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["古川貴浩"],
+    arrange: ["古川貴浩"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.SaitouAsuka,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songTeitaionnokisu: ISong = {
+  title: "低体温のキス",
+  single: undefined,
+  albums: ["それぞれの椅子"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Solo,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["中谷あつこ"],
+    arrange: ["田上陽一"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: MemberNames.IkutaErika,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [MemberNames.IkutaErika],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songShitsurenshitara: ISong = {
+  title: "失恋したら、顔を洗え!",
+  single: undefined,
+  albums: ["それぞれの椅子"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["さいとうくにあき"],
+    arrange: ["内田充"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: "乃木團"
+  },
+  formations: {
+    firstRow: [
+      MemberNames.NakamotoHimeka,
+      MemberNames.NoujouAmi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songKakigorinokataomoi: ISong = {
+  title: "かき氷の片想い",
+  single: undefined,
+  albums: ["それぞれの椅子"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.SecondGeneration,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["白須賀悟"],
+    arrange: ["白須賀悟"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ItouKarin,
+      MemberNames.ItouJunna,
+      MemberNames.KitanoHinako,
+      MemberNames.SagaraIori,
+      MemberNames.SasakiKotoko,
+      MemberNames.ShinuchiMai,
+      MemberNames.SuzukiAyane,
+      MemberNames.TeradaRanze,
+      MemberNames.HoriMiona,
+      MemberNames.YamazakiRena,
+      MemberNames.WatanabeMiria
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songKanjorokugosen: ISong = {
+  title: "環状六号線",
+  single: undefined,
+  albums: ["それぞれの椅子"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["サイトウリョースケ"],
+    arrange: ["サイトウリョースケ"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: "犬メン"
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkomaRina,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songKuchiyakusoku: ISong = {
+  title: "口約束",
+  single: undefined,
+  albums: ["それぞれの椅子"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Amber"],
+    arrange: ["若田部誠"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: "女子校カルテット"
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.SakuraiReika,
+      MemberNames.NakadaKana,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
 
 // 1st album songs
 
@@ -6363,5 +6741,16 @@ export const songs = {
   "傾斜する": songKeishasuru,
   "なぞの落書き": songNazonorakugaki,
   "自由の彼方": songJiyunokanata,
-  "ひとりよがり": songHitoriyogari
+  "ひとりよがり": songHitoriyogari,
+  "きっかけ": songKikkake,
+  "太陽に口説かれて": songTaiyonikudokarete,
+  "欲望のリインカーネーション": songYokubonoReincarnation,
+  "空気感": songKukikan,
+  "光合成希望": songKogoseikibo,
+  "Threefold choice": songThreefoldchoice,
+  "低体温のキス": songTeitaionnokisu,
+  "失恋したら、顔を洗え!": songShitsurenshitara,
+  "かき氷の片想い": songKakigorinokataomoi,
+  "環状六号線": songKanjorokugosen,
+  "口約束": songKuchiyakusoku
 };
