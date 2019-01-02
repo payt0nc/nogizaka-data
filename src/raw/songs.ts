@@ -1,6 +1,8 @@
 import { FukujinType, MemberNames, SongType } from "../common/types";
 import { ISong } from "../types/song";
 
+// SINGLE SONGS
+
 // 22nd single
 
 const songKaerimichi: ISong = {
@@ -5909,6 +5911,308 @@ const songShiroikumoninotte: ISong = {
   }
 };
 
+// ALBUM SONGS
+// NOTE: Songs below are album-only songs (which means
+// the songs didn't appear in singles).
+
+// 4th album songs
+
+// 3rd album songs
+
+// 2nd album songs
+
+// 1st album songs
+
+const songDarekahamikata: ISong = {
+  title: "誰かは味方",
+  single: undefined,
+  artwork: "透明な色",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["宮坂聡彦"],
+    arrange: ["佐々木裕"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.EtouMisa,
+      MemberNames.SakuraiReika,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songKakumeinouma: ISong = {
+  title: "革命の馬",
+  single: undefined,
+  artwork: "透明な色",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["伊勢佳史"],
+    arrange: ["伊勢佳史"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.HashimotoNanami,
+      MemberNames.FukagawaMai,
+      MemberNames.MatsumuraSayuri
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songBokugairubasho: ISong = {
+  title: "僕がいる場所",
+  single: undefined,
+  artwork: "透明な色",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["杉山勝彦"],
+    arrange: ["杉山勝彦", "有木竜郎"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.IkutaErika],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.EtouMisa,
+      MemberNames.SaitouChiharu,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.NishinoNanase,
+      MemberNames.HashimotoNanami,
+      MemberNames.FukagawaMai,
+      MemberNames.HoriMiona,
+      MemberNames.HoshinoMinami,
+      MemberNames.MatsuiRena,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songAnatanotamenihikitai: ISong = {
+  title: "あなたのために弾きたい",
+  single: undefined,
+  artwork: "透明な色",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Solo,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["近藤圭一"],
+    arrange: ["樫原伸彦"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: MemberNames.IkutaErika,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [MemberNames.IkutaErika],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songKeishasuru: ISong = {
+  title: "傾斜する",
+  single: undefined,
+  artwork: "透明な色",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["須藤哲平", "長谷川湊"],
+    arrange: ["佐々木裕"],
+    direct: []
+  },
+  performers: {
+    center: ["kojimaharuna"],
+    fukujin: undefined,
+    solo: undefined,
+    unit: "こじ坂46"
+  },
+  formations: {
+    firstRow: [
+      "kojimaharuna",
+      MemberNames.IkomaRina,
+      MemberNames.ItouJunna,
+      MemberNames.KawagoHina,
+      MemberNames.KawamuraMahiro,
+      MemberNames.SaitouYuuri,
+      MemberNames.SagaraIori,
+      MemberNames.SasakiKotoko,
+      MemberNames.SuzukiAyane,
+      MemberNames.TeradaRanze,
+      MemberNames.NakadaKana,
+      MemberNames.NagashimaSeira,
+      MemberNames.NoujouAmi,
+      MemberNames.YamazakiRena,
+      MemberNames.WatanabeMiria,
+      MemberNames.WadaMaaya
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songNazonorakugaki: ISong = {
+  title: "なぞの落書き",
+  single: undefined,
+  artwork: "透明な色",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["片桐周太郎"],
+    arrange: ["野中\"まさ\"雄一"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.SaitouAsuka,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songJiyunokanata: ISong = {
+  title: "自由の彼方",
+  single: undefined,
+  artwork: "透明な色",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Under,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["山田智和"],
+    arrange: ["住谷翔平"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.InoueSayuri],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ItouKarin,
+      MemberNames.ItouJunna,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.KawamuraMahiro,
+      MemberNames.KawagoHina,
+      MemberNames.KitanoHinako,
+      MemberNames.SaitouAsuka,
+      MemberNames.SaitouYuuri,
+      MemberNames.SagaraIori,
+      MemberNames.SasakiKotoko,
+      MemberNames.ShinuchiMai,
+      MemberNames.SuzukiAyane,
+      MemberNames.TeradaRanze,
+      MemberNames.NakadaKana,
+      MemberNames.NagashimaSeira,
+      MemberNames.NakamotoHimeka,
+      MemberNames.NoujouAmi,
+      MemberNames.HatanakaSeira,
+      MemberNames.HiguchiHina,
+      MemberNames.YamazakiRena,
+      MemberNames.YamatoRina,
+      MemberNames.WatanabeMiria,
+      MemberNames.WadaMaaya
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songHitoriyogari: ISong = {
+  title: "ひとりよがり",
+  single: undefined,
+  artwork: "透明な色",
+  musicVideo: "path",
+  albums: [],
+  type: SongType.Solo,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["杉山勝彦"],
+    arrange: ["杉山勝彦", "有木竜郎"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: MemberNames.NishinoNanase,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [MemberNames.NishinoNanase],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
 export const songs = {
   "帰り道は遠回りしたくなる": songKaerimichi,
   "ジコチューで行こう!": songJikochu,
@@ -6051,5 +6355,13 @@ export const songs = {
   "乃木坂の詩": songNogizakanouta,
   "会いたかったかもしれない": songAitakattakamoshirenai,
   "失いたくないから": songUshinaitakunaikara,
-  "白い雲にのって": songShiroikumoninotte
+  "白い雲にのって": songShiroikumoninotte,
+  "誰かは味方": songDarekahamikata,
+  "革命の馬": songKakumeinouma,
+  "僕がいる場所": songBokugairubasho,
+  "あなたのために弾きたい": songAnatanotamenihikitai,
+  "傾斜する": songKeishasuru,
+  "なぞの落書き": songNazonorakugaki,
+  "自由の彼方": songJiyunokanata,
+  "ひとりよがり": songHitoriyogari
 };
