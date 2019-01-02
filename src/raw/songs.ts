@@ -8,9 +8,9 @@ import { ISong } from "../types/song";
 const songKaerimichi: ISong = {
   title: "帰り道は遠回りしたくなる",
   single: "帰り道は遠回りしたくなる",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
@@ -59,9 +59,9 @@ const songKaerimichi: ISong = {
 const songNichijo: ISong = {
   title: "日常",
   single: "帰り道は遠回りしたくなる",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
@@ -107,9 +107,9 @@ const songNichijo: ISong = {
 const songKyaraban: ISong = {
   title: "キャラバンは眠らない",
   single: "帰り道は遠回りしたくなる",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -151,9 +151,9 @@ const songKyaraban: ISong = {
 const songTsuduku: ISong = {
   title: "つづく",
   single: "帰り道は遠回りしたくなる",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Solo,
   creators: {
     lyrics: ["秋元康"],
@@ -180,9 +180,9 @@ const songTsuduku: ISong = {
 const songKokuhakunojunban: ISong = {
   title: "告白の順番",
   single: "帰り道は遠回りしたくなる",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -212,9 +212,9 @@ const songKokuhakunojunban: ISong = {
 const songChopinnousotsuki: ISong = {
   title: "ショパンの嘘つき",
   single: "帰り道は遠回りしたくなる",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -243,9 +243,9 @@ const songChopinnousotsuki: ISong = {
 const songShiritaikoto: ISong = {
   title: "知りたいこと",
   single: "帰り道は遠回りしたくなる",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -277,9 +277,9 @@ const songShiritaikoto: ISong = {
 const songJikochu: ISong = {
   title: "ジコチューで行こう!",
   single: "ジコチューで行こう!",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
@@ -328,9 +328,9 @@ const songJikochu: ISong = {
 const songSankakunoakichi: ISong = {
   title: "三角の空き地",
   single: "ジコチューで行こう!",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
@@ -376,9 +376,9 @@ const songSankakunoakichi: ISong = {
 const songSoratobira: ISong = {
   title: "空扉",
   single: "ジコチューで行こう!",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -421,9 +421,9 @@ const songSoratobira: ISong = {
 const songJibunjanaikanji: ISong = {
   title: "自分じゃない感じ",
   single: "ジコチューで行こう!",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.ThirdGeneration,
   creators: {
     lyrics: ["秋元康"],
@@ -460,9 +460,9 @@ const songJibunjanaikanji: ISong = {
 const songKokoronomonologue: ISong = {
   title: "心のモノローグ",
   single: "ジコチューで行こう!",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -490,9 +490,9 @@ const songKokoronomonologue: ISong = {
 const songChikyugamaruinara: ISong = {
   title: "地球が丸いなら",
   single: "ジコチューで行こう!",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -521,9 +521,9 @@ const songChikyugamaruinara: ISong = {
 const songAnnanisukidattanoni: ISong = {
   title: "あんなに好きだったのに・・・",
   single: "ジコチューで行こう!",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -574,9 +574,9 @@ const songAnnanisukidattanoni: ISong = {
 const songSyncronicity: ISong = {
   title: "シンクロニシティ",
   single: "シンクロニシティ",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
@@ -625,9 +625,9 @@ const songSyncronicity: ISong = {
 const songAtarashiisekai: ISong = {
   title: "新しい世界",
   single: "シンクロニシティ",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
@@ -676,9 +676,9 @@ const songAtarashiisekai: ISong = {
 const songAgainst: ISong = {
   title: "Against",
   single: "シンクロニシティ",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.FirstGeneration,
   creators: {
     lyrics: ["秋元康"],
@@ -724,9 +724,9 @@ const songAgainst: ISong = {
 const songKumoninarebaii: ISong = {
   title: "雲になればいい",
   single: "シンクロニシティ",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -755,9 +755,9 @@ const songKumoninarebaii: ISong = {
 const songScoutman: ISong = {
   title: "スカウトマン",
   single: "シンクロニシティ",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.SecondGeneration,
   creators: {
     lyrics: ["秋元康"],
@@ -793,9 +793,9 @@ const songScoutman: ISong = {
 const songTokitokimekimeki: ISong = {
   title: "トキトキメキメキ",
   single: "シンクロニシティ",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.ThirdGeneration,
   creators: {
     lyrics: ["秋元康"],
@@ -833,9 +833,9 @@ const songTokitokimekimeki: ISong = {
 const songKotodamaho: ISong = {
   title: "トキトキメキメキ",
   single: "シンクロニシティ",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -867,9 +867,9 @@ const songKotodamaho: ISong = {
 const songItsukadekirukara: ISong = {
   title: "いつかできるから今日できる",
   single: "いつかできるから今日できる",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
@@ -919,9 +919,9 @@ const songItsukadekirukara: ISong = {
 const songMyrule: ISong = {
   title: "My rule",
   single: "いつかできるから今日できる",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
@@ -963,9 +963,9 @@ const songMyrule: ISong = {
 const songFumensho: ISong = {
   title: "不眠症",
   single: "いつかできるから今日できる",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -1011,9 +1011,9 @@ const songFumensho: ISong = {
 const songMaaiika: ISong = {
   title: "まあいいか?",
   single: "いつかできるから今日できる",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -1041,9 +1041,9 @@ const songMaaiika: ISong = {
 const songShitsurenosojinin: ISong = {
   title: "失恋お掃除人",
   single: "いつかできるから今日できる",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -1073,9 +1073,9 @@ const songShitsurenosojinin: ISong = {
 const songBokunoshodo: ISong = {
   title: "僕の衝動",
   single: "いつかできるから今日できる",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.ThirdGeneration,
   creators: {
     lyrics: ["秋元康"],
@@ -1112,9 +1112,9 @@ const songBokunoshodo: ISong = {
 const songAtarashiikafun: ISong = {
   title: "新しい花粉 〜ミュージカル「見知らぬ世界」より〜",
   single: "いつかできるから今日できる",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.ThirdGeneration,
   creators: {
     lyrics: ["秋元康"],
@@ -1144,9 +1144,9 @@ const songAtarashiikafun: ISong = {
 const songNigemizu: ISong = {
   title: "逃げ水",
   single: "逃げ水",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
@@ -1195,9 +1195,9 @@ const songNigemizu: ISong = {
 const songUnder: ISong = {
   title: "アンダー",
   single: "逃げ水",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
@@ -1246,9 +1246,9 @@ const songUnder: ISong = {
 const songOnnahahitorija: ISong = {
   title: "女は一人じゃ眠れない",
   single: "逃げ水",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -1295,9 +1295,9 @@ const songOnnahahitorija: ISong = {
 const songHitonatsu: ISong = {
   title: "ひと夏の長さより…",
   single: "逃げ水",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -1344,9 +1344,9 @@ const songHitonatsu: ISong = {
 const songLiveshin: ISong = {
   title: "ライブ神",
   single: "逃げ水",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.SecondGeneration,
   creators: {
     lyrics: ["秋元康"],
@@ -1385,9 +1385,9 @@ const songLiveshin: ISong = {
 const songMirainokotae: ISong = {
   title: "未来の答え",
   single: "逃げ水",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.ThirdGeneration,
   creators: {
     lyrics: ["秋元康"],
@@ -1430,9 +1430,9 @@ const songMirainokotae: ISong = {
 const songNaidatteii: ISong = {
   title: "未来の答え",
   single: "逃げ水",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.ThirdGeneration,
   creators: {
     lyrics: ["秋元康"],
@@ -1478,9 +1478,9 @@ const songNaidatteii: ISong = {
 const songInfluencer: ISong = {
   title: "インフルエンサー",
   single: "インフルエンサー",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
@@ -1532,9 +1532,9 @@ const songInfluencer: ISong = {
 const songFusenhaikiteiru: ISong = {
   title: "風船は生きている",
   single: "インフルエンサー",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
@@ -1574,9 +1574,9 @@ const songFusenhaikiteiru: ISong = {
 const songJinseiwokangae: ISong = {
   title: "人生を考えたくなる",
   single: "インフルエンサー",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -1606,9 +1606,9 @@ const songJinseiwokangae: ISong = {
 const songIgaibreak: ISong = {
   title: "意外BREAK",
   single: "インフルエンサー",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -1638,9 +1638,9 @@ const songIgaibreak: ISong = {
 const songAnotherghost: ISong = {
   title: "Another Ghost",
   single: "インフルエンサー",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -1669,9 +1669,9 @@ const songAnotherghost: ISong = {
 const songSanbanmenokaze: ISong = {
   title: "三番目の風",
   single: "インフルエンサー",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.ThirdGeneration,
   creators: {
     lyrics: ["秋元康"],
@@ -1711,9 +1711,9 @@ const songSanbanmenokaze: ISong = {
 const songAtarisawarinonai: ISong = {
   title: "当たり障りのない話",
   single: "インフルエンサー",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -1745,9 +1745,9 @@ const songAtarisawarinonai: ISong = {
 const songSayonaranoimi: ISong = {
   title: "サヨナラの意味",
   single: "サヨナラの意味",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
@@ -1796,9 +1796,9 @@ const songSayonaranoimi: ISong = {
 const songBulanko: ISong = {
   title: "ブランコ",
   single: "サヨナラの意味",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
@@ -1842,9 +1842,9 @@ const songBulanko: ISong = {
 const songKodokunaaozora: ISong = {
   title: "孤独な青空",
   single: "サヨナラの意味",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -1889,9 +1889,9 @@ const songKodokunaaozora: ISong = {
 const songAnokyoshitsu: ISong = {
   title: "あの教室",
   single: "サヨナラの意味",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -1919,9 +1919,9 @@ const songAnokyoshitsu: ISong = {
 const songNidomenokisukara: ISong = {
   title: "2度目のキスから",
   single: "サヨナラの意味",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -1951,9 +1951,9 @@ const songNidomenokisukara: ISong = {
 const songKiminiokuruhana: ISong = {
   title: "君に贈る花がない",
   single: "サヨナラの意味",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -1984,9 +1984,9 @@ const songKiminiokuruhana: ISong = {
 const songNaimononetari: ISong = {
   title: "ないものねだり",
   single: "サヨナラの意味",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Solo,
   creators: {
     lyrics: ["秋元康"],
@@ -2015,9 +2015,9 @@ const songNaimononetari: ISong = {
 const songHadashidesummer: ISong = {
   title: "裸足でSummer",
   single: "裸足でSummer",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
@@ -2063,9 +2063,9 @@ const songHadashidesummer: ISong = {
 const songSecretGravity: ISong = {
   title: "シークレットグラフィティー",
   single: "裸足でSummer",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
@@ -2112,9 +2112,9 @@ const songSecretGravity: ISong = {
 const songBokudakenohikari: ISong = {
   title: "僕だけの光",
   single: "裸足でSummer",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -2156,9 +2156,9 @@ const songBokudakenohikari: ISong = {
 const songOffshoregirl: ISong = {
   title: "オフショアガール",
   single: "裸足でSummer",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Solo,
   creators: {
     lyrics: ["秋元康"],
@@ -2183,9 +2183,9 @@ const songOffshoregirl: ISong = {
 const songInochinoshinjitsu: ISong = {
   title: "命の真実 ミュージカル「林檎売りとカメムシ」",
   single: "裸足でSummer",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Solo,
   creators: {
     lyrics: ["秋元康"],
@@ -2210,9 +2210,9 @@ const songInochinoshinjitsu: ISong = {
 const songHakumaisama: ISong = {
   title: "白米様",
   single: "裸足でSummer",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -2241,9 +2241,9 @@ const songHakumaisama: ISong = {
 const songIkuatenonaibokutachi: ISong = {
   title: "行くあてのない僕たち",
   single: "裸足でSummer",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -2273,9 +2273,9 @@ const songIkuatenonaibokutachi: ISong = {
 const songHarujion: ISong = {
   title: "ハルジオンが咲く頃",
   single: "ハルジオンが咲く頃",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
@@ -2322,9 +2322,9 @@ const songHarujion: ISong = {
 const songFutogo: ISong = {
   title: "不等号",
   single: "ハルジオンが咲く頃",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
@@ -2371,9 +2371,9 @@ const songFutogo: ISong = {
 const songHarukanarubhutan: ISong = {
   title: "遥かなるブータン",
   single: "ハルジオンが咲く頃",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -2405,9 +2405,9 @@ const songHarukanarubhutan: ISong = {
 const songTsuyogarutsubomi: ISong = {
   title: "強がる蕾",
   single: "ハルジオンが咲く頃",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Solo,
   creators: {
     lyrics: ["秋元康"],
@@ -2434,9 +2434,9 @@ const songTsuyogarutsubomi: ISong = {
 const songKyushamen: ISong = {
   title: "急斜面",
   single: "ハルジオンが咲く頃",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -2465,9 +2465,9 @@ const songKyushamen: ISong = {
 const songTsuribori: ISong = {
   title: "釣り堀",
   single: "ハルジオンが咲く頃",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Solo,
   creators: {
     lyrics: ["秋元康"],
@@ -2494,9 +2494,9 @@ const songTsuribori: ISong = {
 const songYuutsutofusengamu: ISong = {
   title: "憂鬱と風船ガム",
   single: "ハルジオンが咲く頃",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -2530,9 +2530,9 @@ const songYuutsutofusengamu: ISong = {
 const songHanashitaidarekagairu: ISong = {
   title: "今、話したい誰かがいる",
   single: "今、話したい誰かがいる",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
@@ -2579,9 +2579,9 @@ const songHanashitaidarekagairu: ISong = {
 const songShittonokenri: ISong = {
   title: "嫉妬の権利",
   single: "今、話したい誰かがいる",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -2633,9 +2633,9 @@ const songShittonokenri: ISong = {
 const songPopipappapa: ISong = {
   title: "ポピパッパパー",
   single: "今、話したい誰かがいる",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -2682,9 +2682,9 @@ const songPopipappapa: ISong = {
 const songOtonahenochikamichi: ISong = {
   title: "大人への近道",
   single: "今、話したい誰かがいる",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -2715,9 +2715,9 @@ const songOtonahenochikamichi: ISong = {
 const songKanashiminowasurekata: ISong = {
   title: "悲しみの忘れ方",
   single: "今、話したい誰かがいる",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -2761,9 +2761,9 @@ const songKanashiminowasurekata: ISong = {
 const songSukima: ISong = {
   title: "隙間",
   single: "今、話したい誰かがいる",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -2798,9 +2798,9 @@ const songSukima: ISong = {
 const songTaiyoknock: ISong = {
   title: "太陽ノック",
   single: "太陽ノック",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
@@ -2848,9 +2848,9 @@ const songTaiyoknock: ISong = {
 const songWakaregiwa: ISong = {
   title: "別れ際、もっと好きになる",
   single: "太陽ノック",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
@@ -2896,9 +2896,9 @@ const songWakaregiwa: ISong = {
 const songMosukoshinoyumewo: ISong = {
   title: "もう少しの夢",
   single: "太陽ノック",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Solo,
   creators: {
     lyrics: ["秋元康"],
@@ -2925,9 +2925,9 @@ const songMosukoshinoyumewo: ISong = {
 const songSakanatachinolovesong: ISong = {
   title: "魚たちのLOVE SONG",
   single: "太陽ノック",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -2957,9 +2957,9 @@ const songSakanatachinolovesong: ISong = {
 const songMuhyojo: ISong = {
   title: "無表情",
   single: "太陽ノック",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -2987,9 +2987,9 @@ const songMuhyojo: ISong = {
 const songHanenokioku: ISong = {
   title: "羽根の記憶",
   single: "太陽ノック",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -3033,9 +3033,9 @@ const songHanenokioku: ISong = {
 const songSeifukuwonuide: ISong = {
   title: "制服を脱いでサヨナラを…",
   single: "太陽ノック",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -3065,9 +3065,9 @@ const songSeifukuwonuide: ISong = {
 const songInochihautsukushii: ISong = {
   title: "命は美しい",
   single: "命は美しい",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
@@ -3115,9 +3115,9 @@ const songInochihautsukushii: ISong = {
 const songKimihabokuto: ISong = {
   title: "君は僕と会わない方がよかったのかな",
   single: "命は美しい",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
@@ -3159,9 +3159,9 @@ const songKimihabokuto: ISong = {
 const songArakajimeromance: ISong = {
   title: "あらかじめ語られるロマンス",
   single: "命は美しい",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -3196,9 +3196,9 @@ const songArakajimeromance: ISong = {
 const songTachinaorichu: ISong = {
   title: "立ち直り中",
   single: "命は美しい",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -3231,9 +3231,9 @@ const songTachinaorichu: ISong = {
 const songGomennezutto: ISong = {
   title: "ごめんね ずっと…",
   single: "命は美しい",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Solo,
   creators: {
     lyrics: ["秋元康"],
@@ -3258,9 +3258,9 @@ const songGomennezutto: ISong = {
 const songBorder: ISong = {
   title: "ボーダー",
   single: "命は美しい",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.SecondGeneration,
   creators: {
     lyrics: ["秋元康"],
@@ -3294,9 +3294,9 @@ const songBorder: ISong = {
 const songNandomenoaozoraka: ISong = {
   title: "何度目の青空か?",
   single: "何度目の青空か?",
+  albums: ["透明な色"],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
@@ -3342,9 +3342,9 @@ const songNandomenoaozoraka: ISong = {
 const songAnohibokuha: ISong = {
   title: "あの日 僕は咄嗟に嘘をついた",
   single: "何度目の青空か?",
+  albums: ["透明な色"],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
@@ -3389,9 +3389,9 @@ const songAnohibokuha: ISong = {
 const songTomawarinoaijo: ISong = {
   title: "遠回りの愛情",
   single: "何度目の青空か?",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -3428,9 +3428,9 @@ const songTomawarinoaijo: ISong = {
 const songKorogattakanewonarase: ISong = {
   title: "転がった鐘を鳴らせ!",
   single: "何度目の青空か?",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -3472,9 +3472,9 @@ const songKorogattakanewonarase: ISong = {
 const songWatashiokiru: ISong = {
   title: "私、起きる。",
   single: "何度目の青空か?",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -3510,9 +3510,9 @@ const songWatashiokiru: ISong = {
 const songTenderdays: ISong = {
   title: "Tender days",
   single: "何度目の青空か?",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -3549,9 +3549,9 @@ const songTenderdays: ISong = {
 const songNatsunofreeandeasy: ISong = {
   title: "夏のFree&Easy",
   single: "夏のFree&Easy",
+  albums: ["透明な色"],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
@@ -3598,9 +3598,9 @@ const songNatsunofreeandeasy: ISong = {
 const songKokoniiruriyu: ISong = {
   title: "ここにいる理由",
   single: "夏のFree&Easy",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
@@ -3644,9 +3644,9 @@ const songKokoniiruriyu: ISong = {
 const songNanimodekizuni: ISong = {
   title: "何もできずにそばにいる",
   single: "夏のFree&Easy",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -3691,9 +3691,9 @@ const songNanimodekizuni: ISong = {
 const songSonosakinodeguchi: ISong = {
   title: "その先の出口!",
   single: "夏のFree&Easy",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -3728,9 +3728,9 @@ const songSonosakinodeguchi: ISong = {
 const songMukuchinalion: ISong = {
   title: "無口なライオン",
   single: "夏のFree&Easy",
+  albums: ["透明な色"],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -3764,9 +3764,9 @@ const songMukuchinalion: ISong = {
 const songBokugaikanakya: ISong = {
   title: "僕が行かなきゃ誰が行くんだ?",
   single: "夏のFree&Easy",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -3801,9 +3801,9 @@ const songBokugaikanakya: ISong = {
 const songKizuitarakataomoi: ISong = {
   title: "気づいたら片想い",
   single: "気づいたら片想い",
+  albums: ["透明な色"],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
@@ -3847,9 +3847,9 @@ const songKizuitarakataomoi: ISong = {
 const songUmaretamamade: ISong = {
   title: "生まれたままで",
   single: "気づいたら片想い",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
@@ -3894,9 +3894,9 @@ const songUmaretamamade: ISong = {
 const songRomancenostart: ISong = {
   title: "ロマンスのスタート",
   single: "気づいたら片想い",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -3940,9 +3940,9 @@ const songRomancenostart: ISong = {
 const songToikimethod: ISong = {
   title: "吐息のメソッド",
   single: "気づいたら片想い",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -3988,9 +3988,9 @@ const songToikimethod: ISong = {
 const songKodokukyodai: ISong = {
   title: "孤独兄弟",
   single: "気づいたら片想い",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -4018,9 +4018,9 @@ const songKodokukyodai: ISong = {
 const songDankeschon: ISong = {
   title: "ダンケシェーン",
   single: "気づいたら片想い",
+  albums: ["透明な色"],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -4056,9 +4056,9 @@ const songDankeschon: ISong = {
 const songValletta: ISong = {
   title: "バレッタ",
   single: "バレッタ",
+  albums: ["透明な色"],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
@@ -4105,9 +4105,9 @@ const songValletta: ISong = {
 const songHatsukoinohito: ISong = {
   title: "初恋の人を今でも",
   single: "バレッタ",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
@@ -4148,9 +4148,9 @@ const songHatsukoinohito: ISong = {
 const songTsukinookisa: ISong = {
   title: "月の大きさ",
   single: "バレッタ",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -4195,9 +4195,9 @@ const songTsukinookisa: ISong = {
 const songWatashinotameni: ISong = {
   title: "私のために 誰かのために",
   single: "バレッタ",
+  albums: ["透明な色"],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -4228,9 +4228,9 @@ const songWatashinotameni: ISong = {
 const songSonnabakana: ISong = {
   title: "そんなバカな…",
   single: "バレッタ",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -4278,9 +4278,9 @@ const songSonnabakana: ISong = {
 const songYasashisatoha: ISong = {
   title: "やさしさとは",
   single: "バレッタ",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -4315,9 +4315,9 @@ const songYasashisatoha: ISong = {
 const songGirlsrule: ISong = {
   title: "ガールズルール",
   single: "ガールズルール",
+  albums: ["透明な色"],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
@@ -4363,9 +4363,9 @@ const songGirlsrule: ISong = {
 const songSenpuki: ISong = {
   title: "扇風機",
   single: "ガールズルール",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
@@ -4410,9 +4410,9 @@ const songSenpuki: ISong = {
 const songSekaideichiban: ISong = {
   title: "世界で一番 孤独なLover",
   single: "ガールズルール",
+  albums: ["透明な色"],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -4456,9 +4456,9 @@ const songSekaideichiban: ISong = {
 const songKomoriyo: ISong = {
   title: "コウモリよ",
   single: "ガールズルール",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -4488,9 +4488,9 @@ const songKomoriyo: ISong = {
 const songHokanohoshikara: ISong = {
   title: "他の星から",
   single: "ガールズルール",
+  albums: ["透明な色"],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -4523,9 +4523,9 @@ const songHokanohoshikara: ISong = {
 const sonNingentoiugaki: ISong = {
   title: "人間という楽器",
   single: "ガールズルール",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.FirstGeneration,
   creators: {
     lyrics: ["秋元康"],
@@ -4585,9 +4585,9 @@ const sonNingentoiugaki: ISong = {
 const songKiminonahakibo: ISong = {
   title: "君の名は希望",
   single: "君の名は希望",
+  albums: ["透明な色"],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
@@ -4631,9 +4631,9 @@ const songKiminonahakibo: ISong = {
 const songjusannichinokiyobi: ISong = {
   title: "13日の金曜日",
   single: "君の名は希望",
+  albums: ["透明な色"],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
@@ -4678,9 +4678,9 @@ const songjusannichinokiyobi: ISong = {
 const songShakism: ISong = {
   title: "シャキイズム",
   single: "君の名は希望",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -4725,9 +4725,9 @@ const songShakism: ISong = {
 const songRomanticIkayaki: ISong = {
   title: "ロマンティックいか焼き",
   single: "君の名は希望",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -4769,9 +4769,9 @@ const songRomanticIkayaki: ISong = {
 const songDekopin: ISong = {
   title: "でこぴん",
   single: "君の名は希望",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -4802,9 +4802,9 @@ const songDekopin: ISong = {
 const songPsychokineses: ISong = {
   title: "サイコキネシスの可能性",
   single: "君の名は希望",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -4843,9 +4843,9 @@ const songPsychokineses: ISong = {
 const songSeifukunomannequin: ISong = {
   title: "制服のマネキン",
   single: "制服のマネキン",
+  albums: ["透明な色"],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
@@ -4891,9 +4891,9 @@ const songSeifukunomannequin: ISong = {
 const songHarunomelody: ISong = {
   title: "春のメロディー",
   single: "制服のマネキン",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
@@ -4939,9 +4939,9 @@ const songHarunomelody: ISong = {
 const songYubiboenkyo: ISong = {
   title: "指望遠鏡",
   single: "制服のマネキン",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -4987,9 +4987,9 @@ const songYubiboenkyo: ISong = {
 const songYasashisanaramaniatteru: ISong = {
   title: "やさしさなら間に合ってる",
   single: "制服のマネキン",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -5026,9 +5026,9 @@ const songYasashisanaramaniatteru: ISong = {
 const songKokojanaidokoka: ISong = {
   title: "ここじゃないどこか",
   single: "制服のマネキン",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -5057,9 +5057,9 @@ const songKokojanaidokoka: ISong = {
 const songShibuyablues: ISong = {
   title: "渋谷ブルース",
   single: "制服のマネキン",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -5089,9 +5089,9 @@ const songShibuyablues: ISong = {
 const songHashirebicycle: ISong = {
   title: "走れ!Bicycle",
   single: "走れ!Bicycle",
+  albums: ["透明な色"],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
@@ -5145,9 +5145,9 @@ const songHashirebicycle: ISong = {
 const songNamidagamada: ISong = {
   title: "涙がまだ悲しみだった頃",
   single: "走れ!Bicycle",
+  albums: ["透明な色"],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
@@ -5193,9 +5193,9 @@ const songNamidagamada: ISong = {
 const songSekkachinakatatsumuri: ISong = {
   title: "せっかちなかたつむり",
   single: "走れ!Bicycle",
+  albums: ["透明な色"],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -5228,9 +5228,9 @@ const songSekkachinakatatsumuri: ISong = {
 const songHitohanazehashirunoka: ISong = {
   title: "人はなぜ走るのか?",
   single: "走れ!Bicycle",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -5277,9 +5277,9 @@ const songHitohanazehashirunoka: ISong = {
 const songOtogadenaiguitar: ISong = {
   title: "音が出ないギター",
   single: "走れ!Bicycle",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -5326,9 +5326,9 @@ const songOtogadenaiguitar: ISong = {
 const songKairyunoshimayo: ISong = {
   title: "海流の島よ",
   single: "走れ!Bicycle",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -5363,9 +5363,9 @@ const songKairyunoshimayo: ISong = {
 const songOideshampoo: ISong = {
   title: "おいでシャンプー",
   single: "おいでシャンプー",
+  albums: ["透明な色"],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
@@ -5409,9 +5409,9 @@ const songOideshampoo: ISong = {
 const songOkaminikuchibuewo: ISong = {
   title: "狼に口笛を",
   single: "おいでシャンプー",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
@@ -5457,9 +5457,9 @@ const songOkaminikuchibuewo: ISong = {
 const songKokoronokusuri: ISong = {
   title: "心の薬",
   single: "おいでシャンプー",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -5505,9 +5505,9 @@ const songKokoronokusuri: ISong = {
 const songGuzenwoiiwakenishite: ISong = {
   title: "偶然を言い訳にして",
   single: "おいでシャンプー",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -5537,9 +5537,9 @@ const songGuzenwoiiwakenishite: ISong = {
 const songMizutamamoyo: ISong = {
   title: "水玉模様",
   single: "おいでシャンプー",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Solo,
   creators: {
     lyrics: ["秋元康"],
@@ -5564,9 +5564,9 @@ const songMizutamamoyo: ISong = {
 const songHouse: ISong = {
   title: "ハウス!",
   single: "おいでシャンプー",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -5614,9 +5614,9 @@ const songHouse: ISong = {
 const songGurugurucurtain: ISong = {
   title: "ぐるぐるカーテン",
   single: "ぐるぐるカーテン",
+  albums: ["透明な色"],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
@@ -5660,9 +5660,9 @@ const songGurugurucurtain: ISong = {
 const songHidarimurenoyuki: ISong = {
   title: "左胸の勇気",
   single: "ぐるぐるカーテン",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
@@ -5706,9 +5706,9 @@ const songHidarimurenoyuki: ISong = {
 const songNogizakanouta: ISong = {
   title: "乃木坂の詩",
   single: "ぐるぐるカーテン",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -5767,9 +5767,9 @@ const songNogizakanouta: ISong = {
 const songAitakattakamoshirenai: ISong = {
   title: "会いたかったかもしれない",
   single: "ぐるぐるカーテン",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -5815,9 +5815,9 @@ const songAitakattakamoshirenai: ISong = {
 const songUshinaitakunaikara: ISong = {
   title: "失いたくないから",
   single: "ぐるぐるカーテン",
+  albums: ["透明な色"],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -5866,9 +5866,9 @@ const songUshinaitakunaikara: ISong = {
 const songShiroikumoninotte: ISong = {
   title: "白い雲にのって",
   single: "ぐるぐるカーテン",
+  albums: [],
   artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -5926,9 +5926,9 @@ const songShiroikumoninotte: ISong = {
 const songDarekahamikata: ISong = {
   title: "誰かは味方",
   single: undefined,
-  artwork: "透明な色",
+  albums: ["透明な色"],
+  artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -5957,9 +5957,9 @@ const songDarekahamikata: ISong = {
 const songKakumeinouma: ISong = {
   title: "革命の馬",
   single: undefined,
-  artwork: "透明な色",
+  albums: ["透明な色"],
+  artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -5991,9 +5991,9 @@ const songKakumeinouma: ISong = {
 const songBokugairubasho: ISong = {
   title: "僕がいる場所",
   single: undefined,
-  artwork: "透明な色",
+  albums: ["透明な色"],
+  artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
@@ -6035,9 +6035,9 @@ const songBokugairubasho: ISong = {
 const songAnatanotamenihikitai: ISong = {
   title: "あなたのために弾きたい",
   single: undefined,
-  artwork: "透明な色",
+  albums: ["透明な色"],
+  artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Solo,
   creators: {
     lyrics: ["秋元康"],
@@ -6062,9 +6062,9 @@ const songAnatanotamenihikitai: ISong = {
 const songKeishasuru: ISong = {
   title: "傾斜する",
   single: undefined,
-  artwork: "透明な色",
+  albums: ["透明な色"],
+  artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -6106,9 +6106,9 @@ const songKeishasuru: ISong = {
 const songNazonorakugaki: ISong = {
   title: "なぞの落書き",
   single: undefined,
-  artwork: "透明な色",
+  albums: ["透明な色"],
+  artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
@@ -6137,9 +6137,9 @@ const songNazonorakugaki: ISong = {
 const songJiyunokanata: ISong = {
   title: "自由の彼方",
   single: undefined,
-  artwork: "透明な色",
+  albums: ["透明な色"],
+  artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
@@ -6189,9 +6189,9 @@ const songJiyunokanata: ISong = {
 const songHitoriyogari: ISong = {
   title: "ひとりよがり",
   single: undefined,
-  artwork: "透明な色",
+  albums: ["透明な色"],
+  artwork: "path",
   musicVideo: "path",
-  albums: [],
   type: SongType.Solo,
   creators: {
     lyrics: ["秋元康"],
