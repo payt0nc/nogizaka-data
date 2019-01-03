@@ -1479,7 +1479,7 @@ const songNaidatteii: ISong = {
 const songInfluencer: ISong = {
   title: "インフルエンサー",
   single: "インフルエンサー",
-  albums: [],
+  albums: ["生まれてから初めて見た夢"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Title,
@@ -1533,7 +1533,7 @@ const songInfluencer: ISong = {
 const songFusenhaikiteiru: ISong = {
   title: "風船は生きている",
   single: "インフルエンサー",
-  albums: [],
+  albums: ["生まれてから初めて見た夢"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -1575,7 +1575,7 @@ const songFusenhaikiteiru: ISong = {
 const songJinseiwokangae: ISong = {
   title: "人生を考えたくなる",
   single: "インフルエンサー",
-  albums: [],
+  albums: ["生まれてから初めて見た夢"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Unit,
@@ -1607,7 +1607,7 @@ const songJinseiwokangae: ISong = {
 const songIgaibreak: ISong = {
   title: "意外BREAK",
   single: "インフルエンサー",
-  albums: [],
+  albums: ["生まれてから初めて見た夢"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Unit,
@@ -1639,7 +1639,7 @@ const songIgaibreak: ISong = {
 const songAnotherghost: ISong = {
   title: "Another Ghost",
   single: "インフルエンサー",
-  albums: [],
+  albums: ["生まれてから初めて見た夢"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Unit,
@@ -1670,7 +1670,7 @@ const songAnotherghost: ISong = {
 const songSanbanmenokaze: ISong = {
   title: "三番目の風",
   single: "インフルエンサー",
-  albums: [],
+  albums: ["生まれてから初めて見た夢"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.ThirdGeneration,
@@ -1712,7 +1712,7 @@ const songSanbanmenokaze: ISong = {
 const songAtarisawarinonai: ISong = {
   title: "当たり障りのない話",
   single: "インフルエンサー",
-  albums: [],
+  albums: ["生まれてから初めて見た夢"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Unit,
@@ -1746,7 +1746,7 @@ const songAtarisawarinonai: ISong = {
 const songSayonaranoimi: ISong = {
   title: "サヨナラの意味",
   single: "サヨナラの意味",
-  albums: [],
+  albums: ["生まれてから初めて見た夢"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Title,
@@ -1797,7 +1797,7 @@ const songSayonaranoimi: ISong = {
 const songBulanko: ISong = {
   title: "ブランコ",
   single: "サヨナラの意味",
-  albums: [],
+  albums: ["生まれてから初めて見た夢"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -1843,7 +1843,7 @@ const songBulanko: ISong = {
 const songKodokunaaozora: ISong = {
   title: "孤独な青空",
   single: "サヨナラの意味",
-  albums: [],
+  albums: ["生まれてから初めて見た夢"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Coupling,
@@ -1890,7 +1890,7 @@ const songKodokunaaozora: ISong = {
 const songAnokyoshitsu: ISong = {
   title: "あの教室",
   single: "サヨナラの意味",
-  albums: [],
+  albums: ["生まれてから初めて見た夢"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Unit,
@@ -1920,7 +1920,7 @@ const songAnokyoshitsu: ISong = {
 const songNidomenokisukara: ISong = {
   title: "2度目のキスから",
   single: "サヨナラの意味",
-  albums: [],
+  albums: ["生まれてから初めて見た夢"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Unit,
@@ -1952,7 +1952,7 @@ const songNidomenokisukara: ISong = {
 const songKiminiokuruhana: ISong = {
   title: "君に贈る花がない",
   single: "サヨナラの意味",
-  albums: [],
+  albums: ["生まれてから初めて見た夢"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Unit,
@@ -1985,7 +1985,7 @@ const songKiminiokuruhana: ISong = {
 const songNaimononetari: ISong = {
   title: "ないものねだり",
   single: "サヨナラの意味",
-  albums: [],
+  albums: ["生まれてから初めて見た夢"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Solo,
@@ -2016,7 +2016,7 @@ const songNaimononetari: ISong = {
 const songHadashidesummer: ISong = {
   title: "裸足でSummer",
   single: "裸足でSummer",
-  albums: [],
+  albums: ["生まれてから初めて見た夢"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Title,
@@ -2064,7 +2064,7 @@ const songHadashidesummer: ISong = {
 const songSecretGravity: ISong = {
   title: "シークレットグラフィティー",
   single: "裸足でSummer",
-  albums: [],
+  albums: ["生まれてから初めて見た夢"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -2113,7 +2113,7 @@ const songSecretGravity: ISong = {
 const songBokudakenohikari: ISong = {
   title: "僕だけの光",
   single: "裸足でSummer",
-  albums: [],
+  albums: ["生まれてから初めて見た夢"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Coupling,
@@ -2157,7 +2157,7 @@ const songBokudakenohikari: ISong = {
 const songOffshoregirl: ISong = {
   title: "オフショアガール",
   single: "裸足でSummer",
-  albums: [],
+  albums: ["生まれてから初めて見た夢"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Solo,
@@ -2184,7 +2184,7 @@ const songOffshoregirl: ISong = {
 const songInochinoshinjitsu: ISong = {
   title: "命の真実 ミュージカル「林檎売りとカメムシ」",
   single: "裸足でSummer",
-  albums: [],
+  albums: ["生まれてから初めて見た夢"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Solo,
@@ -2211,7 +2211,7 @@ const songInochinoshinjitsu: ISong = {
 const songHakumaisama: ISong = {
   title: "白米様",
   single: "裸足でSummer",
-  albums: [],
+  albums: ["生まれてから初めて見た夢"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Unit,
@@ -2242,7 +2242,7 @@ const songHakumaisama: ISong = {
 const songIkuatenonaibokutachi: ISong = {
   title: "行くあてのない僕たち",
   single: "裸足でSummer",
-  albums: [],
+  albums: ["生まれてから初めて見た夢"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Unit,
@@ -5920,6 +5920,452 @@ const songShiroikumoninotte: ISong = {
 
 // 3rd album songs
 
+const songSkydiving: ISong = {
+  title: "スカイダイビング",
+  single: undefined,
+  albums: ["生まれてから初めて見た夢"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["菅井達司"],
+    arrange: ["菅井達司"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.EtouMisa,
+      MemberNames.KitanoHinako,
+      MemberNames.SaitouAsuka,
+      MemberNames.SaitouYuuri,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.ShinuchiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.TeradaRanze,
+      MemberNames.NakadaKana,
+      MemberNames.NishinoNanase,
+      MemberNames.HiguchiHina,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songKimigaaoidekureta: ISong = {
+  title: "君が扇いでくれた",
+  single: undefined,
+  albums: ["生まれてから初めて見た夢"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Under,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["中山聡", "足立優"],
+    arrange: ["野中\"まさ\"雄一"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ItouKarin,
+      MemberNames.ItouJunna,
+      MemberNames.KawagoHina,
+      MemberNames.KawamuraMahiro,
+      MemberNames.SaitouChiharu,
+      MemberNames.SagaraIori,
+      MemberNames.SasakiKotoko,
+      MemberNames.SuzukiAyane,
+      MemberNames.NoujouAmi,
+      MemberNames.YamazakiRena,
+      MemberNames.WatanabeMiria,
+      MemberNames.WadaMaaya
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songOmoidefirst: ISong = {
+  title: "思い出ファースト",
+  single: undefined,
+  albums: ["生まれてから初めて見た夢"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.ThirdGeneration,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["ミサマサカリヲ"],
+    arrange: ["遠藤ナオキ"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ItouRiria,
+      MemberNames.IwamotoRenka,
+      MemberNames.UmezawaMinami,
+      MemberNames.OozonoMomoko,
+      MemberNames.KuboShiori,
+      MemberNames.SakaguchiTamami,
+      MemberNames.SatouKaede,
+      MemberNames.NakamuraReno,
+      MemberNames.MukaiHazuki,
+      MemberNames.YamashitaMizuki,
+      MemberNames.YoshidaAyanoChristie,
+      MemberNames.YodaYuuki
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songSetteiondo: ISong = {
+  title: "設定温度",
+  single: undefined,
+  albums: ["生まれてから初めて見た夢"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["石井亮輔"],
+    arrange: ["APAZZI"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.EtouMisa,
+      MemberNames.KitanoHinako,
+      MemberNames.SaitouAsuka,
+      MemberNames.SaitouYuuri,
+      MemberNames.SakuraiReika,
+      MemberNames.ShiraishiMai,
+      MemberNames.ShinuchiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.TeradaRanze,
+      MemberNames.NakadaKana,
+      MemberNames.NishinoNanase,
+      MemberNames.HiguchiHina,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [
+      MemberNames.ItouKarin,
+      MemberNames.ItouJunna,
+      MemberNames.KawagoHina,
+      MemberNames.KawamuraMahiro,
+      MemberNames.SaitouChiharu,
+      MemberNames.SagaraIori,
+      MemberNames.SasakiKotoko,
+      MemberNames.SuzukiAyane,
+      MemberNames.NoujouAmi,
+      MemberNames.YamazakiRena,
+      MemberNames.WatanabeMiria,
+      MemberNames.WadaMaaya
+    ],
+    thirdRow: [
+      MemberNames.ItouRiria,
+      MemberNames.IwamotoRenka,
+      MemberNames.UmezawaMinami,
+      MemberNames.OozonoMomoko,
+      MemberNames.KuboShiori,
+      MemberNames.SakaguchiTamami,
+      MemberNames.SatouKaede,
+      MemberNames.NakamuraReno,
+      MemberNames.MukaiHazuki,
+      MemberNames.YamashitaMizuki,
+      MemberNames.YoshidaAyanoChristie,
+      MemberNames.YodaYuuki
+    ],
+    fourthRow: []
+  }
+};
+
+const songRewindanohi: ISong = {
+  title: "Rewindあの日",
+  single: undefined,
+  albums: ["生まれてから初めて見た夢"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["藤木テツ"],
+    arrange: ["佐々木裕"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.SakuraiReika,
+      MemberNames.NishinoNanase,
+      MemberNames.WakatsukiYumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songGomensmoothie: ISong = {
+  title: "ごめんね、スムージー",
+  single: undefined,
+  albums: ["生まれてから初めて見た夢"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["YASUSHI WATANABE"],
+    arrange: ["YASUSHI WATANABE"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ItouMarika,
+      MemberNames.InoueSayuri,
+      MemberNames.NakamotoHimeka
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songMinikuiwatashi: ISong = {
+  title: "醜い私",
+  single: undefined,
+  albums: ["生まれてから初めて見た夢"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["外山大輔"],
+    arrange: ["APAZZI"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.EtouMisa,
+      MemberNames.SaitouYuuri,
+      MemberNames.ShinuchiMai
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songKataikaranoyoni: ISong = {
+  title: "硬い殻のように抱きしめたい",
+  single: undefined,
+  albums: ["生まれてから初めて見た夢"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Solo,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["杉山勝彦"],
+    arrange: ["杉山勝彦", "三谷秀甫", "谷地学"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: MemberNames.SaitouAsuka,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [MemberNames.SaitouAsuka],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songMangetsugakieta: ISong = {
+  title: "満月が消えた",
+  single: undefined,
+  albums: ["生まれてから初めて見た夢"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["SaSA"],
+    arrange: ["SaSA"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.IkomaRina,
+      MemberNames.HoshinoMinami
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songWatabokori: ISong = {
+  title: "ワタボコリ",
+  single: undefined,
+  albums: ["生まれてから初めて見た夢"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["ハサミマン"],
+    arrange: ["ハサミマン"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.KitanoHinako,
+      MemberNames.TeradaRanze,
+      MemberNames.HoriMiona
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songRyuseidiscotic: ISong = {
+  title: "流星ディスコティック",
+  single: undefined,
+  albums: ["生まれてから初めて見た夢"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Masayoshi Kawabata"],
+    arrange: ["Masayoshi Kawabata"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ShiraishiMai,
+      MemberNames.MatsumuraSayuri
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songBokyakutobigaku: ISong = {
+  title: "忘却と美学",
+  single: undefined,
+  albums: ["生まれてから初めて見た夢"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["早川博隆"],
+    arrange: ["早川博隆"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: undefined,
+    unit: ""
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.TakayamaKazumi
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
 // 2nd album songs
 
 const songKikkake: ISong = {
@@ -6752,5 +7198,17 @@ export const songs = {
   "失恋したら、顔を洗え!": songShitsurenshitara,
   "かき氷の片想い": songKakigorinokataomoi,
   "環状六号線": songKanjorokugosen,
-  "口約束": songKuchiyakusoku
+  "口約束": songKuchiyakusoku,
+  "スカイダイビング": songSkydiving,
+  "君が扇いでくれた": songKimigaaoidekureta,
+  "思い出ファースト": songOmoidefirst,
+  "設定温度": songSetteiondo,
+  "Rewindあの日": songRewindanohi,
+  "ごめんね、スムージー": songGomensmoothie,
+  "醜い私": songMinikuiwatashi,
+  "硬い殻のように抱きしめたい": songKataikaranoyoni,
+  "満月が消えた": songMangetsugakieta,
+  "ワタボコリ": songWatabokori,
+  "流星ディスコティック": songRyuseidiscotic,
+  "忘却と美学": songBokyakutobigaku
 };
