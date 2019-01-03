@@ -232,108 +232,150 @@ const umaretekara: IAlbum = {
     },
     {
       number: 9,
-      title: "Rewindあの日",
-      type: SongType.Unit,
+      title: "君が扇いでくれた",
+      type: SongType.Under,
       focusPerformers: undefined
     },
     {
       number: 10,
-      title: "ごめんね、スムージー",
-      type: SongType.Unit,
+      title: "思い出ファースト",
+      type: SongType.ThirdGeneration,
       focusPerformers: undefined
     },
     {
       number: 11,
-      title: "醜い私",
-      type: SongType.Unit,
+      title: "設定温度",
+      type: SongType.Coupling,
       focusPerformers: undefined
     },
     {
       number: 12,
-      title: "オフショアガール",
-      type: SongType.Solo,
+      title: "孤独な青空",
+      type: SongType.Coupling,
       focusPerformers: undefined
     },
     {
       number: 13,
-      title: "君に贈る花がない",
-      type: SongType.Unit,
+      title: "僕だけの光",
+      type: SongType.Coupling,
       focusPerformers: undefined
     },
     {
       number: 14,
-      title: "白米様",
+      title: "人生を考えたくなる",
       type: SongType.Unit,
       focusPerformers: undefined
     },
     {
       number: 15,
-      title: "硬い殻のように抱きしめたい",
-      type: SongType.Solo,
+      title: "意外BREAK",
+      type: SongType.Unit,
       focusPerformers: undefined
     },
     {
       number: 16,
-      title: "満月が消えた",
+      title: "Rewindあの日",
       type: SongType.Unit,
       focusPerformers: undefined
     },
     {
       number: 17,
-      title: "ワタボコリ",
+      title: "ごめんね、スムージー",
       type: SongType.Unit,
       focusPerformers: undefined
     },
     {
       number: 18,
-      title: "ないものねだり",
-      type: SongType.Solo,
-      focusPerformers: undefined
-    },
-    {
-      number: 19,
-      title: "Another Ghost",
+      title: "醜い私",
       type: SongType.Unit,
       focusPerformers: undefined
     },
     {
+      number: 19,
+      title: "オフショアガール",
+      type: SongType.Solo,
+      focusPerformers: undefined
+    },
+    {
       number: 20,
-      title: "あの教室",
+      title: "君に贈る花がない",
       type: SongType.Unit,
       focusPerformers: undefined
     },
     {
       number: 21,
-      title: "流星ディスコティック",
+      title: "白米様",
       type: SongType.Unit,
       focusPerformers: undefined
     },
     {
       number: 22,
-      title: "忘却と美学",
-      type: SongType.Unit,
+      title: "硬い殻のように抱きしめたい",
+      type: SongType.Solo,
       focusPerformers: undefined
     },
     {
       number: 23,
-      title: "2度目のキスから",
+      title: "満月が消えた",
       type: SongType.Unit,
       focusPerformers: undefined
     },
     {
       number: 24,
+      title: "ワタボコリ",
+      type: SongType.Unit,
+      focusPerformers: undefined
+    },
+    {
+      number: 25,
+      title: "ないものねだり",
+      type: SongType.Solo,
+      focusPerformers: undefined
+    },
+    {
+      number: 26,
+      title: "Another Ghost",
+      type: SongType.Unit,
+      focusPerformers: undefined
+    },
+    {
+      number: 27,
+      title: "あの教室",
+      type: SongType.Unit,
+      focusPerformers: undefined
+    },
+    {
+      number: 28,
+      title: "流星ディスコティック",
+      type: SongType.Unit,
+      focusPerformers: undefined
+    },
+    {
+      number: 29,
+      title: "忘却と美学",
+      type: SongType.Unit,
+      focusPerformers: undefined
+    },
+    {
+      number: 30,
+      title: "2度目のキスから",
+      type: SongType.Unit,
+      focusPerformers: undefined
+    },
+    {
+      number: 31,
       title: "命の真実 ミュージカル「林檎売りとカメムシ」",
       type: SongType.Solo,
       focusPerformers: undefined
     },
     {
-      number: 25,
+      number: 32,
       title: "行くあてのない僕たち",
       type: SongType.Unit,
       focusPerformers: undefined
     },
     {
-      number: 26,
+      number: 33,
       title: "当たり障りのない話",
       type: SongType.Unit,
       focusPerformers: undefined
