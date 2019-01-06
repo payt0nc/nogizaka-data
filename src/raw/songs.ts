@@ -920,7 +920,7 @@ const songItsukadekirukara: ISong = {
 const songMyrule: ISong = {
   title: "My rule",
   single: "いつかできるから今日できる",
-  albums: [],
+  albums: ["僕だけの君〜Under Super Best〜"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -1196,7 +1196,7 @@ const songNigemizu: ISong = {
 const songUnder: ISong = {
   title: "アンダー",
   single: "逃げ水",
-  albums: [],
+  albums: ["僕だけの君〜Under Super Best〜"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -1533,7 +1533,7 @@ const songInfluencer: ISong = {
 const songFusenhaikiteiru: ISong = {
   title: "風船は生きている",
   single: "インフルエンサー",
-  albums: ["生まれてから初めて見た夢"],
+  albums: ["生まれてから初めて見た夢", "僕だけの君〜Under Super Best〜"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -1797,7 +1797,7 @@ const songSayonaranoimi: ISong = {
 const songBulanko: ISong = {
   title: "ブランコ",
   single: "サヨナラの意味",
-  albums: ["生まれてから初めて見た夢"],
+  albums: ["生まれてから初めて見た夢", "僕だけの君〜Under Super Best〜"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -2064,7 +2064,7 @@ const songHadashidesummer: ISong = {
 const songSecretGravity: ISong = {
   title: "シークレットグラフィティー",
   single: "裸足でSummer",
-  albums: ["生まれてから初めて見た夢"],
+  albums: ["生まれてから初めて見た夢", "僕だけの君〜Under Super Best〜"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -2323,7 +2323,7 @@ const songHarujion: ISong = {
 const songFutogo: ISong = {
   title: "不等号",
   single: "ハルジオンが咲く頃",
-  albums: ["それぞれの椅子"],
+  albums: ["それぞれの椅子", "僕だけの君〜Under Super Best〜"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -2580,7 +2580,7 @@ const songHanashitaidarekagairu: ISong = {
 const songShittonokenri: ISong = {
   title: "嫉妬の権利",
   single: "今、話したい誰かがいる",
-  albums: ["それぞれの椅子"],
+  albums: ["それぞれの椅子", "僕だけの君〜Under Super Best〜"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Coupling,
@@ -2849,7 +2849,7 @@ const songTaiyoknock: ISong = {
 const songWakaregiwa: ISong = {
   title: "別れ際、もっと好きになる",
   single: "太陽ノック",
-  albums: ["それぞれの椅子"],
+  albums: ["それぞれの椅子", "僕だけの君〜Under Super Best〜"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -3116,7 +3116,7 @@ const songInochihautsukushii: ISong = {
 const songKimihabokuto: ISong = {
   title: "君は僕と会わない方がよかったのかな",
   single: "命は美しい",
-  albums: ["それぞれの椅子"],
+  albums: ["それぞれの椅子", "僕だけの君〜Under Super Best〜"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -3343,7 +3343,7 @@ const songNandomenoaozoraka: ISong = {
 const songAnohibokuha: ISong = {
   title: "あの日 僕は咄嗟に嘘をついた",
   single: "何度目の青空か?",
-  albums: ["透明な色"],
+  albums: ["透明な色", "僕だけの君〜Under Super Best〜"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -3599,7 +3599,7 @@ const songNatsunofreeandeasy: ISong = {
 const songKokoniiruriyu: ISong = {
   title: "ここにいる理由",
   single: "夏のFree&Easy",
-  albums: [],
+  albums: ["僕だけの君〜Under Super Best〜"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -3848,7 +3848,7 @@ const songKizuitarakataomoi: ISong = {
 const songUmaretamamade: ISong = {
   title: "生まれたままで",
   single: "気づいたら片想い",
-  albums: [],
+  albums: ["僕だけの君〜Under Super Best〜"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -4106,7 +4106,7 @@ const songValletta: ISong = {
 const songHatsukoinohito: ISong = {
   title: "初恋の人を今でも",
   single: "バレッタ",
-  albums: [],
+  albums: ["僕だけの君〜Under Super Best〜"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -4364,7 +4364,7 @@ const songGirlsrule: ISong = {
 const songSenpuki: ISong = {
   title: "扇風機",
   single: "ガールズルール",
-  albums: [],
+  albums: ["僕だけの君〜Under Super Best〜"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -4632,7 +4632,7 @@ const songKiminonahakibo: ISong = {
 const songjusannichinokiyobi: ISong = {
   title: "13日の金曜日",
   single: "君の名は希望",
-  albums: ["透明な色"],
+  albums: ["透明な色", "僕だけの君〜Under Super Best〜"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -4892,7 +4892,7 @@ const songSeifukunomannequin: ISong = {
 const songHarunomelody: ISong = {
   title: "春のメロディー",
   single: "制服のマネキン",
-  albums: [],
+  albums: ["僕だけの君〜Under Super Best〜"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -5146,7 +5146,7 @@ const songHashirebicycle: ISong = {
 const songNamidagamada: ISong = {
   title: "涙がまだ悲しみだった頃",
   single: "走れ!Bicycle",
-  albums: ["透明な色"],
+  albums: ["透明な色", "僕だけの君〜Under Super Best〜"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -5410,7 +5410,7 @@ const songOideshampoo: ISong = {
 const songOkaminikuchibuewo: ISong = {
   title: "狼に口笛を",
   single: "おいでシャンプー",
-  albums: [],
+  albums: ["僕だけの君〜Under Super Best〜"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -5661,7 +5661,7 @@ const songGurugurucurtain: ISong = {
 const songHidarimurenoyuki: ISong = {
   title: "左胸の勇気",
   single: "ぐるぐるカーテン",
-  albums: [],
+  albums: ["僕だけの君〜Under Super Best〜"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -5918,6 +5918,159 @@ const songShiroikumoninotte: ISong = {
 
 // 4th album songs
 
+const songJibunnokoto: ISong = {
+  title: "自分のこと",
+  single: undefined,
+  albums: ["僕だけの君〜Under Super Best〜"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Solo,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["小松清人"],
+    arrange: ["小松清人"],
+    direct: []
+  },
+  performers: {
+    center: undefined,
+    fukujin: undefined,
+    solo: MemberNames.NakamotoHimeka,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [MemberNames.NakamotoHimeka],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songUnuborebeach: ISong = {
+  title: "自惚れビーチ",
+  single: undefined,
+  albums: ["僕だけの君〜Under Super Best〜"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Under,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["ツキダタダシ"],
+    arrange: ["ツキダタダシ"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.SuzukiAyane],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ItouKarin,
+      MemberNames.ItouJunna,
+      MemberNames.KawagoHina,
+      MemberNames.KawamuraMahiro,
+      MemberNames.SaitouChiharu,
+      MemberNames.SagaraIori,
+      MemberNames.SasakiKotoko,
+      MemberNames.SuzukiAyane,
+      MemberNames.TeradaRanze,
+      MemberNames.NoujouAmi,
+      MemberNames.HiguchiHina,
+      MemberNames.YamazakiRena,
+      MemberNames.WatanabeMiria,
+      MemberNames.WadaMaaya
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songSonohito: ISong = {
+  title: "その女",
+  single: undefined,
+  albums: ["僕だけの君〜Under Super Best〜"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Under,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["HRK"],
+    arrange: ["APAZZI"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.TeradaRanze],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ItouKarin,
+      MemberNames.ItouJunna,
+      MemberNames.KawagoHina,
+      MemberNames.KawamuraMahiro,
+      MemberNames.SaitouChiharu,
+      MemberNames.SagaraIori,
+      MemberNames.SasakiKotoko,
+      MemberNames.SuzukiAyane,
+      MemberNames.TeradaRanze,
+      MemberNames.NoujouAmi,
+      MemberNames.HiguchiHina,
+      MemberNames.YamazakiRena,
+      MemberNames.WatanabeMiria,
+      MemberNames.WadaMaaya
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
+const songDareyorisobaniitai: ISong = {
+  title: "誰よりそばにいたい",
+  single: undefined,
+  albums: ["僕だけの君〜Under Super Best〜"],
+  artwork: "path",
+  musicVideo: "path",
+  type: SongType.Under,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["岩崎哲也"],
+    arrange: ["関根佑樹"],
+    direct: []
+  },
+  performers: {
+    center: [MemberNames.HiguchiHina],
+    fukujin: undefined,
+    solo: undefined,
+    unit: undefined
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ItouKarin,
+      MemberNames.ItouJunna,
+      MemberNames.KawagoHina,
+      MemberNames.KawamuraMahiro,
+      MemberNames.SaitouChiharu,
+      MemberNames.SagaraIori,
+      MemberNames.SasakiKotoko,
+      MemberNames.SuzukiAyane,
+      MemberNames.TeradaRanze,
+      MemberNames.NoujouAmi,
+      MemberNames.HiguchiHina,
+      MemberNames.YamazakiRena,
+      MemberNames.WatanabeMiria,
+      MemberNames.WadaMaaya
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: []
+  }
+};
+
 // 3rd album songs
 
 const songSkydiving: ISong = {
@@ -5972,7 +6125,7 @@ const songSkydiving: ISong = {
 const songKimigaaoidekureta: ISong = {
   title: "君が扇いでくれた",
   single: undefined,
-  albums: ["生まれてから初めて見た夢"],
+  albums: ["生まれてから初めて見た夢", "僕だけの君〜Under Super Best〜"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -6459,7 +6612,7 @@ const songTaiyonikudokarete: ISong = {
 const songYokubonoReincarnation: ISong = {
   title: "欲望のリインカーネーション",
   single: undefined,
-  albums: ["それぞれの椅子"],
+  albums: ["それぞれの椅子", "僕だけの君〜Under Super Best〜"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -6961,7 +7114,7 @@ const songNazonorakugaki: ISong = {
 const songJiyunokanata: ISong = {
   title: "自由の彼方",
   single: undefined,
-  albums: ["透明な色"],
+  albums: ["透明な色", "僕だけの君〜Under Super Best〜"],
   artwork: "path",
   musicVideo: "path",
   type: SongType.Under,
@@ -7210,5 +7363,9 @@ export const songs = {
   "満月が消えた": songMangetsugakieta,
   "ワタボコリ": songWatabokori,
   "流星ディスコティック": songRyuseidiscotic,
-  "忘却と美学": songBokyakutobigaku
+  "忘却と美学": songBokyakutobigaku,
+  "自分のこと": songJibunnokoto,
+  "自惚れビーチ": songUnuborebeach,
+  "その女": songSonohito,
+  "誰よりそばにいたい": songDareyorisobaniitai
 };
