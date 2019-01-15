@@ -93,7 +93,7 @@ export const recordSingleFocusPerformers = (
         }
       });
 
-      console.log(singleSong.title, singleSong.focusPerformers);
+      // console.log(singleSong.title, singleSong.focusPerformers);
     });
   });
 };
