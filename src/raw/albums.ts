@@ -802,8 +802,8 @@ const tomeinairo: IAlbum = {
 };
 
 export const albums = {
-  "僕だけの君〜Under Super Best〜": bokudakenokimi,
-  "生まれてから初めて見た夢": umaretekara,
+  "透明な色": tomeinairo,
   "それぞれの椅子": sorezorenoisu,
-  "透明な色": tomeinairo
+  "生まれてから初めて見た夢": umaretekara,
+  "僕だけの君〜Under Super Best〜": bokudakenokimi
 };
