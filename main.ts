@@ -2,6 +2,7 @@ import * as fs from "fs";
 import { recordAlbumFocusPerformers, recordAlbumSongType } from "./src/process/updateAlbums";
 import { recordPositions, recordUnits } from "./src/process/updateMembers";
 import { recordSingleFocusPerformers, recordSingleSongType } from "./src/process/updateSingles";
+import { recordSongAlbums, recordSongSingle } from "./src/process/updateSongs";
 import { albums } from "./src/raw/albums";
 import { members } from "./src/raw/members";
 import { singles } from "./src/raw/singles";
@@ -35,6 +36,14 @@ recordPositions(membersList, singlesList, songsList);
 
 recordAlbumSongType(albumsList, songsList);
 recordAlbumFocusPerformers(albumsList, songsList);
+
+recordSongAlbums(songsList, albumsList);
+recordSongSingle(songsList, singlesList);
+
+for (let songElement of songsList) {
+  const song = songElement[1];
+  console.log(song.title, song.single, song.albums);
+}
 
 // console.log(members);
 

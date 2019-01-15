@@ -72,7 +72,7 @@ TODO:
   - [x] Extract `songType` from `songs`
   - [x] Extract focus members/unit/corp from `songs`
 - Songs
-  - [ ] Pair `single` and `albums` from `songs` and `albums`
+  - [x] Pair `single` and `albums` from `songs` and `albums`
 - Units & Corps
   - [ ] Extract performed songs from `songs`
 
