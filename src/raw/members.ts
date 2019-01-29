@@ -15,7 +15,7 @@ const akimotomanatsu: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1993-08-20",
   height: 154,
@@ -43,9 +43,9 @@ const akimotomanatsu: IMember = {
       ]
     }
   ],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -66,7 +66,7 @@ const ikutaerika: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1997-01-22",
   height: 160,
@@ -105,9 +105,9 @@ const ikutaerika: IMember = {
       ]
     }
   ],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -128,7 +128,7 @@ const ikomarina: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1995-12-29",
   height: 153,
@@ -156,9 +156,9 @@ const ikomarina: IMember = {
       ]
     }
   ],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2018-05-06"
@@ -179,7 +179,7 @@ const itoukarin: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Second,
   birthday: "1993-05-26",
   height: 153,
@@ -195,9 +195,9 @@ const itoukarin: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -218,7 +218,7 @@ const itoujunna: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Second,
   birthday: "1998-11-30",
   height: 166,
@@ -234,9 +234,9 @@ const itoujunna: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -257,7 +257,7 @@ const itouriria: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Third,
   birthday: "2002-10-08",
   height: 154,
@@ -269,9 +269,9 @@ const itouriria: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -292,7 +292,7 @@ const inouesayuri: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1994-12-14",
   height: 156,
@@ -320,9 +320,9 @@ const inouesayuri: IMember = {
       ]
     }
   ],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -343,7 +343,7 @@ const iwamotorenka: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Third,
   birthday: "2004-02-02",
   height: 157,
@@ -355,9 +355,9 @@ const iwamotorenka: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -378,7 +378,7 @@ const umezawaminami: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Third,
   birthday: "1999-01-06",
   height: 170,
@@ -390,9 +390,9 @@ const umezawaminami: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -413,7 +413,7 @@ const etoumisa: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1993-01-04",
   height: 163,
@@ -452,9 +452,9 @@ const etoumisa: IMember = {
       ]
     }
   ],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -475,7 +475,7 @@ const oozonomomoko: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Third,
   birthday: "1999-09-13",
   height: 156,
@@ -487,9 +487,9 @@ const oozonomomoko: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -510,7 +510,7 @@ const kawagohina: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1998-03-22",
   height: 161,
@@ -526,9 +526,9 @@ const kawagohina: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2018-12-20"
@@ -549,7 +549,7 @@ const kitanohinako: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Second,
   birthday: "1996-07-17",
   height: 158,
@@ -577,9 +577,9 @@ const kitanohinako: IMember = {
       ]
     }
   ],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -600,7 +600,7 @@ const kuboshiori: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Third,
   birthday: "2001-07-14",
   height: 159,
@@ -612,9 +612,9 @@ const kuboshiori: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -635,7 +635,7 @@ const saitouasuka: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1998-08-10",
   height: 158,
@@ -663,9 +663,9 @@ const saitouasuka: IMember = {
       ]
     }
   ],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -686,7 +686,7 @@ const saitouyuuri: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1993-07-20",
   height: 157,
@@ -702,9 +702,9 @@ const saitouyuuri: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -725,7 +725,7 @@ const sakaguchitamami: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Third,
   birthday: "2001-11-10",
   height: 161,
@@ -737,9 +737,9 @@ const sakaguchitamami: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -760,7 +760,7 @@ const sakuraireika: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1994-05-16",
   height: 155,
@@ -788,9 +788,9 @@ const sakuraireika: IMember = {
       ]
     }
   ],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -811,7 +811,7 @@ const sasakikotoko: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Second,
   birthday: "1998-08-28",
   height: 163,
@@ -823,9 +823,9 @@ const sasakikotoko: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -846,7 +846,7 @@ const satoukaede: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Third,
   birthday: "1998-03-23",
   height: 161,
@@ -858,9 +858,9 @@ const satoukaede: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -881,7 +881,7 @@ const shiraishimai: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1992-08-20",
   height: 162,
@@ -931,9 +931,9 @@ const shiraishimai: IMember = {
       ]
     }
   ],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -954,7 +954,7 @@ const shinuchimai: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1992-01-22",
   height: 165,
@@ -982,9 +982,9 @@ const shinuchimai: IMember = {
       ]
     }
   ],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1005,7 +1005,7 @@ const suzukiayane: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Second,
   birthday: "1999-03-05",
   height: 160,
@@ -1021,9 +1021,9 @@ const suzukiayane: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1044,7 +1044,7 @@ const takayamakazumi: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1994-02-08",
   height: 162,
@@ -1072,9 +1072,9 @@ const takayamakazumi: IMember = {
       ]
     }
   ],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1095,7 +1095,7 @@ const teradaranze: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Second,
   birthday: "1998-09-23",
   height: 155,
@@ -1107,9 +1107,9 @@ const teradaranze: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1130,7 +1130,7 @@ const nakadakana: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1994-08-06",
   height: 158,
@@ -1146,9 +1146,9 @@ const nakadakana: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1169,7 +1169,7 @@ const nakamurareno: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Third,
   birthday: "2001-09-27",
   height: 167,
@@ -1181,9 +1181,9 @@ const nakamurareno: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1204,7 +1204,7 @@ const nishinonanase: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1994-05-25",
   height: 159,
@@ -1254,9 +1254,9 @@ const nishinonanase: IMember = {
       ]
     }
   ],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1277,7 +1277,7 @@ const noujouami: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1994-10-18",
   height: 162,
@@ -1293,9 +1293,9 @@ const noujouami: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2018-12-15"
@@ -1316,7 +1316,7 @@ const higuchihina: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1998-01-31",
   height: 159,
@@ -1332,9 +1332,9 @@ const higuchihina: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1355,7 +1355,7 @@ const hoshinominami: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1998-02-06",
   height: 155,
@@ -1383,9 +1383,9 @@ const hoshinominami: IMember = {
       ]
     }
   ],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1406,7 +1406,7 @@ const horimiona: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Second,
   birthday: "1996-10-15",
   height: 160,
@@ -1434,9 +1434,9 @@ const horimiona: IMember = {
       ]
     }
   ],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1457,7 +1457,7 @@ const matsumurasayuri: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1992-08-27",
   height: 164,
@@ -1485,9 +1485,9 @@ const matsumurasayuri: IMember = {
       ]
     }
   ],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1508,7 +1508,7 @@ const mukaihazuki: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Third,
   birthday: "1999-08-23",
   height: 152,
@@ -1520,9 +1520,9 @@ const mukaihazuki: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1543,7 +1543,7 @@ const yamazakirena: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Second,
   birthday: "1998-01-31",
   height: 159,
@@ -1559,9 +1559,9 @@ const yamazakirena: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1582,7 +1582,7 @@ const yamashitamizuki: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Third,
   birthday: "1999-07-26",
   height: 159,
@@ -1594,9 +1594,9 @@ const yamashitamizuki: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1617,7 +1617,7 @@ const yoshidaayanochristie: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Third,
   birthday: "1995-09-06",
   height: 161,
@@ -1629,9 +1629,9 @@ const yoshidaayanochristie: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1652,7 +1652,7 @@ const yodayuuki: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Third,
   birthday: "2000-05-05",
   height: 152,
@@ -1676,9 +1676,9 @@ const yodayuuki: IMember = {
       ]
     }
   ],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1699,7 +1699,7 @@ const wakatsukiyumi: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1994-06-27",
   height: 157,
@@ -1723,9 +1723,9 @@ const wakatsukiyumi: IMember = {
       ]
     }
   ],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2018-11-30"
@@ -1746,7 +1746,7 @@ const watanabemiria: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Second,
   birthday: "1999-11-01",
   height: 153,
@@ -1762,9 +1762,9 @@ const watanabemiria: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1785,7 +1785,7 @@ const wadamaaya: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1998-04-23",
   height: 160,
@@ -1801,9 +1801,9 @@ const wadamaaya: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1824,7 +1824,7 @@ const endousakura: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Fourth,
   birthday: "2001-10-03",
   height: 160,
@@ -1836,9 +1836,9 @@ const endousakura: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1859,7 +1859,7 @@ const kakiharuka: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Fourth,
   birthday: "2001-08-08",
   height: 166,
@@ -1871,9 +1871,9 @@ const kakiharuka: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1894,7 +1894,7 @@ const kakehashisayaka: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Fourth,
   birthday: "2002-11-20",
   height: 156,
@@ -1906,9 +1906,9 @@ const kakehashisayaka: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1929,7 +1929,7 @@ const kanagawasaya: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Fourth,
   birthday: "2001-10-31",
   height: 164,
@@ -1941,9 +1941,9 @@ const kanagawasaya: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1964,7 +1964,7 @@ const kitagawayuri: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Fourth,
   birthday: "2001-08-08",
   height: 163,
@@ -1976,9 +1976,9 @@ const kitagawayuri: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -1999,7 +1999,7 @@ const shibatayuna: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Fourth,
   birthday: "2003-03-03",
   height: 160,
@@ -2011,9 +2011,9 @@ const shibatayuna: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -2034,7 +2034,7 @@ const seimiyarei: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Fourth,
   birthday: "2003-08-01",
   height: 162,
@@ -2046,9 +2046,9 @@ const seimiyarei: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -2069,7 +2069,7 @@ const tamuramayu: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Fourth,
   birthday: "1999-01-12",
   height: 158,
@@ -2081,9 +2081,9 @@ const tamuramayu: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -2104,7 +2104,7 @@ const tsutsuiayame: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Fourth,
   birthday: "2004-06-08",
   height: 160,
@@ -2116,9 +2116,9 @@ const tsutsuiayame: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -2139,7 +2139,7 @@ const hayakawaseira: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Fourth,
   birthday: "2000-08-24",
   height: 164,
@@ -2151,9 +2151,9 @@ const hayakawaseira: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -2174,7 +2174,7 @@ const yakubomio: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Fourth,
   birthday: "2002-08-14",
   height: 152,
@@ -2186,9 +2186,9 @@ const yakubomio: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: false,
     graduatedDate: ""
@@ -2209,7 +2209,7 @@ const sagaraiori: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Second,
   birthday: "1997-11-26",
   height: 164,
@@ -2225,9 +2225,9 @@ const sagaraiori: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2018-07-16"
@@ -2248,16 +2248,16 @@ const saitouchiharu: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1997-02-17",
   height: 166,
   bloodType: BloodType.A,
   sites: [],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2018-07-16"
@@ -2278,7 +2278,7 @@ const kawamuramahiro: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1995-07-23",
   height: 156,
@@ -2298,9 +2298,9 @@ const kawamuramahiro: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2018-03-31"
@@ -2321,7 +2321,7 @@ const nakamotohimeka: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1996-04-13",
   height: 161,
@@ -2333,9 +2333,9 @@ const nakamotohimeka: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2017-12-31"
@@ -2356,7 +2356,7 @@ const itoumarika: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1996-02-20",
   height: 155,
@@ -2368,9 +2368,9 @@ const itoumarika: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2017-12-23"
@@ -2391,7 +2391,7 @@ const hashimotonanami: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1993-02-20",
   height: 163,
@@ -2421,9 +2421,9 @@ const hashimotonanami: IMember = {
       ]
     }
   ],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2017-02-20"
@@ -2444,7 +2444,7 @@ const fukagawamai: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1991-03-29",
   height: 162,
@@ -2479,9 +2479,9 @@ const fukagawamai: IMember = {
       ]
     }
   ],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2016-06-16"
@@ -2502,7 +2502,7 @@ const nagashimaseira: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1994-05-19",
   height: 158,
@@ -2518,9 +2518,9 @@ const nagashimaseira: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2016-03-20"
@@ -2541,7 +2541,7 @@ const matsuirena: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Exchange,
   birthday: "1991-07-27",
   height: 162,
@@ -2557,9 +2557,9 @@ const matsuirena: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2015-05-14"
@@ -2580,7 +2580,7 @@ const hatanakaseira: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1995-12-05",
   height: 150,
@@ -2596,9 +2596,9 @@ const hatanakaseira: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2015-04-04"
@@ -2619,7 +2619,7 @@ const yamatorina: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1994-12-14",
   height: 162,
@@ -2635,9 +2635,9 @@ const yamatorina: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2015-04-04"
@@ -2658,7 +2658,7 @@ const itounene: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1995-12-12",
   height: 148,
@@ -2674,9 +2674,9 @@ const itounene: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2014-10-19"
@@ -2697,16 +2697,16 @@ const yonetokukyouka: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Second,
   birthday: "1999-04-14",
   height: 163,
   bloodType: BloodType.AB,
   sites: [],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2014-10-18"
@@ -2727,16 +2727,16 @@ const yadarisako: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Second,
   birthday: "1995-03-08",
   height: 158,
   bloodType: BloodType.A,
   sites: [],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2014-10-18"
@@ -2757,7 +2757,7 @@ const ichikirena: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1996-01-22",
   height: 153,
@@ -2769,9 +2769,9 @@ const ichikirena: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2014-10-19"
@@ -2792,16 +2792,16 @@ const nishikawananami: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.Second,
   birthday: "1993-07-03",
   height: 165,
   bloodType: BloodType.A,
   sites: [],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2014-03-22"
@@ -2822,7 +2822,7 @@ const miyazawaseira: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1993-10-29",
   height: 166,
@@ -2838,9 +2838,9 @@ const miyazawaseira: IMember = {
     },
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2013-11-17"
@@ -2861,7 +2861,7 @@ const kashiwayukina: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1994-08-12",
   height: 158,
@@ -2873,9 +2873,9 @@ const kashiwayukina: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2013-11-17"
@@ -2896,16 +2896,16 @@ const andoumikumo: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1993-05-21",
   height: 156,
   bloodType: BloodType.O,
   sites: [],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2013-06-16"
@@ -2926,7 +2926,7 @@ const iwaseyumiko: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1990-06-12",
   height: 153,
@@ -2938,9 +2938,9 @@ const iwaseyumiko: IMember = {
     }
   ],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2012-11-18"
@@ -2961,16 +2961,16 @@ const yamamotohonoka: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1998-03-31",
   height: 162,
   bloodType: BloodType.O,
   sites: [],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2011-09-22"
@@ -2991,16 +2991,16 @@ const yoshimotoayaka: IMember = {
     large: "path",
     small: "path"
   },
-  singleImages: undefined,
+  singleImages: null,
   join: JoinedGeneration.First,
   birthday: "1996-08-18",
   height: 147,
   bloodType: BloodType.A,
   sites: [],
   photoAlbums: [],
-  units: undefined,
-  positionsHistory: undefined,
-  positionsCounter: undefined,
+  units: null,
+  positionsHistory: null,
+  positionsCounter: null,
   graduation: {
     isGraduated: true,
     graduatedDate: "2011-09-22"

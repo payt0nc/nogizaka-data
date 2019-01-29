@@ -17,49 +17,49 @@ const kaerimichi: ISingle = {
       title: "帰り道は遠回りしたくなる",
       inType: CdType.A,
       type: SongType.Title,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 2,
       title: "キャラバンは眠らない",
       inType: CdType.A,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 3,
       title: "つづく",
       inType: CdType.A,
       type: SongType.Solo,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 4,
       title: "日常",
       inType: CdType.B,
       type: SongType.Under,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 5,
       title: "告白の順番",
       inType: CdType.C,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 6,
       title: "ショパンの嘘つき",
       inType: CdType.D,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 7,
       title: "知りたいこと",
       inType: CdType.T,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     }
   ],
   behindPerformers: {
@@ -84,49 +84,49 @@ const jikochu: ISingle = {
       title: "ジコチューで行こう!",
       inType: CdType.A,
       type: SongType.Title,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 2,
       title: "空扉",
       inType: CdType.A,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 3,
       title: "三角の空き地",
       inType: CdType.A,
       type: SongType.Under,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 4,
       title: "自分じゃない感じ",
       inType: CdType.B,
       type: SongType.ThirdGeneration,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 5,
       title: "心のモノローグ",
       inType: CdType.C,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 6,
       title: "地球が丸いなら",
       inType: CdType.D,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 7,
       title: "あんなに好きだったのに・・・",
       inType: CdType.T,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     }
   ],
   behindPerformers: {
@@ -151,49 +151,49 @@ const syncronicity: ISingle = {
       title: "シンクロニシティ",
       inType: CdType.A,
       type: SongType.Title,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 2,
       title: "Against",
       inType: CdType.A,
       type: SongType.FirstGeneration,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 3,
       title: "雲になればいい",
       inType: CdType.A,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 4,
       title: "新しい世界",
       inType: CdType.B,
       type: SongType.Under,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 5,
       title: "スカウトマン",
       inType: CdType.C,
       type: SongType.SecondGeneration,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 6,
       title: "トキトキメキメキ",
       inType: CdType.D,
       type: SongType.ThirdGeneration,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 7,
       title: "言霊砲",
       inType: CdType.T,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     }
   ],
   behindPerformers: {
@@ -218,49 +218,49 @@ const itsukadekirukara: ISingle = {
       title: "いつかできるから今日できる",
       inType: CdType.A,
       type: SongType.Title,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 2,
       title: "不眠症",
       inType: CdType.A,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 3,
       title: "まあいいか?",
       inType: CdType.A,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 4,
       title: "失恋お掃除人",
       inType: CdType.B,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 5,
       title: "My rule",
       inType: CdType.C,
       type: SongType.Under,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 6,
       title: "僕の衝動",
       inType: CdType.D,
       type: SongType.ThirdGeneration,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 7,
       title: "新しい花粉 ~ミュージカル「見知らぬ世界」より~",
       inType: CdType.T,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     }
   ],
   behindPerformers: {
@@ -298,49 +298,49 @@ const nigemizu: ISingle = {
       title: "逃げ水",
       inType: CdType.A,
       type: SongType.Title,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 2,
       title: "女は一人じゃ眠れない",
       inType: CdType.A,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 3,
       title: "ひと夏の長さより…",
       inType: CdType.A,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 4,
       title: "泣いたっていいじゃないか?",
       inType: CdType.B,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 5,
       title: "アンダー",
       inType: CdType.C,
       type: SongType.Under,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 6,
       title: "ライブ神",
       inType: CdType.D,
       type: SongType.SecondGeneration,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 7,
       title: "未来の答え",
       inType: CdType.T,
       type: SongType.ThirdGeneration,
-      focusPerformers: undefined
+      focusPerformers: null
     }
   ],
   behindPerformers: {
@@ -378,49 +378,49 @@ const influencer: ISingle = {
       title: "インフルエンサー",
       inType: CdType.A,
       type: SongType.Title,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 2,
       title: "人生を考えたくなる",
       inType: CdType.A,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 3,
       title: "意外BREAK?",
       inType: CdType.A,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 4,
       title: "Another Ghost",
       inType: CdType.B,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 5,
       title: "風船は生きている",
       inType: CdType.C,
       type: SongType.Under,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 6,
       title: "三番目の風",
       inType: CdType.D,
       type: SongType.ThirdGeneration,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 7,
       title: "当たり障りのない話",
       inType: CdType.T,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     }
   ],
   behindPerformers: {
@@ -458,49 +458,49 @@ const sayonaranoimi: ISingle = {
       title: "サヨナラの意味",
       inType: CdType.A,
       type: SongType.Title,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 2,
       title: "孤独な青空",
       inType: CdType.A,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 3,
       title: "あの教室",
       inType: CdType.A,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 4,
       title: "ブランコ",
       inType: CdType.B,
       type: SongType.Under,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 5,
       title: "2度目のキスから",
       inType: CdType.C,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 6,
       title: "君に贈る花がない",
       inType: CdType.D,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 7,
       title: "ないものねだり",
       inType: CdType.T,
       type: SongType.Solo,
-      focusPerformers: undefined
+      focusPerformers: null
     }
   ],
   behindPerformers: {
@@ -525,49 +525,49 @@ const hadashidesummer: ISingle = {
       title: "裸足でSummer",
       inType: CdType.A,
       type: SongType.Title,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 2,
       title: "僕だけの光",
       inType: CdType.A,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 3,
       title: "オフショアガール",
       inType: CdType.A,
       type: SongType.Solo,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 4,
       title: "命の真実 ミュージカル「林檎売りとカメムシ」",
       inType: CdType.B,
       type: SongType.Solo,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 5,
       title: "白米様",
       inType: CdType.C,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 6,
       title: "シークレットグラフィティー",
       inType: CdType.D,
       type: SongType.Under,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 7,
       title: "行くあてのない僕たち",
       inType: CdType.T,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     }
   ],
   behindPerformers: {
@@ -592,49 +592,49 @@ const harujion: ISingle = {
       title: "ハルジオンが咲く頃",
       inType: CdType.A,
       type: SongType.Title,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 2,
       title: "遥かなるブータン",
       inType: CdType.A,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 3,
       title: "強がる蕾",
       inType: CdType.A,
       type: SongType.Solo,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 4,
       title: "急斜面",
       inType: CdType.B,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 5,
       title: "釣り堀",
       inType: CdType.C,
       type: SongType.Solo,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 6,
       title: "不等号",
       inType: CdType.D,
       type: SongType.Under,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 7,
       title: "憂鬱と風船ガム",
       inType: CdType.T,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     }
   ],
   behindPerformers: {
@@ -659,42 +659,42 @@ const hanashitaidarekagairu: ISingle = {
       title: "今、話したい誰かがいる",
       inType: CdType.A,
       type: SongType.Title,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 2,
       title: "嫉妬の権利",
       inType: CdType.A,
       type: SongType.Under,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 3,
       title: "ポピパッパパー",
       inType: CdType.A,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 4,
       title: "大人への近道",
       inType: CdType.B,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 5,
       title: "悲しみの忘れ方",
       inType: CdType.C,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 6,
       title: "隙間",
       inType: CdType.T,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     }
   ],
   behindPerformers: {
@@ -719,49 +719,49 @@ const taiyoknock: ISingle = {
       title: "太陽ノック",
       inType: CdType.A,
       type: SongType.Title,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 2,
       title: "もう少しの夢",
       inType: CdType.A,
       type: SongType.Solo,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 3,
       title: "魚たちのLOVE SONG",
       inType: CdType.A,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 4,
       title: "無表情",
       inType: CdType.B,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 5,
       title: "別れ際、もっと好きになる",
       inType: CdType.C,
       type: SongType.Under,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 6,
       title: "羽根の記憶",
       inType: CdType.T,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 7,
       title: "制服を脱いでサヨナラを…",
       inType: CdType.L,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     }
   ],
   behindPerformers: {
@@ -786,42 +786,42 @@ const inochihautsukushii: ISingle = {
       title: "命は美しい",
       inType: CdType.A,
       type: SongType.Title,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 2,
       title: "あらかじめ語られるロマンス",
       inType: CdType.A,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 3,
       title: "立ち直り中",
       inType: CdType.A,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 4,
       title: "ごめんね ずっと…",
       inType: CdType.B,
       type: SongType.Solo,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 5,
       title: "君は僕と会わない方がよかったのかな",
       inType: CdType.C,
       type: SongType.Under,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 6,
       title: "ボーダー",
       inType: CdType.T,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     }
   ],
   behindPerformers: {
@@ -853,42 +853,42 @@ const nandomenoaozoraka: ISingle = {
       title: "何度目の青空か?",
       inType: CdType.A,
       type: SongType.Title,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 2,
       title: "遠回りの愛情",
       inType: CdType.A,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 3,
       title: "転がった鐘を鳴らせ!",
       inType: CdType.A,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 4,
       title: "私、起きる。",
       inType: CdType.B,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 5,
       title: "あの日 僕は咄嗟に嘘をついた",
       inType: CdType.C,
       type: SongType.Under,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 6,
       title: "Tender days",
       inType: CdType.T,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     }
   ],
   behindPerformers: {
@@ -921,42 +921,42 @@ const natsunofreeandeasy: ISingle = {
       title: "夏のFree&Easy",
       inType: CdType.A,
       type: SongType.Title,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 2,
       title: "何もできずにそばにいる",
       inType: CdType.A,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 3,
       title: "その先の出口!",
       inType: CdType.A,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 4,
       title: "無口なライオン",
       inType: CdType.B,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 5,
       title: "ここにいる理由",
       inType: CdType.C,
       type: SongType.Under,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 6,
       title: "僕が行かなきゃ誰が行くんだ?",
       inType: CdType.T,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     }
   ],
   behindPerformers: {
@@ -992,42 +992,42 @@ const kizuitarakataomoi: ISingle = {
       title: "気づいたら片想い",
       inType: CdType.A,
       type: SongType.Title,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 2,
       title: "ロマンスのスタート",
       inType: CdType.A,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 3,
       title: "吐息のメソッド",
       inType: CdType.A,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 4,
       title: "孤独兄弟",
       inType: CdType.B,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 5,
       title: "生まれたままで",
       inType: CdType.C,
       type: SongType.Under,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 6,
       title: "ダンケシェーン",
       inType: CdType.T,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     }
   ],
   behindPerformers: {
@@ -1062,42 +1062,42 @@ const valletta: ISingle = {
       title: "バレッタ",
       inType: CdType.A,
       type: SongType.Title,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 2,
       title: "月の大きさ",
       inType: CdType.A,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 3,
       title: "私のために 誰かのために",
       inType: CdType.A,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 4,
       title: "そんなバカな…",
       inType: CdType.B,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 5,
       title: "初恋の人を今でも",
       inType: CdType.C,
       type: SongType.Under,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 6,
       title: "やさしさとは",
       inType: CdType.T,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     }
   ],
   behindPerformers: {
@@ -1138,42 +1138,42 @@ const girlsrule: ISingle = {
       title: "ガールズルール",
       inType: CdType.A,
       type: SongType.Title,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 2,
       title: "世界で一番 孤独なLover",
       inType: CdType.A,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 3,
       title: "コウモリよ",
       inType: CdType.A,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 4,
       title: "扇風機",
       inType: CdType.B,
       type: SongType.Under,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 5,
       title: "他の星から",
       inType: CdType.C,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 6,
       title: "人間という楽器",
       inType: CdType.T,
       type: SongType.FirstGeneration,
-      focusPerformers: undefined
+      focusPerformers: null
     }
   ],
   behindPerformers: {
@@ -1212,42 +1212,42 @@ const kiminonahakibo: ISingle = {
       title: "君の名は希望",
       inType: CdType.A,
       type: SongType.Title,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 2,
       title: "シャキイズム",
       inType: CdType.A,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 3,
       title: "ロマンティックいか焼き",
       inType: CdType.A,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 4,
       title: "13日の金曜日",
       inType: CdType.B,
       type: SongType.Under,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 5,
       title: "でこぴん",
       inType: CdType.C,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 6,
       title: "サイコキネシスの可能性",
       inType: CdType.T,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     }
   ],
   behindPerformers: {
@@ -1272,42 +1272,42 @@ const seifukunomannequin: ISingle = {
       title: "制服のマネキン",
       inType: CdType.A,
       type: SongType.Title,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 2,
       title: "指望遠鏡",
       inType: CdType.A,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 3,
       title: "やさしさなら間に合ってる",
       inType: CdType.A,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 4,
       title: "ここじゃないどこか",
       inType: CdType.B,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 5,
       title: "春のメロディー",
       inType: CdType.C,
       type: SongType.Under,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 6,
       title: "渋谷ブルース",
       inType: CdType.T,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
   ],
   behindPerformers: {
@@ -1332,42 +1332,42 @@ const hashirebicycle: ISingle = {
       title: "走れ!Bicycle",
       inType: CdType.A,
       type: SongType.Title,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 2,
       title: "せっかちなかたつむり",
       inType: CdType.A,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 3,
       title: "涙がまだ悲しみだった頃",
       inType: CdType.A,
       type: SongType.Under,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 4,
       title: "人はなぜ走るのか?",
       inType: CdType.B,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 5,
       title: "音が出ないギター",
       inType: CdType.C,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 6,
       title: "海流の島よ",
       inType: CdType.T,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     }
   ],
   behindPerformers: {
@@ -1392,42 +1392,42 @@ const oideshampoo: ISingle = {
       title: "おいでシャンプー",
       inType: CdType.A,
       type: SongType.Title,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 2,
       title: "心の薬",
       inType: CdType.A,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 3,
       title: "偶然を言い訳にして",
       inType: CdType.A,
       type: SongType.Unit,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 4,
       title: "水玉模様",
       inType: CdType.B,
       type: SongType.Solo,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 5,
       title: "狼に口笛を",
       inType: CdType.C,
       type: SongType.Under,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 6,
       title: "ハウス!",
       inType: CdType.T,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     }
   ],
   behindPerformers: {
@@ -1452,42 +1452,42 @@ const gurugurucurtain: ISingle = {
       title: "ぐるぐるカーテン",
       inType: CdType.A,
       type: SongType.Title,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 2,
       title: "左胸の勇気",
       inType: CdType.A,
       type: SongType.Under,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 3,
       title: "乃木坂の詩",
       inType: CdType.A,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 4,
       title: "会いたかったかもしれない",
       inType: CdType.B,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 5,
       title: "失いたくないから",
       inType: CdType.C,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
     {
       number: 6,
       title: "白い雲にのって",
       inType: CdType.T,
       type: SongType.Coupling,
-      focusPerformers: undefined
+      focusPerformers: null
     },
   ],
   behindPerformers: {
