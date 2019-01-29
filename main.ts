@@ -40,22 +40,22 @@ recordAlbumFocusPerformers(albumsList, songsList);
 recordSongAlbums(songsList, albumsList);
 recordSongSingle(songsList, singlesList);
 
-for (let songElement of songsList) {
-  const song = songElement[1];
-  console.log(song.title, song.single, song.albums);
-}
+// for (let songElement of songsList) {
+//   const song = songElement[1];
+//   console.log(song.title, song.single, song.albums);
+// }
 
 // console.log(members);
 
 // TODO: Store the processed data into a JSON file.
 
-// fs.writeFile("raw-data.json", JSON.stringify(rawData), (err) => {
-//   if (err) {
-//     console.log(err);
-//   } else {
-//     console.log("File is sucessfully saved.");
-//   }
-// });
+fs.writeFile("./src/json/raw-data.json", JSON.stringify(rawData), (err) => {
+  if (err) {
+    console.log(err);
+  } else {
+    console.log("File is sucessfully saved.");
+  }
+});
 
 // TODO: Post and update the remote data in Firebase.
 
