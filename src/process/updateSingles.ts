@@ -3,18 +3,15 @@ import { ISingle, ISingleSong } from "../types/single";
 import { ISong } from "../types/song";
 
 export const recordSingleSongType = (
-  singlesList: [string, ISingle][],
-  songsList: [string, ISong][]
+  singlesList: ISingle[],
+  songsList: ISong[]
 ) => {
-  singlesList.forEach((singleElement: [string, ISingle]) => {
-    const single = singleElement[1];
-
+  singlesList.forEach((single: ISingle) => {
     single.songs.forEach((singleSong: ISingleSong) => {
       // Reset singleSong type.
       // singleSong.type = undefined;
 
-      songsList.forEach((songElement: [string, ISong]) => {
-        const song = songElement[1];
+      songsList.forEach((song: ISong) => {
         if (song.title === singleSong.title) {
           singleSong.type = song.type;
         }
@@ -26,15 +23,12 @@ export const recordSingleSongType = (
 };
 
 export const recordSingleFocusPerformers = (
-  singlesList: [string, ISingle][],
-  songsList: [string, ISong][]
+  singlesList: ISingle[],
+  songsList: ISong[]
 ) => {
-  singlesList.forEach((singleElement: [string, ISingle]) => {
-    const single = singleElement[1];
-
+  singlesList.forEach((single: ISingle) => {
     single.songs.forEach((singleSong: ISingleSong) => {
-      songsList.forEach((songElement: [string, ISong]) => {
-        const song = songElement[1];
+      songsList.forEach((song: ISong) => {
         if (song.title === singleSong.title) {
           if (
             song.type === SongType.Title ||

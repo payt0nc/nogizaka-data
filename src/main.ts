@@ -11,11 +11,11 @@ import { units } from "./raw/units";
 
 // Form all property pairs into an array.
 
-const songsArray = Object.entries(songs);
-const membersArray = Object.entries(members);
-const singlesArray = Object.entries(singles);
-const albumsArray = Object.entries(albums);
-const unitsArray = Object.entries(units);
+const songsArray = Object.values(songs);
+const membersArray = Object.values(members);
+const singlesArray = Object.values(singles);
+const albumsArray = Object.values(albums);
+const unitsArray = Object.values(units);
 
 // Process the raw data.
 

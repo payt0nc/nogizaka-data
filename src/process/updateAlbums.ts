@@ -3,18 +3,15 @@ import { IAlbum, IAlbumSong } from "../types/album";
 import { ISong } from "../types/song";
 
 export const recordAlbumSongType = (
-  albumsList: [string, IAlbum][],
-  songsList: [string, ISong][]
+  albumsList: IAlbum[],
+  songsList: ISong[]
 ) => {
-  albumsList.forEach((albumElement: [string, IAlbum]) => {
-    const album = albumElement[1];
-
+  albumsList.forEach((album: IAlbum) => {
     album.songs.forEach((albumSong: IAlbumSong) => {
       // Reset albumSong type.
       // albumSong.type = undefined;
 
-      songsList.forEach((songElement: [string, ISong]) => {
-        const song = songElement[1];
+      songsList.forEach((song: ISong) => {
         if (song.title === albumSong.title) {
           albumSong.type = song.type;
         }
@@ -26,15 +23,12 @@ export const recordAlbumSongType = (
 };
 
 export const recordAlbumFocusPerformers = (
-  albumsList: [string, IAlbum][],
-  songsList: [string, ISong][]
+  albumsList: IAlbum[],
+  songsList: ISong[]
 ) => {
-  albumsList.forEach((albumElement: [string, IAlbum]) => {
-    const album = albumElement[1];
-
+  albumsList.forEach((album: IAlbum) => {
     album.songs.forEach((albumSong: IAlbumSong) => {
-      songsList.forEach((songElement: [string, ISong]) => {
-        const song = songElement[1];
+      songsList.forEach((song: ISong) => {
         if (song.title === albumSong.title) {
           if (
             song.type === SongType.Title ||

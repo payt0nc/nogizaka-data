@@ -5,19 +5,16 @@ import { ISong } from "../types/song";
 import { IUnit } from "../types/unit";
 
 export const recordUnits = (
-  membersList: [string, IMember][],
-  unitsList: [string, IUnit][]
+  membersList: IMember[],
+  unitsList: IUnit[]
 ) => {
   // Loop for members.
-  membersList.forEach((memberElement: [string, IMember]) => {
-    const member = memberElement[1];
-
+  membersList.forEach((member: IMember) => {
     // Reset member's units.
     member.units = [];
 
     // Loop for units.
-    unitsList.forEach((unitElement: [string, IUnit]) => {
-      const unit = unitElement[1];
+    unitsList.forEach((unit: IUnit) => {
       if (unit.members.includes(member.name)) {
         member.units.push({
           name: unit.name,
@@ -31,14 +28,12 @@ export const recordUnits = (
 };
 
 export const recordPositions = (
-  membersList: [string, IMember][],
-  singlesList: [string, ISingle][],
-  songsList: [string, ISong][]
+  membersList: IMember[],
+  singlesList: ISingle[],
+  songsList: ISong[]
 ) => {
   // Loop for members.
-  membersList.forEach((memberElement: [string, IMember]) => {
-    const member = memberElement[1];
-
+  membersList.forEach((member: IMember) => {
     // Reset positionsHistory and positionsCounter.
     member.positionsHistory = [];
     member.positionsCounter = {
@@ -49,9 +44,7 @@ export const recordPositions = (
     };
 
     // Loop for singles.
-    singlesList.forEach((singleElement: [string, ISingle]) => {
-      const single = singleElement[1];
-
+    singlesList.forEach((single: ISingle) => {
       // Check trainee and skip.
       if (single.behindPerformers.trainees.includes(member.name)) {
         member.positionsHistory.push({
@@ -73,9 +66,7 @@ export const recordPositions = (
         // Loop for songs in this single.
         single.songs.forEach((singleSong: ISingleSong) => {
           // Loop for the song to pair title song.
-          songsList.forEach((songElement: [string, ISong]) => {
-            const song = songElement[1];
-
+          songsList.forEach((song: ISong) => {
             // Calculate center, fukujin, selected.
             if (singleSong.type === SongType.Title) {
               if (song.title === singleSong.title) {
