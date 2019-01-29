@@ -8,51 +8,64 @@ import { members } from "./raw/members";
 import { singles } from "./raw/singles";
 import { songs } from "./raw/songs";
 import { units } from "./raw/units";
-import { IMember } from "./types/member";
-
-// TODO: Load the raw data.
-
-const rawData = {
-  songs,
-  members,
-  singles,
-  albums,
-  units
-};
 
 // Form all property pairs into an array.
-const songsList = Object.entries(songs);
-const membersList = Object.entries(members);
-const singlesList = Object.entries(singles);
-const albumsList = Object.entries(albums);
-const unitsList = Object.entries(units);
 
-// TODO: Process the raw data.
+const songsArray = Object.entries(songs);
+const membersArray = Object.entries(members);
+const singlesArray = Object.entries(singles);
+const albumsArray = Object.entries(albums);
+const unitsArray = Object.entries(units);
 
-recordUnits(membersList, unitsList);
-recordSingleSongType(singlesList, songsList);
-recordSingleFocusPerformers(singlesList, songsList);
-recordPositions(membersList, singlesList, songsList);
+// Process the raw data.
 
-recordAlbumSongType(albumsList, songsList);
-recordAlbumFocusPerformers(albumsList, songsList);
+recordUnits(membersArray, unitsArray);
+recordSingleSongType(singlesArray, songsArray);
+recordSingleFocusPerformers(singlesArray, songsArray);
+recordPositions(membersArray, singlesArray, songsArray);
+recordAlbumSongType(albumsArray, songsArray);
+recordAlbumFocusPerformers(albumsArray, songsArray);
+recordSongAlbums(songsArray, albumsArray);
+recordSongSingle(songsArray, singlesArray);
 
-recordSongAlbums(songsList, albumsList);
-recordSongSingle(songsList, singlesList);
+// Store the processed data into several JSON files.
 
-// for (let songElement of songsList) {
-//   const song = songElement[1];
-//   console.log(song.title, song.single, song.albums);
-// }
-
-// console.log(members);
-
-// TODO: Store the processed data into a JSON file.
-
-fs.writeFile("./src/json/raw-data.json", JSON.stringify(rawData), (err) => {
+fs.writeFile("./src/json/members.json", JSON.stringify(membersArray), (err) => {
   if (err) {
     console.log(err);
   } else {
-    console.log("File is sucessfully saved.");
+    console.log("members.json is sucessfully saved.");
+  }
+});
+
+fs.writeFile("./src/json/singles.json", JSON.stringify(singlesArray), (err) => {
+  if (err) {
+    console.log(err);
+  } else {
+    console.log("singles.json is sucessfully saved.");
+  }
+});
+
+fs.writeFile("./src/json/albums.json", JSON.stringify(albumsArray), (err) => {
+  if (err) {
+    console.log(err);
+  } else {
+    console.log("albums.json is sucessfully saved.");
+  }
+});
+
+fs.writeFile("./src/json/songs.json", JSON.stringify(songsArray), (err) => {
+  if (err) {
+    console.log(err);
+  } else {
+    console.log("songs.json is sucessfully saved.");
+  }
+});
+
+fs.writeFile("./src/json/units.json", JSON.stringify(unitsArray), (err) => {
+  if (err) {
+    console.log(err);
+  } else {
+    console.log("units.json is sucessfully saved.");
   }
 });
