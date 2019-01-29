@@ -1,14 +1,14 @@
 import * as fs from "fs";
-import { recordAlbumFocusPerformers, recordAlbumSongType } from "./src/process/updateAlbums";
-import { recordPositions, recordUnits } from "./src/process/updateMembers";
-import { recordSingleFocusPerformers, recordSingleSongType } from "./src/process/updateSingles";
-import { recordSongAlbums, recordSongSingle } from "./src/process/updateSongs";
-import { albums } from "./src/raw/albums";
-import { members } from "./src/raw/members";
-import { singles } from "./src/raw/singles";
-import { songs } from "./src/raw/songs";
-import { units } from "./src/raw/units";
-import { IMember } from "./src/types/member";
+import { recordAlbumFocusPerformers, recordAlbumSongType } from "./process/updateAlbums";
+import { recordPositions, recordUnits } from "./process/updateMembers";
+import { recordSingleFocusPerformers, recordSingleSongType } from "./process/updateSingles";
+import { recordSongAlbums, recordSongSingle } from "./process/updateSongs";
+import { albums } from "./raw/albums";
+import { members } from "./raw/members";
+import { singles } from "./raw/singles";
+import { songs } from "./raw/songs";
+import { units } from "./raw/units";
+import { IMember } from "./types/member";
 
 // TODO: Load the raw data.
 
@@ -56,7 +56,3 @@ fs.writeFile("./src/json/raw-data.json", JSON.stringify(rawData), (err) => {
     console.log("File is sucessfully saved.");
   }
 });
-
-// TODO: Post and update the remote data in Firebase.
-
-// console.log(firebase.default.database);
