@@ -3,8 +3,8 @@ import { IAlbum, IAlbumSong } from "../types/album";
 import { ISong } from "../types/song";
 
 export const recordAlbumSongType = (
-  albumsList: Array<[string, IAlbum]>,
-  songsList: Array<[string, ISong]>
+  albumsList: [string, IAlbum][],
+  songsList: [string, ISong][]
 ) => {
   albumsList.forEach((albumElement: [string, IAlbum]) => {
     const album = albumElement[1];
@@ -26,8 +26,8 @@ export const recordAlbumSongType = (
 };
 
 export const recordAlbumFocusPerformers = (
-  albumsList: Array<[string, IAlbum]>,
-  songsList: Array<[string, ISong]>
+  albumsList: [string, IAlbum][],
+  songsList: [string, ISong][]
 ) => {
   albumsList.forEach((albumElement: [string, IAlbum]) => {
     const album = albumElement[1];

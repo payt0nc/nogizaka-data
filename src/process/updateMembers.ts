@@ -5,8 +5,8 @@ import { ISong } from "../types/song";
 import { IUnit } from "../types/unit";
 
 export const recordUnits = (
-  membersList: Array<[string, IMember]>,
-  unitsList: Array<[string, IUnit]>
+  membersList: [string, IMember][],
+  unitsList: [string, IUnit][]
 ) => {
   // Loop for members.
   membersList.forEach((memberElement: [string, IMember]) => {
@@ -31,9 +31,9 @@ export const recordUnits = (
 };
 
 export const recordPositions = (
-  membersList: Array<[string, IMember]>,
-  singlesList: Array<[string, ISingle]>,
-  songsList: Array<[string, ISong]>
+  membersList: [string, IMember][],
+  singlesList: [string, ISingle][],
+  songsList: [string, ISong][]
 ) => {
   // Loop for members.
   membersList.forEach((memberElement: [string, IMember]) => {

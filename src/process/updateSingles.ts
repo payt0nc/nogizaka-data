@@ -3,8 +3,8 @@ import { ISingle, ISingleSong } from "../types/single";
 import { ISong } from "../types/song";
 
 export const recordSingleSongType = (
-  singlesList: Array<[string, ISingle]>,
-  songsList: Array<[string, ISong]>
+  singlesList: [string, ISingle][],
+  songsList: [string, ISong][]
 ) => {
   singlesList.forEach((singleElement: [string, ISingle]) => {
     const single = singleElement[1];
@@ -26,8 +26,8 @@ export const recordSingleSongType = (
 };
 
 export const recordSingleFocusPerformers = (
-  singlesList: Array<[string, ISingle]>,
-  songsList: Array<[string, ISong]>
+  singlesList: [string, ISingle][],
+  songsList: [string, ISong][]
 ) => {
   singlesList.forEach((singleElement: [string, ISingle]) => {
     const single = singleElement[1];

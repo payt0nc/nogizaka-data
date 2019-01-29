@@ -3,8 +3,8 @@ import { ISingle, ISingleSong } from "../types/single";
 import { ISong } from "../types/song";
 
 export const recordSongAlbums = (
-  songsList: Array<[string, ISong]>,
-  albumsList: Array<[string, IAlbum]>
+  songsList: [string, ISong][],
+  albumsList: [string, IAlbum][]
 ) => {
   songsList.forEach((songElement: [string, ISong]) => {
     const song = songElement[1];
@@ -25,8 +25,8 @@ export const recordSongAlbums = (
 };
 
 export const recordSongSingle = (
-  songsList: Array<[string, ISong]>,
-  singlesList: Array<[string, ISingle]>
+  songsList: [string, ISong][],
+  singlesList: [string, ISingle][]
 ) => {
   songsList.forEach((songElement: [string, ISong]) => {
     const song = songElement[1];
