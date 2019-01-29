@@ -49,8 +49,8 @@ TODO:
   - [ ] profileImage
   - [ ] singleImages
 - [ ] songs
-  - [ ] main
-  - [ ] creators
+  - [x] main
+  - [x] creators
   - [ ] musicVideos
 - [x] singles
 - [x] albums
