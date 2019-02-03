@@ -1,6 +1,6 @@
-import { IAlbum, IAlbumSong } from "../types/album";
-import { ISingle, ISingleSong } from "../types/single";
-import { ISong } from "../types/song";
+import { IAlbum, IAlbumSong } from "../types/IAlbum";
+import { ISingle, ISingleSong } from "../types/ISingle";
+import { ISong } from "../types/ISong";
 
 export const recordSongAlbums = (
   songsList:  ISong[],

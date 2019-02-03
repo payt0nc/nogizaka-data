@@ -1,5 +1,5 @@
-import { FocusPerformersType, SongType } from "../common/types";
-import { ICd } from "./cd";
+import { FocusPerformersType, SongType } from "../common/constants";
+import { ICd } from "./ICd";
 
 type IFocusPerformers = {
   type: FocusPerformersType;

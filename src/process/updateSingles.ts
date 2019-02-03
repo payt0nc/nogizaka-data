@@ -1,6 +1,6 @@
-import { FocusPerformersType, SongType } from "../common/types";
-import { ISingle, ISingleSong } from "../types/single";
-import { ISong } from "../types/song";
+import { FocusPerformersType, SongType } from "../common/constants";
+import { ISingle, ISingleSong } from "../types/ISingle";
+import { ISong } from "../types/ISong";
 
 export const recordSingleSongType = (
   singlesList: ISingle[],

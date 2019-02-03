@@ -1,5 +1,5 @@
-import { SongType } from "../common/types";
-import { IAlbum } from "../types/album";
+import { SongType } from "../common/constants";
+import { IAlbum } from "../types/IAlbum";
 
 const bokudakenokimi: IAlbum = {
   title: "僕だけの君〜Under Super Best〜",

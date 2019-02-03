@@ -1,5 +1,5 @@
-import { CdType, MemberNames, SongType } from "../common/types";
-import { ISingle } from "../types/single";
+import { CdType, MemberNames, SongType } from "../common/constants";
+import { ISingle } from "../types/ISingle";
 
 const kaerimichi: ISingle = {
   title: "帰り道は遠回りしたくなる",

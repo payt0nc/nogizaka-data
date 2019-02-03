@@ -1,4 +1,4 @@
-import { UnitType } from "../common/types";
+import { UnitType } from "../common/constants";
 
 export type IUnit = {
   name: string;

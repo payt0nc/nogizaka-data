@@ -1,4 +1,4 @@
-import { FukujinType, SongType } from "../common/types";
+import { FukujinType, SongType } from "../common/constants";
 
 export type ISongPerformers = {
   center: string[];

@@ -1,8 +1,8 @@
-import { FukujinType, SongType } from "../common/types";
-import { IMember, IMemberPositionHistory, PositionType } from "../types/member";
-import { ISingle, ISingleSong } from "../types/single";
-import { ISong } from "../types/song";
-import { IUnit } from "../types/unit";
+import { FukujinType, SongType } from "../common/constants";
+import { IMember, IMemberPositionHistory, PositionType } from "../types/IMember";
+import { ISingle, ISingleSong } from "../types/ISingle";
+import { ISong } from "../types/ISong";
+import { IUnit } from "../types/IUnit";
 
 export const recordUnits = (
   membersList: IMember[],

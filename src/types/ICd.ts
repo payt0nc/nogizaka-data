@@ -1,4 +1,4 @@
-import { ISite } from "../common/types";
+import { ISite } from "./ISite";
 
 export type ICd = {
   title: string;
