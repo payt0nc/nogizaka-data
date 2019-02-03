@@ -18,59 +18,59 @@ export enum PositionType {
   None = "none"
 }
 
-interface IMemberProfileImage {
+type IMemberProfileImage = {
   large: string;
   small: string;
-}
+};
 
-interface IMemberSingleImage {
+type IMemberSingleImage = {
   singleNumber: number;
   image: string;
-}
+};
 
-interface IMemberPhotoAlbum {
+type IMemberPhotoAlbum = {
   title: string;
   release: string;
   type: PhotoAlbumType;
   shopping: ISite[];
-}
+};
 
-interface IMemberNameNotations {
+type IMemberNameNotations = {
   firstName: string;
   lastName: string;
   firstNameFurigana: string;
   lastNameFurigana: string;
   firstNameEn: string;
   lastNameEn: string;
-}
+};
 
-export interface IMemberPositionHistory {
+export type IMemberPositionHistory = {
   singleNumber: number;
   position: PositionType;
-}
+};
 
-interface IMemberPositionsCounter {
+type IMemberPositionsCounter = {
   center: number;
   fukujin: number;
   selected: number;
   under: number;
-}
+};
 
-interface IMemberGraduation {
+type IMemberGraduation = {
   isGraduated: boolean;
   graduatedDate: string;
-}
+};
 
-export interface IMemberUnit {
+export type IMemberUnit = {
   name: string;
   type: UnitType;
-}
+};
 
-export interface IMember {
+export type IMember = {
   name: string;
   nameNotations: IMemberNameNotations;
   profileImage: IMemberProfileImage;
-  singleImages: IMemberSingleImage[] | undefined;
+  singleImages: IMemberSingleImage[];
   join: JoinedGeneration;
   birthday: string;
   height: number;
@@ -81,4 +81,4 @@ export interface IMember {
   positionsHistory: IMemberPositionHistory[];
   positionsCounter: IMemberPositionsCounter;
   graduation: IMemberGraduation;
-}
+};

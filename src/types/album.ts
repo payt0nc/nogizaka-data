@@ -1,18 +1,18 @@
 import { FocusPerformersType, SongType } from "../common/types";
 import { ICd } from "./cd";
 
-interface IFocusPerformers {
+type IFocusPerformers = {
   type: FocusPerformersType;
   name: string[];
-}
+};
 
-export interface IAlbumSong {
+export type IAlbumSong = {
   number: number;
   title: string;
   type: SongType;
-  focusPerformers: IFocusPerformers | undefined;
-}
+  focusPerformers: IFocusPerformers;
+};
 
-export interface IAlbum extends ICd {
+export type IAlbum = ICd & {
   songs: IAlbumSong[];
-}
+};

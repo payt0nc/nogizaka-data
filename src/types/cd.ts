@@ -1,8 +1,8 @@
 import { ISite } from "../common/types";
 
-export interface ICd {
+export type ICd = {
   title: string;
   number: number;
   release: string;
   shopping: ISite[];
-}
+};

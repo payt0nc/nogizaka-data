@@ -1,27 +1,27 @@
 import { FukujinType, SongType } from "../common/types";
 
-export interface ISongPerformers {
+export type ISongPerformers = {
   center: string[];
   fukujin: FukujinType | string[];
   solo: string;
   unit: string;
-}
+};
 
-export interface ISongFormations {
+export type ISongFormations = {
   firstRow: string[];
   secondRow: string[];
   thirdRow: string[];
   fourthRow: string[];
-}
+};
 
-interface ISongCreators {
+type ISongCreators = {
   lyrics: string[];
   compose: string[];
   arrange: string[];
   direct: string[];
-}
+};
 
-export interface ISong {
+export type ISong = {
   title: string;
   single: string;
   artwork: string;
@@ -31,4 +31,4 @@ export interface ISong {
   creators: ISongCreators;
   performers: ISongPerformers;
   formations: ISongFormations;
-}
+};
