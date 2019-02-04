@@ -922,10 +922,6 @@ const hanashitaidarekagairu: ISingle = {
       url: ""
     },
     {
-      type: CdType.D,
-      url: ""
-    },
-    {
       type: CdType.T,
       url: ""
     }
@@ -1007,10 +1003,6 @@ const taiyoknock: ISingle = {
     },
     {
       type: CdType.C,
-      url: ""
-    },
-    {
-      type: CdType.D,
       url: ""
     },
     {
@@ -1106,10 +1098,6 @@ const inochihautsukushii: ISingle = {
       url: ""
     },
     {
-      type: CdType.D,
-      url: ""
-    },
-    {
       type: CdType.T,
       url: ""
     }
@@ -1198,10 +1186,6 @@ const nandomenoaozoraka: ISingle = {
     },
     {
       type: CdType.C,
-      url: ""
-    },
-    {
-      type: CdType.D,
       url: ""
     },
     {
@@ -1294,10 +1278,6 @@ const natsunofreeandeasy: ISingle = {
     },
     {
       type: CdType.C,
-      url: ""
-    },
-    {
-      type: CdType.D,
       url: ""
     },
     {
@@ -1396,10 +1376,6 @@ const kizuitarakataomoi: ISingle = {
       url: ""
     },
     {
-      type: CdType.D,
-      url: ""
-    },
-    {
       type: CdType.T,
       url: ""
     }
@@ -1491,10 +1467,6 @@ const valletta: ISingle = {
     },
     {
       type: CdType.C,
-      url: ""
-    },
-    {
-      type: CdType.D,
       url: ""
     },
     {
@@ -1598,10 +1570,6 @@ const girlsrule: ISingle = {
       url: ""
     },
     {
-      type: CdType.D,
-      url: ""
-    },
-    {
       type: CdType.T,
       url: ""
     }
@@ -1700,10 +1668,6 @@ const kiminonahakibo: ISingle = {
       url: ""
     },
     {
-      type: CdType.D,
-      url: ""
-    },
-    {
       type: CdType.T,
       url: ""
     }
@@ -1785,10 +1749,6 @@ const seifukunomannequin: ISingle = {
     },
     {
       type: CdType.C,
-      url: ""
-    },
-    {
-      type: CdType.D,
       url: ""
     },
     {
@@ -1876,10 +1836,6 @@ const hashirebicycle: ISingle = {
       url: ""
     },
     {
-      type: CdType.D,
-      url: ""
-    },
-    {
       type: CdType.T,
       url: ""
     }
@@ -1964,10 +1920,6 @@ const oideshampoo: ISingle = {
       url: ""
     },
     {
-      type: CdType.D,
-      url: ""
-    },
-    {
       type: CdType.T,
       url: ""
     }
@@ -2049,10 +2001,6 @@ const gurugurucurtain: ISingle = {
     },
     {
       type: CdType.C,
-      url: ""
-    },
-    {
-      type: CdType.D,
       url: ""
     },
     {

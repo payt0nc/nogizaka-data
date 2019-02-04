@@ -7,19 +7,11 @@ const bokudakenokimi: IAlbum = {
   release: "2018-01-10",
   artworks: [
     {
-      type: CdType.A,
+      type: CdType.L1,
       url: ""
     },
     {
-      type: CdType.B,
-      url: ""
-    },
-    {
-      type: CdType.C,
-      url: ""
-    },
-    {
-      type: CdType.D,
+      type: CdType.L2,
       url: ""
     },
     {
@@ -259,11 +251,7 @@ const umaretekara: IAlbum = {
       url: ""
     },
     {
-      type: CdType.C,
-      url: ""
-    },
-    {
-      type: CdType.D,
+      type: CdType.L,
       url: ""
     },
     {
@@ -884,14 +872,6 @@ const tomeinairo: IAlbum = {
     },
     {
       type: CdType.C,
-      url: ""
-    },
-    {
-      type: CdType.D,
-      url: ""
-    },
-    {
-      type: CdType.T,
       url: ""
     }
   ],
