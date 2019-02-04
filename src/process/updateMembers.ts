@@ -8,6 +8,7 @@ import { ISingle } from "../types/ISingle";
 import { ICdSong } from "../types/ICd";
 import { ISong } from "../types/ISong";
 import { IUnit } from "../types/IUnit";
+import { songs } from "../raw/songs";
 
 export const updateMembers = (
   membersList: IMember[],
@@ -82,8 +83,9 @@ const recordPositions = (
             // Calculate center, fukujin, selected.
             if (singleSong.type === SongType.Title) {
               if (song.title === singleSong.title) {
-                // Check center.
+                // Check order: Center -> Fukujin -> Selected
                 if (song.performers.center.includes(member.name)) {
+                  // Check Center
                   singlePosition = {
                     singleNumber: single.number,
                     position: PositionType.Center
@@ -91,56 +93,51 @@ const recordPositions = (
                   member.positionsCounter.center += 1;
                   member.positionsCounter.fukujin += 1;
                   member.positionsCounter.selected += 1;
-                } else {
-                  // Check selected.
-                  if (
-                    song.formations.firstRow.includes(member.name) ||
-                    song.formations.secondRow.includes(member.name) ||
-                    song.formations.thirdRow.includes(member.name)
-                  ) {
-                    singlePosition = {
-                      singleNumber: single.number,
-                      position: PositionType.Selected
-                    };
-                    member.positionsCounter.selected += 1;
-                  }
-                  // Check fukujin.
-                  if (song.performers.fukujin === FukujinType.RowOne) {
-                    // Check for fukujin (row one case).
-                    if (song.formations.firstRow.includes(member.name)) {
-                      singlePosition = {
-                        singleNumber: single.number,
-                        position: PositionType.Fukujin
-                      };
-                      member.positionsCounter.fukujin += 1;
-                      member.positionsCounter.selected += 1;
-                    }
-                  } else if (
-                    song.performers.fukujin === FukujinType.RowOneTwo
-                  ) {
-                    // Check for fukujin (row one & two case).
-                    if (
-                      song.formations.firstRow.includes(member.name) ||
-                      song.formations.secondRow.includes(member.name)
-                    ) {
-                      singlePosition = {
-                        singleNumber: single.number,
-                        position: PositionType.Fukujin
-                      };
-                      member.positionsCounter.fukujin += 1;
-                      member.positionsCounter.selected += 1;
-                    }
-                  } else {
-                    // Check for fukujin (irregular case).
-                    if (song.performers.fukujin.includes(member.name)) {
-                      singlePosition = {
-                        singleNumber: single.number,
-                        position: PositionType.Fukujin
-                      };
-                      member.positionsCounter.fukujin += 1;
-                      member.positionsCounter.selected += 1;
-                    }
-                  }
+                } else if (
+                  song.performers.fukujin === FukujinType.RowOne &&
+                  song.formations.firstRow.includes(member.name)
+                ) {
+                  // Check Fukujin (first row case)
+                  singlePosition = {
+                    singleNumber: single.number,
+                    position: PositionType.Fukujin
+                  };
+                  member.positionsCounter.fukujin += 1;
+                  member.positionsCounter.selected += 1;
+                } else if (
+                  song.performers.fukujin === FukujinType.RowOneTwo &&
+                  (song.formations.firstRow.includes(member.name) ||
+                    song.formations.secondRow.includes(member.name))
+                ) {
+                  // Check Fukujin (first & second row case)
+                  singlePosition = {
+                    singleNumber: single.number,
+                    position: PositionType.Fukujin
+                  };
+                  member.positionsCounter.fukujin += 1;
+                  member.positionsCounter.selected += 1;
+                } else if (
+                  song.performers.fukujin instanceof Array &&
+                  song.performers.fukujin.includes(member.name)
+                ) {
+                  // Check Fukujin (irregular case)
+                  singlePosition = {
+                    singleNumber: single.number,
+                    position: PositionType.Fukujin
+                  };
+                  member.positionsCounter.fukujin += 1;
+                  member.positionsCounter.selected += 1;
+                } else if (
+                  song.formations.firstRow.includes(member.name) ||
+                  song.formations.secondRow.includes(member.name) ||
+                  song.formations.thirdRow.includes(member.name)
+                ) {
+                  // Check Selected
+                  singlePosition = {
+                    singleNumber: single.number,
+                    position: PositionType.Selected
+                  };
+                  member.positionsCounter.selected += 1;
                 }
               }
             }
