@@ -78,6 +78,37 @@ TODO:
 - Units & Corps
   - [ ] Extract performed songs from `songs`
 
+### Relationships of Data Updating Among Each Data Set
+
+- songs
+  - `song > albums`
+    - `single > songs > title` (raw)
+  - `song > singles`
+    - `album > songs > title` (raw)
+- singles
+  - `single > songs > type` (NOTE: has default values but should reference `songs`)
+    - `song > type` (raw)
+  - `single > focuesPerformers`
+    - `song > type` (raw)
+    - `song > performers` (raw)
+    - `song > formations` (raw)
+- albums
+  - `album > songs > type` (NOTE: has default values but should reference `songs`)
+    - `song > type` (raw)
+  - `album > focuesPerformers`
+    - `song > type` (raw)
+    - `song > performers` (raw)
+    - `song > formations` (raw)
+- memebers
+  - `member > units`
+    - `unit > name` (raw)
+    - `unit > type` (raw)
+  - `member > positions`
+    - `single > behindPerformers` (raw)
+    - `single > song > type` ->
+      - `song > formations` (raw)
+      - `song > performers` (raw)
+
 ## Transfer Processed Raw Data into JSON
 
 TODO:
