@@ -1,5 +1,6 @@
 import { FocusPerformersType, SongType } from "../common/constants";
-import { ISingle, ISingleSong } from "../types/ISingle";
+import { ISingle } from "../types/ISingle";
+import { ICdSong } from "../types/ICd";
 import { ISong } from "../types/ISong";
 
 export const recordSingleSongType = (
@@ -7,7 +8,7 @@ export const recordSingleSongType = (
   songsList: ISong[]
 ) => {
   singlesList.forEach((single: ISingle) => {
-    single.songs.forEach((singleSong: ISingleSong) => {
+    single.songs.forEach((singleSong: ICdSong) => {
       // Reset singleSong type.
       // singleSong.type = undefined;
 
@@ -27,7 +28,7 @@ export const recordSingleFocusPerformers = (
   songsList: ISong[]
 ) => {
   singlesList.forEach((single: ISingle) => {
-    single.songs.forEach((singleSong: ISingleSong) => {
+    single.songs.forEach((singleSong: ICdSong) => {
       songsList.forEach((song: ISong) => {
         if (song.title === singleSong.title) {
           if (
@@ -55,7 +56,10 @@ export const recordSingleFocusPerformers = (
               name: song.formations.firstRow
             };
           } else if (song.type === SongType.Unit) {
-            if (song.performers.unit !== "" && song.performers.unit !== undefined) {
+            if (
+              song.performers.unit !== "" &&
+              song.performers.unit !== undefined
+            ) {
               singleSong.focusPerformers = {
                 type: FocusPerformersType.Unit,
                 name: [song.performers.unit]

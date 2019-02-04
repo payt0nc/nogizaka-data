@@ -1,5 +1,6 @@
 import { FocusPerformersType, SongType } from "../common/constants";
-import { IAlbum, IAlbumSong } from "../types/IAlbum";
+import { IAlbum } from "../types/IAlbum";
+import { ICdSong } from '../types/ICd';
 import { ISong } from "../types/ISong";
 
 export const recordAlbumSongType = (
@@ -7,7 +8,7 @@ export const recordAlbumSongType = (
   songsList: ISong[]
 ) => {
   albumsList.forEach((album: IAlbum) => {
-    album.songs.forEach((albumSong: IAlbumSong) => {
+    album.songs.forEach((albumSong: ICdSong) => {
       // Reset albumSong type.
       // albumSong.type = undefined;
 
@@ -27,7 +28,7 @@ export const recordAlbumFocusPerformers = (
   songsList: ISong[]
 ) => {
   albumsList.forEach((album: IAlbum) => {
-    album.songs.forEach((albumSong: IAlbumSong) => {
+    album.songs.forEach((albumSong: ICdSong) => {
       songsList.forEach((song: ISong) => {
         if (song.title === albumSong.title) {
           if (

@@ -1,5 +1,5 @@
-import { IAlbum, IAlbumSong } from "../types/IAlbum";
-import { ISingle, ISingleSong } from "../types/ISingle";
+import { IAlbum } from "../types/IAlbum";
+import { ISingle } from "../types/ISingle";
 import { ISong } from "../types/ISong";
 
 export const recordSongAlbums = (

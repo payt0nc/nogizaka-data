@@ -1,13 +1,15 @@
 import { FukujinType, SongType } from "../common/constants";
-import { IMember, IMemberPositionHistory, PositionType } from "../types/IMember";
-import { ISingle, ISingleSong } from "../types/ISingle";
+import {
+  IMember,
+  IMemberPositionHistory,
+  PositionType
+} from "../types/IMember";
+import { ISingle } from "../types/ISingle";
+import { ICdSong } from "../types/ICd";
 import { ISong } from "../types/ISong";
 import { IUnit } from "../types/IUnit";
 
-export const recordUnits = (
-  membersList: IMember[],
-  unitsList: IUnit[]
-) => {
+export const recordUnits = (membersList: IMember[], unitsList: IUnit[]) => {
   // Loop for members.
   membersList.forEach((member: IMember) => {
     // Reset member's units.
@@ -64,7 +66,7 @@ export const recordPositions = (
         };
 
         // Loop for songs in this single.
-        single.songs.forEach((singleSong: ISingleSong) => {
+        single.songs.forEach((singleSong: ICdSong) => {
           // Loop for the song to pair title song.
           songsList.forEach((song: ISong) => {
             // Calculate center, fukujin, selected.
