@@ -1898,7 +1898,7 @@ const hashirebicycle: ISingle = {
   ],
   behindPerformers: {
     trainees: [],
-    skips: [MemberNames.KashiwaYukina]
+    skips: [MemberNames.AkimotoManatsu]
   }
 };
 
