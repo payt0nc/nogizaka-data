@@ -2,11 +2,17 @@ import { IAlbum } from "../types/IAlbum";
 import { ISingle } from "../types/ISingle";
 import { ISong } from "../types/ISong";
 
-export const recordSongAlbums = (
-  songsList:  ISong[],
-  albumsList:  IAlbum[]
+export const updateSongs = (
+  songsList: ISong[],
+  singlesList: ISingle[],
+  albumsList: IAlbum[]
 ) => {
-  songsList.forEach((song:  ISong) => {
+  recordSongSingle(songsList, singlesList);
+  recordSongAlbums(songsList, albumsList);
+};
+
+const recordSongAlbums = (songsList: ISong[], albumsList: IAlbum[]) => {
+  songsList.forEach((song: ISong) => {
     // Reset song albums.
     song.albums = [];
 
@@ -20,11 +26,8 @@ export const recordSongAlbums = (
   });
 };
 
-export const recordSongSingle = (
-  songsList:  ISong[],
-  singlesList:  ISingle[]
-) => {
-  songsList.forEach((song:  ISong) => {
+const recordSongSingle = (songsList: ISong[], singlesList: ISingle[]) => {
+  songsList.forEach((song: ISong) => {
     // Reset song single.
     song.single = "";
 

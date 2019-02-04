@@ -1,9 +1,14 @@
 import { FocusPerformersType, SongType } from "../common/constants";
 import { IAlbum } from "../types/IAlbum";
-import { ICdSong } from '../types/ICd';
+import { ICdSong } from "../types/ICd";
 import { ISong } from "../types/ISong";
 
-export const recordAlbumSongType = (
+export const updateAlbums = (albumsList: IAlbum[], songsList: ISong[]) => {
+  recordAlbumSongType(albumsList, songsList);
+  recordAlbumFocusPerformers(albumsList, songsList);
+};
+
+const recordAlbumSongType = (
   albumsList: IAlbum[],
   songsList: ISong[]
 ) => {
@@ -23,7 +28,7 @@ export const recordAlbumSongType = (
   });
 };
 
-export const recordAlbumFocusPerformers = (
+const recordAlbumFocusPerformers = (
   albumsList: IAlbum[],
   songsList: ISong[]
 ) => {

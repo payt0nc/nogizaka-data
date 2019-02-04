@@ -3,7 +3,12 @@ import { ISingle } from "../types/ISingle";
 import { ICdSong } from "../types/ICd";
 import { ISong } from "../types/ISong";
 
-export const recordSingleSongType = (
+export const updateSingles = (singlesList: ISingle[], songsList: ISong[]) => {
+  recordSingleSongType(singlesList, songsList);
+  recordSingleFocusPerformers(singlesList, songsList);
+};
+
+const recordSingleSongType = (
   singlesList: ISingle[],
   songsList: ISong[]
 ) => {
@@ -23,7 +28,7 @@ export const recordSingleSongType = (
   });
 };
 
-export const recordSingleFocusPerformers = (
+const recordSingleFocusPerformers = (
   singlesList: ISingle[],
   songsList: ISong[]
 ) => {

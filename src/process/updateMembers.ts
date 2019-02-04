@@ -9,7 +9,17 @@ import { ICdSong } from "../types/ICd";
 import { ISong } from "../types/ISong";
 import { IUnit } from "../types/IUnit";
 
-export const recordUnits = (membersList: IMember[], unitsList: IUnit[]) => {
+export const updateMembers = (
+  membersList: IMember[],
+  unitsList: IUnit[],
+  singlesList: ISingle[],
+  songsList: ISong[]
+) => {
+  recordUnits(membersList, unitsList);
+  recordPositions(membersList, singlesList, songsList);
+};
+
+const recordUnits = (membersList: IMember[], unitsList: IUnit[]) => {
   // Loop for members.
   membersList.forEach((member: IMember) => {
     // Reset member's units.
@@ -29,7 +39,7 @@ export const recordUnits = (membersList: IMember[], unitsList: IUnit[]) => {
   });
 };
 
-export const recordPositions = (
+const recordPositions = (
   membersList: IMember[],
   singlesList: ISingle[],
   songsList: ISong[]

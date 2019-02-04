@@ -1,8 +1,8 @@
 import * as fs from "fs";
-import { recordAlbumFocusPerformers, recordAlbumSongType } from "./process/updateAlbums";
-import { recordPositions, recordUnits } from "./process/updateMembers";
-import { recordSingleFocusPerformers, recordSingleSongType } from "./process/updateSingles";
-import { recordSongAlbums, recordSongSingle } from "./process/updateSongs";
+import { updateAlbums } from "./process/updateAlbums";
+import { updateMembers } from "./process/updateMembers";
+import { updateSingles } from "./process/updateSingles";
+import { updateSongs } from "./process/updateSongs";
 import { albums } from "./raw/albums";
 import { members } from "./raw/members";
 import { singles } from "./raw/singles";
@@ -19,18 +19,16 @@ const unitsArray = Object.values(units);
 
 // Process the raw data.
 
-recordUnits(membersArray, unitsArray);
-recordSingleSongType(singlesArray, songsArray);
-recordSingleFocusPerformers(singlesArray, songsArray);
-recordPositions(membersArray, singlesArray, songsArray);
-recordAlbumSongType(albumsArray, songsArray);
-recordAlbumFocusPerformers(albumsArray, songsArray);
-recordSongAlbums(songsArray, albumsArray);
-recordSongSingle(songsArray, singlesArray);
+updateMembers(membersArray, unitsArray, singlesArray, songsArray);
+updateSingles(singlesArray, songsArray);
+updateAlbums(albumsArray, songsArray);
+updateSongs(songsArray, singlesArray, albumsArray);
+
+console.log("Data processing finished.\n");
 
 // Store the processed data into several JSON files.
 
-fs.writeFile("./src/json/members.json", JSON.stringify(membersArray), (err) => {
+fs.writeFile("./src/json/members.json", JSON.stringify(membersArray), err => {
   if (err) {
     console.log(err);
   } else {
@@ -38,7 +36,7 @@ fs.writeFile("./src/json/members.json", JSON.stringify(membersArray), (err) => {
   }
 });
 
-fs.writeFile("./src/json/singles.json", JSON.stringify(singlesArray), (err) => {
+fs.writeFile("./src/json/singles.json", JSON.stringify(singlesArray), err => {
   if (err) {
     console.log(err);
   } else {
@@ -46,7 +44,7 @@ fs.writeFile("./src/json/singles.json", JSON.stringify(singlesArray), (err) => {
   }
 });
 
-fs.writeFile("./src/json/albums.json", JSON.stringify(albumsArray), (err) => {
+fs.writeFile("./src/json/albums.json", JSON.stringify(albumsArray), err => {
   if (err) {
     console.log(err);
   } else {
@@ -54,7 +52,7 @@ fs.writeFile("./src/json/albums.json", JSON.stringify(albumsArray), (err) => {
   }
 });
 
-fs.writeFile("./src/json/songs.json", JSON.stringify(songsArray), (err) => {
+fs.writeFile("./src/json/songs.json", JSON.stringify(songsArray), err => {
   if (err) {
     console.log(err);
   } else {
@@ -62,7 +60,7 @@ fs.writeFile("./src/json/songs.json", JSON.stringify(songsArray), (err) => {
   }
 });
 
-fs.writeFile("./src/json/units.json", JSON.stringify(unitsArray), (err) => {
+fs.writeFile("./src/json/units.json", JSON.stringify(unitsArray), err => {
   if (err) {
     console.log(err);
   } else {
