@@ -37,7 +37,7 @@ const kaerimichi: ISingle = {
     {
       number: 1,
       title: "帰り道は遠回りしたくなる",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -45,7 +45,7 @@ const kaerimichi: ISingle = {
     {
       number: 2,
       title: "キャラバンは眠らない",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
       type: SongType.Coupling,
       artwork: "",
       focusPerformers: null
@@ -133,7 +133,7 @@ const jikochu: ISingle = {
     {
       number: 1,
       title: "ジコチューで行こう!",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -141,7 +141,7 @@ const jikochu: ISingle = {
     {
       number: 2,
       title: "空扉",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
       type: SongType.Coupling,
       artwork: "",
       focusPerformers: null
@@ -229,7 +229,7 @@ const syncronicity: ISingle = {
     {
       number: 1,
       title: "シンクロニシティ",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -237,7 +237,7 @@ const syncronicity: ISingle = {
     {
       number: 2,
       title: "Against",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
       type: SongType.FirstGeneration,
       artwork: "",
       focusPerformers: null
@@ -325,7 +325,7 @@ const itsukadekirukara: ISingle = {
     {
       number: 1,
       title: "いつかできるから今日できる",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -333,7 +333,7 @@ const itsukadekirukara: ISingle = {
     {
       number: 2,
       title: "不眠症",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
       type: SongType.Coupling,
       artwork: "",
       focusPerformers: null
@@ -434,7 +434,7 @@ const nigemizu: ISingle = {
     {
       number: 1,
       title: "逃げ水",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -442,7 +442,7 @@ const nigemizu: ISingle = {
     {
       number: 2,
       title: "女は一人じゃ眠れない",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
       type: SongType.Coupling,
       artwork: "",
       focusPerformers: null
@@ -543,7 +543,7 @@ const influencer: ISingle = {
     {
       number: 1,
       title: "インフルエンサー",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -551,7 +551,7 @@ const influencer: ISingle = {
     {
       number: 2,
       title: "人生を考えたくなる",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
       type: SongType.Unit,
       artwork: "",
       focusPerformers: null
@@ -652,7 +652,7 @@ const sayonaranoimi: ISingle = {
     {
       number: 1,
       title: "サヨナラの意味",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -660,7 +660,7 @@ const sayonaranoimi: ISingle = {
     {
       number: 2,
       title: "孤独な青空",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
       type: SongType.Coupling,
       artwork: "",
       focusPerformers: null
@@ -748,7 +748,7 @@ const hadashidesummer: ISingle = {
     {
       number: 1,
       title: "裸足でSummer",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -756,7 +756,7 @@ const hadashidesummer: ISingle = {
     {
       number: 2,
       title: "僕だけの光",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
       type: SongType.Coupling,
       artwork: "",
       focusPerformers: null
@@ -844,7 +844,7 @@ const harujion: ISingle = {
     {
       number: 1,
       title: "ハルジオンが咲く頃",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -852,7 +852,7 @@ const harujion: ISingle = {
     {
       number: 2,
       title: "遥かなるブータン",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
       type: SongType.Unit,
       artwork: "",
       focusPerformers: null
@@ -936,7 +936,7 @@ const hanashitaidarekagairu: ISingle = {
     {
       number: 1,
       title: "今、話したい誰かがいる",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -944,7 +944,7 @@ const hanashitaidarekagairu: ISingle = {
     {
       number: 2,
       title: "嫉妬の権利",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Under,
       artwork: "",
       focusPerformers: null
@@ -1020,7 +1020,7 @@ const taiyoknock: ISingle = {
     {
       number: 1,
       title: "太陽ノック",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T, CdType.L],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -1028,7 +1028,7 @@ const taiyoknock: ISingle = {
     {
       number: 2,
       title: "もう少しの夢",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T, CdType.L],
       type: SongType.Solo,
       artwork: "",
       focusPerformers: null
@@ -1112,7 +1112,7 @@ const inochihautsukushii: ISingle = {
     {
       number: 1,
       title: "命は美しい",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -1120,7 +1120,7 @@ const inochihautsukushii: ISingle = {
     {
       number: 2,
       title: "あらかじめ語られるロマンス",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Unit,
       artwork: "",
       focusPerformers: null
@@ -1203,7 +1203,7 @@ const nandomenoaozoraka: ISingle = {
     {
       number: 1,
       title: "何度目の青空か?",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -1211,7 +1211,7 @@ const nandomenoaozoraka: ISingle = {
     {
       number: 2,
       title: "遠回りの愛情",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Unit,
       artwork: "",
       focusPerformers: null
@@ -1295,7 +1295,7 @@ const natsunofreeandeasy: ISingle = {
     {
       number: 1,
       title: "夏のFree&Easy",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -1303,7 +1303,7 @@ const natsunofreeandeasy: ISingle = {
     {
       number: 2,
       title: "何もできずにそばにいる",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Coupling,
       artwork: "",
       focusPerformers: null
@@ -1390,7 +1390,7 @@ const kizuitarakataomoi: ISingle = {
     {
       number: 1,
       title: "気づいたら片想い",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -1398,7 +1398,7 @@ const kizuitarakataomoi: ISingle = {
     {
       number: 2,
       title: "ロマンスのスタート",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Coupling,
       artwork: "",
       focusPerformers: null
@@ -1484,7 +1484,7 @@ const valletta: ISingle = {
     {
       number: 1,
       title: "バレッタ",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -1492,7 +1492,7 @@ const valletta: ISingle = {
     {
       number: 2,
       title: "月の大きさ",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Coupling,
       artwork: "",
       focusPerformers: null
@@ -1584,7 +1584,7 @@ const girlsrule: ISingle = {
     {
       number: 1,
       title: "ガールズルール",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -1592,7 +1592,7 @@ const girlsrule: ISingle = {
     {
       number: 2,
       title: "世界で一番 孤独なLover",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Coupling,
       artwork: "",
       focusPerformers: null
@@ -1682,7 +1682,7 @@ const kiminonahakibo: ISingle = {
     {
       number: 1,
       title: "君の名は希望",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -1690,7 +1690,7 @@ const kiminonahakibo: ISingle = {
     {
       number: 2,
       title: "シャキイズム",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Coupling,
       artwork: "",
       focusPerformers: null
@@ -1766,7 +1766,7 @@ const seifukunomannequin: ISingle = {
     {
       number: 1,
       title: "制服のマネキン",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -1774,7 +1774,7 @@ const seifukunomannequin: ISingle = {
     {
       number: 2,
       title: "指望遠鏡",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Coupling,
       artwork: "",
       focusPerformers: null
@@ -1850,7 +1850,7 @@ const hashirebicycle: ISingle = {
     {
       number: 1,
       title: "走れ!Bicycle",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -1858,7 +1858,7 @@ const hashirebicycle: ISingle = {
     {
       number: 2,
       title: "せっかちなかたつむり",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Unit,
       artwork: "",
       focusPerformers: null
@@ -1934,7 +1934,7 @@ const oideshampoo: ISingle = {
     {
       number: 1,
       title: "おいでシャンプー",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -1942,7 +1942,7 @@ const oideshampoo: ISingle = {
     {
       number: 2,
       title: "心の薬",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Coupling,
       artwork: "",
       focusPerformers: null
@@ -2018,7 +2018,7 @@ const gurugurucurtain: ISingle = {
     {
       number: 1,
       title: "ぐるぐるカーテン",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -2026,7 +2026,7 @@ const gurugurucurtain: ISingle = {
     {
       number: 2,
       title: "左胸の勇気",
-      inCdType: [CdType.A],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Under,
       artwork: "",
       focusPerformers: null
