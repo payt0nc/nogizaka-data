@@ -16,19 +16,19 @@ const recordSingleArtworks = (singlesList: ISingle[]) => {
   singlesList.forEach((single: ISingle) => {
     const singleNumber = single.number;
     single.artworks.forEach((artwork: ICdArtwork) => {
-      artwork.urls["450"] =
+      artwork.urls.large =
         artworkBasename +
         singleNumber.toString() +
         "/" +
         artwork.type +
         "_450.jpg";
-      artwork.urls["150"] =
+      artwork.urls.medium =
         artworkBasename +
         singleNumber.toString() +
         "/" +
         artwork.type +
         "_150.jpg";
-      artwork.urls["100"] =
+      artwork.urls.small =
         artworkBasename +
         singleNumber.toString() +
         "/" +
