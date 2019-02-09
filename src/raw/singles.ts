@@ -9,41 +9,41 @@ const kaerimichi: ISingle = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.D,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -57,7 +57,7 @@ const kaerimichi: ISingle = {
     {
       number: 1,
       title: "帰り道は遠回りしたくなる",
-      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -65,7 +65,7 @@ const kaerimichi: ISingle = {
     {
       number: 2,
       title: "キャラバンは眠らない",
-      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Coupling,
       artwork: "",
       focusPerformers: null
@@ -125,41 +125,41 @@ const jikochu: ISingle = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.D,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -173,7 +173,7 @@ const jikochu: ISingle = {
     {
       number: 1,
       title: "ジコチューで行こう!",
-      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -181,7 +181,7 @@ const jikochu: ISingle = {
     {
       number: 2,
       title: "空扉",
-      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Coupling,
       artwork: "",
       focusPerformers: null
@@ -241,41 +241,41 @@ const syncronicity: ISingle = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.D,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -289,7 +289,7 @@ const syncronicity: ISingle = {
     {
       number: 1,
       title: "シンクロニシティ",
-      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -297,7 +297,7 @@ const syncronicity: ISingle = {
     {
       number: 2,
       title: "Against",
-      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.FirstGeneration,
       artwork: "",
       focusPerformers: null
@@ -357,41 +357,41 @@ const itsukadekirukara: ISingle = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.D,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -405,7 +405,7 @@ const itsukadekirukara: ISingle = {
     {
       number: 1,
       title: "いつかできるから今日できる",
-      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -413,7 +413,7 @@ const itsukadekirukara: ISingle = {
     {
       number: 2,
       title: "不眠症",
-      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Coupling,
       artwork: "",
       focusPerformers: null
@@ -486,41 +486,41 @@ const nigemizu: ISingle = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.D,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -534,7 +534,7 @@ const nigemizu: ISingle = {
     {
       number: 1,
       title: "逃げ水",
-      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -542,7 +542,7 @@ const nigemizu: ISingle = {
     {
       number: 2,
       title: "女は一人じゃ眠れない",
-      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Coupling,
       artwork: "",
       focusPerformers: null
@@ -615,41 +615,41 @@ const influencer: ISingle = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.D,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -663,7 +663,7 @@ const influencer: ISingle = {
     {
       number: 1,
       title: "インフルエンサー",
-      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -671,7 +671,7 @@ const influencer: ISingle = {
     {
       number: 2,
       title: "人生を考えたくなる",
-      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Unit,
       artwork: "",
       focusPerformers: null
@@ -744,41 +744,41 @@ const sayonaranoimi: ISingle = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.D,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -792,7 +792,7 @@ const sayonaranoimi: ISingle = {
     {
       number: 1,
       title: "サヨナラの意味",
-      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -800,7 +800,7 @@ const sayonaranoimi: ISingle = {
     {
       number: 2,
       title: "孤独な青空",
-      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Coupling,
       artwork: "",
       focusPerformers: null
@@ -860,41 +860,41 @@ const hadashidesummer: ISingle = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.D,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -908,7 +908,7 @@ const hadashidesummer: ISingle = {
     {
       number: 1,
       title: "裸足でSummer",
-      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -916,7 +916,7 @@ const hadashidesummer: ISingle = {
     {
       number: 2,
       title: "僕だけの光",
-      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Coupling,
       artwork: "",
       focusPerformers: null
@@ -976,41 +976,41 @@ const harujion: ISingle = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.D,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -1024,7 +1024,7 @@ const harujion: ISingle = {
     {
       number: 1,
       title: "ハルジオンが咲く頃",
-      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
       focusPerformers: null
@@ -1032,7 +1032,7 @@ const harujion: ISingle = {
     {
       number: 2,
       title: "遥かなるブータン",
-      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D ,CdType.T],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Unit,
       artwork: "",
       focusPerformers: null
@@ -1092,33 +1092,33 @@ const hanashitaidarekagairu: ISingle = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -1192,33 +1192,33 @@ const taiyoknock: ISingle = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -1300,33 +1300,33 @@ const inochihautsukushii: ISingle = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -1407,33 +1407,33 @@ const nandomenoaozoraka: ISingle = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -1515,33 +1515,33 @@ const natsunofreeandeasy: ISingle = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -1626,33 +1626,33 @@ const kizuitarakataomoi: ISingle = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -1736,33 +1736,33 @@ const valletta: ISingle = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -1837,10 +1837,7 @@ const valletta: ISingle = {
       MemberNames.YadaRisako,
       MemberNames.NishikawaNanami
     ],
-    skips: [
-      MemberNames.IchikiRena,
-      MemberNames.SagaraIori
-    ]
+    skips: [MemberNames.IchikiRena, MemberNames.SagaraIori]
   }
 };
 
@@ -1852,33 +1849,33 @@ const girlsrule: ISingle = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -1966,33 +1963,33 @@ const kiminonahakibo: ISingle = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -2066,33 +2063,33 @@ const seifukunomannequin: ISingle = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -2150,7 +2147,7 @@ const seifukunomannequin: ISingle = {
       type: SongType.Unit,
       artwork: "",
       focusPerformers: null
-    },
+    }
   ],
   behindPerformers: {
     trainees: [],
@@ -2166,33 +2163,33 @@ const hashirebicycle: ISingle = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -2266,33 +2263,33 @@ const oideshampoo: ISingle = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -2366,33 +2363,33 @@ const gurugurucurtain: ISingle = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -2450,7 +2447,7 @@ const gurugurucurtain: ISingle = {
       type: SongType.Coupling,
       artwork: "",
       focusPerformers: null
-    },
+    }
   ],
   behindPerformers: {
     trainees: [],
@@ -2459,26 +2456,26 @@ const gurugurucurtain: ISingle = {
 };
 
 export const singles = {
-  "帰り道は遠回りしたくなる": kaerimichi,
+  帰り道は遠回りしたくなる: kaerimichi,
   "ジコチューで行こう!": jikochu,
-  "シンクロニシティ": syncronicity,
-  "いつかできるから今日できる": itsukadekirukara,
-  "逃げ水": nigemizu,
-  "インフルエンサー": influencer,
-  "サヨナラの意味": sayonaranoimi,
-  "裸足でSummer": hadashidesummer,
-  "ハルジオンが咲く頃": harujion,
+  シンクロニシティ: syncronicity,
+  いつかできるから今日できる: itsukadekirukara,
+  逃げ水: nigemizu,
+  インフルエンサー: influencer,
+  サヨナラの意味: sayonaranoimi,
+  裸足でSummer: hadashidesummer,
+  ハルジオンが咲く頃: harujion,
   "今、話したい誰かがいる": hanashitaidarekagairu,
-  "太陽ノック": taiyoknock,
-  "命は美しい": inochihautsukushii,
+  太陽ノック: taiyoknock,
+  命は美しい: inochihautsukushii,
   "何度目の青空か?": nandomenoaozoraka,
   "夏のFree&Easy": natsunofreeandeasy,
-  "気づいたら片想い": kizuitarakataomoi,
-  "バレッタ": valletta,
-  "ガールズルール": girlsrule,
-  "君の名は希望": kiminonahakibo,
-  "制服のマネキン": seifukunomannequin,
+  気づいたら片想い: kizuitarakataomoi,
+  バレッタ: valletta,
+  ガールズルール: girlsrule,
+  君の名は希望: kiminonahakibo,
+  制服のマネキン: seifukunomannequin,
   "走れ!Bicycle": hashirebicycle,
-  "おいでシャンプー": oideshampoo,
-  "ぐるぐるカーテン": gurugurucurtain
+  おいでシャンプー: oideshampoo,
+  ぐるぐるカーテン: gurugurucurtain
 };

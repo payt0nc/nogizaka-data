@@ -13,9 +13,9 @@ export type ICd = {
 export type ICdArtwork = {
   type: CdType;
   urls: {
-    450: string;
-    150: string;
-    100: string;
+    large: string;
+    medium: string;
+    small: string;
   }
 };
 

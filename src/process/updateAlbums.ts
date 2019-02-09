@@ -15,19 +15,19 @@ const recordAlbumArtworks = (albumsList: IAlbum[]) => {
   albumsList.forEach((album: IAlbum) => {
     const albumNumber = album.number;
     album.artworks.forEach((artwork: ICdArtwork) => {
-      artwork.urls["450"] =
+      artwork.urls.large =
         artworkBasename +
         albumNumber.toString() +
         "/" +
         artwork.type +
         "_450.jpg";
-      artwork.urls["150"] =
+      artwork.urls.medium =
         artworkBasename +
         albumNumber.toString() +
         "/" +
         artwork.type +
         "_150.jpg";
-      artwork.urls["100"] =
+      artwork.urls.small =
         artworkBasename +
         albumNumber.toString() +
         "/" +

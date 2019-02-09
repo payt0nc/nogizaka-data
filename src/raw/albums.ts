@@ -9,25 +9,25 @@ const bokudakenokimi: IAlbum = {
     {
       type: CdType.L1,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.L2,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -257,33 +257,33 @@ const umaretekara: IAlbum = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.L,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -569,41 +569,41 @@ const sorezorenoisu: IAlbum = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.D,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.T,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
@@ -913,25 +913,25 @@ const tomeinairo: IAlbum = {
     {
       type: CdType.A,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.B,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     },
     {
       type: CdType.C,
       urls: {
-        450: "",
-        150: "",
-        100: ""
+        large: "",
+        medium: "",
+        small: ""
       }
     }
   ],
