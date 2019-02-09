@@ -8,23 +8,43 @@ const kaerimichi: ISingle = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.D,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -104,23 +124,43 @@ const jikochu: ISingle = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.D,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -200,23 +240,43 @@ const syncronicity: ISingle = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.D,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -296,23 +356,43 @@ const itsukadekirukara: ISingle = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.D,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -405,23 +485,43 @@ const nigemizu: ISingle = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.D,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -514,23 +614,43 @@ const influencer: ISingle = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.D,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -623,23 +743,43 @@ const sayonaranoimi: ISingle = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.D,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -719,23 +859,43 @@ const hadashidesummer: ISingle = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.D,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -815,23 +975,43 @@ const harujion: ISingle = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.D,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -911,19 +1091,35 @@ const hanashitaidarekagairu: ISingle = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -995,19 +1191,35 @@ const taiyoknock: ISingle = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -1087,19 +1299,35 @@ const inochihautsukushii: ISingle = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -1178,19 +1406,35 @@ const nandomenoaozoraka: ISingle = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -1270,19 +1514,35 @@ const natsunofreeandeasy: ISingle = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -1365,19 +1625,35 @@ const kizuitarakataomoi: ISingle = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -1459,19 +1735,35 @@ const valletta: ISingle = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -1559,19 +1851,35 @@ const girlsrule: ISingle = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -1657,19 +1965,35 @@ const kiminonahakibo: ISingle = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -1741,19 +2065,35 @@ const seifukunomannequin: ISingle = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -1825,19 +2165,35 @@ const hashirebicycle: ISingle = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -1909,19 +2265,35 @@ const oideshampoo: ISingle = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -1993,19 +2365,35 @@ const gurugurucurtain: ISingle = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [

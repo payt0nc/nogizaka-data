@@ -1,17 +1,44 @@
 import { FocusPerformersType, SongType } from "../common/constants";
 import { ISingle } from "../types/ISingle";
-import { ICdSong } from "../types/ICd";
+import { ICdSong, ICdArtwork } from "../types/ICd";
 import { ISong } from "../types/ISong";
+import { IAlbum } from "../types/IAlbum";
 
 export const updateSingles = (singlesList: ISingle[], songsList: ISong[]) => {
+  recordSingleArtworks(singlesList);
   recordSingleSongType(singlesList, songsList);
   recordSingleFocusPerformers(singlesList, songsList);
 };
 
-const recordSingleSongType = (
-  singlesList: ISingle[],
-  songsList: ISong[]
-) => {
+const recordSingleArtworks = (singlesList: ISingle[]) => {
+  const artworkBasename =
+    "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/";
+  singlesList.forEach((single: ISingle) => {
+    const singleNumber = single.number;
+    single.artworks.forEach((artwork: ICdArtwork) => {
+      artwork.urls["450"] =
+        artworkBasename +
+        singleNumber.toString() +
+        "/" +
+        artwork.type +
+        "_450.jpg";
+      artwork.urls["150"] =
+        artworkBasename +
+        singleNumber.toString() +
+        "/" +
+        artwork.type +
+        "_150.jpg";
+      artwork.urls["100"] =
+        artworkBasename +
+        singleNumber.toString() +
+        "/" +
+        artwork.type +
+        "_100.jpg";
+    });
+  });
+};
+
+const recordSingleSongType = (singlesList: ISingle[], songsList: ISong[]) => {
   singlesList.forEach((single: ISingle) => {
     single.songs.forEach((singleSong: ICdSong) => {
       // Reset singleSong type.

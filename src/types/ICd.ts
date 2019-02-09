@@ -5,14 +5,18 @@ export type ICd = {
   title: string;
   number: number;
   release: string;
-  artworks: ICdArtworks[];
+  artworks: ICdArtwork[];
   shopping: ISite[];
   songs: ICdSong[];
 };
 
-export type ICdArtworks = {
+export type ICdArtwork = {
   type: CdType;
-  url: string;
+  urls: {
+    450: string;
+    150: string;
+    100: string;
+  }
 };
 
 export type ICdSong = {

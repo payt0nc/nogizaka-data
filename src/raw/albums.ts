@@ -8,15 +8,27 @@ const bokudakenokimi: IAlbum = {
   artworks: [
     {
       type: CdType.L1,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.L2,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -244,19 +256,35 @@ const umaretekara: IAlbum = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.L,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -540,23 +568,43 @@ const sorezorenoisu: IAlbum = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.D,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.T,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -864,15 +912,27 @@ const tomeinairo: IAlbum = {
   artworks: [
     {
       type: CdType.A,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.B,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     },
     {
       type: CdType.C,
-      url: ""
+      urls: {
+        450: "",
+        150: "",
+        100: ""
+      }
     }
   ],
   shopping: [
@@ -1119,7 +1179,7 @@ const tomeinairo: IAlbum = {
 
 export const albums = {
   "僕だけの君〜Under Super Best〜": bokudakenokimi,
-  '生まれてから初めて見た夢': umaretekara,
-  "それぞれの椅子": sorezorenoisu,
-  "透明な色": tomeinairo,
+  生まれてから初めて見た夢: umaretekara,
+  それぞれの椅子: sorezorenoisu,
+  透明な色: tomeinairo
 };
