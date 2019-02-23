@@ -1428,8 +1428,8 @@ const songMirainokotae: ISong = {
   }
 };
 
-const songNaidatteii: ISong = {
-  title: "未来の答え",
+const songNaitatteii: ISong = {
+  title: "泣いたっていいじゃないか?",
   single: "逃げ水",
   albums: [],
   artwork: "path",
@@ -7257,7 +7257,7 @@ export const songs = {
   "新しい花粉 ~ミュージカル「見知らぬ世界」より~": songAtarashiikafun,
   "女は一人じゃ眠れない": songOnnahahitorija,
   "ひと夏の長さより…": songHitonatsu,
-  "泣いたっていいじゃないか?": songNaidatteii,
+  "泣いたっていいじゃないか?": songNaitatteii,
   "ライブ神": songLiveshin,
   "未来の答え": songMirainokotae,
   "人生を考えたくなる": songJinseiwokangae,
