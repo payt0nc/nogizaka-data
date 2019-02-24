@@ -32,7 +32,7 @@ fs.writeFile("./src/json/members.json", JSON.stringify(membersArray), err => {
   if (err) {
     console.log(err);
   } else {
-    console.log("members.json is sucessfully saved.");
+    console.log("members.json is successfully saved.");
   }
 });
 
@@ -40,7 +40,7 @@ fs.writeFile("./src/json/singles.json", JSON.stringify(singlesArray), err => {
   if (err) {
     console.log(err);
   } else {
-    console.log("singles.json is sucessfully saved.");
+    console.log("singles.json is successfully saved.");
   }
 });
 
@@ -48,7 +48,7 @@ fs.writeFile("./src/json/albums.json", JSON.stringify(albumsArray), err => {
   if (err) {
     console.log(err);
   } else {
-    console.log("albums.json is sucessfully saved.");
+    console.log("albums.json is successfully saved.");
   }
 });
 
@@ -56,7 +56,7 @@ fs.writeFile("./src/json/songs.json", JSON.stringify(songsArray), err => {
   if (err) {
     console.log(err);
   } else {
-    console.log("songs.json is sucessfully saved.");
+    console.log("songs.json is successfully saved.");
   }
 });
 
@@ -64,6 +64,6 @@ fs.writeFile("./src/json/units.json", JSON.stringify(unitsArray), err => {
   if (err) {
     console.log(err);
   } else {
-    console.log("units.json is sucessfully saved.");
+    console.log("units.json is successfully saved.");
   }
 });
