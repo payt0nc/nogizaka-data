@@ -22,12 +22,12 @@ export const updateMembers = (
 
 const recordUnits = (membersList: IMember[], unitsList: IUnit[]) => {
   // Loop for members.
-  membersList.forEach((member: IMember) => {
+  membersList.forEach(member => {
     // Reset member's units.
     member.units = [];
 
     // Loop for units.
-    unitsList.forEach((unit: IUnit) => {
+    unitsList.forEach(unit => {
       if (unit.members.includes(member.name)) {
         member.units.push({
           name: unit.name,
@@ -46,7 +46,7 @@ const recordPositions = (
   songsList: ISong[]
 ) => {
   // Loop for members.
-  membersList.forEach((member: IMember) => {
+  membersList.forEach(member => {
     // Reset positionsHistory and positionsCounter.
     member.positionsHistory = [];
     member.positionsCounter = {
@@ -57,7 +57,7 @@ const recordPositions = (
     };
 
     // Loop for singles.
-    singlesList.forEach((single: ISingle) => {
+    singlesList.forEach(single => {
       // Check trainee and skip.
       if (single.behindPerformers.trainees.includes(member.name)) {
         member.positionsHistory.push({
@@ -79,7 +79,7 @@ const recordPositions = (
         // Loop for songs in this single.
         single.songs.forEach((singleSong: ICdSong) => {
           // Loop for the song to pair title song.
-          songsList.forEach((song: ISong) => {
+          songsList.forEach(song => {
             // Calculate center, fukujin, selected.
             if (singleSong.type === SongType.Title) {
               if (song.title === singleSong.title) {

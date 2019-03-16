@@ -13,9 +13,9 @@ export const updateSingles = (singlesList: ISingle[], songsList: ISong[]) => {
 const recordSingleArtworks = (singlesList: ISingle[]) => {
   const artworkBasename =
     "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/";
-  singlesList.forEach((single: ISingle) => {
+  singlesList.forEach(single => {
     const singleNumber = single.number;
-    single.artworks.forEach((artwork: ICdArtwork) => {
+    single.artworks.forEach(artwork => {
       artwork.urls.large =
         artworkBasename +
         singleNumber.toString() +
@@ -39,12 +39,12 @@ const recordSingleArtworks = (singlesList: ISingle[]) => {
 };
 
 const recordSingleSongType = (singlesList: ISingle[], songsList: ISong[]) => {
-  singlesList.forEach((single: ISingle) => {
-    single.songs.forEach((singleSong: ICdSong) => {
+  singlesList.forEach(single => {
+    single.songs.forEach(singleSong => {
       // Reset singleSong type.
       // singleSong.type = undefined;
 
-      songsList.forEach((song: ISong) => {
+      songsList.forEach(song => {
         if (song.title === singleSong.title) {
           singleSong.type = song.type;
         }
@@ -59,9 +59,9 @@ const recordSingleFocusPerformers = (
   singlesList: ISingle[],
   songsList: ISong[]
 ) => {
-  singlesList.forEach((single: ISingle) => {
-    single.songs.forEach((singleSong: ICdSong) => {
-      songsList.forEach((song: ISong) => {
+  singlesList.forEach(single => {
+    single.songs.forEach(singleSong => {
+      songsList.forEach(song => {
         if (song.title === singleSong.title) {
           if (
             song.type === SongType.Title ||

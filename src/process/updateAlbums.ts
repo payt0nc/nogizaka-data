@@ -12,9 +12,9 @@ export const updateAlbums = (albumsList: IAlbum[], songsList: ISong[]) => {
 const recordAlbumArtworks = (albumsList: IAlbum[]) => {
   const artworkBasename =
     "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/";
-  albumsList.forEach((album: IAlbum) => {
+  albumsList.forEach(album => {
     const albumNumber = album.number;
-    album.artworks.forEach((artwork: ICdArtwork) => {
+    album.artworks.forEach(artwork => {
       artwork.urls.large =
         artworkBasename +
         albumNumber.toString() +
@@ -38,12 +38,12 @@ const recordAlbumArtworks = (albumsList: IAlbum[]) => {
 };
 
 const recordAlbumSongType = (albumsList: IAlbum[], songsList: ISong[]) => {
-  albumsList.forEach((album: IAlbum) => {
-    album.songs.forEach((albumSong: ICdSong) => {
+  albumsList.forEach(album => {
+    album.songs.forEach(albumSong => {
       // Reset albumSong type.
       // albumSong.type = undefined;
 
-      songsList.forEach((song: ISong) => {
+      songsList.forEach(song => {
         if (song.title === albumSong.title) {
           albumSong.type = song.type;
         }
@@ -58,9 +58,9 @@ const recordAlbumFocusPerformers = (
   albumsList: IAlbum[],
   songsList: ISong[]
 ) => {
-  albumsList.forEach((album: IAlbum) => {
-    album.songs.forEach((albumSong: ICdSong) => {
-      songsList.forEach((song: ISong) => {
+  albumsList.forEach(album => {
+    album.songs.forEach(albumSong => {
+      songsList.forEach(song => {
         if (song.title === albumSong.title) {
           if (
             song.type === SongType.Title ||
