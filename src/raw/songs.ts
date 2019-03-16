@@ -1,6 +1,5 @@
 import { FukujinType, MemberNames, SongType } from "../common/constants";
 import { ISong } from "../types/ISong";
-import { members } from "./members";
 
 // SINGLE SONGS
 
@@ -2256,7 +2255,7 @@ const songIkuatenonaibokutachi: ISong = {
     center: null,
     fukujin: null,
     solo: null,
-    unit: "さゆりんご軍団"
+    unit: ""
   },
   formations: {
     firstRow: [
@@ -5072,7 +5071,7 @@ const songShibuyablues: ISong = {
     center: null,
     fukujin: null,
     solo: null,
-    unit: ""
+    unit: "WHITE HIGH"
   },
   formations: {
     firstRow: [
