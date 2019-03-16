@@ -8,6 +8,7 @@ import { members } from "./raw/members";
 import { singles } from "./raw/singles";
 import { songs } from "./raw/songs";
 import { units } from "./raw/units";
+import { updateUnits } from "./process/updateUnits";
 
 // Form all property pairs into an array.
 
@@ -23,6 +24,7 @@ updateMembers(membersArray, unitsArray, singlesArray, songsArray);
 updateSingles(singlesArray, songsArray);
 updateAlbums(albumsArray, songsArray);
 updateSongs(songsArray, singlesArray, albumsArray);
+updateUnits(unitsArray, songsArray);
 
 console.log("Data processing finished.\n");
 

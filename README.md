@@ -76,7 +76,7 @@ TODO:
 - Songs
   - [x] Pair `single` and `albums` from `songs` and `albums`
 - Units & Corps
-  - [ ] Extract performed songs from `songs`
+  - [x] Extract performed songs from `songs`
 
 ### Relationships of Data Updating Among Each Data Set
 
