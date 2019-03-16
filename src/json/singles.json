@@ -1390,9 +1390,7 @@
         "artwork": "",
         "focusPerformers": {
           "type": "unit",
-          "name": [
-            "さゆりんご軍団"
-          ]
+          "name": null
         }
       }
     ],
@@ -3111,7 +3109,9 @@
         "artwork": "",
         "focusPerformers": {
           "type": "unit",
-          "name": null
+          "name": [
+            "WHITE HIGH"
+          ]
         }
       }
     ],

@@ -6,7 +6,9 @@
       "takayamakazumi"
     ],
     "type": "unit",
-    "songs": null,
+    "songs": [
+      "渋谷ブルース"
+    ],
     "description": "白石の「白」、高山の「高」をそれぞれ英語表記にした「WHITE」「HIGH」の組み合わせ"
   },
   {
@@ -16,7 +18,9 @@
       "hashimotonanami"
     ],
     "type": "unit",
-    "songs": null,
+    "songs": [
+      "孤独兄弟"
+    ],
     "description": ""
   },
   {
@@ -26,7 +30,9 @@
       "matsumurasayuri"
     ],
     "type": "unit",
-    "songs": null,
+    "songs": [
+      "無表情"
+    ],
     "description": ""
   },
   {
@@ -39,7 +45,10 @@
       "horimiona"
     ],
     "type": "unit",
-    "songs": null,
+    "songs": [
+      "君に贈る花がない",
+      "大人への近道"
+    ],
     "description": "13thシングルのアンダーメンバーより選抜。「サンクエトワール」とはフランス語で「五つ星」という意味"
   },
   {
@@ -51,7 +60,11 @@
       "wakatsukiyumi"
     ],
     "type": "unit",
-    "songs": null,
+    "songs": [
+      "告白の順番",
+      "人生を考えたくなる",
+      "口約束"
+    ],
     "description": "女子高に通っていたメンバーで結成"
   },
   {
@@ -63,7 +76,9 @@
       "matsumurasayuri"
     ],
     "type": "unit",
-    "songs": null,
+    "songs": [
+      "意外BREAK"
+    ],
     "description": "グループ1期生年長メンバーで結成"
   },
   {
@@ -74,7 +89,9 @@
       "watanabemiria"
     ],
     "type": "unit",
-    "songs": null,
+    "songs": [
+      "Another Ghost"
+    ],
     "description": "ナナセの「ナ」、アスカの「ス」、マリカの「カ」の組み合わせ"
   },
   {
@@ -86,7 +103,9 @@
       "horimiona"
     ],
     "type": "unit",
-    "songs": null,
+    "songs": [
+      "当たり障りのない話"
+    ],
     "description": "かすみ草の花言葉は「名脇役」。主役を影で支える力のあるメンバーという意味が込められている"
   },
   {
@@ -97,7 +116,9 @@
       "sakuraireika"
     ],
     "type": "unit",
-    "songs": null,
+    "songs": [
+      "雲になればいい"
+    ],
     "description": "ドンウォーリー"
   },
   {
@@ -109,7 +130,9 @@
       "yodayuuki"
     ],
     "type": "unit",
-    "songs": null,
+    "songs": [
+      "トキトキメキメキ"
+    ],
     "description": ""
   },
   {
@@ -121,7 +144,9 @@
       "teradaranze"
     ],
     "type": "corp",
-    "songs": null,
+    "songs": [
+      "白米様"
+    ],
     "description": ""
   },
   {
@@ -133,7 +158,9 @@
       "watanabemiria"
     ],
     "type": "corp",
-    "songs": null,
+    "songs": [
+      "2度目のキスから"
+    ],
     "description": ""
   },
   {
@@ -145,7 +172,9 @@
       "yamashitamizuki"
     ],
     "type": "corp",
-    "songs": null,
+    "songs": [
+      "失恋お掃除人"
+    ],
     "description": "4名に共通する一文字「美」から若月が3期生を結集"
   },
   {
@@ -161,7 +190,9 @@
       "wakatsukiyumi"
     ],
     "type": "corp",
-    "songs": null,
+    "songs": [
+      "環状六号線"
+    ],
     "description": "舞台『すべての犬は天国へ行く』出演メンバーで構成"
   },
   {
@@ -174,7 +205,7 @@
       "nishinonanase"
     ],
     "type": "corp",
-    "songs": null,
+    "songs": [],
     "description": ""
   },
   {
@@ -189,7 +220,7 @@
       "wadamaaya"
     ],
     "type": "corp",
-    "songs": null,
+    "songs": [],
     "description": "母体は「チームD (ディズニー好き)」 (和田を除くメンバー)"
   }
 ]
