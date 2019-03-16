@@ -12,8 +12,8 @@ const akimotomanatsu: IMember = {
     firstNameFurigana: "まなつ"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -38,7 +38,7 @@ const akimotomanatsu: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     }
@@ -63,8 +63,8 @@ const ikutaerika: IMember = {
     firstNameEn: "erika"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -89,7 +89,7 @@ const ikutaerika: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     },
@@ -100,7 +100,7 @@ const ikutaerika: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     }
@@ -125,8 +125,8 @@ const ikomarina: IMember = {
     firstNameEn: "rina"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -151,7 +151,7 @@ const ikomarina: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     }
@@ -176,8 +176,8 @@ const itoukarin: IMember = {
     firstNameEn: "karin"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -215,8 +215,8 @@ const itoujunna: IMember = {
     firstNameEn: "junna"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -254,8 +254,8 @@ const itouriria: IMember = {
     firstNameEn: "riria"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -289,8 +289,8 @@ const inouesayuri: IMember = {
     firstNameEn: "sayuri"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -315,7 +315,7 @@ const inouesayuri: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     }
@@ -340,8 +340,8 @@ const iwamotorenka: IMember = {
     firstNameEn: "renka"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -375,8 +375,8 @@ const umezawaminami: IMember = {
     firstNameEn: "minami"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -410,8 +410,8 @@ const etoumisa: IMember = {
     firstNameEn: "misa"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -436,7 +436,7 @@ const etoumisa: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     },
@@ -447,7 +447,7 @@ const etoumisa: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     }
@@ -472,8 +472,8 @@ const oozonomomoko: IMember = {
     firstNameEn: "momoko"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -507,8 +507,8 @@ const kawagohina: IMember = {
     firstNameEn: "hina"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -546,8 +546,8 @@ const kitanohinako: IMember = {
     firstNameEn: "hinako"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -572,7 +572,7 @@ const kitanohinako: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     }
@@ -597,8 +597,8 @@ const kuboshiori: IMember = {
     firstNameEn: "shiori"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -632,8 +632,8 @@ const saitouasuka: IMember = {
     firstNameEn: "asuka"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -658,7 +658,7 @@ const saitouasuka: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     }
@@ -683,8 +683,8 @@ const saitouyuuri: IMember = {
     firstNameEn: "yuri"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -722,8 +722,8 @@ const sakaguchitamami: IMember = {
     firstNameEn: "tamami"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -757,8 +757,8 @@ const sakuraireika: IMember = {
     firstNameEn: "reika"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -783,7 +783,7 @@ const sakuraireika: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     }
@@ -808,8 +808,8 @@ const sasakikotoko: IMember = {
     firstNameEn: "kotoko"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -843,8 +843,8 @@ const satoukaede: IMember = {
     firstNameEn: "kaede"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -878,8 +878,8 @@ const shiraishimai: IMember = {
     firstNameEn: "mai"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -904,7 +904,7 @@ const shiraishimai: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     },
@@ -915,7 +915,7 @@ const shiraishimai: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     },
@@ -926,7 +926,7 @@ const shiraishimai: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     }
@@ -951,8 +951,8 @@ const shinuchimai: IMember = {
     firstNameEn: "mai"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -977,7 +977,7 @@ const shinuchimai: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     }
@@ -1002,8 +1002,8 @@ const suzukiayane: IMember = {
     firstNameEn: "ayane"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -1041,8 +1041,8 @@ const takayamakazumi: IMember = {
     firstNameEn: "kazumi"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -1067,7 +1067,7 @@ const takayamakazumi: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     }
@@ -1092,8 +1092,8 @@ const teradaranze: IMember = {
     firstNameEn: "ranze"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -1127,8 +1127,8 @@ const nakadakana: IMember = {
     firstNameEn: "kana"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -1166,8 +1166,8 @@ const nakamurareno: IMember = {
     firstNameEn: "reno"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -1201,8 +1201,8 @@ const nishinonanase: IMember = {
     firstNameEn: "nanase"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -1227,7 +1227,7 @@ const nishinonanase: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     },
@@ -1238,7 +1238,7 @@ const nishinonanase: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     },
@@ -1249,7 +1249,7 @@ const nishinonanase: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     }
@@ -1274,8 +1274,8 @@ const noujouami: IMember = {
     firstNameEn: "ami"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -1313,8 +1313,8 @@ const higuchihina: IMember = {
     firstNameEn: "hina"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -1352,8 +1352,8 @@ const hoshinominami: IMember = {
     firstNameEn: "minami"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -1378,7 +1378,7 @@ const hoshinominami: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     }
@@ -1403,8 +1403,8 @@ const horimiona: IMember = {
     firstNameEn: "miona"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -1429,7 +1429,7 @@ const horimiona: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     }
@@ -1454,8 +1454,8 @@ const matsumurasayuri: IMember = {
     firstNameEn: "sayuri"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -1480,7 +1480,7 @@ const matsumurasayuri: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     }
@@ -1505,8 +1505,8 @@ const mukaihazuki: IMember = {
     firstNameEn: "hazuki"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -1540,8 +1540,8 @@ const yamazakirena: IMember = {
     firstNameEn: "rena"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -1579,8 +1579,8 @@ const yamashitamizuki: IMember = {
     firstNameEn: "mizuki"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -1614,8 +1614,8 @@ const yoshidaayanochristie: IMember = {
     firstNameEn: "ayanochristie"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -1649,8 +1649,8 @@ const yodayuuki: IMember = {
     firstNameEn: "yuki"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -1671,7 +1671,7 @@ const yodayuuki: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     }
@@ -1696,8 +1696,8 @@ const wakatsukiyumi: IMember = {
     firstNameEn: "yumi"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -1718,7 +1718,7 @@ const wakatsukiyumi: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     }
@@ -1743,8 +1743,8 @@ const watanabemiria: IMember = {
     firstNameEn: "miria"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -1782,8 +1782,8 @@ const wadamaaya: IMember = {
     firstNameEn: "maya"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -1821,8 +1821,8 @@ const endousakura: IMember = {
     firstNameEn: "sakura"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Fourth,
@@ -1856,8 +1856,8 @@ const kakiharuka: IMember = {
     firstNameEn: "haruka"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Fourth,
@@ -1891,8 +1891,8 @@ const kakehashisayaka: IMember = {
     firstNameEn: "sayaka"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Fourth,
@@ -1926,8 +1926,8 @@ const kanagawasaya: IMember = {
     firstNameEn: "saya"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Fourth,
@@ -1961,8 +1961,8 @@ const kitagawayuri: IMember = {
     firstNameEn: "yuri"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Fourth,
@@ -1996,8 +1996,8 @@ const shibatayuna: IMember = {
     firstNameEn: "yuna"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Fourth,
@@ -2031,8 +2031,8 @@ const seimiyarei: IMember = {
     firstNameEn: "rei"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Fourth,
@@ -2066,8 +2066,8 @@ const tamuramayu: IMember = {
     firstNameEn: "mayu"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Fourth,
@@ -2101,8 +2101,8 @@ const tsutsuiayame: IMember = {
     firstNameEn: "ayame"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Fourth,
@@ -2136,8 +2136,8 @@ const hayakawaseira: IMember = {
     firstNameEn: "seira"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Fourth,
@@ -2171,8 +2171,8 @@ const yakubomio: IMember = {
     firstNameEn: "mio"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Fourth,
@@ -2206,8 +2206,8 @@ const sagaraiori: IMember = {
     firstNameEn: "iori"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -2245,8 +2245,8 @@ const saitouchiharu: IMember = {
     firstNameEn: "chiharu"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2275,8 +2275,8 @@ const kawamuramahiro: IMember = {
     firstNameEn: "mahiro"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2318,8 +2318,8 @@ const nakamotohimeka: IMember = {
     firstNameEn: "himeka"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2353,8 +2353,8 @@ const itoumarika: IMember = {
     firstNameEn: "marika"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2388,8 +2388,8 @@ const hashimotonanami: IMember = {
     firstNameEn: "nanami"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2405,7 +2405,7 @@ const hashimotonanami: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     },
@@ -2416,7 +2416,7 @@ const hashimotonanami: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     }
@@ -2441,8 +2441,8 @@ const fukagawamai: IMember = {
     firstNameEn: "mai"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2463,7 +2463,7 @@ const fukagawamai: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     },
@@ -2474,7 +2474,7 @@ const fukagawamai: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: "url"
+          url: ""
         }
       ]
     }
@@ -2499,8 +2499,8 @@ const nagashimaseira: IMember = {
     firstNameEn: "seira"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2538,8 +2538,8 @@ const matsuirena: IMember = {
     firstNameEn: "rena"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Exchange,
@@ -2577,8 +2577,8 @@ const hatanakaseira: IMember = {
     firstNameEn: "seira"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2616,8 +2616,8 @@ const yamatorina: IMember = {
     firstNameEn: "rina"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2655,8 +2655,8 @@ const itounene: IMember = {
     firstNameEn: "nene"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2694,8 +2694,8 @@ const yonetokukyouka: IMember = {
     firstNameEn: "kyoka"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -2724,8 +2724,8 @@ const yadarisako: IMember = {
     firstNameEn: "risako"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -2754,8 +2754,8 @@ const ichikirena: IMember = {
     firstNameEn: "rena"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2789,8 +2789,8 @@ const nishikawananami: IMember = {
     firstNameEn: "nanami"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -2819,8 +2819,8 @@ const miyazawaseira: IMember = {
     firstNameEn: "seira"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2858,8 +2858,8 @@ const kashiwayukina: IMember = {
     firstNameEn: "yukina"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2893,8 +2893,8 @@ const andoumikumo: IMember = {
     firstNameEn: "mikumo"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2923,8 +2923,8 @@ const iwaseyumiko: IMember = {
     firstNameEn: "yumiko"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2958,8 +2958,8 @@ const yamamotohonoka: IMember = {
     firstNameEn: "honoka"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2988,8 +2988,8 @@ const yoshimotoayaka: IMember = {
     firstNameEn: "ayaka"
   },
   profileImage: {
-    large: "path",
-    small: "path"
+    large: "",
+    small: ""
   },
   singleImages: null,
   join: JoinedGeneration.First,
