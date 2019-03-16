@@ -13,23 +13,22 @@ const recordAlbumArtworks = (albumsList: IAlbum[]) => {
   const artworkBasename =
     "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/";
   albumsList.forEach(album => {
-    const albumNumber = album.number;
     album.artworks.forEach(artwork => {
       artwork.urls.large =
         artworkBasename +
-        albumNumber.toString() +
+        album.number.toString() +
         "/" +
         artwork.type +
         "_450.jpg";
       artwork.urls.medium =
         artworkBasename +
-        albumNumber.toString() +
+        album.number.toString() +
         "/" +
         artwork.type +
         "_150.jpg";
       artwork.urls.small =
         artworkBasename +
-        albumNumber.toString() +
+        album.number.toString() +
         "/" +
         artwork.type +
         "_100.jpg";

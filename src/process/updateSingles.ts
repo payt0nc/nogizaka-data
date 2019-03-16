@@ -14,23 +14,22 @@ const recordSingleArtworks = (singlesList: ISingle[]) => {
   const artworkBasename =
     "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/";
   singlesList.forEach(single => {
-    const singleNumber = single.number;
     single.artworks.forEach(artwork => {
       artwork.urls.large =
         artworkBasename +
-        singleNumber.toString() +
+        single.number.toString() +
         "/" +
         artwork.type +
         "_450.jpg";
       artwork.urls.medium =
         artworkBasename +
-        singleNumber.toString() +
+        single.number.toString() +
         "/" +
         artwork.type +
         "_150.jpg";
       artwork.urls.small =
         artworkBasename +
-        singleNumber.toString() +
+        single.number.toString() +
         "/" +
         artwork.type +
         "_100.jpg";
