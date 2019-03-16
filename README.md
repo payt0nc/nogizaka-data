@@ -1,6 +1,6 @@
-# NOGISONGS Data
+# Nogizaka-lib Data
 
-This is a project to process the raw data of _NOGISONGS_ project to make them instantly available for the View.
+This is a project to process the raw data of [Nogizaka Lib](https://github.com/shawnrivers/nogizaka-lib) project to make them instantly available for the View.
 
 ## Usage
 
@@ -115,26 +115,6 @@ TODO:
 
 - [ ] Replace `undefined` with empty string (because `undefined` will remove properties)
 
-## Store JSON Data in Firebase
+### CDN
 
-- [ ] Save object to JSON file
-- [ ] Upload to Firebase
-
-## Store Images Data in Firebase
-
-Image Files Structure:
-
-- Member profile images
-  - default image
-    - large images
-    - small images
-  - image for each single
-    - large images
-    - small images
-- Single & album artwork images
-  - single artwork images
-  - album artwork images
-
-TODO:
-
-- [ ] Upload to Firebase
+Maybe?
