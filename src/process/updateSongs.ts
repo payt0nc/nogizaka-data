@@ -5,19 +5,19 @@ import { ISong } from "../types/ISong";
 export const updateSongs = (
   songsList: ISong[],
   singlesList: ISingle[],
-  albumsList: IAlbum[]
+  albumsList: IAlbum[],
 ) => {
   recordSongSingle(songsList, singlesList);
   recordSongAlbums(songsList, albumsList);
 };
 
 const recordSongAlbums = (songsList: ISong[], albumsList: IAlbum[]) => {
-  songsList.forEach(song => {
+  songsList.forEach((song) => {
     // Reset song albums.
     song.albums = [];
 
-    for (let album of albumsList) {
-      for (let albumSong of album.songs) {
+    for (const album of albumsList) {
+      for (const albumSong of album.songs) {
         if (albumSong.title === song.title) {
           song.albums.push(album.title);
         }
@@ -27,12 +27,12 @@ const recordSongAlbums = (songsList: ISong[], albumsList: IAlbum[]) => {
 };
 
 const recordSongSingle = (songsList: ISong[], singlesList: ISingle[]) => {
-  songsList.forEach(song => {
+  songsList.forEach((song) => {
     // Reset song single.
     song.single = "";
 
-    for (let single of singlesList) {
-      for (let singleSong of single.songs) {
+    for (const single of singlesList) {
+      for (const singleSong of single.songs) {
         if (singleSong.title === song.title) {
           song.single = single.title;
           break;

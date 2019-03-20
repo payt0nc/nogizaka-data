@@ -26,30 +26,30 @@ export enum BloodType {
   B = "b",
   O = "o",
   AB = "ab",
-  Unknown = "unknown"
+  Unknown = "unknown",
 }
 
 export enum PhotoAlbumType {
   PhotoAlbum = "photo album",
   PhotoBook = "photo book",
-  PhotoMagzine = "photo magzine"
+  PhotoMagzine = "photo magzine",
 }
 
 export enum UnitType {
   Unit = "unit",
-  Corp = "corp"
+  Corp = "corp",
 }
 
 export enum FukujinType {
   RowOne = "row-1",
-  RowOneTwo = "row-1-2"
+  RowOneTwo = "row-1-2",
 }
 
 export enum FocusPerformersType {
   Center = "center",
   Solo = "solo",
   Unit = "unit",
-  None = ""
+  None = "",
 }
 
 export enum MemberNames {
@@ -126,5 +126,5 @@ export enum MemberNames {
   AndouMikumo = "andoumikumo",
   IwaseYumiko = "iwaseyumiko",
   YamamotoHonoka = "yamamotohonoka",
-  YoshimotoAyaka = "yoshimotoayaka"
+  YoshimotoAyaka = "yoshimotoayaka",
 }

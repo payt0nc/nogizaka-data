@@ -12,47 +12,47 @@ const kaerimichi: ISingle = {
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.B,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.C,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.D,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.T,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
-    }
+        small: "",
+      },
+    },
   ],
   shopping: [
     {
       title: "iTunes",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   songs: [
     {
@@ -61,7 +61,7 @@ const kaerimichi: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 2,
@@ -69,7 +69,7 @@ const kaerimichi: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 3,
@@ -77,7 +77,7 @@ const kaerimichi: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Solo,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 4,
@@ -85,7 +85,7 @@ const kaerimichi: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 5,
@@ -93,7 +93,7 @@ const kaerimichi: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 6,
@@ -101,7 +101,7 @@ const kaerimichi: ISingle = {
       inCdType: [CdType.D],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 7,
@@ -109,13 +109,13 @@ const kaerimichi: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
-    }
+      focusPerformers: null,
+    },
   ],
   behindPerformers: {
     trainees: [],
-    skips: []
-  }
+    skips: [],
+  },
 };
 
 const jikochu: ISingle = {
@@ -129,47 +129,47 @@ const jikochu: ISingle = {
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.B,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.C,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.D,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.T,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
-    }
+        small: "",
+      },
+    },
   ],
   shopping: [
     {
       title: "iTunes",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   songs: [
     {
@@ -178,7 +178,7 @@ const jikochu: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 2,
@@ -186,7 +186,7 @@ const jikochu: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 3,
@@ -194,7 +194,7 @@ const jikochu: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 4,
@@ -202,7 +202,7 @@ const jikochu: ISingle = {
       inCdType: [CdType.B],
       type: SongType.ThirdGeneration,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 5,
@@ -210,7 +210,7 @@ const jikochu: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 6,
@@ -218,7 +218,7 @@ const jikochu: ISingle = {
       inCdType: [CdType.D],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 7,
@@ -226,13 +226,13 @@ const jikochu: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
-    }
+      focusPerformers: null,
+    },
   ],
   behindPerformers: {
     trainees: [],
-    skips: [MemberNames.KuboShiori]
-  }
+    skips: [MemberNames.KuboShiori],
+  },
 };
 
 const syncronicity: ISingle = {
@@ -246,47 +246,47 @@ const syncronicity: ISingle = {
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.B,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.C,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.D,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.T,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
-    }
+        small: "",
+      },
+    },
   ],
   shopping: [
     {
       title: "iTunes",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   songs: [
     {
@@ -295,7 +295,7 @@ const syncronicity: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 2,
@@ -303,7 +303,7 @@ const syncronicity: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.FirstGeneration,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 3,
@@ -311,7 +311,7 @@ const syncronicity: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 4,
@@ -319,7 +319,7 @@ const syncronicity: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 5,
@@ -327,7 +327,7 @@ const syncronicity: ISingle = {
       inCdType: [CdType.C],
       type: SongType.SecondGeneration,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 6,
@@ -335,7 +335,7 @@ const syncronicity: ISingle = {
       inCdType: [CdType.D],
       type: SongType.ThirdGeneration,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 7,
@@ -343,13 +343,13 @@ const syncronicity: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
-    }
+      focusPerformers: null,
+    },
   ],
   behindPerformers: {
     trainees: [],
-    skips: [MemberNames.KitanoHinako]
-  }
+    skips: [MemberNames.KitanoHinako],
+  },
 };
 
 const itsukadekirukara: ISingle = {
@@ -363,47 +363,47 @@ const itsukadekirukara: ISingle = {
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.B,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.C,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.D,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.T,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
-    }
+        small: "",
+      },
+    },
   ],
   shopping: [
     {
       title: "iTunes",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   songs: [
     {
@@ -412,7 +412,7 @@ const itsukadekirukara: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 2,
@@ -420,7 +420,7 @@ const itsukadekirukara: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 3,
@@ -428,7 +428,7 @@ const itsukadekirukara: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 4,
@@ -436,7 +436,7 @@ const itsukadekirukara: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 5,
@@ -444,7 +444,7 @@ const itsukadekirukara: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 6,
@@ -452,7 +452,7 @@ const itsukadekirukara: ISingle = {
       inCdType: [CdType.D],
       type: SongType.ThirdGeneration,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 7,
@@ -460,8 +460,8 @@ const itsukadekirukara: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
-    }
+      focusPerformers: null,
+    },
   ],
   behindPerformers: {
     trainees: [
@@ -476,10 +476,10 @@ const itsukadekirukara: ISingle = {
       MemberNames.MukaiHazuki,
       MemberNames.YamashitaMizuki,
       MemberNames.YoshidaAyanoChristie,
-      MemberNames.YodaYuuki
+      MemberNames.YodaYuuki,
     ],
-    skips: []
-  }
+    skips: [],
+  },
 };
 
 const nigemizu: ISingle = {
@@ -493,47 +493,47 @@ const nigemizu: ISingle = {
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.B,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.C,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.D,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.T,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
-    }
+        small: "",
+      },
+    },
   ],
   shopping: [
     {
       title: "iTunes",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   songs: [
     {
@@ -542,7 +542,7 @@ const nigemizu: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 2,
@@ -550,7 +550,7 @@ const nigemizu: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 3,
@@ -558,7 +558,7 @@ const nigemizu: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 4,
@@ -566,7 +566,7 @@ const nigemizu: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 5,
@@ -574,7 +574,7 @@ const nigemizu: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 6,
@@ -582,7 +582,7 @@ const nigemizu: ISingle = {
       inCdType: [CdType.D],
       type: SongType.SecondGeneration,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 7,
@@ -590,8 +590,8 @@ const nigemizu: ISingle = {
       inCdType: [CdType.T],
       type: SongType.ThirdGeneration,
       artwork: "",
-      focusPerformers: null
-    }
+      focusPerformers: null,
+    },
   ],
   behindPerformers: {
     trainees: [
@@ -606,10 +606,10 @@ const nigemizu: ISingle = {
       MemberNames.MukaiHazuki,
       MemberNames.YamashitaMizuki,
       MemberNames.YoshidaAyanoChristie,
-      MemberNames.YodaYuuki
+      MemberNames.YodaYuuki,
     ],
-    skips: []
-  }
+    skips: [],
+  },
 };
 
 const influencer: ISingle = {
@@ -623,47 +623,47 @@ const influencer: ISingle = {
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.B,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.C,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.D,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.T,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
-    }
+        small: "",
+      },
+    },
   ],
   shopping: [
     {
       title: "iTunes",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   songs: [
     {
@@ -672,7 +672,7 @@ const influencer: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 2,
@@ -680,7 +680,7 @@ const influencer: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 3,
@@ -688,7 +688,7 @@ const influencer: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 4,
@@ -696,7 +696,7 @@ const influencer: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 5,
@@ -704,7 +704,7 @@ const influencer: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 6,
@@ -712,7 +712,7 @@ const influencer: ISingle = {
       inCdType: [CdType.D],
       type: SongType.ThirdGeneration,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 7,
@@ -720,8 +720,8 @@ const influencer: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
-    }
+      focusPerformers: null,
+    },
   ],
   behindPerformers: {
     trainees: [
@@ -736,10 +736,10 @@ const influencer: ISingle = {
       MemberNames.MukaiHazuki,
       MemberNames.YamashitaMizuki,
       MemberNames.YoshidaAyanoChristie,
-      MemberNames.YodaYuuki
+      MemberNames.YodaYuuki,
     ],
-    skips: [MemberNames.NakamotoHimeka]
-  }
+    skips: [MemberNames.NakamotoHimeka],
+  },
 };
 
 const sayonaranoimi: ISingle = {
@@ -753,47 +753,47 @@ const sayonaranoimi: ISingle = {
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.B,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.C,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.D,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.T,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
-    }
+        small: "",
+      },
+    },
   ],
   shopping: [
     {
       title: "iTunes",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   songs: [
     {
@@ -802,7 +802,7 @@ const sayonaranoimi: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 2,
@@ -810,7 +810,7 @@ const sayonaranoimi: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 3,
@@ -818,7 +818,7 @@ const sayonaranoimi: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 4,
@@ -826,7 +826,7 @@ const sayonaranoimi: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 5,
@@ -834,7 +834,7 @@ const sayonaranoimi: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 6,
@@ -842,7 +842,7 @@ const sayonaranoimi: ISingle = {
       inCdType: [CdType.D],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 7,
@@ -850,13 +850,13 @@ const sayonaranoimi: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Solo,
       artwork: "",
-      focusPerformers: null
-    }
+      focusPerformers: null,
+    },
   ],
   behindPerformers: {
     trainees: [],
-    skips: []
-  }
+    skips: [],
+  },
 };
 
 const hadashidesummer: ISingle = {
@@ -870,47 +870,47 @@ const hadashidesummer: ISingle = {
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.B,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.C,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.D,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.T,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
-    }
+        small: "",
+      },
+    },
   ],
   shopping: [
     {
       title: "iTunes",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   songs: [
     {
@@ -919,7 +919,7 @@ const hadashidesummer: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 2,
@@ -927,7 +927,7 @@ const hadashidesummer: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 3,
@@ -935,7 +935,7 @@ const hadashidesummer: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Solo,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 4,
@@ -943,7 +943,7 @@ const hadashidesummer: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Solo,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 5,
@@ -951,7 +951,7 @@ const hadashidesummer: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 6,
@@ -959,7 +959,7 @@ const hadashidesummer: ISingle = {
       inCdType: [CdType.D],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 7,
@@ -967,13 +967,13 @@ const hadashidesummer: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
-    }
+      focusPerformers: null,
+    },
   ],
   behindPerformers: {
     trainees: [],
-    skips: []
-  }
+    skips: [],
+  },
 };
 
 const harujion: ISingle = {
@@ -987,47 +987,47 @@ const harujion: ISingle = {
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.B,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.C,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.D,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.T,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
-    }
+        small: "",
+      },
+    },
   ],
   shopping: [
     {
       title: "iTunes",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   songs: [
     {
@@ -1036,7 +1036,7 @@ const harujion: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 2,
@@ -1044,7 +1044,7 @@ const harujion: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 3,
@@ -1052,7 +1052,7 @@ const harujion: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Solo,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 4,
@@ -1060,7 +1060,7 @@ const harujion: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 5,
@@ -1068,7 +1068,7 @@ const harujion: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Solo,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 6,
@@ -1076,7 +1076,7 @@ const harujion: ISingle = {
       inCdType: [CdType.D],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 7,
@@ -1084,13 +1084,13 @@ const harujion: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
-    }
+      focusPerformers: null,
+    },
   ],
   behindPerformers: {
     trainees: [],
-    skips: []
-  }
+    skips: [],
+  },
 };
 
 const hanashitaidarekagairu: ISingle = {
@@ -1104,39 +1104,39 @@ const hanashitaidarekagairu: ISingle = {
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.B,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.C,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.T,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
-    }
+        small: "",
+      },
+    },
   ],
   shopping: [
     {
       title: "iTunes",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   songs: [
     {
@@ -1145,7 +1145,7 @@ const hanashitaidarekagairu: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 2,
@@ -1153,7 +1153,7 @@ const hanashitaidarekagairu: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 3,
@@ -1161,7 +1161,7 @@ const hanashitaidarekagairu: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 4,
@@ -1169,7 +1169,7 @@ const hanashitaidarekagairu: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 5,
@@ -1177,7 +1177,7 @@ const hanashitaidarekagairu: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 6,
@@ -1185,13 +1185,13 @@ const hanashitaidarekagairu: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
-    }
+      focusPerformers: null,
+    },
   ],
   behindPerformers: {
     trainees: [],
-    skips: []
-  }
+    skips: [],
+  },
 };
 
 const taiyoknock: ISingle = {
@@ -1205,39 +1205,39 @@ const taiyoknock: ISingle = {
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.B,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.C,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.T,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
-    }
+        small: "",
+      },
+    },
   ],
   shopping: [
     {
       title: "iTunes",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   songs: [
     {
@@ -1246,7 +1246,7 @@ const taiyoknock: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T, CdType.L],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 2,
@@ -1254,7 +1254,7 @@ const taiyoknock: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T, CdType.L],
       type: SongType.Solo,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 3,
@@ -1262,7 +1262,7 @@ const taiyoknock: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 4,
@@ -1270,7 +1270,7 @@ const taiyoknock: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 5,
@@ -1278,7 +1278,7 @@ const taiyoknock: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 6,
@@ -1286,7 +1286,7 @@ const taiyoknock: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 7,
@@ -1294,13 +1294,13 @@ const taiyoknock: ISingle = {
       inCdType: [CdType.L],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
-    }
+      focusPerformers: null,
+    },
   ],
   behindPerformers: {
     trainees: [],
-    skips: [MemberNames.YamazakiRena]
-  }
+    skips: [MemberNames.YamazakiRena],
+  },
 };
 
 const inochihautsukushii: ISingle = {
@@ -1314,39 +1314,39 @@ const inochihautsukushii: ISingle = {
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.B,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.C,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.T,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
-    }
+        small: "",
+      },
+    },
   ],
   shopping: [
     {
       title: "iTunes",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   songs: [
     {
@@ -1355,7 +1355,7 @@ const inochihautsukushii: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 2,
@@ -1363,7 +1363,7 @@ const inochihautsukushii: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 3,
@@ -1371,7 +1371,7 @@ const inochihautsukushii: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 4,
@@ -1379,7 +1379,7 @@ const inochihautsukushii: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Solo,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 5,
@@ -1387,7 +1387,7 @@ const inochihautsukushii: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 6,
@@ -1395,8 +1395,8 @@ const inochihautsukushii: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
-    }
+      focusPerformers: null,
+    },
   ],
   behindPerformers: {
     trainees: [
@@ -1405,10 +1405,10 @@ const inochihautsukushii: ISingle = {
       MemberNames.SuzukiAyane,
       MemberNames.TeradaRanze,
       MemberNames.YamazakiRena,
-      MemberNames.WatanabeMiria
+      MemberNames.WatanabeMiria,
     ],
-    skips: []
-  }
+    skips: [],
+  },
 };
 
 const nandomenoaozoraka: ISingle = {
@@ -1422,39 +1422,39 @@ const nandomenoaozoraka: ISingle = {
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.B,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.C,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.T,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
-    }
+        small: "",
+      },
+    },
   ],
   shopping: [
     {
       title: "iTunes",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   songs: [
     {
@@ -1463,7 +1463,7 @@ const nandomenoaozoraka: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 2,
@@ -1471,7 +1471,7 @@ const nandomenoaozoraka: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 3,
@@ -1479,7 +1479,7 @@ const nandomenoaozoraka: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 4,
@@ -1487,7 +1487,7 @@ const nandomenoaozoraka: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 5,
@@ -1495,7 +1495,7 @@ const nandomenoaozoraka: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 6,
@@ -1503,8 +1503,8 @@ const nandomenoaozoraka: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
-    }
+      focusPerformers: null,
+    },
   ],
   behindPerformers: {
     trainees: [
@@ -1514,10 +1514,10 @@ const nandomenoaozoraka: ISingle = {
       MemberNames.SuzukiAyane,
       MemberNames.TeradaRanze,
       MemberNames.YamazakiRena,
-      MemberNames.WatanabeMiria
+      MemberNames.WatanabeMiria,
     ],
-    skips: []
-  }
+    skips: [],
+  },
 };
 
 const natsunofreeandeasy: ISingle = {
@@ -1531,39 +1531,39 @@ const natsunofreeandeasy: ISingle = {
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.B,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.C,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.T,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
-    }
+        small: "",
+      },
+    },
   ],
   shopping: [
     {
       title: "iTunes",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   songs: [
     {
@@ -1572,7 +1572,7 @@ const natsunofreeandeasy: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 2,
@@ -1580,7 +1580,7 @@ const natsunofreeandeasy: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 3,
@@ -1588,7 +1588,7 @@ const natsunofreeandeasy: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 4,
@@ -1596,7 +1596,7 @@ const natsunofreeandeasy: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 5,
@@ -1604,7 +1604,7 @@ const natsunofreeandeasy: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 6,
@@ -1612,8 +1612,8 @@ const natsunofreeandeasy: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
-    }
+      focusPerformers: null,
+    },
   ],
   behindPerformers: {
     trainees: [
@@ -1626,10 +1626,10 @@ const natsunofreeandeasy: ISingle = {
       MemberNames.YamazakiRena,
       MemberNames.WatanabeMiria,
       MemberNames.YonetokuKyouka,
-      MemberNames.YadaRisako
+      MemberNames.YadaRisako,
     ],
-    skips: [MemberNames.IkutaErika]
-  }
+    skips: [MemberNames.IkutaErika],
+  },
 };
 
 const kizuitarakataomoi: ISingle = {
@@ -1643,39 +1643,39 @@ const kizuitarakataomoi: ISingle = {
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.B,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.C,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.T,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
-    }
+        small: "",
+      },
+    },
   ],
   shopping: [
     {
       title: "iTunes",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   songs: [
     {
@@ -1684,7 +1684,7 @@ const kizuitarakataomoi: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 2,
@@ -1692,7 +1692,7 @@ const kizuitarakataomoi: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 3,
@@ -1700,7 +1700,7 @@ const kizuitarakataomoi: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 4,
@@ -1708,7 +1708,7 @@ const kizuitarakataomoi: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 5,
@@ -1716,7 +1716,7 @@ const kizuitarakataomoi: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 6,
@@ -1724,8 +1724,8 @@ const kizuitarakataomoi: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
-    }
+      focusPerformers: null,
+    },
   ],
   behindPerformers: {
     trainees: [
@@ -1737,10 +1737,10 @@ const kizuitarakataomoi: ISingle = {
       MemberNames.YamazakiRena,
       MemberNames.WatanabeMiria,
       MemberNames.YonetokuKyouka,
-      MemberNames.YadaRisako
+      MemberNames.YadaRisako,
     ],
-    skips: [MemberNames.SagaraIori]
-  }
+    skips: [MemberNames.SagaraIori],
+  },
 };
 
 const valletta: ISingle = {
@@ -1754,39 +1754,39 @@ const valletta: ISingle = {
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.B,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.C,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.T,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
-    }
+        small: "",
+      },
+    },
   ],
   shopping: [
     {
       title: "iTunes",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   songs: [
     {
@@ -1795,7 +1795,7 @@ const valletta: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 2,
@@ -1803,7 +1803,7 @@ const valletta: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 3,
@@ -1811,7 +1811,7 @@ const valletta: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 4,
@@ -1819,7 +1819,7 @@ const valletta: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 5,
@@ -1827,7 +1827,7 @@ const valletta: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 6,
@@ -1835,8 +1835,8 @@ const valletta: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
-    }
+      focusPerformers: null,
+    },
   ],
   behindPerformers: {
     trainees: [
@@ -1851,10 +1851,10 @@ const valletta: ISingle = {
       MemberNames.WatanabeMiria,
       MemberNames.YonetokuKyouka,
       MemberNames.YadaRisako,
-      MemberNames.NishikawaNanami
+      MemberNames.NishikawaNanami,
     ],
-    skips: [MemberNames.IchikiRena, MemberNames.SagaraIori]
-  }
+    skips: [MemberNames.IchikiRena, MemberNames.SagaraIori],
+  },
 };
 
 const girlsrule: ISingle = {
@@ -1868,39 +1868,39 @@ const girlsrule: ISingle = {
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.B,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.C,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.T,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
-    }
+        small: "",
+      },
+    },
   ],
   shopping: [
     {
       title: "iTunes",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   songs: [
     {
@@ -1909,7 +1909,7 @@ const girlsrule: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 2,
@@ -1917,7 +1917,7 @@ const girlsrule: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 3,
@@ -1925,7 +1925,7 @@ const girlsrule: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 4,
@@ -1933,7 +1933,7 @@ const girlsrule: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 5,
@@ -1941,7 +1941,7 @@ const girlsrule: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 6,
@@ -1949,8 +1949,8 @@ const girlsrule: ISingle = {
       inCdType: [CdType.T],
       type: SongType.FirstGeneration,
       artwork: "",
-      focusPerformers: null
-    }
+      focusPerformers: null,
+    },
   ],
   behindPerformers: {
     trainees: [
@@ -1966,10 +1966,10 @@ const girlsrule: ISingle = {
       MemberNames.WatanabeMiria,
       MemberNames.YonetokuKyouka,
       MemberNames.YadaRisako,
-      MemberNames.NishikawaNanami
+      MemberNames.NishikawaNanami,
     ],
-    skips: [MemberNames.SagaraIori]
-  }
+    skips: [MemberNames.SagaraIori],
+  },
 };
 
 const kiminonahakibo: ISingle = {
@@ -1983,39 +1983,39 @@ const kiminonahakibo: ISingle = {
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.B,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.C,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.T,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
-    }
+        small: "",
+      },
+    },
   ],
   shopping: [
     {
       title: "iTunes",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   songs: [
     {
@@ -2024,7 +2024,7 @@ const kiminonahakibo: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 2,
@@ -2032,7 +2032,7 @@ const kiminonahakibo: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 3,
@@ -2040,7 +2040,7 @@ const kiminonahakibo: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 4,
@@ -2048,7 +2048,7 @@ const kiminonahakibo: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 5,
@@ -2056,7 +2056,7 @@ const kiminonahakibo: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 6,
@@ -2064,13 +2064,13 @@ const kiminonahakibo: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
-    }
+      focusPerformers: null,
+    },
   ],
   behindPerformers: {
     trainees: [],
-    skips: []
-  }
+    skips: [],
+  },
 };
 
 const seifukunomannequin: ISingle = {
@@ -2084,39 +2084,39 @@ const seifukunomannequin: ISingle = {
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.B,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.C,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.T,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
-    }
+        small: "",
+      },
+    },
   ],
   shopping: [
     {
       title: "iTunes",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   songs: [
     {
@@ -2125,7 +2125,7 @@ const seifukunomannequin: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 2,
@@ -2133,7 +2133,7 @@ const seifukunomannequin: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 3,
@@ -2141,7 +2141,7 @@ const seifukunomannequin: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 4,
@@ -2149,7 +2149,7 @@ const seifukunomannequin: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 5,
@@ -2157,7 +2157,7 @@ const seifukunomannequin: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 6,
@@ -2165,13 +2165,13 @@ const seifukunomannequin: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
-    }
+      focusPerformers: null,
+    },
   ],
   behindPerformers: {
     trainees: [],
-    skips: [MemberNames.KashiwaYukina]
-  }
+    skips: [MemberNames.KashiwaYukina],
+  },
 };
 
 const hashirebicycle: ISingle = {
@@ -2185,39 +2185,39 @@ const hashirebicycle: ISingle = {
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.B,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.C,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.T,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
-    }
+        small: "",
+      },
+    },
   ],
   shopping: [
     {
       title: "iTunes",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   songs: [
     {
@@ -2226,7 +2226,7 @@ const hashirebicycle: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 2,
@@ -2234,7 +2234,7 @@ const hashirebicycle: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 3,
@@ -2242,7 +2242,7 @@ const hashirebicycle: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 4,
@@ -2250,7 +2250,7 @@ const hashirebicycle: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 5,
@@ -2258,7 +2258,7 @@ const hashirebicycle: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 6,
@@ -2266,13 +2266,13 @@ const hashirebicycle: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
-    }
+      focusPerformers: null,
+    },
   ],
   behindPerformers: {
     trainees: [],
-    skips: [MemberNames.AkimotoManatsu]
-  }
+    skips: [MemberNames.AkimotoManatsu],
+  },
 };
 
 const oideshampoo: ISingle = {
@@ -2286,39 +2286,39 @@ const oideshampoo: ISingle = {
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.B,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.C,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.T,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
-    }
+        small: "",
+      },
+    },
   ],
   shopping: [
     {
       title: "iTunes",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   songs: [
     {
@@ -2327,7 +2327,7 @@ const oideshampoo: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 2,
@@ -2335,7 +2335,7 @@ const oideshampoo: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 3,
@@ -2343,7 +2343,7 @@ const oideshampoo: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 4,
@@ -2351,7 +2351,7 @@ const oideshampoo: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Solo,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 5,
@@ -2359,7 +2359,7 @@ const oideshampoo: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 6,
@@ -2367,13 +2367,13 @@ const oideshampoo: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
-    }
+      focusPerformers: null,
+    },
   ],
   behindPerformers: {
     trainees: [],
-    skips: [MemberNames.AkimotoManatsu]
-  }
+    skips: [MemberNames.AkimotoManatsu],
+  },
 };
 
 const gurugurucurtain: ISingle = {
@@ -2387,39 +2387,39 @@ const gurugurucurtain: ISingle = {
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.B,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.C,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
+        small: "",
+      },
     },
     {
       type: CdType.T,
       urls: {
         large: "",
         medium: "",
-        small: ""
-      }
-    }
+        small: "",
+      },
+    },
   ],
   shopping: [
     {
       title: "iTunes",
-      url: "url"
-    }
+      url: "url",
+    },
   ],
   songs: [
     {
@@ -2428,7 +2428,7 @@ const gurugurucurtain: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 2,
@@ -2436,7 +2436,7 @@ const gurugurucurtain: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 3,
@@ -2444,7 +2444,7 @@ const gurugurucurtain: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 4,
@@ -2452,7 +2452,7 @@ const gurugurucurtain: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 5,
@@ -2460,7 +2460,7 @@ const gurugurucurtain: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
+      focusPerformers: null,
     },
     {
       number: 6,
@@ -2468,13 +2468,13 @@ const gurugurucurtain: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null
-    }
+      focusPerformers: null,
+    },
   ],
   behindPerformers: {
     trainees: [],
-    skips: [MemberNames.AkimotoManatsu]
-  }
+    skips: [MemberNames.AkimotoManatsu],
+  },
 };
 
 export const singles = {
@@ -2499,5 +2499,5 @@ export const singles = {
   "制服のマネキン": seifukunomannequin,
   "走れ!Bicycle": hashirebicycle,
   "おいでシャンプー": oideshampoo,
-  "ぐるぐるカーテン": gurugurucurtain
+  "ぐるぐるカーテン": gurugurucurtain,
 };

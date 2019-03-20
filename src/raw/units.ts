@@ -7,7 +7,7 @@ const whiteHigh: IUnit = {
   type: UnitType.Unit,
   songs: [],
   description:
-    "白石の「白」、高山の「高」をそれぞれ英語表記にした「WHITE」「HIGH」の組み合わせ"
+    "白石の「白」、高山の「高」をそれぞれ英語表記にした「WHITE」「HIGH」の組み合わせ",
 };
 
 const kodokukyoudai: IUnit = {
@@ -15,7 +15,7 @@ const kodokukyoudai: IUnit = {
   members: [MemberNames.ShiraishiMai, MemberNames.HashimotoNanami],
   type: UnitType.Unit,
   songs: [],
-  description: ""
+  description: "",
 };
 
 const karaageshimai: IUnit = {
@@ -23,7 +23,7 @@ const karaageshimai: IUnit = {
   members: [MemberNames.IkutaErika, MemberNames.MatsumuraSayuri],
   type: UnitType.Unit,
   songs: [],
-  description: ""
+  description: "",
 };
 
 const cinqEtoiles: IUnit = {
@@ -33,12 +33,12 @@ const cinqEtoiles: IUnit = {
     MemberNames.TeradaRanze,
     MemberNames.NakadaKana,
     MemberNames.NakamotoHimeka,
-    MemberNames.HoriMiona
+    MemberNames.HoriMiona,
   ],
   type: UnitType.Unit,
   songs: [],
   description:
-    "13thシングルのアンダーメンバーより選抜。「サンクエトワール」とはフランス語で「五つ星」という意味"
+    "13thシングルのアンダーメンバーより選抜。「サンクエトワール」とはフランス語で「五つ星」という意味",
 };
 
 const joshikouQuartet: IUnit = {
@@ -47,11 +47,11 @@ const joshikouQuartet: IUnit = {
     MemberNames.AkimotoManatsu,
     MemberNames.SakuraiReika,
     MemberNames.NakadaKana,
-    MemberNames.WakatsukiYumi
+    MemberNames.WakatsukiYumi,
   ],
   type: UnitType.Unit,
   songs: [],
-  description: "女子高に通っていたメンバーで結成"
+  description: "女子高に通っていたメンバーで結成",
 };
 
 const aneosaka: IUnit = {
@@ -60,11 +60,11 @@ const aneosaka: IUnit = {
     MemberNames.EtouMisa,
     MemberNames.ShiraishiMai,
     MemberNames.TakayamaKazumi,
-    MemberNames.MatsumuraSayuri
+    MemberNames.MatsumuraSayuri,
   ],
   type: UnitType.Unit,
   songs: [],
-  description: "グループ1期生年長メンバーで結成"
+  description: "グループ1期生年長メンバーで結成",
 };
 
 const nasuka: IUnit = {
@@ -76,7 +76,7 @@ const nasuka: IUnit = {
   ],
   type: UnitType.Unit,
   songs: [],
-  description: "ナナセの「ナ」、アスカの「ス」、マリカの「カ」の組み合わせ"
+  description: "ナナセの「ナ」、アスカの「ス」、マリカの「カ」の組み合わせ",
 };
 
 const kasumigusa: IUnit = {
@@ -85,11 +85,11 @@ const kasumigusa: IUnit = {
     MemberNames.IkomaRina,
     MemberNames.InoueSayuri,
     MemberNames.HoshinoMinami,
-    MemberNames.HoriMiona
+    MemberNames.HoriMiona,
   ],
   type: UnitType.Unit,
   songs: [],
-  description: "かすみ草の花言葉は「名脇役」。主役を影で支える力のあるメンバーという意味が込められている"
+  description: "かすみ草の花言葉は「名脇役」。主役を影で支える力のあるメンバーという意味が込められている",
 };
 
 const dontWorry: IUnit = {
@@ -97,11 +97,11 @@ const dontWorry: IUnit = {
   members: [
     MemberNames.IkutaErika,
     MemberNames.EtouMisa,
-    MemberNames.SakuraiReika
+    MemberNames.SakuraiReika,
   ],
   type: UnitType.Unit,
   songs: [],
-  description: "ドンウォーリー"
+  description: "ドンウォーリー",
 };
 
 const imoutozaka: IUnit = {
@@ -110,11 +110,11 @@ const imoutozaka: IUnit = {
     MemberNames.OozonoMomoko,
     MemberNames.KuboShiori,
     MemberNames.YamashitaMizuki,
-    MemberNames.YodaYuuki
+    MemberNames.YodaYuuki,
   ],
   type: UnitType.Unit,
   songs: [],
-  description: ""
+  description: "",
 };
 
 const sayuringoGundan: IUnit = {
@@ -123,11 +123,11 @@ const sayuringoGundan: IUnit = {
     MemberNames.MatsumuraSayuri,
     MemberNames.ItouKarin,
     MemberNames.SasakiKotoko,
-    MemberNames.TeradaRanze
+    MemberNames.TeradaRanze,
   ],
   type: UnitType.Corp,
   songs: [],
-  description: ""
+  description: "",
 };
 
 const manatsusanRespectGundan: IUnit = {
@@ -136,11 +136,11 @@ const manatsusanRespectGundan: IUnit = {
     MemberNames.AkimotoManatsu,
     MemberNames.SagaraIori,
     MemberNames.SuzukiAyane,
-    MemberNames.WatanabeMiria
+    MemberNames.WatanabeMiria,
   ],
   type: UnitType.Corp,
   songs: [],
-  description: ""
+  description: "",
 };
 
 const wakasamaGundan: IUnit = {
@@ -149,11 +149,11 @@ const wakasamaGundan: IUnit = {
     MemberNames.WakatsukiYumi,
     MemberNames.UmezawaMinami,
     MemberNames.SakaguchiTamami,
-    MemberNames.YamashitaMizuki
+    MemberNames.YamashitaMizuki,
   ],
   type: UnitType.Corp,
   songs: [],
-  description: "4名に共通する一文字「美」から若月が3期生を結集"
+  description: "4名に共通する一文字「美」から若月が3期生を結集",
 };
 
 const inumen: IUnit = {
@@ -166,11 +166,11 @@ const inumen: IUnit = {
     MemberNames.SaitouYuuri,
     MemberNames.ShinuchiMai,
     MemberNames.MatsumuraSayuri,
-    MemberNames.WakatsukiYumi
+    MemberNames.WakatsukiYumi,
   ],
   type: UnitType.Corp,
   songs: [],
-  description: "舞台『すべての犬は天国へ行く』出演メンバーで構成"
+  description: "舞台『すべての犬は天国へ行く』出演メンバーで構成",
 };
 
 const suika: IUnit = {
@@ -180,11 +180,11 @@ const suika: IUnit = {
     MemberNames.ItouJunna,
     MemberNames.KawagoHina,
     MemberNames.SaitouYuuri,
-    MemberNames.NishinoNanase
+    MemberNames.NishinoNanase,
   ],
   type: UnitType.Corp,
   songs: [],
-  description: ""
+  description: "",
 };
 
 const tulip: IUnit = {
@@ -200,7 +200,7 @@ const tulip: IUnit = {
   ],
   type: UnitType.Corp,
   songs: [],
-  description: "母体は「チームD (ディズニー好き)」 (和田を除くメンバー)"
+  description: "母体は「チームD (ディズニー好き)」 (和田を除くメンバー)",
 };
 
 export const units = {
@@ -219,5 +219,5 @@ export const units = {
   "若様軍団": wakasamaGundan,
   "犬メン": inumen,
   "スイカ": suika,
-  "チューリップ": tulip
+  "チューリップ": tulip,
 };

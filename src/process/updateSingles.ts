@@ -11,9 +11,9 @@ export const updateSingles = (singlesList: ISingle[], songsList: ISong[]) => {
 const recordSingleArtworks = (singlesList: ISingle[]) => {
   const artworkBasename =
     "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/";
-  singlesList.forEach(single => {
+  singlesList.forEach((single) => {
     if (single.hasArtworks) {
-      single.artworks.forEach(artwork => {
+      single.artworks.forEach((artwork) => {
         artwork.urls.large =
           artworkBasename +
           "singles/" +
@@ -37,7 +37,7 @@ const recordSingleArtworks = (singlesList: ISingle[]) => {
           "_100.jpg";
       });
     } else {
-      single.artworks.forEach(artwork => {
+      single.artworks.forEach((artwork) => {
         artwork.urls.large = artworkBasename + "artwork_no_image_large.png";
         artwork.urls.medium = artworkBasename + "artwork_no_image_medium.png";
         artwork.urls.small = artworkBasename + "artwork_no_image_small.png";
@@ -47,12 +47,12 @@ const recordSingleArtworks = (singlesList: ISingle[]) => {
 };
 
 const recordSingleSongType = (singlesList: ISingle[], songsList: ISong[]) => {
-  singlesList.forEach(single => {
-    single.songs.forEach(singleSong => {
+  singlesList.forEach((single) => {
+    single.songs.forEach((singleSong) => {
       // Reset singleSong type.
       // singleSong.type = undefined;
 
-      songsList.forEach(song => {
+      songsList.forEach((song) => {
         if (song.title === singleSong.title) {
           singleSong.type = song.type;
         }
@@ -65,11 +65,11 @@ const recordSingleSongType = (singlesList: ISingle[], songsList: ISong[]) => {
 
 const recordSingleFocusPerformers = (
   singlesList: ISingle[],
-  songsList: ISong[]
+  songsList: ISong[],
 ) => {
-  singlesList.forEach(single => {
-    single.songs.forEach(singleSong => {
-      songsList.forEach(song => {
+  singlesList.forEach((single) => {
+    single.songs.forEach((singleSong) => {
+      songsList.forEach((song) => {
         if (song.title === singleSong.title) {
           if (
             song.type === SongType.Title ||
@@ -82,18 +82,18 @@ const recordSingleFocusPerformers = (
             if (song.performers.center !== undefined) {
               singleSong.focusPerformers = {
                 type: FocusPerformersType.Center,
-                name: song.performers.center
+                name: song.performers.center,
               };
             } else {
               singleSong.focusPerformers = {
                 type: FocusPerformersType.None,
-                name: []
+                name: [],
               };
             }
           } else if (song.type === SongType.Solo) {
             singleSong.focusPerformers = {
               type: FocusPerformersType.Solo,
-              name: song.formations.firstRow
+              name: song.formations.firstRow,
             };
           } else if (song.type === SongType.Unit) {
             if (
@@ -102,29 +102,29 @@ const recordSingleFocusPerformers = (
             ) {
               singleSong.focusPerformers = {
                 type: FocusPerformersType.Unit,
-                name: [song.performers.unit]
+                name: [song.performers.unit],
               };
             } else if (song.performers.center !== undefined) {
               singleSong.focusPerformers = {
                 type: FocusPerformersType.Unit,
-                name: song.performers.center
+                name: song.performers.center,
               };
             } else {
               singleSong.focusPerformers = {
                 type: FocusPerformersType.Unit,
-                name: []
+                name: [],
               };
             }
           } else if (song.type === SongType.None) {
             if (song.performers.center !== undefined) {
               singleSong.focusPerformers = {
                 type: FocusPerformersType.None,
-                name: song.performers.center
+                name: song.performers.center,
               };
             } else {
               singleSong.focusPerformers = {
                 type: FocusPerformersType.None,
-                name: []
+                name: [],
               };
             }
           }

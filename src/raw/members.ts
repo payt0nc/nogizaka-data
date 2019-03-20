@@ -9,11 +9,11 @@ const akimotomanatsu: IMember = {
     lastNameEn: "akimoto",
     firstNameEn: "manatsu",
     lastNameFurigana: "あきもと",
-    firstNameFurigana: "まなつ"
+    firstNameFurigana: "まなつ",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -23,12 +23,12 @@ const akimotomanatsu: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/akimotomanatsu.php"
+      url: "www.nogizaka46.com/member/detail/akimotomanatsu.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/akimoto-manatsu"
-    }
+      url: "7gogo.jp/akimoto-manatsu",
+    },
   ],
   photoAlbums: [
     {
@@ -38,18 +38,18 @@ const akimotomanatsu: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+  ],
+    },
   ],
   units: null,
   positionsHistory: null,
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const ikutaerika: IMember = {
@@ -60,11 +60,11 @@ const ikutaerika: IMember = {
     lastNameFurigana: "いくた",
     firstNameFurigana: "えりか",
     lastNameEn: "ikuta",
-    firstNameEn: "erika"
+    firstNameEn: "erika",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -74,12 +74,12 @@ const ikutaerika: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/ikutaerika.php"
+      url: "www.nogizaka46.com/member/detail/ikutaerika.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/ikuta-erika"
-    }
+      url: "7gogo.jp/ikuta-erika",
+    },
   ],
   photoAlbums: [
     {
@@ -89,9 +89,9 @@ const ikutaerika: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
+          url: "",
+    },
+      ],
     },
     {
       title: "タイトル未定",
@@ -100,18 +100,18 @@ const ikutaerika: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+  ],
+    },
   ],
   units: null,
   positionsHistory: null,
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const ikomarina: IMember = {
@@ -122,11 +122,11 @@ const ikomarina: IMember = {
     lastNameFurigana: "いこま",
     firstNameFurigana: "りな",
     lastNameEn: "ikoma",
-    firstNameEn: "rina"
+    firstNameEn: "rina",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -136,12 +136,12 @@ const ikomarina: IMember = {
   sites: [
     {
       title: "Official",
-      url: "ikomarina.com/"
+      url: "ikomarina.com/",
     },
     {
       title: "Instagram",
-      url: "www.instagram.com/ikomarina_1229/"
-    }
+      url: "www.instagram.com/ikomarina_1229/",
+    },
   ],
   photoAlbums: [
     {
@@ -151,18 +151,18 @@ const ikomarina: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+  ],
+    },
   ],
   units: null,
   positionsHistory: null,
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2018-05-06"
-  }
+    graduatedDate: "2018-05-06",
+  },
 };
 
 const itoukarin: IMember = {
@@ -173,11 +173,11 @@ const itoukarin: IMember = {
     lastNameFurigana: "いとう",
     firstNameFurigana: "かりん",
     lastNameEn: "ito",
-    firstNameEn: "karin"
+    firstNameEn: "karin",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -187,12 +187,12 @@ const itoukarin: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/itoukarin.php"
+      url: "www.nogizaka46.com/member/detail/itoukarin.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/itou-karin"
-    }
+      url: "7gogo.jp/itou-karin",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -200,8 +200,8 @@ const itoukarin: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const itoujunna: IMember = {
@@ -212,11 +212,11 @@ const itoujunna: IMember = {
     lastNameFurigana: "いとう",
     firstNameFurigana: "じゅんな",
     lastNameEn: "ito",
-    firstNameEn: "junna"
+    firstNameEn: "junna",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -226,12 +226,12 @@ const itoujunna: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/itoujunna.php"
+      url: "www.nogizaka46.com/member/detail/itoujunna.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/itou-junna"
-    }
+      url: "7gogo.jp/itou-junna",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -239,8 +239,8 @@ const itoujunna: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const itouriria: IMember = {
@@ -251,11 +251,11 @@ const itouriria: IMember = {
     lastNameFurigana: "いとう",
     firstNameFurigana: "りりあ",
     lastNameEn: "ito",
-    firstNameEn: "riria"
+    firstNameEn: "riria",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -265,8 +265,8 @@ const itouriria: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/itouriria.php"
-    }
+      url: "www.nogizaka46.com/member/detail/itouriria.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -274,8 +274,8 @@ const itouriria: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const inouesayuri: IMember = {
@@ -286,11 +286,11 @@ const inouesayuri: IMember = {
     lastNameFurigana: "いのうえ",
     firstNameFurigana: "さゆり",
     lastNameEn: "inoue",
-    firstNameEn: "sayuri"
+    firstNameEn: "sayuri",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -300,12 +300,12 @@ const inouesayuri: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/inouesayuri.php"
+      url: "www.nogizaka46.com/member/detail/inouesayuri.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/inoue-sayuri"
-    }
+      url: "7gogo.jp/inoue-sayuri",
+    },
   ],
   photoAlbums: [
     {
@@ -315,18 +315,18 @@ const inouesayuri: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+  ],
+    },
   ],
   units: null,
   positionsHistory: null,
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const iwamotorenka: IMember = {
@@ -337,11 +337,11 @@ const iwamotorenka: IMember = {
     lastNameFurigana: "いわもと",
     firstNameFurigana: "れんか",
     lastNameEn: "iwamoto",
-    firstNameEn: "renka"
+    firstNameEn: "renka",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -351,8 +351,8 @@ const iwamotorenka: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/iwamotorenka.php"
-    }
+      url: "www.nogizaka46.com/member/detail/iwamotorenka.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -360,8 +360,8 @@ const iwamotorenka: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const umezawaminami: IMember = {
@@ -372,11 +372,11 @@ const umezawaminami: IMember = {
     lastNameFurigana: "うめざわ",
     firstNameFurigana: "みなみ",
     lastNameEn: "umezakwa",
-    firstNameEn: "minami"
+    firstNameEn: "minami",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -386,8 +386,8 @@ const umezawaminami: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/umezawaminami.php"
-    }
+      url: "www.nogizaka46.com/member/detail/umezawaminami.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -395,8 +395,8 @@ const umezawaminami: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const etoumisa: IMember = {
@@ -407,11 +407,11 @@ const etoumisa: IMember = {
     lastNameFurigana: "えとう",
     firstNameFurigana: "みさ",
     lastNameEn: "eto",
-    firstNameEn: "misa"
+    firstNameEn: "misa",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -421,12 +421,12 @@ const etoumisa: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/etoumisa.php"
+      url: "www.nogizaka46.com/member/detail/etoumisa.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/eto-misa"
-    }
+      url: "7gogo.jp/eto-misa",
+    },
   ],
   photoAlbums: [
     {
@@ -436,9 +436,9 @@ const etoumisa: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
+          url: "",
+    },
+      ],
     },
     {
       title: "話を聞こうか。",
@@ -447,18 +447,18 @@ const etoumisa: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+  ],
+    },
   ],
   units: null,
   positionsHistory: null,
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const oozonomomoko: IMember = {
@@ -469,11 +469,11 @@ const oozonomomoko: IMember = {
     lastNameFurigana: "おおぞの",
     firstNameFurigana: "ももこ",
     lastNameEn: "ozono",
-    firstNameEn: "momoko"
+    firstNameEn: "momoko",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -483,8 +483,8 @@ const oozonomomoko: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/oozonomomoko.php"
-    }
+      url: "www.nogizaka46.com/member/detail/oozonomomoko.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -492,8 +492,8 @@ const oozonomomoko: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const kawagohina: IMember = {
@@ -504,11 +504,11 @@ const kawagohina: IMember = {
     lastNameFurigana: "かわご",
     firstNameFurigana: "ひな",
     lastNameEn: "kawago",
-    firstNameEn: "hina"
+    firstNameEn: "hina",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -518,12 +518,12 @@ const kawagohina: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/kawagohina.php"
+      url: "www.nogizaka46.com/member/detail/kawagohina.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/kawago-hina"
-    }
+      url: "7gogo.jp/kawago-hina",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -531,8 +531,8 @@ const kawagohina: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2018-12-20"
-  }
+    graduatedDate: "2018-12-20",
+  },
 };
 
 const kitanohinako: IMember = {
@@ -543,11 +543,11 @@ const kitanohinako: IMember = {
     lastNameFurigana: "きたの",
     firstNameFurigana: "ひなこ",
     lastNameEn: "kitano",
-    firstNameEn: "hinako"
+    firstNameEn: "hinako",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -557,12 +557,12 @@ const kitanohinako: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/kitanohinako.php"
+      url: "www.nogizaka46.com/member/detail/kitanohinako.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/kitano-hinako"
-    }
+      url: "7gogo.jp/kitano-hinako",
+    },
   ],
   photoAlbums: [
     {
@@ -572,18 +572,18 @@ const kitanohinako: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+  ],
+    },
   ],
   units: null,
   positionsHistory: null,
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const kuboshiori: IMember = {
@@ -594,11 +594,11 @@ const kuboshiori: IMember = {
     lastNameFurigana: "くぼ",
     firstNameFurigana: "しおり",
     lastNameEn: "kubo",
-    firstNameEn: "shiori"
+    firstNameEn: "shiori",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -608,8 +608,8 @@ const kuboshiori: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/kuboshiori.php"
-    }
+      url: "www.nogizaka46.com/member/detail/kuboshiori.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -617,8 +617,8 @@ const kuboshiori: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const saitouasuka: IMember = {
@@ -629,11 +629,11 @@ const saitouasuka: IMember = {
     lastNameFurigana: "さいとう",
     firstNameFurigana: "あすか",
     lastNameEn: "saito",
-    firstNameEn: "asuka"
+    firstNameEn: "asuka",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -643,12 +643,12 @@ const saitouasuka: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/saitouasuka.php"
+      url: "www.nogizaka46.com/member/detail/saitouasuka.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/saito-asuka"
-    }
+      url: "7gogo.jp/saito-asuka",
+    },
   ],
   photoAlbums: [
     {
@@ -658,18 +658,18 @@ const saitouasuka: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+  ],
+    },
   ],
   units: null,
   positionsHistory: null,
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const saitouyuuri: IMember = {
@@ -680,11 +680,11 @@ const saitouyuuri: IMember = {
     lastNameFurigana: "さいとう",
     firstNameFurigana: "ゆうり",
     lastNameEn: "saito",
-    firstNameEn: "yuri"
+    firstNameEn: "yuri",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -694,12 +694,12 @@ const saitouyuuri: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/saitouyuuri.php"
+      url: "www.nogizaka46.com/member/detail/saitouyuuri.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/MM1u8Yp3Dv6C"
-    }
+      url: "7gogo.jp/MM1u8Yp3Dv6C",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -707,8 +707,8 @@ const saitouyuuri: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const sakaguchitamami: IMember = {
@@ -719,11 +719,11 @@ const sakaguchitamami: IMember = {
     lastNameFurigana: "さかぐち",
     firstNameFurigana: "たまみ",
     lastNameEn: "sakaguchi",
-    firstNameEn: "tamami"
+    firstNameEn: "tamami",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -733,8 +733,8 @@ const sakaguchitamami: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/sakaguchitamami.php"
-    }
+      url: "www.nogizaka46.com/member/detail/sakaguchitamami.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -742,8 +742,8 @@ const sakaguchitamami: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const sakuraireika: IMember = {
@@ -754,11 +754,11 @@ const sakuraireika: IMember = {
     lastNameFurigana: "さくらい",
     firstNameFurigana: "れいか",
     lastNameEn: "sakurai",
-    firstNameEn: "reika"
+    firstNameEn: "reika",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -768,12 +768,12 @@ const sakuraireika: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/sakuraireika.php"
+      url: "www.nogizaka46.com/member/detail/sakuraireika.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/sakurai-reika"
-    }
+      url: "7gogo.jp/sakurai-reika",
+    },
   ],
   photoAlbums: [
     {
@@ -783,18 +783,18 @@ const sakuraireika: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+  ],
+    },
   ],
   units: null,
   positionsHistory: null,
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const sasakikotoko: IMember = {
@@ -805,11 +805,11 @@ const sasakikotoko: IMember = {
     lastNameFurigana: "ささき",
     firstNameFurigana: "ことこ",
     lastNameEn: "sasaki",
-    firstNameEn: "kotoko"
+    firstNameEn: "kotoko",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -819,8 +819,8 @@ const sasakikotoko: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/sasakikotoko.php"
-    }
+      url: "www.nogizaka46.com/member/detail/sasakikotoko.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -828,8 +828,8 @@ const sasakikotoko: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const satoukaede: IMember = {
@@ -840,11 +840,11 @@ const satoukaede: IMember = {
     lastNameFurigana: "さとう",
     firstNameFurigana: "かえで",
     lastNameEn: "sato",
-    firstNameEn: "kaede"
+    firstNameEn: "kaede",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -854,8 +854,8 @@ const satoukaede: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/satoukaede.php"
-    }
+      url: "www.nogizaka46.com/member/detail/satoukaede.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -863,8 +863,8 @@ const satoukaede: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const shiraishimai: IMember = {
@@ -875,11 +875,11 @@ const shiraishimai: IMember = {
     lastNameFurigana: "しらいし",
     firstNameFurigana: "まい",
     lastNameEn: "shiraishi",
-    firstNameEn: "mai"
+    firstNameEn: "mai",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -889,12 +889,12 @@ const shiraishimai: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/shiraishimai.php"
+      url: "www.nogizaka46.com/member/detail/shiraishimai.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/shiraishi-mai"
-    }
+      url: "7gogo.jp/shiraishi-mai",
+    },
   ],
   photoAlbums: [
     {
@@ -904,9 +904,9 @@ const shiraishimai: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
+          url: "",
+    },
+      ],
     },
     {
       title: "MAI STYLE",
@@ -915,9 +915,9 @@ const shiraishimai: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
+          url: "",
+    },
+      ],
     },
     {
       title: "パスポート",
@@ -926,18 +926,18 @@ const shiraishimai: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+  ],
+    },
   ],
   units: null,
   positionsHistory: null,
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const shinuchimai: IMember = {
@@ -948,11 +948,11 @@ const shinuchimai: IMember = {
     lastNameFurigana: "しんうち",
     firstNameFurigana: "まい",
     lastNameEn: "shinuchi",
-    firstNameEn: "mai"
+    firstNameEn: "mai",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -962,12 +962,12 @@ const shinuchimai: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/shinuchimai.php"
+      url: "www.nogizaka46.com/member/detail/shinuchimai.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/shinuchi-mai"
-    }
+      url: "7gogo.jp/shinuchi-mai",
+    },
   ],
   photoAlbums: [
     {
@@ -977,18 +977,18 @@ const shinuchimai: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+  ],
+    },
   ],
   units: null,
   positionsHistory: null,
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const suzukiayane: IMember = {
@@ -999,11 +999,11 @@ const suzukiayane: IMember = {
     lastNameFurigana: "すずき",
     firstNameFurigana: "あやね",
     lastNameEn: "suzuki",
-    firstNameEn: "ayane"
+    firstNameEn: "ayane",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -1013,12 +1013,12 @@ const suzukiayane: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/suzukiayane.php"
+      url: "www.nogizaka46.com/member/detail/suzukiayane.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/suzuki-ayane"
-    }
+      url: "7gogo.jp/suzuki-ayane",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -1026,8 +1026,8 @@ const suzukiayane: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const takayamakazumi: IMember = {
@@ -1038,11 +1038,11 @@ const takayamakazumi: IMember = {
     lastNameFurigana: "たかやま",
     firstNameFurigana: "かずみ",
     lastNameEn: "takayama",
-    firstNameEn: "kazumi"
+    firstNameEn: "kazumi",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -1052,12 +1052,12 @@ const takayamakazumi: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/takayamakazumi.php"
+      url: "www.nogizaka46.com/member/detail/takayamakazumi.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/takayama-kazumi"
-    }
+      url: "7gogo.jp/takayama-kazumi",
+    },
   ],
   photoAlbums: [
     {
@@ -1067,18 +1067,18 @@ const takayamakazumi: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+  ],
+    },
   ],
   units: null,
   positionsHistory: null,
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const teradaranze: IMember = {
@@ -1089,11 +1089,11 @@ const teradaranze: IMember = {
     lastNameFurigana: "てらだ",
     firstNameFurigana: "らんぜ",
     lastNameEn: "terada",
-    firstNameEn: "ranze"
+    firstNameEn: "ranze",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -1103,8 +1103,8 @@ const teradaranze: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/teradaranze.php"
-    }
+      url: "www.nogizaka46.com/member/detail/teradaranze.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -1112,8 +1112,8 @@ const teradaranze: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const nakadakana: IMember = {
@@ -1124,11 +1124,11 @@ const nakadakana: IMember = {
     lastNameFurigana: "なかだ",
     firstNameFurigana: "かな",
     lastNameEn: "nakada",
-    firstNameEn: "kana"
+    firstNameEn: "kana",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -1138,12 +1138,12 @@ const nakadakana: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/nakadakana.php"
+      url: "www.nogizaka46.com/member/detail/nakadakana.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/nakada-kana"
-    }
+      url: "7gogo.jp/nakada-kana",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -1151,8 +1151,8 @@ const nakadakana: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const nakamurareno: IMember = {
@@ -1163,11 +1163,11 @@ const nakamurareno: IMember = {
     lastNameFurigana: "なかむら",
     firstNameFurigana: "れの",
     lastNameEn: "nakamura",
-    firstNameEn: "reno"
+    firstNameEn: "reno",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -1177,8 +1177,8 @@ const nakamurareno: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/nakamurareno.php"
-    }
+      url: "www.nogizaka46.com/member/detail/nakamurareno.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -1186,8 +1186,8 @@ const nakamurareno: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const nishinonanase: IMember = {
@@ -1198,11 +1198,11 @@ const nishinonanase: IMember = {
     lastNameFurigana: "にしの",
     firstNameFurigana: "ななせ",
     lastNameEn: "nishino",
-    firstNameEn: "nanase"
+    firstNameEn: "nanase",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -1212,12 +1212,12 @@ const nishinonanase: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/nishinonanase.php"
+      url: "www.nogizaka46.com/member/detail/nishinonanase.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/nishino-nanase"
-    }
+      url: "7gogo.jp/nishino-nanase",
+    },
   ],
   photoAlbums: [
     {
@@ -1227,9 +1227,9 @@ const nishinonanase: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
+          url: "",
+    },
+      ],
     },
     {
       title: "風に着替えて",
@@ -1238,9 +1238,9 @@ const nishinonanase: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
+          url: "",
+    },
+      ],
     },
     {
       title: "わたしのこと",
@@ -1249,18 +1249,18 @@ const nishinonanase: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+  ],
+    },
   ],
   units: null,
   positionsHistory: null,
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const noujouami: IMember = {
@@ -1271,11 +1271,11 @@ const noujouami: IMember = {
     lastNameFurigana: "のうじょう",
     firstNameFurigana: "あみ",
     lastNameEn: "nojo",
-    firstNameEn: "ami"
+    firstNameEn: "ami",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -1285,12 +1285,12 @@ const noujouami: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/noujouami.php"
+      url: "www.nogizaka46.com/member/detail/noujouami.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/nojo-ami"
-    }
+      url: "7gogo.jp/nojo-ami",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -1298,8 +1298,8 @@ const noujouami: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2018-12-15"
-  }
+    graduatedDate: "2018-12-15",
+  },
 };
 
 const higuchihina: IMember = {
@@ -1310,11 +1310,11 @@ const higuchihina: IMember = {
     lastNameFurigana: "ひぐち",
     firstNameFurigana: "ひな",
     lastNameEn: "higuchi",
-    firstNameEn: "hina"
+    firstNameEn: "hina",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -1324,12 +1324,12 @@ const higuchihina: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/higuchihina.php"
+      url: "www.nogizaka46.com/member/detail/higuchihina.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/higuchi-hina"
-    }
+      url: "7gogo.jp/higuchi-hina",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -1337,8 +1337,8 @@ const higuchihina: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const hoshinominami: IMember = {
@@ -1349,11 +1349,11 @@ const hoshinominami: IMember = {
     lastNameFurigana: "ほしの",
     firstNameFurigana: "みなみ",
     lastNameEn: "hoshino",
-    firstNameEn: "minami"
+    firstNameEn: "minami",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -1363,12 +1363,12 @@ const hoshinominami: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/hoshinominami.php"
+      url: "www.nogizaka46.com/member/detail/hoshinominami.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/hoshino-minami"
-    }
+      url: "7gogo.jp/hoshino-minami",
+    },
   ],
   photoAlbums: [
     {
@@ -1378,18 +1378,18 @@ const hoshinominami: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+  ],
+    },
   ],
   units: null,
   positionsHistory: null,
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const horimiona: IMember = {
@@ -1400,11 +1400,11 @@ const horimiona: IMember = {
     lastNameFurigana: "ほり",
     firstNameFurigana: "みおな",
     lastNameEn: "hori",
-    firstNameEn: "miona"
+    firstNameEn: "miona",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -1414,12 +1414,12 @@ const horimiona: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/horimiona.php"
+      url: "www.nogizaka46.com/member/detail/horimiona.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/hori-miona"
-    }
+      url: "7gogo.jp/hori-miona",
+    },
   ],
   photoAlbums: [
     {
@@ -1429,18 +1429,18 @@ const horimiona: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+      ],
+    },
   ],
   units: null,
   positionsHistory: null,
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const matsumurasayuri: IMember = {
@@ -1451,11 +1451,11 @@ const matsumurasayuri: IMember = {
     lastNameFurigana: "まつむら",
     firstNameFurigana: "さゆり",
     lastNameEn: "matsumura",
-    firstNameEn: "sayuri"
+    firstNameEn: "sayuri",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -1465,12 +1465,12 @@ const matsumurasayuri: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/matsumurasayuri.php"
+      url: "www.nogizaka46.com/member/detail/matsumurasayuri.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/matsumura-sayuri"
-    }
+      url: "7gogo.jp/matsumura-sayuri",
+    },
   ],
   photoAlbums: [
     {
@@ -1480,18 +1480,18 @@ const matsumurasayuri: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+      ],
+    },
   ],
   units: null,
   positionsHistory: null,
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const mukaihazuki: IMember = {
@@ -1502,11 +1502,11 @@ const mukaihazuki: IMember = {
     lastNameFurigana: "むかい",
     firstNameFurigana: "はづき",
     lastNameEn: "mukai",
-    firstNameEn: "hazuki"
+    firstNameEn: "hazuki",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -1516,8 +1516,8 @@ const mukaihazuki: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/mukaihazuki.php"
-    }
+      url: "www.nogizaka46.com/member/detail/mukaihazuki.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -1525,8 +1525,8 @@ const mukaihazuki: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const yamazakirena: IMember = {
@@ -1537,11 +1537,11 @@ const yamazakirena: IMember = {
     lastNameFurigana: "やまざき",
     firstNameFurigana: "れな",
     lastNameEn: "yamazaki",
-    firstNameEn: "rena"
+    firstNameEn: "rena",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -1551,12 +1551,12 @@ const yamazakirena: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/yamazakirena.php"
+      url: "www.nogizaka46.com/member/detail/yamazakirena.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/yamazaki-rena"
-    }
+      url: "7gogo.jp/yamazaki-rena",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -1564,8 +1564,8 @@ const yamazakirena: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const yamashitamizuki: IMember = {
@@ -1576,11 +1576,11 @@ const yamashitamizuki: IMember = {
     lastNameFurigana: "やました",
     firstNameFurigana: "みづき",
     lastNameEn: "yamashita",
-    firstNameEn: "mizuki"
+    firstNameEn: "mizuki",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -1590,8 +1590,8 @@ const yamashitamizuki: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/yamashitamizuki.php"
-    }
+      url: "www.nogizaka46.com/member/detail/yamashitamizuki.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -1599,8 +1599,8 @@ const yamashitamizuki: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const yoshidaayanochristie: IMember = {
@@ -1611,11 +1611,11 @@ const yoshidaayanochristie: IMember = {
     lastNameFurigana: "よしだ",
     firstNameFurigana: "あやのくりすてぃー",
     lastNameEn: "yoshida",
-    firstNameEn: "ayanochristie"
+    firstNameEn: "ayanochristie",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -1625,8 +1625,8 @@ const yoshidaayanochristie: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/yoshidaayanochristie.php"
-    }
+      url: "www.nogizaka46.com/member/detail/yoshidaayanochristie.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -1634,8 +1634,8 @@ const yoshidaayanochristie: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const yodayuuki: IMember = {
@@ -1646,11 +1646,11 @@ const yodayuuki: IMember = {
     lastNameFurigana: "よだ",
     firstNameFurigana: "ゆうき",
     lastNameEn: "yoda",
-    firstNameEn: "yuki"
+    firstNameEn: "yuki",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Third,
@@ -1660,8 +1660,8 @@ const yodayuuki: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/yodayuuki.php"
-    }
+      url: "www.nogizaka46.com/member/detail/yodayuuki.php",
+    },
   ],
   photoAlbums: [
     {
@@ -1671,18 +1671,18 @@ const yodayuuki: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+      ],
+    },
   ],
   units: null,
   positionsHistory: null,
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const wakatsukiyumi: IMember = {
@@ -1693,11 +1693,11 @@ const wakatsukiyumi: IMember = {
     lastNameFurigana: "わかつき",
     firstNameFurigana: "ゆみ",
     lastNameEn: "wakatsuki",
-    firstNameEn: "yumi"
+    firstNameEn: "yumi",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -1707,8 +1707,8 @@ const wakatsukiyumi: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/wakatsukiyumi.php"
-    }
+      url: "www.nogizaka46.com/member/detail/wakatsukiyumi.php",
+    },
   ],
   photoAlbums: [
     {
@@ -1718,18 +1718,18 @@ const wakatsukiyumi: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+      ],
+    },
   ],
   units: null,
   positionsHistory: null,
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2018-11-30"
-  }
+    graduatedDate: "2018-11-30",
+  },
 };
 
 const watanabemiria: IMember = {
@@ -1740,11 +1740,11 @@ const watanabemiria: IMember = {
     lastNameFurigana: "わたなべ",
     firstNameFurigana: "みりあ",
     lastNameEn: "watanabe",
-    firstNameEn: "miria"
+    firstNameEn: "miria",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -1754,12 +1754,12 @@ const watanabemiria: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/watanabemiria.php"
+      url: "www.nogizaka46.com/member/detail/watanabemiria.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/watanabe-miria"
-    }
+      url: "7gogo.jp/watanabe-miria",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -1767,8 +1767,8 @@ const watanabemiria: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const wadamaaya: IMember = {
@@ -1779,11 +1779,11 @@ const wadamaaya: IMember = {
     lastNameFurigana: "わだ",
     firstNameFurigana: "まあや",
     lastNameEn: "wada",
-    firstNameEn: "maya"
+    firstNameEn: "maya",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -1793,12 +1793,12 @@ const wadamaaya: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/wadamaaya.php"
+      url: "www.nogizaka46.com/member/detail/wadamaaya.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/wada-maaya"
-    }
+      url: "7gogo.jp/wada-maaya",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -1806,8 +1806,8 @@ const wadamaaya: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const endousakura: IMember = {
@@ -1818,11 +1818,11 @@ const endousakura: IMember = {
     lastNameFurigana: "えんどう",
     firstNameFurigana: "さくら",
     lastNameEn: "endo",
-    firstNameEn: "sakura"
+    firstNameEn: "sakura",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Fourth,
@@ -1832,8 +1832,8 @@ const endousakura: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/endousakura.php"
-    }
+      url: "www.nogizaka46.com/member/detail/endousakura.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -1841,8 +1841,8 @@ const endousakura: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const kakiharuka: IMember = {
@@ -1853,11 +1853,11 @@ const kakiharuka: IMember = {
     lastNameFurigana: "かき",
     firstNameFurigana: "はるか",
     lastNameEn: "kaki",
-    firstNameEn: "haruka"
+    firstNameEn: "haruka",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Fourth,
@@ -1867,8 +1867,8 @@ const kakiharuka: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/kakiharuka.php"
-    }
+      url: "www.nogizaka46.com/member/detail/kakiharuka.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -1876,8 +1876,8 @@ const kakiharuka: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const kakehashisayaka: IMember = {
@@ -1888,11 +1888,11 @@ const kakehashisayaka: IMember = {
     lastNameFurigana: "かけはし",
     firstNameFurigana: "さやか",
     lastNameEn: "kakehashi",
-    firstNameEn: "sayaka"
+    firstNameEn: "sayaka",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Fourth,
@@ -1902,8 +1902,8 @@ const kakehashisayaka: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/kakehashisayaka.php"
-    }
+      url: "www.nogizaka46.com/member/detail/kakehashisayaka.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -1911,8 +1911,8 @@ const kakehashisayaka: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const kanagawasaya: IMember = {
@@ -1923,11 +1923,11 @@ const kanagawasaya: IMember = {
     lastNameFurigana: "かながわ",
     firstNameFurigana: "さや",
     lastNameEn: "kanagawa",
-    firstNameEn: "saya"
+    firstNameEn: "saya",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Fourth,
@@ -1937,8 +1937,8 @@ const kanagawasaya: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/kanagawasaya.php"
-    }
+      url: "www.nogizaka46.com/member/detail/kanagawasaya.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -1946,8 +1946,8 @@ const kanagawasaya: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const kitagawayuri: IMember = {
@@ -1958,11 +1958,11 @@ const kitagawayuri: IMember = {
     lastNameFurigana: "きたがわ",
     firstNameFurigana: "ゆり",
     lastNameEn: "kitagawa",
-    firstNameEn: "yuri"
+    firstNameEn: "yuri",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Fourth,
@@ -1972,8 +1972,8 @@ const kitagawayuri: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/kitagawayuri.php"
-    }
+      url: "www.nogizaka46.com/member/detail/kitagawayuri.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -1981,8 +1981,8 @@ const kitagawayuri: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const shibatayuna: IMember = {
@@ -1993,11 +1993,11 @@ const shibatayuna: IMember = {
     lastNameFurigana: "しばた",
     firstNameFurigana: "ゆな",
     lastNameEn: "shibata",
-    firstNameEn: "yuna"
+    firstNameEn: "yuna",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Fourth,
@@ -2007,8 +2007,8 @@ const shibatayuna: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/shibatayuna.php"
-    }
+      url: "www.nogizaka46.com/member/detail/shibatayuna.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -2016,8 +2016,8 @@ const shibatayuna: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const seimiyarei: IMember = {
@@ -2028,11 +2028,11 @@ const seimiyarei: IMember = {
     lastNameFurigana: "せいみや",
     firstNameFurigana: "れい",
     lastNameEn: "seimiya",
-    firstNameEn: "rei"
+    firstNameEn: "rei",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Fourth,
@@ -2042,8 +2042,8 @@ const seimiyarei: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/seimiyarei.php"
-    }
+      url: "www.nogizaka46.com/member/detail/seimiyarei.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -2051,8 +2051,8 @@ const seimiyarei: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const tamuramayu: IMember = {
@@ -2063,11 +2063,11 @@ const tamuramayu: IMember = {
     lastNameFurigana: "たむら",
     firstNameFurigana: "まゆ",
     lastNameEn: "tamura",
-    firstNameEn: "mayu"
+    firstNameEn: "mayu",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Fourth,
@@ -2077,8 +2077,8 @@ const tamuramayu: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/tamuramayu.php"
-    }
+      url: "www.nogizaka46.com/member/detail/tamuramayu.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -2086,8 +2086,8 @@ const tamuramayu: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const tsutsuiayame: IMember = {
@@ -2098,11 +2098,11 @@ const tsutsuiayame: IMember = {
     lastNameFurigana: "つつい",
     firstNameFurigana: "あやめ",
     lastNameEn: "tsutsui",
-    firstNameEn: "ayame"
+    firstNameEn: "ayame",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Fourth,
@@ -2112,8 +2112,8 @@ const tsutsuiayame: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/tsutsuiayame.php"
-    }
+      url: "www.nogizaka46.com/member/detail/tsutsuiayame.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -2121,8 +2121,8 @@ const tsutsuiayame: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const hayakawaseira: IMember = {
@@ -2133,11 +2133,11 @@ const hayakawaseira: IMember = {
     lastNameFurigana: "はやかわ",
     firstNameFurigana: "せいら",
     lastNameEn: "hayakawa",
-    firstNameEn: "seira"
+    firstNameEn: "seira",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Fourth,
@@ -2147,8 +2147,8 @@ const hayakawaseira: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/hayakawaseira.php"
-    }
+      url: "www.nogizaka46.com/member/detail/hayakawaseira.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -2156,8 +2156,8 @@ const hayakawaseira: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const yakubomio: IMember = {
@@ -2168,11 +2168,11 @@ const yakubomio: IMember = {
     lastNameFurigana: "やくぼ",
     firstNameFurigana: "みお",
     lastNameEn: "yakubo",
-    firstNameEn: "mio"
+    firstNameEn: "mio",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Fourth,
@@ -2182,8 +2182,8 @@ const yakubomio: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/yakubomio.php"
-    }
+      url: "www.nogizaka46.com/member/detail/yakubomio.php",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -2191,8 +2191,8 @@ const yakubomio: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: false,
-    graduatedDate: ""
-  }
+    graduatedDate: "",
+  },
 };
 
 const sagaraiori: IMember = {
@@ -2203,11 +2203,11 @@ const sagaraiori: IMember = {
     lastNameFurigana: "さがら",
     firstNameFurigana: "いおり",
     lastNameEn: "sagara",
-    firstNameEn: "iori"
+    firstNameEn: "iori",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -2217,12 +2217,12 @@ const sagaraiori: IMember = {
   sites: [
     {
       title: "Instagram",
-      url: "www.instagram.com/_iori.sagara_/"
+      url: "www.instagram.com/_iori.sagara_/",
     },
     {
       title: "755",
-      url: "7gogo.jp/sagara-iori"
-    }
+      url: "7gogo.jp/sagara-iori",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -2230,8 +2230,8 @@ const sagaraiori: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2018-07-16"
-  }
+    graduatedDate: "2018-07-16",
+  },
 };
 
 const saitouchiharu: IMember = {
@@ -2242,11 +2242,11 @@ const saitouchiharu: IMember = {
     lastNameFurigana: "さいとう",
     firstNameFurigana: "ちはる",
     lastNameEn: "saito",
-    firstNameEn: "chiharu"
+    firstNameEn: "chiharu",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2260,8 +2260,8 @@ const saitouchiharu: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2018-07-16"
-  }
+    graduatedDate: "2018-07-16",
+  },
 };
 
 const kawamuramahiro: IMember = {
@@ -2272,11 +2272,11 @@ const kawamuramahiro: IMember = {
     lastNameFurigana: "かわむら",
     firstNameFurigana: "まひろ",
     lastNameEn: "kawamura",
-    firstNameEn: "mahiro"
+    firstNameEn: "mahiro",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2286,16 +2286,16 @@ const kawamuramahiro: IMember = {
   sites: [
     {
       title: "Instagram",
-      url: "www.instagram.com/mahiro_kawamura_official/"
+      url: "www.instagram.com/mahiro_kawamura_official/",
     },
     {
       title: "Twitter",
-      url: "twitter.com/Rotty_Rotty23"
+      url: "twitter.com/Rotty_Rotty23",
     },
     {
       title: "755",
-      url: "7gogo.jp/kawamura-mahiro"
-    }
+      url: "7gogo.jp/kawamura-mahiro",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -2303,8 +2303,8 @@ const kawamuramahiro: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2018-03-31"
-  }
+    graduatedDate: "2018-03-31",
+  },
 };
 
 const nakamotohimeka: IMember = {
@@ -2315,11 +2315,11 @@ const nakamotohimeka: IMember = {
     lastNameFurigana: "なかもと",
     firstNameFurigana: "ひめか",
     lastNameEn: "nakamoto",
-    firstNameEn: "himeka"
+    firstNameEn: "himeka",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2329,8 +2329,8 @@ const nakamotohimeka: IMember = {
   sites: [
     {
       title: "Official",
-      url: "nakamotohimeka.com/"
-    }
+      url: "nakamotohimeka.com/",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -2338,8 +2338,8 @@ const nakamotohimeka: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2017-12-31"
-  }
+    graduatedDate: "2017-12-31",
+  },
 };
 
 const itoumarika: IMember = {
@@ -2350,11 +2350,11 @@ const itoumarika: IMember = {
     lastNameFurigana: "いとう",
     firstNameFurigana: "まりか",
     lastNameEn: "ito",
-    firstNameEn: "marika"
+    firstNameEn: "marika",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2364,8 +2364,8 @@ const itoumarika: IMember = {
   sites: [
     {
       title: "Instagram",
-      url: "www.instagram.com/marikaito_official/"
-    }
+      url: "www.instagram.com/marikaito_official/",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -2373,8 +2373,8 @@ const itoumarika: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2017-12-23"
-  }
+    graduatedDate: "2017-12-23",
+  },
 };
 
 const hashimotonanami: IMember = {
@@ -2385,11 +2385,11 @@ const hashimotonanami: IMember = {
     lastNameFurigana: "はしもと",
     firstNameFurigana: "ななみ",
     lastNameEn: "hashimoto",
-    firstNameEn: "nanami"
+    firstNameEn: "nanami",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2405,9 +2405,9 @@ const hashimotonanami: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
+          url: "",
+        },
+      ],
     },
     {
       title: "2017",
@@ -2416,18 +2416,18 @@ const hashimotonanami: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+      ],
+    },
   ],
   units: null,
   positionsHistory: null,
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2017-02-20"
-  }
+    graduatedDate: "2017-02-20",
+  },
 };
 
 const fukagawamai: IMember = {
@@ -2438,11 +2438,11 @@ const fukagawamai: IMember = {
     lastNameFurigana: "ふかがわ",
     firstNameFurigana: "まい",
     lastNameEn: "fukagawa",
-    firstNameEn: "mai"
+    firstNameEn: "mai",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2452,8 +2452,8 @@ const fukagawamai: IMember = {
   sites: [
     {
       title: "Instagram",
-      url: "/www.instagram.com/fukagawamai.official/"
-    }
+      url: "/www.instagram.com/fukagawamai.official/",
+    },
   ],
   photoAlbums: [
     {
@@ -2463,9 +2463,9 @@ const fukagawamai: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
+          url: "",
+        },
+      ],
     },
     {
       title: "My magazine",
@@ -2474,18 +2474,18 @@ const fukagawamai: IMember = {
       shopping: [
         {
           title: "Amazon",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+      ],
+    },
   ],
   units: null,
   positionsHistory: null,
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2016-06-16"
-  }
+    graduatedDate: "2016-06-16",
+  },
 };
 
 const nagashimaseira: IMember = {
@@ -2496,11 +2496,11 @@ const nagashimaseira: IMember = {
     lastNameFurigana: "ながしま",
     firstNameFurigana: "せいら",
     lastNameEn: "nagashima",
-    firstNameEn: "seira"
+    firstNameEn: "seira",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2510,12 +2510,12 @@ const nagashimaseira: IMember = {
   sites: [
     {
       title: "Instagram",
-      url: "www.instagram.com/seira_nagashima/"
+      url: "www.instagram.com/seira_nagashima/",
     },
     {
       title: "Twitter",
-      url: "twitter.com/seira_0519n"
-    }
+      url: "twitter.com/seira_0519n",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -2523,8 +2523,8 @@ const nagashimaseira: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2016-03-20"
-  }
+    graduatedDate: "2016-03-20",
+  },
 };
 
 const matsuirena: IMember = {
@@ -2535,11 +2535,11 @@ const matsuirena: IMember = {
     lastNameFurigana: "まつい",
     firstNameFurigana: "れな",
     lastNameEn: "matsui",
-    firstNameEn: "rena"
+    firstNameEn: "rena",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Exchange,
@@ -2549,12 +2549,12 @@ const matsuirena: IMember = {
   sites: [
     {
       title: "Instagram",
-      url: "www.instagram.com/renamatui27/"
+      url: "www.instagram.com/renamatui27/",
     },
     {
       title: "Twitter",
-      url: "twitter.com/renampme"
-    }
+      url: "twitter.com/renampme",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -2562,8 +2562,8 @@ const matsuirena: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2015-05-14"
-  }
+    graduatedDate: "2015-05-14",
+  },
 };
 
 const hatanakaseira: IMember = {
@@ -2574,11 +2574,11 @@ const hatanakaseira: IMember = {
     lastNameFurigana: "はたなか",
     firstNameFurigana: "せいら",
     lastNameEn: "hatanaka",
-    firstNameEn: "seira"
+    firstNameEn: "seira",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2588,12 +2588,12 @@ const hatanakaseira: IMember = {
   sites: [
     {
       title: "Instagram",
-      url: "www.instagram.com/seira_hatanaka/"
+      url: "www.instagram.com/seira_hatanaka/",
     },
     {
       title: "Twitter",
-      url: "twitter.com/seira_hatanaka"
-    }
+      url: "twitter.com/seira_hatanaka",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -2601,8 +2601,8 @@ const hatanakaseira: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2015-04-04"
-  }
+    graduatedDate: "2015-04-04",
+  },
 };
 
 const yamatorina: IMember = {
@@ -2613,11 +2613,11 @@ const yamatorina: IMember = {
     lastNameFurigana: "やまと",
     firstNameFurigana: "りな",
     lastNameEn: "yamato",
-    firstNameEn: "rina"
+    firstNameEn: "rina",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2627,12 +2627,12 @@ const yamatorina: IMember = {
   sites: [
     {
       title: "Instagram",
-      url: "www.instagram.com/rinarina.y/"
+      url: "www.instagram.com/rinarina.y/",
     },
     {
       title: "Twitter",
-      url: "twitter.com/rinayamat0"
-    }
+      url: "twitter.com/rinayamat0",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -2640,8 +2640,8 @@ const yamatorina: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2015-04-04"
-  }
+    graduatedDate: "2015-04-04",
+  },
 };
 
 const itounene: IMember = {
@@ -2652,11 +2652,11 @@ const itounene: IMember = {
     lastNameFurigana: "いとう",
     firstNameFurigana: "ねね",
     lastNameEn: "ito",
-    firstNameEn: "nene"
+    firstNameEn: "nene",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2666,12 +2666,12 @@ const itounene: IMember = {
   sites: [
     {
       title: "Instagram",
-      url: "www.instagram.com/12neneito12/"
+      url: "www.instagram.com/12neneito12/",
     },
     {
       title: "Twitter",
-      url: "twitter.com/nene_ito1212"
-    }
+      url: "twitter.com/nene_ito1212",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -2679,8 +2679,8 @@ const itounene: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2014-10-19"
-  }
+    graduatedDate: "2014-10-19",
+  },
 };
 
 const yonetokukyouka: IMember = {
@@ -2691,11 +2691,11 @@ const yonetokukyouka: IMember = {
     lastNameFurigana: "よねとく",
     firstNameFurigana: "きょうか",
     lastNameEn: "yonetoku",
-    firstNameEn: "kyoka"
+    firstNameEn: "kyoka",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -2709,8 +2709,8 @@ const yonetokukyouka: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2014-10-18"
-  }
+    graduatedDate: "2014-10-18",
+  },
 };
 
 const yadarisako: IMember = {
@@ -2721,11 +2721,11 @@ const yadarisako: IMember = {
     lastNameFurigana: "やだ",
     firstNameFurigana: "りさこ",
     lastNameEn: "yada",
-    firstNameEn: "risako"
+    firstNameEn: "risako",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -2739,8 +2739,8 @@ const yadarisako: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2014-10-18"
-  }
+    graduatedDate: "2014-10-18",
+  },
 };
 
 const ichikirena: IMember = {
@@ -2751,11 +2751,11 @@ const ichikirena: IMember = {
     lastNameFurigana: "いちき",
     firstNameFurigana: "れな",
     lastNameEn: "ichiki",
-    firstNameEn: "rena"
+    firstNameEn: "rena",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2765,8 +2765,8 @@ const ichikirena: IMember = {
   sites: [
     {
       title: "日本テレビ",
-      url: "www.ntv.co.jp/announcer/profile/r_ichiki.html"
-    }
+      url: "www.ntv.co.jp/announcer/profile/r_ichiki.html",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -2774,8 +2774,8 @@ const ichikirena: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2014-10-19"
-  }
+    graduatedDate: "2014-10-19",
+  },
 };
 
 const nishikawananami: IMember = {
@@ -2786,11 +2786,11 @@ const nishikawananami: IMember = {
     lastNameFurigana: "にしかわ",
     firstNameFurigana: "ななみ",
     lastNameEn: "nishikawa",
-    firstNameEn: "nanami"
+    firstNameEn: "nanami",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.Second,
@@ -2804,8 +2804,8 @@ const nishikawananami: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2014-03-22"
-  }
+    graduatedDate: "2014-03-22",
+  },
 };
 
 const miyazawaseira: IMember = {
@@ -2816,11 +2816,11 @@ const miyazawaseira: IMember = {
     lastNameFurigana: "みやざわ",
     firstNameFurigana: "せいら",
     lastNameEn: "miyazawa",
-    firstNameEn: "seira"
+    firstNameEn: "seira",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2830,11 +2830,11 @@ const miyazawaseira: IMember = {
   sites: [
     {
       title: "Twitter",
-      url: "twitter.com/seira_miyazawa/"
+      url: "twitter.com/seira_miyazawa/",
     },
     {
       title: "Ameba",
-      url: "ameblo.jp/seira-miyazawa/"
+      url: "ameblo.jp/seira-miyazawa/",
     },
   ],
   photoAlbums: [],
@@ -2843,8 +2843,8 @@ const miyazawaseira: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2013-11-17"
-  }
+    graduatedDate: "2013-11-17",
+  },
 };
 
 const kashiwayukina: IMember = {
@@ -2855,11 +2855,11 @@ const kashiwayukina: IMember = {
     lastNameFurigana: "かしわ",
     firstNameFurigana: "ゆきな",
     lastNameEn: "kashiwa",
-    firstNameEn: "yukina"
+    firstNameEn: "yukina",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2869,8 +2869,8 @@ const kashiwayukina: IMember = {
   sites: [
     {
       title: "Twitter",
-      url: "twitter.com/y_k812/"
-    }
+      url: "twitter.com/y_k812/",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -2878,8 +2878,8 @@ const kashiwayukina: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2013-11-17"
-  }
+    graduatedDate: "2013-11-17",
+  },
 };
 
 const andoumikumo: IMember = {
@@ -2890,11 +2890,11 @@ const andoumikumo: IMember = {
     lastNameFurigana: "あんどう",
     firstNameFurigana: "みくも",
     lastNameEn: "ando",
-    firstNameEn: "mikumo"
+    firstNameEn: "mikumo",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2908,8 +2908,8 @@ const andoumikumo: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2013-06-16"
-  }
+    graduatedDate: "2013-06-16",
+  },
 };
 
 const iwaseyumiko: IMember = {
@@ -2920,11 +2920,11 @@ const iwaseyumiko: IMember = {
     lastNameFurigana: "いわせ",
     firstNameFurigana: "ゆみこ",
     lastNameEn: "iwase",
-    firstNameEn: "yumiko"
+    firstNameEn: "yumiko",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2934,8 +2934,8 @@ const iwaseyumiko: IMember = {
   sites: [
     {
       title: "Twitter",
-      url: "twitter.com/scarf_iwase/"
-    }
+      url: "twitter.com/scarf_iwase/",
+    },
   ],
   photoAlbums: [],
   units: null,
@@ -2943,8 +2943,8 @@ const iwaseyumiko: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2012-11-18"
-  }
+    graduatedDate: "2012-11-18",
+  },
 };
 
 const yamamotohonoka: IMember = {
@@ -2955,11 +2955,11 @@ const yamamotohonoka: IMember = {
     lastNameFurigana: "やまもと",
     firstNameFurigana: "ほのか",
     lastNameEn: "yamamoto",
-    firstNameEn: "honoka"
+    firstNameEn: "honoka",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -2973,8 +2973,8 @@ const yamamotohonoka: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2011-09-22"
-  }
+    graduatedDate: "2011-09-22",
+  },
 };
 
 const yoshimotoayaka: IMember = {
@@ -2985,11 +2985,11 @@ const yoshimotoayaka: IMember = {
     lastNameFurigana: "よしもと",
     firstNameFurigana: "あやか",
     lastNameEn: "yoshimoto",
-    firstNameEn: "ayaka"
+    firstNameEn: "ayaka",
   },
   profileImage: {
     large: "",
-    small: ""
+    small: "",
   },
   singleImages: null,
   join: JoinedGeneration.First,
@@ -3003,8 +3003,8 @@ const yoshimotoayaka: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2011-09-22"
-  }
+    graduatedDate: "2011-09-22",
+  },
 };
 
 export const members = {
@@ -3078,5 +3078,5 @@ export const members = {
   andoumikumo,
   iwaseyumiko,
   yoshimotoayaka,
-  yamamotohonoka
+  yamamotohonoka,
 };

@@ -5,9 +5,9 @@ import { ISong } from "../types/ISong";
 const recordAlbumArtworks = (albumsList: IAlbum[]) => {
   const artworkBasename =
     "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/";
-  albumsList.forEach(album => {
+  albumsList.forEach((album) => {
     if (album.hasArtworks) {
-      album.artworks.forEach(artwork => {
+      album.artworks.forEach((artwork) => {
         artwork.urls.large =
           artworkBasename +
           "albums/" +
@@ -31,7 +31,7 @@ const recordAlbumArtworks = (albumsList: IAlbum[]) => {
           "_100.jpg";
       });
     } else {
-      album.artworks.forEach(artwork => {
+      album.artworks.forEach((artwork) => {
         artwork.urls.large = artworkBasename + "artwork_no_image_large.png";
         artwork.urls.medium = artworkBasename + "artwork_no_image_medium.png";
         artwork.urls.small = artworkBasename + "artwork_no_image_small.png";
@@ -41,12 +41,12 @@ const recordAlbumArtworks = (albumsList: IAlbum[]) => {
 };
 
 const recordAlbumSongType = (albumsList: IAlbum[], songsList: ISong[]) => {
-  albumsList.forEach(album => {
-    album.songs.forEach(albumSong => {
+  albumsList.forEach((album) => {
+    album.songs.forEach((albumSong) => {
       // Reset albumSong type.
       // albumSong.type = undefined;
 
-      songsList.forEach(song => {
+      songsList.forEach((song) => {
         if (song.title === albumSong.title) {
           albumSong.type = song.type;
         }
@@ -59,11 +59,11 @@ const recordAlbumSongType = (albumsList: IAlbum[], songsList: ISong[]) => {
 
 const recordAlbumFocusPerformers = (
   albumsList: IAlbum[],
-  songsList: ISong[]
+  songsList: ISong[],
 ) => {
-  albumsList.forEach(album => {
-    album.songs.forEach(albumSong => {
-      songsList.forEach(song => {
+  albumsList.forEach((album) => {
+    album.songs.forEach((albumSong) => {
+      songsList.forEach((song) => {
         if (song.title === albumSong.title) {
           if (
             song.type === SongType.Title ||
@@ -75,22 +75,22 @@ const recordAlbumFocusPerformers = (
           ) {
             albumSong.focusPerformers = {
               type: FocusPerformersType.Center,
-              name: song.performers.center
+              name: song.performers.center,
             };
           } else if (song.type === SongType.Solo) {
             albumSong.focusPerformers = {
               type: FocusPerformersType.Solo,
-              name: song.formations.firstRow
+              name: song.formations.firstRow,
             };
           } else if (song.type === SongType.Unit) {
             albumSong.focusPerformers = {
               type: FocusPerformersType.Unit,
-              name: song.formations.firstRow
+              name: song.formations.firstRow,
             };
           } else if (song.type === SongType.None) {
             albumSong.focusPerformers = {
               type: FocusPerformersType.None,
-              name: song.performers.center
+              name: song.performers.center,
             };
           }
         }

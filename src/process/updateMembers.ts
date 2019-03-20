@@ -1,20 +1,19 @@
 import { FukujinType, SongType } from "../common/constants";
+import { ICdSong } from "../types/ICd";
 import {
   IMember,
   IMemberPositionHistory,
-  PositionType
+  PositionType,
 } from "../types/IMember";
 import { ISingle } from "../types/ISingle";
-import { ICdSong } from "../types/ICd";
 import { ISong } from "../types/ISong";
 import { IUnit } from "../types/IUnit";
-import { songs } from "../raw/songs";
 
 export const updateMembers = (
   membersList: IMember[],
   unitsList: IUnit[],
   singlesList: ISingle[],
-  songsList: ISong[]
+  songsList: ISong[],
 ) => {
   recordUnits(membersList, unitsList);
   recordPositions(membersList, singlesList, songsList);
@@ -22,16 +21,16 @@ export const updateMembers = (
 
 const recordUnits = (membersList: IMember[], unitsList: IUnit[]) => {
   // Loop for members.
-  membersList.forEach(member => {
+  membersList.forEach((member) => {
     // Reset member's units.
     member.units = [];
 
     // Loop for units.
-    unitsList.forEach(unit => {
+    unitsList.forEach((unit) => {
       if (unit.members.includes(member.name)) {
         member.units.push({
           name: unit.name,
-          type: unit.type
+          type: unit.type,
         });
       }
     });
@@ -43,43 +42,43 @@ const recordUnits = (membersList: IMember[], unitsList: IUnit[]) => {
 const recordPositions = (
   membersList: IMember[],
   singlesList: ISingle[],
-  songsList: ISong[]
+  songsList: ISong[],
 ) => {
   // Loop for members.
-  membersList.forEach(member => {
+  membersList.forEach((member) => {
     // Reset positionsHistory and positionsCounter.
     member.positionsHistory = [];
     member.positionsCounter = {
       center: 0,
       fukujin: 0,
       selected: 0,
-      under: 0
+      under: 0,
     };
 
     // Loop for singles.
-    singlesList.forEach(single => {
+    singlesList.forEach((single) => {
       // Check trainee and skip.
       if (single.behindPerformers.trainees.includes(member.name)) {
         member.positionsHistory.push({
           singleNumber: single.number,
-          position: PositionType.Trainee
+          position: PositionType.Trainee,
         });
       } else if (single.behindPerformers.skips.includes(member.name)) {
         member.positionsHistory.push({
           singleNumber: single.number,
-          position: PositionType.Skip
+          position: PositionType.Skip,
         });
       } else {
         // Reset positionHistory for this single.
         let singlePosition: IMemberPositionHistory = {
           singleNumber: single.number,
-          position: PositionType.None
+          position: PositionType.None,
         };
 
         // Loop for songs in this single.
         single.songs.forEach((singleSong: ICdSong) => {
           // Loop for the song to pair title song.
-          songsList.forEach(song => {
+          songsList.forEach((song) => {
             // Calculate center, fukujin, selected.
             if (singleSong.type === SongType.Title) {
               if (song.title === singleSong.title) {
@@ -88,7 +87,7 @@ const recordPositions = (
                   // Check Center
                   singlePosition = {
                     singleNumber: single.number,
-                    position: PositionType.Center
+                    position: PositionType.Center,
                   };
                   member.positionsCounter.center += 1;
                   member.positionsCounter.fukujin += 1;
@@ -100,7 +99,7 @@ const recordPositions = (
                   // Check Fukujin (first row case)
                   singlePosition = {
                     singleNumber: single.number,
-                    position: PositionType.Fukujin
+                    position: PositionType.Fukujin,
                   };
                   member.positionsCounter.fukujin += 1;
                   member.positionsCounter.selected += 1;
@@ -112,7 +111,7 @@ const recordPositions = (
                   // Check Fukujin (first & second row case)
                   singlePosition = {
                     singleNumber: single.number,
-                    position: PositionType.Fukujin
+                    position: PositionType.Fukujin,
                   };
                   member.positionsCounter.fukujin += 1;
                   member.positionsCounter.selected += 1;
@@ -123,7 +122,7 @@ const recordPositions = (
                   // Check Fukujin (irregular case)
                   singlePosition = {
                     singleNumber: single.number,
-                    position: PositionType.Fukujin
+                    position: PositionType.Fukujin,
                   };
                   member.positionsCounter.fukujin += 1;
                   member.positionsCounter.selected += 1;
@@ -135,7 +134,7 @@ const recordPositions = (
                   // Check Selected
                   singlePosition = {
                     singleNumber: single.number,
-                    position: PositionType.Selected
+                    position: PositionType.Selected,
                   };
                   member.positionsCounter.selected += 1;
                 }
@@ -153,7 +152,7 @@ const recordPositions = (
                 ) {
                   singlePosition = {
                     singleNumber: single.number,
-                    position: PositionType.Under
+                    position: PositionType.Under,
                   };
                   member.positionsCounter.under += 1;
                 }
