@@ -3,35 +3,16 @@ import { IAlbum } from "../types/IAlbum";
 import { ISong } from "../types/ISong";
 
 const recordAlbumArtworks = (albumsList: IAlbum[]) => {
-  const artworkBasename =
-    "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/";
-  albumsList.forEach((album) => {
+  const artworkBasename = "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/";
+  albumsList.forEach(album => {
     if (album.hasArtworks) {
-      album.artworks.forEach((artwork) => {
-        artwork.urls.large =
-          artworkBasename +
-          "albums/" +
-          album.number.toString() +
-          "/" +
-          artwork.type +
-          "_450.jpg";
-        artwork.urls.medium =
-          artworkBasename +
-          "albums/" +
-          album.number.toString() +
-          "/" +
-          artwork.type +
-          "_150.jpg";
-        artwork.urls.small =
-          artworkBasename +
-          "albums/" +
-          album.number.toString() +
-          "/" +
-          artwork.type +
-          "_100.jpg";
+      album.artworks.forEach(artwork => {
+        artwork.urls.large = artworkBasename + "albums/" + album.number.toString() + "/" + artwork.type + "_450.jpg";
+        artwork.urls.medium = artworkBasename + "albums/" + album.number.toString() + "/" + artwork.type + "_150.jpg";
+        artwork.urls.small = artworkBasename + "albums/" + album.number.toString() + "/" + artwork.type + "_100.jpg";
       });
     } else {
-      album.artworks.forEach((artwork) => {
+      album.artworks.forEach(artwork => {
         artwork.urls.large = artworkBasename + "artwork_no_image_large.png";
         artwork.urls.medium = artworkBasename + "artwork_no_image_medium.png";
         artwork.urls.small = artworkBasename + "artwork_no_image_small.png";
@@ -41,12 +22,12 @@ const recordAlbumArtworks = (albumsList: IAlbum[]) => {
 };
 
 const recordAlbumSongType = (albumsList: IAlbum[], songsList: ISong[]) => {
-  albumsList.forEach((album) => {
-    album.songs.forEach((albumSong) => {
+  albumsList.forEach(album => {
+    album.songs.forEach(albumSong => {
       // Reset albumSong type.
       // albumSong.type = undefined;
 
-      songsList.forEach((song) => {
+      songsList.forEach(song => {
         if (song.title === albumSong.title) {
           albumSong.type = song.type;
         }
@@ -57,13 +38,10 @@ const recordAlbumSongType = (albumsList: IAlbum[], songsList: ISong[]) => {
   });
 };
 
-const recordAlbumFocusPerformers = (
-  albumsList: IAlbum[],
-  songsList: ISong[],
-) => {
-  albumsList.forEach((album) => {
-    album.songs.forEach((albumSong) => {
-      songsList.forEach((song) => {
+const recordAlbumFocusPerformers = (albumsList: IAlbum[], songsList: ISong[]) => {
+  albumsList.forEach(album => {
+    album.songs.forEach(albumSong => {
+      songsList.forEach(song => {
         if (song.title === albumSong.title) {
           if (
             song.type === SongType.Title ||

@@ -1,10 +1,6 @@
 import { FukujinType, SongType } from "../common/constants";
 import { ICdSong } from "../types/ICd";
-import {
-  IMember,
-  IMemberPositionHistory,
-  PositionType,
-} from "../types/IMember";
+import { IMember, IMemberPositionHistory, PositionType } from "../types/IMember";
 import { ISingle } from "../types/ISingle";
 import { ISong } from "../types/ISong";
 import { IUnit } from "../types/IUnit";
@@ -21,12 +17,12 @@ export const updateMembers = (
 
 const recordUnits = (membersList: IMember[], unitsList: IUnit[]) => {
   // Loop for members.
-  membersList.forEach((member) => {
+  membersList.forEach(member => {
     // Reset member's units.
     member.units = [];
 
     // Loop for units.
-    unitsList.forEach((unit) => {
+    unitsList.forEach(unit => {
       if (unit.members.includes(member.name)) {
         member.units.push({
           name: unit.name,
@@ -39,13 +35,9 @@ const recordUnits = (membersList: IMember[], unitsList: IUnit[]) => {
   });
 };
 
-const recordPositions = (
-  membersList: IMember[],
-  singlesList: ISingle[],
-  songsList: ISong[],
-) => {
+const recordPositions = (membersList: IMember[], singlesList: ISingle[], songsList: ISong[]) => {
   // Loop for members.
-  membersList.forEach((member) => {
+  membersList.forEach(member => {
     // Reset positionsHistory and positionsCounter.
     member.positionsHistory = [];
     member.positionsCounter = {
@@ -56,7 +48,7 @@ const recordPositions = (
     };
 
     // Loop for singles.
-    singlesList.forEach((single) => {
+    singlesList.forEach(single => {
       // Check trainee and skip.
       if (single.behindPerformers.trainees.includes(member.name)) {
         member.positionsHistory.push({
@@ -78,7 +70,7 @@ const recordPositions = (
         // Loop for songs in this single.
         single.songs.forEach((singleSong: ICdSong) => {
           // Loop for the song to pair title song.
-          songsList.forEach((song) => {
+          songsList.forEach(song => {
             // Calculate center, fukujin, selected.
             if (singleSong.type === SongType.Title) {
               if (song.title === singleSong.title) {
@@ -105,8 +97,7 @@ const recordPositions = (
                   member.positionsCounter.selected += 1;
                 } else if (
                   song.performers.fukujin === FukujinType.RowOneTwo &&
-                  (song.formations.firstRow.includes(member.name) ||
-                    song.formations.secondRow.includes(member.name))
+                  (song.formations.firstRow.includes(member.name) || song.formations.secondRow.includes(member.name))
                 ) {
                   // Check Fukujin (first & second row case)
                   singlePosition = {
@@ -115,10 +106,7 @@ const recordPositions = (
                   };
                   member.positionsCounter.fukujin += 1;
                   member.positionsCounter.selected += 1;
-                } else if (
-                  song.performers.fukujin instanceof Array &&
-                  song.performers.fukujin.includes(member.name)
-                ) {
+                } else if (song.performers.fukujin instanceof Array && song.performers.fukujin.includes(member.name)) {
                   // Check Fukujin (irregular case)
                   singlePosition = {
                     singleNumber: single.number,

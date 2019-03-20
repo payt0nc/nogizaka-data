@@ -9,35 +9,16 @@ export const updateSingles = (singlesList: ISingle[], songsList: ISong[]) => {
 };
 
 const recordSingleArtworks = (singlesList: ISingle[]) => {
-  const artworkBasename =
-    "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/";
-  singlesList.forEach((single) => {
+  const artworkBasename = "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/";
+  singlesList.forEach(single => {
     if (single.hasArtworks) {
-      single.artworks.forEach((artwork) => {
-        artwork.urls.large =
-          artworkBasename +
-          "singles/" +
-          single.number.toString() +
-          "/" +
-          artwork.type +
-          "_450.jpg";
-        artwork.urls.medium =
-          artworkBasename +
-          "singles/" +
-          single.number.toString() +
-          "/" +
-          artwork.type +
-          "_150.jpg";
-        artwork.urls.small =
-          artworkBasename +
-          "singles/" +
-          single.number.toString() +
-          "/" +
-          artwork.type +
-          "_100.jpg";
+      single.artworks.forEach(artwork => {
+        artwork.urls.large = artworkBasename + "singles/" + single.number.toString() + "/" + artwork.type + "_450.jpg";
+        artwork.urls.medium = artworkBasename + "singles/" + single.number.toString() + "/" + artwork.type + "_150.jpg";
+        artwork.urls.small = artworkBasename + "singles/" + single.number.toString() + "/" + artwork.type + "_100.jpg";
       });
     } else {
-      single.artworks.forEach((artwork) => {
+      single.artworks.forEach(artwork => {
         artwork.urls.large = artworkBasename + "artwork_no_image_large.png";
         artwork.urls.medium = artworkBasename + "artwork_no_image_medium.png";
         artwork.urls.small = artworkBasename + "artwork_no_image_small.png";
@@ -47,12 +28,12 @@ const recordSingleArtworks = (singlesList: ISingle[]) => {
 };
 
 const recordSingleSongType = (singlesList: ISingle[], songsList: ISong[]) => {
-  singlesList.forEach((single) => {
-    single.songs.forEach((singleSong) => {
+  singlesList.forEach(single => {
+    single.songs.forEach(singleSong => {
       // Reset singleSong type.
       // singleSong.type = undefined;
 
-      songsList.forEach((song) => {
+      songsList.forEach(song => {
         if (song.title === singleSong.title) {
           singleSong.type = song.type;
         }
@@ -63,13 +44,10 @@ const recordSingleSongType = (singlesList: ISingle[], songsList: ISong[]) => {
   });
 };
 
-const recordSingleFocusPerformers = (
-  singlesList: ISingle[],
-  songsList: ISong[],
-) => {
-  singlesList.forEach((single) => {
-    single.songs.forEach((singleSong) => {
-      songsList.forEach((song) => {
+const recordSingleFocusPerformers = (singlesList: ISingle[], songsList: ISong[]) => {
+  singlesList.forEach(single => {
+    single.songs.forEach(singleSong => {
+      songsList.forEach(song => {
         if (song.title === singleSong.title) {
           if (
             song.type === SongType.Title ||
@@ -96,10 +74,7 @@ const recordSingleFocusPerformers = (
               name: song.formations.firstRow,
             };
           } else if (song.type === SongType.Unit) {
-            if (
-              song.performers.unit !== "" &&
-              song.performers.unit !== undefined
-            ) {
+            if (song.performers.unit !== "" && song.performers.unit !== undefined) {
               singleSong.focusPerformers = {
                 type: FocusPerformersType.Unit,
                 name: [song.performers.unit],
