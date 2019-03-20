@@ -168,9 +168,7 @@ const songTsuduku: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.NishinoNanase,
-    ],
+    firstRow: [MemberNames.NishinoNanase],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -197,12 +195,7 @@ const songKokuhakunojunban: ISong = {
     unit: "女子校カルテット",
   },
   formations: {
-    firstRow: [
-      MemberNames.AkimotoManatsu,
-      MemberNames.SakuraiReika,
-      MemberNames.NakadaKana,
-      MemberNames.WakatsukiYumi,
-    ],
+    firstRow: [MemberNames.AkimotoManatsu, MemberNames.SakuraiReika, MemberNames.NakadaKana, MemberNames.WakatsukiYumi],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -229,11 +222,7 @@ const songChopinnousotsuki: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.IkutaErika,
-      MemberNames.ShiraishiMai,
-      MemberNames.MatsumuraSayuri,
-    ],
+    firstRow: [MemberNames.IkutaErika, MemberNames.ShiraishiMai, MemberNames.MatsumuraSayuri],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -260,12 +249,7 @@ const songShiritaikoto: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.SaitouAsuka,
-      MemberNames.HoshinoMinami,
-      MemberNames.YamashitaMizuki,
-      MemberNames.YodaYuuki,
-    ],
+    firstRow: [MemberNames.SaitouAsuka, MemberNames.HoshinoMinami, MemberNames.YamashitaMizuki, MemberNames.YodaYuuki],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -284,7 +268,7 @@ const songJikochu: ISong = {
   creators: {
     lyrics: ["秋元康"],
     compose: ["ナスカ"],
-    arrange: ["野中\"まさ\"雄一"],
+    arrange: ['野中"まさ"雄一'],
     direct: ["中村太洸"],
   },
   performers: {
@@ -345,11 +329,7 @@ const songSankakunoakichi: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.HiguchiHina,
-      MemberNames.NakadaKana,
-      MemberNames.ItouRiria,
-    ],
+    firstRow: [MemberNames.HiguchiHina, MemberNames.NakadaKana, MemberNames.ItouRiria],
     secondRow: [
       MemberNames.YamazakiRena,
       MemberNames.SakaguchiTamami,
@@ -477,10 +457,7 @@ const songKokoronomonologue: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.ShiraishiMai,
-      MemberNames.NishinoNanase,
-    ],
+    firstRow: [MemberNames.ShiraishiMai, MemberNames.NishinoNanase],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -507,11 +484,7 @@ const songChikyugamaruinara: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.OozonoMomoko,
-      MemberNames.SaitouAsuka,
-      MemberNames.YodaYuuki,
-    ],
+    firstRow: [MemberNames.OozonoMomoko, MemberNames.SaitouAsuka, MemberNames.YodaYuuki],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -561,10 +534,8 @@ const songAnnanisukidattanoni: ISong = {
       MemberNames.YodaYuuki,
       MemberNames.WakatsukiYumi,
     ],
-    secondRow: [
-    ],
-    thirdRow: [
-    ],
+    secondRow: [],
+    thirdRow: [],
     fourthRow: [],
   },
 };
@@ -741,11 +712,7 @@ const songKumoninarebaii: ISong = {
     unit: "藤桜梨",
   },
   formations: {
-    firstRow: [
-      MemberNames.IkutaErika,
-      MemberNames.EtouMisa,
-      MemberNames.SakuraiReika,
-    ],
+    firstRow: [MemberNames.IkutaErika, MemberNames.EtouMisa, MemberNames.SakuraiReika],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -850,12 +817,7 @@ const songKotodamaho: ISong = {
     unit: "いもうと坂",
   },
   formations: {
-    firstRow: [
-      MemberNames.OozonoMomoko,
-      MemberNames.KuboShiori,
-      MemberNames.YamashitaMizuki,
-      MemberNames.YodaYuuki,
-    ],
+    firstRow: [MemberNames.OozonoMomoko, MemberNames.KuboShiori, MemberNames.YamashitaMizuki, MemberNames.YodaYuuki],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -878,21 +840,13 @@ const songItsukadekirukara: ISong = {
     direct: ["高橋栄樹"],
   },
   performers: {
-    center: [
-      MemberNames.NishinoNanase,
-      MemberNames.SaitouAsuka,
-    ],
+    center: [MemberNames.NishinoNanase, MemberNames.SaitouAsuka],
     fukujin: FukujinType.RowOneTwo,
     solo: null,
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.HoriMiona,
-      MemberNames.NishinoNanase,
-      MemberNames.SaitouAsuka,
-      MemberNames.ShiraishiMai,
-    ],
+    firstRow: [MemberNames.HoriMiona, MemberNames.NishinoNanase, MemberNames.SaitouAsuka, MemberNames.ShiraishiMai],
     secondRow: [
       MemberNames.WakatsukiYumi,
       MemberNames.InoueSayuri,
@@ -936,17 +890,8 @@ const songMyrule: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.WatanabeMiria,
-      MemberNames.HiguchiHina,
-      MemberNames.TeradaRanze,
-    ],
-    secondRow: [
-      MemberNames.NoujouAmi,
-      MemberNames.SuzukiAyane,
-      MemberNames.YamazakiRena,
-      MemberNames.SaitouChiharu,
-    ],
+    firstRow: [MemberNames.WatanabeMiria, MemberNames.HiguchiHina, MemberNames.TeradaRanze],
+    secondRow: [MemberNames.NoujouAmi, MemberNames.SuzukiAyane, MemberNames.YamazakiRena, MemberNames.SaitouChiharu],
     thirdRow: [
       MemberNames.SagaraIori,
       MemberNames.SasakiKotoko,
@@ -1028,10 +973,7 @@ const songMaaiika: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.AkimotoManatsu,
-      MemberNames.ShiraishiMai,
-    ],
+    firstRow: [MemberNames.AkimotoManatsu, MemberNames.ShiraishiMai],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -1129,10 +1071,7 @@ const songAtarashiikafun: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.IkutaErika,
-      MemberNames.KuboShiori,
-    ],
+    firstRow: [MemberNames.IkutaErika, MemberNames.KuboShiori],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -1155,10 +1094,7 @@ const songNigemizu: ISong = {
     direct: ["山岸聖太"],
   },
   performers: {
-    center: [
-      MemberNames.OozonoMomoko,
-      MemberNames.YodaYuuki,
-    ],
+    center: [MemberNames.OozonoMomoko, MemberNames.YodaYuuki],
     fukujin: FukujinType.RowOneTwo,
     solo: null,
     unit: null,
@@ -1206,10 +1142,7 @@ const songUnder: ISong = {
     direct: ["金森孝宏"],
   },
   performers: {
-    center: [
-      MemberNames.NakamotoHimeka,
-      MemberNames.KitanoHinako,
-    ],
+    center: [MemberNames.NakamotoHimeka, MemberNames.KitanoHinako],
     fukujin: null,
     solo: null,
     unit: null,
@@ -1257,10 +1190,7 @@ const songOnnahahitorija: ISong = {
     direct: ["萩原健太郎"],
   },
   performers: {
-    center: [
-      MemberNames.OozonoMomoko,
-      MemberNames.YodaYuuki,
-    ],
+    center: [MemberNames.OozonoMomoko, MemberNames.YodaYuuki],
     fukujin: null,
     solo: null,
     unit: null,
@@ -1306,10 +1236,7 @@ const songHitonatsu: ISong = {
     direct: [],
   },
   performers: {
-    center: [
-      MemberNames.AkimotoManatsu,
-      MemberNames.MatsumuraSayuri,
-    ],
+    center: [MemberNames.AkimotoManatsu, MemberNames.MatsumuraSayuri],
     fukujin: null,
     solo: null,
     unit: null,
@@ -1361,23 +1288,9 @@ const songLiveshin: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.TeradaRanze,
-      MemberNames.HoriMiona,
-      MemberNames.KitanoHinako,
-    ],
-    secondRow: [
-      MemberNames.YamazakiRena,
-      MemberNames.WatanabeMiria,
-      MemberNames.SuzukiAyane,
-      MemberNames.ShinuchiMai,
-    ],
-    thirdRow: [
-      MemberNames.ItouJunna,
-      MemberNames.ItouKarin,
-      MemberNames.SagaraIori,
-      MemberNames.SasakiKotoko,
-    ],
+    firstRow: [MemberNames.TeradaRanze, MemberNames.HoriMiona, MemberNames.KitanoHinako],
+    secondRow: [MemberNames.YamazakiRena, MemberNames.WatanabeMiria, MemberNames.SuzukiAyane, MemberNames.ShinuchiMai],
+    thirdRow: [MemberNames.ItouJunna, MemberNames.ItouKarin, MemberNames.SagaraIori, MemberNames.SasakiKotoko],
     fourthRow: [],
   },
 };
@@ -1396,27 +1309,14 @@ const songMirainokotae: ISong = {
     direct: ["福島真希"],
   },
   performers: {
-    center: [
-      MemberNames.KuboShiori,
-      MemberNames.YamashitaMizuki,
-    ],
+    center: [MemberNames.KuboShiori, MemberNames.YamashitaMizuki],
     fukujin: null,
     solo: null,
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.UmezawaMinami,
-      MemberNames.YamashitaMizuki,
-      MemberNames.KuboShiori,
-      MemberNames.ItouRiria,
-    ],
-    secondRow: [
-      MemberNames.IwamotoRenka,
-      MemberNames.OozonoMomoko,
-      MemberNames.YodaYuuki,
-      MemberNames.SakaguchiTamami,
-    ],
+    firstRow: [MemberNames.UmezawaMinami, MemberNames.YamashitaMizuki, MemberNames.KuboShiori, MemberNames.ItouRiria],
+    secondRow: [MemberNames.IwamotoRenka, MemberNames.OozonoMomoko, MemberNames.YodaYuuki, MemberNames.SakaguchiTamami],
     thirdRow: [
       MemberNames.NakamuraReno,
       MemberNames.MukaiHazuki,
@@ -1489,10 +1389,7 @@ const songInfluencer: ISong = {
     direct: ["丸山健志"],
   },
   performers: {
-    center: [
-      MemberNames.NishinoNanase,
-      MemberNames.ShiraishiMai,
-    ],
+    center: [MemberNames.NishinoNanase, MemberNames.ShiraishiMai],
     fukujin: FukujinType.RowOneTwo,
     solo: null,
     unit: null,
@@ -1549,17 +1446,8 @@ const songFusenhaikiteiru: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.YamazakiRena,
-      MemberNames.WatanabeMiria,
-      MemberNames.SuzukiAyane,
-    ],
-    secondRow: [
-      MemberNames.SaitouChiharu,
-      MemberNames.ItouKarin,
-      MemberNames.NoujouAmi,
-      MemberNames.SagaraIori,
-    ],
+    firstRow: [MemberNames.YamazakiRena, MemberNames.WatanabeMiria, MemberNames.SuzukiAyane],
+    secondRow: [MemberNames.SaitouChiharu, MemberNames.ItouKarin, MemberNames.NoujouAmi, MemberNames.SagaraIori],
     thirdRow: [
       MemberNames.KawagoHina,
       MemberNames.SasakiKotoko,
@@ -1591,12 +1479,7 @@ const songJinseiwokangae: ISong = {
     unit: "女子校カルテット",
   },
   formations: {
-    firstRow: [
-      MemberNames.AkimotoManatsu,
-      MemberNames.SakuraiReika,
-      MemberNames.NakadaKana,
-      MemberNames.WakatsukiYumi,
-    ],
+    firstRow: [MemberNames.AkimotoManatsu, MemberNames.SakuraiReika, MemberNames.NakadaKana, MemberNames.WakatsukiYumi],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -1623,12 +1506,7 @@ const songIgaibreak: ISong = {
     unit: "姉御坂",
   },
   formations: {
-    firstRow: [
-      MemberNames.EtouMisa,
-      MemberNames.ShiraishiMai,
-      MemberNames.TakayamaKazumi,
-      MemberNames.MatsumuraSayuri,
-    ],
+    firstRow: [MemberNames.EtouMisa, MemberNames.ShiraishiMai, MemberNames.TakayamaKazumi, MemberNames.MatsumuraSayuri],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -1655,11 +1533,7 @@ const songAnotherghost: ISong = {
     unit: "ナスカ",
   },
   formations: {
-    firstRow: [
-      MemberNames.ItouMarika,
-      MemberNames.SaitouAsuka,
-      MemberNames.NishinoNanase,
-    ],
+    firstRow: [MemberNames.ItouMarika, MemberNames.SaitouAsuka, MemberNames.NishinoNanase],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -1686,17 +1560,8 @@ const songSanbanmenokaze: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.KuboShiori,
-      MemberNames.OozonoMomoko,
-      MemberNames.YamashitaMizuki,
-    ],
-    secondRow: [
-      MemberNames.SakaguchiTamami,
-      MemberNames.YodaYuuki,
-      MemberNames.ItouRiria,
-      MemberNames.IwamotoRenka,
-    ],
+    firstRow: [MemberNames.KuboShiori, MemberNames.OozonoMomoko, MemberNames.YamashitaMizuki],
+    secondRow: [MemberNames.SakaguchiTamami, MemberNames.YodaYuuki, MemberNames.ItouRiria, MemberNames.IwamotoRenka],
     thirdRow: [
       MemberNames.UmezawaMinami,
       MemberNames.MukaiHazuki,
@@ -1718,7 +1583,7 @@ const songAtarisawarinonai: ISong = {
   creators: {
     lyrics: ["秋元康"],
     compose: ["小網準"],
-    arrange: ["野中\"まさ\"雄一"],
+    arrange: ['野中"まさ"雄一'],
     direct: [],
   },
   performers: {
@@ -1728,12 +1593,7 @@ const songAtarisawarinonai: ISong = {
     unit: "かすみ草",
   },
   formations: {
-    firstRow: [
-      MemberNames.IkomaRina,
-      MemberNames.InoueSayuri,
-      MemberNames.HoshinoMinami,
-      MemberNames.HoriMiona,
-    ],
+    firstRow: [MemberNames.IkomaRina, MemberNames.InoueSayuri, MemberNames.HoshinoMinami, MemberNames.HoriMiona],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -1756,9 +1616,7 @@ const songSayonaranoimi: ISong = {
     direct: ["柳沢翔"],
   },
   performers: {
-    center: [
-      MemberNames.HashimotoNanami,
-    ],
+    center: [MemberNames.HashimotoNanami],
     fukujin: FukujinType.RowOneTwo,
     solo: null,
     unit: null,
@@ -1906,10 +1764,7 @@ const songAnokyoshitsu: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.SaitouAsuka,
-      MemberNames.HoriMiona,
-    ],
+    firstRow: [MemberNames.SaitouAsuka, MemberNames.HoriMiona],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -1936,12 +1791,7 @@ const songNidomenokisukara: ISong = {
     unit: "真夏さんリスペクト軍団",
   },
   formations: {
-    firstRow: [
-      MemberNames.AkimotoManatsu,
-      MemberNames.SagaraIori,
-      MemberNames.SuzukiAyane,
-      MemberNames.WatanabeMiria,
-    ],
+    firstRow: [MemberNames.AkimotoManatsu, MemberNames.SagaraIori, MemberNames.SuzukiAyane, MemberNames.WatanabeMiria],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -2001,9 +1851,7 @@ const songNaimononetari: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.HashimotoNanami,
-    ],
+    firstRow: [MemberNames.HashimotoNanami],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -2026,9 +1874,7 @@ const songHadashidesummer: ISong = {
     direct: ["丸山健志"],
   },
   performers: {
-    center: [
-      MemberNames.SaitouAsuka,
-    ],
+    center: [MemberNames.SaitouAsuka],
     fukujin: FukujinType.RowOneTwo,
     solo: null,
     unit: null,
@@ -2228,11 +2074,7 @@ const songHakumaisama: ISong = {
   },
   formations: {
     firstRow: [MemberNames.MatsumuraSayuri],
-    secondRow: [
-      MemberNames.SasakiKotoko,
-      MemberNames.ItouKarin,
-      MemberNames.TeradaRanze,
-    ],
+    secondRow: [MemberNames.SasakiKotoko, MemberNames.ItouKarin, MemberNames.TeradaRanze],
     thirdRow: [],
     fourthRow: [],
   },
@@ -2258,10 +2100,7 @@ const songIkuatenonaibokutachi: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.ItouMarika,
-      MemberNames.InoueSayuri,
-    ],
+    firstRow: [MemberNames.ItouMarika, MemberNames.InoueSayuri],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -2284,9 +2123,7 @@ const songHarujion: ISong = {
     direct: ["山戸結希"],
   },
   performers: {
-    center: [
-      MemberNames.FukagawaMai,
-    ],
+    center: [MemberNames.FukagawaMai],
     fukujin: FukujinType.RowOneTwo,
     solo: null,
     unit: null,
@@ -2422,9 +2259,7 @@ const songTsuyogarutsubomi: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.FukagawaMai,
-    ],
+    firstRow: [MemberNames.FukagawaMai],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -2451,11 +2286,7 @@ const songKyushamen: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.ShiraishiMai,
-      MemberNames.HashimotoNanami,
-      MemberNames.MatsumuraSayuri,
-    ],
+    firstRow: [MemberNames.ShiraishiMai, MemberNames.HashimotoNanami, MemberNames.MatsumuraSayuri],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -2482,9 +2313,7 @@ const songTsuribori: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.NishinoNanase,
-    ],
+    firstRow: [MemberNames.NishinoNanase],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -2541,21 +2370,13 @@ const songHanashitaidarekagairu: ISong = {
     direct: ["萩原健太郎"],
   },
   performers: {
-    center: [
-      MemberNames.ShiraishiMai,
-      MemberNames.NishinoNanase,
-    ],
+    center: [MemberNames.ShiraishiMai, MemberNames.NishinoNanase],
     fukujin: FukujinType.RowOneTwo,
     solo: null,
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.EtouMisa,
-      MemberNames.NishinoNanase,
-      MemberNames.ShiraishiMai,
-      MemberNames.FukagawaMai,
-    ],
+    firstRow: [MemberNames.EtouMisa, MemberNames.NishinoNanase, MemberNames.ShiraishiMai, MemberNames.FukagawaMai],
     secondRow: [
       MemberNames.SaitouAsuka,
       MemberNames.TakayamaKazumi,
@@ -2590,21 +2411,13 @@ const songShittonokenri: ISong = {
     direct: ["井上強"],
   },
   performers: {
-    center: [
-      MemberNames.HoriMiona,
-      MemberNames.NakamotoHimeka,
-    ],
+    center: [MemberNames.HoriMiona, MemberNames.NakamotoHimeka],
     fukujin: null,
     solo: null,
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.KitanoHinako,
-      MemberNames.HoriMiona,
-      MemberNames.NakamotoHimeka,
-      MemberNames.TeradaRanze,
-    ],
+    firstRow: [MemberNames.KitanoHinako, MemberNames.HoriMiona, MemberNames.NakamotoHimeka, MemberNames.TeradaRanze],
     secondRow: [
       MemberNames.NakadaKana,
       MemberNames.ShinuchiMai,
@@ -2644,21 +2457,13 @@ const songPopipappapa: ISong = {
     direct: ["丸山健志"],
   },
   performers: {
-    center: [
-      MemberNames.ShiraishiMai,
-      MemberNames.NishinoNanase,
-    ],
+    center: [MemberNames.ShiraishiMai, MemberNames.NishinoNanase],
     fukujin: null,
     solo: null,
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.EtouMisa,
-      MemberNames.NishinoNanase,
-      MemberNames.ShiraishiMai,
-      MemberNames.FukagawaMai,
-    ],
+    firstRow: [MemberNames.EtouMisa, MemberNames.NishinoNanase, MemberNames.ShiraishiMai, MemberNames.FukagawaMai],
     secondRow: [
       MemberNames.SaitouAsuka,
       MemberNames.TakayamaKazumi,
@@ -2809,9 +2614,7 @@ const songTaiyoknock: ISong = {
     direct: ["三石直和"],
   },
   performers: {
-    center: [
-      MemberNames.IkomaRina,
-    ],
+    center: [MemberNames.IkomaRina],
     fukujin: FukujinType.RowOneTwo,
     solo: null,
     unit: null,
@@ -2903,7 +2706,7 @@ const songMosukoshinoyumewo: ISong = {
   creators: {
     lyrics: ["秋元康"],
     compose: ["丸谷マナブ"],
-    arrange: ["野中\"まさ\"雄一"],
+    arrange: ['野中"まさ"雄一'],
     direct: [],
   },
   performers: {
@@ -2913,9 +2716,7 @@ const songMosukoshinoyumewo: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.NishinoNanase,
-    ],
+    firstRow: [MemberNames.NishinoNanase],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -2974,10 +2775,7 @@ const songMuhyojo: ISong = {
     unit: "からあげ姉妹",
   },
   formations: {
-    firstRow: [
-      MemberNames.IkutaErika,
-      MemberNames.MatsumuraSayuri,
-    ],
+    firstRow: [MemberNames.IkutaErika, MemberNames.MatsumuraSayuri],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -3050,10 +2848,7 @@ const songSeifukuwonuide: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.SaitouAsuka,
-      MemberNames.HoshinoMinami,
-    ],
+    firstRow: [MemberNames.SaitouAsuka, MemberNames.HoshinoMinami],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -3076,9 +2871,7 @@ const songInochihautsukushii: ISong = {
     direct: ["井上強"],
   },
   performers: {
-    center: [
-      MemberNames.NishinoNanase,
-    ],
+    center: [MemberNames.NishinoNanase],
     fukujin: FukujinType.RowOneTwo,
     solo: null,
     unit: null,
@@ -3132,17 +2925,8 @@ const songKimihabokuto: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.SaitouYuuri,
-      MemberNames.NakamotoHimeka,
-      MemberNames.InoueSayuri,
-    ],
-    secondRow: [
-      MemberNames.NoujouAmi,
-      MemberNames.NagashimaSeira,
-      MemberNames.NakadaKana,
-      MemberNames.ShinuchiMai,
-    ],
+    firstRow: [MemberNames.SaitouYuuri, MemberNames.NakamotoHimeka, MemberNames.InoueSayuri],
+    secondRow: [MemberNames.NoujouAmi, MemberNames.NagashimaSeira, MemberNames.NakadaKana, MemberNames.ShinuchiMai],
     thirdRow: [
       MemberNames.KawamuraMahiro,
       MemberNames.KitanoHinako,
@@ -3170,10 +2954,7 @@ const songArakajimeromance: ISong = {
     direct: ["岡川太郎"],
   },
   performers: {
-    center: [
-      MemberNames.SaitouAsuka,
-      MemberNames.HoshinoMinami,
-    ],
+    center: [MemberNames.SaitouAsuka, MemberNames.HoshinoMinami],
     fukujin: null,
     solo: null,
     unit: "",
@@ -3305,9 +3086,7 @@ const songNandomenoaozoraka: ISong = {
     direct: ["内田けんじ"],
   },
   performers: {
-    center: [
-      MemberNames.IkutaErika,
-    ],
+    center: [MemberNames.IkutaErika],
     fukujin: FukujinType.RowOneTwo,
     solo: null,
     unit: null,
@@ -3359,11 +3138,7 @@ const songAnohibokuha: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.SaitouAsuka,
-      MemberNames.InoueSayuri,
-      MemberNames.ItouMarika,
-    ],
+    firstRow: [MemberNames.SaitouAsuka, MemberNames.InoueSayuri, MemberNames.ItouMarika],
     secondRow: [
       MemberNames.NagashimaSeira,
       MemberNames.NakamotoHimeka,
@@ -3396,14 +3171,11 @@ const songTomawarinoaijo: ISong = {
   creators: {
     lyrics: ["秋元康"],
     compose: ["Noda Akiko"],
-    arrange: ["野中\"まさ\"雄一"],
+    arrange: ['野中"まさ"雄一'],
     direct: [],
   },
   performers: {
-    center: [
-      MemberNames.NagashimaSeira,
-      MemberNames.SakuraiReika,
-    ],
+    center: [MemberNames.NagashimaSeira, MemberNames.SakuraiReika],
     fukujin: null,
     solo: null,
     unit: "",
@@ -3560,9 +3332,7 @@ const songNatsunofreeandeasy: ISong = {
     direct: ["丸山健志"],
   },
   performers: {
-    center: [
-      MemberNames.NishinoNanase,
-    ],
+    center: [MemberNames.NishinoNanase],
     fukujin: FukujinType.RowOneTwo,
     solo: null,
     unit: null,
@@ -4005,10 +3775,7 @@ const songKodokukyodai: ISong = {
     unit: "孤独兄弟",
   },
   formations: {
-    firstRow: [
-      MemberNames.ShiraishiMai,
-      MemberNames.HashimotoNanami,
-    ],
+    firstRow: [MemberNames.ShiraishiMai, MemberNames.HashimotoNanami],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -4067,9 +3834,7 @@ const songValletta: ISong = {
     direct: ["江湖広二"],
   },
   performers: {
-    center: [
-      MemberNames.HoriMiona,
-    ],
+    center: [MemberNames.HoriMiona],
     fukujin: FukujinType.RowOneTwo,
     solo: null,
     unit: null,
@@ -4082,12 +3847,7 @@ const songValletta: ISong = {
       MemberNames.HashimotoNanami,
       MemberNames.MatsumuraSayuri,
     ],
-    secondRow: [
-      MemberNames.SakuraiReika,
-      MemberNames.IkutaErika,
-      MemberNames.IkomaRina,
-      MemberNames.WakatsukiYumi,
-    ],
+    secondRow: [MemberNames.SakuraiReika, MemberNames.IkutaErika, MemberNames.IkomaRina, MemberNames.WakatsukiYumi],
     thirdRow: [
       MemberNames.ItouMarika,
       MemberNames.EtouMisa,
@@ -4122,11 +3882,7 @@ const songHatsukoinohito: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.InoueSayuri,
-      MemberNames.HoshinoMinami,
-      MemberNames.SaitouYuuri,
-    ],
+    firstRow: [MemberNames.InoueSayuri, MemberNames.HoshinoMinami, MemberNames.SaitouYuuri],
     secondRow: [
       MemberNames.NoujouAmi,
       MemberNames.HiguchiHina,
@@ -4172,12 +3928,7 @@ const songTsukinookisa: ISong = {
       MemberNames.HashimotoNanami,
       MemberNames.MatsumuraSayuri,
     ],
-    secondRow: [
-      MemberNames.SakuraiReika,
-      MemberNames.IkutaErika,
-      MemberNames.IkomaRina,
-      MemberNames.WakatsukiYumi,
-    ],
+    secondRow: [MemberNames.SakuraiReika, MemberNames.IkutaErika, MemberNames.IkomaRina, MemberNames.WakatsukiYumi],
     thirdRow: [
       MemberNames.ItouMarika,
       MemberNames.EtouMisa,
@@ -4326,19 +4077,13 @@ const songGirlsrule: ISong = {
     direct: ["柳沢翔"],
   },
   performers: {
-    center: [
-      MemberNames.ShiraishiMai,
-    ],
+    center: [MemberNames.ShiraishiMai],
     fukujin: FukujinType.RowOneTwo,
     solo: null,
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.MatsumuraSayuri,
-      MemberNames.ShiraishiMai,
-      MemberNames.HashimotoNanami,
-    ],
+    firstRow: [MemberNames.MatsumuraSayuri, MemberNames.ShiraishiMai, MemberNames.HashimotoNanami],
     secondRow: [
       MemberNames.SakuraiReika,
       MemberNames.IkutaErika,
@@ -4380,22 +4125,9 @@ const songSenpuki: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.HiguchiHina,
-      MemberNames.SaitouAsuka,
-      MemberNames.NakamotoHimeka,
-    ],
-    secondRow: [
-      MemberNames.NoujouAmi,
-      MemberNames.EtouMisa,
-      MemberNames.KawamuraMahiro,
-    ],
-    thirdRow: [
-      MemberNames.ItouNene,
-      MemberNames.NagashimaSeira,
-      MemberNames.SaitouChiharu,
-      MemberNames.IchikiRena,
-    ],
+    firstRow: [MemberNames.HiguchiHina, MemberNames.SaitouAsuka, MemberNames.NakamotoHimeka],
+    secondRow: [MemberNames.NoujouAmi, MemberNames.EtouMisa, MemberNames.KawamuraMahiro],
+    thirdRow: [MemberNames.ItouNene, MemberNames.NagashimaSeira, MemberNames.SaitouChiharu, MemberNames.IchikiRena],
     fourthRow: [
       MemberNames.YamatoRina,
       MemberNames.KawagoHina,
@@ -4427,11 +4159,7 @@ const songSekaideichiban: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.MatsumuraSayuri,
-      MemberNames.ShiraishiMai,
-      MemberNames.HashimotoNanami,
-    ],
+    firstRow: [MemberNames.MatsumuraSayuri, MemberNames.ShiraishiMai, MemberNames.HashimotoNanami],
     secondRow: [
       MemberNames.SakuraiReika,
       MemberNames.IkutaErika,
@@ -4473,12 +4201,7 @@ const songKomoriyo: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.ShiraishiMai,
-      MemberNames.NakamotoHimeka,
-      MemberNames.NoujouAmi,
-      MemberNames.WakatsukiYumi,
-    ],
+    firstRow: [MemberNames.ShiraishiMai, MemberNames.NakamotoHimeka, MemberNames.NoujouAmi, MemberNames.WakatsukiYumi],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -4602,11 +4325,7 @@ const songKiminonahakibo: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.IkutaErika,
-      MemberNames.IkomaRina,
-      MemberNames.HoshinoMinami,
-    ],
+    firstRow: [MemberNames.IkutaErika, MemberNames.IkomaRina, MemberNames.HoshinoMinami],
     secondRow: [
       MemberNames.SakuraiReika,
       MemberNames.HashimotoNanami,
@@ -4648,17 +4367,8 @@ const songjusannichinokiyobi: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.ItouMarika,
-      MemberNames.SaitouYuuri,
-      MemberNames.SaitouAsuka,
-    ],
-    secondRow: [
-      MemberNames.KawamuraMahiro,
-      MemberNames.EtouMisa,
-      MemberNames.NoujouAmi,
-      MemberNames.IchikiRena,
-    ],
+    firstRow: [MemberNames.ItouMarika, MemberNames.SaitouYuuri, MemberNames.SaitouAsuka],
+    secondRow: [MemberNames.KawamuraMahiro, MemberNames.EtouMisa, MemberNames.NoujouAmi, MemberNames.IchikiRena],
     thirdRow: [
       MemberNames.YamatoRina,
       MemberNames.WadaMaaya,
@@ -4689,10 +4399,7 @@ const songShakism: ISong = {
     direct: ["柳沢翔"],
   },
   performers: {
-    center: [
-      MemberNames.IkomaRina,
-      MemberNames.HoshinoMinami,
-    ],
+    center: [MemberNames.IkomaRina, MemberNames.HoshinoMinami],
     fukujin: null,
     solo: null,
     unit: null,
@@ -4813,10 +4520,7 @@ const songPsychokineses: ISong = {
     direct: ["中村太洸"],
   },
   performers: {
-    center: [
-      MemberNames.SakuraiReika,
-      MemberNames.NishinoNanase,
-    ],
+    center: [MemberNames.SakuraiReika, MemberNames.NishinoNanase],
     fukujin: null,
     solo: null,
     unit: "",
@@ -4854,19 +4558,13 @@ const songSeifukunomannequin: ISong = {
     direct: ["池田一真"],
   },
   performers: {
-    center: [
-      MemberNames.IkomaRina,
-    ],
+    center: [MemberNames.IkomaRina],
     fukujin: FukujinType.RowOneTwo,
     solo: null,
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.IkutaErika,
-      MemberNames.IkomaRina,
-      MemberNames.HoshinoMinami,
-    ],
+    firstRow: [MemberNames.IkutaErika, MemberNames.IkomaRina, MemberNames.HoshinoMinami],
     secondRow: [
       MemberNames.ShiraishiMai,
       MemberNames.HashimotoNanami,
@@ -4908,17 +4606,8 @@ const songHarunomelody: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.SaitouYuuri,
-      MemberNames.NakadaKana,
-      MemberNames.EtouMisa,
-    ],
-    secondRow: [
-      MemberNames.ItouMarika,
-      MemberNames.KawagoHina,
-      MemberNames.HiguchiHina,
-      MemberNames.ItouNene,
-    ],
+    firstRow: [MemberNames.SaitouYuuri, MemberNames.NakadaKana, MemberNames.EtouMisa],
+    secondRow: [MemberNames.ItouMarika, MemberNames.KawagoHina, MemberNames.HiguchiHina, MemberNames.ItouNene],
     thirdRow: [
       MemberNames.KawamuraMahiro,
       MemberNames.NakamotoHimeka,
@@ -4950,19 +4639,13 @@ const songYubiboenkyo: ISong = {
     direct: ["丸山健志"],
   },
   performers: {
-    center: [
-      MemberNames.IkomaRina,
-    ],
+    center: [MemberNames.IkomaRina],
     fukujin: null,
     solo: null,
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.IkutaErika,
-      MemberNames.IkomaRina,
-      MemberNames.HoshinoMinami,
-    ],
+    firstRow: [MemberNames.IkutaErika, MemberNames.IkomaRina, MemberNames.HoshinoMinami],
     secondRow: [
       MemberNames.ShiraishiMai,
       MemberNames.HashimotoNanami,
@@ -4998,10 +4681,7 @@ const songYasashisanaramaniatteru: ISong = {
     direct: [],
   },
   performers: {
-    center: [
-      MemberNames.TakayamaKazumi,
-      MemberNames.NoujouAmi,
-    ],
+    center: [MemberNames.TakayamaKazumi, MemberNames.NoujouAmi],
     fukujin: null,
     solo: null,
     unit: "",
@@ -5043,11 +4723,7 @@ const songKokojanaidokoka: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.IkutaErika,
-      MemberNames.IkomaRina,
-      MemberNames.HoshinoMinami,
-    ],
+    firstRow: [MemberNames.IkutaErika, MemberNames.IkomaRina, MemberNames.HoshinoMinami],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -5074,10 +4750,7 @@ const songShibuyablues: ISong = {
     unit: "WHITE HIGH",
   },
   formations: {
-    firstRow: [
-      MemberNames.ShiraishiMai,
-      MemberNames.TakayamaKazumi,
-    ],
+    firstRow: [MemberNames.ShiraishiMai, MemberNames.TakayamaKazumi],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -5100,9 +4773,7 @@ const songHashirebicycle: ISong = {
     direct: ["中島哲也"],
   },
   performers: {
-    center: [
-      MemberNames.IkomaRina,
-    ],
+    center: [MemberNames.IkomaRina],
     fukujin: [
       MemberNames.IkutaErika,
       MemberNames.IkomaRina,
@@ -5116,12 +4787,7 @@ const songHashirebicycle: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.IkutaErika,
-      MemberNames.IkomaRina,
-      MemberNames.HoshinoMinami,
-      MemberNames.SakuraiReika,
-    ],
+    firstRow: [MemberNames.IkutaErika, MemberNames.IkomaRina, MemberNames.HoshinoMinami, MemberNames.SakuraiReika],
     secondRow: [
       MemberNames.NakadaKana,
       MemberNames.HashimotoNanami,
@@ -5162,16 +4828,8 @@ const songNamidagamada: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.HiguchiHina,
-      MemberNames.ItouNene,
-      MemberNames.SaitouAsuka,
-    ],
-    secondRow: [
-      MemberNames.EtouMisa,
-      MemberNames.NoujouAmi,
-      MemberNames.KawagoHina,
-    ],
+    firstRow: [MemberNames.HiguchiHina, MemberNames.ItouNene, MemberNames.SaitouAsuka],
+    secondRow: [MemberNames.EtouMisa, MemberNames.NoujouAmi, MemberNames.KawagoHina],
     thirdRow: [
       MemberNames.KawamuraMahiro,
       MemberNames.KashiwaYukina,
@@ -5380,11 +5038,7 @@ const songOideshampoo: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.SakuraiReika,
-      MemberNames.IkomaRina,
-      MemberNames.NakadaKana,
-    ],
+    firstRow: [MemberNames.SakuraiReika, MemberNames.IkomaRina, MemberNames.NakadaKana],
     secondRow: [
       MemberNames.HashimotoNanami,
       MemberNames.MatsumuraSayuri,
@@ -5426,11 +5080,7 @@ const songOkaminikuchibuewo: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.FukagawaMai,
-      MemberNames.ItouMarika,
-      MemberNames.WakatsukiYumi,
-    ],
+    firstRow: [MemberNames.FukagawaMai, MemberNames.ItouMarika, MemberNames.WakatsukiYumi],
     secondRow: [
       MemberNames.KawagoHina,
       MemberNames.KawamuraMahiro,
@@ -5631,11 +5281,7 @@ const songGurugurucurtain: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.IkutaErika,
-      MemberNames.IkomaRina,
-      MemberNames.HoshinoMinami,
-    ],
+    firstRow: [MemberNames.IkutaErika, MemberNames.IkomaRina, MemberNames.HoshinoMinami],
     secondRow: [
       MemberNames.HashimotoNanami,
       MemberNames.MatsumuraSayuri,
@@ -5826,10 +5472,7 @@ const songUshinaitakunaikara: ISong = {
     direct: ["丸山健志"],
   },
   performers: {
-    center: [
-      MemberNames.IkomaRina,
-      MemberNames.IkutaErika,
-    ],
+    center: [MemberNames.IkomaRina, MemberNames.IkutaErika],
     fukujin: null,
     solo: null,
     unit: null,
@@ -5928,7 +5571,7 @@ const arigachinarenai: ISong = {
   creators: {
     lyrics: ["秋元康"],
     compose: ["杉山勝彦"],
-    arrange: ["野中\"まさ\"雄一"],
+    arrange: ['野中"まさ"雄一'],
     direct: [],
   },
   performers: {
@@ -6083,11 +5726,7 @@ const pocchito: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.IkutaErika,
-      MemberNames.KuboShiori,
-      MemberNames.SakuraiReika,
-    ],
+    firstRow: [MemberNames.IkutaErika, MemberNames.KuboShiori, MemberNames.SakuraiReika],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -6114,12 +5753,7 @@ const sayuringoboshuchu: ISong = {
     unit: "さゆりんご軍団",
   },
   formations: {
-    firstRow: [
-      MemberNames.MatsumuraSayuri,
-      MemberNames.ItouKarin,
-      MemberNames.SasakiKotoko,
-      MemberNames.TeradaRanze,
-    ],
+    firstRow: [MemberNames.MatsumuraSayuri, MemberNames.ItouKarin, MemberNames.SasakiKotoko, MemberNames.TeradaRanze],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -6146,11 +5780,7 @@ const gorugonzora: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.KitanoHinako,
-      MemberNames.HoriMiona,
-      MemberNames.WatanabeMiria,
-    ],
+    firstRow: [MemberNames.KitanoHinako, MemberNames.HoriMiona, MemberNames.WatanabeMiria],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -6422,7 +6052,7 @@ const songKimigaaoidekureta: ISong = {
   creators: {
     lyrics: ["秋元康"],
     compose: ["中山聡", "足立優"],
-    arrange: ["野中\"まさ\"雄一"],
+    arrange: ['野中"まさ"雄一'],
     direct: [],
   },
   performers: {
@@ -6587,11 +6217,7 @@ const songRewindanohi: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.SakuraiReika,
-      MemberNames.NishinoNanase,
-      MemberNames.WakatsukiYumi,
-    ],
+    firstRow: [MemberNames.SakuraiReika, MemberNames.NishinoNanase, MemberNames.WakatsukiYumi],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -6618,11 +6244,7 @@ const songGomensmoothie: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.ItouMarika,
-      MemberNames.InoueSayuri,
-      MemberNames.NakamotoHimeka,
-    ],
+    firstRow: [MemberNames.ItouMarika, MemberNames.InoueSayuri, MemberNames.NakamotoHimeka],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -6649,11 +6271,7 @@ const songMinikuiwatashi: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.EtouMisa,
-      MemberNames.SaitouYuuri,
-      MemberNames.ShinuchiMai,
-    ],
+    firstRow: [MemberNames.EtouMisa, MemberNames.SaitouYuuri, MemberNames.ShinuchiMai],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -6707,11 +6325,7 @@ const songMangetsugakieta: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.IkutaErika,
-      MemberNames.IkomaRina,
-      MemberNames.HoshinoMinami,
-    ],
+    firstRow: [MemberNames.IkutaErika, MemberNames.IkomaRina, MemberNames.HoshinoMinami],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -6738,11 +6352,7 @@ const songWatabokori: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.KitanoHinako,
-      MemberNames.TeradaRanze,
-      MemberNames.HoriMiona,
-    ],
+    firstRow: [MemberNames.KitanoHinako, MemberNames.TeradaRanze, MemberNames.HoriMiona],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -6769,10 +6379,7 @@ const songRyuseidiscotic: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.ShiraishiMai,
-      MemberNames.MatsumuraSayuri,
-    ],
+    firstRow: [MemberNames.ShiraishiMai, MemberNames.MatsumuraSayuri],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -6799,10 +6406,7 @@ const songBokyakutobigaku: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.AkimotoManatsu,
-      MemberNames.TakayamaKazumi,
-    ],
+    firstRow: [MemberNames.AkimotoManatsu, MemberNames.TakayamaKazumi],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -6979,7 +6583,7 @@ const songKogoseikibo: ISong = {
   creators: {
     lyrics: ["秋元康"],
     compose: ["吉田博"],
-    arrange: ["野中\"まさ\"雄一"],
+    arrange: ['野中"まさ"雄一'],
     direct: [],
   },
   performers: {
@@ -6989,9 +6593,7 @@ const songKogoseikibo: ISong = {
     unit: null,
   },
   formations: {
-    firstRow: [
-      MemberNames.NishinoNanase,
-    ],
+    firstRow: [MemberNames.NishinoNanase],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -7018,11 +6620,7 @@ const songThreefoldchoice: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.SaitouAsuka,
-      MemberNames.HoshinoMinami,
-      MemberNames.HoriMiona,
-    ],
+    firstRow: [MemberNames.SaitouAsuka, MemberNames.HoshinoMinami, MemberNames.HoriMiona],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -7076,10 +6674,7 @@ const songShitsurenshitara: ISong = {
     unit: "乃木團",
   },
   formations: {
-    firstRow: [
-      MemberNames.NakamotoHimeka,
-      MemberNames.NoujouAmi,
-    ],
+    firstRow: [MemberNames.NakamotoHimeka, MemberNames.NoujouAmi],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -7145,11 +6740,7 @@ const songKanjorokugosen: ISong = {
     unit: "犬メン",
   },
   formations: {
-    firstRow: [
-      MemberNames.IkomaRina,
-      MemberNames.ItouMarika,
-      MemberNames.InoueSayuri,
-    ],
+    firstRow: [MemberNames.IkomaRina, MemberNames.ItouMarika, MemberNames.InoueSayuri],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -7176,12 +6767,7 @@ const songKuchiyakusoku: ISong = {
     unit: "女子校カルテット",
   },
   formations: {
-    firstRow: [
-      MemberNames.AkimotoManatsu,
-      MemberNames.SakuraiReika,
-      MemberNames.NakadaKana,
-      MemberNames.WakatsukiYumi,
-    ],
+    firstRow: [MemberNames.AkimotoManatsu, MemberNames.SakuraiReika, MemberNames.NakadaKana, MemberNames.WakatsukiYumi],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -7210,11 +6796,7 @@ const songDarekahamikata: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.EtouMisa,
-      MemberNames.SakuraiReika,
-      MemberNames.WakatsukiYumi,
-    ],
+    firstRow: [MemberNames.EtouMisa, MemberNames.SakuraiReika, MemberNames.WakatsukiYumi],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -7380,7 +6962,7 @@ const songNazonorakugaki: ISong = {
   creators: {
     lyrics: ["秋元康"],
     compose: ["片桐周太郎"],
-    arrange: ["野中\"まさ\"雄一"],
+    arrange: ['野中"まさ"雄一'],
     direct: [],
   },
   performers: {
@@ -7390,11 +6972,7 @@ const songNazonorakugaki: ISong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.SaitouAsuka,
-      MemberNames.HoshinoMinami,
-      MemberNames.HoriMiona,
-    ],
+    firstRow: [MemberNames.SaitouAsuka, MemberNames.HoshinoMinami, MemberNames.HoriMiona],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],

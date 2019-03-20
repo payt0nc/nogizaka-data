@@ -30,7 +30,7 @@ console.log("Data processing finished.\n");
 
 // Store the processed data into several JSON files.
 
-fs.writeFile("./src/json/members.json", JSON.stringify(membersArray, null, 2), (err) => {
+fs.writeFile("./src/json/members.json", JSON.stringify(membersArray, null, 2), err => {
   if (err) {
     console.log(err);
   } else {
@@ -38,7 +38,7 @@ fs.writeFile("./src/json/members.json", JSON.stringify(membersArray, null, 2), (
   }
 });
 
-fs.writeFile("./src/json/singles.json", JSON.stringify(singlesArray, null, 2), (err) => {
+fs.writeFile("./src/json/singles.json", JSON.stringify(singlesArray, null, 2), err => {
   if (err) {
     console.log(err);
   } else {
@@ -46,7 +46,7 @@ fs.writeFile("./src/json/singles.json", JSON.stringify(singlesArray, null, 2), (
   }
 });
 
-fs.writeFile("./src/json/albums.json", JSON.stringify(albumsArray, null, 2), (err) => {
+fs.writeFile("./src/json/albums.json", JSON.stringify(albumsArray, null, 2), err => {
   if (err) {
     console.log(err);
   } else {
@@ -54,7 +54,7 @@ fs.writeFile("./src/json/albums.json", JSON.stringify(albumsArray, null, 2), (er
   }
 });
 
-fs.writeFile("./src/json/songs.json", JSON.stringify(songsArray, null, 2), (err) => {
+fs.writeFile("./src/json/songs.json", JSON.stringify(songsArray, null, 2), err => {
   if (err) {
     console.log(err);
   } else {
@@ -62,7 +62,7 @@ fs.writeFile("./src/json/songs.json", JSON.stringify(songsArray, null, 2), (err)
   }
 });
 
-fs.writeFile("./src/json/units.json", JSON.stringify(unitsArray, null, 2), (err) => {
+fs.writeFile("./src/json/units.json", JSON.stringify(unitsArray, null, 2), err => {
   if (err) {
     console.log(err);
   } else {
