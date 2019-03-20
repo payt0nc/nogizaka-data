@@ -2,7 +2,9 @@
   {
     "title": "帰り道は遠回りしたくなる",
     "single": "帰り道は遠回りしたくなる",
-    "albums": [],
+    "albums": [
+      "今が思い出になるまで"
+    ],
     "artwork": "path",
     "musicVideo": "path",
     "type": "title",
@@ -123,7 +125,9 @@
   {
     "title": "シンクロニシティ",
     "single": "シンクロニシティ",
-    "albums": [],
+    "albums": [
+      "今が思い出になるまで"
+    ],
     "artwork": "path",
     "musicVideo": "path",
     "type": "title",
@@ -183,7 +187,9 @@
   {
     "title": "いつかできるから今日できる",
     "single": "いつかできるから今日できる",
-    "albums": [],
+    "albums": [
+      "今が思い出になるまで"
+    ],
     "artwork": "path",
     "musicVideo": "path",
     "type": "title",
@@ -244,7 +250,9 @@
   {
     "title": "逃げ水",
     "single": "逃げ水",
-    "albums": [],
+    "albums": [
+      "今が思い出になるまで"
+    ],
     "artwork": "path",
     "musicVideo": "path",
     "type": "title",
@@ -1302,7 +1310,9 @@
   {
     "title": "日常",
     "single": "帰り道は遠回りしたくなる",
-    "albums": [],
+    "albums": [
+      "今が思い出になるまで"
+    ],
     "artwork": "path",
     "musicVideo": "path",
     "type": "under",
@@ -1361,7 +1371,9 @@
   {
     "title": "三角の空き地",
     "single": "ジコチューで行こう!",
-    "albums": [],
+    "albums": [
+      "今が思い出になるまで"
+    ],
     "artwork": "path",
     "musicVideo": "path",
     "type": "under",
@@ -1418,7 +1430,9 @@
   {
     "title": "新しい世界",
     "single": "シンクロニシティ",
-    "albums": [],
+    "albums": [
+      "今が思い出になるまで"
+    ],
     "artwork": "path",
     "musicVideo": "path",
     "type": "under",
@@ -1479,6 +1493,7 @@
     "title": "My rule",
     "single": "いつかできるから今日できる",
     "albums": [
+      "今が思い出になるまで",
       "僕だけの君〜Under Super Best〜"
     ],
     "artwork": "path",
@@ -1535,6 +1550,7 @@
     "title": "アンダー",
     "single": "逃げ水",
     "albums": [
+      "今が思い出になるまで",
       "僕だけの君〜Under Super Best〜"
     ],
     "artwork": "path",
@@ -2592,7 +2608,9 @@
   {
     "title": "キャラバンは眠らない",
     "single": "帰り道は遠回りしたくなる",
-    "albums": [],
+    "albums": [
+      "今が思い出になるまで"
+    ],
     "artwork": "path",
     "musicVideo": "path",
     "type": "coupling",
@@ -2645,7 +2663,9 @@
   {
     "title": "つづく",
     "single": "帰り道は遠回りしたくなる",
-    "albums": [],
+    "albums": [
+      "今が思い出になるまで"
+    ],
     "artwork": "path",
     "musicVideo": "path",
     "type": "solo",
@@ -2848,7 +2868,9 @@
   {
     "title": "自分じゃない感じ",
     "single": "ジコチューで行こう!",
-    "albums": [],
+    "albums": [
+      "今が思い出になるまで"
+    ],
     "artwork": "path",
     "musicVideo": "path",
     "type": "third generation",
@@ -3025,7 +3047,9 @@
   {
     "title": "Against",
     "single": "シンクロニシティ",
-    "albums": [],
+    "albums": [
+      "今が思い出になるまで"
+    ],
     "artwork": "path",
     "musicVideo": "path",
     "type": "first generation",
@@ -3118,7 +3142,9 @@
   {
     "title": "スカウトマン",
     "single": "シンクロニシティ",
-    "albums": [],
+    "albums": [
+      "今が思い出になるまで"
+    ],
     "artwork": "path",
     "musicVideo": "path",
     "type": "second generation",
@@ -3165,7 +3191,9 @@
   {
     "title": "トキトキメキメキ",
     "single": "シンクロニシティ",
-    "albums": [],
+    "albums": [
+      "今が思い出になるまで"
+    ],
     "artwork": "path",
     "musicVideo": "path",
     "type": "third generation",
@@ -3216,7 +3244,9 @@
   {
     "title": "トキトキメキメキ",
     "single": "シンクロニシティ",
-    "albums": [],
+    "albums": [
+      "今が思い出になるまで"
+    ],
     "artwork": "path",
     "musicVideo": "path",
     "type": "unit",
@@ -3395,7 +3425,9 @@
   {
     "title": "僕の衝動",
     "single": "いつかできるから今日できる",
-    "albums": [],
+    "albums": [
+      "今が思い出になるまで"
+    ],
     "artwork": "path",
     "musicVideo": "path",
     "type": "third generation",
@@ -3644,7 +3676,9 @@
   {
     "title": "ライブ神",
     "single": "逃げ水",
-    "albums": [],
+    "albums": [
+      "今が思い出になるまで"
+    ],
     "artwork": "path",
     "musicVideo": "path",
     "type": "second generation",
@@ -3694,7 +3728,9 @@
   {
     "title": "未来の答え",
     "single": "逃げ水",
-    "albums": [],
+    "albums": [
+      "今が思い出になるまで"
+    ],
     "artwork": "path",
     "musicVideo": "path",
     "type": "third generation",
@@ -8698,6 +8734,355 @@
         "yamazakirena",
         "watanabemiria",
         "wadamaaya"
+      ],
+      "secondRow": [],
+      "thirdRow": [],
+      "fourthRow": []
+    }
+  },
+  {
+    "title": "ありがちな恋愛",
+    "single": "",
+    "albums": [
+      "今が思い出になるまで"
+    ],
+    "artwork": "",
+    "musicVideo": "",
+    "type": "selected",
+    "creators": {
+      "lyrics": [
+        "秋元康"
+      ],
+      "compose": [
+        "杉山勝彦"
+      ],
+      "arrange": [
+        "野中\"まさ\"雄一"
+      ],
+      "direct": []
+    },
+    "performers": {
+      "center": null,
+      "fukujin": null,
+      "solo": null,
+      "unit": null
+    },
+    "formations": {
+      "firstRow": [
+        "akimotomanatsu",
+        "ikutaerika",
+        "itouriria",
+        "inouesayuri",
+        "umezawaminami",
+        "oozonomomoko",
+        "saitouasuka",
+        "saitouyuuri",
+        "sakuraireika",
+        "satoukaede",
+        "shiraishimai",
+        "shinuchimai",
+        "takayamakazumi",
+        "hoshinominami",
+        "horimiona",
+        "matsumurasayuri",
+        "yamashitamizuki",
+        "yodayuuki"
+      ],
+      "secondRow": [],
+      "thirdRow": [],
+      "fourthRow": []
+    }
+  },
+  {
+    "title": "もし君がいなければ",
+    "single": "",
+    "albums": [
+      "今が思い出になるまで"
+    ],
+    "artwork": "",
+    "musicVideo": "",
+    "type": "solo",
+    "creators": {
+      "lyrics": [
+        "秋元康"
+      ],
+      "compose": [
+        "杉山勝彦"
+      ],
+      "arrange": [
+        "杉山勝彦",
+        "有木竜郎"
+      ],
+      "direct": []
+    },
+    "performers": {
+      "center": null,
+      "fukujin": null,
+      "solo": "etoumisa",
+      "unit": null
+    },
+    "formations": {
+      "firstRow": [
+        "etoumisa"
+      ],
+      "secondRow": [],
+      "thirdRow": [],
+      "fourthRow": []
+    }
+  },
+  {
+    "title": "キスの手裏剣",
+    "single": "",
+    "albums": [
+      "今が思い出になるまで"
+    ],
+    "artwork": "",
+    "musicVideo": "",
+    "type": "fourth generation",
+    "creators": {
+      "lyrics": [
+        "秋元康"
+      ],
+      "compose": [
+        "山田智和"
+      ],
+      "arrange": [
+        "住谷翔平"
+      ],
+      "direct": []
+    },
+    "performers": {
+      "center": null,
+      "fukujin": null,
+      "solo": null,
+      "unit": null
+    },
+    "formations": {
+      "firstRow": [
+        "endousakura",
+        "kakiharuka",
+        "kakehashisayaka",
+        "kanagawasaya",
+        "kitagawayuri",
+        "shibatayuna",
+        "seimiyarei",
+        "tamuramayu",
+        "tsutsuiayame",
+        "hayakawaseira",
+        "yakubomio"
+      ],
+      "secondRow": [],
+      "thirdRow": [],
+      "fourthRow": []
+    }
+  },
+  {
+    "title": "頬杖をついては眠れない",
+    "single": "",
+    "albums": [
+      "今が思い出になるまで"
+    ],
+    "artwork": "",
+    "musicVideo": "",
+    "type": "unit",
+    "creators": {
+      "lyrics": [
+        "秋元康"
+      ],
+      "compose": [
+        "Super Mahirock"
+      ],
+      "arrange": [
+        "Huge M"
+      ],
+      "direct": []
+    },
+    "performers": {
+      "center": null,
+      "fukujin": null,
+      "solo": null,
+      "unit": ""
+    },
+    "formations": {
+      "firstRow": [
+        "akimotomanatsu",
+        "saitouyuuri",
+        "shiraishimai",
+        "shinuchimai",
+        "takayamakazumi"
+      ],
+      "secondRow": [],
+      "thirdRow": [],
+      "fourthRow": []
+    }
+  },
+  {
+    "title": "ぽっち党",
+    "single": "",
+    "albums": [
+      "今が思い出になるまで"
+    ],
+    "artwork": "",
+    "musicVideo": "",
+    "type": "unit",
+    "creators": {
+      "lyrics": [
+        "秋元康"
+      ],
+      "compose": [
+        "庄司裕"
+      ],
+      "arrange": [
+        "庄司裕"
+      ],
+      "direct": []
+    },
+    "performers": {
+      "center": null,
+      "fukujin": null,
+      "solo": null,
+      "unit": ""
+    },
+    "formations": {
+      "firstRow": [
+        "ikutaerika",
+        "kuboshiori",
+        "sakuraireika"
+      ],
+      "secondRow": [],
+      "thirdRow": [],
+      "fourthRow": []
+    }
+  },
+  {
+    "title": "さゆりんご募集中",
+    "single": "",
+    "albums": [
+      "今が思い出になるまで"
+    ],
+    "artwork": "",
+    "musicVideo": "",
+    "type": "unit",
+    "creators": {
+      "lyrics": [
+        "秋元康"
+      ],
+      "compose": [
+        "浦島健太",
+        "菊池博人"
+      ],
+      "arrange": [
+        "浦島健太",
+        "菊池博人"
+      ],
+      "direct": []
+    },
+    "performers": {
+      "center": null,
+      "fukujin": null,
+      "solo": null,
+      "unit": "さゆりんご軍団"
+    },
+    "formations": {
+      "firstRow": [
+        "matsumurasayuri",
+        "itoukarin",
+        "sasakikotoko",
+        "teradaranze"
+      ],
+      "secondRow": [],
+      "thirdRow": [],
+      "fourthRow": []
+    }
+  },
+  {
+    "title": "ゴルゴンゾーラ",
+    "single": "",
+    "albums": [
+      "今が思い出になるまで"
+    ],
+    "artwork": "",
+    "musicVideo": "",
+    "type": "unit",
+    "creators": {
+      "lyrics": [
+        "秋元康"
+      ],
+      "compose": [
+        "BASEMINT"
+      ],
+      "arrange": [
+        "BASEMINT"
+      ],
+      "direct": []
+    },
+    "performers": {
+      "center": null,
+      "fukujin": null,
+      "solo": null,
+      "unit": ""
+    },
+    "formations": {
+      "firstRow": [
+        "kitanohinako",
+        "horimiona",
+        "watanabemiria"
+      ],
+      "secondRow": [],
+      "thirdRow": [],
+      "fourthRow": []
+    }
+  },
+  {
+    "title": "もうすぐ～ザンビ伝説～",
+    "single": "",
+    "albums": [
+      "今が思い出になるまで"
+    ],
+    "artwork": "",
+    "musicVideo": "",
+    "type": "special",
+    "creators": {
+      "lyrics": [
+        "秋元康"
+      ],
+      "compose": [
+        "渡辺剛"
+      ],
+      "arrange": [
+        "渡辺剛"
+      ],
+      "direct": []
+    },
+    "performers": {
+      "center": null,
+      "fukujin": null,
+      "solo": null,
+      "unit": null
+    },
+    "formations": {
+      "firstRow": [
+        "akimotomanatsu",
+        "itoujunna",
+        "itouriria",
+        "iwamotorenka",
+        "umezawaminami",
+        "oozonomomoko",
+        "kuboshiori",
+        "saitouasuka",
+        "sakaguchitamami",
+        "satoukaede",
+        "shinuchimai",
+        "suzukiayane",
+        "teradaranze",
+        "nakamurareno",
+        "hoshinominami",
+        "horimiona",
+        "mukaihazuki",
+        "yamashitamizuki",
+        "yoshidaayanochristie",
+        "yodayuuki",
+        "watanabemiria"
       ],
       "secondRow": [],
       "thirdRow": [],

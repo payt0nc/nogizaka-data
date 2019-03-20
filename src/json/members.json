@@ -7141,6 +7141,271 @@
     }
   },
   {
+    "name": "saitouchiharu",
+    "nameNotations": {
+      "lastName": "斎藤",
+      "firstName": "ちはる",
+      "lastNameFurigana": "さいとう",
+      "firstNameFurigana": "ちはる",
+      "lastNameEn": "saito",
+      "firstNameEn": "chiharu"
+    },
+    "profileImage": {
+      "large": "",
+      "small": ""
+    },
+    "singleImages": null,
+    "join": "1st",
+    "birthday": "1997-02-17",
+    "height": 166,
+    "bloodType": "a",
+    "sites": [],
+    "photoAlbums": [],
+    "units": [
+      {
+        "name": "チューリップ",
+        "type": "corp"
+      }
+    ],
+    "positionsHistory": [
+      {
+        "singleNumber": 22,
+        "position": "none"
+      },
+      {
+        "singleNumber": 21,
+        "position": "none"
+      },
+      {
+        "singleNumber": 20,
+        "position": "under"
+      },
+      {
+        "singleNumber": 19,
+        "position": "under"
+      },
+      {
+        "singleNumber": 18,
+        "position": "under"
+      },
+      {
+        "singleNumber": 17,
+        "position": "under"
+      },
+      {
+        "singleNumber": 16,
+        "position": "under"
+      },
+      {
+        "singleNumber": 15,
+        "position": "under"
+      },
+      {
+        "singleNumber": 14,
+        "position": "under"
+      },
+      {
+        "singleNumber": 13,
+        "position": "under"
+      },
+      {
+        "singleNumber": 12,
+        "position": "under"
+      },
+      {
+        "singleNumber": 11,
+        "position": "under"
+      },
+      {
+        "singleNumber": 10,
+        "position": "selected"
+      },
+      {
+        "singleNumber": 9,
+        "position": "under"
+      },
+      {
+        "singleNumber": 8,
+        "position": "under"
+      },
+      {
+        "singleNumber": 7,
+        "position": "under"
+      },
+      {
+        "singleNumber": 6,
+        "position": "under"
+      },
+      {
+        "singleNumber": 5,
+        "position": "under"
+      },
+      {
+        "singleNumber": 4,
+        "position": "under"
+      },
+      {
+        "singleNumber": 3,
+        "position": "under"
+      },
+      {
+        "singleNumber": 2,
+        "position": "under"
+      },
+      {
+        "singleNumber": 1,
+        "position": "under"
+      }
+    ],
+    "positionsCounter": {
+      "center": 0,
+      "fukujin": 0,
+      "selected": 1,
+      "under": 19
+    },
+    "graduation": {
+      "isGraduated": true,
+      "graduatedDate": "2018-07-16"
+    }
+  },
+  {
+    "name": "sagaraiori",
+    "nameNotations": {
+      "lastName": "相楽",
+      "firstName": "伊織",
+      "lastNameFurigana": "さがら",
+      "firstNameFurigana": "いおり",
+      "lastNameEn": "sagara",
+      "firstNameEn": "iori"
+    },
+    "profileImage": {
+      "large": "",
+      "small": ""
+    },
+    "singleImages": null,
+    "join": "2nd",
+    "birthday": "1997-11-26",
+    "height": 164,
+    "bloodType": "o",
+    "sites": [
+      {
+        "title": "Instagram",
+        "url": "www.instagram.com/_iori.sagara_/"
+      },
+      {
+        "title": "755",
+        "url": "7gogo.jp/sagara-iori"
+      }
+    ],
+    "photoAlbums": [],
+    "units": [
+      {
+        "name": "真夏さんリスペクト軍団",
+        "type": "corp"
+      }
+    ],
+    "positionsHistory": [
+      {
+        "singleNumber": 22,
+        "position": "none"
+      },
+      {
+        "singleNumber": 21,
+        "position": "none"
+      },
+      {
+        "singleNumber": 20,
+        "position": "under"
+      },
+      {
+        "singleNumber": 19,
+        "position": "under"
+      },
+      {
+        "singleNumber": 18,
+        "position": "under"
+      },
+      {
+        "singleNumber": 17,
+        "position": "under"
+      },
+      {
+        "singleNumber": 16,
+        "position": "under"
+      },
+      {
+        "singleNumber": 15,
+        "position": "under"
+      },
+      {
+        "singleNumber": 14,
+        "position": "under"
+      },
+      {
+        "singleNumber": 13,
+        "position": "under"
+      },
+      {
+        "singleNumber": 12,
+        "position": "under"
+      },
+      {
+        "singleNumber": 11,
+        "position": "selected"
+      },
+      {
+        "singleNumber": 10,
+        "position": "trainee"
+      },
+      {
+        "singleNumber": 9,
+        "position": "trainee"
+      },
+      {
+        "singleNumber": 8,
+        "position": "skip"
+      },
+      {
+        "singleNumber": 7,
+        "position": "skip"
+      },
+      {
+        "singleNumber": 6,
+        "position": "skip"
+      },
+      {
+        "singleNumber": 5,
+        "position": "none"
+      },
+      {
+        "singleNumber": 4,
+        "position": "none"
+      },
+      {
+        "singleNumber": 3,
+        "position": "none"
+      },
+      {
+        "singleNumber": 2,
+        "position": "none"
+      },
+      {
+        "singleNumber": 1,
+        "position": "none"
+      }
+    ],
+    "positionsCounter": {
+      "center": 0,
+      "fukujin": 0,
+      "selected": 1,
+      "under": 9
+    },
+    "graduation": {
+      "isGraduated": true,
+      "graduatedDate": "2018-07-16"
+    }
+  },
+  {
     "name": "ikomarina",
     "nameNotations": {
       "lastName": "生駒",
@@ -7294,14 +7559,14 @@
     }
   },
   {
-    "name": "nakamotohimeka",
+    "name": "kawamuramahiro",
     "nameNotations": {
-      "lastName": "中元",
-      "firstName": "日芽香",
-      "lastNameFurigana": "なかもと",
-      "firstNameFurigana": "ひめか",
-      "lastNameEn": "nakamoto",
-      "firstNameEn": "himeka"
+      "lastName": "川村",
+      "firstName": "真洋",
+      "lastNameFurigana": "かわむら",
+      "firstNameFurigana": "まひろ",
+      "lastNameEn": "kawamura",
+      "firstNameEn": "mahiro"
     },
     "profileImage": {
       "large": "",
@@ -7309,20 +7574,28 @@
     },
     "singleImages": null,
     "join": "1st",
-    "birthday": "1996-04-13",
-    "height": 161,
-    "bloodType": "o",
+    "birthday": "1995-07-23",
+    "height": 156,
+    "bloodType": "a",
     "sites": [
       {
-        "title": "Official",
-        "url": "nakamotohimeka.com/"
+        "title": "Instagram",
+        "url": "www.instagram.com/mahiro_kawamura_official/"
+      },
+      {
+        "title": "Twitter",
+        "url": "twitter.com/Rotty_Rotty23"
+      },
+      {
+        "title": "755",
+        "url": "7gogo.jp/kawamura-mahiro"
       }
     ],
     "photoAlbums": [],
     "units": [
       {
-        "name": "サンクエトワール",
-        "type": "unit"
+        "name": "チューリップ",
+        "type": "corp"
       }
     ],
     "positionsHistory": [
@@ -7340,7 +7613,7 @@
       },
       {
         "singleNumber": 19,
-        "position": "none"
+        "position": "under"
       },
       {
         "singleNumber": 18,
@@ -7348,19 +7621,19 @@
       },
       {
         "singleNumber": 17,
-        "position": "skip"
+        "position": "none"
       },
       {
         "singleNumber": 16,
-        "position": "selected"
+        "position": "under"
       },
       {
         "singleNumber": 15,
-        "position": "selected"
+        "position": "under"
       },
       {
         "singleNumber": 14,
-        "position": "under"
+        "position": "none"
       },
       {
         "singleNumber": 13,
@@ -7384,11 +7657,11 @@
       },
       {
         "singleNumber": 8,
-        "position": "under"
+        "position": "selected"
       },
       {
         "singleNumber": 7,
-        "position": "selected"
+        "position": "under"
       },
       {
         "singleNumber": 6,
@@ -7412,18 +7685,18 @@
       },
       {
         "singleNumber": 1,
-        "position": "under"
+        "position": "selected"
       }
     ],
     "positionsCounter": {
       "center": 0,
       "fukujin": 0,
-      "selected": 3,
-      "under": 14
+      "selected": 2,
+      "under": 15
     },
     "graduation": {
       "isGraduated": true,
-      "graduatedDate": "2017-12-31"
+      "graduatedDate": "2018-03-31"
     }
   },
   {
@@ -7561,6 +7834,139 @@
     "graduation": {
       "isGraduated": true,
       "graduatedDate": "2017-12-23"
+    }
+  },
+  {
+    "name": "nakamotohimeka",
+    "nameNotations": {
+      "lastName": "中元",
+      "firstName": "日芽香",
+      "lastNameFurigana": "なかもと",
+      "firstNameFurigana": "ひめか",
+      "lastNameEn": "nakamoto",
+      "firstNameEn": "himeka"
+    },
+    "profileImage": {
+      "large": "",
+      "small": ""
+    },
+    "singleImages": null,
+    "join": "1st",
+    "birthday": "1996-04-13",
+    "height": 161,
+    "bloodType": "o",
+    "sites": [
+      {
+        "title": "Official",
+        "url": "nakamotohimeka.com/"
+      }
+    ],
+    "photoAlbums": [],
+    "units": [
+      {
+        "name": "サンクエトワール",
+        "type": "unit"
+      }
+    ],
+    "positionsHistory": [
+      {
+        "singleNumber": 22,
+        "position": "none"
+      },
+      {
+        "singleNumber": 21,
+        "position": "none"
+      },
+      {
+        "singleNumber": 20,
+        "position": "none"
+      },
+      {
+        "singleNumber": 19,
+        "position": "none"
+      },
+      {
+        "singleNumber": 18,
+        "position": "under"
+      },
+      {
+        "singleNumber": 17,
+        "position": "skip"
+      },
+      {
+        "singleNumber": 16,
+        "position": "selected"
+      },
+      {
+        "singleNumber": 15,
+        "position": "selected"
+      },
+      {
+        "singleNumber": 14,
+        "position": "under"
+      },
+      {
+        "singleNumber": 13,
+        "position": "under"
+      },
+      {
+        "singleNumber": 12,
+        "position": "under"
+      },
+      {
+        "singleNumber": 11,
+        "position": "under"
+      },
+      {
+        "singleNumber": 10,
+        "position": "under"
+      },
+      {
+        "singleNumber": 9,
+        "position": "under"
+      },
+      {
+        "singleNumber": 8,
+        "position": "under"
+      },
+      {
+        "singleNumber": 7,
+        "position": "selected"
+      },
+      {
+        "singleNumber": 6,
+        "position": "under"
+      },
+      {
+        "singleNumber": 5,
+        "position": "under"
+      },
+      {
+        "singleNumber": 4,
+        "position": "under"
+      },
+      {
+        "singleNumber": 3,
+        "position": "under"
+      },
+      {
+        "singleNumber": 2,
+        "position": "under"
+      },
+      {
+        "singleNumber": 1,
+        "position": "under"
+      }
+    ],
+    "positionsCounter": {
+      "center": 0,
+      "fukujin": 0,
+      "selected": 3,
+      "under": 14
+    },
+    "graduation": {
+      "isGraduated": true,
+      "graduatedDate": "2017-12-31"
     }
   },
   {

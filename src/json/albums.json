@@ -1,5 +1,489 @@
 [
   {
+    "title": "今が思い出になるまで",
+    "number": 5,
+    "release": "2019-04-17",
+    "hasArtworks": false,
+    "artworks": [
+      {
+        "type": "L",
+        "urls": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_medium.png",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_small.png"
+        }
+      },
+      {
+        "type": "A",
+        "urls": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_medium.png",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_small.png"
+        }
+      },
+      {
+        "type": "B",
+        "urls": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_medium.png",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_small.png"
+        }
+      },
+      {
+        "type": "T",
+        "urls": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_medium.png",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_small.png"
+        }
+      }
+    ],
+    "shopping": [
+      {
+        "title": "iTunes",
+        "url": "url"
+      }
+    ],
+    "songs": [
+      {
+        "number": 1,
+        "title": "ありがちな恋愛",
+        "inCdType": [
+          "L",
+          "A",
+          "B",
+          "T"
+        ],
+        "type": "selected",
+        "artwork": "",
+        "focusPerformers": null
+      },
+      {
+        "number": 2,
+        "title": "逃げ水",
+        "inCdType": [
+          "L",
+          "A",
+          "B",
+          "T"
+        ],
+        "type": "title",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "center",
+          "name": [
+            "oozonomomoko",
+            "yodayuuki"
+          ]
+        }
+      },
+      {
+        "number": 3,
+        "title": "いつかできるから今日できる",
+        "inCdType": [
+          "L",
+          "A",
+          "B",
+          "T"
+        ],
+        "type": "title",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "center",
+          "name": [
+            "nishinonanase",
+            "saitouasuka"
+          ]
+        }
+      },
+      {
+        "number": 4,
+        "title": "シンクロニシティ",
+        "inCdType": [
+          "L",
+          "A",
+          "B",
+          "T"
+        ],
+        "type": "title",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "center",
+          "name": [
+            "shiraishimai"
+          ]
+        }
+      },
+      {
+        "number": 5,
+        "title": "ジコチューで行こう！",
+        "inCdType": [
+          "L",
+          "A",
+          "B",
+          "T"
+        ],
+        "type": "title",
+        "artwork": "",
+        "focusPerformers": null
+      },
+      {
+        "number": 6,
+        "title": "帰り道は遠回りしたくなる",
+        "inCdType": [
+          "L",
+          "A",
+          "B",
+          "T"
+        ],
+        "type": "title",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "center",
+          "name": [
+            "nishinonanase"
+          ]
+        }
+      },
+      {
+        "number": 7,
+        "title": "アンダー",
+        "inCdType": [
+          "L",
+          "A",
+          "B",
+          "T"
+        ],
+        "type": "under",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "center",
+          "name": [
+            "nakamotohimeka",
+            "kitanohinako"
+          ]
+        }
+      },
+      {
+        "number": 8,
+        "title": "My rule",
+        "inCdType": [
+          "L",
+          "A",
+          "B",
+          "T"
+        ],
+        "type": "under",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "center",
+          "name": [
+            "higuchihina"
+          ]
+        }
+      },
+      {
+        "number": 9,
+        "title": "新しい世界",
+        "inCdType": [
+          "L",
+          "A",
+          "B",
+          "T"
+        ],
+        "type": "under",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "center",
+          "name": [
+            "suzukiayane"
+          ]
+        }
+      },
+      {
+        "number": 10,
+        "title": "三角の空き地",
+        "inCdType": [
+          "L",
+          "A",
+          "B",
+          "T"
+        ],
+        "type": "under",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "center",
+          "name": [
+            "nakadakana"
+          ]
+        }
+      },
+      {
+        "number": 11,
+        "title": "日常",
+        "inCdType": [
+          "L",
+          "A",
+          "B",
+          "T"
+        ],
+        "type": "under",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "center",
+          "name": [
+            "kitanohinako"
+          ]
+        }
+      },
+      {
+        "number": 12,
+        "title": "もし君がいなければ",
+        "inCdType": [
+          "L"
+        ],
+        "type": "solo",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "solo",
+          "name": [
+            "etoumisa"
+          ]
+        }
+      },
+      {
+        "number": 13,
+        "title": "キスの手裏剣",
+        "inCdType": [
+          "L"
+        ],
+        "type": "fourth generation",
+        "artwork": "",
+        "focusPerformers": null
+      },
+      {
+        "number": 14,
+        "title": "Against",
+        "inCdType": [
+          "L"
+        ],
+        "type": "first generation",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "center",
+          "name": [
+            "ikomarina"
+          ]
+        }
+      },
+      {
+        "number": 15,
+        "title": "つづく",
+        "inCdType": [
+          "L"
+        ],
+        "type": "solo",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "solo",
+          "name": [
+            "nishinonanase"
+          ]
+        }
+      },
+      {
+        "number": 16,
+        "title": "頬杖をついては眠れない",
+        "inCdType": [
+          "A"
+        ],
+        "type": "unit",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "unit",
+          "name": [
+            "akimotomanatsu",
+            "saitouyuuri",
+            "shiraishimai",
+            "shinuchimai",
+            "takayamakazumi"
+          ]
+        }
+      },
+      {
+        "number": 17,
+        "title": "ぽっち党",
+        "inCdType": [
+          "A"
+        ],
+        "type": "unit",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "unit",
+          "name": [
+            "ikutaerika",
+            "kuboshiori",
+            "sakuraireika"
+          ]
+        }
+      },
+      {
+        "number": 18,
+        "title": "僕の衝動",
+        "inCdType": [
+          "A"
+        ],
+        "type": "third generation",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "center",
+          "name": [
+            "itouriria"
+          ]
+        }
+      },
+      {
+        "number": 19,
+        "title": "スカウトマン",
+        "inCdType": [
+          "A"
+        ],
+        "type": "second generation",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "center",
+          "name": [
+            "horimiona"
+          ]
+        }
+      },
+      {
+        "number": 20,
+        "title": "さゆりんご募集中",
+        "inCdType": [
+          "B"
+        ],
+        "type": "unit",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "unit",
+          "name": [
+            "matsumurasayuri",
+            "itoukarin",
+            "sasakikotoko",
+            "teradaranze"
+          ]
+        }
+      },
+      {
+        "number": 21,
+        "title": "ゴルゴンゾーラ",
+        "inCdType": [
+          "B"
+        ],
+        "type": "unit",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "unit",
+          "name": [
+            "kitanohinako",
+            "horimiona",
+            "watanabemiria"
+          ]
+        }
+      },
+      {
+        "number": 22,
+        "title": "トキトキメキメキ",
+        "inCdType": [
+          "B"
+        ],
+        "type": "unit",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "unit",
+          "name": [
+            "oozonomomoko",
+            "kuboshiori",
+            "yamashitamizuki",
+            "yodayuuki"
+          ]
+        }
+      },
+      {
+        "number": 23,
+        "title": "未来の答え",
+        "inCdType": [
+          "B"
+        ],
+        "type": "third generation",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "center",
+          "name": [
+            "kuboshiori",
+            "yamashitamizuki"
+          ]
+        }
+      },
+      {
+        "number": 24,
+        "title": "もうすぐ～ザンビ伝説～",
+        "inCdType": [
+          "T"
+        ],
+        "type": "special",
+        "artwork": "",
+        "focusPerformers": null
+      },
+      {
+        "number": 25,
+        "title": "キャラバンは眠らない",
+        "inCdType": [
+          "T"
+        ],
+        "type": "coupling",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "center",
+          "name": [
+            "saitouasuka"
+          ]
+        }
+      },
+      {
+        "number": 26,
+        "title": "ライブ神",
+        "inCdType": [
+          "T"
+        ],
+        "type": "second generation",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "center",
+          "name": [
+            "horimiona"
+          ]
+        }
+      },
+      {
+        "number": 27,
+        "title": "自分じゃない感じ",
+        "inCdType": [
+          "T"
+        ],
+        "type": "third generation",
+        "artwork": "",
+        "focusPerformers": {
+          "type": "center",
+          "name": [
+            "yamashitamizuki"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "title": "僕だけの君〜Under Super Best〜",
     "number": 4,
     "release": "2018-01-10",
