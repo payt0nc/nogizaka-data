@@ -10,6 +10,7 @@ export enum SongType {
   SecondGeneration = "second generation",
   ThirdGeneration = "third generation",
   FourthGeneration = "fourth generation",
+  Special = "special",
 }
 
 export enum CdType {
