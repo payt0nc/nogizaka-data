@@ -1,4 +1,4 @@
-import { FukujinType, MemberNames, SongType } from "../common/constants";
+import { FukujinType, MemberNames, SongType, UnitType } from "../common/constants";
 import { ISong } from "../types/ISong";
 
 // SINGLE SONGS
@@ -5903,17 +5903,308 @@ const songShiroikumoninotte: ISong = {
       MemberNames.NoujouAmi,
       MemberNames.HashimotoNanami,
       MemberNames.HoshinoMinami,
-      MemberNames.MatsumuraSayuri
+      MemberNames.MatsumuraSayuri,
     ],
     secondRow: [],
     thirdRow: [],
-    fourthRow: []
-  }
+    fourthRow: [],
+  },
 };
 
-// ALBUM SONGS
-// NOTE: Songs below are album-only songs (which means
-// the songs didn't appear in singles).
+/**
+ * ALBUM SONGS
+ * NOTE: Songs below are album-only songs (which means the songs didn't appear in singles).
+ */
+
+// 5th album songs
+
+const arigachinarenai: ISong = {
+  title: "ありがちな恋愛",
+  single: null,
+  albums: ["今が思い出になるまで"],
+  artwork: "",
+  musicVideo: "",
+  type: SongType.Selected,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["杉山勝彦"],
+    arrange: ["野中\"まさ\"雄一"],
+    direct: [],
+  },
+  performers: {
+    center: null,
+    fukujin: null,
+    solo: null,
+    unit: null,
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.IkutaErika,
+      MemberNames.ItouRiria,
+      MemberNames.InoueSayuri,
+      MemberNames.UmezawaMinami,
+      MemberNames.OozonoMomoko,
+      MemberNames.SaitouAsuka,
+      MemberNames.SaitouYuuri,
+      MemberNames.SakuraiReika,
+      MemberNames.SatouKaede,
+      MemberNames.ShiraishiMai,
+      MemberNames.ShinuchiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.YamashitaMizuki,
+      MemberNames.YodaYuuki,
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: [],
+  },
+};
+
+const moshikimigainakereba: ISong = {
+  title: "もし君がいなければ",
+  single: null,
+  albums: ["今が思い出になるまで"],
+  artwork: "",
+  musicVideo: "",
+  type: SongType.Solo,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["杉山勝彦"],
+    arrange: ["杉山勝彦", "有木竜郎"],
+    direct: [],
+  },
+  performers: {
+    center: null,
+    fukujin: null,
+    solo: MemberNames.EtouMisa,
+    unit: null,
+  },
+  formations: {
+    firstRow: [MemberNames.EtouMisa],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: [],
+  },
+};
+
+const kissnoshuriken: ISong = {
+  title: "キスの手裏剣",
+  single: null,
+  albums: ["今が思い出になるまで"],
+  artwork: "",
+  musicVideo: "",
+  type: SongType.FourthGeneration,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["山田智和"],
+    arrange: ["住谷翔平"],
+    direct: [],
+  },
+  performers: {
+    center: null,
+    fukujin: null,
+    solo: null,
+    unit: null,
+  },
+  formations: {
+    firstRow: [
+      MemberNames.EndouSakura,
+      MemberNames.KakiHaruka,
+      MemberNames.KakehashiSayaka,
+      MemberNames.KanagawaSaya,
+      MemberNames.KitagawaYuri,
+      MemberNames.ShibataYuna,
+      MemberNames.SeimiyaRei,
+      MemberNames.TamuraMayu,
+      MemberNames.TsutsuiAyame,
+      MemberNames.HayakawaSeira,
+      MemberNames.YakuboMio,
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: [],
+  },
+};
+
+const hoozue: ISong = {
+  title: "頬杖をついては眠れない",
+  single: null,
+  albums: ["今が思い出になるまで"],
+  artwork: "",
+  musicVideo: "",
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Super Mahirock"],
+    arrange: ["Huge M"],
+    direct: [],
+  },
+  performers: {
+    center: null,
+    fukujin: null,
+    solo: null,
+    unit: "",
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.SaitouYuuri,
+      MemberNames.ShiraishiMai,
+      MemberNames.ShinuchiMai,
+      MemberNames.TakayamaKazumi,
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: [],
+  },
+};
+
+const pocchito: ISong = {
+  title: "ぽっち党",
+  single: null,
+  albums: ["今が思い出になるまで"],
+  artwork: "",
+  musicVideo: "",
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["庄司裕"],
+    arrange: ["庄司裕"],
+    direct: [],
+  },
+  performers: {
+    center: null,
+    fukujin: null,
+    solo: null,
+    unit: "",
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IkutaErika,
+      MemberNames.KuboShiori,
+      MemberNames.SakuraiReika,
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: [],
+  },
+};
+
+const sayuringoboshuchu: ISong = {
+  title: "さゆりんご募集中",
+  single: null,
+  albums: ["今が思い出になるまで"],
+  artwork: "",
+  musicVideo: "",
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["浦島健太", "菊池博人"],
+    arrange: ["浦島健太", "菊池博人"],
+    direct: [],
+  },
+  performers: {
+    center: null,
+    fukujin: null,
+    solo: null,
+    unit: "さゆりんご軍団",
+  },
+  formations: {
+    firstRow: [
+      MemberNames.MatsumuraSayuri,
+      MemberNames.ItouKarin,
+      MemberNames.SasakiKotoko,
+      MemberNames.TeradaRanze,
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: [],
+  },
+};
+
+const gorugonzora: ISong = {
+  title: "ゴルゴンゾーラ",
+  single: null,
+  albums: ["今が思い出になるまで"],
+  artwork: "",
+  musicVideo: "",
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["BASEMINT"],
+    arrange: ["BASEMINT"],
+    direct: [],
+  },
+  performers: {
+    center: null,
+    fukujin: null,
+    solo: null,
+    unit: "",
+  },
+  formations: {
+    firstRow: [
+      MemberNames.KitanoHinako,
+      MemberNames.HoriMiona,
+      MemberNames.WatanabeMiria,
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: [],
+  },
+};
+
+const zambi: ISong = {
+  title: "もうすぐ～ザンビ伝説～",
+  single: null,
+  albums: ["今が思い出になるまで"],
+  artwork: "",
+  musicVideo: "",
+  type: SongType.Special,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["渡辺剛"],
+    arrange: ["渡辺剛"],
+    direct: [],
+  },
+  performers: {
+    center: null,
+    fukujin: null,
+    solo: null,
+    unit: null,
+  },
+  formations: {
+    firstRow: [
+      MemberNames.AkimotoManatsu,
+      MemberNames.ItouJunna,
+      MemberNames.ItouRiria,
+      MemberNames.IwamotoRenka,
+      MemberNames.UmezawaMinami,
+      MemberNames.OozonoMomoko,
+      MemberNames.KuboShiori,
+      MemberNames.SaitouAsuka,
+      MemberNames.SakaguchiTamami,
+      MemberNames.SatouKaede,
+      MemberNames.ShinuchiMai,
+      MemberNames.SuzukiAyane,
+      MemberNames.TeradaRanze,
+      MemberNames.NakamuraReno,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona,
+      MemberNames.MukaiHazuki,
+      MemberNames.YamashitaMizuki,
+      MemberNames.YoshidaAyanoChristie,
+      MemberNames.YodaYuuki,
+      MemberNames.WatanabeMiria,
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: [],
+  },
+};
 
 // 4th album songs
 
@@ -7367,4 +7658,12 @@ export const songs = {
   "自惚れビーチ": songUnuborebeach,
   "その女": songSonohito,
   "誰よりそばにいたい": songDareyorisobaniitai,
+  "ありがちな恋愛": arigachinarenai,
+  "もし君がいなければ": moshikimigainakereba,
+  "キスの手裏剣": kissnoshuriken,
+  "頬杖をついては眠れない": hoozue,
+  "ぽっち党": pocchito,
+  "さゆりんご募集中": sayuringoboshuchu,
+  "ゴルゴンゾーラ": gorugonzora,
+  "もうすぐ～ザンビ伝説～": zambi,
 };
