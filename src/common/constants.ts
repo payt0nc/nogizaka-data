@@ -2,12 +2,14 @@ export enum SongType {
   None = "none",
   Title = "title",
   Coupling = "coupling",
+  Selected = "selected",
   Under = "under",
   Unit = "unit",
   Solo = "solo",
   FirstGeneration = "first generation",
   SecondGeneration = "second generation",
-  ThirdGeneration = "third generation"
+  ThirdGeneration = "third generation",
+  FourthGeneration = "fourth generation",
 }
 
 export enum CdType {
