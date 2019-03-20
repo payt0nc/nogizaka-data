@@ -5,6 +5,7 @@ const bokudakenokimi: IAlbum = {
   title: "僕だけの君〜Under Super Best〜",
   number: 4,
   release: "2018-01-10",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.L1,
@@ -253,6 +254,7 @@ const umaretekara: IAlbum = {
   title: "生まれてから初めて見た夢",
   number: 3,
   release: "2017-05-24",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -565,6 +567,7 @@ const sorezorenoisu: IAlbum = {
   title: "それぞれの椅子",
   number: 2,
   release: "2016-05-25",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -909,6 +912,7 @@ const tomeinairo: IAlbum = {
   title: "透明な色",
   number: 1,
   release: "2015-01-27",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -1179,7 +1183,7 @@ const tomeinairo: IAlbum = {
 
 export const albums = {
   "僕だけの君〜Under Super Best〜": bokudakenokimi,
-  生まれてから初めて見た夢: umaretekara,
-  それぞれの椅子: sorezorenoisu,
-  透明な色: tomeinairo
+  "生まれてから初めて見た夢": umaretekara,
+  "それぞれの椅子": sorezorenoisu,
+  "透明な色": tomeinairo
 };

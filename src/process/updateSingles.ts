@@ -1,8 +1,6 @@
 import { FocusPerformersType, SongType } from "../common/constants";
 import { ISingle } from "../types/ISingle";
-import { ICdSong, ICdArtwork } from "../types/ICd";
 import { ISong } from "../types/ISong";
-import { IAlbum } from "../types/IAlbum";
 
 export const updateSingles = (singlesList: ISingle[], songsList: ISong[]) => {
   recordSingleArtworks(singlesList);
@@ -12,28 +10,39 @@ export const updateSingles = (singlesList: ISingle[], songsList: ISong[]) => {
 
 const recordSingleArtworks = (singlesList: ISingle[]) => {
   const artworkBasename =
-    "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/";
+    "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/";
   singlesList.forEach(single => {
-    single.artworks.forEach(artwork => {
-      artwork.urls.large =
-        artworkBasename +
-        single.number.toString() +
-        "/" +
-        artwork.type +
-        "_450.jpg";
-      artwork.urls.medium =
-        artworkBasename +
-        single.number.toString() +
-        "/" +
-        artwork.type +
-        "_150.jpg";
-      artwork.urls.small =
-        artworkBasename +
-        single.number.toString() +
-        "/" +
-        artwork.type +
-        "_100.jpg";
-    });
+    if (single.hasArtworks) {
+      single.artworks.forEach(artwork => {
+        artwork.urls.large =
+          artworkBasename +
+          "singles/" +
+          single.number.toString() +
+          "/" +
+          artwork.type +
+          "_450.jpg";
+        artwork.urls.medium =
+          artworkBasename +
+          "singles/" +
+          single.number.toString() +
+          "/" +
+          artwork.type +
+          "_150.jpg";
+        artwork.urls.small =
+          artworkBasename +
+          "singles/" +
+          single.number.toString() +
+          "/" +
+          artwork.type +
+          "_100.jpg";
+      });
+    } else {
+      single.artworks.forEach(artwork => {
+        artwork.urls.large = artworkBasename + "artwork_no_image_large.png";
+        artwork.urls.medium = artworkBasename + "artwork_no_image_medium.png";
+        artwork.urls.small = artworkBasename + "artwork_no_image_small.png";
+      });
+    }
   });
 };
 

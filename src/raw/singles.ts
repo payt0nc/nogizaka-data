@@ -5,6 +5,7 @@ const kaerimichi: ISingle = {
   title: "帰り道は遠回りしたくなる",
   number: 22,
   release: "2018-11-14",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -121,6 +122,7 @@ const jikochu: ISingle = {
   title: "ジコチューで行こう!",
   number: 21,
   release: "2018-08-08",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -237,6 +239,7 @@ const syncronicity: ISingle = {
   title: "シンクロニシティ",
   number: 20,
   release: "2018-04-25",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -353,6 +356,7 @@ const itsukadekirukara: ISingle = {
   title: "いつかできるから今日できる",
   number: 19,
   release: "2017-10-11",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -482,6 +486,7 @@ const nigemizu: ISingle = {
   title: "逃げ水",
   number: 18,
   release: "2017-08-09",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -611,6 +616,7 @@ const influencer: ISingle = {
   title: "インフルエンサー",
   number: 17,
   release: "2017-03-22",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -740,6 +746,7 @@ const sayonaranoimi: ISingle = {
   title: "サヨナラの意味",
   number: 16,
   release: "2016-11-09",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -856,6 +863,7 @@ const hadashidesummer: ISingle = {
   title: "裸足でSummer",
   number: 15,
   release: "2016-07-27",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -972,6 +980,7 @@ const harujion: ISingle = {
   title: "ハルジオンが咲く頃",
   number: 14,
   release: "2016-03-23",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -1088,6 +1097,7 @@ const hanashitaidarekagairu: ISingle = {
   title: "今、話したい誰かがいる",
   number: 13,
   release: "2015-10-28",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -1188,6 +1198,7 @@ const taiyoknock: ISingle = {
   title: "太陽ノック",
   number: 12,
   release: "2015-07-22",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -1296,6 +1307,7 @@ const inochihautsukushii: ISingle = {
   title: "命は美しい",
   number: 11,
   release: "2015-03-18",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -1403,6 +1415,7 @@ const nandomenoaozoraka: ISingle = {
   title: "何度目の青空か?",
   number: 10,
   release: "2014-10-08",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -1511,6 +1524,7 @@ const natsunofreeandeasy: ISingle = {
   title: "夏のFree&Easy",
   number: 9,
   release: "2014-07-09",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -1622,6 +1636,7 @@ const kizuitarakataomoi: ISingle = {
   title: "気づいたら片想い",
   number: 8,
   release: "2014-04-02",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -1732,6 +1747,7 @@ const valletta: ISingle = {
   title: "バレッタ",
   number: 7,
   release: "2013-11-27",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -1845,6 +1861,7 @@ const girlsrule: ISingle = {
   title: "ガールズルール",
   number: 6,
   release: "2013-07-03",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -1959,6 +1976,7 @@ const kiminonahakibo: ISingle = {
   title: "君の名は希望",
   number: 5,
   release: "2013-03-31",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -2059,6 +2077,7 @@ const seifukunomannequin: ISingle = {
   title: "制服のマネキン",
   number: 4,
   release: "2012-12-19",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -2159,6 +2178,7 @@ const hashirebicycle: ISingle = {
   title: "走れ!Bicycle",
   number: 3,
   release: "2012-08-22",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -2259,6 +2279,7 @@ const oideshampoo: ISingle = {
   title: "おいでシャンプー",
   number: 2,
   release: "2012-05-02",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -2359,6 +2380,7 @@ const gurugurucurtain: ISingle = {
   title: "ぐるぐるカーテン",
   number: 1,
   release: "2012-02-22",
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.A,
@@ -2456,26 +2478,26 @@ const gurugurucurtain: ISingle = {
 };
 
 export const singles = {
-  帰り道は遠回りしたくなる: kaerimichi,
+  "帰り道は遠回りしたくなる": kaerimichi,
   "ジコチューで行こう!": jikochu,
-  シンクロニシティ: syncronicity,
-  いつかできるから今日できる: itsukadekirukara,
-  逃げ水: nigemizu,
-  インフルエンサー: influencer,
-  サヨナラの意味: sayonaranoimi,
-  裸足でSummer: hadashidesummer,
-  ハルジオンが咲く頃: harujion,
+  "シンクロニシティ": syncronicity,
+  "いつかできるから今日できる": itsukadekirukara,
+  "逃げ水": nigemizu,
+  "インフルエンサー": influencer,
+  "サヨナラの意味": sayonaranoimi,
+  "裸足でSummer": hadashidesummer,
+  "ハルジオンが咲く頃": harujion,
   "今、話したい誰かがいる": hanashitaidarekagairu,
-  太陽ノック: taiyoknock,
-  命は美しい: inochihautsukushii,
+  "太陽ノック": taiyoknock,
+  "命は美しい": inochihautsukushii,
   "何度目の青空か?": nandomenoaozoraka,
   "夏のFree&Easy": natsunofreeandeasy,
-  気づいたら片想い: kizuitarakataomoi,
-  バレッタ: valletta,
-  ガールズルール: girlsrule,
-  君の名は希望: kiminonahakibo,
-  制服のマネキン: seifukunomannequin,
+  "気づいたら片想い": kizuitarakataomoi,
+  "バレッタ": valletta,
+  "ガールズルール": girlsrule,
+  "君の名は希望": kiminonahakibo,
+  "制服のマネキン": seifukunomannequin,
   "走れ!Bicycle": hashirebicycle,
-  おいでシャンプー: oideshampoo,
-  ぐるぐるカーテン: gurugurucurtain
+  "おいでシャンプー": oideshampoo,
+  "ぐるぐるカーテン": gurugurucurtain
 };

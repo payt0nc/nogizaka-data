@@ -5,6 +5,7 @@ export type ICd = {
   title: string;
   number: number;
   release: string;
+  hasArtworks: boolean;
   artworks: ICdArtwork[];
   shopping: ISite[];
   songs: ICdSong[];
