@@ -7,9 +7,10 @@ const recordAlbumArtworks = (albumsList: IAlbum[]) => {
   albumsList.forEach(album => {
     if (album.hasArtworks) {
       album.artworks.forEach(artwork => {
-        artwork.urls.large = artworkBasename + "albums/" + album.number.toString() + "/" + artwork.type + "_450.jpg";
-        artwork.urls.medium = artworkBasename + "albums/" + album.number.toString() + "/" + artwork.type + "_150.jpg";
-        artwork.urls.small = artworkBasename + "albums/" + album.number.toString() + "/" + artwork.type + "_100.jpg";
+        artwork.urls.large = artworkBasename + "albums/" + album.number.toString() + "/" + artwork.type + "_large.jpg";
+        artwork.urls.medium =
+          artworkBasename + "albums/" + album.number.toString() + "/" + artwork.type + "_medium.jpg";
+        artwork.urls.small = artworkBasename + "albums/" + album.number.toString() + "/" + artwork.type + "_small.jpg";
       });
     } else {
       album.artworks.forEach(artwork => {

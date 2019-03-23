@@ -5,7 +5,7 @@ const imagaomoideninarumade: IAlbum = {
   title: "今が思い出になるまで",
   number: 5,
   release: "2019-04-17",
-  hasArtworks: false,
+  hasArtworks: true,
   artworks: [
     {
       type: CdType.L,
