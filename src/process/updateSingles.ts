@@ -13,9 +13,12 @@ const recordSingleArtworks = (singlesList: ISingle[]) => {
   singlesList.forEach(single => {
     if (single.hasArtworks) {
       single.artworks.forEach(artwork => {
-        artwork.urls.large = artworkBasename + "singles/" + single.number.toString() + "/" + artwork.type + "_450.jpg";
-        artwork.urls.medium = artworkBasename + "singles/" + single.number.toString() + "/" + artwork.type + "_150.jpg";
-        artwork.urls.small = artworkBasename + "singles/" + single.number.toString() + "/" + artwork.type + "_100.jpg";
+        artwork.urls.large =
+          artworkBasename + "singles/" + single.number.toString() + "/" + artwork.type + "_large.jpg";
+        artwork.urls.medium =
+          artworkBasename + "singles/" + single.number.toString() + "/" + artwork.type + "_medium.jpg";
+        artwork.urls.small =
+          artworkBasename + "singles/" + single.number.toString() + "/" + artwork.type + "_small.jpg";
       });
     } else {
       single.artworks.forEach(artwork => {
