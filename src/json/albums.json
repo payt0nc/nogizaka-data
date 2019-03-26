@@ -1,40 +1,40 @@
 [
   {
     "title": "今が思い出になるまで",
-    "number": 5,
+    "number": "4",
     "release": "2019-04-17",
     "hasArtworks": true,
     "artworks": [
       {
         "type": "L",
         "urls": {
-          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/5/L_large.jpg",
-          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/5/L_medium.jpg",
-          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/5/L_small.jpg"
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_small.jpg"
         }
       },
       {
         "type": "A",
         "urls": {
-          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/5/A_large.jpg",
-          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/5/A_medium.jpg",
-          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/5/A_small.jpg"
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/A_small.jpg"
         }
       },
       {
         "type": "B",
         "urls": {
-          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/5/B_large.jpg",
-          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/5/B_medium.jpg",
-          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/5/B_small.jpg"
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/B_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/B_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/B_small.jpg"
         }
       },
       {
         "type": "T",
         "urls": {
-          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/5/T_large.jpg",
-          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/5/T_medium.jpg",
-          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/5/T_small.jpg"
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/T_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/T_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/T_small.jpg"
         }
       }
     ],
@@ -485,32 +485,32 @@
   },
   {
     "title": "僕だけの君〜Under Super Best〜",
-    "number": 4,
+    "number": "U",
     "release": "2018-01-10",
     "hasArtworks": true,
     "artworks": [
       {
         "type": "L1",
         "urls": {
-          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L1_large.jpg",
-          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L1_medium.jpg",
-          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L1_small.jpg"
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_small.jpg"
         }
       },
       {
         "type": "L2",
         "urls": {
-          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L2_large.jpg",
-          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L2_medium.jpg",
-          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L2_small.jpg"
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_small.jpg"
         }
       },
       {
         "type": "T",
         "urls": {
-          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/T_large.jpg",
-          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/T_medium.jpg",
-          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/T_small.jpg"
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/T_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/T_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/T_small.jpg"
         }
       }
     ],
@@ -913,7 +913,7 @@
   },
   {
     "title": "生まれてから初めて見た夢",
-    "number": 3,
+    "number": "3",
     "release": "2017-05-24",
     "hasArtworks": true,
     "artworks": [
@@ -1505,7 +1505,7 @@
   },
   {
     "title": "それぞれの椅子",
-    "number": 2,
+    "number": "2",
     "release": "2016-05-25",
     "hasArtworks": true,
     "artworks": [
@@ -2181,7 +2181,7 @@
   },
   {
     "title": "透明な色",
-    "number": 1,
+    "number": "1",
     "release": "2015-01-27",
     "hasArtworks": true,
     "artworks": [
