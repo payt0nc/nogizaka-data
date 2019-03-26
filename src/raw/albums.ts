@@ -3,7 +3,7 @@ import { IAlbum } from "../types/IAlbum";
 
 const imagaomoideninarumade: IAlbum = {
   title: "今が思い出になるまで",
-  number: 5,
+  number: "4",
   release: "2019-04-17",
   hasArtworks: true,
   artworks: [
@@ -268,7 +268,7 @@ const imagaomoideninarumade: IAlbum = {
 
 const bokudakenokimi: IAlbum = {
   title: "僕だけの君〜Under Super Best〜",
-  number: 4,
+  number: "U",
   release: "2018-01-10",
   hasArtworks: true,
   artworks: [
@@ -517,7 +517,7 @@ const bokudakenokimi: IAlbum = {
 
 const umaretekara: IAlbum = {
   title: "生まれてから初めて見た夢",
-  number: 3,
+  number: "3",
   release: "2017-05-24",
   hasArtworks: true,
   artworks: [
@@ -830,7 +830,7 @@ const umaretekara: IAlbum = {
 
 const sorezorenoisu: IAlbum = {
   title: "それぞれの椅子",
-  number: 2,
+  number: "2",
   release: "2016-05-25",
   hasArtworks: true,
   artworks: [
@@ -1175,7 +1175,7 @@ const sorezorenoisu: IAlbum = {
 
 const tomeinairo: IAlbum = {
   title: "透明な色",
-  number: 1,
+  number: "1",
   release: "2015-01-27",
   hasArtworks: true,
   artworks: [

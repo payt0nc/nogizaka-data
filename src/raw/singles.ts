@@ -3,7 +3,7 @@ import { ISingle } from "../types/ISingle";
 
 const kaerimichi: ISingle = {
   title: "帰り道は遠回りしたくなる",
-  number: 22,
+  number: "22",
   release: "2018-11-14",
   hasArtworks: true,
   artworks: [
@@ -120,7 +120,7 @@ const kaerimichi: ISingle = {
 
 const jikochu: ISingle = {
   title: "ジコチューで行こう!",
-  number: 21,
+  number: "21",
   release: "2018-08-08",
   hasArtworks: true,
   artworks: [
@@ -237,7 +237,7 @@ const jikochu: ISingle = {
 
 const syncronicity: ISingle = {
   title: "シンクロニシティ",
-  number: 20,
+  number: "20",
   release: "2018-04-25",
   hasArtworks: true,
   artworks: [
@@ -354,7 +354,7 @@ const syncronicity: ISingle = {
 
 const itsukadekirukara: ISingle = {
   title: "いつかできるから今日できる",
-  number: 19,
+  number: "19",
   release: "2017-10-11",
   hasArtworks: true,
   artworks: [
@@ -484,7 +484,7 @@ const itsukadekirukara: ISingle = {
 
 const nigemizu: ISingle = {
   title: "逃げ水",
-  number: 18,
+  number: "18",
   release: "2017-08-09",
   hasArtworks: true,
   artworks: [
@@ -614,7 +614,7 @@ const nigemizu: ISingle = {
 
 const influencer: ISingle = {
   title: "インフルエンサー",
-  number: 17,
+  number: "17",
   release: "2017-03-22",
   hasArtworks: true,
   artworks: [
@@ -744,7 +744,7 @@ const influencer: ISingle = {
 
 const sayonaranoimi: ISingle = {
   title: "サヨナラの意味",
-  number: 16,
+  number: "16",
   release: "2016-11-09",
   hasArtworks: true,
   artworks: [
@@ -861,7 +861,7 @@ const sayonaranoimi: ISingle = {
 
 const hadashidesummer: ISingle = {
   title: "裸足でSummer",
-  number: 15,
+  number: "15",
   release: "2016-07-27",
   hasArtworks: true,
   artworks: [
@@ -978,7 +978,7 @@ const hadashidesummer: ISingle = {
 
 const harujion: ISingle = {
   title: "ハルジオンが咲く頃",
-  number: 14,
+  number: "14",
   release: "2016-03-23",
   hasArtworks: true,
   artworks: [
@@ -1095,7 +1095,7 @@ const harujion: ISingle = {
 
 const hanashitaidarekagairu: ISingle = {
   title: "今、話したい誰かがいる",
-  number: 13,
+  number: "13",
   release: "2015-10-28",
   hasArtworks: true,
   artworks: [
@@ -1196,7 +1196,7 @@ const hanashitaidarekagairu: ISingle = {
 
 const taiyoknock: ISingle = {
   title: "太陽ノック",
-  number: 12,
+  number: "12",
   release: "2015-07-22",
   hasArtworks: true,
   artworks: [
@@ -1305,7 +1305,7 @@ const taiyoknock: ISingle = {
 
 const inochihautsukushii: ISingle = {
   title: "命は美しい",
-  number: 11,
+  number: "11",
   release: "2015-03-18",
   hasArtworks: true,
   artworks: [
@@ -1413,7 +1413,7 @@ const inochihautsukushii: ISingle = {
 
 const nandomenoaozoraka: ISingle = {
   title: "何度目の青空か?",
-  number: 10,
+  number: "10",
   release: "2014-10-08",
   hasArtworks: true,
   artworks: [
@@ -1522,7 +1522,7 @@ const nandomenoaozoraka: ISingle = {
 
 const natsunofreeandeasy: ISingle = {
   title: "夏のFree&Easy",
-  number: 9,
+  number: "9",
   release: "2014-07-09",
   hasArtworks: true,
   artworks: [
@@ -1634,7 +1634,7 @@ const natsunofreeandeasy: ISingle = {
 
 const kizuitarakataomoi: ISingle = {
   title: "気づいたら片想い",
-  number: 8,
+  number: "8",
   release: "2014-04-02",
   hasArtworks: true,
   artworks: [
@@ -1745,7 +1745,7 @@ const kizuitarakataomoi: ISingle = {
 
 const valletta: ISingle = {
   title: "バレッタ",
-  number: 7,
+  number: "7",
   release: "2013-11-27",
   hasArtworks: true,
   artworks: [
@@ -1859,7 +1859,7 @@ const valletta: ISingle = {
 
 const girlsrule: ISingle = {
   title: "ガールズルール",
-  number: 6,
+  number: "6",
   release: "2013-07-03",
   hasArtworks: true,
   artworks: [
@@ -1974,7 +1974,7 @@ const girlsrule: ISingle = {
 
 const kiminonahakibo: ISingle = {
   title: "君の名は希望",
-  number: 5,
+  number: "5",
   release: "2013-03-31",
   hasArtworks: true,
   artworks: [
@@ -2075,7 +2075,7 @@ const kiminonahakibo: ISingle = {
 
 const seifukunomannequin: ISingle = {
   title: "制服のマネキン",
-  number: 4,
+  number: "4",
   release: "2012-12-19",
   hasArtworks: true,
   artworks: [
@@ -2176,7 +2176,7 @@ const seifukunomannequin: ISingle = {
 
 const hashirebicycle: ISingle = {
   title: "走れ!Bicycle",
-  number: 3,
+  number: "3",
   release: "2012-08-22",
   hasArtworks: true,
   artworks: [
@@ -2277,7 +2277,7 @@ const hashirebicycle: ISingle = {
 
 const oideshampoo: ISingle = {
   title: "おいでシャンプー",
-  number: 2,
+  number: "2",
   release: "2012-05-02",
   hasArtworks: true,
   artworks: [
@@ -2378,7 +2378,7 @@ const oideshampoo: ISingle = {
 
 const gurugurucurtain: ISingle = {
   title: "ぐるぐるカーテン",
-  number: 1,
+  number: "1",
   release: "2012-02-22",
   hasArtworks: true,
   artworks: [

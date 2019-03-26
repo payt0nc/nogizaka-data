@@ -3,7 +3,7 @@ import { ISite } from "./ISite";
 
 export type ICd = {
   title: string;
-  number: number;
+  number: string;
   release: string;
   hasArtworks: boolean;
   artworks: ICdArtwork[];

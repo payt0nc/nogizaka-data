@@ -62,7 +62,7 @@ export enum PositionType {
 }
 
 export type IMemberPositionHistory = {
-  singleNumber: number;
+  singleNumber: string;
   position: PositionType;
 };
 
