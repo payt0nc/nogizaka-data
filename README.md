@@ -20,15 +20,16 @@ npm run watch
 ## File Structure
 
 - `main.ts`: entry point
-- `/dist/`: transcompiled JS file
+- `/dist/`: transpiled and bundled `JS` file
 - `/src/types/`: data types for raw data
 - `/src/common/`: common used types
 - `/src/raw/`: raw data
+- `/src/json/`: final output `JSON` data
 
 ## Raw Data Type
 
-Specify the data type for raw data.
-The purpose is to type check and unify input in data editing process.
+Specify data types for raw data.
+The purpose is to do type-check and unify input in data editing process.
 
 TODO:
 
@@ -114,7 +115,3 @@ TODO:
 TODO:
 
 - [ ] Replace `undefined` with empty string (because `undefined` will remove properties)
-
-### CDN
-
-Maybe?
