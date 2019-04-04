@@ -2,6 +2,14 @@
 
 This is a project to process the raw data of [Nogizaka Lib](https://github.com/shawnrivers/nogizaka-lib) project to make them instantly available for the View.
 
+## Copyrights
+
+Profile images and CD artworks © 乃木坂LLC.
+
+## Information Source
+
+Most information in this project is from [Nogizaka46 official website](http://www.nogizaka46.com/) and [Wikipedia](https://ja.wikipedia.org/wiki/乃木坂46).
+
 ## Usage
 
 Install necessary packages and build
