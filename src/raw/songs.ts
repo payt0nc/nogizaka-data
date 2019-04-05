@@ -7129,7 +7129,7 @@ export const songs = {
   "ライブ神": songLiveshin,
   "未来の答え": songMirainokotae,
   "人生を考えたくなる": songJinseiwokangae,
-  "意外BREAK?": songIgaibreak,
+  "意外BREAK": songIgaibreak,
   "Another Ghost": songAnotherghost,
   "三番目の風": songSanbanmenokaze,
   "当たり障りのない話": songAtarisawarinonai,
