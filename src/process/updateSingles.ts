@@ -60,7 +60,7 @@ const recordSingleFocusPerformers = (singlesList: ISingle[], songsList: ISong[])
             song.type === SongType.SecondGeneration ||
             song.type === SongType.ThirdGeneration
           ) {
-            if (song.performers.center !== undefined) {
+            if (song.performers.center !== null) {
               singleSong.focusPerformers = {
                 type: FocusPerformersType.Center,
                 name: song.performers.center,
@@ -77,12 +77,12 @@ const recordSingleFocusPerformers = (singlesList: ISingle[], songsList: ISong[])
               name: song.formations.firstRow,
             };
           } else if (song.type === SongType.Unit) {
-            if (song.performers.unit !== "" && song.performers.unit !== undefined) {
+            if (song.performers.unit !== null && song.performers.unit !== "" ) {
               singleSong.focusPerformers = {
                 type: FocusPerformersType.Unit,
                 name: [song.performers.unit],
               };
-            } else if (song.performers.center !== undefined) {
+            } else if (song.performers.center !== null) {
               singleSong.focusPerformers = {
                 type: FocusPerformersType.Unit,
                 name: song.performers.center,
@@ -94,7 +94,7 @@ const recordSingleFocusPerformers = (singlesList: ISingle[], songsList: ISong[])
               };
             }
           } else if (song.type === SongType.None) {
-            if (song.performers.center !== undefined) {
+            if (song.performers.center !== null) {
               singleSong.focusPerformers = {
                 type: FocusPerformersType.None,
                 name: song.performers.center,
