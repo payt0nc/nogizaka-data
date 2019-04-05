@@ -18,7 +18,6 @@ export const updateMembers = (
 const recordUnits = (membersList: IMember[], unitsList: IUnit[]) => {
   // Loop for members.
   membersList.forEach(member => {
-    // Reset member's units.
     member.units = [];
 
     // Loop for units.
@@ -38,7 +37,6 @@ const recordUnits = (membersList: IMember[], unitsList: IUnit[]) => {
 const recordPositions = (membersList: IMember[], singlesList: ISingle[], songsList: ISong[]) => {
   // Loop for members.
   membersList.forEach(member => {
-    // Reset positionsHistory and positionsCounter.
     member.positionsHistory = [];
     member.positionsCounter = {
       center: 0,
@@ -61,7 +59,6 @@ const recordPositions = (membersList: IMember[], singlesList: ISingle[], songsLi
           position: PositionType.Skip,
         });
       } else {
-        // Reset positionHistory for this single.
         let singlePosition: IMemberPositionHistory = {
           singleNumber: single.number,
           position: PositionType.None,
@@ -153,7 +150,5 @@ const recordPositions = (membersList: IMember[], singlesList: ISingle[], songsLi
         member.positionsHistory.push(singlePosition);
       }
     });
-
-    // console.log(member.name, member.positionsHistory);
   });
 };

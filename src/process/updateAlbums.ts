@@ -69,8 +69,6 @@ const recordAlbumFocusPerformers = (albumsList: IAlbum[], songsList: ISong[]) =>
           }
         }
       });
-
-      // console.log(albumSong.title, albumSong.focusPerformers);
     });
   });
 };

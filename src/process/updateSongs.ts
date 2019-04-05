@@ -9,7 +9,6 @@ export const updateSongs = (songsList: ISong[], singlesList: ISingle[], albumsLi
 
 const recordSongAlbums = (songsList: ISong[], albumsList: IAlbum[]) => {
   songsList.forEach(song => {
-    // Reset song albums.
     song.albums = [];
 
     for (const album of albumsList) {
@@ -24,7 +23,6 @@ const recordSongAlbums = (songsList: ISong[], albumsList: IAlbum[]) => {
 
 const recordSongSingle = (songsList: ISong[], singlesList: ISingle[]) => {
   songsList.forEach(song => {
-    // Reset song single.
     song.single = "";
 
     for (const single of singlesList) {

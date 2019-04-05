@@ -103,8 +103,6 @@ const recordSingleFocusPerformers = (singlesList: ISingle[], songsList: ISong[])
           }
         }
       });
-
-      // console.log(singleSong.title, singleSong.focusPerformers);
     });
   });
 };
