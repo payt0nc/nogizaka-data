@@ -146,7 +146,7 @@
         "artwork": "",
         "focusPerformers": {
           "type": "unit",
-          "name": null
+          "name": []
         }
       },
       {
@@ -159,7 +159,7 @@
         "artwork": "",
         "focusPerformers": {
           "type": "unit",
-          "name": null
+          "name": []
         }
       }
     ],
@@ -300,7 +300,7 @@
         "artwork": "",
         "focusPerformers": {
           "type": "unit",
-          "name": null
+          "name": []
         }
       },
       {
@@ -313,7 +313,7 @@
         "artwork": "",
         "focusPerformers": {
           "type": "unit",
-          "name": null
+          "name": []
         }
       },
       {
@@ -499,7 +499,10 @@
         ],
         "type": "unit",
         "artwork": "",
-        "focusPerformers": null
+        "focusPerformers": {
+          "type": "",
+          "name": []
+        }
       }
     ],
     "behindPerformers": {
@@ -613,7 +616,7 @@
         "artwork": "",
         "focusPerformers": {
           "type": "unit",
-          "name": null
+          "name": []
         }
       },
       {
@@ -669,7 +672,10 @@
         ],
         "type": "unit",
         "artwork": "",
-        "focusPerformers": null
+        "focusPerformers": {
+          "type": "",
+          "name": []
+        }
       }
     ],
     "behindPerformers": {
@@ -976,13 +982,18 @@
       },
       {
         "number": 3,
-        "title": "意外BREAK?",
+        "title": "意外BREAK",
         "inCdType": [
           "A"
         ],
         "type": "unit",
         "artwork": "",
-        "focusPerformers": null
+        "focusPerformers": {
+          "type": "unit",
+          "name": [
+            "姉御坂"
+          ]
+        }
       },
       {
         "number": 4,
@@ -1167,7 +1178,7 @@
         "artwork": "",
         "focusPerformers": {
           "type": "unit",
-          "name": null
+          "name": []
         }
       },
       {
@@ -1398,7 +1409,7 @@
         "artwork": "",
         "focusPerformers": {
           "type": "unit",
-          "name": null
+          "name": []
         }
       }
     ],
@@ -1495,7 +1506,7 @@
         "focusPerformers": {
           "type": "unit",
           "name": [
-            null
+            "ikutaerika"
           ]
         }
       },
@@ -1524,7 +1535,7 @@
         "artwork": "",
         "focusPerformers": {
           "type": "unit",
-          "name": null
+          "name": []
         }
       },
       {
@@ -1568,7 +1579,7 @@
         "focusPerformers": {
           "type": "unit",
           "name": [
-            null
+            "hoshinominami"
           ]
         }
       }
@@ -1719,7 +1730,7 @@
         "focusPerformers": {
           "type": "unit",
           "name": [
-            null
+            "nishinonanase"
           ]
         }
       }
@@ -1823,7 +1834,7 @@
         "artwork": "",
         "focusPerformers": {
           "type": "unit",
-          "name": null
+          "name": []
         }
       },
       {
@@ -1881,7 +1892,7 @@
         "artwork": "",
         "focusPerformers": {
           "type": "unit",
-          "name": null
+          "name": []
         }
       }
     ],
@@ -2186,7 +2197,7 @@
         "artwork": "",
         "focusPerformers": {
           "type": "unit",
-          "name": null
+          "name": []
         }
       }
     ],
@@ -2296,7 +2307,7 @@
         "focusPerformers": {
           "type": "unit",
           "name": [
-            null
+            "shiraishimai"
           ]
         }
       },
@@ -2455,8 +2466,8 @@
         "type": "coupling",
         "artwork": "",
         "focusPerformers": {
-          "type": "center",
-          "name": null
+          "type": "",
+          "name": []
         }
       },
       {
@@ -2778,7 +2789,7 @@
         "artwork": "",
         "focusPerformers": {
           "type": "unit",
-          "name": null
+          "name": []
         }
       },
       {
@@ -2820,8 +2831,8 @@
         "type": "first generation",
         "artwork": "",
         "focusPerformers": {
-          "type": "center",
-          "name": null
+          "type": "",
+          "name": []
         }
       }
     ],
@@ -2938,8 +2949,8 @@
         "type": "coupling",
         "artwork": "",
         "focusPerformers": {
-          "type": "center",
-          "name": null
+          "type": "",
+          "name": []
         }
       },
       {
@@ -2967,7 +2978,7 @@
         "artwork": "",
         "focusPerformers": {
           "type": "unit",
-          "name": null
+          "name": []
         }
       },
       {
@@ -3100,7 +3111,7 @@
         "artwork": "",
         "focusPerformers": {
           "type": "unit",
-          "name": null
+          "name": []
         }
       },
       {
@@ -3383,7 +3394,7 @@
         "artwork": "",
         "focusPerformers": {
           "type": "unit",
-          "name": null
+          "name": []
         }
       },
       {
