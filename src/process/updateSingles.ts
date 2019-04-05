@@ -33,16 +33,11 @@ const recordSingleArtworks = (singlesList: ISingle[]) => {
 const recordSingleSongType = (singlesList: ISingle[], songsList: ISong[]) => {
   singlesList.forEach(single => {
     single.songs.forEach(singleSong => {
-      // Reset singleSong type.
-      // singleSong.type = undefined;
-
       songsList.forEach(song => {
         if (song.title === singleSong.title) {
           singleSong.type = song.type;
         }
       });
-
-      // console.log(singleSong.title, singleSong.type);
     });
   });
 };

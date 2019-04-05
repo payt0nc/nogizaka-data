@@ -25,16 +25,11 @@ const recordAlbumArtworks = (albumsList: IAlbum[]) => {
 const recordAlbumSongType = (albumsList: IAlbum[], songsList: ISong[]) => {
   albumsList.forEach(album => {
     album.songs.forEach(albumSong => {
-      // Reset albumSong type.
-      // albumSong.type = undefined;
-
       songsList.forEach(song => {
         if (song.title === albumSong.title) {
           albumSong.type = song.type;
         }
       });
-
-      // console.log(albumSong.title, albumSong.type);
     });
   });
 };

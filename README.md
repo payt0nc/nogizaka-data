@@ -122,4 +122,4 @@ TODO:
 
 TODO:
 
-- [ ] Replace `undefined` with empty string (because `undefined` will remove properties)
+- [x] Replace `undefined` with empty `null` (because `undefined` will remove properties)
