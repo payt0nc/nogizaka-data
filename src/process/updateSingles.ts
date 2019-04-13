@@ -1,7 +1,7 @@
 import { ISingle } from "../models/ISingle";
 import { ISong } from "../models/ISong";
 import { members } from "../raw/members";
-import { FocusPerformersType, SongType } from "../utils/constants";
+import { FocusPerformersType, SongType, MemberNames } from "../utils/constants";
 
 const recordSingleArtworks = (singlesList: ISingle[]) => {
   const artworkBasename = "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/";
@@ -37,6 +37,13 @@ const recordSingleSongType = (singlesList: ISingle[], songsList: ISong[]) => {
   });
 };
 
+const convertPerformerNames = (names: string[]): string[] => {
+  return names.map((name: MemberNames) => {
+    const { lastName, firstName } = members[name].nameNotations;
+    return lastName + firstName;
+  });
+};
+
 const recordSingleFocusPerformers = (singlesList: ISingle[], songsList: ISong[]) => {
   singlesList.forEach(single => {
     single.songs.forEach(singleSong => {
@@ -53,7 +60,7 @@ const recordSingleFocusPerformers = (singlesList: ISingle[], songsList: ISong[])
             if (song.performers.center !== null) {
               singleSong.focusPerformers = {
                 type: FocusPerformersType.Center,
-                name: song.performers.center,
+                name: convertPerformerNames(song.performers.center),
               };
             } else {
               singleSong.focusPerformers = {
@@ -64,7 +71,7 @@ const recordSingleFocusPerformers = (singlesList: ISingle[], songsList: ISong[])
           } else if (song.type === SongType.Solo) {
             singleSong.focusPerformers = {
               type: FocusPerformersType.Solo,
-              name: song.formations.firstRow,
+              name: convertPerformerNames(song.formations.firstRow),
             };
           } else if (song.type === SongType.Unit) {
             if (song.performers.unit !== null && song.performers.unit !== "") {
@@ -75,7 +82,7 @@ const recordSingleFocusPerformers = (singlesList: ISingle[], songsList: ISong[])
             } else if (song.performers.center !== null) {
               singleSong.focusPerformers = {
                 type: FocusPerformersType.Unit,
-                name: song.performers.center,
+                name: convertPerformerNames(song.performers.center),
               };
             } else {
               singleSong.focusPerformers = {
@@ -87,7 +94,7 @@ const recordSingleFocusPerformers = (singlesList: ISingle[], songsList: ISong[])
             if (song.performers.center !== null) {
               singleSong.focusPerformers = {
                 type: FocusPerformersType.None,
-                name: song.performers.center,
+                name: convertPerformerNames(song.performers.center),
               };
             } else {
               singleSong.focusPerformers = {
