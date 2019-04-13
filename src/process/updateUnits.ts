@@ -1,6 +1,6 @@
-import { SongType } from "../common/constants";
-import { ISong } from "../types/ISong";
-import { IUnit } from "../types/IUnit";
+import { ISong } from "../models/ISong";
+import { IUnit } from "../models/IUnit";
+import { SongType } from "../utils/constants";
 
 export const updateUnits = (units: IUnit[], songs: ISong[]) => {
   units.forEach(unit => {

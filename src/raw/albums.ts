@@ -1,5 +1,5 @@
-import { CdType, SongType } from "../common/constants";
-import { IAlbum } from "../types/IAlbum";
+import { IAlbum } from "../models/IAlbum";
+import { CdType, SongType } from "../utils/constants";
 
 const imagaomoideninarumade: IAlbum = {
   title: "今が思い出になるまで",

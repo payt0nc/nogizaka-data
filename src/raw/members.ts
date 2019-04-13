@@ -1,5 +1,5 @@
-import { BloodType, MemberNames, PhotoAlbumType } from "../common/constants";
-import { IMember, JoinedGeneration } from "../types/IMember";
+import { IMember, JoinedGeneration } from "../models/IMember";
+import { BloodType, MemberNames, PhotoAlbumType } from "../utils/constants";
 
 const akimotomanatsu: IMember = {
   name: MemberNames.AkimotoManatsu,

@@ -1,4 +1,4 @@
-import { FukujinType, SongType } from "../common/constants";
+import { FukujinType, SongType } from "../utils/constants";
 
 type ISongCreators = {
   lyrics: string[];

@@ -1,6 +1,7 @@
-import { FocusPerformersType, SongType } from "../common/constants";
-import { ISingle } from "../types/ISingle";
-import { ISong } from "../types/ISong";
+import { ISingle } from "../models/ISingle";
+import { ISong } from "../models/ISong";
+import { members } from "../raw/members";
+import { FocusPerformersType, SongType } from "../utils/constants";
 
 export const updateSingles = (singlesList: ISingle[], songsList: ISong[]) => {
   recordSingleArtworks(singlesList);

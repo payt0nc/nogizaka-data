@@ -1,6 +1,6 @@
-import { FocusPerformersType, SongType } from "../common/constants";
-import { IAlbum } from "../types/IAlbum";
-import { ISong } from "../types/ISong";
+import { IAlbum } from "../models/IAlbum";
+import { ISong } from "../models/ISong";
+import { FocusPerformersType, SongType } from "../utils/constants";
 
 const recordAlbumArtworks = (albumsList: IAlbum[]) => {
   const artworkBasename = "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/";

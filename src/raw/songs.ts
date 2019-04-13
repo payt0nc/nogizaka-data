@@ -1,5 +1,5 @@
-import { FukujinType, MemberNames, SongType, UnitType } from "../common/constants";
-import { ISong } from "../types/ISong";
+import { ISong } from "../models/ISong";
+import { FukujinType, MemberNames, SongType, UnitType } from "../utils/constants";
 
 // SINGLE SONGS
 

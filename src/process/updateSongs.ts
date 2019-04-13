@@ -1,6 +1,6 @@
-import { IAlbum } from "../types/IAlbum";
-import { ISingle } from "../types/ISingle";
-import { ISong } from "../types/ISong";
+import { IAlbum } from "../models/IAlbum";
+import { ISingle } from "../models/ISingle";
+import { ISong } from "../models/ISong";
 
 export const updateSongs = (songsList: ISong[], singlesList: ISingle[], albumsList: IAlbum[]) => {
   recordSongSingle(songsList, singlesList);

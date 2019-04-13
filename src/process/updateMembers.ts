@@ -1,9 +1,9 @@
-import { FukujinType, SongType } from "../common/constants";
-import { ICdSong } from "../types/ICd";
-import { IMember, IMemberPositionHistory, PositionType } from "../types/IMember";
-import { ISingle } from "../types/ISingle";
-import { ISong } from "../types/ISong";
-import { IUnit } from "../types/IUnit";
+import { ICdSong } from "../models/ICd";
+import { IMember, IMemberPositionHistory, PositionType } from "../models/IMember";
+import { ISingle } from "../models/ISingle";
+import { ISong } from "../models/ISong";
+import { IUnit } from "../models/IUnit";
+import { FukujinType, SongType } from "../utils/constants";
 
 export const updateMembers = (
   membersList: IMember[],

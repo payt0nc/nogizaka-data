@@ -1,5 +1,5 @@
-import { MemberNames, UnitType } from "../common/constants";
-import { IUnit } from "../types/IUnit";
+import { IUnit } from "../models/IUnit";
+import { MemberNames, UnitType } from "../utils/constants";
 
 const whiteHigh: IUnit = {
   name: "WHITE HIGH",

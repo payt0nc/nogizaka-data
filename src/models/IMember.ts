@@ -1,4 +1,4 @@
-import { BloodType, PhotoAlbumType, UnitType } from "../common/constants";
+import { BloodType, PhotoAlbumType, UnitType } from "../utils/constants";
 import { ISite } from "./ISite";
 
 export type IMember = {
@@ -48,7 +48,7 @@ export enum JoinedGeneration {
   Second = "2nd",
   Third = "3rd",
   Fourth = "4th",
-  Exchange = "exchange"
+  Exchange = "exchange",
 }
 
 export enum PositionType {
@@ -58,7 +58,7 @@ export enum PositionType {
   Under = "under",
   Trainee = "trainee",
   Skip = "skip",
-  None = "none"
+  None = "none",
 }
 
 export type IMemberPositionHistory = {

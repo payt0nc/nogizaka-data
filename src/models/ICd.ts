@@ -1,4 +1,4 @@
-import { CdType, FocusPerformersType, SongType } from "../common/constants";
+import { CdType, FocusPerformersType, SongType } from "../utils/constants";
 import { ISite } from "./ISite";
 
 export type ICd = {
