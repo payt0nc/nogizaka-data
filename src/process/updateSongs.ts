@@ -2,11 +2,6 @@ import { IAlbum } from "../models/IAlbum";
 import { ISingle } from "../models/ISingle";
 import { ISong } from "../models/ISong";
 
-export const updateSongs = (songsList: ISong[], singlesList: ISingle[], albumsList: IAlbum[]) => {
-  recordSongSingle(songsList, singlesList);
-  recordSongAlbums(songsList, albumsList);
-};
-
 const recordSongAlbums = (songsList: ISong[], albumsList: IAlbum[]) => {
   songsList.forEach(song => {
     song.albums = [];
@@ -38,4 +33,9 @@ const recordSongSingle = (songsList: ISong[], singlesList: ISingle[]) => {
       }
     }
   });
+};
+
+export const updateSongs = (songsList: ISong[], singlesList: ISingle[], albumsList: IAlbum[]) => {
+  recordSongSingle(songsList, singlesList);
+  recordSongAlbums(songsList, albumsList);
 };

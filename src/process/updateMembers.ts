@@ -5,16 +5,6 @@ import { ISong } from "../models/ISong";
 import { IUnit } from "../models/IUnit";
 import { FukujinType, SongType } from "../utils/constants";
 
-export const updateMembers = (
-  membersList: IMember[],
-  unitsList: IUnit[],
-  singlesList: ISingle[],
-  songsList: ISong[],
-) => {
-  recordUnits(membersList, unitsList);
-  recordPositions(membersList, singlesList, songsList);
-};
-
 const recordUnits = (membersList: IMember[], unitsList: IUnit[]) => {
   // Loop for members.
   membersList.forEach(member => {
@@ -151,4 +141,14 @@ const recordPositions = (membersList: IMember[], singlesList: ISingle[], songsLi
       }
     });
   });
+};
+
+export const updateMembers = (
+  membersList: IMember[],
+  unitsList: IUnit[],
+  singlesList: ISingle[],
+  songsList: ISong[],
+) => {
+  recordUnits(membersList, unitsList);
+  recordPositions(membersList, singlesList, songsList);
 };

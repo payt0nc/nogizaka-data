@@ -3,12 +3,6 @@ import { ISong } from "../models/ISong";
 import { members } from "../raw/members";
 import { FocusPerformersType, SongType } from "../utils/constants";
 
-export const updateSingles = (singlesList: ISingle[], songsList: ISong[]) => {
-  recordSingleArtworks(singlesList);
-  recordSingleSongType(singlesList, songsList);
-  recordSingleFocusPerformers(singlesList, songsList);
-};
-
 const recordSingleArtworks = (singlesList: ISingle[]) => {
   const artworkBasename = "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/";
   singlesList.forEach(single => {
@@ -73,7 +67,7 @@ const recordSingleFocusPerformers = (singlesList: ISingle[], songsList: ISong[])
               name: song.formations.firstRow,
             };
           } else if (song.type === SongType.Unit) {
-            if (song.performers.unit !== null && song.performers.unit !== "" ) {
+            if (song.performers.unit !== null && song.performers.unit !== "") {
               singleSong.focusPerformers = {
                 type: FocusPerformersType.Unit,
                 name: [song.performers.unit],
@@ -106,4 +100,10 @@ const recordSingleFocusPerformers = (singlesList: ISingle[], songsList: ISong[])
       });
     });
   });
+};
+
+export const updateSingles = (singlesList: ISingle[], songsList: ISong[]) => {
+  recordSingleArtworks(singlesList);
+  recordSingleSongType(singlesList, songsList);
+  recordSingleFocusPerformers(singlesList, songsList);
 };
