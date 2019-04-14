@@ -798,7 +798,7 @@ const songTokitokimekimeki: ISong = {
 };
 
 const songKotodamaho: ISong = {
-  title: "トキトキメキメキ",
+  title: "言霊砲",
   single: "シンクロニシティ",
   albums: [],
   artwork: "path",

@@ -482,12 +482,12 @@
         "inCdType": [
           "D"
         ],
-        "type": "unit",
+        "type": "third generation",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
-            "いもうと坂"
+            "岩本蓮加"
           ]
         }
       },
@@ -499,7 +499,12 @@
         ],
         "type": "unit",
         "artwork": "",
-        "focusPerformers": null
+        "focusPerformers": {
+          "type": "unit",
+          "name": [
+            "いもうと坂"
+          ]
+        }
       }
     ],
     "behindPerformers": {
