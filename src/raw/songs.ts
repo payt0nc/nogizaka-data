@@ -1057,7 +1057,7 @@ const songAtarashiikafun: ISong = {
   albums: [],
   artwork: "path",
   musicVideo: "path",
-  type: SongType.ThirdGeneration,
+  type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
     compose: ["新田目翔"],
