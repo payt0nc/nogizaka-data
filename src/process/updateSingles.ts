@@ -81,8 +81,24 @@ const recordSingleFocusPerformers = (singlesList: ISingle[], songsList: ISong[])
               };
             } else if (song.performers.center !== null) {
               singleSong.focusPerformers = {
-                type: FocusPerformersType.Unit,
+                type: FocusPerformersType.Center,
                 name: convertPerformerNames(song.performers.center),
+              };
+            } else if (
+              song.formations.firstRow.length +
+                song.formations.secondRow.length +
+                song.formations.thirdRow.length +
+                song.formations.fourthRow.length <
+              3
+            ) {
+              singleSong.focusPerformers = {
+                type: FocusPerformersType.Unit,
+                name: convertPerformerNames([
+                  ...song.formations.firstRow,
+                  ...song.formations.secondRow,
+                  ...song.formations.thirdRow,
+                  ...song.formations.fourthRow,
+                ]),
               };
             } else {
               singleSong.focusPerformers = {

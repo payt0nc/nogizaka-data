@@ -300,7 +300,10 @@
         "artwork": "",
         "focusPerformers": {
           "type": "unit",
-          "name": []
+          "name": [
+            "白石麻衣",
+            "西野七瀬"
+          ]
         }
       },
       {
@@ -618,7 +621,10 @@
         "artwork": "",
         "focusPerformers": {
           "type": "unit",
-          "name": []
+          "name": [
+            "秋元真夏",
+            "白石麻衣"
+          ]
         }
       },
       {
@@ -668,13 +674,19 @@
       },
       {
         "number": 7,
-        "title": "新しい花粉 ~ミュージカル「見知らぬ世界」より~",
+        "title": "新しい花粉 〜ミュージカル「見知らぬ世界」より〜",
         "inCdType": [
           "T"
         ],
         "type": "unit",
         "artwork": "",
-        "focusPerformers": null
+        "focusPerformers": {
+          "type": "unit",
+          "name": [
+            "生田絵梨花",
+            "久保史緒里"
+          ]
+        }
       }
     ],
     "behindPerformers": {
@@ -1177,7 +1189,10 @@
         "artwork": "",
         "focusPerformers": {
           "type": "unit",
-          "name": []
+          "name": [
+            "齋藤飛鳥",
+            "堀未央奈"
+          ]
         }
       },
       {
@@ -1408,7 +1423,10 @@
         "artwork": "",
         "focusPerformers": {
           "type": "unit",
-          "name": []
+          "name": [
+            "伊藤万理華",
+            "井上小百合"
+          ]
         }
       }
     ],
@@ -1503,7 +1521,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
             "生田絵梨花"
           ]
@@ -1576,7 +1594,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
             "星野みなみ"
           ]
@@ -1727,7 +1745,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
             "西野七瀬"
           ]
@@ -1891,7 +1909,10 @@
         "artwork": "",
         "focusPerformers": {
           "type": "unit",
-          "name": []
+          "name": [
+            "齋藤飛鳥",
+            "星野みなみ"
+          ]
         }
       }
     ],
@@ -1978,7 +1999,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
             "齋藤飛鳥",
             "星野みなみ"
@@ -1994,7 +2015,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
             "白石麻衣"
           ]
@@ -2134,7 +2155,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
             "永島聖羅",
             "桜井玲香"
@@ -2165,7 +2186,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
             "生田絵梨花"
           ]
@@ -2304,7 +2325,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
             "白石麻衣"
           ]
@@ -2319,7 +2340,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
             "西野七瀬"
           ]
@@ -2349,7 +2370,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
             "西野七瀬"
           ]
@@ -2508,7 +2529,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
             "生田絵梨花"
           ]
@@ -2623,7 +2644,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
             "白石麻衣"
           ]
@@ -2668,7 +2689,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
             "橋本奈々未"
           ]
@@ -2815,7 +2836,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
             "西野七瀬"
           ]
@@ -2989,7 +3010,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
             "桜井玲香",
             "西野七瀬"
@@ -3093,7 +3114,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
             "高山一実",
             "能條愛未"
@@ -3227,7 +3248,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
             "松村沙友理"
           ]
@@ -3287,7 +3308,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
             "齋藤飛鳥"
           ]

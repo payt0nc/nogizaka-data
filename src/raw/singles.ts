@@ -456,7 +456,7 @@ const itsukadekirukara: ISingle = {
     },
     {
       number: 7,
-      title: "新しい花粉 ~ミュージカル「見知らぬ世界」より~",
+      title: "新しい花粉 〜ミュージカル「見知らぬ世界」より〜",
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
