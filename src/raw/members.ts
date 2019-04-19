@@ -2470,7 +2470,7 @@ const fukagawamai: IMember = {
     {
       title: "My magazine",
       release: "2018-02-22",
-      type: PhotoAlbumType.PhotoMagzine,
+      type: PhotoAlbumType.PhotoMagazine,
       shopping: [
         {
           title: "Amazon",

@@ -35,7 +35,7 @@ export enum BloodType {
 export enum PhotoAlbumType {
   PhotoAlbum = "photo album",
   PhotoBook = "photo book",
-  PhotoMagzine = "photo magzine",
+  PhotoMagazine = "photo magazine",
 }
 
 export enum UnitType {
