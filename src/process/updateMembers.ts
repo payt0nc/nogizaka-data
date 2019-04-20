@@ -7,9 +7,11 @@ import { IUnit } from "../models/IUnit";
 import { FukujinType, SongType, GITHUB_CONTENTS_PATH } from "../utils/constants";
 
 const PROFILE_IMAGES_PATH = "src/images/members/";
+
+const recordUnits = (memberList: IMember[], unitsList: IUnit[]) => {
+  memberList.forEach(member => {
     member.units = [];
 
-    // Loop for units.
     unitsList.forEach(unit => {
       if (unit.members.includes(member.name)) {
         member.units.push({
@@ -18,14 +20,11 @@ const PROFILE_IMAGES_PATH = "src/images/members/";
         });
       }
     });
-
-    // console.log(member.name, member.units);
   });
 };
 
-const recordPositions = (membersList: IMember[], singlesList: ISingle[], songsList: ISong[]) => {
-  // Loop for members.
-  membersList.forEach(member => {
+const recordPositions = (memberList: IMember[], singlesList: ISingle[], songsList: ISong[]) => {
+  memberList.forEach(member => {
     member.positionsHistory = [];
     member.positionsCounter = {
       center: 0,
@@ -34,7 +33,6 @@ const recordPositions = (membersList: IMember[], singlesList: ISingle[], songsLi
       under: 0,
     };
 
-    // Loop for singles.
     singlesList.forEach(single => {
       // Check trainee and skip.
       if (single.behindPerformers.trainees.includes(member.name)) {
@@ -53,9 +51,7 @@ const recordPositions = (membersList: IMember[], singlesList: ISingle[], songsLi
           position: PositionType.None,
         };
 
-        // Loop for songs in this single.
         single.songs.forEach((singleSong: ICdSong) => {
-          // Loop for the song to pair title song.
           songsList.forEach(song => {
             // Calculate center, fukujin, selected.
             if (singleSong.type === SongType.Title) {
@@ -135,7 +131,6 @@ const recordPositions = (membersList: IMember[], singlesList: ISingle[], songsLi
           });
         });
 
-        // Update positionsHitory.
         member.positionsHistory.push(singlePosition);
       }
     });

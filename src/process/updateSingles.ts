@@ -1,11 +1,11 @@
 import { ISingle } from "../models/ISingle";
 import { ISong } from "../models/ISong";
 import { members } from "../raw/members";
-import { FocusPerformersType, SongType, MemberNames } from "../utils/constants";
+import { FocusPerformersType, SongType, MemberNames, GITHUB_CONTENTS_PATH } from "../utils/constants";
 
-const recordSingleArtworks = (singlesList: ISingle[]) => {
-  const artworkBasename = "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/";
-  singlesList.forEach(single => {
+const recordSingleArtworks = (singleList: ISingle[]) => {
+  const artworkBasename = GITHUB_CONTENTS_PATH + "src/images/artworks/";
+  singleList.forEach(single => {
     if (single.hasArtworks) {
       single.artworks.forEach(artwork => {
         artwork.urls.large =
@@ -25,8 +25,8 @@ const recordSingleArtworks = (singlesList: ISingle[]) => {
   });
 };
 
-const recordSingleSongType = (singlesList: ISingle[], songsList: ISong[]) => {
-  singlesList.forEach(single => {
+const recordSingleSongType = (singleList: ISingle[], songsList: ISong[]) => {
+  singleList.forEach(single => {
     single.songs.forEach(singleSong => {
       songsList.forEach(song => {
         if (song.title === singleSong.title) {
@@ -44,8 +44,8 @@ const convertPerformerNames = (names: string[]): string[] => {
   });
 };
 
-const recordSingleFocusPerformers = (singlesList: ISingle[], songsList: ISong[]) => {
-  singlesList.forEach(single => {
+const recordSingleFocusPerformers = (singleList: ISingle[], songsList: ISong[]) => {
+  singleList.forEach(single => {
     single.songs.forEach(singleSong => {
       songsList.forEach(song => {
         if (song.title === singleSong.title) {
@@ -125,8 +125,8 @@ const recordSingleFocusPerformers = (singlesList: ISingle[], songsList: ISong[])
   });
 };
 
-export const updateSingles = (singlesList: ISingle[], songsList: ISong[]) => {
-  recordSingleArtworks(singlesList);
-  recordSingleSongType(singlesList, songsList);
-  recordSingleFocusPerformers(singlesList, songsList);
+export const updateSingles = (singleList: ISingle[], songsList: ISong[]) => {
+  recordSingleArtworks(singleList);
+  recordSingleSongType(singleList, songsList);
+  recordSingleFocusPerformers(singleList, songsList);
 };
