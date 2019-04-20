@@ -43,10 +43,10 @@ type IMemberPhotoAlbum = {
   shopping: ISite[];
 };
 export enum JoinedGeneration {
-  First = "1st",
-  Second = "2nd",
-  Third = "3rd",
-  Fourth = "4th",
+  First = "first",
+  Second = "second",
+  Third = "third",
+  Fourth = "fourth",
   Exchange = "exchange",
 }
 
