@@ -32,9 +32,8 @@ type IMemberProfileImage = {
   small: string;
 };
 
-type IMemberSingleImage = {
+type IMemberSingleImage = IMemberProfileImage & {
   singleNumber: number;
-  image: string;
 };
 
 type IMemberPhotoAlbum = {
