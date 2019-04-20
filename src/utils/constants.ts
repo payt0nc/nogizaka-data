@@ -131,3 +131,5 @@ export enum MemberNames {
   YamamotoHonoka = "yamamotohonoka",
   YoshimotoAyaka = "yoshimotoayaka",
 }
+
+export const GITHUB_CONTENTS_PATH = "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/";
