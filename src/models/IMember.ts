@@ -5,7 +5,7 @@ export type IMember = {
   name: string;
   nameNotations: IMemberNameNotations;
   profileImage: IMemberProfileImage;
-  singleImages: IMemberSingleImage[];
+  singleImages: IMemberSingleImages;
   join: JoinedGeneration;
   birthday: string;
   height: number;
@@ -13,7 +13,7 @@ export type IMember = {
   sites: ISite[];
   photoAlbums: IMemberPhotoAlbum[];
   units: IMemberUnit[];
-  positionsHistory: IMemberPositionHistory[];
+  positionsHistory: IMemberPositionHistory;
   positionsCounter: IMemberPositionsCounter;
   graduation: IMemberGraduation;
 };
@@ -32,8 +32,8 @@ type IMemberProfileImage = {
   small: string;
 };
 
-type IMemberSingleImage = IMemberProfileImage & {
-  singleNumber: number;
+type IMemberSingleImages = {
+  [singleNumber: string]: IMemberProfileImage;
 };
 
 type IMemberPhotoAlbum = {
@@ -61,8 +61,7 @@ export enum PositionType {
 }
 
 export type IMemberPositionHistory = {
-  singleNumber: string;
-  position: PositionType;
+  [singleNumber: string]: PositionType;
 };
 
 type IMemberPositionsCounter = {

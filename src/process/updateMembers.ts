@@ -25,7 +25,6 @@ const recordUnits = (memberList: IMember[], unitsList: IUnit[]) => {
 
 const recordPositions = (memberList: IMember[], singlesList: ISingle[], songsList: ISong[]) => {
   memberList.forEach(member => {
-    member.positionsHistory = [];
     member.positionsCounter = {
       center: 0,
       fukujin: 0,
@@ -36,20 +35,15 @@ const recordPositions = (memberList: IMember[], singlesList: ISingle[], songsLis
     singlesList.forEach(single => {
       // Check trainee and skip.
       if (single.behindPerformers.trainees.includes(member.name)) {
-        member.positionsHistory.push({
-          singleNumber: single.number,
-          position: PositionType.Trainee,
+        Object.assign(member.positionsHistory, {
+          [single.number]: PositionType.Trainee,
         });
       } else if (single.behindPerformers.skips.includes(member.name)) {
-        member.positionsHistory.push({
-          singleNumber: single.number,
-          position: PositionType.Skip,
+        Object.assign(member.positionsHistory, {
+          [single.number]: PositionType.Skip,
         });
       } else {
-        let singlePosition: IMemberPositionHistory = {
-          singleNumber: single.number,
-          position: PositionType.None,
-        };
+        let singlePosition = PositionType.None;
 
         single.songs.forEach((singleSong: ICdSong) => {
           songsList.forEach(song => {
@@ -59,10 +53,7 @@ const recordPositions = (memberList: IMember[], singlesList: ISingle[], songsLis
                 // Check order: Center -> Fukujin -> Selected
                 if (song.performers.center.includes(member.name)) {
                   // Check Center
-                  singlePosition = {
-                    singleNumber: single.number,
-                    position: PositionType.Center,
-                  };
+                  singlePosition = PositionType.Center;
                   member.positionsCounter.center += 1;
                   member.positionsCounter.fukujin += 1;
                   member.positionsCounter.selected += 1;
@@ -71,10 +62,7 @@ const recordPositions = (memberList: IMember[], singlesList: ISingle[], songsLis
                   song.formations.firstRow.includes(member.name)
                 ) {
                   // Check Fukujin (first row case)
-                  singlePosition = {
-                    singleNumber: single.number,
-                    position: PositionType.Fukujin,
-                  };
+                  singlePosition = PositionType.Fukujin;
                   member.positionsCounter.fukujin += 1;
                   member.positionsCounter.selected += 1;
                 } else if (
@@ -82,18 +70,12 @@ const recordPositions = (memberList: IMember[], singlesList: ISingle[], songsLis
                   (song.formations.firstRow.includes(member.name) || song.formations.secondRow.includes(member.name))
                 ) {
                   // Check Fukujin (first & second row case)
-                  singlePosition = {
-                    singleNumber: single.number,
-                    position: PositionType.Fukujin,
-                  };
+                  singlePosition = PositionType.Fukujin;
                   member.positionsCounter.fukujin += 1;
                   member.positionsCounter.selected += 1;
                 } else if (song.performers.fukujin instanceof Array && song.performers.fukujin.includes(member.name)) {
                   // Check Fukujin (irregular case)
-                  singlePosition = {
-                    singleNumber: single.number,
-                    position: PositionType.Fukujin,
-                  };
+                  singlePosition = PositionType.Fukujin;
                   member.positionsCounter.fukujin += 1;
                   member.positionsCounter.selected += 1;
                 } else if (
@@ -102,10 +84,7 @@ const recordPositions = (memberList: IMember[], singlesList: ISingle[], songsLis
                   song.formations.thirdRow.includes(member.name)
                 ) {
                   // Check Selected
-                  singlePosition = {
-                    singleNumber: single.number,
-                    position: PositionType.Selected,
-                  };
+                  singlePosition = PositionType.Selected;
                   member.positionsCounter.selected += 1;
                 }
               }
@@ -120,10 +99,7 @@ const recordPositions = (memberList: IMember[], singlesList: ISingle[], songsLis
                   song.formations.thirdRow.includes(member.name) ||
                   song.formations.fourthRow.includes(member.name)
                 ) {
-                  singlePosition = {
-                    singleNumber: single.number,
-                    position: PositionType.Under,
-                  };
+                  singlePosition = PositionType.Under;
                   member.positionsCounter.under += 1;
                 }
               }
@@ -131,7 +107,9 @@ const recordPositions = (memberList: IMember[], singlesList: ISingle[], songsLis
           });
         });
 
-        member.positionsHistory.push(singlePosition);
+        Object.assign(member.positionsHistory, {
+          [single.number]: singlePosition
+        });
       }
     });
   });
@@ -144,7 +122,6 @@ const recordProfileImages = (memberList: IMember[], singleCount: number) => {
       const profileImageSmallPath = `${PROFILE_IMAGES_PATH}${i}/${member.name}_small.jpg`;
 
       let singleImage = {
-        singleNumber: i,
         large: "",
         small: "",
       };
@@ -152,21 +129,23 @@ const recordProfileImages = (memberList: IMember[], singleCount: number) => {
       if (fs.existsSync(profileImageLargePath)) {
         singleImage.large = GITHUB_CONTENTS_PATH + profileImageLargePath;
       } else if (i > 1) {
-        singleImage.large = member.singleImages[i - 2].large;
+        singleImage.large = member.singleImages[(i - 1).toString()].large;
       }
 
       if (fs.existsSync(profileImageSmallPath)) {
         singleImage.small = GITHUB_CONTENTS_PATH + profileImageSmallPath;
       } else if (i > 1) {
-        singleImage.small = member.singleImages[i - 2].small;
+        singleImage.small = member.singleImages[(i - 1).toString()].small;
       }
 
-      member.singleImages.push(singleImage);
+      Object.assign(member.singleImages, {
+        [i.toString()]: singleImage,
+      });
     }
 
     member.profileImage = {
-      large: member.singleImages[singleCount - 1].large,
-      small: member.singleImages[singleCount - 1].small,
+      large: member.singleImages[singleCount].large,
+      small: member.singleImages[singleCount].small,
     };
   }
 };
