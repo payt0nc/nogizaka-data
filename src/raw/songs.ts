@@ -7058,6 +7058,7 @@ const songHitoriyogari: ISong = {
   },
 };
 
+// prettier-ignore
 export const songs = {
   "帰り道は遠回りしたくなる": songKaerimichi,
   "ジコチューで行こう!": songJikochu,

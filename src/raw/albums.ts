@@ -1446,6 +1446,7 @@ const tomeinairo: IAlbum = {
   ],
 };
 
+// prettier-ignore
 export const albums = {
   "今が思い出になるまで": imagaomoideninarumade,
   "僕だけの君〜Under Super Best〜": bokudakenokimi,

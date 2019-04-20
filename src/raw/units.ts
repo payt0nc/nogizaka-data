@@ -163,6 +163,7 @@ const tulip: IUnit = {
   description: "母体は「チームD (ディズニー好き)」 (和田を除くメンバー)",
 };
 
+// prettier-ignore
 export const units = {
   "WHITE HIGH": whiteHigh,
   "孤独兄弟": kodokukyoudai,

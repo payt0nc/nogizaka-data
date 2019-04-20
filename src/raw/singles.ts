@@ -2477,6 +2477,7 @@ const gurugurucurtain: ISingle = {
   },
 };
 
+// prettier-ignore
 export const singles = {
   "帰り道は遠回りしたくなる": kaerimichi,
   "ジコチューで行こう!": jikochu,
