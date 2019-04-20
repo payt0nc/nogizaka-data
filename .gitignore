@@ -7,8 +7,5 @@ node_modules/
 # Ignore compiled outputs
 dist/
 
-# Ignore linting files
-tslint.json
-
 # Temp usages
 src/temp/
