@@ -1,13 +1,12 @@
+import * as fs from "fs";
 import { ICdSong } from "../models/ICd";
 import { IMember, IMemberPositionHistory, PositionType } from "../models/IMember";
 import { ISingle } from "../models/ISingle";
 import { ISong } from "../models/ISong";
 import { IUnit } from "../models/IUnit";
-import { FukujinType, SongType } from "../utils/constants";
+import { FukujinType, SongType, GITHUB_CONTENTS_PATH } from "../utils/constants";
 
-const recordUnits = (membersList: IMember[], unitsList: IUnit[]) => {
-  // Loop for members.
-  membersList.forEach(member => {
+const PROFILE_IMAGES_PATH = "src/images/members/";
     member.units = [];
 
     // Loop for units.
@@ -143,12 +142,47 @@ const recordPositions = (membersList: IMember[], singlesList: ISingle[], songsLi
   });
 };
 
+const recordProfileImages = (memberList: IMember[], singleCount: number) => {
+  for (const member of memberList) {
+    for (let i = 1; i < singleCount + 1; i++) {
+      const profileImageLargePath = `${PROFILE_IMAGES_PATH}${i}/${member.name}_large.jpg`;
+      const profileImageSmallPath = `${PROFILE_IMAGES_PATH}${i}/${member.name}_small.jpg`;
+
+      let singleImage = {
+        singleNumber: i,
+        large: "",
+        small: "",
+      };
+
+      if (fs.existsSync(profileImageLargePath)) {
+        singleImage.large = GITHUB_CONTENTS_PATH + profileImageLargePath;
+      } else if (i > 1) {
+        singleImage.large = member.singleImages[i - 2].large;
+      }
+
+      if (fs.existsSync(profileImageSmallPath)) {
+        singleImage.small = GITHUB_CONTENTS_PATH + profileImageSmallPath;
+      } else if (i > 1) {
+        singleImage.small = member.singleImages[i - 2].small;
+      }
+
+      member.singleImages.push(singleImage);
+    }
+
+    member.profileImage = {
+      large: member.singleImages[singleCount - 1].large,
+      small: member.singleImages[singleCount - 1].small,
+    };
+  }
+};
+
 export const updateMembers = (
-  membersList: IMember[],
+  memberList: IMember[],
   unitsList: IUnit[],
   singlesList: ISingle[],
   songsList: ISong[],
 ) => {
-  recordUnits(membersList, unitsList);
-  recordPositions(membersList, singlesList, songsList);
+  recordUnits(memberList, unitsList);
+  recordPositions(memberList, singlesList, songsList);
+  recordProfileImages(memberList, singlesList.length);
 };
