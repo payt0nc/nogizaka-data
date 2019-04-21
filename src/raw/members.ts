@@ -456,8 +456,8 @@ const etoumisa: IMember = {
   positionsHistory: {},
   positionsCounter: null,
   graduation: {
-    isGraduated: false,
-    graduatedDate: "",
+    isGraduated: true,
+    graduatedDate: "2018-03-31",
   },
 };
 
@@ -1258,8 +1258,8 @@ const nishinonanase: IMember = {
   positionsHistory: {},
   positionsCounter: null,
   graduation: {
-    isGraduated: false,
-    graduatedDate: "",
+    isGraduated: true,
+    graduatedDate: "2018-12-31",
   },
 };
 

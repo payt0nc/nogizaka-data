@@ -1507,8 +1507,8 @@
       "under": 7
     },
     "graduation": {
-      "isGraduated": false,
-      "graduatedDate": ""
+      "isGraduated": true,
+      "graduatedDate": "2018-03-31"
     }
   },
   {
@@ -4352,8 +4352,8 @@
       "under": 0
     },
     "graduation": {
-      "isGraduated": false,
-      "graduatedDate": ""
+      "isGraduated": true,
+      "graduatedDate": "2018-12-31"
     }
   },
   {
