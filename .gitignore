@@ -9,3 +9,5 @@ dist/
 
 # Temp usages
 src/temp/
+
+.DS_Store
