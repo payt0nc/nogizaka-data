@@ -108,7 +108,7 @@ const recordPositions = (memberList: IMember[], singlesList: ISingle[], songsLis
         });
 
         Object.assign(member.positionsHistory, {
-          [single.number]: singlePosition
+          [single.number]: singlePosition,
         });
       }
     });
@@ -143,10 +143,23 @@ const recordProfileImages = (memberList: IMember[], singleCount: number) => {
       });
     }
 
-    member.profileImage = {
-      large: member.singleImages[singleCount].large,
-      small: member.singleImages[singleCount].small,
-    };
+    if (member.singleImages[singleCount].large === "" && member.singleImages[singleCount].small === "") {
+      member.profileImage = {
+        large: GITHUB_CONTENTS_PATH + PROFILE_IMAGES_PATH + "member_no_image_large.png",
+        small: GITHUB_CONTENTS_PATH + PROFILE_IMAGES_PATH + "member_no_image_medium.png",
+      };
+    } else {
+      member.profileImage = {
+        large:
+          member.singleImages[singleCount].large !== ""
+            ? member.singleImages[singleCount].large
+            : member.singleImages[singleCount].large,
+        small:
+          member.singleImages[singleCount].small !== ""
+            ? member.singleImages[singleCount].small
+            : member.singleImages[singleCount].large,
+      };
+    }
   }
 };
 
