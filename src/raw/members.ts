@@ -457,7 +457,7 @@ const etoumisa: IMember = {
   positionsCounter: null,
   graduation: {
     isGraduated: true,
-    graduatedDate: "2018-03-31",
+    graduatedDate: "2019-03-31",
   },
 };
 
