@@ -2947,66 +2947,6 @@ const iwaseyumiko: IMember = {
   },
 };
 
-const yamamotohonoka: IMember = {
-  name: MemberNames.YamamotoHonoka,
-  nameNotations: {
-    lastName: "山本",
-    firstName: "穂乃香",
-    lastNameFurigana: "やまもと",
-    firstNameFurigana: "ほのか",
-    lastNameEn: "yamamoto",
-    firstNameEn: "honoka",
-  },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
-  join: JoinedGeneration.First,
-  birthday: "1998-03-31",
-  height: 162,
-  bloodType: BloodType.O,
-  sites: [],
-  photoAlbums: [],
-  units: null,
-  positionsHistory: {},
-  positionsCounter: null,
-  graduation: {
-    isGraduated: true,
-    graduatedDate: "2011-09-22",
-  },
-};
-
-const yoshimotoayaka: IMember = {
-  name: MemberNames.YoshimotoAyaka,
-  nameNotations: {
-    lastName: "吉本",
-    firstName: "彩華",
-    lastNameFurigana: "よしもと",
-    firstNameFurigana: "あやか",
-    lastNameEn: "yoshimoto",
-    firstNameEn: "ayaka",
-  },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
-  join: JoinedGeneration.First,
-  birthday: "1996-08-18",
-  height: 147,
-  bloodType: BloodType.A,
-  sites: [],
-  photoAlbums: [],
-  units: null,
-  positionsHistory: {},
-  positionsCounter: null,
-  graduation: {
-    isGraduated: true,
-    graduatedDate: "2011-09-22",
-  },
-};
-
 export const members = {
   akimotomanatsu,
   ikutaerika,
@@ -3080,6 +3020,4 @@ export const members = {
   kashiwayukina,
   andoumikumo,
   iwaseyumiko,
-  yoshimotoayaka,
-  yamamotohonoka,
 };
