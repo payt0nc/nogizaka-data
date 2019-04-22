@@ -55,8 +55,8 @@ TODO:
 - [ ] members
   - [x] main
   - [ ] photoAlbums shopping
-  - [ ] profileImage
-  - [ ] singleImages
+  - [x] profileImage
+  - [x] singleImages
 - [ ] songs
   - [x] main
   - [x] creators
@@ -67,7 +67,7 @@ TODO:
 
 ## Raw Data Processing
 
-Process and calculate editted raw data to get more data like memebers' positions history.
+Process and calculate edited raw data to get more data like members' positions history.
 
 TODO:
 
@@ -97,18 +97,18 @@ TODO:
 - singles
   - `single > songs > type` (NOTE: has default values but should reference `songs`)
     - `song > type` (raw)
-  - `single > focuesPerformers`
+  - `single > focusPerformers`
     - `song > type` (raw)
     - `song > performers` (raw)
     - `song > formations` (raw)
 - albums
   - `album > songs > type` (NOTE: has default values but should reference `songs`)
     - `song > type` (raw)
-  - `album > focuesPerformers`
+  - `album > focusPerformers`
     - `song > type` (raw)
     - `song > performers` (raw)
     - `song > formations` (raw)
-- memebers
+- members
   - `member > units`
     - `unit > name` (raw)
     - `unit > type` (raw)
