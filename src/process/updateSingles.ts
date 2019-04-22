@@ -1,7 +1,7 @@
 import { ISingle } from "../models/ISingle";
 import { ISong } from "../models/ISong";
 import { members } from "../raw/members";
-import { FocusPerformersType, SongType, MemberNames, GITHUB_CONTENTS_PATH } from "../utils/constants";
+import { FocusPerformersType, GITHUB_CONTENTS_PATH, MemberNames, SongType } from "../utils/constants";
 
 const recordSingleArtworks = (singleList: ISingle[]) => {
   const artworkBasename = GITHUB_CONTENTS_PATH + "src/images/artworks/";

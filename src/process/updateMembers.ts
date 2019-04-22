@@ -1,10 +1,10 @@
 import * as fs from "fs";
 import { ICdSong } from "../models/ICd";
-import { IMember, IMemberPositionHistory, PositionType } from "../models/IMember";
+import { IMember, PositionType } from "../models/IMember";
 import { ISingle } from "../models/ISingle";
 import { ISong } from "../models/ISong";
 import { IUnit } from "../models/IUnit";
-import { FukujinType, SongType, GITHUB_CONTENTS_PATH } from "../utils/constants";
+import { FukujinType, GITHUB_CONTENTS_PATH, SongType } from "../utils/constants";
 
 const PROFILE_IMAGES_PATH = "src/images/members/";
 

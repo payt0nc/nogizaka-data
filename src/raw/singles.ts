@@ -1,5 +1,5 @@
 import { ISingle } from "../models/ISingle";
-import { CdType, FocusPerformersType, MemberNames, SongType } from "../utils/constants";
+import { CdType, MemberNames, SongType } from "../utils/constants";
 
 const kaerimichi: ISingle = {
   title: "帰り道は遠回りしたくなる",
