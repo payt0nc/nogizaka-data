@@ -36,3 +36,7 @@ export type ISong = {
   performers: ISongPerformers;
   formations: ISongFormations;
 };
+
+export type ISongs = {
+  [title: string]: ISong;
+};

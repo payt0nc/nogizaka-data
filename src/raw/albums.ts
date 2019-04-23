@@ -1842,11 +1842,10 @@ const tomeinairo: IAlbum = {
   ],
 };
 
-// prettier-ignore
 export const albums: IAlbums = {
-  "今が思い出になるまで": imagaomoideninarumade,
-  "僕だけの君〜Under Super Best〜": bokudakenokimi,
-  "生まれてから初めて見た夢": umaretekara,
-  "それぞれの椅子": sorezorenoisu,
-  "透明な色": tomeinairo,
+  [imagaomoideninarumade.title]: imagaomoideninarumade,
+  [bokudakenokimi.title]: bokudakenokimi,
+  [umaretekara.title]: umaretekara,
+  [sorezorenoisu.title]: sorezorenoisu,
+  [tomeinairo.title]: tomeinairo,
 };
