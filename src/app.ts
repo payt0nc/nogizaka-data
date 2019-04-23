@@ -22,7 +22,7 @@ const unitsArray = Object.values(units);
 
 updateMembers(members, units, singles, songs);
 updateSingles(singles, songs);
-updateAlbums(albumsArray, songsArray);
+updateAlbums(albums, songs);
 updateSongs(songsArray, singlesArray, albumsArray, singles, albums);
 updateUnits(unitsArray, songsArray);
 

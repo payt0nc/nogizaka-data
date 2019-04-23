@@ -1,10 +1,10 @@
-import { IAlbum } from "../models/IAlbum";
-import { ISong } from "../models/ISong";
+import { IAlbums } from "../models/IAlbum";
+import { ISongs } from "../models/ISong";
 import { FocusPerformersType, GITHUB_CONTENTS_PATH, SongType } from "../utils/constants";
 
-const recordAlbumArtworks = (albumsList: IAlbum[]) => {
+const recordAlbumArtworks = (albums: IAlbums) => {
   const ARTWORK_BASE_NAME = GITHUB_CONTENTS_PATH + "src/images/artworks/albums/";
-  albumsList.forEach(album => {
+  for (const album of Object.values(albums)) {
     const artworks = album.artworks;
 
     if (album.hasArtworks) {
@@ -20,62 +20,60 @@ const recordAlbumArtworks = (albumsList: IAlbum[]) => {
         artworks[key].small = ARTWORK_BASE_NAME + "artwork_no_image_small.png";
       }
     }
-  });
+  }
 };
 
-const recordAlbumSongType = (albumsList: IAlbum[], songsList: ISong[]) => {
-  albumsList.forEach(album => {
-    album.songs.forEach(albumSong => {
-      songsList.forEach(song => {
-        if (song.title === albumSong.title) {
-          albumSong.type = song.type;
+const recordAlbumSongType = (albums: IAlbums, songs: ISongs) => {
+  for (const album of Object.values(albums)) {
+    for (const albumSong of album.songs) {
+      if (albumSong.title !== "OVERTURE") {
+        albumSong.type = songs[albumSong.title].type;
+      }
+    }
+  }
+};
+
+const recordAlbumFocusPerformers = (albums: IAlbums, songs: ISongs) => {
+  for (const album of Object.values(albums)) {
+    for (const albumSong of album.songs) {
+      console.log(albumSong.title);
+      const song = songs[albumSong.title];
+      if (albumSong.title !== "OVERTURE") {
+        if (
+          song.type === SongType.Title ||
+          song.type === SongType.Under ||
+          song.type === SongType.Coupling ||
+          song.type === SongType.FirstGeneration ||
+          song.type === SongType.SecondGeneration ||
+          song.type === SongType.ThirdGeneration
+        ) {
+          albumSong.focusPerformers = {
+            type: FocusPerformersType.Center,
+            name: song.performers.center,
+          };
+        } else if (song.type === SongType.Solo) {
+          albumSong.focusPerformers = {
+            type: FocusPerformersType.Solo,
+            name: song.formations.firstRow,
+          };
+        } else if (song.type === SongType.Unit) {
+          albumSong.focusPerformers = {
+            type: FocusPerformersType.Unit,
+            name: song.formations.firstRow,
+          };
+        } else if (song.type === SongType.None) {
+          albumSong.focusPerformers = {
+            type: FocusPerformersType.None,
+            name: song.performers.center,
+          };
         }
-      });
-    });
-  });
+      }
+    }
+  }
 };
 
-const recordAlbumFocusPerformers = (albumsList: IAlbum[], songsList: ISong[]) => {
-  albumsList.forEach(album => {
-    album.songs.forEach(albumSong => {
-      songsList.forEach(song => {
-        if (song.title === albumSong.title) {
-          if (
-            song.type === SongType.Title ||
-            song.type === SongType.Under ||
-            song.type === SongType.Coupling ||
-            song.type === SongType.FirstGeneration ||
-            song.type === SongType.SecondGeneration ||
-            song.type === SongType.ThirdGeneration
-          ) {
-            albumSong.focusPerformers = {
-              type: FocusPerformersType.Center,
-              name: song.performers.center,
-            };
-          } else if (song.type === SongType.Solo) {
-            albumSong.focusPerformers = {
-              type: FocusPerformersType.Solo,
-              name: song.formations.firstRow,
-            };
-          } else if (song.type === SongType.Unit) {
-            albumSong.focusPerformers = {
-              type: FocusPerformersType.Unit,
-              name: song.formations.firstRow,
-            };
-          } else if (song.type === SongType.None) {
-            albumSong.focusPerformers = {
-              type: FocusPerformersType.None,
-              name: song.performers.center,
-            };
-          }
-        }
-      });
-    });
-  });
-};
-
-export const updateAlbums = (albumsList: IAlbum[], songsList: ISong[]) => {
-  recordAlbumArtworks(albumsList);
-  recordAlbumSongType(albumsList, songsList);
-  recordAlbumFocusPerformers(albumsList, songsList);
+export const updateAlbums = (albums: IAlbums, songs: ISongs) => {
+  recordAlbumArtworks(albums);
+  recordAlbumSongType(albums, songs);
+  recordAlbumFocusPerformers(albums, songs);
 };
