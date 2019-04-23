@@ -1,5 +1,5 @@
-import { IAlbum } from "../models/IAlbum";
-import { ISingle } from "../models/ISingle";
+import { IAlbum, IAlbums } from "../models/IAlbum";
+import { ISingle, ISingles } from "../models/ISingle";
 import { ISong } from "../models/ISong";
 
 const recordSongAlbums = (songsList: ISong[], albumsList: IAlbum[]) => {
@@ -35,7 +35,24 @@ const recordSongSingle = (songsList: ISong[], singlesList: ISingle[]) => {
   });
 };
 
-export const updateSongs = (songsList: ISong[], singlesList: ISingle[], albumsList: IAlbum[]) => {
+const recordArtworks = (songs: ISong[], singles: ISingles, albums: IAlbums) => {
+  for (const song of songs) {
+    if (song.single !== "") {
+      // song.artworks = singles[song.single].artworks;
+    } else if (song.albums.length > 0) {
+      // song.artworks = albums[song.albums[0]].artworks;
+    }
+  }
+};
+
+export const updateSongs = (
+  songsList: ISong[],
+  singlesList: ISingle[],
+  albumsList: IAlbum[],
+  singles: ISingles,
+  albums: IAlbums,
+) => {
   recordSongSingle(songsList, singlesList);
   recordSongAlbums(songsList, albumsList);
+  recordArtworks(songsList, singles, albums);
 };

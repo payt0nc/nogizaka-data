@@ -1,4 +1,4 @@
-import { ISingle } from "../models/ISingle";
+import { ISingle, ISingles } from "../models/ISingle";
 import { CdType, MemberNames, SongType } from "../utils/constants";
 
 const kaerimichi: ISingle = {
@@ -6,48 +6,33 @@ const kaerimichi: ISingle = {
   number: "22",
   release: "2018-11-14",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.B]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.C]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.D,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.D]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.T]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -123,48 +108,33 @@ const jikochu: ISingle = {
   number: "21",
   release: "2018-08-08",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.B]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.C]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.D,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.D]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.T]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -240,48 +210,33 @@ const syncronicity: ISingle = {
   number: "20",
   release: "2018-04-25",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.B]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.C]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.D,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.D]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.T]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -357,48 +312,33 @@ const itsukadekirukara: ISingle = {
   number: "19",
   release: "2017-10-11",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.B]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.C]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.D,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.D]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.T]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -487,48 +427,33 @@ const nigemizu: ISingle = {
   number: "18",
   release: "2017-08-09",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.B]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.C]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.D,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.D]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.T]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -617,48 +542,33 @@ const influencer: ISingle = {
   number: "17",
   release: "2017-03-22",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.B]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.C]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.D,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.D]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.T]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -747,48 +657,33 @@ const sayonaranoimi: ISingle = {
   number: "16",
   release: "2016-11-09",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.B]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.C]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.D,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.D]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.T]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -864,48 +759,33 @@ const hadashidesummer: ISingle = {
   number: "15",
   release: "2016-07-27",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.B]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.C]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.D,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.D]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.T]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -981,48 +861,33 @@ const harujion: ISingle = {
   number: "14",
   release: "2016-03-23",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.B]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.C]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.D,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.D]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.T]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -1098,40 +963,28 @@ const hanashitaidarekagairu: ISingle = {
   number: "13",
   release: "2015-10-28",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.B]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.C]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.T]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -1199,40 +1052,28 @@ const taiyoknock: ISingle = {
   number: "12",
   release: "2015-07-22",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -1308,40 +1149,28 @@ const inochihautsukushii: ISingle = {
   number: "11",
   release: "2015-03-18",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -1416,40 +1245,28 @@ const nandomenoaozoraka: ISingle = {
   number: "10",
   release: "2014-10-08",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -1525,40 +1342,28 @@ const natsunofreeandeasy: ISingle = {
   number: "9",
   release: "2014-07-09",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -1637,40 +1442,28 @@ const kizuitarakataomoi: ISingle = {
   number: "8",
   release: "2014-04-02",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -1748,40 +1541,28 @@ const valletta: ISingle = {
   number: "7",
   release: "2013-11-27",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -1862,40 +1643,28 @@ const girlsrule: ISingle = {
   number: "6",
   release: "2013-07-03",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -1977,40 +1746,28 @@ const kiminonahakibo: ISingle = {
   number: "5",
   release: "2013-03-31",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -2078,40 +1835,28 @@ const seifukunomannequin: ISingle = {
   number: "4",
   release: "2012-12-19",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -2179,40 +1924,28 @@ const hashirebicycle: ISingle = {
   number: "3",
   release: "2012-08-22",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -2280,40 +2013,28 @@ const oideshampoo: ISingle = {
   number: "2",
   release: "2012-05-02",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -2381,40 +2102,28 @@ const gurugurucurtain: ISingle = {
   number: "1",
   release: "2012-02-22",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -2478,7 +2187,7 @@ const gurugurucurtain: ISingle = {
 };
 
 // prettier-ignore
-export const singles = {
+export const singles: ISingles = {
   "帰り道は遠回りしたくなる": kaerimichi,
   "ジコチューで行こう!": jikochu,
   "シンクロニシティ": syncronicity,

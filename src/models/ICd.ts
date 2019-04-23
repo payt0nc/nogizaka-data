@@ -1,25 +1,6 @@
 import { CdType, FocusPerformersType, SongType } from "../utils/constants";
 import { ISite } from "./ISite";
 
-export type ICd = {
-  title: string;
-  number: string;
-  release: string;
-  hasArtworks: boolean;
-  artworks: ICdArtwork[];
-  shopping: ISite[];
-  songs: ICdSong[];
-};
-
-export type ICdArtwork = {
-  type: CdType;
-  urls: {
-    large: string;
-    medium: string;
-    small: string;
-  };
-};
-
 export type ICdSong = {
   number: number;
   title: string;
@@ -32,4 +13,20 @@ export type ICdSong = {
 type IFocusPerformers = {
   type: FocusPerformersType;
   name: string[];
+};
+
+export type ICd = {
+  title: string;
+  number: string;
+  release: string;
+  hasArtworks: boolean;
+  artworks: {
+    [type: string]: {
+      large: string;
+      medium: string;
+      small: string;
+    };
+  };
+  shopping: ISite[];
+  songs: ICdSong[];
 };

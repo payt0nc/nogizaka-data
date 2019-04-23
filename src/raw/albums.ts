@@ -1,4 +1,4 @@
-import { IAlbum } from "../models/IAlbum";
+import { IAlbum, IAlbums } from "../models/IAlbum";
 import { CdType, SongType } from "../utils/constants";
 
 const imagaomoideninarumade: IAlbum = {
@@ -6,40 +6,28 @@ const imagaomoideninarumade: IAlbum = {
   number: "4",
   release: "2019-04-17",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.L,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.L]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.B]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.T]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -271,32 +259,23 @@ const bokudakenokimi: IAlbum = {
   number: "U",
   release: "2018-01-10",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.L1,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.L1]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.L2,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.L2]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.T]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -520,40 +499,28 @@ const umaretekara: IAlbum = {
   number: "3",
   release: "2017-05-24",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.B]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.L,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.L]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.T]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -833,48 +800,33 @@ const sorezorenoisu: IAlbum = {
   number: "2",
   release: "2016-05-25",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.B]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.C]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.D,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.D]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.T,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.T]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -1178,32 +1130,23 @@ const tomeinairo: IAlbum = {
   number: "1",
   release: "2015-01-27",
   hasArtworks: true,
-  artworks: [
-    {
-      type: CdType.A,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.B,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.B]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-    {
-      type: CdType.C,
-      urls: {
-        large: "",
-        medium: "",
-        small: "",
-      },
+    [CdType.C]: {
+      large: "",
+      medium: "",
+      small: "",
     },
-  ],
+  },
   shopping: [
     {
       title: "iTunes",
@@ -1447,7 +1390,7 @@ const tomeinairo: IAlbum = {
 };
 
 // prettier-ignore
-export const albums = {
+export const albums: IAlbums = {
   "今が思い出になるまで": imagaomoideninarumade,
   "僕だけの君〜Under Super Best〜": bokudakenokimi,
   "生まれてから初めて見た夢": umaretekara,

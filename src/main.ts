@@ -23,7 +23,7 @@ const unitsArray = Object.values(units);
 updateMembers(membersArray, unitsArray, singlesArray, songsArray);
 updateSingles(singlesArray, songsArray);
 updateAlbums(albumsArray, songsArray);
-updateSongs(songsArray, singlesArray, albumsArray);
+updateSongs(songsArray, singlesArray, albumsArray, singles, albums);
 updateUnits(unitsArray, songsArray);
 
 console.log("Data processing finished.\n");

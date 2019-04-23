@@ -77,13 +77,12 @@ TODO:
 - Singles
   - [x] Extract `songType` from `songs`
   - [x] Extract focus members/unit/corp from `songs`
-  - [ ] Calculate the artwork for each song in single view
 - Albums
   - [x] Extract `songType` from `songs`
   - [x] Extract focus members/unit/corp from `songs`
-  - [ ] Calculate the artwork for each song in album view
 - Songs
   - [x] Pair `single` and `albums` from `songs` and `albums`
+  - [ ] Calculate the artwork based on its `single` and `albums` properties
 - Units & Corps
   - [x] Extract performed songs from `songs`
 
