@@ -38,9 +38,20 @@ const recordSongSingle = (songsList: ISong[], singlesList: ISingle[]) => {
 const recordArtworks = (songs: ISong[], singles: ISingles, albums: IAlbums) => {
   for (const song of songs) {
     if (song.single !== "") {
-      // song.artworks = singles[song.single].artworks;
+      const single = singles[song.single];
+      for (const singleSong of single.songs) {
+        if (singleSong.title === song.title) {
+          song.artwork = single.artworks[singleSong.inCdType[0]];
+          break;
+        }
+      }
     } else if (song.albums.length > 0) {
-      // song.artworks = albums[song.albums[0]].artworks;
+      const album = albums[song.albums[0]];
+      for (const albumSong of album.songs) {
+        if (albumSong.title === song.title) {
+          song.artwork = album.artworks[albumSong.inCdType[0]];
+        }
+      }
     }
   }
 };

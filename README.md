@@ -82,7 +82,7 @@ TODO:
   - [x] Extract focus members/unit/corp from `songs`
 - Songs
   - [x] Pair `single` and `albums` from `songs` and `albums`
-  - [ ] Calculate the artwork based on its `single` and `albums` properties
+  - [x] Calculate the artwork based on its `single` and `albums` properties
 - Units & Corps
   - [x] Extract performed songs from `songs`
 

@@ -9,7 +9,7 @@ const songKaerimichi: ISong = {
   title: "帰り道は遠回りしたくなる",
   single: "帰り道は遠回りしたくなる",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -64,7 +64,7 @@ const songNichijo: ISong = {
   title: "日常",
   single: "帰り道は遠回りしたくなる",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -116,7 +116,7 @@ const songKyaraban: ISong = {
   title: "キャラバンは眠らない",
   single: "帰り道は遠回りしたくなる",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -164,7 +164,7 @@ const songTsuduku: ISong = {
   title: "つづく",
   single: "帰り道は遠回りしたくなる",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -195,7 +195,7 @@ const songKokuhakunojunban: ISong = {
   title: "告白の順番",
   single: "帰り道は遠回りしたくなる",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -226,7 +226,7 @@ const songChopinnousotsuki: ISong = {
   title: "ショパンの嘘つき",
   single: "帰り道は遠回りしたくなる",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -257,7 +257,7 @@ const songShiritaikoto: ISong = {
   title: "知りたいこと",
   single: "帰り道は遠回りしたくなる",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -290,7 +290,7 @@ const songJikochu: ISong = {
   title: "ジコチューで行こう!",
   single: "ジコチューで行こう!",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -345,7 +345,7 @@ const songSankakunoakichi: ISong = {
   title: "三角の空き地",
   single: "ジコチューで行こう!",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -393,7 +393,7 @@ const songSoratobira: ISong = {
   title: "空扉",
   single: "ジコチューで行こう!",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -442,7 +442,7 @@ const songJibunjanaikanji: ISong = {
   title: "自分じゃない感じ",
   single: "ジコチューで行こう!",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -485,7 +485,7 @@ const songKokoronomonologue: ISong = {
   title: "心のモノローグ",
   single: "ジコチューで行こう!",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -516,7 +516,7 @@ const songChikyugamaruinara: ISong = {
   title: "地球が丸いなら",
   single: "ジコチューで行こう!",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -547,7 +547,7 @@ const songAnnanisukidattanoni: ISong = {
   title: "あんなに好きだったのに・・・",
   single: "ジコチューで行こう!",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -602,7 +602,7 @@ const songSyncronicity: ISong = {
   title: "シンクロニシティ",
   single: "シンクロニシティ",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -657,7 +657,7 @@ const songAtarashiisekai: ISong = {
   title: "新しい世界",
   single: "シンクロニシティ",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -712,7 +712,7 @@ const songAgainst: ISong = {
   title: "Against",
   single: "シンクロニシティ",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -764,7 +764,7 @@ const songKumoninarebaii: ISong = {
   title: "雲になればいい",
   single: "シンクロニシティ",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -795,7 +795,7 @@ const songScoutman: ISong = {
   title: "スカウトマン",
   single: "シンクロニシティ",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -837,7 +837,7 @@ const songTokitokimekimeki: ISong = {
   title: "トキトキメキメキ",
   single: "シンクロニシティ",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -881,7 +881,7 @@ const songKotodamaho: ISong = {
   title: "言霊砲",
   single: "シンクロニシティ",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -914,7 +914,7 @@ const songItsukadekirukara: ISong = {
   title: "いつかできるから今日できる",
   single: "いつかできるから今日できる",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -962,7 +962,7 @@ const songMyrule: ISong = {
   title: "My rule",
   single: "いつかできるから今日できる",
   albums: ["僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1001,7 +1001,7 @@ const songFumensho: ISong = {
   title: "不眠症",
   single: "いつかできるから今日できる",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1053,7 +1053,7 @@ const songMaaiika: ISong = {
   title: "まあいいか?",
   single: "いつかできるから今日できる",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1084,7 +1084,7 @@ const songShitsurenosojinin: ISong = {
   title: "失恋お掃除人",
   single: "いつかできるから今日できる",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1120,7 +1120,7 @@ const songBokunoshodo: ISong = {
   title: "僕の衝動",
   single: "いつかできるから今日できる",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1163,7 +1163,7 @@ const songAtarashiikafun: ISong = {
   title: "新しい花粉 〜ミュージカル「見知らぬ世界」より〜",
   single: "いつかできるから今日できる",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1196,7 +1196,7 @@ const songNigemizu: ISong = {
   title: "逃げ水",
   single: "逃げ水",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1248,7 +1248,7 @@ const songUnder: ISong = {
   title: "アンダー",
   single: "逃げ水",
   albums: ["僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1300,7 +1300,7 @@ const songOnnahahitorija: ISong = {
   title: "女は一人じゃ眠れない",
   single: "逃げ水",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1350,7 +1350,7 @@ const songHitonatsu: ISong = {
   title: "ひと夏の長さより…",
   single: "逃げ水",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1400,7 +1400,7 @@ const songLiveshin: ISong = {
   title: "ライブ神",
   single: "逃げ水",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1431,7 +1431,7 @@ const songMirainokotae: ISong = {
   title: "未来の答え",
   single: "逃げ水",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1467,7 +1467,7 @@ const songNaitatteii: ISong = {
   title: "泣いたっていいじゃないか?",
   single: "逃げ水",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1519,7 +1519,7 @@ const songInfluencer: ISong = {
   title: "インフルエンサー",
   single: "インフルエンサー",
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1574,7 +1574,7 @@ const songFusenhaikiteiru: ISong = {
   title: "風船は生きている",
   single: "インフルエンサー",
   albums: ["生まれてから初めて見た夢", "僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1611,7 +1611,7 @@ const songJinseiwokangae: ISong = {
   title: "人生を考えたくなる",
   single: "インフルエンサー",
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1642,7 +1642,7 @@ const songIgaibreak: ISong = {
   title: "意外BREAK",
   single: "インフルエンサー",
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1673,7 +1673,7 @@ const songAnotherghost: ISong = {
   title: "Another Ghost",
   single: "インフルエンサー",
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1704,7 +1704,7 @@ const songSanbanmenokaze: ISong = {
   title: "三番目の風",
   single: "インフルエンサー",
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1741,7 +1741,7 @@ const songAtarisawarinonai: ISong = {
   title: "当たり障りのない話",
   single: "インフルエンサー",
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1774,7 +1774,7 @@ const songSayonaranoimi: ISong = {
   title: "サヨナラの意味",
   single: "サヨナラの意味",
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1827,7 +1827,7 @@ const songBulanko: ISong = {
   title: "ブランコ",
   single: "サヨナラの意味",
   albums: ["生まれてから初めて見た夢", "僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1877,7 +1877,7 @@ const songKodokunaaozora: ISong = {
   title: "孤独な青空",
   single: "サヨナラの意味",
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1928,7 +1928,7 @@ const songAnokyoshitsu: ISong = {
   title: "あの教室",
   single: "サヨナラの意味",
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1959,7 +1959,7 @@ const songNidomenokisukara: ISong = {
   title: "2度目のキスから",
   single: "サヨナラの意味",
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -1990,7 +1990,7 @@ const songKiminiokuruhana: ISong = {
   title: "君に贈る花がない",
   single: "サヨナラの意味",
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2027,7 +2027,7 @@ const songNaimononetari: ISong = {
   title: "ないものねだり",
   single: "サヨナラの意味",
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2060,7 +2060,7 @@ const songHadashidesummer: ISong = {
   title: "裸足でSummer",
   single: "裸足でSummer",
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2110,7 +2110,7 @@ const songSecretGravity: ISong = {
   title: "シークレットグラフィティー",
   single: "裸足でSummer",
   albums: ["生まれてから初めて見た夢", "僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2163,7 +2163,7 @@ const songBokudakenohikari: ISong = {
   title: "僕だけの光",
   single: "裸足でSummer",
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2211,7 +2211,7 @@ const songOffshoregirl: ISong = {
   title: "オフショアガール",
   single: "裸足でSummer",
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2242,7 +2242,7 @@ const songInochinoshinjitsu: ISong = {
   title: "命の真実 ミュージカル「林檎売りとカメムシ」",
   single: "裸足でSummer",
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2273,7 +2273,7 @@ const songHakumaisama: ISong = {
   title: "白米様",
   single: "裸足でSummer",
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2304,7 +2304,7 @@ const songIkuatenonaibokutachi: ISong = {
   title: "行くあてのない僕たち",
   single: "裸足でSummer",
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2337,7 +2337,7 @@ const songHarujion: ISong = {
   title: "ハルジオンが咲く頃",
   single: "ハルジオンが咲く頃",
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2388,7 +2388,7 @@ const songFutogo: ISong = {
   title: "不等号",
   single: "ハルジオンが咲く頃",
   albums: ["それぞれの椅子", "僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2441,7 +2441,7 @@ const songHarukanarubhutan: ISong = {
   title: "遥かなるブータン",
   single: "ハルジオンが咲く頃",
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2479,7 +2479,7 @@ const songTsuyogarutsubomi: ISong = {
   title: "強がる蕾",
   single: "ハルジオンが咲く頃",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2510,7 +2510,7 @@ const songKyushamen: ISong = {
   title: "急斜面",
   single: "ハルジオンが咲く頃",
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2541,7 +2541,7 @@ const songTsuribori: ISong = {
   title: "釣り堀",
   single: "ハルジオンが咲く頃",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2572,7 +2572,7 @@ const songYuutsutofusengamu: ISong = {
   title: "憂鬱と風船ガム",
   single: "ハルジオンが咲く頃",
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2612,7 +2612,7 @@ const songHanashitaidarekagairu: ISong = {
   title: "今、話したい誰かがいる",
   single: "今、話したい誰かがいる",
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2657,7 +2657,7 @@ const songShittonokenri: ISong = {
   title: "嫉妬の権利",
   single: "今、話したい誰かがいる",
   albums: ["それぞれの椅子", "僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2707,7 +2707,7 @@ const songPopipappapa: ISong = {
   title: "ポピパッパパー",
   single: "今、話したい誰かがいる",
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2752,7 +2752,7 @@ const songOtonahenochikamichi: ISong = {
   title: "大人への近道",
   single: "今、話したい誰かがいる",
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2789,7 +2789,7 @@ const songKanashiminowasurekata: ISong = {
   title: "悲しみの忘れ方",
   single: "今、話したい誰かがいる",
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2839,7 +2839,7 @@ const songSukima: ISong = {
   title: "隙間",
   single: "今、話したい誰かがいる",
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2880,7 +2880,7 @@ const songTaiyoknock: ISong = {
   title: "太陽ノック",
   single: "太陽ノック",
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2932,7 +2932,7 @@ const songWakaregiwa: ISong = {
   title: "別れ際、もっと好きになる",
   single: "太陽ノック",
   albums: ["それぞれの椅子", "僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -2984,7 +2984,7 @@ const songMosukoshinoyumewo: ISong = {
   title: "もう少しの夢",
   single: "太陽ノック",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3015,7 +3015,7 @@ const songSakanatachinolovesong: ISong = {
   title: "魚たちのLOVE SONG",
   single: "太陽ノック",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3051,7 +3051,7 @@ const songMuhyojo: ISong = {
   title: "無表情",
   single: "太陽ノック",
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3082,7 +3082,7 @@ const songHanenokioku: ISong = {
   title: "羽根の記憶",
   single: "太陽ノック",
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3132,7 +3132,7 @@ const songSeifukuwonuide: ISong = {
   title: "制服を脱いでサヨナラを…",
   single: "太陽ノック",
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3165,7 +3165,7 @@ const songInochihautsukushii: ISong = {
   title: "命は美しい",
   single: "命は美しい",
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3217,7 +3217,7 @@ const songKimihabokuto: ISong = {
   title: "君は僕と会わない方がよかったのかな",
   single: "命は美しい",
   albums: ["それぞれの椅子", "僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3256,7 +3256,7 @@ const songArakajimeromance: ISong = {
   title: "あらかじめ語られるロマンス",
   single: "命は美しい",
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3294,7 +3294,7 @@ const songTachinaorichu: ISong = {
   title: "立ち直り中",
   single: "命は美しい",
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3333,7 +3333,7 @@ const songGomennezutto: ISong = {
   title: "ごめんね ずっと…",
   single: "命は美しい",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3364,7 +3364,7 @@ const songBorder: ISong = {
   title: "ボーダー",
   single: "命は美しい",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3404,7 +3404,7 @@ const songNandomenoaozoraka: ISong = {
   title: "何度目の青空か?",
   single: "何度目の青空か?",
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3454,7 +3454,7 @@ const songAnohibokuha: ISong = {
   title: "あの日 僕は咄嗟に嘘をついた",
   single: "何度目の青空か?",
   albums: ["透明な色", "僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3501,7 +3501,7 @@ const songTomawarinoaijo: ISong = {
   title: "遠回りの愛情",
   single: "何度目の青空か?",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3541,7 +3541,7 @@ const songKorogattakanewonarase: ISong = {
   title: "転がった鐘を鳴らせ!",
   single: "何度目の青空か?",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3589,7 +3589,7 @@ const songWatashiokiru: ISong = {
   title: "私、起きる。",
   single: "何度目の青空か?",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3631,7 +3631,7 @@ const songTenderdays: ISong = {
   title: "Tender days",
   single: "何度目の青空か?",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3674,7 +3674,7 @@ const songNatsunofreeandeasy: ISong = {
   title: "夏のFree&Easy",
   single: "夏のFree&Easy",
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3725,7 +3725,7 @@ const songKokoniiruriyu: ISong = {
   title: "ここにいる理由",
   single: "夏のFree&Easy",
   albums: ["僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3775,7 +3775,7 @@ const songNanimodekizuni: ISong = {
   title: "何もできずにそばにいる",
   single: "夏のFree&Easy",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3826,7 +3826,7 @@ const songSonosakinodeguchi: ISong = {
   title: "その先の出口!",
   single: "夏のFree&Easy",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3867,7 +3867,7 @@ const songMukuchinalion: ISong = {
   title: "無口なライオン",
   single: "夏のFree&Easy",
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3907,7 +3907,7 @@ const songBokugaikanakya: ISong = {
   title: "僕が行かなきゃ誰が行くんだ?",
   single: "夏のFree&Easy",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3948,7 +3948,7 @@ const songKizuitarakataomoi: ISong = {
   title: "気づいたら片想い",
   single: "気づいたら片想い",
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -3998,7 +3998,7 @@ const songUmaretamamade: ISong = {
   title: "生まれたままで",
   single: "気づいたら片想い",
   albums: ["僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -4049,7 +4049,7 @@ const songRomancenostart: ISong = {
   title: "ロマンスのスタート",
   single: "気づいたら片想い",
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -4099,7 +4099,7 @@ const songToikimethod: ISong = {
   title: "吐息のメソッド",
   single: "気づいたら片想い",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -4151,7 +4151,7 @@ const songKodokukyodai: ISong = {
   title: "孤独兄弟",
   single: "気づいたら片想い",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -4182,7 +4182,7 @@ const songDankeschon: ISong = {
   title: "ダンケシェーン",
   single: "気づいたら片想い",
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -4224,7 +4224,7 @@ const songValletta: ISong = {
   title: "バレッタ",
   single: "バレッタ",
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -4270,7 +4270,7 @@ const songHatsukoinohito: ISong = {
   title: "初恋の人を今でも",
   single: "バレッタ",
   albums: ["僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -4313,7 +4313,7 @@ const songTsukinookisa: ISong = {
   title: "月の大きさ",
   single: "バレッタ",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -4359,7 +4359,7 @@ const songWatashinotameni: ISong = {
   title: "私のために 誰かのために",
   single: "バレッタ",
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -4396,7 +4396,7 @@ const songSonnabakana: ISong = {
   title: "そんなバカな…",
   single: "バレッタ",
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -4450,7 +4450,7 @@ const songYasashisatoha: ISong = {
   title: "やさしさとは",
   single: "バレッタ",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -4491,7 +4491,7 @@ const songGirlsrule: ISong = {
   title: "ガールズルール",
   single: "ガールズルール",
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -4537,7 +4537,7 @@ const songSenpuki: ISong = {
   title: "扇風機",
   single: "ガールズルール",
   albums: ["僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -4575,7 +4575,7 @@ const songSekaideichiban: ISong = {
   title: "世界で一番 孤独なLover",
   single: "ガールズルール",
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -4621,7 +4621,7 @@ const songKomoriyo: ISong = {
   title: "コウモリよ",
   single: "ガールズルール",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -4652,7 +4652,7 @@ const songHokanohoshikara: ISong = {
   title: "他の星から",
   single: "ガールズルール",
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -4691,7 +4691,7 @@ const sonNingentoiugaki: ISong = {
   title: "人間という楽器",
   single: "ガールズルール",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -4757,7 +4757,7 @@ const songKiminonahakibo: ISong = {
   title: "君の名は希望",
   single: "君の名は希望",
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -4803,7 +4803,7 @@ const songjusannichinokiyobi: ISong = {
   title: "13日の金曜日",
   single: "君の名は希望",
   albums: ["透明な色", "僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -4845,7 +4845,7 @@ const songShakism: ISong = {
   title: "シャキイズム",
   single: "君の名は希望",
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -4893,7 +4893,7 @@ const songRomanticIkayaki: ISong = {
   title: "ロマンティックいか焼き",
   single: "君の名は希望",
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -4941,7 +4941,7 @@ const songDekopin: ISong = {
   title: "でこぴん",
   single: "君の名は希望",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -4978,7 +4978,7 @@ const songPsychokineses: ISong = {
   title: "サイコキネシスの可能性",
   single: "君の名は希望",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -5020,7 +5020,7 @@ const songSeifukunomannequin: ISong = {
   title: "制服のマネキン",
   single: "制服のマネキン",
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -5066,7 +5066,7 @@ const songHarunomelody: ISong = {
   title: "春のメロディー",
   single: "制服のマネキン",
   albums: ["僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -5109,7 +5109,7 @@ const songYubiboenkyo: ISong = {
   title: "指望遠鏡",
   single: "制服のマネキン",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -5155,7 +5155,7 @@ const songYasashisanaramaniatteru: ISong = {
   title: "やさしさなら間に合ってる",
   single: "制服のマネキン",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -5195,7 +5195,7 @@ const songKokojanaidokoka: ISong = {
   title: "ここじゃないどこか",
   single: "制服のマネキン",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -5226,7 +5226,7 @@ const songShibuyablues: ISong = {
   title: "渋谷ブルース",
   single: "制服のマネキン",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -5259,7 +5259,7 @@ const songHashirebicycle: ISong = {
   title: "走れ!Bicycle",
   single: "走れ!Bicycle",
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -5312,7 +5312,7 @@ const songNamidagamada: ISong = {
   title: "涙がまだ悲しみだった頃",
   single: "走れ!Bicycle",
   albums: ["透明な色", "僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -5356,7 +5356,7 @@ const songSekkachinakatatsumuri: ISong = {
   title: "せっかちなかたつむり",
   single: "走れ!Bicycle",
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -5395,7 +5395,7 @@ const songHitohanazehashirunoka: ISong = {
   title: "人はなぜ走るのか?",
   single: "走れ!Bicycle",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -5448,7 +5448,7 @@ const songOtogadenaiguitar: ISong = {
   title: "音が出ないギター",
   single: "走れ!Bicycle",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -5501,7 +5501,7 @@ const songKairyunoshimayo: ISong = {
   title: "海流の島よ",
   single: "走れ!Bicycle",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -5542,7 +5542,7 @@ const songOideshampoo: ISong = {
   title: "おいでシャンプー",
   single: "おいでシャンプー",
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -5588,7 +5588,7 @@ const songOkaminikuchibuewo: ISong = {
   title: "狼に口笛を",
   single: "おいでシャンプー",
   albums: ["僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -5636,7 +5636,7 @@ const songKokoronokusuri: ISong = {
   title: "心の薬",
   single: "おいでシャンプー",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -5688,7 +5688,7 @@ const songGuzenwoiiwakenishite: ISong = {
   title: "偶然を言い訳にして",
   single: "おいでシャンプー",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -5724,7 +5724,7 @@ const songMizutamamoyo: ISong = {
   title: "水玉模様",
   single: "おいでシャンプー",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -5755,7 +5755,7 @@ const songHouse: ISong = {
   title: "ハウス!",
   single: "おいでシャンプー",
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -5809,7 +5809,7 @@ const songGurugurucurtain: ISong = {
   title: "ぐるぐるカーテン",
   single: "ぐるぐるカーテン",
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -5855,7 +5855,7 @@ const songHidarimurenoyuki: ISong = {
   title: "左胸の勇気",
   single: "ぐるぐるカーテン",
   albums: ["僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -5905,7 +5905,7 @@ const songNogizakanouta: ISong = {
   title: "乃木坂の詩",
   single: "ぐるぐるカーテン",
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -5970,7 +5970,7 @@ const songAitakattakamoshirenai: ISong = {
   title: "会いたかったかもしれない",
   single: "ぐるぐるカーテン",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6022,7 +6022,7 @@ const songUshinaitakunaikara: ISong = {
   title: "失いたくないから",
   single: "ぐるぐるカーテン",
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6074,7 +6074,7 @@ const songShiroikumoninotte: ISong = {
   title: "白い雲にのって",
   single: "ぐるぐるカーテン",
   albums: [],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6133,7 +6133,7 @@ const arigachinarenai: ISong = {
   title: "ありがちな恋愛",
   single: null,
   albums: ["今が思い出になるまで"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6183,7 +6183,7 @@ const moshikimigainakereba: ISong = {
   title: "もし君がいなければ",
   single: null,
   albums: ["今が思い出になるまで"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6214,7 +6214,7 @@ const kissnoshuriken: ISong = {
   title: "キスの手裏剣",
   single: null,
   albums: ["今が思い出になるまで"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6257,7 +6257,7 @@ const hoozue: ISong = {
   title: "頬杖をついては眠れない",
   single: null,
   albums: ["今が思い出になるまで"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6294,7 +6294,7 @@ const pocchito: ISong = {
   title: "ぽっち党",
   single: null,
   albums: ["今が思い出になるまで"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6325,7 +6325,7 @@ const sayuringoboshuchu: ISong = {
   title: "さゆりんご募集中",
   single: null,
   albums: ["今が思い出になるまで"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6356,7 +6356,7 @@ const gorugonzora: ISong = {
   title: "ゴルゴンゾーラ",
   single: null,
   albums: ["今が思い出になるまで"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6387,7 +6387,7 @@ const zambi: ISong = {
   title: "もうすぐ～ザンビ伝説～",
   single: null,
   albums: ["今が思い出になるまで"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6442,7 +6442,7 @@ const songJibunnokoto: ISong = {
   title: "自分のこと",
   single: null,
   albums: ["僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6473,7 +6473,7 @@ const songUnuborebeach: ISong = {
   title: "自惚れビーチ",
   single: null,
   albums: ["僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6519,7 +6519,7 @@ const songSonohito: ISong = {
   title: "その女",
   single: null,
   albums: ["僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6565,7 +6565,7 @@ const songDareyorisobaniitai: ISong = {
   title: "誰よりそばにいたい",
   single: null,
   albums: ["僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6613,7 +6613,7 @@ const songSkydiving: ISong = {
   title: "スカイダイビング",
   single: null,
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6666,7 +6666,7 @@ const songKimigaaoidekureta: ISong = {
   title: "君が扇いでくれた",
   single: null,
   albums: ["生まれてから初めて見た夢", "僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6710,7 +6710,7 @@ const songOmoidefirst: ISong = {
   title: "思い出ファースト",
   single: null,
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6754,7 +6754,7 @@ const songSetteiondo: ISong = {
   title: "設定温度",
   single: null,
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6833,7 +6833,7 @@ const songRewindanohi: ISong = {
   title: "Rewindあの日",
   single: null,
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6864,7 +6864,7 @@ const songGomensmoothie: ISong = {
   title: "ごめんね、スムージー",
   single: null,
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6895,7 +6895,7 @@ const songMinikuiwatashi: ISong = {
   title: "醜い私",
   single: null,
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6926,7 +6926,7 @@ const songKataikaranoyoni: ISong = {
   title: "硬い殻のように抱きしめたい",
   single: null,
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6957,7 +6957,7 @@ const songMangetsugakieta: ISong = {
   title: "満月が消えた",
   single: null,
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -6988,7 +6988,7 @@ const songWatabokori: ISong = {
   title: "ワタボコリ",
   single: null,
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -7019,7 +7019,7 @@ const songRyuseidiscotic: ISong = {
   title: "流星ディスコティック",
   single: null,
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -7050,7 +7050,7 @@ const songBokyakutobigaku: ISong = {
   title: "忘却と美学",
   single: null,
   albums: ["生まれてから初めて見た夢"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -7083,7 +7083,7 @@ const songKikkake: ISong = {
   title: "きっかけ",
   single: null,
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -7131,7 +7131,7 @@ const songTaiyonikudokarete: ISong = {
   title: "太陽に口説かれて",
   single: null,
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -7179,7 +7179,7 @@ const songYokubonoReincarnation: ISong = {
   title: "欲望のリインカーネーション",
   single: null,
   albums: ["それぞれの椅子", "僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -7220,7 +7220,7 @@ const songKukikan: ISong = {
   title: "空気感",
   single: null,
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -7257,7 +7257,7 @@ const songKogoseikibo: ISong = {
   title: "光合成希望",
   single: null,
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -7288,7 +7288,7 @@ const songThreefoldchoice: ISong = {
   title: "Threefold choice",
   single: null,
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -7319,7 +7319,7 @@ const songTeitaionnokisu: ISong = {
   title: "低体温のキス",
   single: null,
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -7350,7 +7350,7 @@ const songShitsurenshitara: ISong = {
   title: "失恋したら、顔を洗え!",
   single: null,
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -7381,7 +7381,7 @@ const songKakigorinokataomoi: ISong = {
   title: "かき氷の片想い",
   single: null,
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -7424,7 +7424,7 @@ const songKanjorokugosen: ISong = {
   title: "環状六号線",
   single: null,
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -7455,7 +7455,7 @@ const songKuchiyakusoku: ISong = {
   title: "口約束",
   single: null,
   albums: ["それぞれの椅子"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -7488,7 +7488,7 @@ const songDarekahamikata: ISong = {
   title: "誰かは味方",
   single: null,
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -7519,7 +7519,7 @@ const songKakumeinouma: ISong = {
   title: "革命の馬",
   single: null,
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -7557,7 +7557,7 @@ const songBokugairubasho: ISong = {
   title: "僕がいる場所",
   single: null,
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -7605,7 +7605,7 @@ const songAnatanotamenihikitai: ISong = {
   title: "あなたのために弾きたい",
   single: null,
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -7636,7 +7636,7 @@ const songKeishasuru: ISong = {
   title: "傾斜する",
   single: null,
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -7684,7 +7684,7 @@ const songNazonorakugaki: ISong = {
   title: "なぞの落書き",
   single: null,
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -7715,7 +7715,7 @@ const songJiyunokanata: ISong = {
   title: "自由の彼方",
   single: null,
   albums: ["透明な色", "僕だけの君〜Under Super Best〜"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",
@@ -7771,7 +7771,7 @@ const songHitoriyogari: ISong = {
   title: "ひとりよがり",
   single: null,
   albums: ["透明な色"],
-  artworks: {
+  artwork: {
     large: "",
     medium: "",
     small: "",

@@ -24,7 +24,7 @@ export type ISongFormations = {
 export type ISong = {
   title: string;
   single: string;
-  artworks: {
+  artwork: {
     large: string;
     medium: string;
     small: string;
