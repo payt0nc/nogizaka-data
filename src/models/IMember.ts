@@ -1,22 +1,5 @@
-import { BloodType, PhotoAlbumType, UnitType } from "../utils/constants";
+import { BloodType, PhotoAlbumType, UnitType, MemberNames } from "../utils/constants";
 import { ISite } from "./ISite";
-
-export type IMember = {
-  name: string;
-  nameNotations: IMemberNameNotations;
-  profileImage: IMemberProfileImage;
-  singleImages: IMemberSingleImages;
-  join: JoinedGeneration;
-  birthday: string;
-  height: number;
-  bloodType: BloodType;
-  sites: ISite[];
-  photoAlbums: IMemberPhotoAlbum[];
-  units: IMemberUnit[];
-  positionsHistory: IMemberPositionHistory;
-  positionsCounter: IMemberPositionsCounter;
-  graduation: IMemberGraduation;
-};
 
 type IMemberNameNotations = {
   firstName: string;
@@ -42,6 +25,7 @@ type IMemberPhotoAlbum = {
   type: PhotoAlbumType;
   shopping: ISite[];
 };
+
 export enum JoinedGeneration {
   First = "first",
   Second = "second",
@@ -79,4 +63,21 @@ type IMemberGraduation = {
 export type IMemberUnit = {
   name: string;
   type: UnitType;
+};
+
+export type IMember = {
+  name: MemberNames;
+  nameNotations: IMemberNameNotations;
+  profileImage: IMemberProfileImage;
+  singleImages: IMemberSingleImages;
+  join: JoinedGeneration;
+  birthday: string;
+  height: number;
+  bloodType: BloodType;
+  sites: ISite[];
+  photoAlbums: IMemberPhotoAlbum[];
+  units: IMemberUnit[];
+  positionsHistory: IMemberPositionHistory;
+  positionsCounter: IMemberPositionsCounter;
+  graduation: IMemberGraduation;
 };
