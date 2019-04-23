@@ -43,7 +43,7 @@ const imagaomoideninarumade: IAlbum = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -300,7 +300,7 @@ const bokudakenokimi: IAlbum = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -557,7 +557,7 @@ const umaretekara: IAlbum = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -878,7 +878,7 @@ const sorezorenoisu: IAlbum = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -1207,7 +1207,7 @@ const tomeinairo: IAlbum = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [

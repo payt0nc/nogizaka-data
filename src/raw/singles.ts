@@ -51,7 +51,7 @@ const kaerimichi: ISingle = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -168,7 +168,7 @@ const jikochu: ISingle = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -285,7 +285,7 @@ const syncronicity: ISingle = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -402,7 +402,7 @@ const itsukadekirukara: ISingle = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -532,7 +532,7 @@ const nigemizu: ISingle = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -662,7 +662,7 @@ const influencer: ISingle = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -792,7 +792,7 @@ const sayonaranoimi: ISingle = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -909,7 +909,7 @@ const hadashidesummer: ISingle = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -1026,7 +1026,7 @@ const harujion: ISingle = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -1135,7 +1135,7 @@ const hanashitaidarekagairu: ISingle = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -1236,7 +1236,7 @@ const taiyoknock: ISingle = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -1345,7 +1345,7 @@ const inochihautsukushii: ISingle = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -1453,7 +1453,7 @@ const nandomenoaozoraka: ISingle = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -1562,7 +1562,7 @@ const natsunofreeandeasy: ISingle = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -1674,7 +1674,7 @@ const kizuitarakataomoi: ISingle = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -1785,7 +1785,7 @@ const valletta: ISingle = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -1899,7 +1899,7 @@ const girlsrule: ISingle = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -2014,7 +2014,7 @@ const kiminonahakibo: ISingle = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -2115,7 +2115,7 @@ const seifukunomannequin: ISingle = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -2216,7 +2216,7 @@ const hashirebicycle: ISingle = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -2317,7 +2317,7 @@ const oideshampoo: ISingle = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
@@ -2418,7 +2418,7 @@ const gurugurucurtain: ISingle = {
   shopping: [
     {
       title: "iTunes",
-      url: "url",
+      url: "",
     },
   ],
   songs: [
