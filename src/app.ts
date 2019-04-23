@@ -10,6 +10,14 @@ import { singles } from "./raw/singles";
 import { songs } from "./raw/songs";
 import { units } from "./raw/units";
 
+// Process the raw data.
+
+updateMembers(members, units, singles, songs);
+updateSingles(singles, songs);
+updateAlbums(albums, songs);
+updateSongs(songs, singles, albums);
+updateUnits(units, songs);
+
 // Form all property pairs into an array.
 
 const songsArray = Object.values(songs);
@@ -17,14 +25,6 @@ const membersArray = Object.values(members);
 const singlesArray = Object.values(singles);
 const albumsArray = Object.values(albums);
 const unitsArray = Object.values(units);
-
-// Process the raw data.
-
-updateMembers(members, units, singles, songs);
-updateSingles(singles, songs);
-updateAlbums(albums, songs);
-updateSongs(songsArray, singlesArray, albumsArray, singles, albums);
-updateUnits(unitsArray, songsArray);
 
 console.log("Data processing finished.\n");
 
