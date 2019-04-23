@@ -4,23 +4,22 @@ import { members } from "../raw/members";
 import { FocusPerformersType, GITHUB_CONTENTS_PATH, MemberNames, SongType } from "../utils/constants";
 
 const recordSingleArtworks = (singleList: ISingle[]) => {
-  const artworkBasename = GITHUB_CONTENTS_PATH + "src/images/artworks/";
+  const ARTWORK_BASE_NAME = GITHUB_CONTENTS_PATH + "src/images/artworks/singles/";
   singleList.forEach(single => {
+    const artworks = single.artworks;
+
     if (single.hasArtworks) {
-      single.artworks.forEach(artwork => {
-        artwork.urls.large =
-          artworkBasename + "singles/" + single.number.toString() + "/" + artwork.type + "_large.jpg";
-        artwork.urls.medium =
-          artworkBasename + "singles/" + single.number.toString() + "/" + artwork.type + "_medium.jpg";
-        artwork.urls.small =
-          artworkBasename + "singles/" + single.number.toString() + "/" + artwork.type + "_small.jpg";
-      });
+      for (const key of Object.keys(artworks)) {
+        artworks[key].large = ARTWORK_BASE_NAME + single.number.toString() + "/" + key + "_large.jpg";
+        artworks[key].medium = ARTWORK_BASE_NAME + single.number.toString() + "/" + key + "_medium.jpg";
+        artworks[key].small = ARTWORK_BASE_NAME + single.number.toString() + "/" + key + "_small.jpg";
+      }
     } else {
-      single.artworks.forEach(artwork => {
-        artwork.urls.large = artworkBasename + "artwork_no_image_large.png";
-        artwork.urls.medium = artworkBasename + "artwork_no_image_medium.png";
-        artwork.urls.small = artworkBasename + "artwork_no_image_small.png";
-      });
+      for (const key of Object.keys(artworks)) {
+        artworks[key].large = ARTWORK_BASE_NAME + "artwork_no_image_large.png";
+        artworks[key].medium = ARTWORK_BASE_NAME + "artwork_no_image_medium.png";
+        artworks[key].small = ARTWORK_BASE_NAME + "artwork_no_image_small.png";
+      }
     }
   });
 };

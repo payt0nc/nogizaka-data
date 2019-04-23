@@ -1,23 +1,24 @@
 import { IAlbum } from "../models/IAlbum";
 import { ISong } from "../models/ISong";
-import { FocusPerformersType, SongType } from "../utils/constants";
+import { FocusPerformersType, GITHUB_CONTENTS_PATH, SongType } from "../utils/constants";
 
 const recordAlbumArtworks = (albumsList: IAlbum[]) => {
-  const artworkBasename = "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/";
+  const ARTWORK_BASE_NAME = GITHUB_CONTENTS_PATH + "src/images/artworks/albums/";
   albumsList.forEach(album => {
+    const artworks = album.artworks;
+
     if (album.hasArtworks) {
-      album.artworks.forEach(artwork => {
-        artwork.urls.large = artworkBasename + "albums/" + album.number.toString() + "/" + artwork.type + "_large.jpg";
-        artwork.urls.medium =
-          artworkBasename + "albums/" + album.number.toString() + "/" + artwork.type + "_medium.jpg";
-        artwork.urls.small = artworkBasename + "albums/" + album.number.toString() + "/" + artwork.type + "_small.jpg";
-      });
+      for (const key of Object.keys(artworks)) {
+        artworks[key].large = ARTWORK_BASE_NAME + album.number.toString() + "/" + key + "_large.jpg";
+        artworks[key].medium = ARTWORK_BASE_NAME + album.number.toString() + "/" + key + "_medium.jpg";
+        artworks[key].small = ARTWORK_BASE_NAME + album.number.toString() + "/" + key + "_small.jpg";
+      }
     } else {
-      album.artworks.forEach(artwork => {
-        artwork.urls.large = artworkBasename + "artwork_no_image_large.png";
-        artwork.urls.medium = artworkBasename + "artwork_no_image_medium.png";
-        artwork.urls.small = artworkBasename + "artwork_no_image_small.png";
-      });
+      for (const key of Object.keys(artworks)) {
+        artworks[key].large = ARTWORK_BASE_NAME + "artwork_no_image_large.png";
+        artworks[key].medium = ARTWORK_BASE_NAME + "artwork_no_image_medium.png";
+        artworks[key].small = ARTWORK_BASE_NAME + "artwork_no_image_small.png";
+      }
     }
   });
 };

@@ -1058,17 +1058,17 @@ const taiyoknock: ISingle = {
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.B]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.C]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.T]: {
       large: "",
       medium: "",
       small: "",
@@ -1155,17 +1155,17 @@ const inochihautsukushii: ISingle = {
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.B]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.C]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.T]: {
       large: "",
       medium: "",
       small: "",
@@ -1251,17 +1251,17 @@ const nandomenoaozoraka: ISingle = {
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.B]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.C]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.T]: {
       large: "",
       medium: "",
       small: "",
@@ -1348,17 +1348,17 @@ const natsunofreeandeasy: ISingle = {
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.B]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.C]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.T]: {
       large: "",
       medium: "",
       small: "",
@@ -1448,17 +1448,17 @@ const kizuitarakataomoi: ISingle = {
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.B]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.C]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.T]: {
       large: "",
       medium: "",
       small: "",
@@ -1547,17 +1547,17 @@ const valletta: ISingle = {
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.B]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.C]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.T]: {
       large: "",
       medium: "",
       small: "",
@@ -1649,17 +1649,17 @@ const girlsrule: ISingle = {
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.B]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.C]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.T]: {
       large: "",
       medium: "",
       small: "",
@@ -1752,17 +1752,17 @@ const kiminonahakibo: ISingle = {
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.B]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.C]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.T]: {
       large: "",
       medium: "",
       small: "",
@@ -1841,17 +1841,17 @@ const seifukunomannequin: ISingle = {
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.B]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.C]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.T]: {
       large: "",
       medium: "",
       small: "",
@@ -1930,17 +1930,17 @@ const hashirebicycle: ISingle = {
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.B]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.C]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.T]: {
       large: "",
       medium: "",
       small: "",
@@ -2019,17 +2019,17 @@ const oideshampoo: ISingle = {
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.B]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.C]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.T]: {
       large: "",
       medium: "",
       small: "",
@@ -2108,17 +2108,17 @@ const gurugurucurtain: ISingle = {
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.B]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.C]: {
       large: "",
       medium: "",
       small: "",
     },
-    [CdType.A]: {
+    [CdType.T]: {
       large: "",
       medium: "",
       small: "",
