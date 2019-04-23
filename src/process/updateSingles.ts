@@ -36,8 +36,8 @@ const recordSingleSongType = (singleList: ISingle[], songsList: ISong[]) => {
   });
 };
 
-const convertPerformerNames = (names: string[]): string[] => {
-  return names.map((name: MemberNames) => {
+const convertPerformerNames = (names: MemberNames[]): string[] => {
+  return names.map(name => {
     const { lastName, firstName } = members[name].nameNotations;
     return lastName + firstName;
   });

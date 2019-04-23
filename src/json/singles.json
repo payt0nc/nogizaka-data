@@ -130,7 +130,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": []
         }
       },
@@ -143,7 +143,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": []
         }
       }
@@ -269,11 +269,8 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "白石麻衣",
-            "西野七瀬"
-          ]
+          "type": "center",
+          "name": []
         }
       },
       {
@@ -285,7 +282,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": []
         }
       },
@@ -560,11 +557,8 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "秋元真夏",
-            "白石麻衣"
-          ]
+          "type": "center",
+          "name": []
         }
       },
       {
@@ -621,11 +615,8 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "生田絵梨花",
-            "久保史緒里"
-          ]
+          "type": "center",
+          "name": []
         }
       }
     ],
@@ -1083,11 +1074,8 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "齋藤飛鳥",
-            "堀未央奈"
-          ]
+          "type": "center",
+          "name": []
         }
       },
       {
@@ -1302,11 +1290,8 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "伊藤万理華",
-            "井上小百合"
-          ]
+          "type": "center",
+          "name": []
         }
       }
     ],
@@ -1416,7 +1401,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": []
         }
       },
@@ -1691,7 +1676,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": []
         }
       },
@@ -1749,11 +1734,8 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "齋藤飛鳥",
-            "星野みなみ"
-          ]
+          "type": "center",
+          "name": []
         }
       }
     ],
@@ -2033,7 +2015,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": []
         }
       }
@@ -2279,7 +2261,7 @@
         "type": "coupling",
         "artwork": "",
         "focusPerformers": {
-          "type": "",
+          "type": "center",
           "name": []
         }
       },
@@ -2577,7 +2559,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": []
         }
       },
@@ -2620,7 +2602,7 @@
         "type": "first generation",
         "artwork": "",
         "focusPerformers": {
-          "type": "",
+          "type": "center",
           "name": []
         }
       }
@@ -2726,7 +2708,7 @@
         "type": "coupling",
         "artwork": "",
         "focusPerformers": {
-          "type": "",
+          "type": "center",
           "name": []
         }
       },
@@ -2754,7 +2736,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": []
         }
       },
@@ -2875,7 +2857,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": []
         }
       },
@@ -3134,7 +3116,7 @@
         "type": "unit",
         "artwork": "",
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": []
         }
       },

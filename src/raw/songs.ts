@@ -25,8 +25,8 @@ const songKaerimichi: ISong = {
   performers: {
     center: [MemberNames.NishinoNanase],
     fukujin: FukujinType.RowOneTwo,
-    solo: null,
-    unit: null,
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -79,9 +79,9 @@ const songNichijo: ISong = {
   },
   performers: {
     center: [MemberNames.KitanoHinako],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -131,9 +131,9 @@ const songKyaraban: ISong = {
   },
   performers: {
     center: [MemberNames.SaitouAsuka],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -178,10 +178,10 @@ const songTsuduku: ISong = {
     direct: ["湯浅弘章"],
   },
   performers: {
-    center: null,
-    fukujin: null,
+    center: [],
+    fukujin: [],
     solo: MemberNames.NishinoNanase,
-    unit: null,
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.NishinoNanase],
@@ -209,9 +209,9 @@ const songKokuhakunojunban: ISong = {
     direct: ["荒船泰廣"],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "女子校カルテット",
   },
   formations: {
@@ -240,9 +240,9 @@ const songChopinnousotsuki: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -271,9 +271,9 @@ const songShiritaikoto: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -306,8 +306,8 @@ const songJikochu: ISong = {
   performers: {
     center: [MemberNames.SaitouAsuka],
     fukujin: FukujinType.RowOneTwo,
-    solo: null,
-    unit: null,
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -360,9 +360,9 @@ const songSankakunoakichi: ISong = {
   },
   performers: {
     center: [MemberNames.NakadaKana],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.HiguchiHina, MemberNames.NakadaKana, MemberNames.ItouRiria],
@@ -408,9 +408,9 @@ const songSoratobira: ISong = {
   },
   performers: {
     center: [MemberNames.UmezawaMinami],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -457,9 +457,9 @@ const songJibunjanaikanji: ISong = {
   },
   performers: {
     center: [MemberNames.YamashitaMizuki],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -499,9 +499,9 @@ const songKokoronomonologue: ISong = {
     direct: ["英勉"],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -530,9 +530,9 @@ const songChikyugamaruinara: ISong = {
     direct: ["沖田修一"],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -562,9 +562,9 @@ const songAnnanisukidattanoni: ISong = {
   },
   performers: {
     center: [MemberNames.SaitouAsuka],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -618,8 +618,8 @@ const songSyncronicity: ISong = {
   performers: {
     center: [MemberNames.ShiraishiMai],
     fukujin: FukujinType.RowOneTwo,
-    solo: null,
-    unit: null,
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -672,9 +672,9 @@ const songAtarashiisekai: ISong = {
   },
   performers: {
     center: [MemberNames.SuzukiAyane],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -727,9 +727,9 @@ const songAgainst: ISong = {
   },
   performers: {
     center: [MemberNames.IkomaRina],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -778,9 +778,9 @@ const songKumoninarebaii: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "藤桜梨",
   },
   formations: {
@@ -810,9 +810,9 @@ const songScoutman: ISong = {
   },
   performers: {
     center: [MemberNames.HoriMiona],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -852,9 +852,9 @@ const songTokitokimekimeki: ISong = {
   },
   performers: {
     center: [MemberNames.IwamotoRenka],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -895,9 +895,9 @@ const songKotodamaho: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "いもうと坂",
   },
   formations: {
@@ -930,8 +930,8 @@ const songItsukadekirukara: ISong = {
   performers: {
     center: [MemberNames.NishinoNanase, MemberNames.SaitouAsuka],
     fukujin: FukujinType.RowOneTwo,
-    solo: null,
-    unit: null,
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.HoriMiona, MemberNames.NishinoNanase, MemberNames.SaitouAsuka, MemberNames.ShiraishiMai],
@@ -977,9 +977,9 @@ const songMyrule: ISong = {
   },
   performers: {
     center: [MemberNames.HiguchiHina],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.WatanabeMiria, MemberNames.HiguchiHina, MemberNames.TeradaRanze],
@@ -1016,9 +1016,9 @@ const songFumensho: ISong = {
   },
   performers: {
     center: [MemberNames.KuboShiori, MemberNames.YamashitaMizuki],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -1067,9 +1067,9 @@ const songMaaiika: ISong = {
     direct: ["中村太洸"],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -1098,9 +1098,9 @@ const songShitsurenosojinin: ISong = {
     direct: ["伊藤衆人"],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "若様軍団",
   },
   formations: {
@@ -1135,9 +1135,9 @@ const songBokunoshodo: ISong = {
   },
   performers: {
     center: [MemberNames.ItouRiria],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -1177,9 +1177,9 @@ const songAtarashiikafun: ISong = {
     direct: ["荒船泰廣"],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -1212,8 +1212,8 @@ const songNigemizu: ISong = {
   performers: {
     center: [MemberNames.OozonoMomoko, MemberNames.YodaYuuki],
     fukujin: FukujinType.RowOneTwo,
-    solo: null,
-    unit: null,
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -1263,9 +1263,9 @@ const songUnder: ISong = {
   },
   performers: {
     center: [MemberNames.NakamotoHimeka, MemberNames.KitanoHinako],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -1315,9 +1315,9 @@ const songOnnahahitorija: ISong = {
   },
   performers: {
     center: [MemberNames.OozonoMomoko, MemberNames.YodaYuuki],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -1365,9 +1365,9 @@ const songHitonatsu: ISong = {
   },
   performers: {
     center: [MemberNames.AkimotoManatsu, MemberNames.MatsumuraSayuri],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -1415,9 +1415,9 @@ const songLiveshin: ISong = {
   },
   performers: {
     center: [MemberNames.HoriMiona],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.TeradaRanze, MemberNames.HoriMiona, MemberNames.KitanoHinako],
@@ -1446,9 +1446,9 @@ const songMirainokotae: ISong = {
   },
   performers: {
     center: [MemberNames.KuboShiori, MemberNames.YamashitaMizuki],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.UmezawaMinami, MemberNames.YamashitaMizuki, MemberNames.KuboShiori, MemberNames.ItouRiria],
@@ -1482,9 +1482,9 @@ const songNaitatteii: ISong = {
   },
   performers: {
     center: [MemberNames.TakayamaKazumi],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -1535,8 +1535,8 @@ const songInfluencer: ISong = {
   performers: {
     center: [MemberNames.NishinoNanase, MemberNames.ShiraishiMai],
     fukujin: FukujinType.RowOneTwo,
-    solo: null,
-    unit: null,
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -1589,9 +1589,9 @@ const songFusenhaikiteiru: ISong = {
   },
   performers: {
     center: [MemberNames.WatanabeMiria],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.YamazakiRena, MemberNames.WatanabeMiria, MemberNames.SuzukiAyane],
@@ -1625,9 +1625,9 @@ const songJinseiwokangae: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "女子校カルテット",
   },
   formations: {
@@ -1656,9 +1656,9 @@ const songIgaibreak: ISong = {
     direct: ["伊藤衆人"],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "姉御坂",
   },
   formations: {
@@ -1687,9 +1687,9 @@ const songAnotherghost: ISong = {
     direct: ["井上強"],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "ナスカ",
   },
   formations: {
@@ -1719,9 +1719,9 @@ const songSanbanmenokaze: ISong = {
   },
   performers: {
     center: [MemberNames.OozonoMomoko],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.KuboShiori, MemberNames.OozonoMomoko, MemberNames.YamashitaMizuki],
@@ -1755,9 +1755,9 @@ const songAtarisawarinonai: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "かすみ草",
   },
   formations: {
@@ -1790,8 +1790,8 @@ const songSayonaranoimi: ISong = {
   performers: {
     center: [MemberNames.HashimotoNanami],
     fukujin: FukujinType.RowOneTwo,
-    solo: null,
-    unit: null,
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -1842,9 +1842,9 @@ const songBulanko: ISong = {
   },
   performers: {
     center: [MemberNames.TeradaRanze],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -1892,9 +1892,9 @@ const songKodokunaaozora: ISong = {
   },
   performers: {
     center: [MemberNames.HashimotoNanami],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -1942,9 +1942,9 @@ const songAnokyoshitsu: ISong = {
     direct: ["山岸聖太"],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -1973,9 +1973,9 @@ const songNidomenokisukara: ISong = {
     direct: ["中村太洸"],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "真夏さんリスペクト軍団",
   },
   formations: {
@@ -2004,9 +2004,9 @@ const songKiminiokuruhana: ISong = {
     direct: ["東市篤憲"],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "サンクエトワール",
   },
   formations: {
@@ -2041,10 +2041,10 @@ const songNaimononetari: ISong = {
     direct: ["山岸聖太"],
   },
   performers: {
-    center: null,
-    fukujin: null,
+    center: [],
+    fukujin: [],
     solo: MemberNames.HashimotoNanami,
-    unit: null,
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.HashimotoNanami],
@@ -2076,8 +2076,8 @@ const songHadashidesummer: ISong = {
   performers: {
     center: [MemberNames.SaitouAsuka],
     fukujin: FukujinType.RowOneTwo,
-    solo: null,
-    unit: null,
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -2125,9 +2125,9 @@ const songSecretGravity: ISong = {
   },
   performers: {
     center: [MemberNames.HiguchiHina],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -2178,9 +2178,9 @@ const songBokudakenohikari: ISong = {
   },
   performers: {
     center: [MemberNames.SaitouAsuka],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -2225,10 +2225,10 @@ const songOffshoregirl: ISong = {
     direct: ["井上強"],
   },
   performers: {
-    center: null,
-    fukujin: null,
+    center: [],
+    fukujin: [],
     solo: MemberNames.ShiraishiMai,
-    unit: null,
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.ShiraishiMai],
@@ -2256,10 +2256,10 @@ const songInochinoshinjitsu: ISong = {
     direct: ["中村太洸"],
   },
   performers: {
-    center: null,
-    fukujin: null,
+    center: [],
+    fukujin: [],
     solo: MemberNames.IkutaErika,
-    unit: null,
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.IkutaErika],
@@ -2287,9 +2287,9 @@ const songHakumaisama: ISong = {
     direct: ["伊藤衆人"],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "さゆりんご軍団",
   },
   formations: {
@@ -2318,9 +2318,9 @@ const songIkuatenonaibokutachi: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -2353,8 +2353,8 @@ const songHarujion: ISong = {
   performers: {
     center: [MemberNames.FukagawaMai],
     fukujin: FukujinType.RowOneTwo,
-    solo: null,
-    unit: null,
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -2403,9 +2403,9 @@ const songFutogo: ISong = {
   },
   performers: {
     center: [MemberNames.NakamotoHimeka],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -2456,9 +2456,9 @@ const songHarukanarubhutan: ISong = {
   },
   performers: {
     center: [MemberNames.IkutaErika],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -2493,10 +2493,10 @@ const songTsuyogarutsubomi: ISong = {
     direct: ["真壁幸紀"],
   },
   performers: {
-    center: null,
-    fukujin: null,
+    center: [],
+    fukujin: [],
     solo: MemberNames.FukagawaMai,
-    unit: null,
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.FukagawaMai],
@@ -2524,9 +2524,9 @@ const songKyushamen: ISong = {
     direct: ["番場秀一"],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -2555,10 +2555,10 @@ const songTsuribori: ISong = {
     direct: ["永田琴"],
   },
   performers: {
-    center: null,
-    fukujin: null,
+    center: [],
+    fukujin: [],
     solo: MemberNames.NishinoNanase,
-    unit: null,
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.NishinoNanase],
@@ -2587,9 +2587,9 @@ const songYuutsutofusengamu: ISong = {
   },
   performers: {
     center: [MemberNames.HoshinoMinami],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -2628,8 +2628,8 @@ const songHanashitaidarekagairu: ISong = {
   performers: {
     center: [MemberNames.ShiraishiMai, MemberNames.NishinoNanase],
     fukujin: FukujinType.RowOneTwo,
-    solo: null,
-    unit: null,
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.EtouMisa, MemberNames.NishinoNanase, MemberNames.ShiraishiMai, MemberNames.FukagawaMai],
@@ -2672,9 +2672,9 @@ const songShittonokenri: ISong = {
   },
   performers: {
     center: [MemberNames.HoriMiona, MemberNames.NakamotoHimeka],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.KitanoHinako, MemberNames.HoriMiona, MemberNames.NakamotoHimeka, MemberNames.TeradaRanze],
@@ -2722,9 +2722,9 @@ const songPopipappapa: ISong = {
   },
   performers: {
     center: [MemberNames.ShiraishiMai, MemberNames.NishinoNanase],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.EtouMisa, MemberNames.NishinoNanase, MemberNames.ShiraishiMai, MemberNames.FukagawaMai],
@@ -2766,9 +2766,9 @@ const songOtonahenochikamichi: ISong = {
     direct: ["湯浅弘章"],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "サンクエトワール",
   },
   formations: {
@@ -2804,9 +2804,9 @@ const songKanashiminowasurekata: ISong = {
   },
   performers: {
     center: [MemberNames.IkomaRina],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -2854,9 +2854,9 @@ const songSukima: ISong = {
   },
   performers: {
     center: [MemberNames.NishinoNanase],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -2896,8 +2896,8 @@ const songTaiyoknock: ISong = {
   performers: {
     center: [MemberNames.IkomaRina],
     fukujin: FukujinType.RowOneTwo,
-    solo: null,
-    unit: null,
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -2947,9 +2947,9 @@ const songWakaregiwa: ISong = {
   },
   performers: {
     center: [MemberNames.HoriMiona],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -2998,10 +2998,10 @@ const songMosukoshinoyumewo: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
+    center: [],
+    fukujin: [],
     solo: MemberNames.NishinoNanase,
-    unit: null,
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.NishinoNanase],
@@ -3029,9 +3029,9 @@ const songSakanatachinolovesong: ISong = {
     direct: ["中村太洸"],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -3065,9 +3065,9 @@ const songMuhyojo: ISong = {
     direct: ["月田茂", "山本篤彦", "柴谷麻以"],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "からあげ姉妹",
   },
   formations: {
@@ -3097,9 +3097,9 @@ const songHanenokioku: ISong = {
   },
   performers: {
     center: [MemberNames.IkomaRina],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -3146,9 +3146,9 @@ const songSeifukuwonuide: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -3181,8 +3181,8 @@ const songInochihautsukushii: ISong = {
   performers: {
     center: [MemberNames.NishinoNanase],
     fukujin: FukujinType.RowOneTwo,
-    solo: null,
-    unit: null,
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -3232,9 +3232,9 @@ const songKimihabokuto: ISong = {
   },
   performers: {
     center: [MemberNames.NakamotoHimeka],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.SaitouYuuri, MemberNames.NakamotoHimeka, MemberNames.InoueSayuri],
@@ -3271,8 +3271,8 @@ const songArakajimeromance: ISong = {
   },
   performers: {
     center: [MemberNames.SaitouAsuka, MemberNames.HoshinoMinami],
-    fukujin: null,
-    solo: null,
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -3309,8 +3309,8 @@ const songTachinaorichu: ISong = {
   },
   performers: {
     center: [MemberNames.ShiraishiMai],
-    fukujin: null,
-    solo: null,
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -3347,10 +3347,10 @@ const songGomennezutto: ISong = {
     direct: ["山戸結希"],
   },
   performers: {
-    center: null,
-    fukujin: null,
+    center: [],
+    fukujin: [],
     solo: MemberNames.NishinoNanase,
-    unit: null,
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.NishinoNanase],
@@ -3379,9 +3379,9 @@ const songBorder: ISong = {
   },
   performers: {
     center: [MemberNames.TeradaRanze],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -3420,8 +3420,8 @@ const songNandomenoaozoraka: ISong = {
   performers: {
     center: [MemberNames.IkutaErika],
     fukujin: FukujinType.RowOneTwo,
-    solo: null,
-    unit: null,
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -3469,9 +3469,9 @@ const songAnohibokuha: ISong = {
   },
   performers: {
     center: [MemberNames.InoueSayuri],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.SaitouAsuka, MemberNames.InoueSayuri, MemberNames.ItouMarika],
@@ -3516,8 +3516,8 @@ const songTomawarinoaijo: ISong = {
   },
   performers: {
     center: [MemberNames.NagashimaSeira, MemberNames.SakuraiReika],
-    fukujin: null,
-    solo: null,
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -3556,9 +3556,9 @@ const songKorogattakanewonarase: ISong = {
   },
   performers: {
     center: [MemberNames.IkutaErika],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -3604,8 +3604,8 @@ const songWatashiokiru: ISong = {
   },
   performers: {
     center: [MemberNames.IkutaErika],
-    fukujin: null,
-    solo: null,
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -3645,9 +3645,9 @@ const songTenderdays: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -3690,8 +3690,8 @@ const songNatsunofreeandeasy: ISong = {
   performers: {
     center: [MemberNames.NishinoNanase],
     fukujin: FukujinType.RowOneTwo,
-    solo: null,
-    unit: null,
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -3740,9 +3740,9 @@ const songKokoniiruriyu: ISong = {
   },
   performers: {
     center: [MemberNames.ItouMarika],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -3790,9 +3790,9 @@ const songNanimodekizuni: ISong = {
   },
   performers: {
     center: [MemberNames.NishinoNanase],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -3841,9 +3841,9 @@ const songSonosakinodeguchi: ISong = {
   },
   performers: {
     center: [MemberNames.ShiraishiMai],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -3882,8 +3882,8 @@ const songMukuchinalion: ISong = {
   },
   performers: {
     center: [MemberNames.NishinoNanase],
-    fukujin: null,
-    solo: null,
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -3922,8 +3922,8 @@ const songBokugaikanakya: ISong = {
   },
   performers: {
     center: [MemberNames.NishinoNanase],
-    fukujin: null,
-    solo: null,
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -3964,8 +3964,8 @@ const songKizuitarakataomoi: ISong = {
   performers: {
     center: [MemberNames.NishinoNanase],
     fukujin: FukujinType.RowOne,
-    solo: null,
-    unit: null,
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -4013,9 +4013,9 @@ const songUmaretamamade: ISong = {
   },
   performers: {
     center: [MemberNames.ItouMarika],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -4064,9 +4064,9 @@ const songRomancenostart: ISong = {
   },
   performers: {
     center: [MemberNames.NishinoNanase],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -4113,10 +4113,10 @@ const songToikimethod: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
-    unit: null,
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -4165,9 +4165,9 @@ const songKodokukyodai: ISong = {
     direct: ["池田一真"],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "孤独兄弟",
   },
   formations: {
@@ -4197,8 +4197,8 @@ const songDankeschon: ISong = {
   },
   performers: {
     center: [MemberNames.IkutaErika],
-    fukujin: null,
-    solo: null,
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -4240,8 +4240,8 @@ const songValletta: ISong = {
   performers: {
     center: [MemberNames.HoriMiona],
     fukujin: FukujinType.RowOneTwo,
-    solo: null,
-    unit: null,
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -4285,9 +4285,9 @@ const songHatsukoinohito: ISong = {
   },
   performers: {
     center: [MemberNames.HoshinoMinami],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.InoueSayuri, MemberNames.HoshinoMinami, MemberNames.SaitouYuuri],
@@ -4328,9 +4328,9 @@ const songTsukinookisa: ISong = {
   },
   performers: {
     center: [MemberNames.HoriMiona],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -4374,8 +4374,8 @@ const songWatashinotameni: ISong = {
   },
   performers: {
     center: [MemberNames.ShiraishiMai],
-    fukujin: null,
-    solo: null,
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -4411,9 +4411,9 @@ const songSonnabakana: ISong = {
   },
   performers: {
     center: [MemberNames.HoriMiona],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -4465,8 +4465,8 @@ const songYasashisatoha: ISong = {
   },
   performers: {
     center: [MemberNames.HashimotoNanami],
-    fukujin: null,
-    solo: null,
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -4507,8 +4507,8 @@ const songGirlsrule: ISong = {
   performers: {
     center: [MemberNames.ShiraishiMai],
     fukujin: FukujinType.RowOneTwo,
-    solo: null,
-    unit: null,
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.MatsumuraSayuri, MemberNames.ShiraishiMai, MemberNames.HashimotoNanami],
@@ -4552,9 +4552,9 @@ const songSenpuki: ISong = {
   },
   performers: {
     center: [MemberNames.SaitouAsuka],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.HiguchiHina, MemberNames.SaitouAsuka, MemberNames.NakamotoHimeka],
@@ -4590,9 +4590,9 @@ const songSekaideichiban: ISong = {
   },
   performers: {
     center: [MemberNames.ShiraishiMai],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.MatsumuraSayuri, MemberNames.ShiraishiMai, MemberNames.HashimotoNanami],
@@ -4635,9 +4635,9 @@ const songKomoriyo: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -4667,8 +4667,8 @@ const songHokanohoshikara: ISong = {
   },
   performers: {
     center: [MemberNames.NishinoNanase],
-    fukujin: null,
-    solo: null,
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -4705,10 +4705,10 @@ const sonNingentoiugaki: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
-    unit: null,
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -4773,8 +4773,8 @@ const songKiminonahakibo: ISong = {
   performers: {
     center: [MemberNames.IkomaRina],
     fukujin: FukujinType.RowOneTwo,
-    solo: null,
-    unit: null,
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.IkutaErika, MemberNames.IkomaRina, MemberNames.HoshinoMinami],
@@ -4818,9 +4818,9 @@ const songjusannichinokiyobi: ISong = {
   },
   performers: {
     center: [MemberNames.SaitouYuuri],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.ItouMarika, MemberNames.SaitouYuuri, MemberNames.SaitouAsuka],
@@ -4860,9 +4860,9 @@ const songShakism: ISong = {
   },
   performers: {
     center: [MemberNames.IkomaRina, MemberNames.HoshinoMinami],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -4907,10 +4907,10 @@ const songRomanticIkayaki: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
-    unit: null,
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -4955,9 +4955,9 @@ const songDekopin: ISong = {
     direct: ["中村太洸"],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -4993,8 +4993,8 @@ const songPsychokineses: ISong = {
   },
   performers: {
     center: [MemberNames.SakuraiReika, MemberNames.NishinoNanase],
-    fukujin: null,
-    solo: null,
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -5036,8 +5036,8 @@ const songSeifukunomannequin: ISong = {
   performers: {
     center: [MemberNames.IkomaRina],
     fukujin: FukujinType.RowOneTwo,
-    solo: null,
-    unit: null,
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.IkutaErika, MemberNames.IkomaRina, MemberNames.HoshinoMinami],
@@ -5081,9 +5081,9 @@ const songHarunomelody: ISong = {
   },
   performers: {
     center: [MemberNames.NakadaKana],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.SaitouYuuri, MemberNames.NakadaKana, MemberNames.EtouMisa],
@@ -5124,9 +5124,9 @@ const songYubiboenkyo: ISong = {
   },
   performers: {
     center: [MemberNames.IkomaRina],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.IkutaErika, MemberNames.IkomaRina, MemberNames.HoshinoMinami],
@@ -5170,8 +5170,8 @@ const songYasashisanaramaniatteru: ISong = {
   },
   performers: {
     center: [MemberNames.TakayamaKazumi, MemberNames.NoujouAmi],
-    fukujin: null,
-    solo: null,
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -5209,9 +5209,9 @@ const songKokojanaidokoka: ISong = {
     direct: ["岡川太郎"],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -5240,9 +5240,9 @@ const songShibuyablues: ISong = {
     direct: ["丸山健志"],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "WHITE HIGH",
   },
   formations: {
@@ -5283,8 +5283,8 @@ const songHashirebicycle: ISong = {
       MemberNames.MatsumuraSayuri,
       MemberNames.NishinoNanase,
     ],
-    solo: null,
-    unit: null,
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.IkutaErika, MemberNames.IkomaRina, MemberNames.HoshinoMinami, MemberNames.SakuraiReika],
@@ -5327,9 +5327,9 @@ const songNamidagamada: ISong = {
   },
   performers: {
     center: [MemberNames.ItouNene],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.HiguchiHina, MemberNames.ItouNene, MemberNames.SaitouAsuka],
@@ -5371,8 +5371,8 @@ const songSekkachinakatatsumuri: ISong = {
   },
   performers: {
     center: [MemberNames.MatsumuraSayuri],
-    fukujin: null,
-    solo: null,
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -5410,9 +5410,9 @@ const songHitohanazehashirunoka: ISong = {
   },
   performers: {
     center: [MemberNames.IkomaRina],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -5463,9 +5463,9 @@ const songOtogadenaiguitar: ISong = {
   },
   performers: {
     center: [MemberNames.IkomaRina],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -5516,8 +5516,8 @@ const songKairyunoshimayo: ISong = {
   },
   performers: {
     center: [MemberNames.SaitouAsuka],
-    fukujin: null,
-    solo: null,
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -5558,8 +5558,8 @@ const songOideshampoo: ISong = {
   performers: {
     center: [MemberNames.IkomaRina],
     fukujin: FukujinType.RowOneTwo,
-    solo: null,
-    unit: null,
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.SakuraiReika, MemberNames.IkomaRina, MemberNames.NakadaKana],
@@ -5603,9 +5603,9 @@ const songOkaminikuchibuewo: ISong = {
   },
   performers: {
     center: [MemberNames.ItouMarika],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.FukagawaMai, MemberNames.ItouMarika, MemberNames.WakatsukiYumi],
@@ -5651,9 +5651,9 @@ const songKokoronokusuri: ISong = {
   },
   performers: {
     center: [MemberNames.IkomaRina],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -5702,9 +5702,9 @@ const songGuzenwoiiwakenishite: ISong = {
     direct: ["中村太洸"],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -5738,10 +5738,10 @@ const songMizutamamoyo: ISong = {
     direct: ["丸山健志"],
   },
   performers: {
-    center: null,
-    fukujin: null,
+    center: [],
+    fukujin: [],
     solo: MemberNames.IkomaRina,
-    unit: null,
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.IkomaRina],
@@ -5770,9 +5770,9 @@ const songHouse: ISong = {
   },
   performers: {
     center: [MemberNames.IkomaRina],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -5825,8 +5825,8 @@ const songGurugurucurtain: ISong = {
   performers: {
     center: [MemberNames.IkomaRina],
     fukujin: FukujinType.RowOneTwo,
-    solo: null,
-    unit: null,
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.IkutaErika, MemberNames.IkomaRina, MemberNames.HoshinoMinami],
@@ -5870,9 +5870,9 @@ const songHidarimurenoyuki: ISong = {
   },
   performers: {
     center: [MemberNames.HatanakaSeira],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -5920,9 +5920,9 @@ const songNogizakanouta: ISong = {
   },
   performers: {
     center: [MemberNames.IkomaRina],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -5985,9 +5985,9 @@ const songAitakattakamoshirenai: ISong = {
   },
   performers: {
     center: [MemberNames.IkomaRina],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -6037,9 +6037,9 @@ const songUshinaitakunaikara: ISong = {
   },
   performers: {
     center: [MemberNames.IkomaRina, MemberNames.IkutaErika],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -6089,9 +6089,9 @@ const songShiroikumoninotte: ISong = {
   },
   performers: {
     center: [MemberNames.IkomaRina],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -6131,7 +6131,7 @@ const songShiroikumoninotte: ISong = {
 
 const arigachinarenai: ISong = {
   title: "ありがちな恋愛",
-  single: null,
+  single: "",
   albums: ["今が思い出になるまで"],
   artwork: {
     large: "",
@@ -6147,10 +6147,10 @@ const arigachinarenai: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
-    unit: null,
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -6181,7 +6181,7 @@ const arigachinarenai: ISong = {
 
 const moshikimigainakereba: ISong = {
   title: "もし君がいなければ",
-  single: null,
+  single: "",
   albums: ["今が思い出になるまで"],
   artwork: {
     large: "",
@@ -6197,10 +6197,10 @@ const moshikimigainakereba: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
+    center: [],
+    fukujin: [],
     solo: MemberNames.EtouMisa,
-    unit: null,
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.EtouMisa],
@@ -6212,7 +6212,7 @@ const moshikimigainakereba: ISong = {
 
 const kissnoshuriken: ISong = {
   title: "キスの手裏剣",
-  single: null,
+  single: "",
   albums: ["今が思い出になるまで"],
   artwork: {
     large: "",
@@ -6228,10 +6228,10 @@ const kissnoshuriken: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
-    unit: null,
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -6255,7 +6255,7 @@ const kissnoshuriken: ISong = {
 
 const hoozue: ISong = {
   title: "頬杖をついては眠れない",
-  single: null,
+  single: "",
   albums: ["今が思い出になるまで"],
   artwork: {
     large: "",
@@ -6271,9 +6271,9 @@ const hoozue: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -6292,7 +6292,7 @@ const hoozue: ISong = {
 
 const pocchito: ISong = {
   title: "ぽっち党",
-  single: null,
+  single: "",
   albums: ["今が思い出になるまで"],
   artwork: {
     large: "",
@@ -6308,9 +6308,9 @@ const pocchito: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -6323,7 +6323,7 @@ const pocchito: ISong = {
 
 const sayuringoboshuchu: ISong = {
   title: "さゆりんご募集中",
-  single: null,
+  single: "",
   albums: ["今が思い出になるまで"],
   artwork: {
     large: "",
@@ -6339,9 +6339,9 @@ const sayuringoboshuchu: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "さゆりんご軍団",
   },
   formations: {
@@ -6354,7 +6354,7 @@ const sayuringoboshuchu: ISong = {
 
 const gorugonzora: ISong = {
   title: "ゴルゴンゾーラ",
-  single: null,
+  single: "",
   albums: ["今が思い出になるまで"],
   artwork: {
     large: "",
@@ -6370,9 +6370,9 @@ const gorugonzora: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -6385,7 +6385,7 @@ const gorugonzora: ISong = {
 
 const zambi: ISong = {
   title: "もうすぐ～ザンビ伝説～",
-  single: null,
+  single: "",
   albums: ["今が思い出になるまで"],
   artwork: {
     large: "",
@@ -6401,10 +6401,10 @@ const zambi: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
-    unit: null,
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -6440,7 +6440,7 @@ const zambi: ISong = {
 
 const songJibunnokoto: ISong = {
   title: "自分のこと",
-  single: null,
+  single: "",
   albums: ["僕だけの君〜Under Super Best〜"],
   artwork: {
     large: "",
@@ -6456,10 +6456,10 @@ const songJibunnokoto: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
+    center: [],
+    fukujin: [],
     solo: MemberNames.NakamotoHimeka,
-    unit: null,
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.NakamotoHimeka],
@@ -6471,7 +6471,7 @@ const songJibunnokoto: ISong = {
 
 const songUnuborebeach: ISong = {
   title: "自惚れビーチ",
-  single: null,
+  single: "",
   albums: ["僕だけの君〜Under Super Best〜"],
   artwork: {
     large: "",
@@ -6488,9 +6488,9 @@ const songUnuborebeach: ISong = {
   },
   performers: {
     center: [MemberNames.SuzukiAyane],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -6517,7 +6517,7 @@ const songUnuborebeach: ISong = {
 
 const songSonohito: ISong = {
   title: "その女",
-  single: null,
+  single: "",
   albums: ["僕だけの君〜Under Super Best〜"],
   artwork: {
     large: "",
@@ -6534,9 +6534,9 @@ const songSonohito: ISong = {
   },
   performers: {
     center: [MemberNames.TeradaRanze],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -6563,7 +6563,7 @@ const songSonohito: ISong = {
 
 const songDareyorisobaniitai: ISong = {
   title: "誰よりそばにいたい",
-  single: null,
+  single: "",
   albums: ["僕だけの君〜Under Super Best〜"],
   artwork: {
     large: "",
@@ -6580,9 +6580,9 @@ const songDareyorisobaniitai: ISong = {
   },
   performers: {
     center: [MemberNames.HiguchiHina],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -6611,7 +6611,7 @@ const songDareyorisobaniitai: ISong = {
 
 const songSkydiving: ISong = {
   title: "スカイダイビング",
-  single: null,
+  single: "",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
     large: "",
@@ -6627,10 +6627,10 @@ const songSkydiving: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
-    unit: null,
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -6664,7 +6664,7 @@ const songSkydiving: ISong = {
 
 const songKimigaaoidekureta: ISong = {
   title: "君が扇いでくれた",
-  single: null,
+  single: "",
   albums: ["生まれてから初めて見た夢", "僕だけの君〜Under Super Best〜"],
   artwork: {
     large: "",
@@ -6680,10 +6680,10 @@ const songKimigaaoidekureta: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
-    unit: null,
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -6708,7 +6708,7 @@ const songKimigaaoidekureta: ISong = {
 
 const songOmoidefirst: ISong = {
   title: "思い出ファースト",
-  single: null,
+  single: "",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
     large: "",
@@ -6724,10 +6724,10 @@ const songOmoidefirst: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
-    unit: null,
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -6752,7 +6752,7 @@ const songOmoidefirst: ISong = {
 
 const songSetteiondo: ISong = {
   title: "設定温度",
-  single: null,
+  single: "",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
     large: "",
@@ -6768,10 +6768,10 @@ const songSetteiondo: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
-    unit: null,
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -6831,7 +6831,7 @@ const songSetteiondo: ISong = {
 
 const songRewindanohi: ISong = {
   title: "Rewindあの日",
-  single: null,
+  single: "",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
     large: "",
@@ -6847,9 +6847,9 @@ const songRewindanohi: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -6862,7 +6862,7 @@ const songRewindanohi: ISong = {
 
 const songGomensmoothie: ISong = {
   title: "ごめんね、スムージー",
-  single: null,
+  single: "",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
     large: "",
@@ -6878,9 +6878,9 @@ const songGomensmoothie: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -6893,7 +6893,7 @@ const songGomensmoothie: ISong = {
 
 const songMinikuiwatashi: ISong = {
   title: "醜い私",
-  single: null,
+  single: "",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
     large: "",
@@ -6909,9 +6909,9 @@ const songMinikuiwatashi: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -6924,7 +6924,7 @@ const songMinikuiwatashi: ISong = {
 
 const songKataikaranoyoni: ISong = {
   title: "硬い殻のように抱きしめたい",
-  single: null,
+  single: "",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
     large: "",
@@ -6940,10 +6940,10 @@ const songKataikaranoyoni: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
+    center: [],
+    fukujin: [],
     solo: MemberNames.SaitouAsuka,
-    unit: null,
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.SaitouAsuka],
@@ -6955,7 +6955,7 @@ const songKataikaranoyoni: ISong = {
 
 const songMangetsugakieta: ISong = {
   title: "満月が消えた",
-  single: null,
+  single: "",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
     large: "",
@@ -6971,9 +6971,9 @@ const songMangetsugakieta: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -6986,7 +6986,7 @@ const songMangetsugakieta: ISong = {
 
 const songWatabokori: ISong = {
   title: "ワタボコリ",
-  single: null,
+  single: "",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
     large: "",
@@ -7002,9 +7002,9 @@ const songWatabokori: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -7017,7 +7017,7 @@ const songWatabokori: ISong = {
 
 const songRyuseidiscotic: ISong = {
   title: "流星ディスコティック",
-  single: null,
+  single: "",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
     large: "",
@@ -7033,9 +7033,9 @@ const songRyuseidiscotic: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -7048,7 +7048,7 @@ const songRyuseidiscotic: ISong = {
 
 const songBokyakutobigaku: ISong = {
   title: "忘却と美学",
-  single: null,
+  single: "",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
     large: "",
@@ -7064,9 +7064,9 @@ const songBokyakutobigaku: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -7081,7 +7081,7 @@ const songBokyakutobigaku: ISong = {
 
 const songKikkake: ISong = {
   title: "きっかけ",
-  single: null,
+  single: "",
   albums: ["それぞれの椅子"],
   artwork: {
     large: "",
@@ -7097,10 +7097,10 @@ const songKikkake: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
-    unit: null,
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -7129,7 +7129,7 @@ const songKikkake: ISong = {
 
 const songTaiyonikudokarete: ISong = {
   title: "太陽に口説かれて",
-  single: null,
+  single: "",
   albums: ["それぞれの椅子"],
   artwork: {
     large: "",
@@ -7145,10 +7145,10 @@ const songTaiyonikudokarete: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
-    unit: null,
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -7177,7 +7177,7 @@ const songTaiyonikudokarete: ISong = {
 
 const songYokubonoReincarnation: ISong = {
   title: "欲望のリインカーネーション",
-  single: null,
+  single: "",
   albums: ["それぞれの椅子", "僕だけの君〜Under Super Best〜"],
   artwork: {
     large: "",
@@ -7193,10 +7193,10 @@ const songYokubonoReincarnation: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
-    unit: null,
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -7218,7 +7218,7 @@ const songYokubonoReincarnation: ISong = {
 
 const songKukikan: ISong = {
   title: "空気感",
-  single: null,
+  single: "",
   albums: ["それぞれの椅子"],
   artwork: {
     large: "",
@@ -7234,9 +7234,9 @@ const songKukikan: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -7255,7 +7255,7 @@ const songKukikan: ISong = {
 
 const songKogoseikibo: ISong = {
   title: "光合成希望",
-  single: null,
+  single: "",
   albums: ["それぞれの椅子"],
   artwork: {
     large: "",
@@ -7271,10 +7271,10 @@ const songKogoseikibo: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
+    center: [],
+    fukujin: [],
     solo: MemberNames.NishinoNanase,
-    unit: null,
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.NishinoNanase],
@@ -7286,7 +7286,7 @@ const songKogoseikibo: ISong = {
 
 const songThreefoldchoice: ISong = {
   title: "Threefold choice",
-  single: null,
+  single: "",
   albums: ["それぞれの椅子"],
   artwork: {
     large: "",
@@ -7302,9 +7302,9 @@ const songThreefoldchoice: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -7317,7 +7317,7 @@ const songThreefoldchoice: ISong = {
 
 const songTeitaionnokisu: ISong = {
   title: "低体温のキス",
-  single: null,
+  single: "",
   albums: ["それぞれの椅子"],
   artwork: {
     large: "",
@@ -7333,10 +7333,10 @@ const songTeitaionnokisu: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
+    center: [],
+    fukujin: [],
     solo: MemberNames.IkutaErika,
-    unit: null,
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.IkutaErika],
@@ -7348,7 +7348,7 @@ const songTeitaionnokisu: ISong = {
 
 const songShitsurenshitara: ISong = {
   title: "失恋したら、顔を洗え!",
-  single: null,
+  single: "",
   albums: ["それぞれの椅子"],
   artwork: {
     large: "",
@@ -7364,9 +7364,9 @@ const songShitsurenshitara: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "乃木團",
   },
   formations: {
@@ -7379,7 +7379,7 @@ const songShitsurenshitara: ISong = {
 
 const songKakigorinokataomoi: ISong = {
   title: "かき氷の片想い",
-  single: null,
+  single: "",
   albums: ["それぞれの椅子"],
   artwork: {
     large: "",
@@ -7395,10 +7395,10 @@ const songKakigorinokataomoi: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
-    unit: null,
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -7422,7 +7422,7 @@ const songKakigorinokataomoi: ISong = {
 
 const songKanjorokugosen: ISong = {
   title: "環状六号線",
-  single: null,
+  single: "",
   albums: ["それぞれの椅子"],
   artwork: {
     large: "",
@@ -7438,9 +7438,9 @@ const songKanjorokugosen: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "犬メン",
   },
   formations: {
@@ -7453,7 +7453,7 @@ const songKanjorokugosen: ISong = {
 
 const songKuchiyakusoku: ISong = {
   title: "口約束",
-  single: null,
+  single: "",
   albums: ["それぞれの椅子"],
   artwork: {
     large: "",
@@ -7469,9 +7469,9 @@ const songKuchiyakusoku: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "女子校カルテット",
   },
   formations: {
@@ -7486,7 +7486,7 @@ const songKuchiyakusoku: ISong = {
 
 const songDarekahamikata: ISong = {
   title: "誰かは味方",
-  single: null,
+  single: "",
   albums: ["透明な色"],
   artwork: {
     large: "",
@@ -7502,9 +7502,9 @@ const songDarekahamikata: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -7517,7 +7517,7 @@ const songDarekahamikata: ISong = {
 
 const songKakumeinouma: ISong = {
   title: "革命の馬",
-  single: null,
+  single: "",
   albums: ["透明な色"],
   artwork: {
     large: "",
@@ -7533,9 +7533,9 @@ const songKakumeinouma: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -7555,7 +7555,7 @@ const songKakumeinouma: ISong = {
 
 const songBokugairubasho: ISong = {
   title: "僕がいる場所",
-  single: null,
+  single: "",
   albums: ["透明な色"],
   artwork: {
     large: "",
@@ -7572,9 +7572,9 @@ const songBokugairubasho: ISong = {
   },
   performers: {
     center: [MemberNames.IkutaErika],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -7603,7 +7603,7 @@ const songBokugairubasho: ISong = {
 
 const songAnatanotamenihikitai: ISong = {
   title: "あなたのために弾きたい",
-  single: null,
+  single: "",
   albums: ["透明な色"],
   artwork: {
     large: "",
@@ -7619,10 +7619,10 @@ const songAnatanotamenihikitai: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
+    center: [],
+    fukujin: [],
     solo: MemberNames.IkutaErika,
-    unit: null,
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.IkutaErika],
@@ -7634,7 +7634,7 @@ const songAnatanotamenihikitai: ISong = {
 
 const songKeishasuru: ISong = {
   title: "傾斜する",
-  single: null,
+  single: "",
   albums: ["透明な色"],
   artwork: {
     large: "",
@@ -7650,14 +7650,14 @@ const songKeishasuru: ISong = {
     direct: [],
   },
   performers: {
-    center: ["kojimaharuna"],
-    fukujin: null,
-    solo: null,
+    center: [MemberNames.KojimaHaruna],
+    fukujin: [],
+    solo: "",
     unit: "こじ坂46",
   },
   formations: {
     firstRow: [
-      "kojimaharuna",
+      MemberNames.KojimaHaruna,
       MemberNames.IkomaRina,
       MemberNames.ItouJunna,
       MemberNames.KawagoHina,
@@ -7682,7 +7682,7 @@ const songKeishasuru: ISong = {
 
 const songNazonorakugaki: ISong = {
   title: "なぞの落書き",
-  single: null,
+  single: "",
   albums: ["透明な色"],
   artwork: {
     large: "",
@@ -7698,9 +7698,9 @@ const songNazonorakugaki: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
-    solo: null,
+    center: [],
+    fukujin: [],
+    solo: "",
     unit: "",
   },
   formations: {
@@ -7713,7 +7713,7 @@ const songNazonorakugaki: ISong = {
 
 const songJiyunokanata: ISong = {
   title: "自由の彼方",
-  single: null,
+  single: "",
   albums: ["透明な色", "僕だけの君〜Under Super Best〜"],
   artwork: {
     large: "",
@@ -7730,9 +7730,9 @@ const songJiyunokanata: ISong = {
   },
   performers: {
     center: [MemberNames.InoueSayuri],
-    fukujin: null,
-    solo: null,
-    unit: null,
+    fukujin: [],
+    solo: "",
+    unit: "",
   },
   formations: {
     firstRow: [
@@ -7769,7 +7769,7 @@ const songJiyunokanata: ISong = {
 
 const songHitoriyogari: ISong = {
   title: "ひとりよがり",
-  single: null,
+  single: "",
   albums: ["透明な色"],
   artwork: {
     large: "",
@@ -7785,10 +7785,10 @@ const songHitoriyogari: ISong = {
     direct: [],
   },
   performers: {
-    center: null,
-    fukujin: null,
+    center: [],
+    fukujin: [],
     solo: MemberNames.NishinoNanase,
-    unit: null,
+    unit: "",
   },
   formations: {
     firstRow: [MemberNames.NishinoNanase],

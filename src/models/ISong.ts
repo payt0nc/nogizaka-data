@@ -1,4 +1,4 @@
-import { FukujinType, SongType } from "../utils/constants";
+import { FukujinType, SongType, MemberNames } from "../utils/constants";
 
 type ISongCreators = {
   lyrics: string[];
@@ -8,29 +8,29 @@ type ISongCreators = {
 };
 
 export type ISongPerformers = {
-  center: string[];
-  fukujin: FukujinType | string[];
+  center: MemberNames[];
+  fukujin: FukujinType | MemberNames[];
   solo: string;
   unit: string;
 };
 
 export type ISongFormations = {
-  firstRow: string[];
-  secondRow: string[];
-  thirdRow: string[];
-  fourthRow: string[];
+  firstRow: MemberNames[];
+  secondRow: MemberNames[];
+  thirdRow: MemberNames[];
+  fourthRow: MemberNames[];
 };
 
 export type ISong = {
   title: string;
   single: string;
+  albums: string[];
   artwork: {
     large: string;
     medium: string;
     small: string;
   };
   musicVideo: string;
-  albums: string[];
   type: SongType;
   creators: ISongCreators;
   performers: ISongPerformers;

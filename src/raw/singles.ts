@@ -1,5 +1,5 @@
 import { ISingle, ISingles } from "../models/ISingle";
-import { CdType, MemberNames, SongType } from "../utils/constants";
+import { CdType, FocusPerformersType, MemberNames, SongType } from "../utils/constants";
 
 const kaerimichi: ISingle = {
   title: "帰り道は遠回りしたくなる",
@@ -46,7 +46,10 @@ const kaerimichi: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 2,
@@ -54,7 +57,10 @@ const kaerimichi: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 3,
@@ -62,7 +68,10 @@ const kaerimichi: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Solo,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 4,
@@ -70,7 +79,10 @@ const kaerimichi: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 5,
@@ -78,7 +90,10 @@ const kaerimichi: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 6,
@@ -86,7 +101,10 @@ const kaerimichi: ISingle = {
       inCdType: [CdType.D],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 7,
@@ -94,7 +112,10 @@ const kaerimichi: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
   ],
   behindPerformers: {
@@ -148,7 +169,10 @@ const jikochu: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 2,
@@ -156,7 +180,10 @@ const jikochu: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 3,
@@ -164,7 +191,10 @@ const jikochu: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 4,
@@ -172,7 +202,10 @@ const jikochu: ISingle = {
       inCdType: [CdType.B],
       type: SongType.ThirdGeneration,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 5,
@@ -180,7 +213,10 @@ const jikochu: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 6,
@@ -188,7 +224,10 @@ const jikochu: ISingle = {
       inCdType: [CdType.D],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 7,
@@ -196,7 +235,10 @@ const jikochu: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
   ],
   behindPerformers: {
@@ -250,7 +292,10 @@ const syncronicity: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 2,
@@ -258,7 +303,10 @@ const syncronicity: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.FirstGeneration,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 3,
@@ -266,7 +314,10 @@ const syncronicity: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 4,
@@ -274,7 +325,10 @@ const syncronicity: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 5,
@@ -282,7 +336,10 @@ const syncronicity: ISingle = {
       inCdType: [CdType.C],
       type: SongType.SecondGeneration,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 6,
@@ -290,7 +347,10 @@ const syncronicity: ISingle = {
       inCdType: [CdType.D],
       type: SongType.ThirdGeneration,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 7,
@@ -298,7 +358,10 @@ const syncronicity: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
   ],
   behindPerformers: {
@@ -352,7 +415,10 @@ const itsukadekirukara: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 2,
@@ -360,7 +426,10 @@ const itsukadekirukara: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 3,
@@ -368,7 +437,10 @@ const itsukadekirukara: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 4,
@@ -376,7 +448,10 @@ const itsukadekirukara: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 5,
@@ -384,7 +459,10 @@ const itsukadekirukara: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 6,
@@ -392,7 +470,10 @@ const itsukadekirukara: ISingle = {
       inCdType: [CdType.D],
       type: SongType.ThirdGeneration,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 7,
@@ -400,7 +481,10 @@ const itsukadekirukara: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
   ],
   behindPerformers: {
@@ -467,7 +551,10 @@ const nigemizu: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 2,
@@ -475,7 +562,10 @@ const nigemizu: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 3,
@@ -483,7 +573,10 @@ const nigemizu: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 4,
@@ -491,7 +584,10 @@ const nigemizu: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 5,
@@ -499,7 +595,10 @@ const nigemizu: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 6,
@@ -507,7 +606,10 @@ const nigemizu: ISingle = {
       inCdType: [CdType.D],
       type: SongType.SecondGeneration,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 7,
@@ -515,7 +617,10 @@ const nigemizu: ISingle = {
       inCdType: [CdType.T],
       type: SongType.ThirdGeneration,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
   ],
   behindPerformers: {
@@ -582,7 +687,10 @@ const influencer: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 2,
@@ -590,7 +698,10 @@ const influencer: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 3,
@@ -598,7 +709,10 @@ const influencer: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 4,
@@ -606,7 +720,10 @@ const influencer: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 5,
@@ -614,7 +731,10 @@ const influencer: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 6,
@@ -622,7 +742,10 @@ const influencer: ISingle = {
       inCdType: [CdType.D],
       type: SongType.ThirdGeneration,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 7,
@@ -630,7 +753,10 @@ const influencer: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
   ],
   behindPerformers: {
@@ -697,7 +823,10 @@ const sayonaranoimi: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 2,
@@ -705,7 +834,10 @@ const sayonaranoimi: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 3,
@@ -713,7 +845,10 @@ const sayonaranoimi: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 4,
@@ -721,7 +856,10 @@ const sayonaranoimi: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 5,
@@ -729,7 +867,10 @@ const sayonaranoimi: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 6,
@@ -737,7 +878,10 @@ const sayonaranoimi: ISingle = {
       inCdType: [CdType.D],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 7,
@@ -745,7 +889,10 @@ const sayonaranoimi: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Solo,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
   ],
   behindPerformers: {
@@ -799,7 +946,10 @@ const hadashidesummer: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 2,
@@ -807,7 +957,10 @@ const hadashidesummer: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 3,
@@ -815,7 +968,10 @@ const hadashidesummer: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Solo,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 4,
@@ -823,7 +979,10 @@ const hadashidesummer: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Solo,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 5,
@@ -831,7 +990,10 @@ const hadashidesummer: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 6,
@@ -839,7 +1001,10 @@ const hadashidesummer: ISingle = {
       inCdType: [CdType.D],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 7,
@@ -847,7 +1012,10 @@ const hadashidesummer: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
   ],
   behindPerformers: {
@@ -901,7 +1069,10 @@ const harujion: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 2,
@@ -909,7 +1080,10 @@ const harujion: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 3,
@@ -917,7 +1091,10 @@ const harujion: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Solo,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 4,
@@ -925,7 +1102,10 @@ const harujion: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 5,
@@ -933,7 +1113,10 @@ const harujion: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Solo,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 6,
@@ -941,7 +1124,10 @@ const harujion: ISingle = {
       inCdType: [CdType.D],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 7,
@@ -949,7 +1135,10 @@ const harujion: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
   ],
   behindPerformers: {
@@ -998,7 +1187,10 @@ const hanashitaidarekagairu: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 2,
@@ -1006,7 +1198,10 @@ const hanashitaidarekagairu: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 3,
@@ -1014,7 +1209,10 @@ const hanashitaidarekagairu: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 4,
@@ -1022,7 +1220,10 @@ const hanashitaidarekagairu: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 5,
@@ -1030,7 +1231,10 @@ const hanashitaidarekagairu: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 6,
@@ -1038,7 +1242,10 @@ const hanashitaidarekagairu: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
   ],
   behindPerformers: {
@@ -1087,7 +1294,10 @@ const taiyoknock: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T, CdType.L],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 2,
@@ -1095,7 +1305,10 @@ const taiyoknock: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T, CdType.L],
       type: SongType.Solo,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 3,
@@ -1103,7 +1316,10 @@ const taiyoknock: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 4,
@@ -1111,7 +1327,10 @@ const taiyoknock: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 5,
@@ -1119,7 +1338,10 @@ const taiyoknock: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 6,
@@ -1127,7 +1349,10 @@ const taiyoknock: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 7,
@@ -1135,7 +1360,10 @@ const taiyoknock: ISingle = {
       inCdType: [CdType.L],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
   ],
   behindPerformers: {
@@ -1184,7 +1412,10 @@ const inochihautsukushii: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 2,
@@ -1192,7 +1423,10 @@ const inochihautsukushii: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 3,
@@ -1200,7 +1434,10 @@ const inochihautsukushii: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 4,
@@ -1208,7 +1445,10 @@ const inochihautsukushii: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Solo,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 5,
@@ -1216,7 +1456,10 @@ const inochihautsukushii: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 6,
@@ -1224,7 +1467,10 @@ const inochihautsukushii: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
   ],
   behindPerformers: {
@@ -1280,7 +1526,10 @@ const nandomenoaozoraka: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 2,
@@ -1288,7 +1537,10 @@ const nandomenoaozoraka: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 3,
@@ -1296,7 +1548,10 @@ const nandomenoaozoraka: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 4,
@@ -1304,7 +1559,10 @@ const nandomenoaozoraka: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 5,
@@ -1312,7 +1570,10 @@ const nandomenoaozoraka: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 6,
@@ -1320,7 +1581,10 @@ const nandomenoaozoraka: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
   ],
   behindPerformers: {
@@ -1377,7 +1641,10 @@ const natsunofreeandeasy: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 2,
@@ -1385,7 +1652,10 @@ const natsunofreeandeasy: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 3,
@@ -1393,7 +1663,10 @@ const natsunofreeandeasy: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 4,
@@ -1401,7 +1674,10 @@ const natsunofreeandeasy: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 5,
@@ -1409,7 +1685,10 @@ const natsunofreeandeasy: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 6,
@@ -1417,7 +1696,10 @@ const natsunofreeandeasy: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
   ],
   behindPerformers: {
@@ -1477,7 +1759,10 @@ const kizuitarakataomoi: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 2,
@@ -1485,7 +1770,10 @@ const kizuitarakataomoi: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 3,
@@ -1493,7 +1781,10 @@ const kizuitarakataomoi: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 4,
@@ -1501,7 +1792,10 @@ const kizuitarakataomoi: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 5,
@@ -1509,7 +1803,10 @@ const kizuitarakataomoi: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 6,
@@ -1517,7 +1814,10 @@ const kizuitarakataomoi: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
   ],
   behindPerformers: {
@@ -1576,7 +1876,10 @@ const valletta: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 2,
@@ -1584,7 +1887,10 @@ const valletta: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 3,
@@ -1592,7 +1898,10 @@ const valletta: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 4,
@@ -1600,7 +1909,10 @@ const valletta: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 5,
@@ -1608,7 +1920,10 @@ const valletta: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 6,
@@ -1616,7 +1931,10 @@ const valletta: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
   ],
   behindPerformers: {
@@ -1678,7 +1996,10 @@ const girlsrule: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 2,
@@ -1686,7 +2007,10 @@ const girlsrule: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 3,
@@ -1694,7 +2018,10 @@ const girlsrule: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 4,
@@ -1702,7 +2029,10 @@ const girlsrule: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 5,
@@ -1710,7 +2040,10 @@ const girlsrule: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 6,
@@ -1718,7 +2051,10 @@ const girlsrule: ISingle = {
       inCdType: [CdType.T],
       type: SongType.FirstGeneration,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
   ],
   behindPerformers: {
@@ -1781,7 +2117,10 @@ const kiminonahakibo: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 2,
@@ -1789,7 +2128,10 @@ const kiminonahakibo: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 3,
@@ -1797,7 +2139,10 @@ const kiminonahakibo: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 4,
@@ -1805,7 +2150,10 @@ const kiminonahakibo: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 5,
@@ -1813,7 +2161,10 @@ const kiminonahakibo: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 6,
@@ -1821,7 +2172,10 @@ const kiminonahakibo: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
   ],
   behindPerformers: {
@@ -1870,7 +2224,10 @@ const seifukunomannequin: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 2,
@@ -1878,7 +2235,10 @@ const seifukunomannequin: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 3,
@@ -1886,7 +2246,10 @@ const seifukunomannequin: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 4,
@@ -1894,7 +2257,10 @@ const seifukunomannequin: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 5,
@@ -1902,7 +2268,10 @@ const seifukunomannequin: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 6,
@@ -1910,7 +2279,10 @@ const seifukunomannequin: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
   ],
   behindPerformers: {
@@ -1959,7 +2331,10 @@ const hashirebicycle: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 2,
@@ -1967,7 +2342,10 @@ const hashirebicycle: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 3,
@@ -1975,7 +2353,10 @@ const hashirebicycle: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 4,
@@ -1983,7 +2364,10 @@ const hashirebicycle: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 5,
@@ -1991,7 +2375,10 @@ const hashirebicycle: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 6,
@@ -1999,7 +2386,10 @@ const hashirebicycle: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
   ],
   behindPerformers: {
@@ -2048,7 +2438,10 @@ const oideshampoo: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 2,
@@ -2056,7 +2449,10 @@ const oideshampoo: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 3,
@@ -2064,7 +2460,10 @@ const oideshampoo: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 4,
@@ -2072,7 +2471,10 @@ const oideshampoo: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Solo,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 5,
@@ -2080,7 +2482,10 @@ const oideshampoo: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 6,
@@ -2088,7 +2493,10 @@ const oideshampoo: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
   ],
   behindPerformers: {
@@ -2137,7 +2545,10 @@ const gurugurucurtain: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Title,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 2,
@@ -2145,7 +2556,10 @@ const gurugurucurtain: ISingle = {
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.T],
       type: SongType.Under,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 3,
@@ -2153,7 +2567,10 @@ const gurugurucurtain: ISingle = {
       inCdType: [CdType.A],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 4,
@@ -2161,7 +2578,10 @@ const gurugurucurtain: ISingle = {
       inCdType: [CdType.B],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 5,
@@ -2169,7 +2589,10 @@ const gurugurucurtain: ISingle = {
       inCdType: [CdType.C],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
     {
       number: 6,
@@ -2177,7 +2600,10 @@ const gurugurucurtain: ISingle = {
       inCdType: [CdType.T],
       type: SongType.Coupling,
       artwork: "",
-      focusPerformers: null,
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
     },
   ],
   behindPerformers: {

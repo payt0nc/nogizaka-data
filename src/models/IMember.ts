@@ -81,3 +81,7 @@ export type IMember = {
   positionsCounter: IMemberPositionsCounter;
   graduation: IMemberGraduation;
 };
+
+export type IMembers = {
+  [name: string]: IMember
+}
