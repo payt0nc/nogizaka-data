@@ -1,8 +1,7 @@
 {
-  "compileOnSave": false,
+  "compileOnSave": true,
   "compilerOptions": {
     "outDir": "./dist/",
-    "sourceMap": true,
     "noImplicitAny": true,
     "module": "commonjs",
     "moduleResolution": "node",
@@ -11,6 +10,7 @@
     "types": ["node"],
     "removeComments": true,
     "allowJs": true,
-    "lib": ["es6", "dom", "es2017"]
+    "lib": ["es6", "dom", "es2017"],
+    "strict": true
   }
 }

@@ -2,24 +2,23 @@
   "name": "nogizaka-data",
   "version": "1.0.0",
   "description": "",
-  "main": "raw-data.js",
+  "main": "dist/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build:dev": "webpack --progress --mode=development",
-    "build": "webpack --progress --mode=production",
-    "watch": "webpack --progress --watch",
-    "lint": "tslint --fix -c ./tslint.json './src/**/*.ts'",
-    "start": "node ./dist/bundle.js"
+    "watch": "tsc --watch",
+    "start": "tsc && node dist/app.js"
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "@types/node": "^11.13.4",
+    "typescript": "^3.3.3333"
+  },
   "devDependencies": {
-    "@types/node": "^10.12.18",
-    "prettier": "^1.16.4",
-    "ts-loader": "^5.3.1",
-    "tslint": "^5.11.0",
-    "typescript": "^3.2.2",
-    "webpack": "^4.27.1",
-    "webpack-cli": "^3.3.0"
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.4",
+    "@babel/preset-typescript": "^7.3.3",
+    "@typescript-eslint/parser": "^1.4.2",
+    "eslint": "^5.15.0"
   }
 }
