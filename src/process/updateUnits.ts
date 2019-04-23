@@ -1,13 +1,13 @@
-import { ISong } from "../models/ISong";
-import { IUnit } from "../models/IUnit";
+import { ISongs } from "../models/ISong";
+import { IUnits } from "../models/IUnit";
 import { SongType } from "../utils/constants";
 
-export const updateUnits = (units: IUnit[], songs: ISong[]) => {
-  units.forEach(unit => {
-    for (const song of songs) {
+export const updateUnits = (units: IUnits, songs: ISongs) => {
+  for (const unit of Object.values(units)) {
+    for (const song of Object.values(songs)) {
       if (song.type === SongType.Unit && song.performers.unit === unit.name) {
         unit.songs.push(song.title);
       }
     }
-  });
+  }
 };
