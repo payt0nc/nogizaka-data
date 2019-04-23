@@ -5,7 +5,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "title",
     "creators": {
@@ -66,7 +70,11 @@
     "title": "ジコチューで行こう!",
     "single": "ジコチューで行こう!",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "title",
     "creators": {
@@ -128,7 +136,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "title",
     "creators": {
@@ -190,7 +202,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "title",
     "creators": {
@@ -253,7 +269,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "title",
     "creators": {
@@ -313,7 +333,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "title",
     "creators": {
@@ -376,7 +400,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "title",
     "creators": {
@@ -436,7 +464,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "title",
     "creators": {
@@ -491,7 +523,11 @@
     "title": "ハルジオンが咲く頃",
     "single": "ハルジオンが咲く頃",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "title",
     "creators": {
@@ -551,7 +587,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "title",
     "creators": {
@@ -611,7 +651,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "title",
     "creators": {
@@ -670,7 +714,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "title",
     "creators": {
@@ -729,7 +777,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "title",
     "creators": {
@@ -786,7 +838,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "title",
     "creators": {
@@ -844,7 +900,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "title",
     "creators": {
@@ -901,7 +961,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "title",
     "creators": {
@@ -959,7 +1023,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "title",
     "creators": {
@@ -1016,7 +1084,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "title",
     "creators": {
@@ -1074,7 +1146,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "title",
     "creators": {
@@ -1131,7 +1207,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "title",
     "creators": {
@@ -1199,7 +1279,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "title",
     "creators": {
@@ -1256,7 +1340,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "title",
     "creators": {
@@ -1313,7 +1401,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -1374,7 +1466,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -1433,7 +1529,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -1496,7 +1596,11 @@
       "今が思い出になるまで",
       "僕だけの君〜Under Super Best〜"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -1553,7 +1657,11 @@
       "今が思い出になるまで",
       "僕だけの君〜Under Super Best〜"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -1614,7 +1722,11 @@
       "僕だけの君〜Under Super Best〜",
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -1670,7 +1782,11 @@
       "僕だけの君〜Under Super Best〜",
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -1728,7 +1844,11 @@
       "僕だけの君〜Under Super Best〜",
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -1789,7 +1909,11 @@
       "僕だけの君〜Under Super Best〜",
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -1850,7 +1974,11 @@
       "僕だけの君〜Under Super Best〜",
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -1914,7 +2042,11 @@
       "僕だけの君〜Under Super Best〜",
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -1976,7 +2108,11 @@
       "僕だけの君〜Under Super Best〜",
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -2034,7 +2170,11 @@
       "僕だけの君〜Under Super Best〜",
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -2092,7 +2232,11 @@
     "albums": [
       "僕だけの君〜Under Super Best〜"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -2149,7 +2293,11 @@
     "albums": [
       "僕だけの君〜Under Super Best〜"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -2207,7 +2355,11 @@
     "albums": [
       "僕だけの君〜Under Super Best〜"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -2261,7 +2413,11 @@
     "albums": [
       "僕だけの君〜Under Super Best〜"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -2320,7 +2476,11 @@
       "僕だけの君〜Under Super Best〜",
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -2378,7 +2538,11 @@
     "albums": [
       "僕だけの君〜Under Super Best〜"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -2438,7 +2602,11 @@
       "僕だけの君〜Under Super Best〜",
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -2497,7 +2665,11 @@
     "albums": [
       "僕だけの君〜Under Super Best〜"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -2556,7 +2728,11 @@
     "albums": [
       "僕だけの君〜Under Super Best〜"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -2611,7 +2787,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -2666,7 +2846,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "solo",
     "creators": {
@@ -2702,7 +2886,11 @@
     "title": "告白の順番",
     "single": "帰り道は遠回りしたくなる",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -2741,7 +2929,11 @@
     "title": "ショパンの嘘つき",
     "single": "帰り道は遠回りしたくなる",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -2777,7 +2969,11 @@
     "title": "知りたいこと",
     "single": "帰り道は遠回りしたくなる",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -2814,7 +3010,11 @@
     "title": "空扉",
     "single": "ジコチューで行こう!",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -2871,7 +3071,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "third generation",
     "creators": {
@@ -2917,7 +3121,11 @@
     "title": "心のモノローグ",
     "single": "ジコチューで行こう!",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -2954,7 +3162,11 @@
     "title": "地球が丸いなら",
     "single": "ジコチューで行こう!",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -2992,7 +3204,11 @@
     "title": "あんなに好きだったのに・・・",
     "single": "ジコチューで行こう!",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -3050,7 +3266,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "first generation",
     "creators": {
@@ -3107,7 +3327,11 @@
     "title": "雲になればいい",
     "single": "シンクロニシティ",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -3145,7 +3369,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "second generation",
     "creators": {
@@ -3194,7 +3422,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "third generation",
     "creators": {
@@ -3245,7 +3477,11 @@
     "title": "言霊砲",
     "single": "シンクロニシティ",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -3284,7 +3520,11 @@
     "title": "不眠症",
     "single": "いつかできるから今日できる",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -3344,7 +3584,11 @@
     "title": "まあいいか?",
     "single": "いつかできるから今日できる",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -3381,7 +3625,11 @@
     "title": "失恋お掃除人",
     "single": "いつかできるから今日できる",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -3426,7 +3674,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "third generation",
     "creators": {
@@ -3474,7 +3726,11 @@
     "title": "新しい花粉 〜ミュージカル「見知らぬ世界」より〜",
     "single": "いつかできるから今日できる",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -3511,7 +3767,11 @@
     "title": "女は一人じゃ眠れない",
     "single": "逃げ水",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -3567,7 +3827,11 @@
     "title": "ひと夏の長さより…",
     "single": "逃げ水",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -3621,7 +3885,11 @@
     "title": "泣いたっていいじゃないか?",
     "single": "逃げ水",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "third generation",
     "creators": {
@@ -3677,7 +3945,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "second generation",
     "creators": {
@@ -3729,7 +4001,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "third generation",
     "creators": {
@@ -3783,7 +4059,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -3822,7 +4102,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -3863,7 +4147,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -3904,7 +4192,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "third generation",
     "creators": {
@@ -3957,7 +4249,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -3996,7 +4292,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -4052,7 +4352,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -4091,7 +4395,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -4134,7 +4442,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -4176,7 +4488,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "solo",
     "creators": {
@@ -4215,7 +4531,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -4268,7 +4588,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "solo",
     "creators": {
@@ -4308,7 +4632,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "solo",
     "creators": {
@@ -4346,7 +4674,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -4388,7 +4720,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -4425,7 +4761,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -4466,7 +4806,11 @@
     "title": "強がる蕾",
     "single": "ハルジオンが咲く頃",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "solo",
     "creators": {
@@ -4506,7 +4850,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -4545,7 +4893,11 @@
     "title": "釣り堀",
     "single": "ハルジオンが咲く頃",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "solo",
     "creators": {
@@ -4583,7 +4935,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -4627,7 +4983,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -4687,7 +5047,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -4729,7 +5093,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -4786,7 +5154,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -4830,7 +5202,11 @@
     "title": "もう少しの夢",
     "single": "太陽ノック",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "solo",
     "creators": {
@@ -4864,7 +5240,11 @@
     "title": "魚たちのLOVE SONG",
     "single": "太陽ノック",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -4905,7 +5285,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -4946,7 +5330,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -5004,7 +5392,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -5041,7 +5433,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -5089,7 +5485,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -5133,7 +5533,11 @@
     "title": "ごめんね ずっと…",
     "single": "命は美しい",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "solo",
     "creators": {
@@ -5169,7 +5573,11 @@
     "title": "ボーダー",
     "single": "命は美しい",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "second generation",
     "creators": {
@@ -5210,7 +5618,11 @@
     "title": "遠回りの愛情",
     "single": "何度目の青空か?",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -5254,7 +5666,11 @@
     "title": "転がった鐘を鳴らせ!",
     "single": "何度目の青空か?",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -5307,7 +5723,11 @@
     "title": "私、起きる。",
     "single": "何度目の青空か?",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -5356,7 +5776,11 @@
     "title": "Tender days",
     "single": "何度目の青空か?",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -5399,7 +5823,11 @@
     "title": "何もできずにそばにいる",
     "single": "夏のFree&Easy",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -5453,7 +5881,11 @@
     "title": "その先の出口!",
     "single": "夏のFree&Easy",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -5501,7 +5933,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -5548,7 +5984,11 @@
     "title": "僕が行かなきゃ誰が行くんだ?",
     "single": "夏のFree&Easy",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -5592,7 +6032,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -5648,7 +6092,11 @@
     "title": "吐息のメソッド",
     "single": "気づいたら片想い",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -5701,7 +6149,11 @@
     "title": "孤独兄弟",
     "single": "気づいたら片想い",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -5740,7 +6192,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -5785,7 +6241,11 @@
     "title": "月の大きさ",
     "single": "バレッタ",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -5843,7 +6303,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -5886,7 +6350,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -5945,7 +6413,11 @@
     "title": "やさしさとは",
     "single": "バレッタ",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -5989,7 +6461,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -6044,7 +6520,11 @@
     "title": "コウモリよ",
     "single": "ガールズルール",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -6083,7 +6563,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -6128,7 +6612,11 @@
     "title": "人間という楽器",
     "single": "ガールズルール",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "first generation",
     "creators": {
@@ -6195,7 +6683,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -6251,7 +6743,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -6300,7 +6796,11 @@
     "title": "でこぴん",
     "single": "君の名は希望",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -6340,7 +6840,11 @@
     "title": "サイコキネシスの可能性",
     "single": "君の名は希望",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -6386,7 +6890,11 @@
     "title": "指望遠鏡",
     "single": "制服のマネキン",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -6441,7 +6949,11 @@
     "title": "やさしさなら間に合ってる",
     "single": "制服のマネキン",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -6485,7 +6997,11 @@
     "title": "ここじゃないどこか",
     "single": "制服のマネキン",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -6523,7 +7039,11 @@
     "title": "渋谷ブルース",
     "single": "制服のマネキン",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -6562,7 +7082,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -6606,7 +7130,11 @@
     "title": "人はなぜ走るのか?",
     "single": "走れ!Bicycle",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -6665,7 +7193,11 @@
     "title": "音が出ないギター",
     "single": "走れ!Bicycle",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -6724,7 +7256,11 @@
     "title": "海流の島よ",
     "single": "走れ!Bicycle",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -6766,7 +7302,11 @@
     "title": "心の薬",
     "single": "おいでシャンプー",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -6821,7 +7361,11 @@
     "title": "偶然を言い訳にして",
     "single": "おいでシャンプー",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -6860,7 +7404,11 @@
     "title": "水玉模様",
     "single": "おいでシャンプー",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "solo",
     "creators": {
@@ -6898,7 +7446,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -6955,7 +7507,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -7025,7 +7581,11 @@
     "title": "会いたかったかもしれない",
     "single": "ぐるぐるカーテン",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -7085,7 +7645,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -7143,7 +7707,11 @@
     "title": "白い雲にのって",
     "single": "ぐるぐるカーテン",
     "albums": [],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -7200,7 +7768,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -7238,7 +7810,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -7279,7 +7855,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -7333,7 +7913,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "solo",
     "creators": {
@@ -7369,7 +7953,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -7423,7 +8011,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -7462,7 +8054,11 @@
       "僕だけの君〜Under Super Best〜",
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -7523,7 +8119,11 @@
     "albums": [
       "透明な色"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "solo",
     "creators": {
@@ -7560,7 +8160,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -7612,7 +8216,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -7664,7 +8272,11 @@
       "僕だけの君〜Under Super Best〜",
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -7709,7 +8321,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -7749,7 +8365,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "solo",
     "creators": {
@@ -7785,7 +8405,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -7823,7 +8447,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "solo",
     "creators": {
@@ -7859,7 +8487,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -7896,7 +8528,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "second generation",
     "creators": {
@@ -7942,7 +8578,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -7980,7 +8620,11 @@
     "albums": [
       "それぞれの椅子"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -8019,7 +8663,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -8076,7 +8724,11 @@
       "僕だけの君〜Under Super Best〜",
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -8124,7 +8776,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "third generation",
     "creators": {
@@ -8171,7 +8827,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "coupling",
     "creators": {
@@ -8253,7 +8913,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -8291,7 +8955,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -8329,7 +8997,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -8367,7 +9039,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "solo",
     "creators": {
@@ -8405,7 +9081,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -8443,7 +9123,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -8481,7 +9165,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -8518,7 +9206,11 @@
     "albums": [
       "生まれてから初めて見た夢"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -8555,7 +9247,11 @@
     "albums": [
       "僕だけの君〜Under Super Best〜"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "solo",
     "creators": {
@@ -8591,7 +9287,11 @@
     "albums": [
       "僕だけの君〜Under Super Best〜"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -8642,7 +9342,11 @@
     "albums": [
       "僕だけの君〜Under Super Best〜"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -8693,7 +9397,11 @@
     "albums": [
       "僕だけの君〜Under Super Best〜"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "under",
     "creators": {
@@ -8744,7 +9452,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "selected",
     "creators": {
@@ -8797,7 +9509,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "solo",
     "creators": {
@@ -8834,7 +9550,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "fourth generation",
     "creators": {
@@ -8880,7 +9600,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -8920,7 +9644,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -8958,7 +9686,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -8999,7 +9731,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
@@ -9037,7 +9773,11 @@
     "albums": [
       "今が思い出になるまで"
     ],
-    "artwork": "",
+    "artworks": {
+      "large": "",
+      "medium": "",
+      "small": ""
+    },
     "musicVideo": "",
     "type": "special",
     "creators": {

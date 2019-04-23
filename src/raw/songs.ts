@@ -9,7 +9,11 @@ const songKaerimichi: ISong = {
   title: "帰り道は遠回りしたくなる",
   single: "帰り道は遠回りしたくなる",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -60,7 +64,11 @@ const songNichijo: ISong = {
   title: "日常",
   single: "帰り道は遠回りしたくなる",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -108,7 +116,11 @@ const songKyaraban: ISong = {
   title: "キャラバンは眠らない",
   single: "帰り道は遠回りしたくなる",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -152,7 +164,11 @@ const songTsuduku: ISong = {
   title: "つづく",
   single: "帰り道は遠回りしたくなる",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -179,7 +195,11 @@ const songKokuhakunojunban: ISong = {
   title: "告白の順番",
   single: "帰り道は遠回りしたくなる",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -206,7 +226,11 @@ const songChopinnousotsuki: ISong = {
   title: "ショパンの嘘つき",
   single: "帰り道は遠回りしたくなる",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -233,7 +257,11 @@ const songShiritaikoto: ISong = {
   title: "知りたいこと",
   single: "帰り道は遠回りしたくなる",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -262,7 +290,11 @@ const songJikochu: ISong = {
   title: "ジコチューで行こう!",
   single: "ジコチューで行こう!",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -313,7 +345,11 @@ const songSankakunoakichi: ISong = {
   title: "三角の空き地",
   single: "ジコチューで行こう!",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -357,7 +393,11 @@ const songSoratobira: ISong = {
   title: "空扉",
   single: "ジコチューで行こう!",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -402,7 +442,11 @@ const songJibunjanaikanji: ISong = {
   title: "自分じゃない感じ",
   single: "ジコチューで行こう!",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.ThirdGeneration,
   creators: {
@@ -441,7 +485,11 @@ const songKokoronomonologue: ISong = {
   title: "心のモノローグ",
   single: "ジコチューで行こう!",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -468,7 +516,11 @@ const songChikyugamaruinara: ISong = {
   title: "地球が丸いなら",
   single: "ジコチューで行こう!",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -495,7 +547,11 @@ const songAnnanisukidattanoni: ISong = {
   title: "あんなに好きだったのに・・・",
   single: "ジコチューで行こう!",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -546,7 +602,11 @@ const songSyncronicity: ISong = {
   title: "シンクロニシティ",
   single: "シンクロニシティ",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -597,7 +657,11 @@ const songAtarashiisekai: ISong = {
   title: "新しい世界",
   single: "シンクロニシティ",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -648,7 +712,11 @@ const songAgainst: ISong = {
   title: "Against",
   single: "シンクロニシティ",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.FirstGeneration,
   creators: {
@@ -696,7 +764,11 @@ const songKumoninarebaii: ISong = {
   title: "雲になればいい",
   single: "シンクロニシティ",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -723,7 +795,11 @@ const songScoutman: ISong = {
   title: "スカウトマン",
   single: "シンクロニシティ",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.SecondGeneration,
   creators: {
@@ -761,7 +837,11 @@ const songTokitokimekimeki: ISong = {
   title: "トキトキメキメキ",
   single: "シンクロニシティ",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.ThirdGeneration,
   creators: {
@@ -801,7 +881,11 @@ const songKotodamaho: ISong = {
   title: "言霊砲",
   single: "シンクロニシティ",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -830,7 +914,11 @@ const songItsukadekirukara: ISong = {
   title: "いつかできるから今日できる",
   single: "いつかできるから今日できる",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -874,7 +962,11 @@ const songMyrule: ISong = {
   title: "My rule",
   single: "いつかできるから今日できる",
   albums: ["僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -909,7 +1001,11 @@ const songFumensho: ISong = {
   title: "不眠症",
   single: "いつかできるから今日できる",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -957,7 +1053,11 @@ const songMaaiika: ISong = {
   title: "まあいいか?",
   single: "いつかできるから今日できる",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -984,7 +1084,11 @@ const songShitsurenosojinin: ISong = {
   title: "失恋お掃除人",
   single: "いつかできるから今日できる",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -1016,7 +1120,11 @@ const songBokunoshodo: ISong = {
   title: "僕の衝動",
   single: "いつかできるから今日できる",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.ThirdGeneration,
   creators: {
@@ -1055,7 +1163,11 @@ const songAtarashiikafun: ISong = {
   title: "新しい花粉 〜ミュージカル「見知らぬ世界」より〜",
   single: "いつかできるから今日できる",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -1084,7 +1196,11 @@ const songNigemizu: ISong = {
   title: "逃げ水",
   single: "逃げ水",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -1132,7 +1248,11 @@ const songUnder: ISong = {
   title: "アンダー",
   single: "逃げ水",
   albums: ["僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -1180,7 +1300,11 @@ const songOnnahahitorija: ISong = {
   title: "女は一人じゃ眠れない",
   single: "逃げ水",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -1226,7 +1350,11 @@ const songHitonatsu: ISong = {
   title: "ひと夏の長さより…",
   single: "逃げ水",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -1272,7 +1400,11 @@ const songLiveshin: ISong = {
   title: "ライブ神",
   single: "逃げ水",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.SecondGeneration,
   creators: {
@@ -1299,7 +1431,11 @@ const songMirainokotae: ISong = {
   title: "未来の答え",
   single: "逃げ水",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.ThirdGeneration,
   creators: {
@@ -1331,7 +1467,11 @@ const songNaitatteii: ISong = {
   title: "泣いたっていいじゃないか?",
   single: "逃げ水",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.ThirdGeneration,
   creators: {
@@ -1379,7 +1519,11 @@ const songInfluencer: ISong = {
   title: "インフルエンサー",
   single: "インフルエンサー",
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -1430,7 +1574,11 @@ const songFusenhaikiteiru: ISong = {
   title: "風船は生きている",
   single: "インフルエンサー",
   albums: ["生まれてから初めて見た夢", "僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -1463,7 +1611,11 @@ const songJinseiwokangae: ISong = {
   title: "人生を考えたくなる",
   single: "インフルエンサー",
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -1490,7 +1642,11 @@ const songIgaibreak: ISong = {
   title: "意外BREAK",
   single: "インフルエンサー",
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -1517,7 +1673,11 @@ const songAnotherghost: ISong = {
   title: "Another Ghost",
   single: "インフルエンサー",
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -1544,7 +1704,11 @@ const songSanbanmenokaze: ISong = {
   title: "三番目の風",
   single: "インフルエンサー",
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.ThirdGeneration,
   creators: {
@@ -1577,7 +1741,11 @@ const songAtarisawarinonai: ISong = {
   title: "当たり障りのない話",
   single: "インフルエンサー",
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -1606,7 +1774,11 @@ const songSayonaranoimi: ISong = {
   title: "サヨナラの意味",
   single: "サヨナラの意味",
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -1655,7 +1827,11 @@ const songBulanko: ISong = {
   title: "ブランコ",
   single: "サヨナラの意味",
   albums: ["生まれてから初めて見た夢", "僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -1701,7 +1877,11 @@ const songKodokunaaozora: ISong = {
   title: "孤独な青空",
   single: "サヨナラの意味",
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -1748,7 +1928,11 @@ const songAnokyoshitsu: ISong = {
   title: "あの教室",
   single: "サヨナラの意味",
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -1775,7 +1959,11 @@ const songNidomenokisukara: ISong = {
   title: "2度目のキスから",
   single: "サヨナラの意味",
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -1802,7 +1990,11 @@ const songKiminiokuruhana: ISong = {
   title: "君に贈る花がない",
   single: "サヨナラの意味",
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -1835,7 +2027,11 @@ const songNaimononetari: ISong = {
   title: "ないものねだり",
   single: "サヨナラの意味",
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -1864,7 +2060,11 @@ const songHadashidesummer: ISong = {
   title: "裸足でSummer",
   single: "裸足でSummer",
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -1910,7 +2110,11 @@ const songSecretGravity: ISong = {
   title: "シークレットグラフィティー",
   single: "裸足でSummer",
   albums: ["生まれてから初めて見た夢", "僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -1959,7 +2163,11 @@ const songBokudakenohikari: ISong = {
   title: "僕だけの光",
   single: "裸足でSummer",
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -2003,7 +2211,11 @@ const songOffshoregirl: ISong = {
   title: "オフショアガール",
   single: "裸足でSummer",
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -2030,7 +2242,11 @@ const songInochinoshinjitsu: ISong = {
   title: "命の真実 ミュージカル「林檎売りとカメムシ」",
   single: "裸足でSummer",
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -2057,7 +2273,11 @@ const songHakumaisama: ISong = {
   title: "白米様",
   single: "裸足でSummer",
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -2084,7 +2304,11 @@ const songIkuatenonaibokutachi: ISong = {
   title: "行くあてのない僕たち",
   single: "裸足でSummer",
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -2113,7 +2337,11 @@ const songHarujion: ISong = {
   title: "ハルジオンが咲く頃",
   single: "ハルジオンが咲く頃",
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -2160,7 +2388,11 @@ const songFutogo: ISong = {
   title: "不等号",
   single: "ハルジオンが咲く頃",
   albums: ["それぞれの椅子", "僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -2209,7 +2441,11 @@ const songHarukanarubhutan: ISong = {
   title: "遥かなるブータン",
   single: "ハルジオンが咲く頃",
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -2243,7 +2479,11 @@ const songTsuyogarutsubomi: ISong = {
   title: "強がる蕾",
   single: "ハルジオンが咲く頃",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -2270,7 +2510,11 @@ const songKyushamen: ISong = {
   title: "急斜面",
   single: "ハルジオンが咲く頃",
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -2297,7 +2541,11 @@ const songTsuribori: ISong = {
   title: "釣り堀",
   single: "ハルジオンが咲く頃",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -2324,7 +2572,11 @@ const songYuutsutofusengamu: ISong = {
   title: "憂鬱と風船ガム",
   single: "ハルジオンが咲く頃",
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -2360,7 +2612,11 @@ const songHanashitaidarekagairu: ISong = {
   title: "今、話したい誰かがいる",
   single: "今、話したい誰かがいる",
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -2401,7 +2657,11 @@ const songShittonokenri: ISong = {
   title: "嫉妬の権利",
   single: "今、話したい誰かがいる",
   albums: ["それぞれの椅子", "僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -2447,7 +2707,11 @@ const songPopipappapa: ISong = {
   title: "ポピパッパパー",
   single: "今、話したい誰かがいる",
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -2488,7 +2752,11 @@ const songOtonahenochikamichi: ISong = {
   title: "大人への近道",
   single: "今、話したい誰かがいる",
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -2521,7 +2789,11 @@ const songKanashiminowasurekata: ISong = {
   title: "悲しみの忘れ方",
   single: "今、話したい誰かがいる",
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -2567,7 +2839,11 @@ const songSukima: ISong = {
   title: "隙間",
   single: "今、話したい誰かがいる",
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -2604,7 +2880,11 @@ const songTaiyoknock: ISong = {
   title: "太陽ノック",
   single: "太陽ノック",
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -2652,7 +2932,11 @@ const songWakaregiwa: ISong = {
   title: "別れ際、もっと好きになる",
   single: "太陽ノック",
   albums: ["それぞれの椅子", "僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -2700,7 +2984,11 @@ const songMosukoshinoyumewo: ISong = {
   title: "もう少しの夢",
   single: "太陽ノック",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -2727,7 +3015,11 @@ const songSakanatachinolovesong: ISong = {
   title: "魚たちのLOVE SONG",
   single: "太陽ノック",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -2759,7 +3051,11 @@ const songMuhyojo: ISong = {
   title: "無表情",
   single: "太陽ノック",
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -2786,7 +3082,11 @@ const songHanenokioku: ISong = {
   title: "羽根の記憶",
   single: "太陽ノック",
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -2832,7 +3132,11 @@ const songSeifukuwonuide: ISong = {
   title: "制服を脱いでサヨナラを…",
   single: "太陽ノック",
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -2861,7 +3165,11 @@ const songInochihautsukushii: ISong = {
   title: "命は美しい",
   single: "命は美しい",
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -2909,7 +3217,11 @@ const songKimihabokuto: ISong = {
   title: "君は僕と会わない方がよかったのかな",
   single: "命は美しい",
   albums: ["それぞれの椅子", "僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -2944,7 +3256,11 @@ const songArakajimeromance: ISong = {
   title: "あらかじめ語られるロマンス",
   single: "命は美しい",
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -2978,7 +3294,11 @@ const songTachinaorichu: ISong = {
   title: "立ち直り中",
   single: "命は美しい",
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -3013,7 +3333,11 @@ const songGomennezutto: ISong = {
   title: "ごめんね ずっと…",
   single: "命は美しい",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -3040,7 +3364,11 @@ const songBorder: ISong = {
   title: "ボーダー",
   single: "命は美しい",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.SecondGeneration,
   creators: {
@@ -3076,7 +3404,11 @@ const songNandomenoaozoraka: ISong = {
   title: "何度目の青空か?",
   single: "何度目の青空か?",
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -3122,7 +3454,11 @@ const songAnohibokuha: ISong = {
   title: "あの日 僕は咄嗟に嘘をついた",
   single: "何度目の青空か?",
   albums: ["透明な色", "僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -3165,7 +3501,11 @@ const songTomawarinoaijo: ISong = {
   title: "遠回りの愛情",
   single: "何度目の青空か?",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -3201,7 +3541,11 @@ const songKorogattakanewonarase: ISong = {
   title: "転がった鐘を鳴らせ!",
   single: "何度目の青空か?",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -3245,7 +3589,11 @@ const songWatashiokiru: ISong = {
   title: "私、起きる。",
   single: "何度目の青空か?",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -3283,7 +3631,11 @@ const songTenderdays: ISong = {
   title: "Tender days",
   single: "何度目の青空か?",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -3322,7 +3674,11 @@ const songNatsunofreeandeasy: ISong = {
   title: "夏のFree&Easy",
   single: "夏のFree&Easy",
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -3369,7 +3725,11 @@ const songKokoniiruriyu: ISong = {
   title: "ここにいる理由",
   single: "夏のFree&Easy",
   albums: ["僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -3415,7 +3775,11 @@ const songNanimodekizuni: ISong = {
   title: "何もできずにそばにいる",
   single: "夏のFree&Easy",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -3462,7 +3826,11 @@ const songSonosakinodeguchi: ISong = {
   title: "その先の出口!",
   single: "夏のFree&Easy",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -3499,7 +3867,11 @@ const songMukuchinalion: ISong = {
   title: "無口なライオン",
   single: "夏のFree&Easy",
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -3535,7 +3907,11 @@ const songBokugaikanakya: ISong = {
   title: "僕が行かなきゃ誰が行くんだ?",
   single: "夏のFree&Easy",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -3572,7 +3948,11 @@ const songKizuitarakataomoi: ISong = {
   title: "気づいたら片想い",
   single: "気づいたら片想い",
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -3618,7 +3998,11 @@ const songUmaretamamade: ISong = {
   title: "生まれたままで",
   single: "気づいたら片想い",
   albums: ["僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -3665,7 +4049,11 @@ const songRomancenostart: ISong = {
   title: "ロマンスのスタート",
   single: "気づいたら片想い",
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -3711,7 +4099,11 @@ const songToikimethod: ISong = {
   title: "吐息のメソッド",
   single: "気づいたら片想い",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -3759,7 +4151,11 @@ const songKodokukyodai: ISong = {
   title: "孤独兄弟",
   single: "気づいたら片想い",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -3786,7 +4182,11 @@ const songDankeschon: ISong = {
   title: "ダンケシェーン",
   single: "気づいたら片想い",
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -3824,7 +4224,11 @@ const songValletta: ISong = {
   title: "バレッタ",
   single: "バレッタ",
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -3866,7 +4270,11 @@ const songHatsukoinohito: ISong = {
   title: "初恋の人を今でも",
   single: "バレッタ",
   albums: ["僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -3905,7 +4313,11 @@ const songTsukinookisa: ISong = {
   title: "月の大きさ",
   single: "バレッタ",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -3947,7 +4359,11 @@ const songWatashinotameni: ISong = {
   title: "私のために 誰かのために",
   single: "バレッタ",
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -3980,7 +4396,11 @@ const songSonnabakana: ISong = {
   title: "そんなバカな…",
   single: "バレッタ",
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -4030,7 +4450,11 @@ const songYasashisatoha: ISong = {
   title: "やさしさとは",
   single: "バレッタ",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -4067,7 +4491,11 @@ const songGirlsrule: ISong = {
   title: "ガールズルール",
   single: "ガールズルール",
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -4109,7 +4537,11 @@ const songSenpuki: ISong = {
   title: "扇風機",
   single: "ガールズルール",
   albums: ["僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -4143,7 +4575,11 @@ const songSekaideichiban: ISong = {
   title: "世界で一番 孤独なLover",
   single: "ガールズルール",
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -4185,7 +4621,11 @@ const songKomoriyo: ISong = {
   title: "コウモリよ",
   single: "ガールズルール",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -4212,7 +4652,11 @@ const songHokanohoshikara: ISong = {
   title: "他の星から",
   single: "ガールズルール",
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -4247,7 +4691,11 @@ const sonNingentoiugaki: ISong = {
   title: "人間という楽器",
   single: "ガールズルール",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.FirstGeneration,
   creators: {
@@ -4309,7 +4757,11 @@ const songKiminonahakibo: ISong = {
   title: "君の名は希望",
   single: "君の名は希望",
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -4351,7 +4803,11 @@ const songjusannichinokiyobi: ISong = {
   title: "13日の金曜日",
   single: "君の名は希望",
   albums: ["透明な色", "僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -4389,7 +4845,11 @@ const songShakism: ISong = {
   title: "シャキイズム",
   single: "君の名は希望",
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -4433,7 +4893,11 @@ const songRomanticIkayaki: ISong = {
   title: "ロマンティックいか焼き",
   single: "君の名は希望",
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -4477,7 +4941,11 @@ const songDekopin: ISong = {
   title: "でこぴん",
   single: "君の名は希望",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -4510,7 +4978,11 @@ const songPsychokineses: ISong = {
   title: "サイコキネシスの可能性",
   single: "君の名は希望",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -4548,7 +5020,11 @@ const songSeifukunomannequin: ISong = {
   title: "制服のマネキン",
   single: "制服のマネキン",
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -4590,7 +5066,11 @@ const songHarunomelody: ISong = {
   title: "春のメロディー",
   single: "制服のマネキン",
   albums: ["僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -4629,7 +5109,11 @@ const songYubiboenkyo: ISong = {
   title: "指望遠鏡",
   single: "制服のマネキン",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -4671,7 +5155,11 @@ const songYasashisanaramaniatteru: ISong = {
   title: "やさしさなら間に合ってる",
   single: "制服のマネキン",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -4707,7 +5195,11 @@ const songKokojanaidokoka: ISong = {
   title: "ここじゃないどこか",
   single: "制服のマネキン",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -4734,7 +5226,11 @@ const songShibuyablues: ISong = {
   title: "渋谷ブルース",
   single: "制服のマネキン",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -4763,7 +5259,11 @@ const songHashirebicycle: ISong = {
   title: "走れ!Bicycle",
   single: "走れ!Bicycle",
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -4812,7 +5312,11 @@ const songNamidagamada: ISong = {
   title: "涙がまだ悲しみだった頃",
   single: "走れ!Bicycle",
   albums: ["透明な色", "僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -4852,7 +5356,11 @@ const songSekkachinakatatsumuri: ISong = {
   title: "せっかちなかたつむり",
   single: "走れ!Bicycle",
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -4887,7 +5395,11 @@ const songHitohanazehashirunoka: ISong = {
   title: "人はなぜ走るのか?",
   single: "走れ!Bicycle",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -4936,7 +5448,11 @@ const songOtogadenaiguitar: ISong = {
   title: "音が出ないギター",
   single: "走れ!Bicycle",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -4985,7 +5501,11 @@ const songKairyunoshimayo: ISong = {
   title: "海流の島よ",
   single: "走れ!Bicycle",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -5022,7 +5542,11 @@ const songOideshampoo: ISong = {
   title: "おいでシャンプー",
   single: "おいでシャンプー",
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -5064,7 +5588,11 @@ const songOkaminikuchibuewo: ISong = {
   title: "狼に口笛を",
   single: "おいでシャンプー",
   albums: ["僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -5108,7 +5636,11 @@ const songKokoronokusuri: ISong = {
   title: "心の薬",
   single: "おいでシャンプー",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -5156,7 +5688,11 @@ const songGuzenwoiiwakenishite: ISong = {
   title: "偶然を言い訳にして",
   single: "おいでシャンプー",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -5188,7 +5724,11 @@ const songMizutamamoyo: ISong = {
   title: "水玉模様",
   single: "おいでシャンプー",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -5215,7 +5755,11 @@ const songHouse: ISong = {
   title: "ハウス!",
   single: "おいでシャンプー",
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -5265,7 +5809,11 @@ const songGurugurucurtain: ISong = {
   title: "ぐるぐるカーテン",
   single: "ぐるぐるカーテン",
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -5307,7 +5855,11 @@ const songHidarimurenoyuki: ISong = {
   title: "左胸の勇気",
   single: "ぐるぐるカーテン",
   albums: ["僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -5353,7 +5905,11 @@ const songNogizakanouta: ISong = {
   title: "乃木坂の詩",
   single: "ぐるぐるカーテン",
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -5414,7 +5970,11 @@ const songAitakattakamoshirenai: ISong = {
   title: "会いたかったかもしれない",
   single: "ぐるぐるカーテン",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -5462,7 +6022,11 @@ const songUshinaitakunaikara: ISong = {
   title: "失いたくないから",
   single: "ぐるぐるカーテン",
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -5510,7 +6074,11 @@ const songShiroikumoninotte: ISong = {
   title: "白い雲にのって",
   single: "ぐるぐるカーテン",
   albums: [],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -5565,7 +6133,11 @@ const arigachinarenai: ISong = {
   title: "ありがちな恋愛",
   single: null,
   albums: ["今が思い出になるまで"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Selected,
   creators: {
@@ -5611,7 +6183,11 @@ const moshikimigainakereba: ISong = {
   title: "もし君がいなければ",
   single: null,
   albums: ["今が思い出になるまで"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -5638,7 +6214,11 @@ const kissnoshuriken: ISong = {
   title: "キスの手裏剣",
   single: null,
   albums: ["今が思い出になるまで"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.FourthGeneration,
   creators: {
@@ -5677,7 +6257,11 @@ const hoozue: ISong = {
   title: "頬杖をついては眠れない",
   single: null,
   albums: ["今が思い出になるまで"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -5710,7 +6294,11 @@ const pocchito: ISong = {
   title: "ぽっち党",
   single: null,
   albums: ["今が思い出になるまで"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -5737,7 +6325,11 @@ const sayuringoboshuchu: ISong = {
   title: "さゆりんご募集中",
   single: null,
   albums: ["今が思い出になるまで"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -5764,7 +6356,11 @@ const gorugonzora: ISong = {
   title: "ゴルゴンゾーラ",
   single: null,
   albums: ["今が思い出になるまで"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -5791,7 +6387,11 @@ const zambi: ISong = {
   title: "もうすぐ～ザンビ伝説～",
   single: null,
   albums: ["今が思い出になるまで"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Special,
   creators: {
@@ -5842,7 +6442,11 @@ const songJibunnokoto: ISong = {
   title: "自分のこと",
   single: null,
   albums: ["僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -5869,7 +6473,11 @@ const songUnuborebeach: ISong = {
   title: "自惚れビーチ",
   single: null,
   albums: ["僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -5911,7 +6519,11 @@ const songSonohito: ISong = {
   title: "その女",
   single: null,
   albums: ["僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -5953,7 +6565,11 @@ const songDareyorisobaniitai: ISong = {
   title: "誰よりそばにいたい",
   single: null,
   albums: ["僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -5997,7 +6613,11 @@ const songSkydiving: ISong = {
   title: "スカイダイビング",
   single: null,
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -6046,7 +6666,11 @@ const songKimigaaoidekureta: ISong = {
   title: "君が扇いでくれた",
   single: null,
   albums: ["生まれてから初めて見た夢", "僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -6086,7 +6710,11 @@ const songOmoidefirst: ISong = {
   title: "思い出ファースト",
   single: null,
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.ThirdGeneration,
   creators: {
@@ -6126,7 +6754,11 @@ const songSetteiondo: ISong = {
   title: "設定温度",
   single: null,
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -6201,7 +6833,11 @@ const songRewindanohi: ISong = {
   title: "Rewindあの日",
   single: null,
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -6228,7 +6864,11 @@ const songGomensmoothie: ISong = {
   title: "ごめんね、スムージー",
   single: null,
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -6255,7 +6895,11 @@ const songMinikuiwatashi: ISong = {
   title: "醜い私",
   single: null,
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -6282,7 +6926,11 @@ const songKataikaranoyoni: ISong = {
   title: "硬い殻のように抱きしめたい",
   single: null,
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -6309,7 +6957,11 @@ const songMangetsugakieta: ISong = {
   title: "満月が消えた",
   single: null,
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -6336,7 +6988,11 @@ const songWatabokori: ISong = {
   title: "ワタボコリ",
   single: null,
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -6363,7 +7019,11 @@ const songRyuseidiscotic: ISong = {
   title: "流星ディスコティック",
   single: null,
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -6390,7 +7050,11 @@ const songBokyakutobigaku: ISong = {
   title: "忘却と美学",
   single: null,
   albums: ["生まれてから初めて見た夢"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -6419,7 +7083,11 @@ const songKikkake: ISong = {
   title: "きっかけ",
   single: null,
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -6463,7 +7131,11 @@ const songTaiyonikudokarete: ISong = {
   title: "太陽に口説かれて",
   single: null,
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -6507,7 +7179,11 @@ const songYokubonoReincarnation: ISong = {
   title: "欲望のリインカーネーション",
   single: null,
   albums: ["それぞれの椅子", "僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -6544,7 +7220,11 @@ const songKukikan: ISong = {
   title: "空気感",
   single: null,
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -6577,7 +7257,11 @@ const songKogoseikibo: ISong = {
   title: "光合成希望",
   single: null,
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -6604,7 +7288,11 @@ const songThreefoldchoice: ISong = {
   title: "Threefold choice",
   single: null,
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -6631,7 +7319,11 @@ const songTeitaionnokisu: ISong = {
   title: "低体温のキス",
   single: null,
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -6658,7 +7350,11 @@ const songShitsurenshitara: ISong = {
   title: "失恋したら、顔を洗え!",
   single: null,
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -6685,7 +7381,11 @@ const songKakigorinokataomoi: ISong = {
   title: "かき氷の片想い",
   single: null,
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.SecondGeneration,
   creators: {
@@ -6724,7 +7424,11 @@ const songKanjorokugosen: ISong = {
   title: "環状六号線",
   single: null,
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -6751,7 +7455,11 @@ const songKuchiyakusoku: ISong = {
   title: "口約束",
   single: null,
   albums: ["それぞれの椅子"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -6780,7 +7488,11 @@ const songDarekahamikata: ISong = {
   title: "誰かは味方",
   single: null,
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -6807,7 +7519,11 @@ const songKakumeinouma: ISong = {
   title: "革命の馬",
   single: null,
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -6841,7 +7557,11 @@ const songBokugairubasho: ISong = {
   title: "僕がいる場所",
   single: null,
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -6885,7 +7605,11 @@ const songAnatanotamenihikitai: ISong = {
   title: "あなたのために弾きたい",
   single: null,
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -6912,7 +7636,11 @@ const songKeishasuru: ISong = {
   title: "傾斜する",
   single: null,
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -6956,7 +7684,11 @@ const songNazonorakugaki: ISong = {
   title: "なぞの落書き",
   single: null,
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -6983,7 +7715,11 @@ const songJiyunokanata: ISong = {
   title: "自由の彼方",
   single: null,
   albums: ["透明な色", "僕だけの君〜Under Super Best〜"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -7035,7 +7771,11 @@ const songHitoriyogari: ISong = {
   title: "ひとりよがり",
   single: null,
   albums: ["透明な色"],
-  artwork: "",
+  artworks: {
+    large: "",
+    medium: "",
+    small: "",
+  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {

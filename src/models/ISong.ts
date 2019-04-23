@@ -24,7 +24,11 @@ export type ISongFormations = {
 export type ISong = {
   title: string;
   single: string;
-  artwork: string;
+  artworks: {
+    large: string;
+    medium: string;
+    small: string;
+  };
   musicVideo: string;
   albums: string[];
   type: SongType;
