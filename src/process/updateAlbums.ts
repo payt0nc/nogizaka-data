@@ -36,7 +36,6 @@ const recordAlbumSongType = (albums: IAlbums, songs: ISongs) => {
 const recordAlbumFocusPerformers = (albums: IAlbums, songs: ISongs) => {
   for (const album of Object.values(albums)) {
     for (const albumSong of album.songs) {
-      console.log(albumSong.title);
       const song = songs[albumSong.title];
       if (albumSong.title !== "OVERTURE") {
         if (
