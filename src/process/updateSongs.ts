@@ -1,26 +1,12 @@
-import { IAlbum, IAlbums } from "../models/IAlbum";
-import { ISingle, ISingles } from "../models/ISingle";
-import { ISong } from "../models/ISong";
+import { IAlbums } from "../models/IAlbum";
+import { ISingles } from "../models/ISingle";
+import { ISongs } from "../models/ISong";
 
-const recordSongAlbums = (songsList: ISong[], albumsList: IAlbum[]) => {
-  songsList.forEach(song => {
-    song.albums = [];
-
-    for (const album of albumsList) {
-      for (const albumSong of album.songs) {
-        if (albumSong.title === song.title) {
-          song.albums.push(album.title);
-        }
-      }
-    }
-  });
-};
-
-const recordSongSingle = (songsList: ISong[], singlesList: ISingle[]) => {
-  songsList.forEach(song => {
+const recordSongSingle = (songs: ISongs, singles: ISingles) => {
+  for (const song of Object.values(songs)) {
     song.single = "";
 
-    for (const single of singlesList) {
+    for (const single of Object.values(singles)) {
       for (const singleSong of single.songs) {
         if (singleSong.title === song.title) {
           song.single = single.title;
@@ -32,11 +18,25 @@ const recordSongSingle = (songsList: ISong[], singlesList: ISingle[]) => {
         break;
       }
     }
-  });
+  }
 };
 
-const recordArtworks = (songs: ISong[], singles: ISingles, albums: IAlbums) => {
-  for (const song of songs) {
+const recordSongAlbums = (songs: ISongs, albums: IAlbums) => {
+  for (const song of Object.values(songs)) {
+    song.albums = [];
+
+    for (const album of Object.values(albums)) {
+      for (const albumSong of album.songs) {
+        if (albumSong.title === song.title) {
+          song.albums.push(album.title);
+        }
+      }
+    }
+  }
+};
+
+const recordArtworks = (songs: ISongs, singles: ISingles, albums: IAlbums) => {
+  for (const song of Object.values(songs)) {
     if (song.single !== "") {
       const single = singles[song.single];
       for (const singleSong of single.songs) {
@@ -57,13 +57,11 @@ const recordArtworks = (songs: ISong[], singles: ISingles, albums: IAlbums) => {
 };
 
 export const updateSongs = (
-  songsList: ISong[],
-  singlesList: ISingle[],
-  albumsList: IAlbum[],
+  songs: ISongs,
   singles: ISingles,
   albums: IAlbums,
 ) => {
-  recordSongSingle(songsList, singlesList);
-  recordSongAlbums(songsList, albumsList);
-  recordArtworks(songsList, singles, albums);
+  recordSongSingle(songs, singles);
+  recordSongAlbums(songs, albums);
+  recordArtworks(songs, singles, albums);
 };
