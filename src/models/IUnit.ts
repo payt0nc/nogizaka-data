@@ -7,3 +7,7 @@ export type IUnit = {
   songs: string[];
   description: string;
 };
+
+export type IUnits = {
+  [name: string]: IUnit;
+};

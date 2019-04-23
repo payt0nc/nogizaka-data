@@ -20,8 +20,7 @@ const unitsArray = Object.values(units);
 
 // Process the raw data.
 
-updateMembers(membersArray, unitsArray, singlesArray, songsArray);
-updateSingles(singlesArray, songsArray);
+updateMembers(members, units, singles, songs);
 updateAlbums(albumsArray, songsArray);
 updateSongs(songsArray, singlesArray, albumsArray, singles, albums);
 updateUnits(unitsArray, songsArray);
