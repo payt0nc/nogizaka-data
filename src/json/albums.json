@@ -107,7 +107,7 @@
       },
       {
         "number": 5,
-        "title": "ジコチューで行こう！",
+        "title": "ジコチューで行こう!",
         "inCdType": [
           "L",
           "A",
@@ -117,8 +117,10 @@
         "type": "title",
         "artwork": "",
         "focusPerformers": {
-          "type": "",
-          "name": []
+          "type": "center",
+          "name": [
+            "saitouasuka"
+          ]
         }
       },
       {

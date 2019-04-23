@@ -81,7 +81,7 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 5,
-      title: "ジコチューで行こう！",
+      title: "ジコチューで行こう!",
       inCdType: [CdType.L, CdType.A, CdType.B, CdType.T],
       type: SongType.Title,
       artwork: "",
