@@ -1,6 +1,6 @@
 import { IAlbums } from "../models/IAlbum";
 import { ISongs } from "../models/ISong";
-import { FocusPerformersType, GITHUB_CONTENTS_PATH, SongType } from "../utils/constants";
+import { FocusPerformersType, GITHUB_CONTENTS_PATH, SongType, OVERTURE } from "../utils/constants";
 
 const recordAlbumArtworks = (albums: IAlbums) => {
   const ARTWORK_BASE_NAME = GITHUB_CONTENTS_PATH + "src/images/artworks/albums/";
@@ -26,7 +26,7 @@ const recordAlbumArtworks = (albums: IAlbums) => {
 const recordAlbumSongType = (albums: IAlbums, songs: ISongs) => {
   for (const album of Object.values(albums)) {
     for (const albumSong of album.songs) {
-      if (albumSong.title !== "OVERTURE") {
+      if (albumSong.title !== OVERTURE) {
         albumSong.type = songs[albumSong.title].type;
       }
     }
@@ -37,7 +37,7 @@ const recordAlbumFocusPerformers = (albums: IAlbums, songs: ISongs) => {
   for (const album of Object.values(albums)) {
     for (const albumSong of album.songs) {
       const song = songs[albumSong.title];
-      if (albumSong.title !== "OVERTURE") {
+      if (albumSong.title !== OVERTURE) {
         if (
           song.type === SongType.Title ||
           song.type === SongType.Under ||

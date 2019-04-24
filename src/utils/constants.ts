@@ -132,3 +132,5 @@ export enum MemberNames {
 }
 
 export const GITHUB_CONTENTS_PATH = "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/";
+
+export const OVERTURE = 'OVERTURE';
