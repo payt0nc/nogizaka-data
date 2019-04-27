@@ -48,9 +48,11 @@ const recordAlbumFocusPerformers = (albums: IAlbums, songs: ISongs) => {
           song.type === SongType.Title ||
           song.type === SongType.Under ||
           song.type === SongType.Coupling ||
+          song.type === SongType.Lead ||
           song.type === SongType.FirstGeneration ||
           song.type === SongType.SecondGeneration ||
-          song.type === SongType.ThirdGeneration
+          song.type === SongType.ThirdGeneration ||
+          song.type === SongType.FourthGeneration
         ) {
           if (song.performers.center !== null) {
             albumSong.focusPerformers = {

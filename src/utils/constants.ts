@@ -2,7 +2,7 @@ export enum SongType {
   None = "none",
   Title = "title",
   Coupling = "coupling",
-  Selected = "selected",
+  Lead = "lead",
   Under = "under",
   Unit = "unit",
   Solo = "solo",
@@ -133,4 +133,4 @@ export enum MemberNames {
 
 export const GITHUB_CONTENTS_PATH = "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/";
 
-export const OVERTURE = 'OVERTURE';
+export const OVERTURE = "OVERTURE";
