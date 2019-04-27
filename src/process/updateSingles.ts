@@ -1,7 +1,7 @@
 import { ISingles } from "../models/ISingle";
 import { ISongs } from "../models/ISong";
-import { members } from "../raw/members";
 import { FocusPerformersType, GITHUB_CONTENTS_PATH, MemberNames, SongType } from "../utils/constants";
+import { convertPerformerNames } from "../utils/strings";
 
 const recordSingleArtworks = (singles: ISingles) => {
   const ARTWORK_BASE_NAME = GITHUB_CONTENTS_PATH + "src/images/artworks/singles/";
@@ -35,13 +35,6 @@ const recordSingleSongType = (singles: ISingles, songs: ISongs) => {
       singleSong.type = songs[singleSong.title].type;
     }
   }
-};
-
-const convertPerformerNames = (names: MemberNames[]): string[] => {
-  return names.map(name => {
-    const { lastName, firstName } = members[name].nameNotations;
-    return lastName + firstName;
-  });
 };
 
 const recordSingleFocusPerformers = (singles: ISingles, songs: ISongs) => {
