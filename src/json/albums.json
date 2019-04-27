@@ -71,8 +71,8 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "oozonomomoko",
-            "yodayuuki"
+            "大園桃子",
+            "与田祐希"
           ]
         }
       },
@@ -94,8 +94,8 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "nishinonanase",
-            "saitouasuka"
+            "西野七瀬",
+            "齋藤飛鳥"
           ]
         }
       },
@@ -117,7 +117,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "shiraishimai"
+            "白石麻衣"
           ]
         }
       },
@@ -139,7 +139,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "saitouasuka"
+            "齋藤飛鳥"
           ]
         }
       },
@@ -161,7 +161,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "nishinonanase"
+            "西野七瀬"
           ]
         }
       },
@@ -183,8 +183,8 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "nakamotohimeka",
-            "kitanohinako"
+            "中元日芽香",
+            "北野日奈子"
           ]
         }
       },
@@ -206,7 +206,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "higuchihina"
+            "樋口日奈"
           ]
         }
       },
@@ -228,7 +228,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "suzukiayane"
+            "鈴木絢音"
           ]
         }
       },
@@ -250,7 +250,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "nakadakana"
+            "中田花奈"
           ]
         }
       },
@@ -272,7 +272,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "kitanohinako"
+            "北野日奈子"
           ]
         }
       },
@@ -291,7 +291,7 @@
         "focusPerformers": {
           "type": "solo",
           "name": [
-            "etoumisa"
+            "衛藤美彩"
           ]
         }
       },
@@ -327,7 +327,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "ikomarina"
+            "生駒里奈"
           ]
         }
       },
@@ -346,7 +346,7 @@
         "focusPerformers": {
           "type": "solo",
           "name": [
-            "nishinonanase"
+            "西野七瀬"
           ]
         }
       },
@@ -363,14 +363,8 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "akimotomanatsu",
-            "saitouyuuri",
-            "shiraishimai",
-            "shinuchimai",
-            "takayamakazumi"
-          ]
+          "type": "center",
+          "name": []
         }
       },
       {
@@ -386,12 +380,8 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "ikutaerika",
-            "kuboshiori",
-            "sakuraireika"
-          ]
+          "type": "center",
+          "name": []
         }
       },
       {
@@ -409,7 +399,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "itouriria"
+            "伊藤理々杏"
           ]
         }
       },
@@ -428,7 +418,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "horimiona"
+            "堀未央奈"
           ]
         }
       },
@@ -447,10 +437,7 @@
         "focusPerformers": {
           "type": "unit",
           "name": [
-            "matsumurasayuri",
-            "itoukarin",
-            "sasakikotoko",
-            "teradaranze"
+            "さゆりんご軍団"
           ]
         }
       },
@@ -467,12 +454,8 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/B_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "kitanohinako",
-            "horimiona",
-            "watanabemiria"
-          ]
+          "type": "center",
+          "name": []
         }
       },
       {
@@ -490,7 +473,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "iwamotorenka"
+            "岩本蓮加"
           ]
         }
       },
@@ -509,8 +492,8 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "kuboshiori",
-            "yamashitamizuki"
+            "久保史緒里",
+            "山下美月"
           ]
         }
       },
@@ -546,7 +529,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "saitouasuka"
+            "齋藤飛鳥"
           ]
         }
       },
@@ -565,7 +548,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "horimiona"
+            "堀未央奈"
           ]
         }
       },
@@ -584,7 +567,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "yamashitamizuki"
+            "山下美月"
           ]
         }
       }
@@ -634,7 +617,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "hatanakaseira"
+            "畠中清羅"
           ]
         }
       },
@@ -653,7 +636,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "itoumarika"
+            "伊藤万理華"
           ]
         }
       },
@@ -672,7 +655,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "itounene"
+            "伊藤寧々"
           ]
         }
       },
@@ -691,7 +674,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "nakadakana"
+            "中田花奈"
           ]
         }
       },
@@ -710,7 +693,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "saitouyuuri"
+            "斉藤優里"
           ]
         }
       },
@@ -729,7 +712,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "saitouasuka"
+            "齋藤飛鳥"
           ]
         }
       },
@@ -748,7 +731,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "hoshinominami"
+            "星野みなみ"
           ]
         }
       },
@@ -767,7 +750,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "itoumarika"
+            "伊藤万理華"
           ]
         }
       },
@@ -786,7 +769,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "itoumarika"
+            "伊藤万理華"
           ]
         }
       },
@@ -805,7 +788,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "inouesayuri"
+            "井上小百合"
           ]
         }
       },
@@ -824,7 +807,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "nakamotohimeka"
+            "中元日芽香"
           ]
         }
       },
@@ -843,7 +826,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "horimiona"
+            "堀未央奈"
           ]
         }
       },
@@ -862,8 +845,8 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "horimiona",
-            "nakamotohimeka"
+            "堀未央奈",
+            "中元日芽香"
           ]
         }
       },
@@ -882,7 +865,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "nakamotohimeka"
+            "中元日芽香"
           ]
         }
       },
@@ -901,7 +884,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "higuchihina"
+            "樋口日奈"
           ]
         }
       },
@@ -920,7 +903,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "teradaranze"
+            "寺田蘭世"
           ]
         }
       },
@@ -939,7 +922,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "watanabemiria"
+            "渡辺みり愛"
           ]
         }
       },
@@ -958,8 +941,8 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "nakamotohimeka",
-            "kitanohinako"
+            "中元日芽香",
+            "北野日奈子"
           ]
         }
       },
@@ -978,7 +961,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "higuchihina"
+            "樋口日奈"
           ]
         }
       },
@@ -997,7 +980,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "inouesayuri"
+            "井上小百合"
           ]
         }
       },
@@ -1050,7 +1033,7 @@
         "focusPerformers": {
           "type": "solo",
           "name": [
-            "nakamotohimeka"
+            "中元日芽香"
           ]
         }
       },
@@ -1069,7 +1052,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "suzukiayane"
+            "鈴木絢音"
           ]
         }
       },
@@ -1088,7 +1071,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "teradaranze"
+            "寺田蘭世"
           ]
         }
       },
@@ -1107,7 +1090,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "higuchihina"
+            "樋口日奈"
           ]
         }
       }
@@ -1165,7 +1148,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "saitouasuka"
+            "齋藤飛鳥"
           ]
         }
       },
@@ -1187,7 +1170,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "hashimotonanami"
+            "橋本奈々未"
           ]
         }
       },
@@ -1209,8 +1192,8 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "nishinonanase",
-            "shiraishimai"
+            "西野七瀬",
+            "白石麻衣"
           ]
         }
       },
@@ -1232,7 +1215,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "higuchihina"
+            "樋口日奈"
           ]
         }
       },
@@ -1254,7 +1237,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "teradaranze"
+            "寺田蘭世"
           ]
         }
       },
@@ -1276,7 +1259,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "watanabemiria"
+            "渡辺みり愛"
           ]
         }
       },
@@ -1318,7 +1301,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "oozonomomoko"
+            "大園桃子"
           ]
         }
       },
@@ -1388,7 +1371,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "hashimotonanami"
+            "橋本奈々未"
           ]
         }
       },
@@ -1407,7 +1390,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "saitouasuka"
+            "齋藤飛鳥"
           ]
         }
       },
@@ -1426,10 +1409,7 @@
         "focusPerformers": {
           "type": "unit",
           "name": [
-            "akimotomanatsu",
-            "sakuraireika",
-            "nakadakana",
-            "wakatsukiyumi"
+            "女子校カルテット"
           ]
         }
       },
@@ -1448,10 +1428,7 @@
         "focusPerformers": {
           "type": "unit",
           "name": [
-            "etoumisa",
-            "shiraishimai",
-            "takayamakazumi",
-            "matsumurasayuri"
+            "姉御坂"
           ]
         }
       },
@@ -1468,12 +1445,8 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "sakuraireika",
-            "nishinonanase",
-            "wakatsukiyumi"
-          ]
+          "type": "center",
+          "name": []
         }
       },
       {
@@ -1489,12 +1462,8 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "itoumarika",
-            "inouesayuri",
-            "nakamotohimeka"
-          ]
+          "type": "center",
+          "name": []
         }
       },
       {
@@ -1510,12 +1479,8 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "etoumisa",
-            "saitouyuuri",
-            "shinuchimai"
-          ]
+          "type": "center",
+          "name": []
         }
       },
       {
@@ -1533,7 +1498,7 @@
         "focusPerformers": {
           "type": "solo",
           "name": [
-            "shiraishimai"
+            "白石麻衣"
           ]
         }
       },
@@ -1552,11 +1517,7 @@
         "focusPerformers": {
           "type": "unit",
           "name": [
-            "kitanohinako",
-            "teradaranze",
-            "nakadakana",
-            "nakamotohimeka",
-            "horimiona"
+            "サンクエトワール"
           ]
         }
       },
@@ -1575,7 +1536,7 @@
         "focusPerformers": {
           "type": "unit",
           "name": [
-            "matsumurasayuri"
+            "さゆりんご軍団"
           ]
         }
       },
@@ -1594,7 +1555,7 @@
         "focusPerformers": {
           "type": "solo",
           "name": [
-            "saitouasuka"
+            "齋藤飛鳥"
           ]
         }
       },
@@ -1611,12 +1572,8 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "ikutaerika",
-            "ikomarina",
-            "hoshinominami"
-          ]
+          "type": "center",
+          "name": []
         }
       },
       {
@@ -1632,12 +1589,8 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "kitanohinako",
-            "teradaranze",
-            "horimiona"
-          ]
+          "type": "center",
+          "name": []
         }
       },
       {
@@ -1655,7 +1608,7 @@
         "focusPerformers": {
           "type": "solo",
           "name": [
-            "hashimotonanami"
+            "橋本奈々未"
           ]
         }
       },
@@ -1674,9 +1627,7 @@
         "focusPerformers": {
           "type": "unit",
           "name": [
-            "itoumarika",
-            "saitouasuka",
-            "nishinonanase"
+            "ナスカ"
           ]
         }
       },
@@ -1693,11 +1644,8 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "saitouasuka",
-            "horimiona"
-          ]
+          "type": "center",
+          "name": []
         }
       },
       {
@@ -1713,11 +1661,8 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "shiraishimai",
-            "matsumurasayuri"
-          ]
+          "type": "center",
+          "name": []
         }
       },
       {
@@ -1733,11 +1678,8 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "akimotomanatsu",
-            "takayamakazumi"
-          ]
+          "type": "center",
+          "name": []
         }
       },
       {
@@ -1755,10 +1697,7 @@
         "focusPerformers": {
           "type": "unit",
           "name": [
-            "akimotomanatsu",
-            "sagaraiori",
-            "suzukiayane",
-            "watanabemiria"
+            "真夏さんリスペクト軍団"
           ]
         }
       },
@@ -1777,7 +1716,7 @@
         "focusPerformers": {
           "type": "solo",
           "name": [
-            "ikutaerika"
+            "生田絵梨花"
           ]
         }
       },
@@ -1794,11 +1733,8 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "itoumarika",
-            "inouesayuri"
-          ]
+          "type": "center",
+          "name": []
         }
       },
       {
@@ -1816,10 +1752,7 @@
         "focusPerformers": {
           "type": "unit",
           "name": [
-            "ikomarina",
-            "inouesayuri",
-            "hoshinominami",
-            "horimiona"
+            "かすみ草"
           ]
         }
       }
@@ -1883,7 +1816,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "nishinonanase"
+            "西野七瀬"
           ]
         }
       },
@@ -1906,7 +1839,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "ikomarina"
+            "生駒里奈"
           ]
         }
       },
@@ -1929,8 +1862,8 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "shiraishimai",
-            "nishinonanase"
+            "白石麻衣",
+            "西野七瀬"
           ]
         }
       },
@@ -2016,7 +1949,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "ikomarina"
+            "生駒里奈"
           ]
         }
       },
@@ -2034,14 +1967,8 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "etoumisa",
-            "shiraishimai",
-            "takayamakazumi",
-            "hashimotonanami",
-            "matsumurasayuri"
-          ]
+          "type": "center",
+          "name": []
         }
       },
       {
@@ -2060,7 +1987,7 @@
         "focusPerformers": {
           "type": "solo",
           "name": [
-            "nishinonanase"
+            "西野七瀬"
           ]
         }
       },
@@ -2080,8 +2007,7 @@
         "focusPerformers": {
           "type": "unit",
           "name": [
-            "ikutaerika",
-            "matsumurasayuri"
+            "からあげ姉妹"
           ]
         }
       },
@@ -2099,14 +2025,10 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
-            "ikutaerika",
-            "ikomarina",
-            "itoumarika",
-            "saitouasuka",
-            "hoshinominami",
-            "horimiona"
+            "齋藤飛鳥",
+            "星野みなみ"
           ]
         }
       },
@@ -2124,15 +2046,9 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
-            "itoumarika",
-            "inouesayuri",
-            "saitouyuuri",
-            "sakuraireika",
-            "nakadakana",
-            "nishinonanase",
-            "wakatsukiyumi"
+            "西野七瀬"
           ]
         }
       },
@@ -2150,12 +2066,8 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "shiraishimai",
-            "hashimotonanami",
-            "matsumurasayuri"
-          ]
+          "type": "center",
+          "name": []
         }
       },
       {
@@ -2174,7 +2086,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "ikomarina"
+            "生駒里奈"
           ]
         }
       },
@@ -2197,7 +2109,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "ikomarina"
+            "生駒里奈"
           ]
         }
       },
@@ -2214,12 +2126,8 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "saitouasuka",
-            "hoshinominami",
-            "horimiona"
-          ]
+          "type": "center",
+          "name": []
         }
       },
       {
@@ -2237,7 +2145,7 @@
         "focusPerformers": {
           "type": "solo",
           "name": [
-            "ikutaerika"
+            "生田絵梨花"
           ]
         }
       },
@@ -2254,14 +2162,9 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
-            "ikutaerika",
-            "itoumarika",
-            "etoumisa",
-            "saitouasuka",
-            "horimiona",
-            "wakatsukiyumi"
+            "生田絵梨花"
           ]
         }
       },
@@ -2280,8 +2183,8 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "shiraishimai",
-            "nishinonanase"
+            "白石麻衣",
+            "西野七瀬"
           ]
         }
       },
@@ -2298,11 +2201,8 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "saitouasuka",
-            "hoshinominami"
-          ]
+          "type": "center",
+          "name": []
         }
       },
       {
@@ -2318,14 +2218,9 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
-            "akimotomanatsu",
-            "ikomarina",
-            "inouesayuri",
-            "sakuraireika",
-            "takayamakazumi",
-            "hoshinominami"
+            "星野みなみ"
           ]
         }
       },
@@ -2342,15 +2237,9 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
-            "akimotomanatsu",
-            "etoumisa",
-            "shiraishimai",
-            "takayamakazumi",
-            "hashimotonanami",
-            "fukagawamai",
-            "matsumurasayuri"
+            "白石麻衣"
           ]
         }
       },
@@ -2369,8 +2258,7 @@
         "focusPerformers": {
           "type": "unit",
           "name": [
-            "nakamotohimeka",
-            "noujouami"
+            "乃木團"
           ]
         }
       },
@@ -2406,11 +2294,7 @@
         "focusPerformers": {
           "type": "unit",
           "name": [
-            "kitanohinako",
-            "teradaranze",
-            "nakadakana",
-            "nakamotohimeka",
-            "horimiona"
+            "サンクエトワール"
           ]
         }
       },
@@ -2429,7 +2313,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "nakamotohimeka"
+            "中元日芽香"
           ]
         }
       },
@@ -2448,7 +2332,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "horimiona"
+            "堀未央奈"
           ]
         }
       },
@@ -2467,8 +2351,8 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "horimiona",
-            "nakamotohimeka"
+            "堀未央奈",
+            "中元日芽香"
           ]
         }
       },
@@ -2487,7 +2371,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "nakamotohimeka"
+            "中元日芽香"
           ]
         }
       },
@@ -2506,9 +2390,7 @@
         "focusPerformers": {
           "type": "unit",
           "name": [
-            "ikomarina",
-            "itoumarika",
-            "inouesayuri"
+            "犬メン"
           ]
         }
       },
@@ -2527,10 +2409,7 @@
         "focusPerformers": {
           "type": "unit",
           "name": [
-            "akimotomanatsu",
-            "sakuraireika",
-            "nakadakana",
-            "wakatsukiyumi"
+            "女子校カルテット"
           ]
         }
       },
@@ -2566,7 +2445,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "ikomarina"
+            "生駒里奈"
           ]
         }
       },
@@ -2585,7 +2464,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "horimiona"
+            "堀未央奈"
           ]
         }
       },
@@ -2604,8 +2483,8 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "ikomarina",
-            "hoshinominami"
+            "生駒里奈",
+            "星野みなみ"
           ]
         }
       },
@@ -2624,7 +2503,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "nishinonanase"
+            "西野七瀬"
           ]
         }
       }
@@ -2695,7 +2574,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "ikomarina"
+            "生駒里奈"
           ]
         }
       },
@@ -2716,7 +2595,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "ikomarina"
+            "生駒里奈"
           ]
         }
       },
@@ -2737,7 +2616,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "ikomarina"
+            "生駒里奈"
           ]
         }
       },
@@ -2758,7 +2637,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "ikomarina"
+            "生駒里奈"
           ]
         }
       },
@@ -2779,7 +2658,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "ikomarina"
+            "生駒里奈"
           ]
         }
       },
@@ -2800,7 +2679,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "shiraishimai"
+            "白石麻衣"
           ]
         }
       },
@@ -2821,7 +2700,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "horimiona"
+            "堀未央奈"
           ]
         }
       },
@@ -2842,7 +2721,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "nishinonanase"
+            "西野七瀬"
           ]
         }
       },
@@ -2863,7 +2742,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "nishinonanase"
+            "西野七瀬"
           ]
         }
       },
@@ -2884,7 +2763,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "ikutaerika"
+            "生田絵梨花"
           ]
         }
       },
@@ -2903,12 +2782,8 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "etoumisa",
-            "sakuraireika",
-            "wakatsukiyumi"
-          ]
+          "type": "center",
+          "name": []
         }
       },
       {
@@ -2926,15 +2801,8 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "akimotomanatsu",
-            "shiraishimai",
-            "takayamakazumi",
-            "hashimotonanami",
-            "fukagawamai",
-            "matsumurasayuri"
-          ]
+          "type": "center",
+          "name": []
         }
       },
       {
@@ -2954,7 +2822,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "ikutaerika"
+            "生田絵梨花"
           ]
         }
       },
@@ -2975,7 +2843,7 @@
         "focusPerformers": {
           "type": "solo",
           "name": [
-            "ikutaerika"
+            "生田絵梨花"
           ]
         }
       },
@@ -2993,15 +2861,9 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
-            "itoumarika",
-            "inouesayuri",
-            "saitouyuuri",
-            "sakuraireika",
-            "nakadakana",
-            "nishinonanase",
-            "wakatsukiyumi"
+            "西野七瀬"
           ]
         }
       },
@@ -3019,13 +2881,9 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
-            "etoumisa",
-            "kawamuramahiro",
-            "sakuraireika",
-            "shiraishimai",
-            "takayamakazumi"
+            "白石麻衣"
           ]
         }
       },
@@ -3043,15 +2901,9 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
-            "shiraishimai",
-            "takayamakazumi",
-            "nakadakana",
-            "nishinonanase",
-            "hashimotonanami",
-            "fukagawamai",
-            "matsumurasayuri"
+            "松村沙友理"
           ]
         }
       },
@@ -3071,7 +2923,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "itounene"
+            "伊藤寧々"
           ]
         }
       },
@@ -3089,16 +2941,9 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
-            "ikomarina",
-            "inouesayuri",
-            "saitouyuuri",
-            "sakuraireika",
-            "nishinonanase",
-            "hoshinominami",
-            "horimiona",
-            "wakatsukiyumi"
+            "西野七瀬"
           ]
         }
       },
@@ -3118,7 +2963,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "shiraishimai"
+            "白石麻衣"
           ]
         }
       },
@@ -3138,7 +2983,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "inouesayuri"
+            "井上小百合"
           ]
         }
       },
@@ -3158,7 +3003,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "saitouyuuri"
+            "斉藤優里"
           ]
         }
       },
@@ -3178,8 +3023,8 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "ikomarina",
-            "ikutaerika"
+            "生駒里奈",
+            "生田絵梨花"
           ]
         }
       },
@@ -3197,16 +3042,9 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
+          "type": "center",
           "name": [
-            "ikutaerika",
-            "ikomarina",
-            "sakuraireika",
-            "nishinonanase",
-            "fukagawamai",
-            "horimiona",
-            "matsumurasayuri",
-            "wakatsukiyumi"
+            "生田絵梨花"
           ]
         }
       },
@@ -3226,22 +3064,7 @@
         "focusPerformers": {
           "type": "unit",
           "name": [
-            "kojimaharuna",
-            "ikomarina",
-            "itoujunna",
-            "kawagohina",
-            "kawamuramahiro",
-            "saitouyuuri",
-            "sagaraiori",
-            "sasakikotoko",
-            "suzukiayane",
-            "teradaranze",
-            "nakadakana",
-            "nagashimaseira",
-            "noujouami",
-            "yamazakirena",
-            "watanabemiria",
-            "wadamaaya"
+            "こじ坂46"
           ]
         }
       },
@@ -3259,12 +3082,8 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "unit",
-          "name": [
-            "saitouasuka",
-            "hoshinominami",
-            "horimiona"
-          ]
+          "type": "center",
+          "name": []
         }
       },
       {
@@ -3283,7 +3102,7 @@
         "focusPerformers": {
           "type": "center",
           "name": [
-            "inouesayuri"
+            "井上小百合"
           ]
         }
       },
@@ -3303,7 +3122,7 @@
         "focusPerformers": {
           "type": "solo",
           "name": [
-            "nishinonanase"
+            "西野七瀬"
           ]
         }
       }

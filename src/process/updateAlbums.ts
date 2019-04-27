@@ -1,6 +1,7 @@
 import { IAlbums } from "../models/IAlbum";
 import { ISongs } from "../models/ISong";
 import { FocusPerformersType, GITHUB_CONTENTS_PATH, SongType, OVERTURE } from "../utils/constants";
+import { convertPerformerNames } from "../utils/strings";
 
 const recordAlbumArtworks = (albums: IAlbums) => {
   const ARTWORK_BASE_NAME = GITHUB_CONTENTS_PATH + "src/images/artworks/albums/";
@@ -51,25 +52,67 @@ const recordAlbumFocusPerformers = (albums: IAlbums, songs: ISongs) => {
           song.type === SongType.SecondGeneration ||
           song.type === SongType.ThirdGeneration
         ) {
-          albumSong.focusPerformers = {
-            type: FocusPerformersType.Center,
-            name: song.performers.center,
-          };
+          if (song.performers.center !== null) {
+            albumSong.focusPerformers = {
+              type: FocusPerformersType.Center,
+              name: convertPerformerNames(song.performers.center),
+            };
+          } else {
+            albumSong.focusPerformers = {
+              type: FocusPerformersType.None,
+              name: [],
+            };
+          }
         } else if (song.type === SongType.Solo) {
           albumSong.focusPerformers = {
             type: FocusPerformersType.Solo,
-            name: song.formations.firstRow,
+            name: convertPerformerNames(song.formations.firstRow),
           };
         } else if (song.type === SongType.Unit) {
-          albumSong.focusPerformers = {
-            type: FocusPerformersType.Unit,
-            name: song.formations.firstRow,
-          };
+          if (song.performers.unit !== null && song.performers.unit !== "") {
+            albumSong.focusPerformers = {
+              type: FocusPerformersType.Unit,
+              name: [song.performers.unit],
+            };
+          } else if (song.performers.center !== null) {
+            albumSong.focusPerformers = {
+              type: FocusPerformersType.Center,
+              name: convertPerformerNames(song.performers.center),
+            };
+          } else if (
+            song.formations.firstRow.length +
+              song.formations.secondRow.length +
+              song.formations.thirdRow.length +
+              song.formations.fourthRow.length <
+            3
+          ) {
+            albumSong.focusPerformers = {
+              type: FocusPerformersType.Unit,
+              name: convertPerformerNames([
+                ...song.formations.firstRow,
+                ...song.formations.secondRow,
+                ...song.formations.thirdRow,
+                ...song.formations.fourthRow,
+              ]),
+            };
+          } else {
+            albumSong.focusPerformers = {
+              type: FocusPerformersType.Unit,
+              name: [],
+            };
+          }
         } else if (song.type === SongType.None) {
-          albumSong.focusPerformers = {
-            type: FocusPerformersType.None,
-            name: song.performers.center,
-          };
+          if (song.performers.center !== null) {
+            albumSong.focusPerformers = {
+              type: FocusPerformersType.None,
+              name: convertPerformerNames(song.performers.center),
+            };
+          } else {
+            albumSong.focusPerformers = {
+              type: FocusPerformersType.None,
+              name: [],
+            };
+          }
         }
       }
     }
