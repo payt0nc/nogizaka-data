@@ -43,7 +43,11 @@
           "T"
         ],
         "type": "selected",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "",
           "name": []
@@ -59,7 +63,11 @@
           "T"
         ],
         "type": "title",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -78,7 +86,11 @@
           "T"
         ],
         "type": "title",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -97,7 +109,11 @@
           "T"
         ],
         "type": "title",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -115,7 +131,11 @@
           "T"
         ],
         "type": "title",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -133,7 +153,11 @@
           "T"
         ],
         "type": "title",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -151,7 +175,11 @@
           "T"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -170,7 +198,11 @@
           "T"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -188,7 +220,11 @@
           "T"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -206,7 +242,11 @@
           "T"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -224,7 +264,11 @@
           "T"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -239,7 +283,11 @@
           "L"
         ],
         "type": "solo",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "solo",
           "name": [
@@ -254,7 +302,11 @@
           "L"
         ],
         "type": "fourth generation",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "",
           "name": []
@@ -267,7 +319,11 @@
           "L"
         ],
         "type": "first generation",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -282,7 +338,11 @@
           "L"
         ],
         "type": "solo",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "solo",
           "name": [
@@ -297,7 +357,11 @@
           "A"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -316,7 +380,11 @@
           "A"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -333,7 +401,11 @@
           "A"
         ],
         "type": "third generation",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -348,7 +420,11 @@
           "A"
         ],
         "type": "second generation",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -363,7 +439,11 @@
           "B"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/B_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/B_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/B_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -381,7 +461,11 @@
           "B"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/B_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/B_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/B_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -398,7 +482,11 @@
           "B"
         ],
         "type": "third generation",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/B_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/B_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/B_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -413,7 +501,11 @@
           "B"
         ],
         "type": "third generation",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/B_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/B_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/B_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -429,7 +521,11 @@
           "T"
         ],
         "type": "special",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/T_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/T_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/T_small.jpg"
+        },
         "focusPerformers": {
           "type": "",
           "name": []
@@ -442,7 +538,11 @@
           "T"
         ],
         "type": "coupling",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/T_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/T_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/T_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -457,7 +557,11 @@
           "T"
         ],
         "type": "second generation",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/T_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/T_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/T_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -472,7 +576,11 @@
           "T"
         ],
         "type": "third generation",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/T_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/T_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/T_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -518,7 +626,11 @@
           "L1"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -533,7 +645,11 @@
           "L1"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -548,7 +664,11 @@
           "L1"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -563,7 +683,11 @@
           "L1"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -578,7 +702,11 @@
           "L1"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -593,7 +721,11 @@
           "L1"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -608,7 +740,11 @@
           "L1"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -623,7 +759,11 @@
           "L1"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -638,7 +778,11 @@
           "L1"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -653,7 +797,11 @@
           "L1"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -668,7 +816,11 @@
           "L1"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -683,7 +835,11 @@
           "L1"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -698,7 +854,11 @@
           "L1"
         ],
         "type": "coupling",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -714,7 +874,11 @@
           "L1"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -729,7 +893,11 @@
           "L1"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -744,7 +912,11 @@
           "L2"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -759,7 +931,11 @@
           "L2"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -774,7 +950,11 @@
           "L2"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -790,7 +970,11 @@
           "L2"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -805,7 +989,11 @@
           "L2"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -820,7 +1008,11 @@
           "L2"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": []
@@ -833,7 +1025,11 @@
           "L2"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": []
@@ -846,7 +1042,11 @@
           "L2"
         ],
         "type": "solo",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_small.jpg"
+        },
         "focusPerformers": {
           "type": "solo",
           "name": [
@@ -861,7 +1061,11 @@
           "L2"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -876,7 +1080,11 @@
           "L2"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -891,7 +1099,11 @@
           "L2"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -945,7 +1157,11 @@
           "T"
         ],
         "type": "title",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -963,7 +1179,11 @@
           "T"
         ],
         "type": "title",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -981,7 +1201,11 @@
           "T"
         ],
         "type": "title",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -1000,7 +1224,11 @@
           "T"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -1018,7 +1246,11 @@
           "T"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -1036,7 +1268,11 @@
           "T"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -1054,7 +1290,11 @@
           "T"
         ],
         "type": "coupling",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": []
@@ -1070,7 +1310,11 @@
           "T"
         ],
         "type": "third generation",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -1085,7 +1329,11 @@
           "L"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": []
@@ -1098,7 +1346,11 @@
           "L"
         ],
         "type": "third generation",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": []
@@ -1111,7 +1363,11 @@
           "L"
         ],
         "type": "coupling",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": []
@@ -1124,7 +1380,11 @@
           "L"
         ],
         "type": "coupling",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -1139,7 +1399,11 @@
           "L"
         ],
         "type": "coupling",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -1154,7 +1418,11 @@
           "L"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1172,7 +1440,11 @@
           "L"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1190,7 +1462,11 @@
           "A"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1207,7 +1483,11 @@
           "A"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1224,7 +1504,11 @@
           "A"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1241,7 +1525,11 @@
           "A"
         ],
         "type": "solo",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "solo",
           "name": [
@@ -1256,7 +1544,11 @@
           "A"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1275,7 +1567,11 @@
           "A"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1290,7 +1586,11 @@
           "B"
         ],
         "type": "solo",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_small.jpg"
+        },
         "focusPerformers": {
           "type": "solo",
           "name": [
@@ -1305,7 +1605,11 @@
           "B"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1322,7 +1626,11 @@
           "B"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1339,7 +1647,11 @@
           "B"
         ],
         "type": "solo",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_small.jpg"
+        },
         "focusPerformers": {
           "type": "solo",
           "name": [
@@ -1354,7 +1666,11 @@
           "B"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1371,7 +1687,11 @@
           "B"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1387,7 +1707,11 @@
           "T"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1403,7 +1727,11 @@
           "T"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1419,7 +1747,11 @@
           "T"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1437,7 +1769,11 @@
           "T"
         ],
         "type": "solo",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_small.jpg"
+        },
         "focusPerformers": {
           "type": "solo",
           "name": [
@@ -1452,7 +1788,11 @@
           "T"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1468,7 +1808,11 @@
           "T"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1531,7 +1875,11 @@
           "T"
         ],
         "type": "title",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -1550,7 +1898,11 @@
           "T"
         ],
         "type": "title",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -1569,7 +1921,11 @@
           "T"
         ],
         "type": "title",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -1589,7 +1945,11 @@
           "T"
         ],
         "type": "coupling",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": []
@@ -1606,7 +1966,11 @@
           "T"
         ],
         "type": "coupling",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": []
@@ -1623,7 +1987,11 @@
           "T"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": []
@@ -1640,7 +2008,11 @@
           "T"
         ],
         "type": "coupling",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -1656,7 +2028,11 @@
           "T"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1676,7 +2052,11 @@
           "T"
         ],
         "type": "solo",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "solo",
           "name": [
@@ -1692,7 +2072,11 @@
           "T"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1709,7 +2093,11 @@
           "T"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1730,7 +2118,11 @@
           "T"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1752,7 +2144,11 @@
           "T"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1770,7 +2166,11 @@
           "T"
         ],
         "type": "coupling",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -1789,7 +2189,11 @@
           "T"
         ],
         "type": "coupling",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -1804,7 +2208,11 @@
           "B"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1821,7 +2229,11 @@
           "B"
         ],
         "type": "solo",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_small.jpg"
+        },
         "focusPerformers": {
           "type": "solo",
           "name": [
@@ -1836,7 +2248,11 @@
           "B"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1856,7 +2272,11 @@
           "B"
         ],
         "type": "coupling",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -1872,7 +2292,11 @@
           "B"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1888,7 +2312,11 @@
           "B"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1908,7 +2336,11 @@
           "B"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1929,7 +2361,11 @@
           "C"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1945,7 +2381,11 @@
           "C"
         ],
         "type": "second generation",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": []
@@ -1958,7 +2398,11 @@
           "C"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -1977,7 +2421,11 @@
           "C"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -1992,7 +2440,11 @@
           "C"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2007,7 +2459,11 @@
           "C"
         ],
         "type": "coupling",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2023,7 +2479,11 @@
           "C"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2038,7 +2498,11 @@
           "D"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -2055,7 +2519,11 @@
           "D"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -2073,7 +2541,11 @@
           "D"
         ],
         "type": "coupling",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": []
@@ -2086,7 +2558,11 @@
           "D"
         ],
         "type": "coupling",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2101,7 +2577,11 @@
           "D"
         ],
         "type": "coupling",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2116,7 +2596,11 @@
           "D"
         ],
         "type": "coupling",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2132,7 +2616,11 @@
           "D"
         ],
         "type": "coupling",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2180,7 +2668,11 @@
           "C"
         ],
         "type": "coupling",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "",
           "name": []
@@ -2195,7 +2687,11 @@
           "C"
         ],
         "type": "title",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2212,7 +2708,11 @@
           "C"
         ],
         "type": "title",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2229,7 +2729,11 @@
           "C"
         ],
         "type": "title",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2246,7 +2750,11 @@
           "C"
         ],
         "type": "title",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2263,7 +2771,11 @@
           "C"
         ],
         "type": "title",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2280,7 +2792,11 @@
           "C"
         ],
         "type": "title",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2297,7 +2813,11 @@
           "C"
         ],
         "type": "title",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2314,7 +2834,11 @@
           "C"
         ],
         "type": "title",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2331,7 +2855,11 @@
           "C"
         ],
         "type": "title",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2348,7 +2876,11 @@
           "C"
         ],
         "type": "title",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2365,7 +2897,11 @@
           "C"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -2384,7 +2920,11 @@
           "C"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -2406,7 +2946,11 @@
           "C"
         ],
         "type": "coupling",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2423,7 +2967,11 @@
           "C"
         ],
         "type": "solo",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "solo",
           "name": [
@@ -2439,7 +2987,11 @@
           "B"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -2461,7 +3013,11 @@
           "B"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -2481,7 +3037,11 @@
           "B"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -2503,7 +3063,11 @@
           "B"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2519,7 +3083,11 @@
           "B"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -2542,7 +3110,11 @@
           "B"
         ],
         "type": "coupling",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2558,7 +3130,11 @@
           "B"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2574,7 +3150,11 @@
           "B"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2590,7 +3170,11 @@
           "B"
         ],
         "type": "coupling",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2607,7 +3191,11 @@
           "B"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -2630,7 +3218,11 @@
           "B"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -2661,7 +3253,11 @@
           "B"
         ],
         "type": "unit",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "unit",
           "name": [
@@ -2679,7 +3275,11 @@
           "B"
         ],
         "type": "under",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "center",
           "name": [
@@ -2695,7 +3295,11 @@
           "B"
         ],
         "type": "solo",
-        "artwork": "",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_medium.jpg",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
+        },
         "focusPerformers": {
           "type": "solo",
           "name": [

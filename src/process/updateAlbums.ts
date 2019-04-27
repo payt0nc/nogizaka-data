@@ -6,6 +6,7 @@ const recordAlbumArtworks = (albums: IAlbums) => {
   const ARTWORK_BASE_NAME = GITHUB_CONTENTS_PATH + "src/images/artworks/albums/";
   for (const album of Object.values(albums)) {
     const artworks = album.artworks;
+    const songs = album.songs;
 
     if (album.hasArtworks) {
       for (const key of Object.keys(artworks)) {
@@ -19,6 +20,10 @@ const recordAlbumArtworks = (albums: IAlbums) => {
         artworks[key].medium = ARTWORK_BASE_NAME + "artwork_no_image_medium.png";
         artworks[key].small = ARTWORK_BASE_NAME + "artwork_no_image_small.png";
       }
+    }
+
+    for (const song of songs) {
+      song.artwork = artworks[song.inCdType[0]];
     }
   }
 };

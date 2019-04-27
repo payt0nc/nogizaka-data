@@ -7,6 +7,7 @@ const recordSingleArtworks = (singles: ISingles) => {
   const ARTWORK_BASE_NAME = GITHUB_CONTENTS_PATH + "src/images/artworks/singles/";
   for (const single of Object.values(singles)) {
     const artworks = single.artworks;
+    const songs = single.songs;
 
     if (single.hasArtworks) {
       for (const key of Object.keys(artworks)) {
@@ -20,6 +21,10 @@ const recordSingleArtworks = (singles: ISingles) => {
         artworks[key].medium = ARTWORK_BASE_NAME + "artwork_no_image_medium.png";
         artworks[key].small = ARTWORK_BASE_NAME + "artwork_no_image_small.png";
       }
+    }
+
+    for (const song of songs) {
+      song.artwork = artworks[song.inCdType[0]];
     }
   }
 };
