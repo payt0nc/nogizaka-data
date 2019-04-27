@@ -1357,7 +1357,7 @@ const taiyoknock: ISingle = {
     {
       number: 7,
       title: "制服を脱いでサヨナラを…",
-      inCdType: [CdType.L],
+      inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
       focusPerformers: {

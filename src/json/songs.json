@@ -5394,6 +5394,11 @@
     "albums": [
       "それぞれの椅子"
     ],
+    "artwork": {
+      "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/12/T_large.jpg",
+      "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/12/T_medium.jpg",
+      "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/12/T_small.jpg"
+    },
     "musicVideo": "",
     "type": "unit",
     "creators": {
