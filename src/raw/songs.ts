@@ -6139,7 +6139,7 @@ const arigachinarenai: ISong = {
     small: "",
   },
   musicVideo: "",
-  type: SongType.Selected,
+  type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
     compose: ["杉山勝彦"],

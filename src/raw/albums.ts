@@ -39,7 +39,7 @@ const imagaomoideninarumade: IAlbum = {
       number: 1,
       title: "ありがちな恋愛",
       inCdType: [CdType.L, CdType.A, CdType.B, CdType.T],
-      type: SongType.Selected,
+      type: SongType.Title,
       artwork: { large: "", medium: "", small: "" },
       focusPerformers: {
         type: FocusPerformersType.None,
