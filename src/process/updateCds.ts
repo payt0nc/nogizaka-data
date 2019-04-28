@@ -16,9 +16,9 @@ export const recordCdArtworks = (cds: ISingles | IAlbums, basePath: string) => {
       }
     } else {
       for (const key of Object.keys(artworks)) {
-        artworks[key].large = basePath + "artwork_no_image_large.png";
-        artworks[key].medium = basePath + "artwork_no_image_medium.png";
-        artworks[key].small = basePath + "artwork_no_image_small.png";
+        artworks[key].large = GITHUB_CONTENTS_PATH + "src/images/artworks/artwork_no_image_large.png";
+        artworks[key].medium = GITHUB_CONTENTS_PATH + "src/images/artworks/artwork_no_image_medium.png";
+        artworks[key].small = GITHUB_CONTENTS_PATH + "src/images/artworks/artwork_no_image_small.png";
       }
     }
   }
@@ -46,7 +46,6 @@ export const recordCdSongTypeFromSongs = (cds: ISingles | IAlbums, songs: ISongs
   for (const cd of Object.values(cds)) {
     for (const cdSong of cd.songs) {
       if (cdSong.title !== OVERTURE) {
-        // TODO: Should change the key when ISongs key type got changed.
         cdSong.type = songs[cdSong.title].type;
       }
     }
@@ -56,7 +55,6 @@ export const recordCdSongTypeFromSongs = (cds: ISingles | IAlbums, songs: ISongs
 export const recordCdFocusPerformersFromSongs = (cds: ISingles | IAlbums, songs: ISongs) => {
   for (const cd of Object.values(cds)) {
     for (const cdSong of cd.songs) {
-      // TODO: Should change the key when ISongs key type got changed.
       const song = songs[cdSong.title];
 
       if (cdSong.title !== OVERTURE) {
