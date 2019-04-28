@@ -1,6 +1,148 @@
 import { ISingle, ISingles } from "../models/ISingle";
 import { CdType, FocusPerformersType, MemberNames, SongType, SONGS } from "../utils/constants";
 
+const singout: ISingle = {
+  title: "Sing Out!",
+  number: "23",
+  release: "2019-05-29",
+  hasArtworks: false,
+  artworks: {
+    [CdType.A]: {
+      large: "",
+      medium: "",
+      small: "",
+    },
+    [CdType.B]: {
+      large: "",
+      medium: "",
+      small: "",
+    },
+    [CdType.C]: {
+      large: "",
+      medium: "",
+      small: "",
+    },
+    [CdType.D]: {
+      large: "",
+      medium: "",
+      small: "",
+    },
+    [CdType.T]: {
+      large: "",
+      medium: "",
+      small: "",
+    },
+  },
+  shopping: [
+    {
+      title: "iTunes",
+      url: "",
+    },
+  ],
+  songs: [
+    {
+      number: 1,
+      title: SONGS["Sing Out!"].title,
+      key: SONGS["Sing Out!"].key,
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
+      type: SongType.None,
+      artwork: { large: "", medium: "", small: "" },
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
+    },
+    {
+      number: 2,
+      title: SONGS["滑走路"].title,
+      key: SONGS["滑走路"].key,
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
+      type: SongType.None,
+      artwork: { large: "", medium: "", small: "" },
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
+    },
+    {
+      number: 3,
+      title: SONGS["のような存在"].title,
+      key: SONGS["のような存在"].key,
+      inCdType: [CdType.A],
+      type: SongType.None,
+      artwork: { large: "", medium: "", small: "" },
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
+    },
+    {
+      number: 4,
+      title: SONGS["Am I Loving"].title,
+      key: SONGS["Am I Loving"].key,
+      inCdType: [CdType.B],
+      type: SongType.None,
+      artwork: { large: "", medium: "", small: "" },
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
+    },
+    {
+      number: 5,
+      title: SONGS["平行線"].title,
+      key: SONGS["平行線"].key,
+      inCdType: [CdType.C],
+      type: SongType.None,
+      artwork: { large: "", medium: "", small: "" },
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
+    },
+    {
+      number: 6,
+      title: SONGS["4番目の光"].title,
+      key: SONGS["4番目の光"].key,
+      inCdType: [CdType.D],
+      type: SongType.None,
+      artwork: { large: "", medium: "", small: "" },
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
+    },
+    {
+      number: 7,
+      title: SONGS["曖昧"].title,
+      key: SONGS["曖昧"].key,
+      inCdType: [CdType.T],
+      type: SongType.None,
+      artwork: { large: "", medium: "", small: "" },
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
+    },
+  ],
+  behindPerformers: {
+    trainees: [
+      MemberNames.EndouSakura,
+      MemberNames.KakiHaruka,
+      MemberNames.KakehashiSayaka,
+      MemberNames.KanagawaSaya,
+      MemberNames.KitagawaYuri,
+      MemberNames.ShibataYuna,
+      MemberNames.SeimiyaRei,
+      MemberNames.TamuraMayu,
+      MemberNames.TsutsuiAyame,
+      MemberNames.HayakawaSeira,
+      MemberNames.YakuboMio,
+    ],
+    skips: [MemberNames.YamashitaMizuki],
+  },
+};
+
 const kaerimichi: ISingle = {
   title: "帰り道は遠回りしたくなる",
   number: "22",
@@ -2755,6 +2897,7 @@ const gurugurucurtain: ISingle = {
 };
 
 export const singles: ISingles = {
+  [singout.title]: singout,
   [kaerimichi.title]: kaerimichi,
   [jikochu.title]: jikochu,
   [syncronicity.title]: syncronicity,

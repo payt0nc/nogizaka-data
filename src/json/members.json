@@ -101,6 +101,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/akimotomanatsu_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/akimotomanatsu_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/akimotomanatsu_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/akimotomanatsu_small.jpg"
       }
     },
     "join": "first",
@@ -162,7 +166,8 @@
       "19": "selected",
       "20": "fukujin",
       "21": "fukujin",
-      "22": "fukujin"
+      "22": "fukujin",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -277,6 +282,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/ikutaerika_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/ikutaerika_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/ikutaerika_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/ikutaerika_small.jpg"
       }
     },
     "join": "first",
@@ -353,7 +362,8 @@
       "19": "fukujin",
       "20": "fukujin",
       "21": "fukujin",
-      "22": "fukujin"
+      "22": "fukujin",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 1,
@@ -468,6 +478,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/itoukarin_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/itoukarin_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/itoukarin_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/itoukarin_small.jpg"
       }
     },
     "join": "second",
@@ -517,7 +531,8 @@
       "19": "under",
       "20": "under",
       "21": "under",
-      "22": "under"
+      "22": "under",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -632,6 +647,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/itoujunna_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/itoujunna_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/itoujunna_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/itoujunna_small.jpg"
       }
     },
     "join": "second",
@@ -677,7 +696,8 @@
       "19": "under",
       "20": "under",
       "21": "under",
-      "22": "under"
+      "22": "under",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -792,6 +812,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/itouriria_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/itouriria_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/itouriria_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/itouriria_small.jpg"
       }
     },
     "join": "third",
@@ -828,7 +852,8 @@
       "19": "trainee",
       "20": "under",
       "21": "under",
-      "22": "selected"
+      "22": "selected",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -943,6 +968,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/inouesayuri_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/inouesayuri_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/inouesayuri_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/inouesayuri_small.jpg"
       }
     },
     "join": "first",
@@ -1004,7 +1033,8 @@
       "19": "fukujin",
       "20": "selected",
       "21": "selected",
-      "22": "selected"
+      "22": "selected",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -1119,6 +1149,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/iwamotorenka_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/iwamotorenka_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/iwamotorenka_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/iwamotorenka_small.jpg"
       }
     },
     "join": "third",
@@ -1155,7 +1189,8 @@
       "19": "trainee",
       "20": "under",
       "21": "fukujin",
-      "22": "under"
+      "22": "under",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -1270,6 +1305,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/umezawaminami_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/umezawaminami_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/umezawaminami_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/umezawaminami_small.jpg"
       }
     },
     "join": "third",
@@ -1311,7 +1350,8 @@
       "19": "trainee",
       "20": "under",
       "21": "fukujin",
-      "22": "fukujin"
+      "22": "fukujin",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -1426,6 +1466,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/etoumisa_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/etoumisa_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/etoumisa_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/etoumisa_small.jpg"
       }
     },
     "join": "first",
@@ -1498,7 +1542,8 @@
       "19": "fukujin",
       "20": "fukujin",
       "21": "fukujin",
-      "22": "fukujin"
+      "22": "fukujin",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -1613,6 +1658,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/oozonomomoko_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/oozonomomoko_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/oozonomomoko_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/oozonomomoko_small.jpg"
       }
     },
     "join": "third",
@@ -1654,7 +1703,8 @@
       "19": "trainee",
       "20": "fukujin",
       "21": "fukujin",
-      "22": "selected"
+      "22": "selected",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -1769,6 +1819,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kitanohinako_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kitanohinako_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kitanohinako_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kitanohinako_small.jpg"
       }
     },
     "join": "second",
@@ -1826,7 +1880,8 @@
       "19": "selected",
       "20": "skip",
       "21": "under",
-      "22": "under"
+      "22": "under",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -1941,6 +1996,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kuboshiori_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kuboshiori_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kuboshiori_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kuboshiori_small.jpg"
       }
     },
     "join": "third",
@@ -1982,7 +2041,8 @@
       "19": "trainee",
       "20": "fukujin",
       "21": "skip",
-      "22": "under"
+      "22": "under",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -2097,6 +2157,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/saitouasuka_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/saitouasuka_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/saitouasuka_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/saitouasuka_small.jpg"
       }
     },
     "join": "first",
@@ -2149,7 +2213,8 @@
       "19": "center",
       "20": "fukujin",
       "21": "center",
-      "22": "fukujin"
+      "22": "fukujin",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 3,
@@ -2264,6 +2329,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/saitouyuuri_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/saitouyuuri_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/saitouyuuri_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/saitouyuuri_small.jpg"
       }
     },
     "join": "first",
@@ -2313,7 +2382,8 @@
       "19": "selected",
       "20": "under",
       "21": "selected",
-      "22": "selected"
+      "22": "selected",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -2428,6 +2498,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/sakaguchitamami_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/sakaguchitamami_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/sakaguchitamami_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/sakaguchitamami_small.jpg"
       }
     },
     "join": "third",
@@ -2469,7 +2543,8 @@
       "19": "trainee",
       "20": "under",
       "21": "under",
-      "22": "under"
+      "22": "under",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -2584,6 +2659,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/sakuraireika_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/sakuraireika_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/sakuraireika_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/sakuraireika_small.jpg"
       }
     },
     "join": "first",
@@ -2649,7 +2728,8 @@
       "19": "fukujin",
       "20": "fukujin",
       "21": "fukujin",
-      "22": "fukujin"
+      "22": "fukujin",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -2764,6 +2844,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/sasakikotoko_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/sasakikotoko_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/sasakikotoko_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/sasakikotoko_small.jpg"
       }
     },
     "join": "second",
@@ -2805,7 +2889,8 @@
       "19": "under",
       "20": "under",
       "21": "under",
-      "22": "under"
+      "22": "under",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -2920,6 +3005,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/satoukaede_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/satoukaede_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/satoukaede_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/satoukaede_small.jpg"
       }
     },
     "join": "third",
@@ -2956,7 +3045,8 @@
       "19": "trainee",
       "20": "under",
       "21": "under",
-      "22": "selected"
+      "22": "selected",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -3071,6 +3161,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/shiraishimai_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/shiraishimai_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/shiraishimai_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/shiraishimai_small.jpg"
       }
     },
     "join": "first",
@@ -3158,7 +3252,8 @@
       "19": "fukujin",
       "20": "center",
       "21": "fukujin",
-      "22": "fukujin"
+      "22": "fukujin",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 4,
@@ -3273,6 +3368,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/shinuchimai_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/shinuchimai_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/shinuchimai_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/shinuchimai_small.jpg"
       }
     },
     "join": "first",
@@ -3330,7 +3429,8 @@
       "19": "selected",
       "20": "selected",
       "21": "selected",
-      "22": "selected"
+      "22": "selected",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -3445,6 +3545,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/suzukiayane_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/suzukiayane_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/suzukiayane_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/suzukiayane_small.jpg"
       }
     },
     "join": "second",
@@ -3494,7 +3598,8 @@
       "19": "under",
       "20": "under",
       "21": "selected",
-      "22": "under"
+      "22": "under",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -3609,6 +3714,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/takayamakazumi_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/takayamakazumi_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/takayamakazumi_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/takayamakazumi_small.jpg"
       }
     },
     "join": "first",
@@ -3674,7 +3783,8 @@
       "19": "selected",
       "20": "selected",
       "21": "selected",
-      "22": "selected"
+      "22": "selected",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -3789,6 +3899,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/teradaranze_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/teradaranze_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/teradaranze_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/teradaranze_small.jpg"
       }
     },
     "join": "second",
@@ -3834,7 +3948,8 @@
       "19": "under",
       "20": "selected",
       "21": "under",
-      "22": "under"
+      "22": "under",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -3949,6 +4064,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/nakadakana_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/nakadakana_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/nakadakana_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/nakadakana_small.jpg"
       }
     },
     "join": "first",
@@ -3998,7 +4117,8 @@
       "19": "selected",
       "20": "under",
       "21": "under",
-      "22": "under"
+      "22": "under",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -4113,6 +4233,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/nakamurareno_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/nakamurareno_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/nakamurareno_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/nakamurareno_small.jpg"
       }
     },
     "join": "third",
@@ -4149,7 +4273,8 @@
       "19": "trainee",
       "20": "under",
       "21": "under",
-      "22": "under"
+      "22": "under",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -4264,6 +4389,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/nishinonanase_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/nishinonanase_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/nishinonanase_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/nishinonanase_small.jpg"
       }
     },
     "join": "first",
@@ -4343,7 +4472,8 @@
       "19": "center",
       "20": "fukujin",
       "21": "fukujin",
-      "22": "center"
+      "22": "center",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 7,
@@ -4458,6 +4588,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/higuchihina_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/higuchihina_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/higuchihina_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/higuchihina_small.jpg"
       }
     },
     "join": "first",
@@ -4498,7 +4632,8 @@
       "19": "under",
       "20": "selected",
       "21": "under",
-      "22": "under"
+      "22": "under",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -4613,6 +4748,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/hoshinominami_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/hoshinominami_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/hoshinominami_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/hoshinominami_small.jpg"
       }
     },
     "join": "first",
@@ -4670,7 +4809,8 @@
       "19": "selected",
       "20": "selected",
       "21": "selected",
-      "22": "fukujin"
+      "22": "fukujin",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -4785,6 +4925,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/horimiona_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/horimiona_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/horimiona_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/horimiona_small.jpg"
       }
     },
     "join": "second",
@@ -4846,7 +4990,8 @@
       "19": "fukujin",
       "20": "fukujin",
       "21": "fukujin",
-      "22": "fukujin"
+      "22": "fukujin",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 1,
@@ -4961,6 +5106,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/matsumurasayuri_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/matsumurasayuri_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/matsumurasayuri_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/matsumurasayuri_small.jpg"
       }
     },
     "join": "first",
@@ -5030,7 +5179,8 @@
       "19": "fukujin",
       "20": "fukujin",
       "21": "fukujin",
-      "22": "fukujin"
+      "22": "fukujin",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -5145,6 +5295,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/mukaihazuki_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/mukaihazuki_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/mukaihazuki_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/mukaihazuki_small.jpg"
       }
     },
     "join": "third",
@@ -5181,7 +5335,8 @@
       "19": "trainee",
       "20": "under",
       "21": "under",
-      "22": "under"
+      "22": "under",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -5296,6 +5451,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yamazakirena_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yamazakirena_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yamazakirena_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yamazakirena_small.jpg"
       }
     },
     "join": "second",
@@ -5336,7 +5495,8 @@
       "19": "under",
       "20": "under",
       "21": "under",
-      "22": "under"
+      "22": "under",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -5451,6 +5611,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yamashitamizuki_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yamashitamizuki_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yamashitamizuki_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yamashitamizuki_small.jpg"
       }
     },
     "join": "third",
@@ -5496,7 +5660,8 @@
       "19": "trainee",
       "20": "fukujin",
       "21": "fukujin",
-      "22": "fukujin"
+      "22": "fukujin",
+      "23": "skip"
     },
     "positionsCounter": {
       "center": 0,
@@ -5611,6 +5776,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yoshidaayanochristie_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yoshidaayanochristie_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yoshidaayanochristie_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yoshidaayanochristie_small.jpg"
       }
     },
     "join": "third",
@@ -5647,7 +5816,8 @@
       "19": "trainee",
       "20": "under",
       "21": "under",
-      "22": "under"
+      "22": "under",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -5762,6 +5932,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yodayuuki_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yodayuuki_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yodayuuki_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yodayuuki_small.jpg"
       }
     },
     "join": "third",
@@ -5815,7 +5989,8 @@
       "19": "trainee",
       "20": "fukujin",
       "21": "fukujin",
-      "22": "fukujin"
+      "22": "fukujin",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -5930,6 +6105,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/watanabemiria_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/watanabemiria_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/watanabemiria_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/watanabemiria_small.jpg"
       }
     },
     "join": "second",
@@ -5979,7 +6158,8 @@
       "19": "under",
       "20": "under",
       "21": "under",
-      "22": "under"
+      "22": "under",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -6094,6 +6274,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/wadamaaya_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/wadamaaya_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/wadamaaya_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/wadamaaya_small.jpg"
       }
     },
     "join": "first",
@@ -6139,7 +6323,8 @@
       "19": "under",
       "20": "under",
       "21": "under",
-      "22": "under"
+      "22": "under",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -6254,6 +6439,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/endousakura_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/endousakura_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/endousakura_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/endousakura_small.jpg"
       }
     },
     "join": "fourth",
@@ -6290,7 +6479,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "trainee"
     },
     "positionsCounter": {
       "center": 0,
@@ -6405,6 +6595,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kakiharuka_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kakiharuka_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kakiharuka_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kakiharuka_small.jpg"
       }
     },
     "join": "fourth",
@@ -6441,7 +6635,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "trainee"
     },
     "positionsCounter": {
       "center": 0,
@@ -6556,6 +6751,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kakehashisayaka_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kakehashisayaka_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kakehashisayaka_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kakehashisayaka_small.jpg"
       }
     },
     "join": "fourth",
@@ -6592,7 +6791,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "trainee"
     },
     "positionsCounter": {
       "center": 0,
@@ -6707,6 +6907,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kanagawasaya_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kanagawasaya_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kanagawasaya_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kanagawasaya_small.jpg"
       }
     },
     "join": "fourth",
@@ -6743,7 +6947,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "trainee"
     },
     "positionsCounter": {
       "center": 0,
@@ -6858,6 +7063,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kitagawayuri_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kitagawayuri_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kitagawayuri_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kitagawayuri_small.jpg"
       }
     },
     "join": "fourth",
@@ -6894,7 +7103,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "trainee"
     },
     "positionsCounter": {
       "center": 0,
@@ -7009,6 +7219,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/shibatayuna_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/shibatayuna_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/shibatayuna_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/shibatayuna_small.jpg"
       }
     },
     "join": "fourth",
@@ -7045,7 +7259,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "trainee"
     },
     "positionsCounter": {
       "center": 0,
@@ -7160,6 +7375,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/seimiyarei_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/seimiyarei_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/seimiyarei_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/seimiyarei_small.jpg"
       }
     },
     "join": "fourth",
@@ -7196,7 +7415,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "trainee"
     },
     "positionsCounter": {
       "center": 0,
@@ -7311,6 +7531,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/tamuramayu_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/tamuramayu_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/tamuramayu_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/tamuramayu_small.jpg"
       }
     },
     "join": "fourth",
@@ -7347,7 +7571,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "trainee"
     },
     "positionsCounter": {
       "center": 0,
@@ -7462,6 +7687,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/tsutsuiayame_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/tsutsuiayame_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/tsutsuiayame_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/tsutsuiayame_small.jpg"
       }
     },
     "join": "fourth",
@@ -7498,7 +7727,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "trainee"
     },
     "positionsCounter": {
       "center": 0,
@@ -7613,6 +7843,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/hayakawaseira_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/hayakawaseira_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/hayakawaseira_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/hayakawaseira_small.jpg"
       }
     },
     "join": "fourth",
@@ -7649,7 +7883,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "trainee"
     },
     "positionsCounter": {
       "center": 0,
@@ -7764,6 +7999,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yakubomio_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yakubomio_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yakubomio_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yakubomio_small.jpg"
       }
     },
     "join": "fourth",
@@ -7800,7 +8039,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "trainee"
     },
     "positionsCounter": {
       "center": 0,
@@ -7915,6 +8155,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kawagohina_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kawagohina_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kawagohina_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kawagohina_small.jpg"
       }
     },
     "join": "first",
@@ -7964,7 +8208,8 @@
       "19": "under",
       "20": "under",
       "21": "under",
-      "22": "under"
+      "22": "under",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -8079,6 +8324,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/noujouami_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/noujouami_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/noujouami_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/noujouami_small.jpg"
       }
     },
     "join": "first",
@@ -8124,7 +8373,8 @@
       "19": "under",
       "20": "under",
       "21": "under",
-      "22": "none"
+      "22": "none",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -8239,6 +8489,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/wakatsukiyumi_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/wakatsukiyumi_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/wakatsukiyumi_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/wakatsukiyumi_small.jpg"
       }
     },
     "join": "first",
@@ -8300,7 +8554,8 @@
       "19": "fukujin",
       "20": "selected",
       "21": "selected",
-      "22": "fukujin"
+      "22": "fukujin",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -8415,6 +8670,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/saitouchiharu_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/20/saitouchiharu_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/saitouchiharu_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/20/saitouchiharu_small.jpg"
       }
     },
     "join": "first",
@@ -8451,7 +8710,8 @@
       "19": "under",
       "20": "under",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -8566,6 +8826,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/sagaraiori_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/20/sagaraiori_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/sagaraiori_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/20/sagaraiori_small.jpg"
       }
     },
     "join": "second",
@@ -8611,7 +8875,8 @@
       "19": "under",
       "20": "under",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -8726,6 +8991,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/ikomarina_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/ikomarina_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/ikomarina_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/ikomarina_small.jpg"
       }
     },
     "join": "first",
@@ -8787,7 +9056,8 @@
       "19": "selected",
       "20": "fukujin",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 6,
@@ -8902,6 +9172,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/kawamuramahiro_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/kawamuramahiro_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/kawamuramahiro_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/kawamuramahiro_small.jpg"
       }
     },
     "join": "first",
@@ -8951,7 +9225,8 @@
       "19": "under",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -9066,6 +9341,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/itoumarika_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/itoumarika_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/itoumarika_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/itoumarika_small.jpg"
       }
     },
     "join": "first",
@@ -9111,7 +9390,8 @@
       "19": "fukujin",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -9226,6 +9506,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/nakamotohimeka_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/nakamotohimeka_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/nakamotohimeka_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/nakamotohimeka_small.jpg"
       }
     },
     "join": "first",
@@ -9267,7 +9551,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -9382,6 +9667,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/15/hashimotonanami_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/15/hashimotonanami_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/15/hashimotonanami_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/15/hashimotonanami_small.jpg"
       }
     },
     "join": "first",
@@ -9441,7 +9730,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 1,
@@ -9556,6 +9846,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/14/fukagawamai_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/14/fukagawamai_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/14/fukagawamai_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/14/fukagawamai_small.jpg"
       }
     },
     "join": "first",
@@ -9615,7 +9909,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 1,
@@ -9730,6 +10025,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/14/nagashimaseira_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/14/nagashimaseira_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/14/nagashimaseira_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/14/nagashimaseira_small.jpg"
       }
     },
     "join": "first",
@@ -9770,7 +10069,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -9885,6 +10185,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/11/matsuirena_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/11/matsuirena_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/11/matsuirena_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/11/matsuirena_small.jpg"
       }
     },
     "join": "exchange",
@@ -9925,7 +10229,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -10040,6 +10345,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/10/hatanakaseira_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/10/hatanakaseira_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/10/hatanakaseira_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/10/hatanakaseira_small.jpg"
       }
     },
     "join": "first",
@@ -10080,7 +10389,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -10195,6 +10505,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/10/yamatorina_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/10/yamatorina_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/10/yamatorina_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/10/yamatorina_small.jpg"
       }
     },
     "join": "first",
@@ -10235,7 +10549,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -10350,6 +10665,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/9/itounene_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/9/itounene_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/9/itounene_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/9/itounene_small.jpg"
       }
     },
     "join": "first",
@@ -10390,7 +10709,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -10505,6 +10825,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/9/yonetokukyouka_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/9/yonetokukyouka_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/9/yonetokukyouka_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/9/yonetokukyouka_small.jpg"
       }
     },
     "join": "second",
@@ -10536,7 +10860,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -10651,6 +10976,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/9/yadarisako_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/9/yadarisako_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/9/yadarisako_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/9/yadarisako_small.jpg"
       }
     },
     "join": "second",
@@ -10682,7 +11011,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -10797,6 +11127,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/9/ichikirena_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/9/ichikirena_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/9/ichikirena_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/9/ichikirena_small.jpg"
       }
     },
     "join": "first",
@@ -10833,7 +11167,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -10948,6 +11283,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/7/nishikawananami_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/7/nishikawananami_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/7/nishikawananami_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/7/nishikawananami_small.jpg"
       }
     },
     "join": "second",
@@ -10979,7 +11318,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -11094,6 +11434,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/6/miyazawaseira_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/6/miyazawaseira_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/6/miyazawaseira_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/6/miyazawaseira_small.jpg"
       }
     },
     "join": "first",
@@ -11134,7 +11478,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -11249,6 +11594,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/6/kashiwayukina_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/6/kashiwayukina_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/6/kashiwayukina_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/6/kashiwayukina_small.jpg"
       }
     },
     "join": "first",
@@ -11285,7 +11634,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -11400,6 +11750,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/5/andoumikumo_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/5/andoumikumo_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/5/andoumikumo_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/5/andoumikumo_small.jpg"
       }
     },
     "join": "first",
@@ -11431,7 +11785,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,
@@ -11546,6 +11901,10 @@
       "22": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/3/iwaseyumiko_large.jpg",
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/3/iwaseyumiko_small.jpg"
+      },
+      "23": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/3/iwaseyumiko_large.jpg",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/3/iwaseyumiko_small.jpg"
       }
     },
     "join": "first",
@@ -11582,7 +11941,8 @@
       "19": "none",
       "20": "none",
       "21": "none",
-      "22": "none"
+      "22": "none",
+      "23": "none"
     },
     "positionsCounter": {
       "center": 0,

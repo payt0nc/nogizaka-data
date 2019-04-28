@@ -1,5 +1,202 @@
 [
   {
+    "title": "Sing Out!",
+    "number": "23",
+    "release": "2019-05-29",
+    "hasArtworks": false,
+    "artworks": {
+      "A": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
+        "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_medium.png",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_small.png"
+      },
+      "B": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
+        "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_medium.png",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_small.png"
+      },
+      "C": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
+        "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_medium.png",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_small.png"
+      },
+      "D": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
+        "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_medium.png",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_small.png"
+      },
+      "T": {
+        "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
+        "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_medium.png",
+        "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_small.png"
+      }
+    },
+    "shopping": [
+      {
+        "title": "iTunes",
+        "url": ""
+      }
+    ],
+    "songs": [
+      {
+        "number": 1,
+        "title": "Sing Out!",
+        "key": "singout",
+        "inCdType": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "T"
+        ],
+        "type": "title",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_medium.png",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_small.png"
+        },
+        "focusPerformers": {
+          "type": "center",
+          "name": [
+            "齋藤飛鳥"
+          ]
+        }
+      },
+      {
+        "number": 2,
+        "title": "滑走路",
+        "key": "kassouro",
+        "inCdType": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "T"
+        ],
+        "type": "under",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_medium.png",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_small.png"
+        },
+        "focusPerformers": {
+          "type": "center",
+          "name": []
+        }
+      },
+      {
+        "number": 3,
+        "title": "のような存在",
+        "key": "noyounasonzai",
+        "inCdType": [
+          "A"
+        ],
+        "type": "unit",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_medium.png",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_small.png"
+        },
+        "focusPerformers": {
+          "type": "center",
+          "name": []
+        }
+      },
+      {
+        "number": 4,
+        "title": "Am I Loving",
+        "key": "amiloving",
+        "inCdType": [
+          "B"
+        ],
+        "type": "unit",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_medium.png",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_small.png"
+        },
+        "focusPerformers": {
+          "type": "center",
+          "name": []
+        }
+      },
+      {
+        "number": 5,
+        "title": "平行線",
+        "key": "heikousen",
+        "inCdType": [
+          "C"
+        ],
+        "type": "unit",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_medium.png",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_small.png"
+        },
+        "focusPerformers": {
+          "type": "center",
+          "name": []
+        }
+      },
+      {
+        "number": 6,
+        "title": "4番目の光",
+        "key": "yonbanmenohikari",
+        "inCdType": [
+          "D"
+        ],
+        "type": "fourth generation",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_medium.png",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_small.png"
+        },
+        "focusPerformers": {
+          "type": "center",
+          "name": []
+        }
+      },
+      {
+        "number": 7,
+        "title": "曖昧",
+        "key": "aimai",
+        "inCdType": [
+          "T"
+        ],
+        "type": "unit",
+        "artwork": {
+          "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
+          "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_medium.png",
+          "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_small.png"
+        },
+        "focusPerformers": {
+          "type": "unit",
+          "name": [
+            "からあげ姉妹"
+          ]
+        }
+      }
+    ],
+    "behindPerformers": {
+      "trainees": [
+        "endousakura",
+        "kakiharuka",
+        "kakehashisayaka",
+        "kanagawasaya",
+        "kitagawayuri",
+        "shibatayuna",
+        "seimiyarei",
+        "tamuramayu",
+        "tsutsuiayame",
+        "hayakawaseira",
+        "yakubomio"
+      ],
+      "skips": [
+        "yamashitamizuki"
+      ]
+    }
+  },
+  {
     "title": "帰り道は遠回りしたくなる",
     "number": "22",
     "release": "2018-11-14",

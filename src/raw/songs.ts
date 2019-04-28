@@ -3,6 +3,292 @@ import { FukujinType, MemberNames, SongType, SONGS, UnitType } from "../utils/co
 
 // SINGLE SONGS
 
+// 23rd single
+
+const singout: ISong = {
+  title: SONGS["Sing Out!"].title,
+  key: SONGS["Sing Out!"].key,
+  single: "Sing Out!",
+  albums: [],
+  artwork: {
+    large: "",
+    medium: "",
+    small: "",
+  },
+  musicVideo: "",
+  type: SongType.Title,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: ["Ryota Saito", "TETTA"],
+    arrange: ["野中“まさ”雄一"],
+    direct: [],
+  },
+  performers: {
+    center: [MemberNames.SaitouAsuka],
+    fukujin: FukujinType.RowOneTwo,
+    solo: "",
+    unit: "",
+  },
+  formations: {
+    firstRow: [
+      MemberNames.OozonoMomoko,
+      MemberNames.HoriMiona,
+      MemberNames.IkutaErika,
+      MemberNames.SaitouAsuka,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.YodaYuuki,
+    ],
+    secondRow: [
+      MemberNames.UmezawaMinami,
+      MemberNames.KitanoHinako,
+      MemberNames.AkimotoManatsu,
+      MemberNames.KuboShiori,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.HoshinoMinami,
+      MemberNames.SakuraiReika,
+    ],
+    thirdRow: [
+      MemberNames.InoueSayuri,
+      MemberNames.SatouKaede,
+      MemberNames.SuzukiAyane,
+      MemberNames.IwamotoRenka,
+      MemberNames.SakaguchiTamami,
+      MemberNames.WatanabeMiria,
+      MemberNames.ItouRiria,
+      MemberNames.ShinuchiMai,
+    ],
+    fourthRow: [],
+  },
+};
+
+const kassouro: ISong = {
+  title: SONGS["滑走路"].title,
+  key: SONGS["滑走路"].key,
+  single: "Sing Out!",
+  albums: [],
+  artwork: {
+    large: "",
+    medium: "",
+    small: "",
+  },
+  musicVideo: "",
+  type: SongType.Under,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: [],
+    arrange: [],
+    direct: [],
+  },
+  performers: {
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "",
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ItouJunna,
+      MemberNames.SasakiKotoko,
+      MemberNames.TeradaRanze,
+      MemberNames.NakadaKana,
+      MemberNames.NakamuraReno,
+      MemberNames.HiguchiHina,
+      MemberNames.MukaiHazuki,
+      MemberNames.YamazakiRena,
+      MemberNames.YoshidaAyanoChristie,
+      MemberNames.WadaMaaya,
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: [],
+  },
+};
+
+const noyounasonzai: ISong = {
+  title: SONGS["のような存在"].title,
+  key: SONGS["のような存在"].key,
+  single: "Sing Out!",
+  albums: [],
+  artwork: {
+    large: "",
+    medium: "",
+    small: "",
+  },
+  musicVideo: "",
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: [],
+    arrange: [],
+    direct: [],
+  },
+  performers: {
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "",
+  },
+  formations: {
+    firstRow: [MemberNames.SaitouAsuka, MemberNames.ShiraishiMai],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: [],
+  },
+};
+
+const amiloving: ISong = {
+  title: SONGS["Am I Loving"].title,
+  key: SONGS["Am I Loving"].key,
+  single: "Sing Out!",
+  albums: [],
+  artwork: {
+    large: "",
+    medium: "",
+    small: "",
+  },
+  musicVideo: "",
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: [],
+    arrange: [],
+    direct: [],
+  },
+  performers: {
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "",
+  },
+  formations: {
+    firstRow: [
+      MemberNames.KitanoHinako,
+      MemberNames.SuzukiAyane,
+      MemberNames.HoshinoMinami,
+      MemberNames.HoriMiona,
+      MemberNames.WatanabeMiria,
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: [],
+  },
+};
+
+const heikousen: ISong = {
+  title: SONGS["平行線"].title,
+  key: SONGS["平行線"].key,
+  single: "Sing Out!",
+  albums: [],
+  artwork: {
+    large: "",
+    medium: "",
+    small: "",
+  },
+  musicVideo: "",
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: [],
+    arrange: [],
+    direct: [],
+  },
+  performers: {
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "",
+  },
+  formations: {
+    firstRow: [
+      MemberNames.IwamotoRenka,
+      MemberNames.OozonoMomoko,
+      MemberNames.KuboShiori,
+      MemberNames.SakaguchiTamami,
+      MemberNames.YodaYuuki,
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: [],
+  },
+};
+
+const yonbanmenohikari: ISong = {
+  title: SONGS["4番目の光"].title,
+  key: SONGS["4番目の光"].key,
+  single: "Sing Out!",
+  albums: [],
+  artwork: {
+    large: "",
+    medium: "",
+    small: "",
+  },
+  musicVideo: "",
+  type: SongType.FourthGeneration,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: [],
+    arrange: [],
+    direct: [],
+  },
+  performers: {
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "",
+  },
+  formations: {
+    firstRow: [
+      MemberNames.EndouSakura,
+      MemberNames.KakiHaruka,
+      MemberNames.KakehashiSayaka,
+      MemberNames.KanagawaSaya,
+      MemberNames.KitagawaYuri,
+      MemberNames.ShibataYuna,
+      MemberNames.SeimiyaRei,
+      MemberNames.TamuraMayu,
+      MemberNames.TsutsuiAyame,
+      MemberNames.HayakawaSeira,
+      MemberNames.YakuboMio,
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: [],
+  },
+};
+
+const aimai: ISong = {
+  title: SONGS["曖昧"].title,
+  key: SONGS["曖昧"].key,
+  single: "Sing Out!",
+  albums: [],
+  artwork: {
+    large: "",
+    medium: "",
+    small: "",
+  },
+  musicVideo: "",
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: [],
+    arrange: [],
+    direct: [],
+  },
+  performers: {
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "からあげ姉妹",
+  },
+  formations: {
+    firstRow: [MemberNames.IkutaErika, MemberNames.MatsumuraSayuri],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: [],
+  },
+};
+
 // 22nd single
 
 const songKaerimichi: ISong = {
@@ -8169,4 +8455,11 @@ export const songs = {
   [songSayuringoboshuchu.title]: songSayuringoboshuchu,
   [songGorugonzora.title]: songGorugonzora,
   [songZambi.title]: songZambi,
+  [singout.title]: singout,
+  [kassouro.title]: kassouro,
+  [noyounasonzai.title]: noyounasonzai,
+  [amiloving.title]: amiloving,
+  [heikousen.title]: heikousen,
+  [yonbanmenohikari.title]: yonbanmenohikari,
+  [aimai.title]: aimai,
 };

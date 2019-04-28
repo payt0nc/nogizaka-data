@@ -142,6 +142,34 @@ export const SONGS: {
     key: string;
   };
 } = {
+  "Sing Out!": {
+    title: "Sing Out!",
+    key: "singout",
+  },
+  "滑走路": {
+    title: "滑走路",
+    key: "kassouro",
+  },
+  "のような存在": {
+    title: "のような存在",
+    key: "noyounasonzai",
+  },
+  "Am I Loving": {
+    title: "Am I Loving",
+    key: "amiloving",
+  },
+  "平行線": {
+    title: "平行線",
+    key: "heikousen",
+  },
+  "4番目の光": {
+    title: "4番目の光",
+    key: "yonbanmenohikari",
+  },
+  "曖昧": {
+    title: "曖昧",
+    key: "aimai",
+  },
   "帰り道は遠回りしたくなる": {
     title: "帰り道は遠回りしたくなる",
     key: "kaerimichi",
