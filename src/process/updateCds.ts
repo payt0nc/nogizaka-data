@@ -7,7 +7,6 @@ import { convertPerformerNames } from "../utils/strings";
 export const recordCdArtworks = (cds: ISingles | IAlbums, basePath: string) => {
   for (const cd of Object.values(cds)) {
     const artworks = cd.artworks;
-    const songs = cd.songs;
 
     if (cd.hasArtworks) {
       for (const key of Object.keys(artworks)) {
@@ -22,10 +21,6 @@ export const recordCdArtworks = (cds: ISingles | IAlbums, basePath: string) => {
         artworks[key].small = basePath + "artwork_no_image_small.png";
       }
     }
-
-    for (const song of songs) {
-      song.artwork = artworks[song.inCdType[0]];
-    }
   }
 };
 
@@ -37,6 +32,14 @@ export const recordSingleArtworks = (singles: ISingles) => {
 export const recordAlbumArtworks = (albums: IAlbums) => {
   const ARTWORK_BASE_PATH = GITHUB_CONTENTS_PATH + "src/images/artworks/albums/";
   recordCdArtworks(albums, ARTWORK_BASE_PATH);
+};
+
+export const recordCdSongArtworks = (cds: ISingles | IAlbums, songs: ISongs) => {
+  for (const cd of Object.values(cds)) {
+    for (const cdSong of cd.songs) {
+      cdSong.artwork = cdSong.title !== OVERTURE ? songs[cdSong.title].artwork : cd.artworks[cdSong.inCdType[0]];
+    }
+  }
 };
 
 export const recordCdSongTypeFromSongs = (cds: ISingles | IAlbums, songs: ISongs) => {
