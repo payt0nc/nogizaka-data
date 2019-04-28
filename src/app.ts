@@ -11,16 +11,17 @@ import { units } from "./raw/units";
 
 // Process the raw data.
 
+updateCds.recordCdSongTypeFromSongs(singles, songs);
+updateCds.recordCdSongTypeFromSongs(albums, songs);
+
 updateMembers.recordUnits(members, units);
 updateMembers.recordPositions(members, singles, songs);
 updateMembers.recordProfileImages(members, Object.keys(singles).length);
 
 updateCds.recordSingleArtworks(singles);
-updateCds.recordCdSongTypeFromSongs(singles, songs);
 updateCds.recordCdFocusPerformersFromSongs(singles, songs);
 
 updateCds.recordAlbumArtworks(albums);
-updateCds.recordCdSongTypeFromSongs(albums, songs);
 updateCds.recordCdFocusPerformersFromSongs(albums, songs);
 
 updateSongs.recordSongSingle(songs, singles);
