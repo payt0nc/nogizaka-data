@@ -23,11 +23,11 @@ const akimotomanatsu: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/akimotomanatsu.php",
+      url: "https://www.nogizaka46.com/member/detail/akimotomanatsu.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/akimoto-manatsu",
+      url: "https://7gogo.jp/akimoto-manatsu",
     },
   ],
   photoAlbums: [
@@ -79,11 +79,11 @@ const ikutaerika: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/ikutaerika.php",
+      url: "https://www.nogizaka46.com/member/detail/ikutaerika.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/ikuta-erika",
+      url: "https://7gogo.jp/ikuta-erika",
     },
   ],
   photoAlbums: [
@@ -146,11 +146,11 @@ const ikomarina: IMember = {
   sites: [
     {
       title: "Official",
-      url: "ikomarina.com/",
+      url: "https://ikomarina.com/",
     },
     {
       title: "Instagram",
-      url: "www.instagram.com/ikomarina_1229/",
+      url: "https://www.instagram.com/ikomarina_1229/",
     },
   ],
   photoAlbums: [
@@ -202,11 +202,11 @@ const itoukarin: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/itoukarin.php",
+      url: "https://www.nogizaka46.com/member/detail/itoukarin.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/itou-karin",
+      url: "https://7gogo.jp/itou-karin",
     },
   ],
   photoAlbums: [],
@@ -246,11 +246,11 @@ const itoujunna: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/itoujunna.php",
+      url: "https://www.nogizaka46.com/member/detail/itoujunna.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/itou-junna",
+      url: "https://7gogo.jp/itou-junna",
     },
   ],
   photoAlbums: [],
@@ -290,7 +290,7 @@ const itouriria: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/itouriria.php",
+      url: "https://www.nogizaka46.com/member/detail/itouriria.php",
     },
   ],
   photoAlbums: [],
@@ -330,11 +330,11 @@ const inouesayuri: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/inouesayuri.php",
+      url: "https://www.nogizaka46.com/member/detail/inouesayuri.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/inoue-sayuri",
+      url: "https://7gogo.jp/inoue-sayuri",
     },
   ],
   photoAlbums: [
@@ -386,7 +386,7 @@ const iwamotorenka: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/iwamotorenka.php",
+      url: "https://www.nogizaka46.com/member/detail/iwamotorenka.php",
     },
   ],
   photoAlbums: [],
@@ -426,7 +426,7 @@ const umezawaminami: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/umezawaminami.php",
+      url: "https://www.nogizaka46.com/member/detail/umezawaminami.php",
     },
   ],
   photoAlbums: [],
@@ -466,11 +466,11 @@ const etoumisa: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/etoumisa.php",
+      url: "https://www.nogizaka46.com/member/detail/etoumisa.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/eto-misa",
+      url: "https://7gogo.jp/eto-misa",
     },
   ],
   photoAlbums: [
@@ -533,7 +533,7 @@ const oozonomomoko: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/oozonomomoko.php",
+      url: "https://www.nogizaka46.com/member/detail/oozonomomoko.php",
     },
   ],
   photoAlbums: [],
@@ -573,11 +573,11 @@ const kawagohina: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/kawagohina.php",
+      url: "https://www.nogizaka46.com/member/detail/kawagohina.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/kawago-hina",
+      url: "https://7gogo.jp/kawago-hina",
     },
   ],
   photoAlbums: [],
@@ -617,11 +617,11 @@ const kitanohinako: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/kitanohinako.php",
+      url: "https://www.nogizaka46.com/member/detail/kitanohinako.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/kitano-hinako",
+      url: "https://7gogo.jp/kitano-hinako",
     },
   ],
   photoAlbums: [
@@ -673,7 +673,7 @@ const kuboshiori: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/kuboshiori.php",
+      url: "https://www.nogizaka46.com/member/detail/kuboshiori.php",
     },
   ],
   photoAlbums: [],
@@ -713,11 +713,11 @@ const saitouasuka: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/saitouasuka.php",
+      url: "https://www.nogizaka46.com/member/detail/saitouasuka.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/saito-asuka",
+      url: "https://7gogo.jp/saito-asuka",
     },
   ],
   photoAlbums: [
@@ -769,11 +769,11 @@ const saitouyuuri: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/saitouyuuri.php",
+      url: "https://www.nogizaka46.com/member/detail/saitouyuuri.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/MM1u8Yp3Dv6C",
+      url: "https://7gogo.jp/MM1u8Yp3Dv6C",
     },
   ],
   photoAlbums: [],
@@ -813,7 +813,7 @@ const sakaguchitamami: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/sakaguchitamami.php",
+      url: "https://www.nogizaka46.com/member/detail/sakaguchitamami.php",
     },
   ],
   photoAlbums: [],
@@ -853,11 +853,11 @@ const sakuraireika: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/sakuraireika.php",
+      url: "https://www.nogizaka46.com/member/detail/sakuraireika.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/sakurai-reika",
+      url: "https://7gogo.jp/sakurai-reika",
     },
   ],
   photoAlbums: [
@@ -909,7 +909,7 @@ const sasakikotoko: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/sasakikotoko.php",
+      url: "https://www.nogizaka46.com/member/detail/sasakikotoko.php",
     },
   ],
   photoAlbums: [],
@@ -949,7 +949,7 @@ const satoukaede: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/satoukaede.php",
+      url: "https://www.nogizaka46.com/member/detail/satoukaede.php",
     },
   ],
   photoAlbums: [],
@@ -989,11 +989,11 @@ const shiraishimai: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/shiraishimai.php",
+      url: "https://www.nogizaka46.com/member/detail/shiraishimai.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/shiraishi-mai",
+      url: "https://7gogo.jp/shiraishi-mai",
     },
   ],
   photoAlbums: [
@@ -1067,11 +1067,11 @@ const shinuchimai: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/shinuchimai.php",
+      url: "https://www.nogizaka46.com/member/detail/shinuchimai.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/shinuchi-mai",
+      url: "https://7gogo.jp/shinuchi-mai",
     },
   ],
   photoAlbums: [
@@ -1123,11 +1123,11 @@ const suzukiayane: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/suzukiayane.php",
+      url: "https://www.nogizaka46.com/member/detail/suzukiayane.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/suzuki-ayane",
+      url: "https://7gogo.jp/suzuki-ayane",
     },
   ],
   photoAlbums: [],
@@ -1167,11 +1167,11 @@ const takayamakazumi: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/takayamakazumi.php",
+      url: "https://www.nogizaka46.com/member/detail/takayamakazumi.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/takayama-kazumi",
+      url: "https://7gogo.jp/takayama-kazumi",
     },
   ],
   photoAlbums: [
@@ -1223,7 +1223,7 @@ const teradaranze: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/teradaranze.php",
+      url: "https://www.nogizaka46.com/member/detail/teradaranze.php",
     },
   ],
   photoAlbums: [],
@@ -1263,11 +1263,11 @@ const nakadakana: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/nakadakana.php",
+      url: "https://www.nogizaka46.com/member/detail/nakadakana.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/nakada-kana",
+      url: "https://7gogo.jp/nakada-kana",
     },
   ],
   photoAlbums: [],
@@ -1307,7 +1307,7 @@ const nakamurareno: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/nakamurareno.php",
+      url: "https://www.nogizaka46.com/member/detail/nakamurareno.php",
     },
   ],
   photoAlbums: [],
@@ -1347,11 +1347,11 @@ const nishinonanase: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/nishinonanase.php",
+      url: "https://www.nogizaka46.com/member/detail/nishinonanase.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/nishino-nanase",
+      url: "https://7gogo.jp/nishino-nanase",
     },
   ],
   photoAlbums: [
@@ -1425,11 +1425,11 @@ const noujouami: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/noujouami.php",
+      url: "https://www.nogizaka46.com/member/detail/noujouami.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/nojo-ami",
+      url: "https://7gogo.jp/nojo-ami",
     },
   ],
   photoAlbums: [],
@@ -1469,11 +1469,11 @@ const higuchihina: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/higuchihina.php",
+      url: "https://www.nogizaka46.com/member/detail/higuchihina.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/higuchi-hina",
+      url: "https://7gogo.jp/higuchi-hina",
     },
   ],
   photoAlbums: [],
@@ -1513,11 +1513,11 @@ const hoshinominami: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/hoshinominami.php",
+      url: "https://www.nogizaka46.com/member/detail/hoshinominami.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/hoshino-minami",
+      url: "https://7gogo.jp/hoshino-minami",
     },
   ],
   photoAlbums: [
@@ -1569,11 +1569,11 @@ const horimiona: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/horimiona.php",
+      url: "https://www.nogizaka46.com/member/detail/horimiona.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/hori-miona",
+      url: "https://7gogo.jp/hori-miona",
     },
   ],
   photoAlbums: [
@@ -1625,11 +1625,11 @@ const matsumurasayuri: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/matsumurasayuri.php",
+      url: "https://www.nogizaka46.com/member/detail/matsumurasayuri.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/matsumura-sayuri",
+      url: "https://7gogo.jp/matsumura-sayuri",
     },
   ],
   photoAlbums: [
@@ -1681,7 +1681,7 @@ const mukaihazuki: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/mukaihazuki.php",
+      url: "https://www.nogizaka46.com/member/detail/mukaihazuki.php",
     },
   ],
   photoAlbums: [],
@@ -1721,11 +1721,11 @@ const yamazakirena: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/yamazakirena.php",
+      url: "https://www.nogizaka46.com/member/detail/yamazakirena.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/yamazaki-rena",
+      url: "https://7gogo.jp/yamazaki-rena",
     },
   ],
   photoAlbums: [],
@@ -1765,7 +1765,7 @@ const yamashitamizuki: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/yamashitamizuki.php",
+      url: "https://www.nogizaka46.com/member/detail/yamashitamizuki.php",
     },
   ],
   photoAlbums: [],
@@ -1805,7 +1805,7 @@ const yoshidaayanochristie: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/yoshidaayanochristie.php",
+      url: "https://www.nogizaka46.com/member/detail/yoshidaayanochristie.php",
     },
   ],
   photoAlbums: [],
@@ -1845,7 +1845,7 @@ const yodayuuki: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/yodayuuki.php",
+      url: "https://www.nogizaka46.com/member/detail/yodayuuki.php",
     },
   ],
   photoAlbums: [
@@ -1897,7 +1897,7 @@ const wakatsukiyumi: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/wakatsukiyumi.php",
+      url: "https://www.nogizaka46.com/member/detail/wakatsukiyumi.php",
     },
   ],
   photoAlbums: [
@@ -1949,11 +1949,11 @@ const watanabemiria: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/watanabemiria.php",
+      url: "https://www.nogizaka46.com/member/detail/watanabemiria.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/watanabe-miria",
+      url: "https://7gogo.jp/watanabe-miria",
     },
   ],
   photoAlbums: [],
@@ -1993,11 +1993,11 @@ const wadamaaya: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/wadamaaya.php",
+      url: "https://www.nogizaka46.com/member/detail/wadamaaya.php",
     },
     {
       title: "755",
-      url: "7gogo.jp/wada-maaya",
+      url: "https://7gogo.jp/wada-maaya",
     },
   ],
   photoAlbums: [],
@@ -2037,7 +2037,7 @@ const endousakura: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/endousakura.php",
+      url: "https://www.nogizaka46.com/member/detail/endousakura.php",
     },
   ],
   photoAlbums: [],
@@ -2077,7 +2077,7 @@ const kakiharuka: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/kakiharuka.php",
+      url: "https://www.nogizaka46.com/member/detail/kakiharuka.php",
     },
   ],
   photoAlbums: [],
@@ -2117,7 +2117,7 @@ const kakehashisayaka: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/kakehashisayaka.php",
+      url: "https://www.nogizaka46.com/member/detail/kakehashisayaka.php",
     },
   ],
   photoAlbums: [],
@@ -2157,7 +2157,7 @@ const kanagawasaya: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/kanagawasaya.php",
+      url: "https://www.nogizaka46.com/member/detail/kanagawasaya.php",
     },
   ],
   photoAlbums: [],
@@ -2197,7 +2197,7 @@ const kitagawayuri: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/kitagawayuri.php",
+      url: "https://www.nogizaka46.com/member/detail/kitagawayuri.php",
     },
   ],
   photoAlbums: [],
@@ -2237,7 +2237,7 @@ const shibatayuna: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/shibatayuna.php",
+      url: "https://www.nogizaka46.com/member/detail/shibatayuna.php",
     },
   ],
   photoAlbums: [],
@@ -2277,7 +2277,7 @@ const seimiyarei: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/seimiyarei.php",
+      url: "https://www.nogizaka46.com/member/detail/seimiyarei.php",
     },
   ],
   photoAlbums: [],
@@ -2317,7 +2317,7 @@ const tamuramayu: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/tamuramayu.php",
+      url: "https://www.nogizaka46.com/member/detail/tamuramayu.php",
     },
   ],
   photoAlbums: [],
@@ -2357,7 +2357,7 @@ const tsutsuiayame: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/tsutsuiayame.php",
+      url: "https://www.nogizaka46.com/member/detail/tsutsuiayame.php",
     },
   ],
   photoAlbums: [],
@@ -2397,7 +2397,7 @@ const hayakawaseira: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/hayakawaseira.php",
+      url: "https://www.nogizaka46.com/member/detail/hayakawaseira.php",
     },
   ],
   photoAlbums: [],
@@ -2437,7 +2437,7 @@ const yakubomio: IMember = {
   sites: [
     {
       title: "Nogizaka46",
-      url: "www.nogizaka46.com/member/detail/yakubomio.php",
+      url: "https://www.nogizaka46.com/member/detail/yakubomio.php",
     },
   ],
   photoAlbums: [],
@@ -2477,11 +2477,11 @@ const sagaraiori: IMember = {
   sites: [
     {
       title: "Instagram",
-      url: "www.instagram.com/_iori.sagara_/",
+      url: "https://www.instagram.com/_iori.sagara_/",
     },
     {
       title: "755",
-      url: "7gogo.jp/sagara-iori",
+      url: "https://7gogo.jp/sagara-iori",
     },
   ],
   photoAlbums: [],
@@ -2556,15 +2556,15 @@ const kawamuramahiro: IMember = {
   sites: [
     {
       title: "Instagram",
-      url: "www.instagram.com/mahiro_kawamura_official/",
+      url: "https://www.instagram.com/mahiro_kawamura_official/",
     },
     {
       title: "Twitter",
-      url: "twitter.com/Rotty_Rotty23",
+      url: "https://twitter.com/Rotty_Rotty23",
     },
     {
       title: "755",
-      url: "7gogo.jp/kawamura-mahiro",
+      url: "https://7gogo.jp/kawamura-mahiro",
     },
   ],
   photoAlbums: [],
@@ -2604,7 +2604,7 @@ const nakamotohimeka: IMember = {
   sites: [
     {
       title: "Official",
-      url: "nakamotohimeka.com/",
+      url: "https://nakamotohimeka.com/",
     },
   ],
   photoAlbums: [],
@@ -2644,7 +2644,7 @@ const itoumarika: IMember = {
   sites: [
     {
       title: "Instagram",
-      url: "www.instagram.com/marikaito_official/",
+      url: "https://www.instagram.com/marikaito_official/",
     },
   ],
   photoAlbums: [],
@@ -2742,7 +2742,7 @@ const fukagawamai: IMember = {
   sites: [
     {
       title: "Instagram",
-      url: "/www.instagram.com/fukagawamai.official/",
+      url: "https:///www.instagram.com/fukagawamai.official/",
     },
   ],
   photoAlbums: [
@@ -2805,11 +2805,11 @@ const nagashimaseira: IMember = {
   sites: [
     {
       title: "Instagram",
-      url: "www.instagram.com/seira_nagashima/",
+      url: "https://www.instagram.com/seira_nagashima/",
     },
     {
       title: "Twitter",
-      url: "twitter.com/seira_0519n",
+      url: "https://twitter.com/seira_0519n",
     },
   ],
   photoAlbums: [],
@@ -2849,11 +2849,11 @@ const matsuirena: IMember = {
   sites: [
     {
       title: "Instagram",
-      url: "www.instagram.com/renamatui27/",
+      url: "https://www.instagram.com/renamatui27/",
     },
     {
       title: "Twitter",
-      url: "twitter.com/renampme",
+      url: "https://twitter.com/renampme",
     },
   ],
   photoAlbums: [],
@@ -2893,11 +2893,11 @@ const hatanakaseira: IMember = {
   sites: [
     {
       title: "Instagram",
-      url: "www.instagram.com/seira_hatanaka/",
+      url: "https://www.instagram.com/seira_hatanaka/",
     },
     {
       title: "Twitter",
-      url: "twitter.com/seira_hatanaka",
+      url: "https://twitter.com/seira_hatanaka",
     },
   ],
   photoAlbums: [],
@@ -2937,11 +2937,11 @@ const yamatorina: IMember = {
   sites: [
     {
       title: "Instagram",
-      url: "www.instagram.com/rinarina.y/",
+      url: "https://www.instagram.com/rinarina.y/",
     },
     {
       title: "Twitter",
-      url: "twitter.com/rinayamat0",
+      url: "https://twitter.com/rinayamat0",
     },
   ],
   photoAlbums: [],
@@ -2981,11 +2981,11 @@ const itounene: IMember = {
   sites: [
     {
       title: "Instagram",
-      url: "www.instagram.com/12neneito12/",
+      url: "https://www.instagram.com/12neneito12/",
     },
     {
       title: "Twitter",
-      url: "twitter.com/nene_ito1212",
+      url: "https://twitter.com/nene_ito1212",
     },
   ],
   photoAlbums: [],
@@ -3095,7 +3095,7 @@ const ichikirena: IMember = {
   sites: [
     {
       title: "日本テレビ",
-      url: "www.ntv.co.jp/announcer/profile/r_ichiki.html",
+      url: "https://www.ntv.co.jp/announcer/profile/r_ichiki.html",
     },
   ],
   photoAlbums: [],
@@ -3170,11 +3170,11 @@ const miyazawaseira: IMember = {
   sites: [
     {
       title: "Twitter",
-      url: "twitter.com/seira_miyazawa/",
+      url: "https://twitter.com/seira_miyazawa/",
     },
     {
       title: "Ameba",
-      url: "ameblo.jp/seira-miyazawa/",
+      url: "https://ameblo.jp/seira-miyazawa/",
     },
   ],
   photoAlbums: [],
@@ -3214,7 +3214,7 @@ const kashiwayukina: IMember = {
   sites: [
     {
       title: "Twitter",
-      url: "twitter.com/y_k812/",
+      url: "https://twitter.com/y_k812/",
     },
   ],
   photoAlbums: [],
@@ -3289,7 +3289,7 @@ const iwaseyumiko: IMember = {
   sites: [
     {
       title: "Twitter",
-      url: "twitter.com/scarf_iwase/",
+      url: "https://twitter.com/scarf_iwase/",
     },
   ],
   photoAlbums: [],
