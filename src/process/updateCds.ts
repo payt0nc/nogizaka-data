@@ -1,25 +1,25 @@
+import { ISingles } from "../models/ISingle";
 import { IAlbums } from "../models/IAlbum";
+import { GITHUB_CONTENTS_PATH, OVERTURE, SongType, FocusPerformersType } from "../utils/constants";
 import { ISongs } from "../models/ISong";
-import { FocusPerformersType, GITHUB_CONTENTS_PATH, SongType, OVERTURE } from "../utils/constants";
 import { convertPerformerNames } from "../utils/strings";
 
-const recordAlbumArtworks = (albums: IAlbums) => {
-  const ARTWORK_BASE_NAME = GITHUB_CONTENTS_PATH + "src/images/artworks/albums/";
-  for (const album of Object.values(albums)) {
-    const artworks = album.artworks;
-    const songs = album.songs;
+export const recordCdArtworks = (cds: ISingles | IAlbums, basePath: string) => {
+  for (const cd of Object.values(cds)) {
+    const artworks = cd.artworks;
+    const songs = cd.songs;
 
-    if (album.hasArtworks) {
+    if (cd.hasArtworks) {
       for (const key of Object.keys(artworks)) {
-        artworks[key].large = ARTWORK_BASE_NAME + album.number.toString() + "/" + key + "_large.jpg";
-        artworks[key].medium = ARTWORK_BASE_NAME + album.number.toString() + "/" + key + "_medium.jpg";
-        artworks[key].small = ARTWORK_BASE_NAME + album.number.toString() + "/" + key + "_small.jpg";
+        artworks[key].large = basePath + cd.number.toString() + "/" + key + "_large.jpg";
+        artworks[key].medium = basePath + cd.number.toString() + "/" + key + "_medium.jpg";
+        artworks[key].small = basePath + cd.number.toString() + "/" + key + "_small.jpg";
       }
     } else {
       for (const key of Object.keys(artworks)) {
-        artworks[key].large = ARTWORK_BASE_NAME + "artwork_no_image_large.png";
-        artworks[key].medium = ARTWORK_BASE_NAME + "artwork_no_image_medium.png";
-        artworks[key].small = ARTWORK_BASE_NAME + "artwork_no_image_small.png";
+        artworks[key].large = basePath + "artwork_no_image_large.png";
+        artworks[key].medium = basePath + "artwork_no_image_medium.png";
+        artworks[key].small = basePath + "artwork_no_image_small.png";
       }
     }
 
@@ -29,21 +29,34 @@ const recordAlbumArtworks = (albums: IAlbums) => {
   }
 };
 
-const recordAlbumSongType = (albums: IAlbums, songs: ISongs) => {
-  for (const album of Object.values(albums)) {
-    for (const albumSong of album.songs) {
-      if (albumSong.title !== OVERTURE) {
-        albumSong.type = songs[albumSong.title].type;
+export const recordSingleArtworks = (singles: ISingles) => {
+  const ARTWORK_BASE_PATH = GITHUB_CONTENTS_PATH + "src/images/artworks/singles/";
+  recordCdArtworks(singles, ARTWORK_BASE_PATH);
+};
+
+export const recordAlbumArtworks = (albums: IAlbums) => {
+  const ARTWORK_BASE_PATH = GITHUB_CONTENTS_PATH + "src/images/artworks/albums/";
+  recordCdArtworks(albums, ARTWORK_BASE_PATH);
+};
+
+export const recordCdSongTypeFromSongs = (cds: ISingles | IAlbums, songs: ISongs) => {
+  for (const cd of Object.values(cds)) {
+    for (const cdSong of cd.songs) {
+      if (cdSong.title !== OVERTURE) {
+        // TODO: Should change the key when ISongs key type got changed.
+        cdSong.type = songs[cdSong.title].type;
       }
     }
   }
 };
 
-const recordAlbumFocusPerformers = (albums: IAlbums, songs: ISongs) => {
-  for (const album of Object.values(albums)) {
-    for (const albumSong of album.songs) {
-      const song = songs[albumSong.title];
-      if (albumSong.title !== OVERTURE) {
+export const recordCdFocusPerformersFromSongs = (cds: ISingles | IAlbums, songs: ISongs) => {
+  for (const cd of Object.values(cds)) {
+    for (const cdSong of cd.songs) {
+      // TODO: Should change the key when ISongs key type got changed.
+      const song = songs[cdSong.title];
+
+      if (cdSong.title !== OVERTURE) {
         if (
           song.type === SongType.Title ||
           song.type === SongType.Under ||
@@ -55,29 +68,29 @@ const recordAlbumFocusPerformers = (albums: IAlbums, songs: ISongs) => {
           song.type === SongType.FourthGeneration
         ) {
           if (song.performers.center !== null) {
-            albumSong.focusPerformers = {
+            cdSong.focusPerformers = {
               type: FocusPerformersType.Center,
               name: convertPerformerNames(song.performers.center),
             };
           } else {
-            albumSong.focusPerformers = {
+            cdSong.focusPerformers = {
               type: FocusPerformersType.None,
               name: [],
             };
           }
         } else if (song.type === SongType.Solo) {
-          albumSong.focusPerformers = {
+          cdSong.focusPerformers = {
             type: FocusPerformersType.Solo,
             name: convertPerformerNames(song.formations.firstRow),
           };
         } else if (song.type === SongType.Unit) {
           if (song.performers.unit !== null && song.performers.unit !== "") {
-            albumSong.focusPerformers = {
+            cdSong.focusPerformers = {
               type: FocusPerformersType.Unit,
               name: [song.performers.unit],
             };
           } else if (song.performers.center !== null) {
-            albumSong.focusPerformers = {
+            cdSong.focusPerformers = {
               type: FocusPerformersType.Center,
               name: convertPerformerNames(song.performers.center),
             };
@@ -88,7 +101,7 @@ const recordAlbumFocusPerformers = (albums: IAlbums, songs: ISongs) => {
               song.formations.fourthRow.length <
             3
           ) {
-            albumSong.focusPerformers = {
+            cdSong.focusPerformers = {
               type: FocusPerformersType.Unit,
               name: convertPerformerNames([
                 ...song.formations.firstRow,
@@ -98,19 +111,19 @@ const recordAlbumFocusPerformers = (albums: IAlbums, songs: ISongs) => {
               ]),
             };
           } else {
-            albumSong.focusPerformers = {
+            cdSong.focusPerformers = {
               type: FocusPerformersType.Unit,
               name: [],
             };
           }
         } else if (song.type === SongType.None) {
           if (song.performers.center !== null) {
-            albumSong.focusPerformers = {
+            cdSong.focusPerformers = {
               type: FocusPerformersType.None,
               name: convertPerformerNames(song.performers.center),
             };
           } else {
-            albumSong.focusPerformers = {
+            cdSong.focusPerformers = {
               type: FocusPerformersType.None,
               name: [],
             };
@@ -119,10 +132,4 @@ const recordAlbumFocusPerformers = (albums: IAlbums, songs: ISongs) => {
       }
     }
   }
-};
-
-export const updateAlbums = (albums: IAlbums, songs: ISongs) => {
-  recordAlbumArtworks(albums);
-  recordAlbumSongType(albums, songs);
-  recordAlbumFocusPerformers(albums, songs);
 };

@@ -1,9 +1,8 @@
 import * as fs from "fs";
-import { updateAlbums } from "./process/updateAlbums";
-import { updateMembers } from "./process/updateMembers";
-import { updateSingles } from "./process/updateSingles";
-import { updateSongs } from "./process/updateSongs";
-import { updateUnits } from "./process/updateUnits";
+import * as updateMembers from "./process/updateMembers";
+import * as updateSongs from "./process/updateSongs";
+import * as updateUnits from "./process/updateUnits";
+import * as updateCds from "./process/updateCds";
 import { albums } from "./raw/albums";
 import { members } from "./raw/members";
 import { singles } from "./raw/singles";
@@ -12,11 +11,23 @@ import { units } from "./raw/units";
 
 // Process the raw data.
 
-updateMembers(members, units, singles, songs);
-updateSingles(singles, songs);
-updateAlbums(albums, songs);
-updateSongs(songs, singles, albums);
-updateUnits(units, songs);
+updateMembers.recordUnits(members, units);
+updateMembers.recordPositions(members, singles, songs);
+updateMembers.recordProfileImages(members, Object.keys(singles).length);
+
+updateCds.recordSingleArtworks(singles);
+updateCds.recordCdSongTypeFromSongs(singles, songs);
+updateCds.recordCdFocusPerformersFromSongs(singles, songs);
+
+updateCds.recordAlbumArtworks(albums);
+updateCds.recordCdSongTypeFromSongs(albums, songs);
+updateCds.recordCdFocusPerformersFromSongs(albums, songs);
+
+updateSongs.recordSongSingle(songs, singles);
+updateSongs.recordSongAlbums(songs, albums);
+updateSongs.recordArtworks(songs, singles, albums);
+
+updateUnits.recordUnitSongs(units, songs);
 
 // Form all property pairs into an array.
 
