@@ -136,7 +136,7 @@ export const GITHUB_CONTENTS_PATH = "https://raw.githubusercontent.com/shawnrive
 export const OVERTURE = "OVERTURE";
 
 // prettier-ignore
-export const SONG_TITLES: {
+export const SONGS: {
   [title: string]: {
     title: string;
     key: string;
