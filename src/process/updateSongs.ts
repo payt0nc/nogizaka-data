@@ -32,6 +32,10 @@ export const recordSongAlbums = (songs: ISongs, albums: IAlbums) => {
         }
       }
     }
+
+    song.albums.sort(
+      (albumA, albumB) => new Date(albums[albumA].release).getTime() - new Date(albums[albumB].release).getTime(),
+    );
   }
 };
 
