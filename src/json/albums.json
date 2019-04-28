@@ -379,7 +379,7 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "center",
+          "type": "unit",
           "name": []
         }
       },
@@ -397,7 +397,7 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "center",
+          "type": "unit",
           "name": []
         }
       },
@@ -475,7 +475,7 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/B_small.jpg"
         },
         "focusPerformers": {
-          "type": "center",
+          "type": "unit",
           "name": []
         }
       },
@@ -1514,7 +1514,7 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "center",
+          "type": "unit",
           "name": []
         }
       },
@@ -1532,7 +1532,7 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "center",
+          "type": "unit",
           "name": []
         }
       },
@@ -1550,7 +1550,7 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "center",
+          "type": "unit",
           "name": []
         }
       },
@@ -1648,7 +1648,7 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_small.jpg"
         },
         "focusPerformers": {
-          "type": "center",
+          "type": "unit",
           "name": []
         }
       },
@@ -1666,7 +1666,7 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_small.jpg"
         },
         "focusPerformers": {
-          "type": "center",
+          "type": "unit",
           "name": []
         }
       },
@@ -1724,8 +1724,11 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/16/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "center",
-          "name": []
+          "type": "unit",
+          "name": [
+            "齋藤飛鳥",
+            "堀未央奈"
+          ]
         }
       },
       {
@@ -1742,8 +1745,11 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_small.jpg"
         },
         "focusPerformers": {
-          "type": "center",
-          "name": []
+          "type": "unit",
+          "name": [
+            "白石麻衣",
+            "松村沙友理"
+          ]
         }
       },
       {
@@ -1760,8 +1766,11 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_small.jpg"
         },
         "focusPerformers": {
-          "type": "center",
-          "name": []
+          "type": "unit",
+          "name": [
+            "秋元真夏",
+            "高山一実"
+          ]
         }
       },
       {
@@ -1818,8 +1827,11 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/15/T_small.jpg"
         },
         "focusPerformers": {
-          "type": "center",
-          "name": []
+          "type": "unit",
+          "name": [
+            "伊藤万理華",
+            "井上小百合"
+          ]
         }
       },
       {
@@ -2061,7 +2073,7 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "center",
+          "type": "unit",
           "name": []
         }
       },
@@ -2165,7 +2177,7 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/14/B_small.jpg"
         },
         "focusPerformers": {
-          "type": "center",
+          "type": "unit",
           "name": []
         }
       },
@@ -2228,7 +2240,7 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_small.jpg"
         },
         "focusPerformers": {
-          "type": "center",
+          "type": "unit",
           "name": []
         }
       },
@@ -2307,8 +2319,11 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/12/T_small.jpg"
         },
         "focusPerformers": {
-          "type": "center",
-          "name": []
+          "type": "unit",
+          "name": [
+            "齋藤飛鳥",
+            "星野みなみ"
+          ]
         }
       },
       {
@@ -2916,7 +2931,7 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "center",
+          "type": "unit",
           "name": []
         }
       },
@@ -2936,7 +2951,7 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "center",
+          "type": "unit",
           "name": []
         }
       },
@@ -3231,7 +3246,7 @@
           "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_small.jpg"
         },
         "focusPerformers": {
-          "type": "center",
+          "type": "unit",
           "name": []
         }
       },
