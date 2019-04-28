@@ -1,5 +1,5 @@
 import { IAlbum, IAlbums } from "../models/IAlbum";
-import { CdType, FocusPerformersType, SongType } from "../utils/constants";
+import { CdType, FocusPerformersType, SongType, SONG_TITLES } from "../utils/constants";
 
 const imagaomoideninarumade: IAlbum = {
   title: "今が思い出になるまで",
@@ -37,7 +37,8 @@ const imagaomoideninarumade: IAlbum = {
   songs: [
     {
       number: 1,
-      title: "ありがちな恋愛",
+      title: SONG_TITLES["ありがちな恋愛"].title,
+      key: SONG_TITLES["ありがちな恋愛"].key,
       inCdType: [CdType.L, CdType.A, CdType.B, CdType.T],
       type: SongType.Lead,
       artwork: { large: "", medium: "", small: "" },
@@ -48,7 +49,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 2,
-      title: "逃げ水",
+      title: SONG_TITLES["逃げ水"].title,
+      key: SONG_TITLES["逃げ水"].key,
       inCdType: [CdType.L, CdType.A, CdType.B, CdType.T],
       type: SongType.Title,
       artwork: { large: "", medium: "", small: "" },
@@ -59,7 +61,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 3,
-      title: "いつかできるから今日できる",
+      title: SONG_TITLES["いつかできるから今日できる"].title,
+      key: SONG_TITLES["いつかできるから今日できる"].key,
       inCdType: [CdType.L, CdType.A, CdType.B, CdType.T],
       type: SongType.Title,
       artwork: { large: "", medium: "", small: "" },
@@ -70,7 +73,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 4,
-      title: "シンクロニシティ",
+      title: SONG_TITLES["シンクロニシティ"].title,
+      key: SONG_TITLES["シンクロニシティ"].key,
       inCdType: [CdType.L, CdType.A, CdType.B, CdType.T],
       type: SongType.Title,
       artwork: { large: "", medium: "", small: "" },
@@ -81,7 +85,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 5,
-      title: "ジコチューで行こう!",
+      title: SONG_TITLES["ジコチューで行こう!"].title,
+      key: SONG_TITLES["ジコチューで行こう!"].key,
       inCdType: [CdType.L, CdType.A, CdType.B, CdType.T],
       type: SongType.Title,
       artwork: { large: "", medium: "", small: "" },
@@ -92,7 +97,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 6,
-      title: "帰り道は遠回りしたくなる",
+      title: SONG_TITLES["帰り道は遠回りしたくなる"].title,
+      key: SONG_TITLES["帰り道は遠回りしたくなる"].key,
       inCdType: [CdType.L, CdType.A, CdType.B, CdType.T],
       type: SongType.Title,
       artwork: { large: "", medium: "", small: "" },
@@ -103,7 +109,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 7,
-      title: "アンダー",
+      title: SONG_TITLES["アンダー"].title,
+      key: SONG_TITLES["アンダー"].key,
       inCdType: [CdType.L, CdType.A, CdType.B, CdType.T],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -114,7 +121,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 8,
-      title: "My rule",
+      title: SONG_TITLES["My rule"].title,
+      key: SONG_TITLES["My rule"].key,
       inCdType: [CdType.L, CdType.A, CdType.B, CdType.T],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -125,7 +133,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 9,
-      title: "新しい世界",
+      title: SONG_TITLES["新しい世界"].title,
+      key: SONG_TITLES["新しい世界"].key,
       inCdType: [CdType.L, CdType.A, CdType.B, CdType.T],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -136,7 +145,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 10,
-      title: "三角の空き地",
+      title: SONG_TITLES["三角の空き地"].title,
+      key: SONG_TITLES["三角の空き地"].key,
       inCdType: [CdType.L, CdType.A, CdType.B, CdType.T],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -147,7 +157,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 11,
-      title: "日常",
+      title: SONG_TITLES["日常"].title,
+      key: SONG_TITLES["日常"].key,
       inCdType: [CdType.L, CdType.A, CdType.B, CdType.T],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -158,7 +169,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 12,
-      title: "もし君がいなければ",
+      title: SONG_TITLES["もし君がいなければ"].title,
+      key: SONG_TITLES["もし君がいなければ"].key,
       inCdType: [CdType.L],
       type: SongType.Solo,
       artwork: { large: "", medium: "", small: "" },
@@ -169,7 +181,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 13,
-      title: "キスの手裏剣",
+      title: SONG_TITLES["キスの手裏剣"].title,
+      key: SONG_TITLES["キスの手裏剣"].key,
       inCdType: [CdType.L],
       type: SongType.FourthGeneration,
       artwork: { large: "", medium: "", small: "" },
@@ -180,7 +193,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 14,
-      title: "Against",
+      title: SONG_TITLES["Against"].title,
+      key: SONG_TITLES["Against"].key,
       inCdType: [CdType.L],
       type: SongType.FirstGeneration,
       artwork: { large: "", medium: "", small: "" },
@@ -191,7 +205,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 15,
-      title: "つづく",
+      title: SONG_TITLES["つづく"].title,
+      key: SONG_TITLES["つづく"].key,
       inCdType: [CdType.L],
       type: SongType.Solo,
       artwork: { large: "", medium: "", small: "" },
@@ -202,7 +217,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 16,
-      title: "頬杖をついては眠れない",
+      title: SONG_TITLES["頬杖をついては眠れない"].title,
+      key: SONG_TITLES["頬杖をついては眠れない"].key,
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -213,7 +229,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 17,
-      title: "ぽっち党",
+      title: SONG_TITLES["ぽっち党"].title,
+      key: SONG_TITLES["ぽっち党"].key,
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -224,7 +241,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 18,
-      title: "僕の衝動",
+      title: SONG_TITLES["僕の衝動"].title,
+      key: SONG_TITLES["僕の衝動"].key,
       inCdType: [CdType.A],
       type: SongType.ThirdGeneration,
       artwork: { large: "", medium: "", small: "" },
@@ -235,7 +253,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 19,
-      title: "スカウトマン",
+      title: SONG_TITLES["スカウトマン"].title,
+      key: SONG_TITLES["スカウトマン"].key,
       inCdType: [CdType.A],
       type: SongType.SecondGeneration,
       artwork: { large: "", medium: "", small: "" },
@@ -246,7 +265,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 20,
-      title: "さゆりんご募集中",
+      title: SONG_TITLES["さゆりんご募集中"].title,
+      key: SONG_TITLES["さゆりんご募集中"].key,
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -257,7 +277,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 21,
-      title: "ゴルゴンゾーラ",
+      title: SONG_TITLES["ゴルゴンゾーラ"].title,
+      key: SONG_TITLES["ゴルゴンゾーラ"].key,
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -268,7 +289,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 22,
-      title: "トキトキメキメキ",
+      title: SONG_TITLES["トキトキメキメキ"].title,
+      key: SONG_TITLES["トキトキメキメキ"].key,
       inCdType: [CdType.B],
       type: SongType.ThirdGeneration,
       artwork: { large: "", medium: "", small: "" },
@@ -279,7 +301,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 23,
-      title: "未来の答え",
+      title: SONG_TITLES["未来の答え"].title,
+      key: SONG_TITLES["未来の答え"].key,
       inCdType: [CdType.B],
       type: SongType.ThirdGeneration,
       artwork: { large: "", medium: "", small: "" },
@@ -290,7 +313,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 24,
-      title: "もうすぐ～ザンビ伝説～",
+      title: SONG_TITLES["もうすぐ～ザンビ伝説～"].title,
+      key: SONG_TITLES["もうすぐ～ザンビ伝説～"].key,
       inCdType: [CdType.T],
       type: SongType.Special,
       artwork: { large: "", medium: "", small: "" },
@@ -301,7 +325,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 25,
-      title: "キャラバンは眠らない",
+      title: SONG_TITLES["キャラバンは眠らない"].title,
+      key: SONG_TITLES["キャラバンは眠らない"].key,
       inCdType: [CdType.T],
       type: SongType.Coupling,
       artwork: { large: "", medium: "", small: "" },
@@ -312,7 +337,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 26,
-      title: "ライブ神",
+      title: SONG_TITLES["ライブ神"].title,
+      key: SONG_TITLES["ライブ神"].key,
       inCdType: [CdType.T],
       type: SongType.SecondGeneration,
       artwork: { large: "", medium: "", small: "" },
@@ -323,7 +349,8 @@ const imagaomoideninarumade: IAlbum = {
     },
     {
       number: 27,
-      title: "自分じゃない感じ",
+      title: SONG_TITLES["自分じゃない感じ"].title,
+      key: SONG_TITLES["自分じゃない感じ"].key,
       inCdType: [CdType.T],
       type: SongType.ThirdGeneration,
       artwork: { large: "", medium: "", small: "" },
@@ -366,7 +393,8 @@ const bokudakenokimi: IAlbum = {
   songs: [
     {
       number: 1,
-      title: "左胸の勇気",
+      title: SONG_TITLES["左胸の勇気"].title,
+      key: SONG_TITLES["左胸の勇気"].key,
       inCdType: [CdType.L1],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -377,7 +405,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 2,
-      title: "狼に口笛を",
+      title: SONG_TITLES["狼に口笛を"].title,
+      key: SONG_TITLES[ "狼に口笛を"].key,
       inCdType: [CdType.L1],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -388,7 +417,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 3,
-      title: "涙がまだ悲しみだった頃",
+      title: SONG_TITLES["涙がまだ悲しみだった頃"].title,
+      key: SONG_TITLES["涙がまだ悲しみだった頃"].key,
       inCdType: [CdType.L1],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -399,7 +429,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 4,
-      title: "春のメロディー",
+      title: SONG_TITLES["春のメロディー"].title,
+      key: SONG_TITLES["春のメロディー"].key,
       inCdType: [CdType.L1],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -410,7 +441,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 5,
-      title: "13日の金曜日",
+      title: SONG_TITLES["13日の金曜日"].title,
+      key: SONG_TITLES["13日の金曜日"].key,
       inCdType: [CdType.L1],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -421,7 +453,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 6,
-      title: "扇風機",
+      title: SONG_TITLES["扇風機"].title,
+      key: SONG_TITLES["扇風機"].key,
       inCdType: [CdType.L1],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -432,7 +465,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 7,
-      title: "初恋の人を今でも",
+      title: SONG_TITLES["初恋の人を今でも"].title,
+      key: SONG_TITLES["初恋の人を今でも"].key,
       inCdType: [CdType.L1],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -443,7 +477,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 8,
-      title: "生まれたままで",
+      title: SONG_TITLES["生まれたままで"].title,
+      key: SONG_TITLES["生まれたままで"].key,
       inCdType: [CdType.L1],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -454,7 +489,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 9,
-      title: "ここにいる理由",
+      title: SONG_TITLES["ここにいる理由"].title,
+      key: SONG_TITLES["ここにいる理由"].key,
       inCdType: [CdType.L1],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -465,7 +501,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 10,
-      title: "あの日 僕は咄嗟に嘘をついた",
+      title: SONG_TITLES["あの日 僕は咄嗟に嘘をついた"].title,
+      key: SONG_TITLES["あの日 僕は咄嗟に嘘をついた"].key,
       inCdType: [CdType.L1],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -476,7 +513,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 11,
-      title: "君は僕と会わない方がよかったのかな",
+      title: SONG_TITLES["君は僕と会わない方がよかったのかな"].title,
+      key: SONG_TITLES["君は僕と会わない方がよかったのかな"].key,
       inCdType: [CdType.L1],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -487,7 +525,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 12,
-      title: "別れ際、もっと好きになる",
+      title: SONG_TITLES["別れ際、もっと好きになる"].title,
+      key: SONG_TITLES["別れ際、もっと好きになる"].key,
       inCdType: [CdType.L1],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -498,7 +537,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 13,
-      title: "嫉妬の権利",
+      title: SONG_TITLES["嫉妬の権利"].title,
+      key: SONG_TITLES["嫉妬の権利"].key,
       inCdType: [CdType.L1],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -509,7 +549,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 14,
-      title: "不等号",
+      title: SONG_TITLES["不等号"].title,
+      key: SONG_TITLES["不等号"].key,
       inCdType: [CdType.L1],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -520,7 +561,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 15,
-      title: "シークレットグラフィティー",
+      title: SONG_TITLES["シークレットグラフィティー"].title,
+      key: SONG_TITLES["シークレットグラフィティー"].key,
       inCdType: [CdType.L1],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -531,7 +573,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 16,
-      title: "ブランコ",
+      title: SONG_TITLES["ブランコ"].title,
+      key: SONG_TITLES["ブランコ"].key,
       inCdType: [CdType.L2],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -542,7 +585,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 17,
-      title: "風船は生きている",
+      title: SONG_TITLES["風船は生きている"].title,
+      key: SONG_TITLES["風船は生きている"].key,
       inCdType: [CdType.L2],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -553,7 +597,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 18,
-      title: "アンダー",
+      title: SONG_TITLES["アンダー"].title,
+      key: SONG_TITLES["アンダー"].key,
       inCdType: [CdType.L2],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -564,7 +609,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 19,
-      title: "My rule",
+      title: SONG_TITLES["My rule"].title,
+      key: SONG_TITLES["My rule"].key,
       inCdType: [CdType.L2],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -575,7 +621,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 20,
-      title: "自由の彼方",
+      title: SONG_TITLES["自由の彼方"].title,
+      key: SONG_TITLES["自由の彼方"].key,
       inCdType: [CdType.L2],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -586,7 +633,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 21,
-      title: "欲望のリインカーネーション",
+      title: SONG_TITLES["欲望のリインカーネーション"].title,
+      key: SONG_TITLES["欲望のリインカーネーション"].key,
       inCdType: [CdType.L2],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -597,7 +645,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 22,
-      title: "君が扇いでくれた",
+      title: SONG_TITLES["君が扇いでくれた"].title,
+      key: SONG_TITLES["君が扇いでくれた"].key,
       inCdType: [CdType.L2],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -608,7 +657,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 23,
-      title: "自分のこと",
+      title: SONG_TITLES["自分のこと"].title,
+      key: SONG_TITLES["自分のこと"].key,
       inCdType: [CdType.L2],
       type: SongType.Solo,
       artwork: { large: "", medium: "", small: "" },
@@ -619,7 +669,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 24,
-      title: "自惚れビーチ",
+      title: SONG_TITLES["自惚れビーチ"].title,
+      key: SONG_TITLES["自惚れビーチ"].key,
       inCdType: [CdType.L2],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -630,7 +681,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 25,
-      title: "その女",
+      title: SONG_TITLES["その女"].title,
+      key: SONG_TITLES["その女"].key,
       inCdType: [CdType.L2],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -641,7 +693,8 @@ const bokudakenokimi: IAlbum = {
     },
     {
       number: 26,
-      title: "誰よりそばにいたい",
+      title: SONG_TITLES["誰よりそばにいたい"].title,
+      key: SONG_TITLES["誰よりそばにいたい"].key,
       inCdType: [CdType.L2],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -689,7 +742,8 @@ const umaretekara: IAlbum = {
   songs: [
     {
       number: 1,
-      title: "裸足でSummer",
+      title: SONG_TITLES["裸足でSummer"].title,
+      key: SONG_TITLES["裸足でSummer"].key,
       inCdType: [CdType.L, CdType.A, CdType.B, CdType.T],
       type: SongType.Title,
       artwork: { large: "", medium: "", small: "" },
@@ -700,7 +754,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 2,
-      title: "サヨナラの意味",
+      title: SONG_TITLES["サヨナラの意味"].title,
+      key: SONG_TITLES["サヨナラの意味"].key,
       inCdType: [CdType.L, CdType.A, CdType.B, CdType.T],
       type: SongType.Title,
       artwork: { large: "", medium: "", small: "" },
@@ -711,7 +766,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 3,
-      title: "インフルエンサー",
+      title: SONG_TITLES["インフルエンサー"].title,
+      key: SONG_TITLES["インフルエンサー"].key,
       inCdType: [CdType.L, CdType.A, CdType.B, CdType.T],
       type: SongType.Title,
       artwork: { large: "", medium: "", small: "" },
@@ -722,7 +778,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 4,
-      title: "シークレットグラフィティー",
+      title: SONG_TITLES["シークレットグラフィティー"].title,
+      key: SONG_TITLES["シークレットグラフィティー"].key,
       inCdType: [CdType.L, CdType.A, CdType.B, CdType.T],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -733,7 +790,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 5,
-      title: "ブランコ",
+      title: SONG_TITLES["ブランコ"].title,
+      key: SONG_TITLES["ブランコ"].key,
       inCdType: [CdType.L, CdType.A, CdType.B, CdType.T],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -744,7 +802,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 6,
-      title: "風船は生きている",
+      title: SONG_TITLES["風船は生きている"].title,
+      key: SONG_TITLES["風船は生きている"].key,
       inCdType: [CdType.L, CdType.A, CdType.B, CdType.T],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -755,7 +814,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 7,
-      title: "スカイダイビング",
+      title: SONG_TITLES["スカイダイビング"].title,
+      key: SONG_TITLES["スカイダイビング"].key,
       inCdType: [CdType.L, CdType.A, CdType.B, CdType.T],
       type: SongType.Coupling,
       artwork: { large: "", medium: "", small: "" },
@@ -766,7 +826,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 8,
-      title: "三番目の風",
+      title: SONG_TITLES["三番目の風"].title,
+      key: SONG_TITLES["三番目の風"].key,
       inCdType: [CdType.L, CdType.A, CdType.B, CdType.T],
       type: SongType.ThirdGeneration,
       artwork: { large: "", medium: "", small: "" },
@@ -777,7 +838,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 9,
-      title: "君が扇いでくれた",
+      title: SONG_TITLES["君が扇いでくれた"].title,
+      key: SONG_TITLES["君が扇いでくれた"].key,
       inCdType: [CdType.L],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -788,7 +850,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 10,
-      title: "思い出ファースト",
+      title: SONG_TITLES["思い出ファースト"].title,
+      key: SONG_TITLES["思い出ファースト"].key,
       inCdType: [CdType.L],
       type: SongType.ThirdGeneration,
       artwork: { large: "", medium: "", small: "" },
@@ -799,7 +862,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 11,
-      title: "設定温度",
+      title: SONG_TITLES["設定温度"].title,
+      key: SONG_TITLES["設定温度"].key,
       inCdType: [CdType.L],
       type: SongType.Coupling,
       artwork: { large: "", medium: "", small: "" },
@@ -810,7 +874,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 12,
-      title: "孤独な青空",
+      title: SONG_TITLES["孤独な青空"].title,
+      key: SONG_TITLES["孤独な青空"].key,
       inCdType: [CdType.L],
       type: SongType.Coupling,
       artwork: { large: "", medium: "", small: "" },
@@ -821,7 +886,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 13,
-      title: "僕だけの光",
+      title: SONG_TITLES["僕だけの光"].title,
+      key: SONG_TITLES["僕だけの光"].key,
       inCdType: [CdType.L],
       type: SongType.Coupling,
       artwork: { large: "", medium: "", small: "" },
@@ -832,7 +898,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 14,
-      title: "人生を考えたくなる",
+      title: SONG_TITLES["人生を考えたくなる"].title,
+      key: SONG_TITLES["人生を考えたくなる"].key,
       inCdType: [CdType.L],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -843,7 +910,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 15,
-      title: "意外BREAK",
+      title: SONG_TITLES["意外BREAK"].title,
+      key: SONG_TITLES["意外BREAK"].key,
       inCdType: [CdType.L],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -854,7 +922,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 16,
-      title: "Rewindあの日",
+      title: SONG_TITLES["Rewindあの日"].title,
+      key: SONG_TITLES["Rewindあの日"].key,
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -865,7 +934,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 17,
-      title: "ごめんね、スムージー",
+      title: SONG_TITLES["ごめんね、スムージー"].title,
+      key: SONG_TITLES["ごめんね、スムージー"].key,
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -876,7 +946,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 18,
-      title: "醜い私",
+      title: SONG_TITLES["醜い私"].title,
+      key: SONG_TITLES["醜い私"].key,
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -887,7 +958,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 19,
-      title: "オフショアガール",
+      title: SONG_TITLES["オフショアガール"].title,
+      key: SONG_TITLES["オフショアガール"].key,
       inCdType: [CdType.A],
       type: SongType.Solo,
       artwork: { large: "", medium: "", small: "" },
@@ -898,7 +970,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 20,
-      title: "君に贈る花がない",
+      title: SONG_TITLES["君に贈る花がない"].title,
+      key: SONG_TITLES["君に贈る花がない"].key,
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -909,7 +982,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 21,
-      title: "白米様",
+      title: SONG_TITLES["白米様"].title,
+      key: SONG_TITLES["白米様"].key,
       inCdType: [CdType.A],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -920,7 +994,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 22,
-      title: "硬い殻のように抱きしめたい",
+      title: SONG_TITLES["硬い殻のように抱きしめたい"].title,
+      key: SONG_TITLES["硬い殻のように抱きしめたい"].key,
       inCdType: [CdType.B],
       type: SongType.Solo,
       artwork: { large: "", medium: "", small: "" },
@@ -931,7 +1006,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 23,
-      title: "満月が消えた",
+      title: SONG_TITLES["満月が消えた"].title,
+      key: SONG_TITLES["満月が消えた"].key,
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -942,7 +1018,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 24,
-      title: "ワタボコリ",
+      title: SONG_TITLES["ワタボコリ"].title,
+      key: SONG_TITLES["ワタボコリ"].key,
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -953,7 +1030,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 25,
-      title: "ないものねだり",
+      title: SONG_TITLES["ないものねだり"].title,
+      key: SONG_TITLES["ないものねだり"].key,
       inCdType: [CdType.B],
       type: SongType.Solo,
       artwork: { large: "", medium: "", small: "" },
@@ -964,7 +1042,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 26,
-      title: "Another Ghost",
+      title: SONG_TITLES["Another Ghost"].title,
+      key: SONG_TITLES["Another Ghost"].key,
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -975,7 +1054,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 27,
-      title: "あの教室",
+      title: SONG_TITLES["あの教室"].title,
+      key: SONG_TITLES["あの教室"].key,
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -986,7 +1066,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 28,
-      title: "流星ディスコティック",
+      title: SONG_TITLES["流星ディスコティック"].title,
+      key: SONG_TITLES["流星ディスコティック"].key,
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -997,7 +1078,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 29,
-      title: "忘却と美学",
+      title: SONG_TITLES["忘却と美学"].title,
+      key: SONG_TITLES["忘却と美学"].key,
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1008,7 +1090,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 30,
-      title: "2度目のキスから",
+      title: SONG_TITLES["2度目のキスから"].title,
+      key: SONG_TITLES["2度目のキスから"].key,
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1019,7 +1102,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 31,
-      title: "命の真実 ミュージカル「林檎売りとカメムシ」",
+      title: SONG_TITLES["命の真実 ミュージカル「林檎売りとカメムシ」"].title,
+      key: SONG_TITLES["命の真実 ミュージカル「林檎売りとカメムシ」"].key,
       inCdType: [CdType.T],
       type: SongType.Solo,
       artwork: { large: "", medium: "", small: "" },
@@ -1030,7 +1114,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 32,
-      title: "行くあてのない僕たち",
+      title: SONG_TITLES["行くあてのない僕たち"].title,
+      key: SONG_TITLES["行くあてのない僕たち"].key,
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1041,7 +1126,8 @@ const umaretekara: IAlbum = {
     },
     {
       number: 33,
-      title: "当たり障りのない話",
+      title: SONG_TITLES["当たり障りのない話"].title,
+      key: SONG_TITLES["当たり障りのない話"].key,
       inCdType: [CdType.T],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1094,7 +1180,8 @@ const sorezorenoisu: IAlbum = {
   songs: [
     {
       number: 1,
-      title: "命は美しい",
+      title: SONG_TITLES["命は美しい"].title,
+      key: SONG_TITLES["命は美しい"].key,
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: { large: "", medium: "", small: "" },
@@ -1105,7 +1192,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 2,
-      title: "太陽ノック",
+      title: SONG_TITLES["太陽ノック"].title,
+      key: SONG_TITLES["太陽ノック"].key,
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: { large: "", medium: "", small: "" },
@@ -1116,7 +1204,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 3,
-      title: "今、話したい誰かがいる",
+      title: SONG_TITLES["今、話したい誰かがいる"].title,
+      key: SONG_TITLES["今、話したい誰かがいる"].key,
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Title,
       artwork: { large: "", medium: "", small: "" },
@@ -1127,7 +1216,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 4,
-      title: "きっかけ",
+      title: SONG_TITLES["きっかけ"].title,
+      key: SONG_TITLES["きっかけ"].key,
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Coupling,
       artwork: { large: "", medium: "", small: "" },
@@ -1138,7 +1228,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 5,
-      title: "太陽に口説かれて",
+      title: SONG_TITLES["太陽に口説かれて"].title,
+      key: SONG_TITLES["太陽に口説かれて"].key,
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Coupling,
       artwork: { large: "", medium: "", small: "" },
@@ -1149,7 +1240,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 6,
-      title: "欲望のリインカーネーション",
+      title: SONG_TITLES["欲望のリインカーネーション"].title,
+      key: SONG_TITLES["欲望のリインカーネーション"].key,
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -1160,7 +1252,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 7,
-      title: "悲しみの忘れ方",
+      title: SONG_TITLES["悲しみの忘れ方"].title,
+      key: SONG_TITLES["悲しみの忘れ方"].key,
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Coupling,
       artwork: { large: "", medium: "", small: "" },
@@ -1171,7 +1264,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 8,
-      title: "空気感",
+      title: SONG_TITLES["空気感"].title,
+      key: SONG_TITLES["空気感"].key,
       inCdType: [CdType.A, CdType.T],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1182,7 +1276,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 9,
-      title: "光合成希望",
+      title: SONG_TITLES["光合成希望"].title,
+      key: SONG_TITLES["光合成希望"].key,
       inCdType: [CdType.A, CdType.T],
       type: SongType.Solo,
       artwork: { large: "", medium: "", small: "" },
@@ -1193,7 +1288,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 10,
-      title: "無表情",
+      title: SONG_TITLES["無表情"].title,
+      key: SONG_TITLES["無表情"].key,
       inCdType: [CdType.A, CdType.T],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1204,7 +1300,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 11,
-      title: "あらかじめ語られるロマンス",
+      title: SONG_TITLES["あらかじめ語られるロマンス"].title,
+      key: SONG_TITLES["あらかじめ語られるロマンス"].key,
       inCdType: [CdType.A, CdType.T],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1215,7 +1312,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 12,
-      title: "隙間",
+      title: SONG_TITLES["隙間"].title,
+      key: SONG_TITLES["隙間"].key,
       inCdType: [CdType.A, CdType.T],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1226,7 +1324,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 13,
-      title: "急斜面",
+      title: SONG_TITLES["急斜面"].title,
+      key: SONG_TITLES["急斜面"].key,
       inCdType: [CdType.A, CdType.T],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1237,7 +1336,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 14,
-      title: "羽根の記憶",
+      title: SONG_TITLES["羽根の記憶"].title,
+      key: SONG_TITLES["羽根の記憶"].key,
       inCdType: [CdType.A, CdType.T],
       type: SongType.Coupling,
       artwork: { large: "", medium: "", small: "" },
@@ -1248,7 +1348,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 15,
-      title: "乃木坂の詩",
+      title: SONG_TITLES["乃木坂の詩"].title,
+      key: SONG_TITLES["乃木坂の詩"].key,
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
       type: SongType.Coupling,
       artwork: { large: "", medium: "", small: "" },
@@ -1259,7 +1360,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 16,
-      title: "Threefold choice",
+      title: SONG_TITLES["Threefold choice"].title,
+      key: SONG_TITLES["Threefold choice"].key,
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1270,7 +1372,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 17,
-      title: "低体温のキス",
+      title: SONG_TITLES["低体温のキス"].title,
+      key: SONG_TITLES["低体温のキス"].key,
       inCdType: [CdType.B],
       type: SongType.Solo,
       artwork: { large: "", medium: "", small: "" },
@@ -1281,7 +1384,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 18,
-      title: "遥かなるブータン",
+      title: SONG_TITLES["遥かなるブータン"].title,
+      key: SONG_TITLES["遥かなるブータン"].key,
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1292,7 +1396,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 19,
-      title: "ポピパッパパー",
+      title: SONG_TITLES["ポピパッパパー"].title,
+      key: SONG_TITLES["ポピパッパパー"].key,
       inCdType: [CdType.B],
       type: SongType.Coupling,
       artwork: { large: "", medium: "", small: "" },
@@ -1303,7 +1408,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 20,
-      title: "制服を脱いでサヨナラを…",
+      title: SONG_TITLES["制服を脱いでサヨナラを…"].title,
+      key: SONG_TITLES["制服を脱いでサヨナラを…"].key,
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1314,7 +1420,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 21,
-      title: "憂鬱と風船ガム",
+      title: SONG_TITLES["憂鬱と風船ガム"].title,
+      key: SONG_TITLES["憂鬱と風船ガム"].key,
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1325,7 +1432,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 22,
-      title: "立ち直り中",
+      title: SONG_TITLES["立ち直り中"].title,
+      key: SONG_TITLES["立ち直り中"].key,
       inCdType: [CdType.B],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1336,7 +1444,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 23,
-      title: "失恋したら、顔を洗え!",
+      title: SONG_TITLES["失恋したら、顔を洗え!"].title,
+      key: SONG_TITLES["失恋したら、顔を洗え!"].key,
       inCdType: [CdType.C],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1347,7 +1456,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 24,
-      title: "かき氷の片想い",
+      title: SONG_TITLES["かき氷の片想い"].title,
+      key: SONG_TITLES["かき氷の片想い"].key,
       inCdType: [CdType.C],
       type: SongType.SecondGeneration,
       artwork: { large: "", medium: "", small: "" },
@@ -1358,7 +1468,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 25,
-      title: "大人への近道",
+      title: SONG_TITLES["大人への近道"].title,
+      key: SONG_TITLES["大人への近道"].key,
       inCdType: [CdType.C],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1369,7 +1480,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 26,
-      title: "君は僕と会わない方がよかったのかな",
+      title: SONG_TITLES["君は僕と会わない方がよかったのかな"].title,
+      key: SONG_TITLES["君は僕と会わない方がよかったのかな"].key,
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -1380,7 +1492,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 27,
-      title: "別れ際、もっと好きになる",
+      title: SONG_TITLES["別れ際、もっと好きになる"].title,
+      key: SONG_TITLES["別れ際、もっと好きになる"].key,
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -1391,7 +1504,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 28,
-      title: "嫉妬の権利",
+      title: SONG_TITLES["嫉妬の権利"].title,
+      key: SONG_TITLES["嫉妬の権利"].key,
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -1402,7 +1516,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 29,
-      title: "不等号",
+      title: SONG_TITLES["不等号"].title,
+      key: SONG_TITLES["不等号"].key,
       inCdType: [CdType.C],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -1413,7 +1528,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 30,
-      title: "環状六号線",
+      title: SONG_TITLES["環状六号線"].title,
+      key: SONG_TITLES["環状六号線"].key,
       inCdType: [CdType.D],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1424,7 +1540,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 31,
-      title: "口約束",
+      title: SONG_TITLES["口約束"].title,
+      key: SONG_TITLES["口約束"].key,
       inCdType: [CdType.D],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1435,7 +1552,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 32,
-      title: "ロマンティックいか焼き",
+      title: SONG_TITLES["ロマンティックいか焼き"].title,
+      key: SONG_TITLES["ロマンティックいか焼き"].key,
       inCdType: [CdType.D],
       type: SongType.Coupling,
       artwork: { large: "", medium: "", small: "" },
@@ -1446,7 +1564,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 33,
-      title: "ハウス!",
+      title: SONG_TITLES["ハウス!"].title,
+      key: SONG_TITLES["ハウス!"].key,
       inCdType: [CdType.D],
       type: SongType.Coupling,
       artwork: { large: "", medium: "", small: "" },
@@ -1457,7 +1576,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 34,
-      title: "そんなバカな…",
+      title: SONG_TITLES["そんなバカな…"].title,
+      key: SONG_TITLES["そんなバカな…"].key,
       inCdType: [CdType.D],
       type: SongType.Coupling,
       artwork: { large: "", medium: "", small: "" },
@@ -1468,7 +1588,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 35,
-      title: "シャキイズム",
+      title: SONG_TITLES["シャキイズム"].title,
+      key: SONG_TITLES["シャキイズム"].key,
       inCdType: [CdType.D],
       type: SongType.Coupling,
       artwork: { large: "", medium: "", small: "" },
@@ -1479,7 +1600,8 @@ const sorezorenoisu: IAlbum = {
     },
     {
       number: 36,
-      title: "ロマンスのスタート",
+      title: SONG_TITLES["ロマンスのスタート"].title,
+      key: SONG_TITLES["ロマンスのスタート"].key,
       inCdType: [CdType.D],
       type: SongType.Coupling,
       artwork: { large: "", medium: "", small: "" },
@@ -1522,7 +1644,8 @@ const tomeinairo: IAlbum = {
   songs: [
     {
       number: 1,
-      title: "OVERTURE",
+      title: SONG_TITLES["OVERTURE"].title,
+      key: SONG_TITLES["OVERTURE"].key,
       inCdType: [CdType.A, CdType.B, CdType.C],
       type: SongType.Coupling,
       artwork: { large: "", medium: "", small: "" },
@@ -1533,7 +1656,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 2,
-      title: "ぐるぐるカーテン",
+      title: SONG_TITLES["ぐるぐるカーテン"].title,
+      key: SONG_TITLES["ぐるぐるカーテン"].key,
       inCdType: [CdType.A, CdType.B, CdType.C],
       type: SongType.Title,
       artwork: { large: "", medium: "", small: "" },
@@ -1544,7 +1668,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 3,
-      title: "おいでシャンプー",
+      title: SONG_TITLES["おいでシャンプー"].title,
+      key: SONG_TITLES["おいでシャンプー"].key,
       inCdType: [CdType.A, CdType.B, CdType.C],
       type: SongType.Title,
       artwork: { large: "", medium: "", small: "" },
@@ -1555,7 +1680,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 4,
-      title: "走れ!Bicycle",
+      title: SONG_TITLES["走れ!Bicycle"].title,
+      key: SONG_TITLES["走れ!Bicycle"].key,
       inCdType: [CdType.A, CdType.B, CdType.C],
       type: SongType.Title,
       artwork: { large: "", medium: "", small: "" },
@@ -1566,7 +1692,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 5,
-      title: "制服のマネキン",
+      title: SONG_TITLES["制服のマネキン"].title,
+      key: SONG_TITLES["制服のマネキン"].key,
       inCdType: [CdType.A, CdType.B, CdType.C],
       type: SongType.Title,
       artwork: { large: "", medium: "", small: "" },
@@ -1577,7 +1704,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 6,
-      title: "君の名は希望",
+      title: SONG_TITLES["君の名は希望"].title,
+      key: SONG_TITLES["君の名は希望"].key,
       inCdType: [CdType.A, CdType.B, CdType.C],
       type: SongType.Title,
       artwork: { large: "", medium: "", small: "" },
@@ -1588,7 +1716,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 7,
-      title: "ガールズルール",
+      title: SONG_TITLES["ガールズルール"].title,
+      key: SONG_TITLES["ガールズルール"].key,
       inCdType: [CdType.A, CdType.B, CdType.C],
       type: SongType.Title,
       artwork: { large: "", medium: "", small: "" },
@@ -1599,7 +1728,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 8,
-      title: "バレッタ",
+      title: SONG_TITLES["バレッタ"].title,
+      key: SONG_TITLES["バレッタ"].key,
       inCdType: [CdType.A, CdType.B, CdType.C],
       type: SongType.Title,
       artwork: { large: "", medium: "", small: "" },
@@ -1610,7 +1740,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 9,
-      title: "気づいたら片想い",
+      title: SONG_TITLES["気づいたら片想い"].title,
+      key: SONG_TITLES["気づいたら片想い"].key,
       inCdType: [CdType.A, CdType.B, CdType.C],
       type: SongType.Title,
       artwork: { large: "", medium: "", small: "" },
@@ -1621,7 +1752,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 10,
-      title: "夏のFree&Easy",
+      title: SONG_TITLES["夏のFree&Easy"].title,
+      key: SONG_TITLES["夏のFree&Easy"].key,
       inCdType: [CdType.A, CdType.B, CdType.C],
       type: SongType.Title,
       artwork: { large: "", medium: "", small: "" },
@@ -1632,7 +1764,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 11,
-      title: "何度目の青空か?",
+      title: SONG_TITLES["何度目の青空か?"].title,
+      key: SONG_TITLES["何度目の青空か?"].key,
       inCdType: [CdType.A, CdType.B, CdType.C],
       type: SongType.Title,
       artwork: { large: "", medium: "", small: "" },
@@ -1643,7 +1776,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 12,
-      title: "誰かは味方",
+      title: SONG_TITLES["誰かは味方"].title,
+      key: SONG_TITLES["誰かは味方"].key,
       inCdType: [CdType.A, CdType.B, CdType.C],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1654,7 +1788,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 13,
-      title: "革命の馬",
+      title: SONG_TITLES["革命の馬"].title,
+      key: SONG_TITLES["革命の馬"].key,
       inCdType: [CdType.A, CdType.B, CdType.C],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1665,7 +1800,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 14,
-      title: "僕がいる場所",
+      title: SONG_TITLES["僕がいる場所"].title,
+      key: SONG_TITLES["僕がいる場所"].key,
       inCdType: [CdType.A, CdType.B, CdType.C],
       type: SongType.Coupling,
       artwork: { large: "", medium: "", small: "" },
@@ -1676,7 +1812,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 15,
-      title: "あなたのために弾きたい",
+      title: SONG_TITLES["あなたのために弾きたい"].title,
+      key: SONG_TITLES["あなたのために弾きたい"].key,
       inCdType: [CdType.A, CdType.B, CdType.C],
       type: SongType.Solo,
       artwork: { large: "", medium: "", small: "" },
@@ -1687,7 +1824,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 16,
-      title: "他の星から",
+      title: SONG_TITLES["他の星から"].title,
+      key: SONG_TITLES["他の星から"].key,
       inCdType: [CdType.A, CdType.B],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1698,7 +1836,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 17,
-      title: "私のために 誰かのために",
+      title: SONG_TITLES["私のために 誰かのために"].title,
+      key: SONG_TITLES["私のために 誰かのために"].key,
       inCdType: [CdType.A, CdType.B],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1709,7 +1848,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 18,
-      title: "せっかちなかたつむり",
+      title: SONG_TITLES["せっかちなかたつむり"].title,
+      key: SONG_TITLES["せっかちなかたつむり"].key,
       inCdType: [CdType.A, CdType.B],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1720,7 +1860,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 19,
-      title: "涙がまだ悲しみだった頃",
+      title: SONG_TITLES["涙がまだ悲しみだった頃"].title,
+      key: SONG_TITLES["涙がまだ悲しみだった頃"].key,
       inCdType: [CdType.A, CdType.B],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -1731,7 +1872,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 20,
-      title: "無口なライオン",
+      title: SONG_TITLES["無口なライオン"].title,
+      key: SONG_TITLES["無口なライオン"].key,
       inCdType: [CdType.A, CdType.B],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1742,7 +1884,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 21,
-      title: "世界で一番 孤独なLover",
+      title: SONG_TITLES["世界で一番 孤独なLover"].title,
+      key: SONG_TITLES["世界で一番 孤独なLover"].key,
       inCdType: [CdType.A, CdType.B],
       type: SongType.Coupling,
       artwork: { large: "", medium: "", small: "" },
@@ -1753,7 +1896,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 22,
-      title: "あの日 僕は咄嗟に嘘をついた",
+      title: SONG_TITLES["あの日 僕は咄嗟に嘘をついた"].title,
+      key: SONG_TITLES["あの日 僕は咄嗟に嘘をついた"].key,
       inCdType: [CdType.A, CdType.B],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -1764,7 +1908,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 23,
-      title: "13日の金曜日",
+      title: SONG_TITLES["13日の金曜日"].title,
+      key: SONG_TITLES["13日の金曜日"].key,
       inCdType: [CdType.A, CdType.B],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -1775,7 +1920,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 24,
-      title: "失いたくないから",
+      title: SONG_TITLES["失いたくないから"].title,
+      key: SONG_TITLES["失いたくないから"].key,
       inCdType: [CdType.A, CdType.B],
       type: SongType.Coupling,
       artwork: { large: "", medium: "", small: "" },
@@ -1786,7 +1932,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 25,
-      title: "ダンケシェーン",
+      title: SONG_TITLES["ダンケシェーン"].title,
+      key: SONG_TITLES["ダンケシェーン"].key,
       inCdType: [CdType.A, CdType.B],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1797,7 +1944,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 26,
-      title: "傾斜する",
+      title: SONG_TITLES["傾斜する"].title,
+      key: SONG_TITLES["傾斜する"].key,
       inCdType: [CdType.A, CdType.B],
       type: SongType.Coupling,
       artwork: { large: "", medium: "", small: "" },
@@ -1808,7 +1956,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 27,
-      title: "なぞの落書き",
+      title: SONG_TITLES["なぞの落書き"].title,
+      key: SONG_TITLES["なぞの落書き"].key,
       inCdType: [CdType.A, CdType.B],
       type: SongType.Unit,
       artwork: { large: "", medium: "", small: "" },
@@ -1819,7 +1968,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 28,
-      title: "自由の彼方",
+      title: SONG_TITLES["自由の彼方"].title,
+      key: SONG_TITLES["自由の彼方"].key,
       inCdType: [CdType.A, CdType.B],
       type: SongType.Under,
       artwork: { large: "", medium: "", small: "" },
@@ -1830,7 +1980,8 @@ const tomeinairo: IAlbum = {
     },
     {
       number: 29,
-      title: "ひとりよがり",
+      title: SONG_TITLES["ひとりよがり"].title,
+      key: SONG_TITLES["ひとりよがり"].key,
       inCdType: [CdType.A, CdType.B],
       type: SongType.Solo,
       artwork: { large: "", medium: "", small: "" },

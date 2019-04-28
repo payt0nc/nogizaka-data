@@ -23,6 +23,7 @@ export type ISongFormations = {
 
 export type ISong = {
   title: string;
+  key: string;
   single: string;
   albums: string[];
   artwork: {

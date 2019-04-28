@@ -1,12 +1,13 @@
 import { ISong } from "../models/ISong";
-import { FukujinType, MemberNames, SongType, UnitType } from "../utils/constants";
+import { FukujinType, MemberNames, SongType, SONG_TITLES, UnitType } from "../utils/constants";
 
 // SINGLE SONGS
 
 // 22nd single
 
 const songKaerimichi: ISong = {
-  title: "帰り道は遠回りしたくなる",
+  title: SONG_TITLES["帰り道は遠回りしたくなる"].title,
+  key: SONG_TITLES["帰り道は遠回りしたくなる"].key,
   single: "帰り道は遠回りしたくなる",
   albums: [],
   artwork: {
@@ -61,7 +62,8 @@ const songKaerimichi: ISong = {
 };
 
 const songNichijo: ISong = {
-  title: "日常",
+  title: SONG_TITLES["日常"].title,
+  key: SONG_TITLES["日常"].key,
   single: "帰り道は遠回りしたくなる",
   albums: [],
   artwork: {
@@ -113,7 +115,8 @@ const songNichijo: ISong = {
 };
 
 const songKyaraban: ISong = {
-  title: "キャラバンは眠らない",
+  title: SONG_TITLES["キャラバンは眠らない"].title,
+  key: SONG_TITLES["キャラバンは眠らない"].key,
   single: "帰り道は遠回りしたくなる",
   albums: [],
   artwork: {
@@ -161,7 +164,8 @@ const songKyaraban: ISong = {
 };
 
 const songTsuduku: ISong = {
-  title: "つづく",
+  title: SONG_TITLES["つづく"].title,
+  key: SONG_TITLES["つづく"].key,
   single: "帰り道は遠回りしたくなる",
   albums: [],
   artwork: {
@@ -192,7 +196,8 @@ const songTsuduku: ISong = {
 };
 
 const songKokuhakunojunban: ISong = {
-  title: "告白の順番",
+  title: SONG_TITLES["告白の順番"].title,
+  key: SONG_TITLES["告白の順番"].key,
   single: "帰り道は遠回りしたくなる",
   albums: [],
   artwork: {
@@ -223,7 +228,8 @@ const songKokuhakunojunban: ISong = {
 };
 
 const songChopinnousotsuki: ISong = {
-  title: "ショパンの嘘つき",
+  title: SONG_TITLES["ショパンの嘘つき"].title,
+  key: SONG_TITLES["ショパンの嘘つき"].key,
   single: "帰り道は遠回りしたくなる",
   albums: [],
   artwork: {
@@ -254,7 +260,8 @@ const songChopinnousotsuki: ISong = {
 };
 
 const songShiritaikoto: ISong = {
-  title: "知りたいこと",
+  title: SONG_TITLES["知りたいこと"].title,
+  key: SONG_TITLES["知りたいこと"].key,
   single: "帰り道は遠回りしたくなる",
   albums: [],
   artwork: {
@@ -287,7 +294,8 @@ const songShiritaikoto: ISong = {
 // 21st single
 
 const songJikochu: ISong = {
-  title: "ジコチューで行こう!",
+  title: SONG_TITLES["ジコチューで行こう!"].title,
+  key: SONG_TITLES["ジコチューで行こう!"].key,
   single: "ジコチューで行こう!",
   albums: [],
   artwork: {
@@ -342,7 +350,8 @@ const songJikochu: ISong = {
 };
 
 const songSankakunoakichi: ISong = {
-  title: "三角の空き地",
+  title: SONG_TITLES["三角の空き地"].title,
+  key: SONG_TITLES["三角の空き地"].key,
   single: "ジコチューで行こう!",
   albums: [],
   artwork: {
@@ -390,7 +399,8 @@ const songSankakunoakichi: ISong = {
 };
 
 const songSoratobira: ISong = {
-  title: "空扉",
+  title: SONG_TITLES["空扉"].title,
+  key: SONG_TITLES["空扉"].key,
   single: "ジコチューで行こう!",
   albums: [],
   artwork: {
@@ -439,7 +449,8 @@ const songSoratobira: ISong = {
 };
 
 const songJibunjanaikanji: ISong = {
-  title: "自分じゃない感じ",
+  title: SONG_TITLES["自分じゃない感じ"].title,
+  key: SONG_TITLES["自分じゃない感じ"].key,
   single: "ジコチューで行こう!",
   albums: [],
   artwork: {
@@ -482,7 +493,8 @@ const songJibunjanaikanji: ISong = {
 };
 
 const songKokoronomonologue: ISong = {
-  title: "心のモノローグ",
+  title: SONG_TITLES["心のモノローグ"].title,
+  key: SONG_TITLES["心のモノローグ"].key,
   single: "ジコチューで行こう!",
   albums: [],
   artwork: {
@@ -513,7 +525,8 @@ const songKokoronomonologue: ISong = {
 };
 
 const songChikyugamaruinara: ISong = {
-  title: "地球が丸いなら",
+  title: SONG_TITLES["地球が丸いなら"].title,
+  key: SONG_TITLES["地球が丸いなら"].key,
   single: "ジコチューで行こう!",
   albums: [],
   artwork: {
@@ -544,7 +557,8 @@ const songChikyugamaruinara: ISong = {
 };
 
 const songAnnanisukidattanoni: ISong = {
-  title: "あんなに好きだったのに・・・",
+  title: SONG_TITLES["あんなに好きだったのに・・・"].title,
+  key: SONG_TITLES["あんなに好きだったのに・・・"].key,
   single: "ジコチューで行こう!",
   albums: [],
   artwork: {
@@ -599,7 +613,8 @@ const songAnnanisukidattanoni: ISong = {
 // 20th single
 
 const songSyncronicity: ISong = {
-  title: "シンクロニシティ",
+  title: SONG_TITLES["シンクロニシティ"].title,
+  key: SONG_TITLES["シンクロニシティ"].key,
   single: "シンクロニシティ",
   albums: [],
   artwork: {
@@ -654,7 +669,8 @@ const songSyncronicity: ISong = {
 };
 
 const songAtarashiisekai: ISong = {
-  title: "新しい世界",
+  title: SONG_TITLES["新しい世界"].title,
+  key: SONG_TITLES["新しい世界"].key,
   single: "シンクロニシティ",
   albums: [],
   artwork: {
@@ -709,7 +725,8 @@ const songAtarashiisekai: ISong = {
 };
 
 const songAgainst: ISong = {
-  title: "Against",
+  title: SONG_TITLES["Against"].title,
+  key: SONG_TITLES["Against"].key,
   single: "シンクロニシティ",
   albums: [],
   artwork: {
@@ -761,7 +778,8 @@ const songAgainst: ISong = {
 };
 
 const songKumoninarebaii: ISong = {
-  title: "雲になればいい",
+  title: SONG_TITLES["雲になればいい"].title,
+  key: SONG_TITLES["雲になればいい"].key,
   single: "シンクロニシティ",
   albums: [],
   artwork: {
@@ -792,7 +810,8 @@ const songKumoninarebaii: ISong = {
 };
 
 const songScoutman: ISong = {
-  title: "スカウトマン",
+  title: SONG_TITLES["スカウトマン"].title,
+  key: SONG_TITLES["スカウトマン"].key,
   single: "シンクロニシティ",
   albums: [],
   artwork: {
@@ -834,7 +853,8 @@ const songScoutman: ISong = {
 };
 
 const songTokitokimekimeki: ISong = {
-  title: "トキトキメキメキ",
+  title: SONG_TITLES["トキトキメキメキ"].title,
+  key: SONG_TITLES["トキトキメキメキ"].key,
   single: "シンクロニシティ",
   albums: [],
   artwork: {
@@ -878,7 +898,8 @@ const songTokitokimekimeki: ISong = {
 };
 
 const songKotodamaho: ISong = {
-  title: "言霊砲",
+  title: SONG_TITLES["言霊砲"].title,
+  key: SONG_TITLES["言霊砲"].key,
   single: "シンクロニシティ",
   albums: [],
   artwork: {
@@ -911,7 +932,8 @@ const songKotodamaho: ISong = {
 // 19th single
 
 const songItsukadekirukara: ISong = {
-  title: "いつかできるから今日できる",
+  title: SONG_TITLES["いつかできるから今日できる"].title,
+  key: SONG_TITLES["いつかできるから今日できる"].key,
   single: "いつかできるから今日できる",
   albums: [],
   artwork: {
@@ -959,7 +981,8 @@ const songItsukadekirukara: ISong = {
 };
 
 const songMyrule: ISong = {
-  title: "My rule",
+  title: SONG_TITLES["My rule"].title,
+  key: SONG_TITLES["My rule"].key,
   single: "いつかできるから今日できる",
   albums: ["僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -998,7 +1021,8 @@ const songMyrule: ISong = {
 };
 
 const songFumensho: ISong = {
-  title: "不眠症",
+  title: SONG_TITLES["不眠症"].title,
+  key: SONG_TITLES["不眠症"].key,
   single: "いつかできるから今日できる",
   albums: [],
   artwork: {
@@ -1050,7 +1074,8 @@ const songFumensho: ISong = {
 };
 
 const songMaaiika: ISong = {
-  title: "まあいいか?",
+  title: SONG_TITLES["まあいいか?"].title,
+  key: SONG_TITLES["まあいいか?"].key,
   single: "いつかできるから今日できる",
   albums: [],
   artwork: {
@@ -1081,7 +1106,8 @@ const songMaaiika: ISong = {
 };
 
 const songShitsurenosojinin: ISong = {
-  title: "失恋お掃除人",
+  title: SONG_TITLES["失恋お掃除人"].title,
+  key: SONG_TITLES["失恋お掃除人"].key,
   single: "いつかできるから今日できる",
   albums: [],
   artwork: {
@@ -1117,7 +1143,8 @@ const songShitsurenosojinin: ISong = {
 };
 
 const songBokunoshodo: ISong = {
-  title: "僕の衝動",
+  title: SONG_TITLES["僕の衝動"].title,
+  key: SONG_TITLES["僕の衝動"].key,
   single: "いつかできるから今日できる",
   albums: [],
   artwork: {
@@ -1160,7 +1187,8 @@ const songBokunoshodo: ISong = {
 };
 
 const songAtarashiikafun: ISong = {
-  title: "新しい花粉 〜ミュージカル「見知らぬ世界」より〜",
+  title: SONG_TITLES["新しい花粉 〜ミュージカル「見知らぬ世界」より〜"].title,
+  key: SONG_TITLES["新しい花粉 〜ミュージカル「見知らぬ世界」より〜"].key,
   single: "いつかできるから今日できる",
   albums: [],
   artwork: {
@@ -1193,7 +1221,8 @@ const songAtarashiikafun: ISong = {
 // 18th single
 
 const songNigemizu: ISong = {
-  title: "逃げ水",
+  title: SONG_TITLES["逃げ水"].title,
+  key: SONG_TITLES["逃げ水"].key,
   single: "逃げ水",
   albums: [],
   artwork: {
@@ -1245,7 +1274,8 @@ const songNigemizu: ISong = {
 };
 
 const songUnder: ISong = {
-  title: "アンダー",
+  title: SONG_TITLES["アンダー"].title,
+  key: SONG_TITLES["アンダー"].key,
   single: "逃げ水",
   albums: ["僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -1297,7 +1327,8 @@ const songUnder: ISong = {
 };
 
 const songOnnahahitorija: ISong = {
-  title: "女は一人じゃ眠れない",
+  title: SONG_TITLES["女は一人じゃ眠れない"].title,
+  key: SONG_TITLES["女は一人じゃ眠れない"].key,
   single: "逃げ水",
   albums: [],
   artwork: {
@@ -1347,7 +1378,8 @@ const songOnnahahitorija: ISong = {
 };
 
 const songHitonatsu: ISong = {
-  title: "ひと夏の長さより…",
+  title: SONG_TITLES["ひと夏の長さより…"].title,
+  key: SONG_TITLES["ひと夏の長さより…"].key,
   single: "逃げ水",
   albums: [],
   artwork: {
@@ -1397,7 +1429,8 @@ const songHitonatsu: ISong = {
 };
 
 const songLiveshin: ISong = {
-  title: "ライブ神",
+  title: SONG_TITLES["ライブ神"].title,
+  key: SONG_TITLES["ライブ神"].key,
   single: "逃げ水",
   albums: [],
   artwork: {
@@ -1428,7 +1461,8 @@ const songLiveshin: ISong = {
 };
 
 const songMirainokotae: ISong = {
-  title: "未来の答え",
+  title: SONG_TITLES["未来の答え"].title,
+  key: SONG_TITLES["未来の答え"].key,
   single: "逃げ水",
   albums: [],
   artwork: {
@@ -1464,7 +1498,8 @@ const songMirainokotae: ISong = {
 };
 
 const songNaitatteii: ISong = {
-  title: "泣いたっていいじゃないか?",
+  title: SONG_TITLES["泣いたっていいじゃないか?"].title,
+  key: SONG_TITLES["泣いたっていいじゃないか?"].key,
   single: "逃げ水",
   albums: [],
   artwork: {
@@ -1516,7 +1551,8 @@ const songNaitatteii: ISong = {
 // 17th single
 
 const songInfluencer: ISong = {
-  title: "インフルエンサー",
+  title: SONG_TITLES["インフルエンサー"].title,
+  key: SONG_TITLES["インフルエンサー"].key,
   single: "インフルエンサー",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -1571,7 +1607,8 @@ const songInfluencer: ISong = {
 };
 
 const songFusenhaikiteiru: ISong = {
-  title: "風船は生きている",
+  title: SONG_TITLES["風船は生きている"].title,
+  key: SONG_TITLES["風船は生きている"].key,
   single: "インフルエンサー",
   albums: ["生まれてから初めて見た夢", "僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -1608,7 +1645,8 @@ const songFusenhaikiteiru: ISong = {
 };
 
 const songJinseiwokangae: ISong = {
-  title: "人生を考えたくなる",
+  title: SONG_TITLES["人生を考えたくなる"].title,
+  key: SONG_TITLES["人生を考えたくなる"].key,
   single: "インフルエンサー",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -1639,7 +1677,8 @@ const songJinseiwokangae: ISong = {
 };
 
 const songIgaibreak: ISong = {
-  title: "意外BREAK",
+  title: SONG_TITLES["意外BREAK"].title,
+  key: SONG_TITLES["意外BREAK"].key,
   single: "インフルエンサー",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -1670,7 +1709,8 @@ const songIgaibreak: ISong = {
 };
 
 const songAnotherghost: ISong = {
-  title: "Another Ghost",
+  title: SONG_TITLES["Another Ghost"].title,
+  key: SONG_TITLES["Another Ghost"].key,
   single: "インフルエンサー",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -1701,7 +1741,8 @@ const songAnotherghost: ISong = {
 };
 
 const songSanbanmenokaze: ISong = {
-  title: "三番目の風",
+  title: SONG_TITLES["三番目の風"].title,
+  key: SONG_TITLES["三番目の風"].key,
   single: "インフルエンサー",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -1738,7 +1779,8 @@ const songSanbanmenokaze: ISong = {
 };
 
 const songAtarisawarinonai: ISong = {
-  title: "当たり障りのない話",
+  title: SONG_TITLES["当たり障りのない話"].title,
+  key: SONG_TITLES["当たり障りのない話"].key,
   single: "インフルエンサー",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -1771,7 +1813,8 @@ const songAtarisawarinonai: ISong = {
 // 16th single
 
 const songSayonaranoimi: ISong = {
-  title: "サヨナラの意味",
+  title: SONG_TITLES["サヨナラの意味"].title,
+  key: SONG_TITLES["サヨナラの意味"].key,
   single: "サヨナラの意味",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -1824,7 +1867,8 @@ const songSayonaranoimi: ISong = {
 };
 
 const songBulanko: ISong = {
-  title: "ブランコ",
+  title: SONG_TITLES["ブランコ"].title,
+  key: SONG_TITLES["ブランコ"].key,
   single: "サヨナラの意味",
   albums: ["生まれてから初めて見た夢", "僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -1874,7 +1918,8 @@ const songBulanko: ISong = {
 };
 
 const songKodokunaaozora: ISong = {
-  title: "孤独な青空",
+  title: SONG_TITLES["孤独な青空"].title,
+  key: SONG_TITLES["孤独な青空"].key,
   single: "サヨナラの意味",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -1925,7 +1970,8 @@ const songKodokunaaozora: ISong = {
 };
 
 const songAnokyoshitsu: ISong = {
-  title: "あの教室",
+  title: SONG_TITLES["あの教室"].title,
+  key: SONG_TITLES["あの教室"].key,
   single: "サヨナラの意味",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -1956,7 +2002,8 @@ const songAnokyoshitsu: ISong = {
 };
 
 const songNidomenokisukara: ISong = {
-  title: "2度目のキスから",
+  title: SONG_TITLES["2度目のキスから"].title,
+  key: SONG_TITLES["2度目のキスから"].key,
   single: "サヨナラの意味",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -1987,7 +2034,8 @@ const songNidomenokisukara: ISong = {
 };
 
 const songKiminiokuruhana: ISong = {
-  title: "君に贈る花がない",
+  title: SONG_TITLES["君に贈る花がない"].title,
+  key: SONG_TITLES["君に贈る花がない"].key,
   single: "サヨナラの意味",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -2024,7 +2072,8 @@ const songKiminiokuruhana: ISong = {
 };
 
 const songNaimononetari: ISong = {
-  title: "ないものねだり",
+  title: SONG_TITLES["ないものねだり"].title,
+  key: SONG_TITLES["ないものねだり"].key,
   single: "サヨナラの意味",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -2057,7 +2106,8 @@ const songNaimononetari: ISong = {
 // 15th single
 
 const songHadashidesummer: ISong = {
-  title: "裸足でSummer",
+  title: SONG_TITLES["裸足でSummer"].title,
+  key: SONG_TITLES["裸足でSummer"].key,
   single: "裸足でSummer",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -2107,7 +2157,8 @@ const songHadashidesummer: ISong = {
 };
 
 const songSecretGravity: ISong = {
-  title: "シークレットグラフィティー",
+  title: SONG_TITLES["シークレットグラフィティー"].title,
+  key: SONG_TITLES["シークレットグラフィティー"].key,
   single: "裸足でSummer",
   albums: ["生まれてから初めて見た夢", "僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -2160,7 +2211,8 @@ const songSecretGravity: ISong = {
 };
 
 const songBokudakenohikari: ISong = {
-  title: "僕だけの光",
+  title: SONG_TITLES["僕だけの光"].title,
+  key: SONG_TITLES["僕だけの光"].key,
   single: "裸足でSummer",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -2208,7 +2260,8 @@ const songBokudakenohikari: ISong = {
 };
 
 const songOffshoregirl: ISong = {
-  title: "オフショアガール",
+  title: SONG_TITLES["オフショアガール"].title,
+  key: SONG_TITLES["オフショアガール"].key,
   single: "裸足でSummer",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -2239,7 +2292,8 @@ const songOffshoregirl: ISong = {
 };
 
 const songInochinoshinjitsu: ISong = {
-  title: "命の真実 ミュージカル「林檎売りとカメムシ」",
+  title: SONG_TITLES["命の真実 ミュージカル「林檎売りとカメムシ」"].title,
+  key: SONG_TITLES["命の真実 ミュージカル「林檎売りとカメムシ」"].key,
   single: "裸足でSummer",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -2270,7 +2324,8 @@ const songInochinoshinjitsu: ISong = {
 };
 
 const songHakumaisama: ISong = {
-  title: "白米様",
+  title: SONG_TITLES["白米様"].title,
+  key: SONG_TITLES["白米様"].key,
   single: "裸足でSummer",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -2301,7 +2356,8 @@ const songHakumaisama: ISong = {
 };
 
 const songIkuatenonaibokutachi: ISong = {
-  title: "行くあてのない僕たち",
+  title: SONG_TITLES["行くあてのない僕たち"].title,
+  key: SONG_TITLES["行くあてのない僕たち"].key,
   single: "裸足でSummer",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -2334,7 +2390,8 @@ const songIkuatenonaibokutachi: ISong = {
 // 14th single
 
 const songHarujion: ISong = {
-  title: "ハルジオンが咲く頃",
+  title: SONG_TITLES["ハルジオンが咲く頃"].title,
+  key: SONG_TITLES["ハルジオンが咲く頃"].key,
   single: "ハルジオンが咲く頃",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -2385,7 +2442,8 @@ const songHarujion: ISong = {
 };
 
 const songFutogo: ISong = {
-  title: "不等号",
+  title: SONG_TITLES["不等号"].title,
+  key: SONG_TITLES["不等号"].key,
   single: "ハルジオンが咲く頃",
   albums: ["それぞれの椅子", "僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -2438,7 +2496,8 @@ const songFutogo: ISong = {
 };
 
 const songHarukanarubhutan: ISong = {
-  title: "遥かなるブータン",
+  title: SONG_TITLES["遥かなるブータン"].title,
+  key: SONG_TITLES["遥かなるブータン"].key,
   single: "ハルジオンが咲く頃",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -2476,7 +2535,8 @@ const songHarukanarubhutan: ISong = {
 };
 
 const songTsuyogarutsubomi: ISong = {
-  title: "強がる蕾",
+  title: SONG_TITLES["強がる蕾"].title,
+  key: SONG_TITLES["強がる蕾"].key,
   single: "ハルジオンが咲く頃",
   albums: [],
   artwork: {
@@ -2507,7 +2567,8 @@ const songTsuyogarutsubomi: ISong = {
 };
 
 const songKyushamen: ISong = {
-  title: "急斜面",
+  title: SONG_TITLES["急斜面"].title,
+  key: SONG_TITLES["急斜面"].key,
   single: "ハルジオンが咲く頃",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -2538,7 +2599,8 @@ const songKyushamen: ISong = {
 };
 
 const songTsuribori: ISong = {
-  title: "釣り堀",
+  title: SONG_TITLES["釣り堀"].title,
+  key: SONG_TITLES["釣り堀"].key,
   single: "ハルジオンが咲く頃",
   albums: [],
   artwork: {
@@ -2569,7 +2631,8 @@ const songTsuribori: ISong = {
 };
 
 const songYuutsutofusengamu: ISong = {
-  title: "憂鬱と風船ガム",
+  title: SONG_TITLES["憂鬱と風船ガム"].title,
+  key: SONG_TITLES["憂鬱と風船ガム"].key,
   single: "ハルジオンが咲く頃",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -2609,7 +2672,8 @@ const songYuutsutofusengamu: ISong = {
 // 13th single
 
 const songHanashitaidarekagairu: ISong = {
-  title: "今、話したい誰かがいる",
+  title: SONG_TITLES["今、話したい誰かがいる"].title,
+  key: SONG_TITLES["今、話したい誰かがいる"].key,
   single: "今、話したい誰かがいる",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -2654,7 +2718,8 @@ const songHanashitaidarekagairu: ISong = {
 };
 
 const songShittonokenri: ISong = {
-  title: "嫉妬の権利",
+  title: SONG_TITLES["嫉妬の権利"].title,
+  key: SONG_TITLES["嫉妬の権利"].key,
   single: "今、話したい誰かがいる",
   albums: ["それぞれの椅子", "僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -2704,7 +2769,8 @@ const songShittonokenri: ISong = {
 };
 
 const songPopipappapa: ISong = {
-  title: "ポピパッパパー",
+  title: SONG_TITLES["ポピパッパパー"].title,
+  key: SONG_TITLES["ポピパッパパー"].key,
   single: "今、話したい誰かがいる",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -2749,7 +2815,8 @@ const songPopipappapa: ISong = {
 };
 
 const songOtonahenochikamichi: ISong = {
-  title: "大人への近道",
+  title: SONG_TITLES["大人への近道"].title,
+  key: SONG_TITLES["大人への近道"].key,
   single: "今、話したい誰かがいる",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -2786,7 +2853,8 @@ const songOtonahenochikamichi: ISong = {
 };
 
 const songKanashiminowasurekata: ISong = {
-  title: "悲しみの忘れ方",
+  title: SONG_TITLES["悲しみの忘れ方"].title,
+  key: SONG_TITLES["悲しみの忘れ方"].key,
   single: "今、話したい誰かがいる",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -2836,7 +2904,8 @@ const songKanashiminowasurekata: ISong = {
 };
 
 const songSukima: ISong = {
-  title: "隙間",
+  title: SONG_TITLES["隙間"].title,
+  key: SONG_TITLES["隙間"].key,
   single: "今、話したい誰かがいる",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -2877,7 +2946,8 @@ const songSukima: ISong = {
 // 12th single
 
 const songTaiyoknock: ISong = {
-  title: "太陽ノック",
+  title: SONG_TITLES["太陽ノック"].title,
+  key: SONG_TITLES["太陽ノック"].key,
   single: "太陽ノック",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -2929,7 +2999,8 @@ const songTaiyoknock: ISong = {
 };
 
 const songWakaregiwa: ISong = {
-  title: "別れ際、もっと好きになる",
+  title: SONG_TITLES["別れ際、もっと好きになる"].title,
+  key: SONG_TITLES["別れ際、もっと好きになる"].key,
   single: "太陽ノック",
   albums: ["それぞれの椅子", "僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -2981,7 +3052,8 @@ const songWakaregiwa: ISong = {
 };
 
 const songMosukoshinoyumewo: ISong = {
-  title: "もう少しの夢",
+  title: SONG_TITLES["もう少しの夢"].title,
+  key: SONG_TITLES["もう少しの夢"].key,
   single: "太陽ノック",
   albums: [],
   artwork: {
@@ -3012,7 +3084,8 @@ const songMosukoshinoyumewo: ISong = {
 };
 
 const songSakanatachinolovesong: ISong = {
-  title: "魚たちのLOVE SONG",
+  title: SONG_TITLES["魚たちのLOVE SONG"].title,
+  key: SONG_TITLES["魚たちのLOVE SONG"].key,
   single: "太陽ノック",
   albums: [],
   artwork: {
@@ -3048,7 +3121,8 @@ const songSakanatachinolovesong: ISong = {
 };
 
 const songMuhyojo: ISong = {
-  title: "無表情",
+  title: SONG_TITLES["無表情"].title,
+  key: SONG_TITLES["無表情"].key,
   single: "太陽ノック",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -3079,7 +3153,8 @@ const songMuhyojo: ISong = {
 };
 
 const songHanenokioku: ISong = {
-  title: "羽根の記憶",
+  title: SONG_TITLES["羽根の記憶"].title,
+  key: SONG_TITLES["羽根の記憶"].key,
   single: "太陽ノック",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -3129,7 +3204,8 @@ const songHanenokioku: ISong = {
 };
 
 const songSeifukuwonuide: ISong = {
-  title: "制服を脱いでサヨナラを…",
+  title: SONG_TITLES["制服を脱いでサヨナラを…"].title,
+  key: SONG_TITLES["制服を脱いでサヨナラを…"].key,
   single: "太陽ノック",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -3162,7 +3238,8 @@ const songSeifukuwonuide: ISong = {
 // 11th single
 
 const songInochihautsukushii: ISong = {
-  title: "命は美しい",
+  title: SONG_TITLES["命は美しい"].title,
+  key: SONG_TITLES["命は美しい"].key,
   single: "命は美しい",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -3214,7 +3291,8 @@ const songInochihautsukushii: ISong = {
 };
 
 const songKimihabokuto: ISong = {
-  title: "君は僕と会わない方がよかったのかな",
+  title: SONG_TITLES["君は僕と会わない方がよかったのかな"].title,
+  key: SONG_TITLES["君は僕と会わない方がよかったのかな"].key,
   single: "命は美しい",
   albums: ["それぞれの椅子", "僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -3253,7 +3331,8 @@ const songKimihabokuto: ISong = {
 };
 
 const songArakajimeromance: ISong = {
-  title: "あらかじめ語られるロマンス",
+  title: SONG_TITLES["あらかじめ語られるロマンス"].title,
+  key: SONG_TITLES["あらかじめ語られるロマンス"].key,
   single: "命は美しい",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -3291,7 +3370,8 @@ const songArakajimeromance: ISong = {
 };
 
 const songTachinaorichu: ISong = {
-  title: "立ち直り中",
+  title: SONG_TITLES["立ち直り中"].title,
+  key: SONG_TITLES["立ち直り中"].key,
   single: "命は美しい",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -3330,7 +3410,8 @@ const songTachinaorichu: ISong = {
 };
 
 const songGomennezutto: ISong = {
-  title: "ごめんね ずっと…",
+  title: SONG_TITLES["ごめんね ずっと…"].title,
+  key: SONG_TITLES["ごめんね ずっと…"].key,
   single: "命は美しい",
   albums: [],
   artwork: {
@@ -3361,7 +3442,8 @@ const songGomennezutto: ISong = {
 };
 
 const songBorder: ISong = {
-  title: "ボーダー",
+  title: SONG_TITLES["ボーダー"].title,
+  key: SONG_TITLES["ボーダー"].key,
   single: "命は美しい",
   albums: [],
   artwork: {
@@ -3401,7 +3483,8 @@ const songBorder: ISong = {
 // 10th single
 
 const songNandomenoaozoraka: ISong = {
-  title: "何度目の青空か?",
+  title: SONG_TITLES["何度目の青空か?"].title,
+  key: SONG_TITLES["何度目の青空か?"].key,
   single: "何度目の青空か?",
   albums: ["透明な色"],
   artwork: {
@@ -3451,7 +3534,8 @@ const songNandomenoaozoraka: ISong = {
 };
 
 const songAnohibokuha: ISong = {
-  title: "あの日 僕は咄嗟に嘘をついた",
+  title: SONG_TITLES["あの日 僕は咄嗟に嘘をついた"].title,
+  key: SONG_TITLES["あの日 僕は咄嗟に嘘をついた"].key,
   single: "何度目の青空か?",
   albums: ["透明な色", "僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -3498,7 +3582,8 @@ const songAnohibokuha: ISong = {
 };
 
 const songTomawarinoaijo: ISong = {
-  title: "遠回りの愛情",
+  title: SONG_TITLES["遠回りの愛情"].title,
+  key: SONG_TITLES["遠回りの愛情"].key,
   single: "何度目の青空か?",
   albums: [],
   artwork: {
@@ -3538,7 +3623,8 @@ const songTomawarinoaijo: ISong = {
 };
 
 const songKorogattakanewonarase: ISong = {
-  title: "転がった鐘を鳴らせ!",
+  title: SONG_TITLES["転がった鐘を鳴らせ!"].title,
+  key: SONG_TITLES["転がった鐘を鳴らせ!"].key,
   single: "何度目の青空か?",
   albums: [],
   artwork: {
@@ -3586,7 +3672,8 @@ const songKorogattakanewonarase: ISong = {
 };
 
 const songWatashiokiru: ISong = {
-  title: "私、起きる。",
+  title: SONG_TITLES["私、起きる。"].title,
+  key: SONG_TITLES["私、起きる。"].key,
   single: "何度目の青空か?",
   albums: [],
   artwork: {
@@ -3628,7 +3715,8 @@ const songWatashiokiru: ISong = {
 };
 
 const songTenderdays: ISong = {
-  title: "Tender days",
+  title: SONG_TITLES["Tender days"].title,
+  key: SONG_TITLES["Tender days"].key,
   single: "何度目の青空か?",
   albums: [],
   artwork: {
@@ -3671,7 +3759,8 @@ const songTenderdays: ISong = {
 // 9th single
 
 const songNatsunofreeandeasy: ISong = {
-  title: "夏のFree&Easy",
+  title: SONG_TITLES["夏のFree&Easy"].title,
+  key: SONG_TITLES["夏のFree&Easy"].key,
   single: "夏のFree&Easy",
   albums: ["透明な色"],
   artwork: {
@@ -3722,7 +3811,8 @@ const songNatsunofreeandeasy: ISong = {
 };
 
 const songKokoniiruriyu: ISong = {
-  title: "ここにいる理由",
+  title: SONG_TITLES["ここにいる理由"].title,
+  key: SONG_TITLES["ここにいる理由"].key,
   single: "夏のFree&Easy",
   albums: ["僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -3772,7 +3862,8 @@ const songKokoniiruriyu: ISong = {
 };
 
 const songNanimodekizuni: ISong = {
-  title: "何もできずにそばにいる",
+  title: SONG_TITLES["何もできずにそばにいる"].title,
+  key: SONG_TITLES["何もできずにそばにいる"].key,
   single: "夏のFree&Easy",
   albums: [],
   artwork: {
@@ -3823,7 +3914,8 @@ const songNanimodekizuni: ISong = {
 };
 
 const songSonosakinodeguchi: ISong = {
-  title: "その先の出口!",
+  title: SONG_TITLES["その先の出口!"].title,
+  key: SONG_TITLES["その先の出口!"].key,
   single: "夏のFree&Easy",
   albums: [],
   artwork: {
@@ -3864,7 +3956,8 @@ const songSonosakinodeguchi: ISong = {
 };
 
 const songMukuchinalion: ISong = {
-  title: "無口なライオン",
+  title: SONG_TITLES["無口なライオン"].title,
+  key: SONG_TITLES["無口なライオン"].key,
   single: "夏のFree&Easy",
   albums: ["透明な色"],
   artwork: {
@@ -3904,7 +3997,8 @@ const songMukuchinalion: ISong = {
 };
 
 const songBokugaikanakya: ISong = {
-  title: "僕が行かなきゃ誰が行くんだ?",
+  title: SONG_TITLES["僕が行かなきゃ誰が行くんだ?"].title,
+  key: SONG_TITLES["僕が行かなきゃ誰が行くんだ?"].key,
   single: "夏のFree&Easy",
   albums: [],
   artwork: {
@@ -3945,7 +4039,8 @@ const songBokugaikanakya: ISong = {
 // 8th single
 
 const songKizuitarakataomoi: ISong = {
-  title: "気づいたら片想い",
+  title: SONG_TITLES["気づいたら片想い"].title,
+  key: SONG_TITLES["気づいたら片想い"].key,
   single: "気づいたら片想い",
   albums: ["透明な色"],
   artwork: {
@@ -3995,7 +4090,8 @@ const songKizuitarakataomoi: ISong = {
 };
 
 const songUmaretamamade: ISong = {
-  title: "生まれたままで",
+  title: SONG_TITLES["生まれたままで"].title,
+  key: SONG_TITLES["生まれたままで"].key,
   single: "気づいたら片想い",
   albums: ["僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -4046,7 +4142,8 @@ const songUmaretamamade: ISong = {
 };
 
 const songRomancenostart: ISong = {
-  title: "ロマンスのスタート",
+  title: SONG_TITLES["ロマンスのスタート"].title,
+  key: SONG_TITLES["ロマンスのスタート"].key,
   single: "気づいたら片想い",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -4096,7 +4193,8 @@ const songRomancenostart: ISong = {
 };
 
 const songToikimethod: ISong = {
-  title: "吐息のメソッド",
+  title: SONG_TITLES["吐息のメソッド"].title,
+  key: SONG_TITLES["吐息のメソッド"].key,
   single: "気づいたら片想い",
   albums: [],
   artwork: {
@@ -4148,7 +4246,8 @@ const songToikimethod: ISong = {
 };
 
 const songKodokukyodai: ISong = {
-  title: "孤独兄弟",
+  title: SONG_TITLES["孤独兄弟"].title,
+  key: SONG_TITLES["孤独兄弟"].key,
   single: "気づいたら片想い",
   albums: [],
   artwork: {
@@ -4179,7 +4278,8 @@ const songKodokukyodai: ISong = {
 };
 
 const songDankeschon: ISong = {
-  title: "ダンケシェーン",
+  title: SONG_TITLES["ダンケシェーン"].title,
+  key: SONG_TITLES["ダンケシェーン"].key,
   single: "気づいたら片想い",
   albums: ["透明な色"],
   artwork: {
@@ -4221,7 +4321,8 @@ const songDankeschon: ISong = {
 // 7th single
 
 const songValletta: ISong = {
-  title: "バレッタ",
+  title: SONG_TITLES["バレッタ"].title,
+  key: SONG_TITLES["バレッタ"].key,
   single: "バレッタ",
   albums: ["透明な色"],
   artwork: {
@@ -4267,7 +4368,8 @@ const songValletta: ISong = {
 };
 
 const songHatsukoinohito: ISong = {
-  title: "初恋の人を今でも",
+  title: SONG_TITLES["初恋の人を今でも"].title,
+  key: SONG_TITLES["初恋の人を今でも"].key,
   single: "バレッタ",
   albums: ["僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -4310,7 +4412,8 @@ const songHatsukoinohito: ISong = {
 };
 
 const songTsukinookisa: ISong = {
-  title: "月の大きさ",
+  title: SONG_TITLES["月の大きさ"].title,
+  key: SONG_TITLES["月の大きさ"].key,
   single: "バレッタ",
   albums: [],
   artwork: {
@@ -4356,7 +4459,8 @@ const songTsukinookisa: ISong = {
 };
 
 const songWatashinotameni: ISong = {
-  title: "私のために 誰かのために",
+  title: SONG_TITLES["私のために 誰かのために"].title,
+  key: SONG_TITLES["私のために 誰かのために"].key,
   single: "バレッタ",
   albums: ["透明な色"],
   artwork: {
@@ -4393,7 +4497,8 @@ const songWatashinotameni: ISong = {
 };
 
 const songSonnabakana: ISong = {
-  title: "そんなバカな…",
+  title: SONG_TITLES["そんなバカな…"].title,
+  key: SONG_TITLES["そんなバカな…"].key,
   single: "バレッタ",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -4447,7 +4552,8 @@ const songSonnabakana: ISong = {
 };
 
 const songYasashisatoha: ISong = {
-  title: "やさしさとは",
+  title: SONG_TITLES["やさしさとは"].title,
+  key: SONG_TITLES["やさしさとは"].key,
   single: "バレッタ",
   albums: [],
   artwork: {
@@ -4488,7 +4594,8 @@ const songYasashisatoha: ISong = {
 // 6th single
 
 const songGirlsrule: ISong = {
-  title: "ガールズルール",
+  title: SONG_TITLES["ガールズルール"].title,
+  key: SONG_TITLES["ガールズルール"].key,
   single: "ガールズルール",
   albums: ["透明な色"],
   artwork: {
@@ -4534,7 +4641,8 @@ const songGirlsrule: ISong = {
 };
 
 const songSenpuki: ISong = {
-  title: "扇風機",
+  title: SONG_TITLES["扇風機"].title,
+  key: SONG_TITLES["扇風機"].key,
   single: "ガールズルール",
   albums: ["僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -4572,7 +4680,8 @@ const songSenpuki: ISong = {
 };
 
 const songSekaideichiban: ISong = {
-  title: "世界で一番 孤独なLover",
+  title: SONG_TITLES["世界で一番 孤独なLover"].title,
+  key: SONG_TITLES["世界で一番 孤独なLover"].key,
   single: "ガールズルール",
   albums: ["透明な色"],
   artwork: {
@@ -4618,7 +4727,8 @@ const songSekaideichiban: ISong = {
 };
 
 const songKomoriyo: ISong = {
-  title: "コウモリよ",
+  title: SONG_TITLES["コウモリよ"].title,
+  key: SONG_TITLES["コウモリよ"].key,
   single: "ガールズルール",
   albums: [],
   artwork: {
@@ -4649,7 +4759,8 @@ const songKomoriyo: ISong = {
 };
 
 const songHokanohoshikara: ISong = {
-  title: "他の星から",
+  title: SONG_TITLES["他の星から"].title,
+  key: SONG_TITLES["他の星から"].key,
   single: "ガールズルール",
   albums: ["透明な色"],
   artwork: {
@@ -4688,7 +4799,8 @@ const songHokanohoshikara: ISong = {
 };
 
 const sonNingentoiugaki: ISong = {
-  title: "人間という楽器",
+  title: SONG_TITLES["人間という楽器"].title,
+  key: SONG_TITLES["人間という楽器"].key,
   single: "ガールズルール",
   albums: [],
   artwork: {
@@ -4754,7 +4866,8 @@ const sonNingentoiugaki: ISong = {
 // 5th single
 
 const songKiminonahakibo: ISong = {
-  title: "君の名は希望",
+  title: SONG_TITLES["君の名は希望"].title,
+  key: SONG_TITLES["君の名は希望"].key,
   single: "君の名は希望",
   albums: ["透明な色"],
   artwork: {
@@ -4800,7 +4913,8 @@ const songKiminonahakibo: ISong = {
 };
 
 const songjusannichinokiyobi: ISong = {
-  title: "13日の金曜日",
+  title: SONG_TITLES["13日の金曜日"].title,
+  key: SONG_TITLES["13日の金曜日"].key,
   single: "君の名は希望",
   albums: ["透明な色", "僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -4842,7 +4956,8 @@ const songjusannichinokiyobi: ISong = {
 };
 
 const songShakism: ISong = {
-  title: "シャキイズム",
+  title: SONG_TITLES["シャキイズム"].title,
+  key: SONG_TITLES["シャキイズム"].key,
   single: "君の名は希望",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -4890,7 +5005,8 @@ const songShakism: ISong = {
 };
 
 const songRomanticIkayaki: ISong = {
-  title: "ロマンティックいか焼き",
+  title: SONG_TITLES["ロマンティックいか焼き"].title,
+  key: SONG_TITLES["ロマンティックいか焼き"].key,
   single: "君の名は希望",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -4938,7 +5054,8 @@ const songRomanticIkayaki: ISong = {
 };
 
 const songDekopin: ISong = {
-  title: "でこぴん",
+  title: SONG_TITLES["でこぴん"].title,
+  key: SONG_TITLES["でこぴん"].key,
   single: "君の名は希望",
   albums: [],
   artwork: {
@@ -4975,7 +5092,8 @@ const songDekopin: ISong = {
 };
 
 const songPsychokineses: ISong = {
-  title: "サイコキネシスの可能性",
+  title: SONG_TITLES["サイコキネシスの可能性"].title,
+  key: SONG_TITLES["サイコキネシスの可能性"].key,
   single: "君の名は希望",
   albums: [],
   artwork: {
@@ -5017,7 +5135,8 @@ const songPsychokineses: ISong = {
 // 4th single
 
 const songSeifukunomannequin: ISong = {
-  title: "制服のマネキン",
+  title: SONG_TITLES["制服のマネキン"].title,
+  key: SONG_TITLES["制服のマネキン"].key,
   single: "制服のマネキン",
   albums: ["透明な色"],
   artwork: {
@@ -5063,7 +5182,8 @@ const songSeifukunomannequin: ISong = {
 };
 
 const songHarunomelody: ISong = {
-  title: "春のメロディー",
+  title: SONG_TITLES["春のメロディー"].title,
+  key: SONG_TITLES["春のメロディー"].key,
   single: "制服のマネキン",
   albums: ["僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -5106,7 +5226,8 @@ const songHarunomelody: ISong = {
 };
 
 const songYubiboenkyo: ISong = {
-  title: "指望遠鏡",
+  title: SONG_TITLES["指望遠鏡"].title,
+  key: SONG_TITLES["指望遠鏡"].key,
   single: "制服のマネキン",
   albums: [],
   artwork: {
@@ -5152,7 +5273,8 @@ const songYubiboenkyo: ISong = {
 };
 
 const songYasashisanaramaniatteru: ISong = {
-  title: "やさしさなら間に合ってる",
+  title: SONG_TITLES["やさしさなら間に合ってる"].title,
+  key: SONG_TITLES["やさしさなら間に合ってる"].key,
   single: "制服のマネキン",
   albums: [],
   artwork: {
@@ -5192,7 +5314,8 @@ const songYasashisanaramaniatteru: ISong = {
 };
 
 const songKokojanaidokoka: ISong = {
-  title: "ここじゃないどこか",
+  title: SONG_TITLES["ここじゃないどこか"].title,
+  key: SONG_TITLES["ここじゃないどこか"].key,
   single: "制服のマネキン",
   albums: [],
   artwork: {
@@ -5223,7 +5346,8 @@ const songKokojanaidokoka: ISong = {
 };
 
 const songShibuyablues: ISong = {
-  title: "渋谷ブルース",
+  title: SONG_TITLES["渋谷ブルース"].title,
+  key: SONG_TITLES["渋谷ブルース"].key,
   single: "制服のマネキン",
   albums: [],
   artwork: {
@@ -5256,7 +5380,8 @@ const songShibuyablues: ISong = {
 // 3rd single
 
 const songHashirebicycle: ISong = {
-  title: "走れ!Bicycle",
+  title: SONG_TITLES["走れ!Bicycle"].title,
+  key: SONG_TITLES["走れ!Bicycle"].key,
   single: "走れ!Bicycle",
   albums: ["透明な色"],
   artwork: {
@@ -5309,7 +5434,8 @@ const songHashirebicycle: ISong = {
 };
 
 const songNamidagamada: ISong = {
-  title: "涙がまだ悲しみだった頃",
+  title: SONG_TITLES["涙がまだ悲しみだった頃"].title,
+  key: SONG_TITLES["涙がまだ悲しみだった頃"].key,
   single: "走れ!Bicycle",
   albums: ["透明な色", "僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -5353,7 +5479,8 @@ const songNamidagamada: ISong = {
 };
 
 const songSekkachinakatatsumuri: ISong = {
-  title: "せっかちなかたつむり",
+  title: SONG_TITLES["せっかちなかたつむり"].title,
+  key: SONG_TITLES["せっかちなかたつむり"].key,
   single: "走れ!Bicycle",
   albums: ["透明な色"],
   artwork: {
@@ -5392,7 +5519,8 @@ const songSekkachinakatatsumuri: ISong = {
 };
 
 const songHitohanazehashirunoka: ISong = {
-  title: "人はなぜ走るのか?",
+  title: SONG_TITLES["人はなぜ走るのか?"].title,
+  key: SONG_TITLES["人はなぜ走るのか?"].key,
   single: "走れ!Bicycle",
   albums: [],
   artwork: {
@@ -5445,7 +5573,8 @@ const songHitohanazehashirunoka: ISong = {
 };
 
 const songOtogadenaiguitar: ISong = {
-  title: "音が出ないギター",
+  title: SONG_TITLES["音が出ないギター"].title,
+  key: SONG_TITLES["音が出ないギター"].key,
   single: "走れ!Bicycle",
   albums: [],
   artwork: {
@@ -5498,7 +5627,8 @@ const songOtogadenaiguitar: ISong = {
 };
 
 const songKairyunoshimayo: ISong = {
-  title: "海流の島よ",
+  title: SONG_TITLES["海流の島よ"].title,
+  key: SONG_TITLES["海流の島よ"].key,
   single: "走れ!Bicycle",
   albums: [],
   artwork: {
@@ -5539,7 +5669,8 @@ const songKairyunoshimayo: ISong = {
 // 2nd single
 
 const songOideshampoo: ISong = {
-  title: "おいでシャンプー",
+  title: SONG_TITLES["おいでシャンプー"].title,
+  key: SONG_TITLES["おいでシャンプー"].key,
   single: "おいでシャンプー",
   albums: ["透明な色"],
   artwork: {
@@ -5585,7 +5716,8 @@ const songOideshampoo: ISong = {
 };
 
 const songOkaminikuchibuewo: ISong = {
-  title: "狼に口笛を",
+  title: SONG_TITLES["狼に口笛を"].title,
+  key: SONG_TITLES["狼に口笛を"].key,
   single: "おいでシャンプー",
   albums: ["僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -5633,7 +5765,8 @@ const songOkaminikuchibuewo: ISong = {
 };
 
 const songKokoronokusuri: ISong = {
-  title: "心の薬",
+  title: SONG_TITLES["心の薬"].title,
+  key: SONG_TITLES["心の薬"].key,
   single: "おいでシャンプー",
   albums: [],
   artwork: {
@@ -5685,7 +5818,8 @@ const songKokoronokusuri: ISong = {
 };
 
 const songGuzenwoiiwakenishite: ISong = {
-  title: "偶然を言い訳にして",
+  title: SONG_TITLES["偶然を言い訳にして"].title,
+  key: SONG_TITLES["偶然を言い訳にして"].key,
   single: "おいでシャンプー",
   albums: [],
   artwork: {
@@ -5721,7 +5855,8 @@ const songGuzenwoiiwakenishite: ISong = {
 };
 
 const songMizutamamoyo: ISong = {
-  title: "水玉模様",
+  title: SONG_TITLES["水玉模様"].title,
+  key: SONG_TITLES["水玉模様"].key,
   single: "おいでシャンプー",
   albums: [],
   artwork: {
@@ -5752,7 +5887,8 @@ const songMizutamamoyo: ISong = {
 };
 
 const songHouse: ISong = {
-  title: "ハウス!",
+  title: SONG_TITLES["ハウス!"].title,
+  key: SONG_TITLES["ハウス!"].key,
   single: "おいでシャンプー",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -5806,7 +5942,8 @@ const songHouse: ISong = {
 // 1st single
 
 const songGurugurucurtain: ISong = {
-  title: "ぐるぐるカーテン",
+  title: SONG_TITLES["ぐるぐるカーテン"].title,
+  key: SONG_TITLES["ぐるぐるカーテン"].key,
   single: "ぐるぐるカーテン",
   albums: ["透明な色"],
   artwork: {
@@ -5852,7 +5989,8 @@ const songGurugurucurtain: ISong = {
 };
 
 const songHidarimurenoyuki: ISong = {
-  title: "左胸の勇気",
+  title: SONG_TITLES["左胸の勇気"].title,
+  key: SONG_TITLES["左胸の勇気"].key,
   single: "ぐるぐるカーテン",
   albums: ["僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -5902,7 +6040,8 @@ const songHidarimurenoyuki: ISong = {
 };
 
 const songNogizakanouta: ISong = {
-  title: "乃木坂の詩",
+  title: SONG_TITLES["乃木坂の詩"].title,
+  key: SONG_TITLES["乃木坂の詩"].key,
   single: "ぐるぐるカーテン",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -5967,7 +6106,8 @@ const songNogizakanouta: ISong = {
 };
 
 const songAitakattakamoshirenai: ISong = {
-  title: "会いたかったかもしれない",
+  title: SONG_TITLES["会いたかったかもしれない"].title,
+  key: SONG_TITLES["会いたかったかもしれない"].key,
   single: "ぐるぐるカーテン",
   albums: [],
   artwork: {
@@ -6019,7 +6159,8 @@ const songAitakattakamoshirenai: ISong = {
 };
 
 const songUshinaitakunaikara: ISong = {
-  title: "失いたくないから",
+  title: SONG_TITLES["失いたくないから"].title,
+  key: SONG_TITLES["失いたくないから"].key,
   single: "ぐるぐるカーテン",
   albums: ["透明な色"],
   artwork: {
@@ -6071,7 +6212,8 @@ const songUshinaitakunaikara: ISong = {
 };
 
 const songShiroikumoninotte: ISong = {
-  title: "白い雲にのって",
+  title: SONG_TITLES["白い雲にのって"].title,
+  key: SONG_TITLES["白い雲にのって"].key,
   single: "ぐるぐるカーテン",
   albums: [],
   artwork: {
@@ -6130,7 +6272,8 @@ const songShiroikumoninotte: ISong = {
 // 5th album songs
 
 const arigachinarenai: ISong = {
-  title: "ありがちな恋愛",
+  title: SONG_TITLES["ありがちな恋愛"].title,
+  key: SONG_TITLES["ありがちな恋愛"].key,
   single: "",
   albums: ["今が思い出になるまで"],
   artwork: {
@@ -6180,7 +6323,8 @@ const arigachinarenai: ISong = {
 };
 
 const songMoshikimigainakereba: ISong = {
-  title: "もし君がいなければ",
+  title: SONG_TITLES["もし君がいなければ"].title,
+  key: SONG_TITLES["もし君がいなければ"].key,
   single: "",
   albums: ["今が思い出になるまで"],
   artwork: {
@@ -6211,7 +6355,8 @@ const songMoshikimigainakereba: ISong = {
 };
 
 const songKissnoshuriken: ISong = {
-  title: "キスの手裏剣",
+  title: SONG_TITLES["キスの手裏剣"].title,
+  key: SONG_TITLES["キスの手裏剣"].key,
   single: "",
   albums: ["今が思い出になるまで"],
   artwork: {
@@ -6254,7 +6399,8 @@ const songKissnoshuriken: ISong = {
 };
 
 const songHoozue: ISong = {
-  title: "頬杖をついては眠れない",
+  title: SONG_TITLES["頬杖をついては眠れない"].title,
+  key: SONG_TITLES["頬杖をついては眠れない"].key,
   single: "",
   albums: ["今が思い出になるまで"],
   artwork: {
@@ -6291,7 +6437,8 @@ const songHoozue: ISong = {
 };
 
 const songPocchito: ISong = {
-  title: "ぽっち党",
+  title: SONG_TITLES["ぽっち党"].title,
+  key: SONG_TITLES["ぽっち党"].key,
   single: "",
   albums: ["今が思い出になるまで"],
   artwork: {
@@ -6322,7 +6469,8 @@ const songPocchito: ISong = {
 };
 
 const songSayuringoboshuchu: ISong = {
-  title: "さゆりんご募集中",
+  title: SONG_TITLES["さゆりんご募集中"].title,
+  key: SONG_TITLES["さゆりんご募集中"].key,
   single: "",
   albums: ["今が思い出になるまで"],
   artwork: {
@@ -6353,7 +6501,8 @@ const songSayuringoboshuchu: ISong = {
 };
 
 const songGorugonzora: ISong = {
-  title: "ゴルゴンゾーラ",
+  title: SONG_TITLES["ゴルゴンゾーラ"].title,
+  key: SONG_TITLES["ゴルゴンゾーラ"].key,
   single: "",
   albums: ["今が思い出になるまで"],
   artwork: {
@@ -6384,7 +6533,8 @@ const songGorugonzora: ISong = {
 };
 
 const songZambi: ISong = {
-  title: "もうすぐ～ザンビ伝説～",
+  title: SONG_TITLES["もうすぐ～ザンビ伝説～"].title,
+  key: SONG_TITLES["もうすぐ～ザンビ伝説～"].key,
   single: "",
   albums: ["今が思い出になるまで"],
   artwork: {
@@ -6439,7 +6589,8 @@ const songZambi: ISong = {
 // 4th album songs
 
 const songJibunnokoto: ISong = {
-  title: "自分のこと",
+  title: SONG_TITLES["自分のこと"].title,
+  key: SONG_TITLES["自分のこと"].key,
   single: "",
   albums: ["僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -6470,7 +6621,8 @@ const songJibunnokoto: ISong = {
 };
 
 const songUnuborebeach: ISong = {
-  title: "自惚れビーチ",
+  title: SONG_TITLES["自惚れビーチ"].title,
+  key: SONG_TITLES["自惚れビーチ"].key,
   single: "",
   albums: ["僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -6516,7 +6668,8 @@ const songUnuborebeach: ISong = {
 };
 
 const songSonohito: ISong = {
-  title: "その女",
+  title: SONG_TITLES["その女"].title,
+  key: SONG_TITLES["その女"].key,
   single: "",
   albums: ["僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -6562,7 +6715,8 @@ const songSonohito: ISong = {
 };
 
 const songDareyorisobaniitai: ISong = {
-  title: "誰よりそばにいたい",
+  title: SONG_TITLES["誰よりそばにいたい"].title,
+  key: SONG_TITLES["誰よりそばにいたい"].key,
   single: "",
   albums: ["僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -6610,7 +6764,8 @@ const songDareyorisobaniitai: ISong = {
 // 3rd album songs
 
 const songSkydiving: ISong = {
-  title: "スカイダイビング",
+  title: SONG_TITLES["スカイダイビング"].title,
+  key: SONG_TITLES["スカイダイビング"].key,
   single: "",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -6663,7 +6818,8 @@ const songSkydiving: ISong = {
 };
 
 const songKimigaaoidekureta: ISong = {
-  title: "君が扇いでくれた",
+  title: SONG_TITLES["君が扇いでくれた"].title,
+  key: SONG_TITLES["君が扇いでくれた"].key,
   single: "",
   albums: ["生まれてから初めて見た夢", "僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -6707,7 +6863,8 @@ const songKimigaaoidekureta: ISong = {
 };
 
 const songOmoidefirst: ISong = {
-  title: "思い出ファースト",
+  title: SONG_TITLES["思い出ファースト"].title,
+  key: SONG_TITLES["思い出ファースト"].key,
   single: "",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -6751,7 +6908,8 @@ const songOmoidefirst: ISong = {
 };
 
 const songSetteiondo: ISong = {
-  title: "設定温度",
+  title: SONG_TITLES["設定温度"].title,
+  key: SONG_TITLES["設定温度"].key,
   single: "",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -6830,7 +6988,8 @@ const songSetteiondo: ISong = {
 };
 
 const songRewindanohi: ISong = {
-  title: "Rewindあの日",
+  title: SONG_TITLES["Rewindあの日"].title,
+  key: SONG_TITLES["Rewindあの日"].key,
   single: "",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -6861,7 +7020,8 @@ const songRewindanohi: ISong = {
 };
 
 const songGomensmoothie: ISong = {
-  title: "ごめんね、スムージー",
+  title: SONG_TITLES["ごめんね、スムージー"].title,
+  key: SONG_TITLES["ごめんね、スムージー"].key,
   single: "",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -6892,7 +7052,8 @@ const songGomensmoothie: ISong = {
 };
 
 const songMinikuiwatashi: ISong = {
-  title: "醜い私",
+  title: SONG_TITLES["醜い私"].title,
+  key: SONG_TITLES["醜い私"].key,
   single: "",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -6923,7 +7084,8 @@ const songMinikuiwatashi: ISong = {
 };
 
 const songKataikaranoyoni: ISong = {
-  title: "硬い殻のように抱きしめたい",
+  title: SONG_TITLES["硬い殻のように抱きしめたい"].title,
+  key: SONG_TITLES["硬い殻のように抱きしめたい"].key,
   single: "",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -6954,7 +7116,8 @@ const songKataikaranoyoni: ISong = {
 };
 
 const songMangetsugakieta: ISong = {
-  title: "満月が消えた",
+  title: SONG_TITLES["満月が消えた"].title,
+  key: SONG_TITLES["満月が消えた"].key,
   single: "",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -6985,7 +7148,8 @@ const songMangetsugakieta: ISong = {
 };
 
 const songWatabokori: ISong = {
-  title: "ワタボコリ",
+  title: SONG_TITLES["ワタボコリ"].title,
+  key: SONG_TITLES["ワタボコリ"].key,
   single: "",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -7016,7 +7180,8 @@ const songWatabokori: ISong = {
 };
 
 const songRyuseidiscotic: ISong = {
-  title: "流星ディスコティック",
+  title: SONG_TITLES["流星ディスコティック"].title,
+  key: SONG_TITLES["流星ディスコティック"].key,
   single: "",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -7047,7 +7212,8 @@ const songRyuseidiscotic: ISong = {
 };
 
 const songBokyakutobigaku: ISong = {
-  title: "忘却と美学",
+  title: SONG_TITLES["忘却と美学"].title,
+  key: SONG_TITLES["忘却と美学"].key,
   single: "",
   albums: ["生まれてから初めて見た夢"],
   artwork: {
@@ -7080,7 +7246,8 @@ const songBokyakutobigaku: ISong = {
 // 2nd album songs
 
 const songKikkake: ISong = {
-  title: "きっかけ",
+  title: SONG_TITLES["きっかけ"].title,
+  key: SONG_TITLES["きっかけ"].key,
   single: "",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -7128,7 +7295,8 @@ const songKikkake: ISong = {
 };
 
 const songTaiyonikudokarete: ISong = {
-  title: "太陽に口説かれて",
+  title: SONG_TITLES["太陽に口説かれて"].title,
+  key: SONG_TITLES["太陽に口説かれて"].key,
   single: "",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -7176,7 +7344,8 @@ const songTaiyonikudokarete: ISong = {
 };
 
 const songYokubonoReincarnation: ISong = {
-  title: "欲望のリインカーネーション",
+  title: SONG_TITLES["欲望のリインカーネーション"].title,
+  key: SONG_TITLES["欲望のリインカーネーション"].key,
   single: "",
   albums: ["それぞれの椅子", "僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -7217,7 +7386,8 @@ const songYokubonoReincarnation: ISong = {
 };
 
 const songKukikan: ISong = {
-  title: "空気感",
+  title: SONG_TITLES["空気感"].title,
+  key: SONG_TITLES["空気感"].key,
   single: "",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -7254,7 +7424,8 @@ const songKukikan: ISong = {
 };
 
 const songKogoseikibo: ISong = {
-  title: "光合成希望",
+  title: SONG_TITLES["光合成希望"].title,
+  key: SONG_TITLES["光合成希望"].key,
   single: "",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -7285,7 +7456,8 @@ const songKogoseikibo: ISong = {
 };
 
 const songThreefoldchoice: ISong = {
-  title: "Threefold choice",
+  title: SONG_TITLES["Threefold choice"].title,
+  key: SONG_TITLES["Threefold choice"].key,
   single: "",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -7316,7 +7488,8 @@ const songThreefoldchoice: ISong = {
 };
 
 const songTeitaionnokisu: ISong = {
-  title: "低体温のキス",
+  title: SONG_TITLES["低体温のキス"].title,
+  key: SONG_TITLES["低体温のキス"].key,
   single: "",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -7347,7 +7520,8 @@ const songTeitaionnokisu: ISong = {
 };
 
 const songShitsurenshitara: ISong = {
-  title: "失恋したら、顔を洗え!",
+  title: SONG_TITLES["失恋したら、顔を洗え!"].title,
+  key: SONG_TITLES["失恋したら、顔を洗え!"].key,
   single: "",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -7378,7 +7552,8 @@ const songShitsurenshitara: ISong = {
 };
 
 const songKakigorinokataomoi: ISong = {
-  title: "かき氷の片想い",
+  title: SONG_TITLES["かき氷の片想い"].title,
+  key: SONG_TITLES["かき氷の片想い"].key,
   single: "",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -7421,7 +7596,8 @@ const songKakigorinokataomoi: ISong = {
 };
 
 const songKanjorokugosen: ISong = {
-  title: "環状六号線",
+  title: SONG_TITLES["環状六号線"].title,
+  key: SONG_TITLES["環状六号線"].key,
   single: "",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -7452,7 +7628,8 @@ const songKanjorokugosen: ISong = {
 };
 
 const songKuchiyakusoku: ISong = {
-  title: "口約束",
+  title: SONG_TITLES["口約束"].title,
+  key: SONG_TITLES["口約束"].key,
   single: "",
   albums: ["それぞれの椅子"],
   artwork: {
@@ -7485,7 +7662,8 @@ const songKuchiyakusoku: ISong = {
 // 1st album songs
 
 const songDarekahamikata: ISong = {
-  title: "誰かは味方",
+  title: SONG_TITLES["誰かは味方"].title,
+  key: SONG_TITLES["誰かは味方"].key,
   single: "",
   albums: ["透明な色"],
   artwork: {
@@ -7516,7 +7694,8 @@ const songDarekahamikata: ISong = {
 };
 
 const songKakumeinouma: ISong = {
-  title: "革命の馬",
+  title: SONG_TITLES["革命の馬"].title,
+  key: SONG_TITLES["革命の馬"].key,
   single: "",
   albums: ["透明な色"],
   artwork: {
@@ -7554,7 +7733,8 @@ const songKakumeinouma: ISong = {
 };
 
 const songBokugairubasho: ISong = {
-  title: "僕がいる場所",
+  title: SONG_TITLES["僕がいる場所"].title,
+  key: SONG_TITLES["僕がいる場所"].key,
   single: "",
   albums: ["透明な色"],
   artwork: {
@@ -7602,7 +7782,8 @@ const songBokugairubasho: ISong = {
 };
 
 const songAnatanotamenihikitai: ISong = {
-  title: "あなたのために弾きたい",
+  title: SONG_TITLES["あなたのために弾きたい"].title,
+  key: SONG_TITLES["あなたのために弾きたい"].key,
   single: "",
   albums: ["透明な色"],
   artwork: {
@@ -7633,7 +7814,8 @@ const songAnatanotamenihikitai: ISong = {
 };
 
 const songKeishasuru: ISong = {
-  title: "傾斜する",
+  title: SONG_TITLES["傾斜する"].title,
+  key: SONG_TITLES["傾斜する"].key,
   single: "",
   albums: ["透明な色"],
   artwork: {
@@ -7681,7 +7863,8 @@ const songKeishasuru: ISong = {
 };
 
 const songNazonorakugaki: ISong = {
-  title: "なぞの落書き",
+  title: SONG_TITLES["なぞの落書き"].title,
+  key: SONG_TITLES["なぞの落書き"].key,
   single: "",
   albums: ["透明な色"],
   artwork: {
@@ -7712,7 +7895,8 @@ const songNazonorakugaki: ISong = {
 };
 
 const songJiyunokanata: ISong = {
-  title: "自由の彼方",
+  title: SONG_TITLES["自由の彼方"].title,
+  key: SONG_TITLES["自由の彼方"].key,
   single: "",
   albums: ["透明な色", "僕だけの君〜Under Super Best〜"],
   artwork: {
@@ -7768,7 +7952,8 @@ const songJiyunokanata: ISong = {
 };
 
 const songHitoriyogari: ISong = {
-  title: "ひとりよがり",
+  title: SONG_TITLES["ひとりよがり"].title,
+  key: SONG_TITLES["ひとりよがり"].key,
   single: "",
   albums: ["透明な色"],
   artwork: {

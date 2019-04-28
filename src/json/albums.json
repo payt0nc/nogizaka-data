@@ -36,6 +36,7 @@
       {
         "number": 1,
         "title": "ありがちな恋愛",
+        "key": "arigachinarenai",
         "inCdType": [
           "L",
           "A",
@@ -56,6 +57,7 @@
       {
         "number": 2,
         "title": "逃げ水",
+        "key": "nigemizu",
         "inCdType": [
           "L",
           "A",
@@ -79,6 +81,7 @@
       {
         "number": 3,
         "title": "いつかできるから今日できる",
+        "key": "itsukadekiru",
         "inCdType": [
           "L",
           "A",
@@ -102,6 +105,7 @@
       {
         "number": 4,
         "title": "シンクロニシティ",
+        "key": "synchronicity",
         "inCdType": [
           "L",
           "A",
@@ -124,6 +128,7 @@
       {
         "number": 5,
         "title": "ジコチューで行こう!",
+        "key": "jikochu",
         "inCdType": [
           "L",
           "A",
@@ -146,6 +151,7 @@
       {
         "number": 6,
         "title": "帰り道は遠回りしたくなる",
+        "key": "kaerimichi",
         "inCdType": [
           "L",
           "A",
@@ -168,6 +174,7 @@
       {
         "number": 7,
         "title": "アンダー",
+        "key": "under",
         "inCdType": [
           "L",
           "A",
@@ -191,6 +198,7 @@
       {
         "number": 8,
         "title": "My rule",
+        "key": "myrule",
         "inCdType": [
           "L",
           "A",
@@ -213,6 +221,7 @@
       {
         "number": 9,
         "title": "新しい世界",
+        "key": "atarashiisekai",
         "inCdType": [
           "L",
           "A",
@@ -235,6 +244,7 @@
       {
         "number": 10,
         "title": "三角の空き地",
+        "key": "sankakunoakichi",
         "inCdType": [
           "L",
           "A",
@@ -257,6 +267,7 @@
       {
         "number": 11,
         "title": "日常",
+        "key": "nichijou",
         "inCdType": [
           "L",
           "A",
@@ -279,6 +290,7 @@
       {
         "number": 12,
         "title": "もし君がいなければ",
+        "key": "moshikimigainakereba",
         "inCdType": [
           "L"
         ],
@@ -298,6 +310,7 @@
       {
         "number": 13,
         "title": "キスの手裏剣",
+        "key": "kissnoshuriken",
         "inCdType": [
           "L"
         ],
@@ -315,6 +328,7 @@
       {
         "number": 14,
         "title": "Against",
+        "key": "against",
         "inCdType": [
           "L"
         ],
@@ -334,6 +348,7 @@
       {
         "number": 15,
         "title": "つづく",
+        "key": "tsuduku",
         "inCdType": [
           "L"
         ],
@@ -353,6 +368,7 @@
       {
         "number": 16,
         "title": "頬杖をついては眠れない",
+        "key": "hoozuewotsuitehanemurenai",
         "inCdType": [
           "A"
         ],
@@ -370,6 +386,7 @@
       {
         "number": 17,
         "title": "ぽっち党",
+        "key": "bocchitou",
         "inCdType": [
           "A"
         ],
@@ -387,6 +404,7 @@
       {
         "number": 18,
         "title": "僕の衝動",
+        "key": "bokunoshoudou",
         "inCdType": [
           "A"
         ],
@@ -406,6 +424,7 @@
       {
         "number": 19,
         "title": "スカウトマン",
+        "key": "scoutman",
         "inCdType": [
           "A"
         ],
@@ -425,6 +444,7 @@
       {
         "number": 20,
         "title": "さゆりんご募集中",
+        "key": "sayuringoboshuuchuu",
         "inCdType": [
           "B"
         ],
@@ -444,6 +464,7 @@
       {
         "number": 21,
         "title": "ゴルゴンゾーラ",
+        "key": "gorugonzora",
         "inCdType": [
           "B"
         ],
@@ -461,6 +482,7 @@
       {
         "number": 22,
         "title": "トキトキメキメキ",
+        "key": "tokitokimekimeki",
         "inCdType": [
           "B"
         ],
@@ -480,6 +502,7 @@
       {
         "number": 23,
         "title": "未来の答え",
+        "key": "mirainokotae",
         "inCdType": [
           "B"
         ],
@@ -500,6 +523,7 @@
       {
         "number": 24,
         "title": "もうすぐ～ザンビ伝説～",
+        "key": "mousuguzambidensetsu",
         "inCdType": [
           "T"
         ],
@@ -517,6 +541,7 @@
       {
         "number": 25,
         "title": "キャラバンは眠らない",
+        "key": "caravan",
         "inCdType": [
           "T"
         ],
@@ -536,6 +561,7 @@
       {
         "number": 26,
         "title": "ライブ神",
+        "key": "liveshin",
         "inCdType": [
           "T"
         ],
@@ -555,6 +581,7 @@
       {
         "number": 27,
         "title": "自分じゃない感じ",
+        "key": "jibunjanaikanji",
         "inCdType": [
           "T"
         ],
@@ -605,6 +632,7 @@
       {
         "number": 1,
         "title": "左胸の勇気",
+        "key": "hidarimunenoyuuki",
         "inCdType": [
           "L1"
         ],
@@ -624,6 +652,7 @@
       {
         "number": 2,
         "title": "狼に口笛を",
+        "key": "ookaminikuchibuewo",
         "inCdType": [
           "L1"
         ],
@@ -643,6 +672,7 @@
       {
         "number": 3,
         "title": "涙がまだ悲しみだった頃",
+        "key": "namidagamadakanashimi",
         "inCdType": [
           "L1"
         ],
@@ -662,6 +692,7 @@
       {
         "number": 4,
         "title": "春のメロディー",
+        "key": "harunomelody",
         "inCdType": [
           "L1"
         ],
@@ -681,6 +712,7 @@
       {
         "number": 5,
         "title": "13日の金曜日",
+        "key": "13nichinokinyoubi",
         "inCdType": [
           "L1"
         ],
@@ -700,6 +732,7 @@
       {
         "number": 6,
         "title": "扇風機",
+        "key": "senpuuki",
         "inCdType": [
           "L1"
         ],
@@ -719,6 +752,7 @@
       {
         "number": 7,
         "title": "初恋の人を今でも",
+        "key": "hatsukoinohitowo",
         "inCdType": [
           "L1"
         ],
@@ -738,6 +772,7 @@
       {
         "number": 8,
         "title": "生まれたままで",
+        "key": "umaretamamade",
         "inCdType": [
           "L1"
         ],
@@ -757,6 +792,7 @@
       {
         "number": 9,
         "title": "ここにいる理由",
+        "key": "kokoniiruriyuu",
         "inCdType": [
           "L1"
         ],
@@ -776,6 +812,7 @@
       {
         "number": 10,
         "title": "あの日 僕は咄嗟に嘘をついた",
+        "key": "anohibokuha",
         "inCdType": [
           "L1"
         ],
@@ -795,6 +832,7 @@
       {
         "number": 11,
         "title": "君は僕と会わない方がよかったのかな",
+        "key": "kimihabokuto",
         "inCdType": [
           "L1"
         ],
@@ -814,6 +852,7 @@
       {
         "number": 12,
         "title": "別れ際、もっと好きになる",
+        "key": "wakaregiwa",
         "inCdType": [
           "L1"
         ],
@@ -833,6 +872,7 @@
       {
         "number": 13,
         "title": "嫉妬の権利",
+        "key": "shittonokenri",
         "inCdType": [
           "L1"
         ],
@@ -853,6 +893,7 @@
       {
         "number": 14,
         "title": "不等号",
+        "key": "futoogo",
         "inCdType": [
           "L1"
         ],
@@ -872,6 +913,7 @@
       {
         "number": 15,
         "title": "シークレットグラフィティー",
+        "key": "secretgravity",
         "inCdType": [
           "L1"
         ],
@@ -891,6 +933,7 @@
       {
         "number": 16,
         "title": "ブランコ",
+        "key": "bulanko",
         "inCdType": [
           "L2"
         ],
@@ -910,6 +953,7 @@
       {
         "number": 17,
         "title": "風船は生きている",
+        "key": "fusuenhaikiteiru",
         "inCdType": [
           "L2"
         ],
@@ -929,6 +973,7 @@
       {
         "number": 18,
         "title": "アンダー",
+        "key": "under",
         "inCdType": [
           "L2"
         ],
@@ -949,6 +994,7 @@
       {
         "number": 19,
         "title": "My rule",
+        "key": "myrule",
         "inCdType": [
           "L2"
         ],
@@ -968,6 +1014,7 @@
       {
         "number": 20,
         "title": "自由の彼方",
+        "key": "jiyuunokanata",
         "inCdType": [
           "L2"
         ],
@@ -987,6 +1034,7 @@
       {
         "number": 21,
         "title": "欲望のリインカーネーション",
+        "key": "yokuboureincarnation",
         "inCdType": [
           "L2"
         ],
@@ -1004,6 +1052,7 @@
       {
         "number": 22,
         "title": "君が扇いでくれた",
+        "key": "kimigaaoidekureta",
         "inCdType": [
           "L2"
         ],
@@ -1021,6 +1070,7 @@
       {
         "number": 23,
         "title": "自分のこと",
+        "key": "jibunnokoto",
         "inCdType": [
           "L2"
         ],
@@ -1040,6 +1090,7 @@
       {
         "number": 24,
         "title": "自惚れビーチ",
+        "key": "unuborebeach",
         "inCdType": [
           "L2"
         ],
@@ -1059,6 +1110,7 @@
       {
         "number": 25,
         "title": "その女",
+        "key": "sonohito",
         "inCdType": [
           "L2"
         ],
@@ -1078,6 +1130,7 @@
       {
         "number": 26,
         "title": "誰よりそばにいたい",
+        "key": "dareyorimosobaniitai",
         "inCdType": [
           "L2"
         ],
@@ -1133,6 +1186,7 @@
       {
         "number": 1,
         "title": "裸足でSummer",
+        "key": "hadasummer",
         "inCdType": [
           "L",
           "A",
@@ -1155,6 +1209,7 @@
       {
         "number": 2,
         "title": "サヨナラの意味",
+        "key": "sayonaranoimi",
         "inCdType": [
           "L",
           "A",
@@ -1177,6 +1232,7 @@
       {
         "number": 3,
         "title": "インフルエンサー",
+        "key": "influencer",
         "inCdType": [
           "L",
           "A",
@@ -1200,6 +1256,7 @@
       {
         "number": 4,
         "title": "シークレットグラフィティー",
+        "key": "secretgravity",
         "inCdType": [
           "L",
           "A",
@@ -1222,6 +1279,7 @@
       {
         "number": 5,
         "title": "ブランコ",
+        "key": "bulanko",
         "inCdType": [
           "L",
           "A",
@@ -1244,6 +1302,7 @@
       {
         "number": 6,
         "title": "風船は生きている",
+        "key": "fusuenhaikiteiru",
         "inCdType": [
           "L",
           "A",
@@ -1266,6 +1325,7 @@
       {
         "number": 7,
         "title": "スカイダイビング",
+        "key": "skydiving",
         "inCdType": [
           "L",
           "A",
@@ -1286,6 +1346,7 @@
       {
         "number": 8,
         "title": "三番目の風",
+        "key": "sanbanmenokaze",
         "inCdType": [
           "L",
           "A",
@@ -1308,6 +1369,7 @@
       {
         "number": 9,
         "title": "君が扇いでくれた",
+        "key": "kimigaaoidekureta",
         "inCdType": [
           "L"
         ],
@@ -1325,6 +1387,7 @@
       {
         "number": 10,
         "title": "思い出ファースト",
+        "key": "omoidefirst",
         "inCdType": [
           "L"
         ],
@@ -1342,6 +1405,7 @@
       {
         "number": 11,
         "title": "設定温度",
+        "key": "setteiondo",
         "inCdType": [
           "L"
         ],
@@ -1359,6 +1423,7 @@
       {
         "number": 12,
         "title": "孤独な青空",
+        "key": "kodokunaaozora",
         "inCdType": [
           "L"
         ],
@@ -1378,6 +1443,7 @@
       {
         "number": 13,
         "title": "僕だけの光",
+        "key": "bokudakenohikari",
         "inCdType": [
           "L"
         ],
@@ -1397,6 +1463,7 @@
       {
         "number": 14,
         "title": "人生を考えたくなる",
+        "key": "jinseiwokangaetakunaru",
         "inCdType": [
           "L"
         ],
@@ -1416,6 +1483,7 @@
       {
         "number": 15,
         "title": "意外BREAK",
+        "key": "igaibreak",
         "inCdType": [
           "L"
         ],
@@ -1435,6 +1503,7 @@
       {
         "number": 16,
         "title": "Rewindあの日",
+        "key": "Rewindanohi",
         "inCdType": [
           "A"
         ],
@@ -1452,6 +1521,7 @@
       {
         "number": 17,
         "title": "ごめんね、スムージー",
+        "key": "gomennesmoothie",
         "inCdType": [
           "A"
         ],
@@ -1469,6 +1539,7 @@
       {
         "number": 18,
         "title": "醜い私",
+        "key": "minikuiwatashi",
         "inCdType": [
           "A"
         ],
@@ -1486,6 +1557,7 @@
       {
         "number": 19,
         "title": "オフショアガール",
+        "key": "offshoregirl",
         "inCdType": [
           "A"
         ],
@@ -1505,6 +1577,7 @@
       {
         "number": 20,
         "title": "君に贈る花がない",
+        "key": "kiminiokuruhanaganai",
         "inCdType": [
           "A"
         ],
@@ -1524,6 +1597,7 @@
       {
         "number": 21,
         "title": "白米様",
+        "key": "hakumaisama",
         "inCdType": [
           "A"
         ],
@@ -1543,6 +1617,7 @@
       {
         "number": 22,
         "title": "硬い殻のように抱きしめたい",
+        "key": "karaikaranoyounidakishimetai",
         "inCdType": [
           "B"
         ],
@@ -1562,6 +1637,7 @@
       {
         "number": 23,
         "title": "満月が消えた",
+        "key": "mangetsugakieta",
         "inCdType": [
           "B"
         ],
@@ -1579,6 +1655,7 @@
       {
         "number": 24,
         "title": "ワタボコリ",
+        "key": "watabokori",
         "inCdType": [
           "B"
         ],
@@ -1596,6 +1673,7 @@
       {
         "number": 25,
         "title": "ないものねだり",
+        "key": "naimononedari",
         "inCdType": [
           "B"
         ],
@@ -1615,6 +1693,7 @@
       {
         "number": 26,
         "title": "Another Ghost",
+        "key": "anotherghost",
         "inCdType": [
           "B"
         ],
@@ -1634,6 +1713,7 @@
       {
         "number": 27,
         "title": "あの教室",
+        "key": "anokyoushitsu",
         "inCdType": [
           "B"
         ],
@@ -1651,6 +1731,7 @@
       {
         "number": 28,
         "title": "流星ディスコティック",
+        "key": "ryuuseidiscotic",
         "inCdType": [
           "T"
         ],
@@ -1668,6 +1749,7 @@
       {
         "number": 29,
         "title": "忘却と美学",
+        "key": "boukyakutobigaku",
         "inCdType": [
           "T"
         ],
@@ -1685,6 +1767,7 @@
       {
         "number": 30,
         "title": "2度目のキスから",
+        "key": "nidomenokisskara",
         "inCdType": [
           "T"
         ],
@@ -1704,6 +1787,7 @@
       {
         "number": 31,
         "title": "命の真実 ミュージカル「林檎売りとカメムシ」",
+        "key": "inochinoshinjitsu",
         "inCdType": [
           "T"
         ],
@@ -1723,6 +1807,7 @@
       {
         "number": 32,
         "title": "行くあてのない僕たち",
+        "key": "ikuatenonaibokutachi",
         "inCdType": [
           "T"
         ],
@@ -1740,6 +1825,7 @@
       {
         "number": 33,
         "title": "当たり障りのない話",
+        "key": "atarisawarinonaihanashi",
         "inCdType": [
           "T"
         ],
@@ -1800,6 +1886,7 @@
       {
         "number": 1,
         "title": "命は美しい",
+        "key": "inochihautsukushii",
         "inCdType": [
           "A",
           "B",
@@ -1823,6 +1910,7 @@
       {
         "number": 2,
         "title": "太陽ノック",
+        "key": "taiyouknock",
         "inCdType": [
           "A",
           "B",
@@ -1846,6 +1934,7 @@
       {
         "number": 3,
         "title": "今、話したい誰かがいる",
+        "key": "imahana",
         "inCdType": [
           "A",
           "B",
@@ -1870,6 +1959,7 @@
       {
         "number": 4,
         "title": "きっかけ",
+        "key": "kikkake",
         "inCdType": [
           "A",
           "B",
@@ -1891,6 +1981,7 @@
       {
         "number": 5,
         "title": "太陽に口説かれて",
+        "key": "taiyounikudokarete",
         "inCdType": [
           "A",
           "B",
@@ -1912,6 +2003,7 @@
       {
         "number": 6,
         "title": "欲望のリインカーネーション",
+        "key": "yokuboureincarnation",
         "inCdType": [
           "A",
           "B",
@@ -1933,6 +2025,7 @@
       {
         "number": 7,
         "title": "悲しみの忘れ方",
+        "key": "kanashiminowasurekata",
         "inCdType": [
           "A",
           "B",
@@ -1956,6 +2049,7 @@
       {
         "number": 8,
         "title": "空気感",
+        "key": "kuukikann",
         "inCdType": [
           "A",
           "T"
@@ -1974,6 +2068,7 @@
       {
         "number": 9,
         "title": "光合成希望",
+        "key": "kougouseikibou",
         "inCdType": [
           "A",
           "T"
@@ -1994,6 +2089,7 @@
       {
         "number": 10,
         "title": "無表情",
+        "key": "muhyoujyou",
         "inCdType": [
           "A",
           "T"
@@ -2014,6 +2110,7 @@
       {
         "number": 11,
         "title": "あらかじめ語られるロマンス",
+        "key": "arakajimekatarareruromance",
         "inCdType": [
           "A",
           "T"
@@ -2035,6 +2132,7 @@
       {
         "number": 12,
         "title": "隙間",
+        "key": "sukima",
         "inCdType": [
           "A",
           "T"
@@ -2055,6 +2153,7 @@
       {
         "number": 13,
         "title": "急斜面",
+        "key": "kyuushamen",
         "inCdType": [
           "A",
           "T"
@@ -2073,6 +2172,7 @@
       {
         "number": 14,
         "title": "羽根の記憶",
+        "key": "hanenokioku",
         "inCdType": [
           "A",
           "T"
@@ -2093,6 +2193,7 @@
       {
         "number": 15,
         "title": "乃木坂の詩",
+        "key": "nogizakanouta",
         "inCdType": [
           "A",
           "B",
@@ -2116,6 +2217,7 @@
       {
         "number": 16,
         "title": "Threefold choice",
+        "key": "threefoldchoice",
         "inCdType": [
           "B"
         ],
@@ -2133,6 +2235,7 @@
       {
         "number": 17,
         "title": "低体温のキス",
+        "key": "teitaionnokiss",
         "inCdType": [
           "B"
         ],
@@ -2152,6 +2255,7 @@
       {
         "number": 18,
         "title": "遥かなるブータン",
+        "key": "harukanarubhutan",
         "inCdType": [
           "B"
         ],
@@ -2171,6 +2275,7 @@
       {
         "number": 19,
         "title": "ポピパッパパー",
+        "key": "popipappappa",
         "inCdType": [
           "B"
         ],
@@ -2191,6 +2296,7 @@
       {
         "number": 20,
         "title": "制服を脱いでサヨナラを…",
+        "key": "seifukuwonuidesayonarawo",
         "inCdType": [
           "B"
         ],
@@ -2208,6 +2314,7 @@
       {
         "number": 21,
         "title": "憂鬱と風船ガム",
+        "key": "yuuutsutofuusengamu",
         "inCdType": [
           "B"
         ],
@@ -2227,6 +2334,7 @@
       {
         "number": 22,
         "title": "立ち直り中",
+        "key": "tachinaorichuu",
         "inCdType": [
           "B"
         ],
@@ -2246,6 +2354,7 @@
       {
         "number": 23,
         "title": "失恋したら、顔を洗え!",
+        "key": "shitsurenshitarakaowoarae",
         "inCdType": [
           "C"
         ],
@@ -2265,6 +2374,7 @@
       {
         "number": 24,
         "title": "かき氷の片想い",
+        "key": "kakigoorinokataomoi",
         "inCdType": [
           "C"
         ],
@@ -2282,6 +2392,7 @@
       {
         "number": 25,
         "title": "大人への近道",
+        "key": "otonahenochikamichi",
         "inCdType": [
           "C"
         ],
@@ -2301,6 +2412,7 @@
       {
         "number": 26,
         "title": "君は僕と会わない方がよかったのかな",
+        "key": "kimihabokuto",
         "inCdType": [
           "C"
         ],
@@ -2320,6 +2432,7 @@
       {
         "number": 27,
         "title": "別れ際、もっと好きになる",
+        "key": "wakaregiwa",
         "inCdType": [
           "C"
         ],
@@ -2339,6 +2452,7 @@
       {
         "number": 28,
         "title": "嫉妬の権利",
+        "key": "shittonokenri",
         "inCdType": [
           "C"
         ],
@@ -2359,6 +2473,7 @@
       {
         "number": 29,
         "title": "不等号",
+        "key": "futoogo",
         "inCdType": [
           "C"
         ],
@@ -2378,6 +2493,7 @@
       {
         "number": 30,
         "title": "環状六号線",
+        "key": "kanjyourokugousen",
         "inCdType": [
           "D"
         ],
@@ -2397,6 +2513,7 @@
       {
         "number": 31,
         "title": "口約束",
+        "key": "kuchiyakusoku",
         "inCdType": [
           "D"
         ],
@@ -2416,6 +2533,7 @@
       {
         "number": 32,
         "title": "ロマンティックいか焼き",
+        "key": "romanticikayaki",
         "inCdType": [
           "D"
         ],
@@ -2433,6 +2551,7 @@
       {
         "number": 33,
         "title": "ハウス!",
+        "key": "house",
         "inCdType": [
           "D"
         ],
@@ -2452,6 +2571,7 @@
       {
         "number": 34,
         "title": "そんなバカな…",
+        "key": "sonnabakana",
         "inCdType": [
           "D"
         ],
@@ -2471,6 +2591,7 @@
       {
         "number": 35,
         "title": "シャキイズム",
+        "key": "shakism",
         "inCdType": [
           "D"
         ],
@@ -2491,6 +2612,7 @@
       {
         "number": 36,
         "title": "ロマンスのスタート",
+        "key": "romancenostart",
         "inCdType": [
           "D"
         ],
@@ -2541,6 +2663,7 @@
       {
         "number": 1,
         "title": "OVERTURE",
+        "key": "OVERTURE",
         "inCdType": [
           "A",
           "B",
@@ -2560,6 +2683,7 @@
       {
         "number": 2,
         "title": "ぐるぐるカーテン",
+        "key": "gurugurucurtain",
         "inCdType": [
           "A",
           "B",
@@ -2581,6 +2705,7 @@
       {
         "number": 3,
         "title": "おいでシャンプー",
+        "key": "oideshampo",
         "inCdType": [
           "A",
           "B",
@@ -2602,6 +2727,7 @@
       {
         "number": 4,
         "title": "走れ!Bicycle",
+        "key": "hashirebicycle",
         "inCdType": [
           "A",
           "B",
@@ -2623,6 +2749,7 @@
       {
         "number": 5,
         "title": "制服のマネキン",
+        "key": "seifukunomannequin",
         "inCdType": [
           "A",
           "B",
@@ -2644,6 +2771,7 @@
       {
         "number": 6,
         "title": "君の名は希望",
+        "key": "kiminonahakibou",
         "inCdType": [
           "A",
           "B",
@@ -2665,6 +2793,7 @@
       {
         "number": 7,
         "title": "ガールズルール",
+        "key": "girlsrule",
         "inCdType": [
           "A",
           "B",
@@ -2686,6 +2815,7 @@
       {
         "number": 8,
         "title": "バレッタ",
+        "key": "valletta",
         "inCdType": [
           "A",
           "B",
@@ -2707,6 +2837,7 @@
       {
         "number": 9,
         "title": "気づいたら片想い",
+        "key": "kiduitarakataomoi",
         "inCdType": [
           "A",
           "B",
@@ -2728,6 +2859,7 @@
       {
         "number": 10,
         "title": "夏のFree&Easy",
+        "key": "natsunofreeeasy",
         "inCdType": [
           "A",
           "B",
@@ -2749,6 +2881,7 @@
       {
         "number": 11,
         "title": "何度目の青空か?",
+        "key": "nandomenoaozoraka",
         "inCdType": [
           "A",
           "B",
@@ -2770,6 +2903,7 @@
       {
         "number": 12,
         "title": "誰かは味方",
+        "key": "darekanomikata",
         "inCdType": [
           "A",
           "B",
@@ -2789,6 +2923,7 @@
       {
         "number": 13,
         "title": "革命の馬",
+        "key": "kakumeinouma",
         "inCdType": [
           "A",
           "B",
@@ -2808,6 +2943,7 @@
       {
         "number": 14,
         "title": "僕がいる場所",
+        "key": "bokugairubasho",
         "inCdType": [
           "A",
           "B",
@@ -2829,6 +2965,7 @@
       {
         "number": 15,
         "title": "あなたのために弾きたい",
+        "key": "anatanotamenihikitai",
         "inCdType": [
           "A",
           "B",
@@ -2850,6 +2987,7 @@
       {
         "number": 16,
         "title": "他の星から",
+        "key": "hokanohoshikara",
         "inCdType": [
           "A",
           "B"
@@ -2870,6 +3008,7 @@
       {
         "number": 17,
         "title": "私のために 誰かのために",
+        "key": "watanotamenidarekanotameni",
         "inCdType": [
           "A",
           "B"
@@ -2890,6 +3029,7 @@
       {
         "number": 18,
         "title": "せっかちなかたつむり",
+        "key": "sekkachinakatatsumuri",
         "inCdType": [
           "A",
           "B"
@@ -2910,6 +3050,7 @@
       {
         "number": 19,
         "title": "涙がまだ悲しみだった頃",
+        "key": "namidagamadakanashimi",
         "inCdType": [
           "A",
           "B"
@@ -2930,6 +3071,7 @@
       {
         "number": 20,
         "title": "無口なライオン",
+        "key": "mukuchinalion",
         "inCdType": [
           "A",
           "B"
@@ -2950,6 +3092,7 @@
       {
         "number": 21,
         "title": "世界で一番 孤独なLover",
+        "key": "sekaideichibankodokuralover",
         "inCdType": [
           "A",
           "B"
@@ -2970,6 +3113,7 @@
       {
         "number": 22,
         "title": "あの日 僕は咄嗟に嘘をついた",
+        "key": "anohibokuha",
         "inCdType": [
           "A",
           "B"
@@ -2990,6 +3134,7 @@
       {
         "number": 23,
         "title": "13日の金曜日",
+        "key": "13nichinokinyoubi",
         "inCdType": [
           "A",
           "B"
@@ -3010,6 +3155,7 @@
       {
         "number": 24,
         "title": "失いたくないから",
+        "key": "ushinaitakunaikara",
         "inCdType": [
           "A",
           "B"
@@ -3031,6 +3177,7 @@
       {
         "number": 25,
         "title": "ダンケシェーン",
+        "key": "dankeschan",
         "inCdType": [
           "A",
           "B"
@@ -3051,6 +3198,7 @@
       {
         "number": 26,
         "title": "傾斜する",
+        "key": "keishasuru",
         "inCdType": [
           "A",
           "B"
@@ -3071,6 +3219,7 @@
       {
         "number": 27,
         "title": "なぞの落書き",
+        "key": "nazonorakugaki",
         "inCdType": [
           "A",
           "B"
@@ -3089,6 +3238,7 @@
       {
         "number": 28,
         "title": "自由の彼方",
+        "key": "jiyuunokanata",
         "inCdType": [
           "A",
           "B"
@@ -3109,6 +3259,7 @@
       {
         "number": 29,
         "title": "ひとりよがり",
+        "key": "hitoriyogari",
         "inCdType": [
           "A",
           "B"

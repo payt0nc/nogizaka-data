@@ -41,6 +41,7 @@
       {
         "number": 1,
         "title": "帰り道は遠回りしたくなる",
+        "key": "kaerimichi",
         "inCdType": [
           "A",
           "B",
@@ -64,6 +65,7 @@
       {
         "number": 2,
         "title": "キャラバンは眠らない",
+        "key": "caravan",
         "inCdType": [
           "A",
           "B",
@@ -87,6 +89,7 @@
       {
         "number": 3,
         "title": "つづく",
+        "key": "tsuduku",
         "inCdType": [
           "A"
         ],
@@ -106,6 +109,7 @@
       {
         "number": 4,
         "title": "日常",
+        "key": "nichijou",
         "inCdType": [
           "B"
         ],
@@ -125,6 +129,7 @@
       {
         "number": 5,
         "title": "告白の順番",
+        "key": "kokuhakunojunban",
         "inCdType": [
           "C"
         ],
@@ -144,6 +149,7 @@
       {
         "number": 6,
         "title": "ショパンの嘘つき",
+        "key": "chopinnousotsuki",
         "inCdType": [
           "D"
         ],
@@ -161,6 +167,7 @@
       {
         "number": 7,
         "title": "知りたいこと",
+        "key": "shiritaikoto",
         "inCdType": [
           "T"
         ],
@@ -223,6 +230,7 @@
       {
         "number": 1,
         "title": "ジコチューで行こう!",
+        "key": "jikochu",
         "inCdType": [
           "A",
           "B",
@@ -246,6 +254,7 @@
       {
         "number": 2,
         "title": "空扉",
+        "key": "soratobira",
         "inCdType": [
           "A",
           "B",
@@ -269,6 +278,7 @@
       {
         "number": 3,
         "title": "三角の空き地",
+        "key": "sankakunoakichi",
         "inCdType": [
           "A"
         ],
@@ -288,6 +298,7 @@
       {
         "number": 4,
         "title": "自分じゃない感じ",
+        "key": "jibunjanaikanji",
         "inCdType": [
           "B"
         ],
@@ -307,6 +318,7 @@
       {
         "number": 5,
         "title": "心のモノローグ",
+        "key": "kokoronomonolog",
         "inCdType": [
           "C"
         ],
@@ -324,6 +336,7 @@
       {
         "number": 6,
         "title": "地球が丸いなら",
+        "key": "chikyuugamaruinara",
         "inCdType": [
           "D"
         ],
@@ -341,6 +354,7 @@
       {
         "number": 7,
         "title": "あんなに好きだったのに・・・",
+        "key": "annarisukidatta",
         "inCdType": [
           "T"
         ],
@@ -407,6 +421,7 @@
       {
         "number": 1,
         "title": "シンクロニシティ",
+        "key": "synchronicity",
         "inCdType": [
           "A",
           "B",
@@ -430,6 +445,7 @@
       {
         "number": 2,
         "title": "Against",
+        "key": "against",
         "inCdType": [
           "A",
           "B",
@@ -453,6 +469,7 @@
       {
         "number": 3,
         "title": "雲になればいい",
+        "key": "kumoninarebaii",
         "inCdType": [
           "A"
         ],
@@ -472,6 +489,7 @@
       {
         "number": 4,
         "title": "新しい世界",
+        "key": "atarashiisekai",
         "inCdType": [
           "B"
         ],
@@ -491,6 +509,7 @@
       {
         "number": 5,
         "title": "スカウトマン",
+        "key": "scoutman",
         "inCdType": [
           "C"
         ],
@@ -510,6 +529,7 @@
       {
         "number": 6,
         "title": "トキトキメキメキ",
+        "key": "tokitokimekimeki",
         "inCdType": [
           "D"
         ],
@@ -529,6 +549,7 @@
       {
         "number": 7,
         "title": "言霊砲",
+        "key": "kotodamahou",
         "inCdType": [
           "T"
         ],
@@ -595,6 +616,7 @@
       {
         "number": 1,
         "title": "いつかできるから今日できる",
+        "key": "itsukadekiru",
         "inCdType": [
           "A",
           "B",
@@ -619,6 +641,7 @@
       {
         "number": 2,
         "title": "不眠症",
+        "key": "fumenshou",
         "inCdType": [
           "A",
           "B",
@@ -643,6 +666,7 @@
       {
         "number": 3,
         "title": "まあいいか?",
+        "key": "maaiika",
         "inCdType": [
           "A"
         ],
@@ -660,6 +684,7 @@
       {
         "number": 4,
         "title": "失恋お掃除人",
+        "key": "shirenosoujinin",
         "inCdType": [
           "B"
         ],
@@ -679,6 +704,7 @@
       {
         "number": 5,
         "title": "My rule",
+        "key": "myrule",
         "inCdType": [
           "C"
         ],
@@ -698,6 +724,7 @@
       {
         "number": 6,
         "title": "僕の衝動",
+        "key": "bokunoshoudou",
         "inCdType": [
           "D"
         ],
@@ -717,6 +744,7 @@
       {
         "number": 7,
         "title": "新しい花粉 〜ミュージカル「見知らぬ世界」より〜",
+        "key": "atarashiikafun",
         "inCdType": [
           "T"
         ],
@@ -792,6 +820,7 @@
       {
         "number": 1,
         "title": "逃げ水",
+        "key": "nigemizu",
         "inCdType": [
           "A",
           "B",
@@ -816,6 +845,7 @@
       {
         "number": 2,
         "title": "女は一人じゃ眠れない",
+        "key": "onnahahitorija",
         "inCdType": [
           "A",
           "B",
@@ -840,6 +870,7 @@
       {
         "number": 3,
         "title": "ひと夏の長さより…",
+        "key": "hitonatsunonagasa",
         "inCdType": [
           "A"
         ],
@@ -860,6 +891,7 @@
       {
         "number": 4,
         "title": "泣いたっていいじゃないか?",
+        "key": "naitatteiijanaika",
         "inCdType": [
           "B"
         ],
@@ -879,6 +911,7 @@
       {
         "number": 5,
         "title": "アンダー",
+        "key": "under",
         "inCdType": [
           "C"
         ],
@@ -899,6 +932,7 @@
       {
         "number": 6,
         "title": "ライブ神",
+        "key": "liveshin",
         "inCdType": [
           "D"
         ],
@@ -918,6 +952,7 @@
       {
         "number": 7,
         "title": "未来の答え",
+        "key": "mirainokotae",
         "inCdType": [
           "T"
         ],
@@ -996,6 +1031,7 @@
       {
         "number": 1,
         "title": "インフルエンサー",
+        "key": "influencer",
         "inCdType": [
           "A",
           "B",
@@ -1020,6 +1056,7 @@
       {
         "number": 2,
         "title": "人生を考えたくなる",
+        "key": "jinseiwokangaetakunaru",
         "inCdType": [
           "A",
           "B",
@@ -1043,6 +1080,7 @@
       {
         "number": 3,
         "title": "意外BREAK",
+        "key": "igaibreak",
         "inCdType": [
           "A"
         ],
@@ -1062,6 +1100,7 @@
       {
         "number": 4,
         "title": "Another Ghost",
+        "key": "anotherghost",
         "inCdType": [
           "B"
         ],
@@ -1081,6 +1120,7 @@
       {
         "number": 5,
         "title": "風船は生きている",
+        "key": "fusuenhaikiteiru",
         "inCdType": [
           "C"
         ],
@@ -1100,6 +1140,7 @@
       {
         "number": 6,
         "title": "三番目の風",
+        "key": "sanbanmenokaze",
         "inCdType": [
           "D"
         ],
@@ -1119,6 +1160,7 @@
       {
         "number": 7,
         "title": "当たり障りのない話",
+        "key": "atarisawarinonaihanashi",
         "inCdType": [
           "T"
         ],
@@ -1198,6 +1240,7 @@
       {
         "number": 1,
         "title": "サヨナラの意味",
+        "key": "sayonaranoimi",
         "inCdType": [
           "A",
           "B",
@@ -1221,6 +1264,7 @@
       {
         "number": 2,
         "title": "孤独な青空",
+        "key": "kodokunaaozora",
         "inCdType": [
           "A",
           "B",
@@ -1244,6 +1288,7 @@
       {
         "number": 3,
         "title": "あの教室",
+        "key": "anokyoushitsu",
         "inCdType": [
           "A"
         ],
@@ -1261,6 +1306,7 @@
       {
         "number": 4,
         "title": "ブランコ",
+        "key": "bulanko",
         "inCdType": [
           "B"
         ],
@@ -1280,6 +1326,7 @@
       {
         "number": 5,
         "title": "2度目のキスから",
+        "key": "nidomenokisskara",
         "inCdType": [
           "C"
         ],
@@ -1299,6 +1346,7 @@
       {
         "number": 6,
         "title": "君に贈る花がない",
+        "key": "kiminiokuruhanaganai",
         "inCdType": [
           "D"
         ],
@@ -1318,6 +1366,7 @@
       {
         "number": 7,
         "title": "ないものねだり",
+        "key": "naimononedari",
         "inCdType": [
           "T"
         ],
@@ -1382,6 +1431,7 @@
       {
         "number": 1,
         "title": "裸足でSummer",
+        "key": "hadasummer",
         "inCdType": [
           "A",
           "B",
@@ -1405,6 +1455,7 @@
       {
         "number": 2,
         "title": "僕だけの光",
+        "key": "bokudakenohikari",
         "inCdType": [
           "A",
           "B",
@@ -1428,6 +1479,7 @@
       {
         "number": 3,
         "title": "オフショアガール",
+        "key": "offshoregirl",
         "inCdType": [
           "A"
         ],
@@ -1447,6 +1499,7 @@
       {
         "number": 4,
         "title": "命の真実 ミュージカル「林檎売りとカメムシ」",
+        "key": "inochinoshinjitsu",
         "inCdType": [
           "B"
         ],
@@ -1466,6 +1519,7 @@
       {
         "number": 5,
         "title": "白米様",
+        "key": "hakumaisama",
         "inCdType": [
           "C"
         ],
@@ -1485,6 +1539,7 @@
       {
         "number": 6,
         "title": "シークレットグラフィティー",
+        "key": "secretgravity",
         "inCdType": [
           "D"
         ],
@@ -1504,6 +1559,7 @@
       {
         "number": 7,
         "title": "行くあてのない僕たち",
+        "key": "ikuatenonaibokutachi",
         "inCdType": [
           "T"
         ],
@@ -1566,6 +1622,7 @@
       {
         "number": 1,
         "title": "ハルジオンが咲く頃",
+        "key": "harujion",
         "inCdType": [
           "A",
           "B",
@@ -1589,6 +1646,7 @@
       {
         "number": 2,
         "title": "遥かなるブータン",
+        "key": "harukanarubhutan",
         "inCdType": [
           "A",
           "B",
@@ -1612,6 +1670,7 @@
       {
         "number": 3,
         "title": "強がる蕾",
+        "key": "tsuyogarutsubomi",
         "inCdType": [
           "A"
         ],
@@ -1631,6 +1690,7 @@
       {
         "number": 4,
         "title": "急斜面",
+        "key": "kyuushamen",
         "inCdType": [
           "B"
         ],
@@ -1648,6 +1708,7 @@
       {
         "number": 5,
         "title": "釣り堀",
+        "key": "tsuribori",
         "inCdType": [
           "C"
         ],
@@ -1667,6 +1728,7 @@
       {
         "number": 6,
         "title": "不等号",
+        "key": "futoogo",
         "inCdType": [
           "D"
         ],
@@ -1686,6 +1748,7 @@
       {
         "number": 7,
         "title": "憂鬱と風船ガム",
+        "key": "yuuutsutofuusengamu",
         "inCdType": [
           "T"
         ],
@@ -1745,6 +1808,7 @@
       {
         "number": 1,
         "title": "今、話したい誰かがいる",
+        "key": "imahana",
         "inCdType": [
           "A",
           "B",
@@ -1768,6 +1832,7 @@
       {
         "number": 2,
         "title": "嫉妬の権利",
+        "key": "shittonokenri",
         "inCdType": [
           "A",
           "B",
@@ -1791,6 +1856,7 @@
       {
         "number": 3,
         "title": "ポピパッパパー",
+        "key": "popipappappa",
         "inCdType": [
           "A"
         ],
@@ -1811,6 +1877,7 @@
       {
         "number": 4,
         "title": "大人への近道",
+        "key": "otonahenochikamichi",
         "inCdType": [
           "B"
         ],
@@ -1830,6 +1897,7 @@
       {
         "number": 5,
         "title": "悲しみの忘れ方",
+        "key": "kanashiminowasurekata",
         "inCdType": [
           "C"
         ],
@@ -1849,6 +1917,7 @@
       {
         "number": 6,
         "title": "隙間",
+        "key": "sukima",
         "inCdType": [
           "T"
         ],
@@ -1908,6 +1977,7 @@
       {
         "number": 1,
         "title": "太陽ノック",
+        "key": "taiyouknock",
         "inCdType": [
           "A",
           "B",
@@ -1931,6 +2001,7 @@
       {
         "number": 2,
         "title": "もう少しの夢",
+        "key": "mousukoshinoyume",
         "inCdType": [
           "A",
           "B",
@@ -1954,6 +2025,7 @@
       {
         "number": 3,
         "title": "魚たちのLOVE SONG",
+        "key": "sakanatachinolovesong",
         "inCdType": [
           "A"
         ],
@@ -1971,6 +2043,7 @@
       {
         "number": 4,
         "title": "無表情",
+        "key": "muhyoujyou",
         "inCdType": [
           "B"
         ],
@@ -1990,6 +2063,7 @@
       {
         "number": 5,
         "title": "別れ際、もっと好きになる",
+        "key": "wakaregiwa",
         "inCdType": [
           "C"
         ],
@@ -2009,6 +2083,7 @@
       {
         "number": 6,
         "title": "羽根の記憶",
+        "key": "hanenokioku",
         "inCdType": [
           "T"
         ],
@@ -2028,6 +2103,7 @@
       {
         "number": 7,
         "title": "制服を脱いでサヨナラを…",
+        "key": "seifukuwonuidesayonarawo",
         "inCdType": [
           "T"
         ],
@@ -2087,6 +2163,7 @@
       {
         "number": 1,
         "title": "命は美しい",
+        "key": "inochihautsukushii",
         "inCdType": [
           "A",
           "B",
@@ -2109,6 +2186,7 @@
       {
         "number": 2,
         "title": "あらかじめ語られるロマンス",
+        "key": "arakajimekatarareruromance",
         "inCdType": [
           "A",
           "B",
@@ -2132,6 +2210,7 @@
       {
         "number": 3,
         "title": "立ち直り中",
+        "key": "tachinaorichuu",
         "inCdType": [
           "A"
         ],
@@ -2151,6 +2230,7 @@
       {
         "number": 4,
         "title": "ごめんね ずっと…",
+        "key": "gomennezutto",
         "inCdType": [
           "B"
         ],
@@ -2170,6 +2250,7 @@
       {
         "number": 5,
         "title": "君は僕と会わない方がよかったのかな",
+        "key": "kimihabokuto",
         "inCdType": [
           "C"
         ],
@@ -2189,6 +2270,7 @@
       {
         "number": 6,
         "title": "ボーダー",
+        "key": "border",
         "inCdType": [
           "T"
         ],
@@ -2255,6 +2337,7 @@
       {
         "number": 1,
         "title": "何度目の青空か?",
+        "key": "nandomenoaozoraka",
         "inCdType": [
           "A",
           "B",
@@ -2277,6 +2360,7 @@
       {
         "number": 2,
         "title": "遠回りの愛情",
+        "key": "toomawarinoaijou",
         "inCdType": [
           "A",
           "B",
@@ -2300,6 +2384,7 @@
       {
         "number": 3,
         "title": "転がった鐘を鳴らせ!",
+        "key": "korogattakanewonarase",
         "inCdType": [
           "A"
         ],
@@ -2319,6 +2404,7 @@
       {
         "number": 4,
         "title": "私、起きる。",
+        "key": "watashiokiru",
         "inCdType": [
           "B"
         ],
@@ -2338,6 +2424,7 @@
       {
         "number": 5,
         "title": "あの日 僕は咄嗟に嘘をついた",
+        "key": "anohibokuha",
         "inCdType": [
           "C"
         ],
@@ -2357,6 +2444,7 @@
       {
         "number": 6,
         "title": "Tender days",
+        "key": "tendergays",
         "inCdType": [
           "T"
         ],
@@ -2422,6 +2510,7 @@
       {
         "number": 1,
         "title": "夏のFree&Easy",
+        "key": "natsunofreeeasy",
         "inCdType": [
           "A",
           "B",
@@ -2444,6 +2533,7 @@
       {
         "number": 2,
         "title": "何もできずにそばにいる",
+        "key": "nanimodekizunisobaniiru",
         "inCdType": [
           "A",
           "B",
@@ -2466,6 +2556,7 @@
       {
         "number": 3,
         "title": "その先の出口!",
+        "key": "sonosakinodeguchi",
         "inCdType": [
           "A"
         ],
@@ -2485,6 +2576,7 @@
       {
         "number": 4,
         "title": "無口なライオン",
+        "key": "mukuchinalion",
         "inCdType": [
           "B"
         ],
@@ -2504,6 +2596,7 @@
       {
         "number": 5,
         "title": "ここにいる理由",
+        "key": "kokoniiruriyuu",
         "inCdType": [
           "C"
         ],
@@ -2523,6 +2616,7 @@
       {
         "number": 6,
         "title": "僕が行かなきゃ誰が行くんだ?",
+        "key": "bokugaikanakyadaregaikunda",
         "inCdType": [
           "T"
         ],
@@ -2595,6 +2689,7 @@
       {
         "number": 1,
         "title": "気づいたら片想い",
+        "key": "kiduitarakataomoi",
         "inCdType": [
           "A",
           "B",
@@ -2617,6 +2712,7 @@
       {
         "number": 2,
         "title": "ロマンスのスタート",
+        "key": "romancenostart",
         "inCdType": [
           "A",
           "B",
@@ -2639,6 +2735,7 @@
       {
         "number": 3,
         "title": "吐息のメソッド",
+        "key": "toikimethod",
         "inCdType": [
           "A"
         ],
@@ -2656,6 +2753,7 @@
       {
         "number": 4,
         "title": "孤独兄弟",
+        "key": "kodokukyoudai",
         "inCdType": [
           "B"
         ],
@@ -2675,6 +2773,7 @@
       {
         "number": 5,
         "title": "生まれたままで",
+        "key": "umaretamamade",
         "inCdType": [
           "C"
         ],
@@ -2694,6 +2793,7 @@
       {
         "number": 6,
         "title": "ダンケシェーン",
+        "key": "dankeschan",
         "inCdType": [
           "T"
         ],
@@ -2765,6 +2865,7 @@
       {
         "number": 1,
         "title": "バレッタ",
+        "key": "valletta",
         "inCdType": [
           "A",
           "B",
@@ -2787,6 +2888,7 @@
       {
         "number": 2,
         "title": "月の大きさ",
+        "key": "tsukinoookisa",
         "inCdType": [
           "A",
           "B",
@@ -2809,6 +2911,7 @@
       {
         "number": 3,
         "title": "私のために 誰かのために",
+        "key": "watanotamenidarekanotameni",
         "inCdType": [
           "A"
         ],
@@ -2828,6 +2931,7 @@
       {
         "number": 4,
         "title": "そんなバカな…",
+        "key": "sonnabakana",
         "inCdType": [
           "B"
         ],
@@ -2847,6 +2951,7 @@
       {
         "number": 5,
         "title": "初恋の人を今でも",
+        "key": "hatsukoinohitowo",
         "inCdType": [
           "C"
         ],
@@ -2866,6 +2971,7 @@
       {
         "number": 6,
         "title": "やさしさとは",
+        "key": "yasashisatoha",
         "inCdType": [
           "T"
         ],
@@ -2941,6 +3047,7 @@
       {
         "number": 1,
         "title": "ガールズルール",
+        "key": "girlsrule",
         "inCdType": [
           "A",
           "B",
@@ -2963,6 +3070,7 @@
       {
         "number": 2,
         "title": "世界で一番 孤独なLover",
+        "key": "sekaideichibankodokuralover",
         "inCdType": [
           "A",
           "B",
@@ -2985,6 +3093,7 @@
       {
         "number": 3,
         "title": "コウモリよ",
+        "key": "koumoriyo",
         "inCdType": [
           "A"
         ],
@@ -3002,6 +3111,7 @@
       {
         "number": 4,
         "title": "扇風機",
+        "key": "senpuuki",
         "inCdType": [
           "B"
         ],
@@ -3021,6 +3131,7 @@
       {
         "number": 5,
         "title": "他の星から",
+        "key": "hokanohoshikara",
         "inCdType": [
           "C"
         ],
@@ -3040,6 +3151,7 @@
       {
         "number": 6,
         "title": "人間という楽器",
+        "key": "ningentoiugakki",
         "inCdType": [
           "T"
         ],
@@ -3113,6 +3225,7 @@
       {
         "number": 1,
         "title": "君の名は希望",
+        "key": "kiminonahakibou",
         "inCdType": [
           "A",
           "B",
@@ -3135,6 +3248,7 @@
       {
         "number": 2,
         "title": "シャキイズム",
+        "key": "shakism",
         "inCdType": [
           "A",
           "B",
@@ -3158,6 +3272,7 @@
       {
         "number": 3,
         "title": "ロマンティックいか焼き",
+        "key": "romanticikayaki",
         "inCdType": [
           "A"
         ],
@@ -3175,6 +3290,7 @@
       {
         "number": 4,
         "title": "13日の金曜日",
+        "key": "13nichinokinyoubi",
         "inCdType": [
           "B"
         ],
@@ -3194,6 +3310,7 @@
       {
         "number": 5,
         "title": "でこぴん",
+        "key": "dekopin",
         "inCdType": [
           "C"
         ],
@@ -3211,6 +3328,7 @@
       {
         "number": 6,
         "title": "サイコキネシスの可能性",
+        "key": "psychokinesesnokanousei",
         "inCdType": [
           "T"
         ],
@@ -3271,6 +3389,7 @@
       {
         "number": 1,
         "title": "制服のマネキン",
+        "key": "seifukunomannequin",
         "inCdType": [
           "A",
           "B",
@@ -3293,6 +3412,7 @@
       {
         "number": 2,
         "title": "指望遠鏡",
+        "key": "yubibouenkyou",
         "inCdType": [
           "A",
           "B",
@@ -3315,6 +3435,7 @@
       {
         "number": 3,
         "title": "やさしさなら間に合ってる",
+        "key": "yasashisanaramaniatteiru",
         "inCdType": [
           "A"
         ],
@@ -3335,6 +3456,7 @@
       {
         "number": 4,
         "title": "ここじゃないどこか",
+        "key": "kokojanaidokoka",
         "inCdType": [
           "B"
         ],
@@ -3352,6 +3474,7 @@
       {
         "number": 5,
         "title": "春のメロディー",
+        "key": "harunomelody",
         "inCdType": [
           "C"
         ],
@@ -3371,6 +3494,7 @@
       {
         "number": 6,
         "title": "渋谷ブルース",
+        "key": "shibuyablues",
         "inCdType": [
           "T"
         ],
@@ -3432,6 +3556,7 @@
       {
         "number": 1,
         "title": "走れ!Bicycle",
+        "key": "hashirebicycle",
         "inCdType": [
           "A",
           "B",
@@ -3454,6 +3579,7 @@
       {
         "number": 2,
         "title": "せっかちなかたつむり",
+        "key": "sekkachinakatatsumuri",
         "inCdType": [
           "A",
           "B",
@@ -3476,6 +3602,7 @@
       {
         "number": 3,
         "title": "涙がまだ悲しみだった頃",
+        "key": "namidagamadakanashimi",
         "inCdType": [
           "A"
         ],
@@ -3495,6 +3622,7 @@
       {
         "number": 4,
         "title": "人はなぜ走るのか?",
+        "key": "hitohanazehashirunoka",
         "inCdType": [
           "B"
         ],
@@ -3514,6 +3642,7 @@
       {
         "number": 5,
         "title": "音が出ないギター",
+        "key": "otogadenaiguitar",
         "inCdType": [
           "C"
         ],
@@ -3533,6 +3662,7 @@
       {
         "number": 6,
         "title": "海流の島よ",
+        "key": "kairyuunoshimayo",
         "inCdType": [
           "T"
         ],
@@ -3594,6 +3724,7 @@
       {
         "number": 1,
         "title": "おいでシャンプー",
+        "key": "oideshampo",
         "inCdType": [
           "A",
           "B",
@@ -3616,6 +3747,7 @@
       {
         "number": 2,
         "title": "心の薬",
+        "key": "kokoronokusuri",
         "inCdType": [
           "A",
           "B",
@@ -3638,6 +3770,7 @@
       {
         "number": 3,
         "title": "偶然を言い訳にして",
+        "key": "guuzenwoiiwakenishite",
         "inCdType": [
           "A"
         ],
@@ -3655,6 +3788,7 @@
       {
         "number": 4,
         "title": "水玉模様",
+        "key": "mizutamamoyou",
         "inCdType": [
           "B"
         ],
@@ -3674,6 +3808,7 @@
       {
         "number": 5,
         "title": "狼に口笛を",
+        "key": "ookaminikuchibuewo",
         "inCdType": [
           "C"
         ],
@@ -3693,6 +3828,7 @@
       {
         "number": 6,
         "title": "ハウス!",
+        "key": "house",
         "inCdType": [
           "T"
         ],
@@ -3754,6 +3890,7 @@
       {
         "number": 1,
         "title": "ぐるぐるカーテン",
+        "key": "gurugurucurtain",
         "inCdType": [
           "A",
           "B",
@@ -3776,6 +3913,7 @@
       {
         "number": 2,
         "title": "左胸の勇気",
+        "key": "hidarimunenoyuuki",
         "inCdType": [
           "A",
           "B",
@@ -3798,6 +3936,7 @@
       {
         "number": 3,
         "title": "乃木坂の詩",
+        "key": "nogizakanouta",
         "inCdType": [
           "A"
         ],
@@ -3817,6 +3956,7 @@
       {
         "number": 4,
         "title": "会いたかったかもしれない",
+        "key": "aitakattakamoshirenai",
         "inCdType": [
           "B"
         ],
@@ -3836,6 +3976,7 @@
       {
         "number": 5,
         "title": "失いたくないから",
+        "key": "ushinaitakunaikara",
         "inCdType": [
           "C"
         ],
@@ -3856,6 +3997,7 @@
       {
         "number": 6,
         "title": "白い雲にのって",
+        "key": "shiroikumoninotte",
         "inCdType": [
           "T"
         ],
