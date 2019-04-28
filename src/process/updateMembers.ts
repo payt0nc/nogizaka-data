@@ -7,7 +7,7 @@ import { FukujinType, GITHUB_CONTENTS_PATH, SongType } from "../utils/constants"
 
 const PROFILE_IMAGES_PATH = "src/images/members/";
 
-const recordUnits = (members: IMembers, units: IUnits) => {
+export const recordUnits = (members: IMembers, units: IUnits) => {
   for (const member of Object.values(members)) {
     member.units = [];
 
@@ -22,7 +22,7 @@ const recordUnits = (members: IMembers, units: IUnits) => {
   }
 };
 
-const recordPositions = (members: IMembers, singles: ISingles, songs: ISongs) => {
+export const recordPositions = (members: IMembers, singles: ISingles, songs: ISongs) => {
   for (const member of Object.values(members)) {
     member.positionsCounter = {
       center: 0,
@@ -112,7 +112,7 @@ const recordPositions = (members: IMembers, singles: ISingles, songs: ISongs) =>
   }
 };
 
-const recordProfileImages = (members: IMembers, singleCount: number) => {
+export const recordProfileImages = (members: IMembers, singleCount: number) => {
   for (const member of Object.values(members)) {
     for (let i = 1; i < singleCount + 1; i++) {
       const profileImageLargePath = `${PROFILE_IMAGES_PATH}${i}/${member.name}_large.jpg`;
@@ -158,10 +158,4 @@ const recordProfileImages = (members: IMembers, singleCount: number) => {
       };
     }
   }
-};
-
-export const updateMembers = (members: IMembers, units: IUnits, singles: ISingles, songs: ISongs) => {
-  recordUnits(members, units);
-  recordPositions(members, singles, songs);
-  recordProfileImages(members, Object.keys(singles).length);
 };
