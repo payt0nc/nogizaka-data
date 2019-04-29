@@ -32,74 +32,67 @@ export const recordPositions = (members: IMembers, singles: ISingles, songs: ISo
     };
 
     for (const single of Object.values(singles)) {
+      let singlePosition = PositionType.None;
+
       // Check trainee and skip.
       if (single.behindPerformers.trainees.includes(member.name)) {
-        Object.assign(member.positionsHistory, {
-          [single.number]: PositionType.Trainee,
-        });
+        singlePosition = PositionType.Trainee;
       } else if (single.behindPerformers.skips.includes(member.name)) {
-        Object.assign(member.positionsHistory, {
-          [single.number]: PositionType.Skip,
-        });
-      } else {
-        let singlePosition = PositionType.None;
+        singlePosition = PositionType.Skip;
+      }
 
-        for (const singleSong of single.songs) {
-          const song = songs[singleSong.title];
+      for (const singleSong of single.songs) {
+        const song = songs[singleSong.title];
 
-          // Calculate center, fukujin, selected.
-          if (singleSong.type === SongType.Title) {
-            // Check order: Center -> Fukujin -> Selected
-            if (song.performers.center.includes(member.name)) {
-              // Check Center
-              singlePosition = PositionType.Center;
-              member.positionsCounter.center += 1;
-              member.positionsCounter.fukujin += 1;
-              member.positionsCounter.selected += 1;
-            } else if (
-              song.performers.fukujin === FukujinType.RowOne &&
-              song.formations.firstRow.includes(member.name)
-            ) {
-              // Check Fukujin (first row case)
-              singlePosition = PositionType.Fukujin;
-              member.positionsCounter.fukujin += 1;
-              member.positionsCounter.selected += 1;
-            } else if (
-              song.performers.fukujin === FukujinType.RowOneTwo &&
-              (song.formations.firstRow.includes(member.name) || song.formations.secondRow.includes(member.name))
-            ) {
-              // Check Fukujin (first & second row case)
-              singlePosition = PositionType.Fukujin;
-              member.positionsCounter.fukujin += 1;
-              member.positionsCounter.selected += 1;
-            } else if (song.performers.fukujin instanceof Array && song.performers.fukujin.includes(member.name)) {
-              // Check Fukujin (irregular case)
-              singlePosition = PositionType.Fukujin;
-              member.positionsCounter.fukujin += 1;
-              member.positionsCounter.selected += 1;
-            } else if (
+        // Calculate center, fukujin, selected.
+        if (singleSong.type === SongType.Title) {
+          // Check order: Center -> Fukujin -> Selected
+          if (song.performers.center.includes(member.name)) {
+            // Check Center
+            singlePosition = PositionType.Center;
+            member.positionsCounter.center += 1;
+            member.positionsCounter.fukujin += 1;
+            member.positionsCounter.selected += 1;
+          } else if (song.performers.fukujin === FukujinType.RowOne && song.formations.firstRow.includes(member.name)) {
+            // Check Fukujin (first row case)
+            singlePosition = PositionType.Fukujin;
+            member.positionsCounter.fukujin += 1;
+            member.positionsCounter.selected += 1;
+          } else if (
+            song.performers.fukujin === FukujinType.RowOneTwo &&
+            (song.formations.firstRow.includes(member.name) || song.formations.secondRow.includes(member.name))
+          ) {
+            // Check Fukujin (first & second row case)
+            singlePosition = PositionType.Fukujin;
+            member.positionsCounter.fukujin += 1;
+            member.positionsCounter.selected += 1;
+          } else if (song.performers.fukujin instanceof Array && song.performers.fukujin.includes(member.name)) {
+            // Check Fukujin (irregular case)
+            singlePosition = PositionType.Fukujin;
+            member.positionsCounter.fukujin += 1;
+            member.positionsCounter.selected += 1;
+          } else if (
+            song.formations.firstRow.includes(member.name) ||
+            song.formations.secondRow.includes(member.name) ||
+            song.formations.thirdRow.includes(member.name)
+          ) {
+            // Check Selected
+            singlePosition = PositionType.Selected;
+            member.positionsCounter.selected += 1;
+          }
+        }
+
+        // Calculate under.
+        if (singleSong.type === SongType.Under) {
+          if (song.title === singleSong.title) {
+            if (
               song.formations.firstRow.includes(member.name) ||
               song.formations.secondRow.includes(member.name) ||
-              song.formations.thirdRow.includes(member.name)
+              song.formations.thirdRow.includes(member.name) ||
+              song.formations.fourthRow.includes(member.name)
             ) {
-              // Check Selected
-              singlePosition = PositionType.Selected;
-              member.positionsCounter.selected += 1;
-            }
-          }
-
-          // Calculate under.
-          if (singleSong.type === SongType.Under) {
-            if (song.title === singleSong.title) {
-              if (
-                song.formations.firstRow.includes(member.name) ||
-                song.formations.secondRow.includes(member.name) ||
-                song.formations.thirdRow.includes(member.name) ||
-                song.formations.fourthRow.includes(member.name)
-              ) {
-                singlePosition = PositionType.Under;
-                member.positionsCounter.under += 1;
-              }
+              singlePosition = PositionType.Under;
+              member.positionsCounter.under += 1;
             }
           }
         }

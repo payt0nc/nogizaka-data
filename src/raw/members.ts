@@ -99,7 +99,7 @@ const ikutaerika: IMember = {
       ],
     },
     {
-      title: "タイトル未定",
+      title: "インターミッション",
       release: "2019-01-22",
       type: PhotoAlbumType.PhotoAlbum,
       shopping: [
@@ -465,8 +465,8 @@ const etoumisa: IMember = {
   bloodType: BloodType.AB,
   sites: [
     {
-      title: "Nogizaka46",
-      url: "https://www.nogizaka46.com/member/detail/etoumisa.php",
+      title: "Instagram",
+      url: "https://www.instagram.com/misa_eto_official/",
     },
     {
       title: "755",
@@ -572,12 +572,16 @@ const kawagohina: IMember = {
   bloodType: BloodType.O,
   sites: [
     {
-      title: "Nogizaka46",
-      url: "https://www.nogizaka46.com/member/detail/kawagohina.php",
+      title: "Official",
+      url: "http://kawagopro.com/index.html",
     },
     {
-      title: "755",
-      url: "https://7gogo.jp/kawago-hina",
+      title: "Instagram",
+      url: "https://www.instagram.com/kawagohina3/",
+    },
+    {
+      title: "Twitter",
+      url: "https://twitter.com/kawagohina3",
     },
   ],
   photoAlbums: [],
@@ -1186,6 +1190,17 @@ const takayamakazumi: IMember = {
         },
       ],
     },
+    {
+      title: "独白",
+      release: "2019-02-26",
+      type: PhotoAlbumType.PhotoAlbum,
+      shopping: [
+        {
+          title: "Amazon",
+          url: "",
+        },
+      ],
+    },
   ],
   units: [],
   positionsHistory: {},
@@ -1346,8 +1361,12 @@ const nishinonanase: IMember = {
   bloodType: BloodType.O,
   sites: [
     {
-      title: "Nogizaka46",
-      url: "https://www.nogizaka46.com/member/detail/nishinonanase.php",
+      title: "Official",
+      url: "https://nishinonanase.com/",
+    },
+    {
+      title: "Instagram",
+      url: "https://www.instagram.com/nishino.nanase.official/",
     },
     {
       title: "755",
@@ -1424,12 +1443,8 @@ const noujouami: IMember = {
   bloodType: BloodType.A,
   sites: [
     {
-      title: "Nogizaka46",
-      url: "https://www.nogizaka46.com/member/detail/noujouami.php",
-    },
-    {
-      title: "755",
-      url: "https://7gogo.jp/nojo-ami",
+      title: "Instagram",
+      url: "https://www.instagram.com/noujoami_official/",
     },
   ],
   photoAlbums: [],
@@ -1896,8 +1911,12 @@ const wakatsukiyumi: IMember = {
   bloodType: BloodType.O,
   sites: [
     {
-      title: "Nogizaka46",
-      url: "https://www.nogizaka46.com/member/detail/wakatsukiyumi.php",
+      title: "Official",
+      url: "https://wakatsukiyumi.jp/",
+    },
+    {
+      title: "Instagram",
+      url: "https://www.instagram.com/yumi_wakatsuki_official/",
     },
   ],
   photoAlbums: [
@@ -2562,10 +2581,6 @@ const kawamuramahiro: IMember = {
       title: "Twitter",
       url: "https://twitter.com/Rotty_Rotty23",
     },
-    {
-      title: "755",
-      url: "https://7gogo.jp/kawamura-mahiro",
-    },
   ],
   photoAlbums: [],
   units: [],
@@ -2642,6 +2657,10 @@ const itoumarika: IMember = {
   height: 155,
   bloodType: BloodType.O,
   sites: [
+    {
+      title: "Official",
+      url: "https://itomarika.com/",
+    },
     {
       title: "Instagram",
       url: "https://www.instagram.com/marikaito_official/",
@@ -2741,8 +2760,12 @@ const fukagawamai: IMember = {
   bloodType: BloodType.O,
   sites: [
     {
+      title: "Official",
+      url: "http://www.tencarat.co.jp/fukagawamai/",
+    },
+    {
       title: "Instagram",
-      url: "https:///www.instagram.com/fukagawamai.official/",
+      url: "https://www.instagram.com/fukagawamai.official/",
     },
   ],
   photoAlbums: [
@@ -2934,16 +2957,7 @@ const yamatorina: IMember = {
   birthday: "1994-12-14",
   height: 162,
   bloodType: BloodType.O,
-  sites: [
-    {
-      title: "Instagram",
-      url: "https://www.instagram.com/rinarina.y/",
-    },
-    {
-      title: "Twitter",
-      url: "https://twitter.com/rinayamat0",
-    },
-  ],
+  sites: [],
   photoAlbums: [],
   units: [],
   positionsHistory: {},
@@ -3095,7 +3109,7 @@ const ichikirena: IMember = {
   sites: [
     {
       title: "日本テレビ",
-      url: "https://www.ntv.co.jp/announcer/profile/r_ichiki.html",
+      url: "http://www.ntv.co.jp/announcer/profile/r_ichiki.html",
     },
   ],
   photoAlbums: [],
@@ -3213,6 +3227,10 @@ const kashiwayukina: IMember = {
   bloodType: BloodType.B,
   sites: [
     {
+      title: "Instagram",
+      url: "https://www.instagram.com/yukina_812/",
+    },
+    {
       title: "Twitter",
       url: "https://twitter.com/y_k812/",
     },
@@ -3290,6 +3308,10 @@ const iwaseyumiko: IMember = {
     {
       title: "Twitter",
       url: "https://twitter.com/scarf_iwase/",
+    },
+    {
+      title: "けつばん",
+      url: "https://ketsuban.com/",
     },
   ],
   photoAlbums: [],
