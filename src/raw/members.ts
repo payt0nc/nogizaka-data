@@ -2537,7 +2537,12 @@ const saitouchiharu: IMember = {
   birthday: "1997-02-17",
   height: 166,
   bloodType: BloodType.A,
-  sites: [],
+  sites: [
+    {
+      title: "テレビ朝日",
+      url: "https://www.tv-asahi.co.jp/announcer/personal/women/saito/",
+    },
+  ],
   photoAlbums: [],
   units: [],
   positionsHistory: {},
