@@ -2190,7 +2190,12 @@
         ]
       }
     ],
-    "units": [],
+    "units": [
+      {
+        "name": "ナスカ",
+        "type": "unit"
+      }
+    ],
     "positionsHistory": {
       "1": "selected",
       "2": "under",
@@ -3568,10 +3573,6 @@
     "photoAlbums": [],
     "units": [
       {
-        "name": "ナスカ",
-        "type": "unit"
-      },
-      {
         "name": "真夏さんリスペクト軍団",
         "type": "corp"
       }
@@ -4460,6 +4461,10 @@
       }
     ],
     "units": [
+      {
+        "name": "ナスカ",
+        "type": "unit"
+      },
       {
         "name": "スイカ",
         "type": "corp"
@@ -6142,10 +6147,6 @@
     ],
     "photoAlbums": [],
     "units": [
-      {
-        "name": "ナスカ",
-        "type": "unit"
-      },
       {
         "name": "真夏さんリスペクト軍団",
         "type": "corp"

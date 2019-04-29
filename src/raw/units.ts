@@ -6,7 +6,8 @@ const whiteHigh: IUnit = {
   members: [MemberNames.ShiraishiMai, MemberNames.TakayamaKazumi],
   type: UnitType.Unit,
   songs: [],
-  description: "白石の「白」、高山の「高」をそれぞれ英語表記にした「WHITE」「HIGH」の組み合わせ",
+  description:
+    "白石の「白」、高山の「高」をそれぞれ英語表記にした「WHITE」「HIGH」の組み合わせ",
 };
 
 const kodokukyoudai: IUnit = {
@@ -36,12 +37,18 @@ const cinqEtoiles: IUnit = {
   ],
   type: UnitType.Unit,
   songs: [],
-  description: "13thシングルのアンダーメンバーより選抜。「サンクエトワール」とはフランス語で「五つ星」という意味",
+  description:
+    "13thシングルのアンダーメンバーより選抜。「サンクエトワール」とはフランス語で「五つ星」という意味",
 };
 
 const joshikouQuartet: IUnit = {
   name: "女子校カルテット",
-  members: [MemberNames.AkimotoManatsu, MemberNames.SakuraiReika, MemberNames.NakadaKana, MemberNames.WakatsukiYumi],
+  members: [
+    MemberNames.AkimotoManatsu,
+    MemberNames.SakuraiReika,
+    MemberNames.NakadaKana,
+    MemberNames.WakatsukiYumi,
+  ],
   type: UnitType.Unit,
   songs: [],
   description: "女子高に通っていたメンバーで結成",
@@ -49,7 +56,12 @@ const joshikouQuartet: IUnit = {
 
 const aneosaka: IUnit = {
   name: "姉御坂",
-  members: [MemberNames.EtouMisa, MemberNames.ShiraishiMai, MemberNames.TakayamaKazumi, MemberNames.MatsumuraSayuri],
+  members: [
+    MemberNames.EtouMisa,
+    MemberNames.ShiraishiMai,
+    MemberNames.TakayamaKazumi,
+    MemberNames.MatsumuraSayuri,
+  ],
   type: UnitType.Unit,
   songs: [],
   description: "グループ1期生年長メンバーで結成",
@@ -57,7 +69,11 @@ const aneosaka: IUnit = {
 
 const nasuka: IUnit = {
   name: "ナスカ",
-  members: [MemberNames.ItouMarika, MemberNames.SuzukiAyane, MemberNames.WatanabeMiria],
+  members: [
+    MemberNames.ItouMarika,
+    MemberNames.SaitouAsuka,
+    MemberNames.NishinoNanase,
+  ],
   type: UnitType.Unit,
   songs: [],
   description: "ナナセの「ナ」、アスカの「ス」、マリカの「カ」の組み合わせ",
@@ -65,15 +81,25 @@ const nasuka: IUnit = {
 
 const kasumigusa: IUnit = {
   name: "かすみ草",
-  members: [MemberNames.IkomaRina, MemberNames.InoueSayuri, MemberNames.HoshinoMinami, MemberNames.HoriMiona],
+  members: [
+    MemberNames.IkomaRina,
+    MemberNames.InoueSayuri,
+    MemberNames.HoshinoMinami,
+    MemberNames.HoriMiona,
+  ],
   type: UnitType.Unit,
   songs: [],
-  description: "かすみ草の花言葉は「名脇役」。主役を影で支える力のあるメンバーという意味が込められている",
+  description:
+    "かすみ草の花言葉は「名脇役」。主役を影で支える力のあるメンバーという意味が込められている",
 };
 
 const dontWorry: IUnit = {
   name: "藤桜梨",
-  members: [MemberNames.IkutaErika, MemberNames.EtouMisa, MemberNames.SakuraiReika],
+  members: [
+    MemberNames.IkutaErika,
+    MemberNames.EtouMisa,
+    MemberNames.SakuraiReika,
+  ],
   type: UnitType.Unit,
   songs: [],
   description: "ドンウォーリー",
@@ -81,7 +107,12 @@ const dontWorry: IUnit = {
 
 const imoutozaka: IUnit = {
   name: "いもうと坂",
-  members: [MemberNames.OozonoMomoko, MemberNames.KuboShiori, MemberNames.YamashitaMizuki, MemberNames.YodaYuuki],
+  members: [
+    MemberNames.OozonoMomoko,
+    MemberNames.KuboShiori,
+    MemberNames.YamashitaMizuki,
+    MemberNames.YodaYuuki,
+  ],
   type: UnitType.Unit,
   songs: [],
   description: "",
@@ -89,7 +120,12 @@ const imoutozaka: IUnit = {
 
 const sayuringoGundan: IUnit = {
   name: "さゆりんご軍団",
-  members: [MemberNames.MatsumuraSayuri, MemberNames.ItouKarin, MemberNames.SasakiKotoko, MemberNames.TeradaRanze],
+  members: [
+    MemberNames.MatsumuraSayuri,
+    MemberNames.ItouKarin,
+    MemberNames.SasakiKotoko,
+    MemberNames.TeradaRanze,
+  ],
   type: UnitType.Corp,
   songs: [],
   description: "",
@@ -97,7 +133,12 @@ const sayuringoGundan: IUnit = {
 
 const manatsusanRespectGundan: IUnit = {
   name: "真夏さんリスペクト軍団",
-  members: [MemberNames.AkimotoManatsu, MemberNames.SagaraIori, MemberNames.SuzukiAyane, MemberNames.WatanabeMiria],
+  members: [
+    MemberNames.AkimotoManatsu,
+    MemberNames.SagaraIori,
+    MemberNames.SuzukiAyane,
+    MemberNames.WatanabeMiria,
+  ],
   type: UnitType.Corp,
   songs: [],
   description: "",
