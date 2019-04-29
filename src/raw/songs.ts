@@ -2008,7 +2008,7 @@ const songFusenhaikiteiru: ISong = {
       MemberNames.SasakiKotoko,
       MemberNames.WadaMaaya,
       MemberNames.ItouJunna,
-      MemberNames.KawagoHina,
+      MemberNames.KawamuraMahiro,
     ],
     fourthRow: [],
   },

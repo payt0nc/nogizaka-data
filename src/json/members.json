@@ -9241,7 +9241,7 @@
       "14": "none",
       "15": "under",
       "16": "under",
-      "17": "none",
+      "17": "under",
       "18": "under",
       "19": "under",
       "20": "none",
@@ -9253,7 +9253,7 @@
       "center": 0,
       "fukujin": 0,
       "selected": 2,
-      "under": 15
+      "under": 16
     },
     "graduation": {
       "isGraduated": true,
