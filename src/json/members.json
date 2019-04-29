@@ -348,7 +348,7 @@
       "5": "fukujin",
       "6": "fukujin",
       "7": "fukujin",
-      "8": "none",
+      "8": "selected",
       "9": "skip",
       "10": "center",
       "11": "fukujin",
@@ -368,7 +368,7 @@
     "positionsCounter": {
       "center": 1,
       "fukujin": 20,
-      "selected": 21,
+      "selected": 22,
       "under": 0
     },
     "graduation": {
@@ -522,7 +522,7 @@
       "10": "under",
       "11": "under",
       "12": "under",
-      "13": "none",
+      "13": "under",
       "14": "under",
       "15": "under",
       "16": "under",
@@ -538,7 +538,7 @@
       "center": 0,
       "fukujin": 0,
       "selected": 0,
-      "under": 12
+      "under": 13
     },
     "graduation": {
       "isGraduated": false,
@@ -687,7 +687,7 @@
       "10": "trainee",
       "11": "trainee",
       "12": "under",
-      "13": "none",
+      "13": "under",
       "14": "under",
       "15": "under",
       "16": "under",
@@ -703,7 +703,7 @@
       "center": 0,
       "fukujin": 0,
       "selected": 0,
-      "under": 11
+      "under": 12
     },
     "graduation": {
       "isGraduated": false,
@@ -1871,7 +1871,7 @@
       "10": "under",
       "11": "under",
       "12": "under",
-      "13": "none",
+      "13": "under",
       "14": "under",
       "15": "selected",
       "16": "selected",
@@ -1887,7 +1887,7 @@
       "center": 0,
       "fukujin": 1,
       "selected": 6,
-      "under": 8
+      "under": 9
     },
     "graduation": {
       "isGraduated": false,
@@ -2373,7 +2373,7 @@
       "10": "under",
       "11": "under",
       "12": "selected",
-      "13": "none",
+      "13": "under",
       "14": "under",
       "15": "under",
       "16": "under",
@@ -2389,7 +2389,7 @@
       "center": 0,
       "fukujin": 0,
       "selected": 10,
-      "under": 11
+      "under": 12
     },
     "graduation": {
       "isGraduated": false,
@@ -2880,7 +2880,7 @@
       "10": "trainee",
       "11": "trainee",
       "12": "under",
-      "13": "none",
+      "13": "under",
       "14": "under",
       "15": "under",
       "16": "under",
@@ -2896,7 +2896,7 @@
       "center": 0,
       "fukujin": 0,
       "selected": 0,
-      "under": 11
+      "under": 12
     },
     "graduation": {
       "isGraduated": false,
@@ -3420,7 +3420,7 @@
       "10": "under",
       "11": "under",
       "12": "selected",
-      "13": "none",
+      "13": "under",
       "14": "under",
       "15": "under",
       "16": "selected",
@@ -3436,7 +3436,7 @@
       "center": 0,
       "fukujin": 0,
       "selected": 9,
-      "under": 6
+      "under": 7
     },
     "graduation": {
       "isGraduated": false,
@@ -3589,7 +3589,7 @@
       "10": "trainee",
       "11": "trainee",
       "12": "under",
-      "13": "none",
+      "13": "under",
       "14": "under",
       "15": "under",
       "16": "under",
@@ -3605,7 +3605,7 @@
       "center": 0,
       "fukujin": 0,
       "selected": 2,
-      "under": 9
+      "under": 10
     },
     "graduation": {
       "isGraduated": false,
@@ -3939,7 +3939,7 @@
       "10": "trainee",
       "11": "trainee",
       "12": "under",
-      "13": "none",
+      "13": "under",
       "14": "under",
       "15": "under",
       "16": "under",
@@ -3955,7 +3955,7 @@
       "center": 0,
       "fukujin": 0,
       "selected": 2,
-      "under": 9
+      "under": 10
     },
     "graduation": {
       "isGraduated": false,
@@ -4108,7 +4108,7 @@
       "10": "under",
       "11": "under",
       "12": "under",
-      "13": "none",
+      "13": "under",
       "14": "under",
       "15": "under",
       "16": "under",
@@ -4124,7 +4124,7 @@
       "center": 0,
       "fukujin": 1,
       "selected": 7,
-      "under": 15
+      "under": 16
     },
     "graduation": {
       "isGraduated": false,
@@ -4623,7 +4623,7 @@
       "10": "under",
       "11": "under",
       "12": "under",
-      "13": "none",
+      "13": "under",
       "14": "under",
       "15": "under",
       "16": "under",
@@ -4639,7 +4639,7 @@
       "center": 0,
       "fukujin": 0,
       "selected": 3,
-      "under": 19
+      "under": 20
     },
     "graduation": {
       "isGraduated": false,
@@ -4981,7 +4981,7 @@
       "10": "selected",
       "11": "selected",
       "12": "under",
-      "13": "none",
+      "13": "under",
       "14": "selected",
       "15": "selected",
       "16": "fukujin",
@@ -4997,7 +4997,7 @@
       "center": 1,
       "fukujin": 10,
       "selected": 15,
-      "under": 1
+      "under": 2
     },
     "graduation": {
       "isGraduated": false,
@@ -5486,7 +5486,7 @@
       "10": "trainee",
       "11": "trainee",
       "12": "skip",
-      "13": "none",
+      "13": "under",
       "14": "under",
       "15": "under",
       "16": "under",
@@ -5502,7 +5502,7 @@
       "center": 0,
       "fukujin": 0,
       "selected": 0,
-      "under": 10
+      "under": 11
     },
     "graduation": {
       "isGraduated": false,
@@ -6149,7 +6149,7 @@
       "10": "trainee",
       "11": "trainee",
       "12": "under",
-      "13": "none",
+      "13": "under",
       "14": "under",
       "15": "under",
       "16": "under",
@@ -6165,7 +6165,7 @@
       "center": 0,
       "fukujin": 0,
       "selected": 1,
-      "under": 10
+      "under": 11
     },
     "graduation": {
       "isGraduated": false,
@@ -6314,7 +6314,7 @@
       "10": "under",
       "11": "under",
       "12": "under",
-      "13": "none",
+      "13": "under",
       "14": "under",
       "15": "under",
       "16": "under",
@@ -6330,7 +6330,7 @@
       "center": 0,
       "fukujin": 0,
       "selected": 1,
-      "under": 21
+      "under": 22
     },
     "graduation": {
       "isGraduated": false,
@@ -8199,7 +8199,7 @@
       "10": "under",
       "11": "under",
       "12": "under",
-      "13": "none",
+      "13": "under",
       "14": "under",
       "15": "under",
       "16": "under",
@@ -8215,7 +8215,7 @@
       "center": 0,
       "fukujin": 0,
       "selected": 1,
-      "under": 20
+      "under": 21
     },
     "graduation": {
       "isGraduated": true,
@@ -8364,7 +8364,7 @@
       "10": "under",
       "11": "under",
       "12": "under",
-      "13": "none",
+      "13": "under",
       "14": "under",
       "15": "under",
       "16": "under",
@@ -8380,7 +8380,7 @@
       "center": 0,
       "fukujin": 0,
       "selected": 2,
-      "under": 18
+      "under": 19
     },
     "graduation": {
       "isGraduated": true,
@@ -8701,7 +8701,7 @@
       "10": "selected",
       "11": "under",
       "12": "under",
-      "13": "none",
+      "13": "under",
       "14": "under",
       "15": "under",
       "16": "under",
@@ -8717,7 +8717,7 @@
       "center": 0,
       "fukujin": 0,
       "selected": 1,
-      "under": 18
+      "under": 19
     },
     "graduation": {
       "isGraduated": true,
@@ -8866,7 +8866,7 @@
       "10": "trainee",
       "11": "selected",
       "12": "under",
-      "13": "none",
+      "13": "under",
       "14": "under",
       "15": "under",
       "16": "under",
@@ -8882,7 +8882,7 @@
       "center": 0,
       "fukujin": 0,
       "selected": 1,
-      "under": 8
+      "under": 9
     },
     "graduation": {
       "isGraduated": true,
@@ -9216,7 +9216,7 @@
       "10": "under",
       "11": "under",
       "12": "under",
-      "13": "none",
+      "13": "under",
       "14": "none",
       "15": "under",
       "16": "under",
@@ -9232,7 +9232,7 @@
       "center": 0,
       "fukujin": 0,
       "selected": 2,
-      "under": 14
+      "under": 15
     },
     "graduation": {
       "isGraduated": true,
@@ -9542,7 +9542,7 @@
       "10": "under",
       "11": "under",
       "12": "under",
-      "13": "none",
+      "13": "under",
       "14": "under",
       "15": "selected",
       "16": "selected",
@@ -9558,7 +9558,7 @@
       "center": 0,
       "fukujin": 0,
       "selected": 3,
-      "under": 13
+      "under": 14
     },
     "graduation": {
       "isGraduated": true,
@@ -10060,7 +10060,7 @@
       "10": "under",
       "11": "under",
       "12": "under",
-      "13": "none",
+      "13": "under",
       "14": "none",
       "15": "none",
       "16": "none",
@@ -10076,7 +10076,7 @@
       "center": 0,
       "fukujin": 0,
       "selected": 1,
-      "under": 11
+      "under": 12
     },
     "graduation": {
       "isGraduated": true,

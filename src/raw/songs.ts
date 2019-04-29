@@ -3014,7 +3014,7 @@ const songShittonokenri: ISong = {
     small: "",
   },
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
     compose: ["丸山真由子"],
@@ -4359,7 +4359,7 @@ const songKizuitarakataomoi: ISong = {
     secondRow: [
       MemberNames.SakuraiReika,
       MemberNames.WakatsukiYumi,
-      MemberNames.IkomaRina,
+      MemberNames.IkutaErika,
       MemberNames.MatsumuraSayuri,
       MemberNames.FukagawaMai,
     ],
