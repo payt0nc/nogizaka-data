@@ -1,5 +1,11 @@
 import { ISingle, ISingles } from "../models/ISingle";
-import { CdType, FocusPerformersType, MemberNames, SongType, SONGS } from "../utils/constants";
+import {
+  CdType,
+  FocusPerformersType,
+  MemberNames,
+  SongType,
+  SONGS,
+} from "../utils/constants";
 
 const singout: ISingle = {
   title: "Sing Out!",
@@ -2312,22 +2318,8 @@ const girlsrule: ISingle = {
     },
   ],
   behindPerformers: {
-    trainees: [
-      MemberNames.ItouKarin,
-      MemberNames.ItouJunna,
-      MemberNames.KitanoHinako,
-      MemberNames.SasakiKotoko,
-      MemberNames.ShinuchiMai,
-      MemberNames.SuzukiAyane,
-      MemberNames.TeradaRanze,
-      MemberNames.HoriMiona,
-      MemberNames.YamazakiRena,
-      MemberNames.WatanabeMiria,
-      MemberNames.YonetokuKyouka,
-      MemberNames.YadaRisako,
-      MemberNames.NishikawaNanami,
-    ],
-    skips: [MemberNames.SagaraIori],
+    trainees: [],
+    skips: [],
   },
 };
 

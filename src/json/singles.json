@@ -3386,24 +3386,8 @@
       }
     ],
     "behindPerformers": {
-      "trainees": [
-        "itoukarin",
-        "itoujunna",
-        "kitanohinako",
-        "sasakikotoko",
-        "shinuchimai",
-        "suzukiayane",
-        "teradaranze",
-        "horimiona",
-        "yamazakirena",
-        "watanabemiria",
-        "yonetokukyouka",
-        "yadarisako",
-        "nishikawananami"
-      ],
-      "skips": [
-        "sagaraiori"
-      ]
+      "trainees": [],
+      "skips": []
     }
   },
   {
