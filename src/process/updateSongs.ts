@@ -4,17 +4,18 @@ import { ISongs } from "../models/ISong";
 
 export const recordSongSingle = (songs: ISongs, singles: ISingles) => {
   for (const song of Object.values(songs)) {
-    song.single = "";
+    song.single.title = "";
 
     for (const single of Object.values(singles)) {
       for (const singleSong of single.songs) {
         if (singleSong.title === song.title) {
-          song.single = single.title;
+          song.single.title = single.title;
+          song.single.number = single.number;
           break;
         }
       }
 
-      if (song.single !== "") {
+      if (song.single.title !== "") {
         break;
       }
     }
@@ -28,21 +29,30 @@ export const recordSongAlbums = (songs: ISongs, albums: IAlbums) => {
     for (const album of Object.values(albums)) {
       for (const albumSong of album.songs) {
         if (albumSong.title === song.title) {
-          song.albums.push(album.title);
+          song.albums.push({
+            title: album.title,
+            number: album.number,
+          });
         }
       }
     }
 
     song.albums.sort(
-      (albumA, albumB) => new Date(albums[albumA].release).getTime() - new Date(albums[albumB].release).getTime(),
+      (albumA, albumB) =>
+        new Date(albums[albumA.title].release).getTime() -
+        new Date(albums[albumB.title].release).getTime(),
     );
   }
 };
 
-export const recordArtworks = (songs: ISongs, singles: ISingles, albums: IAlbums) => {
+export const recordArtworks = (
+  songs: ISongs,
+  singles: ISingles,
+  albums: IAlbums,
+) => {
   for (const song of Object.values(songs)) {
-    if (song.single !== "") {
-      const single = singles[song.single];
+    if (song.single.title !== "") {
+      const single = singles[song.single.title];
       for (const singleSong of single.songs) {
         if (singleSong.title === song.title) {
           song.artwork = single.artworks[singleSong.inCdType[0]];
@@ -50,7 +60,7 @@ export const recordArtworks = (songs: ISongs, singles: ISingles, albums: IAlbums
         }
       }
     } else if (song.albums.length > 0) {
-      const album = albums[song.albums[0]];
+      const album = albums[song.albums[0].title];
       for (const albumSong of album.songs) {
         if (albumSong.title === song.title) {
           song.artwork = album.artworks[albumSong.inCdType[0]];

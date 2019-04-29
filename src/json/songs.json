@@ -2,9 +2,15 @@
   {
     "title": "帰り道は遠回りしたくなる",
     "key": "kaerimichi",
-    "single": "帰り道は遠回りしたくなる",
+    "single": {
+      "title": "帰り道は遠回りしたくなる",
+      "number": "22"
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/22/A_large.jpg",
@@ -70,9 +76,15 @@
   {
     "title": "ジコチューで行こう!",
     "key": "jikochu",
-    "single": "ジコチューで行こう!",
+    "single": {
+      "title": "ジコチューで行こう!",
+      "number": "21"
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/21/A_large.jpg",
@@ -137,9 +149,15 @@
   {
     "title": "シンクロニシティ",
     "key": "synchronicity",
-    "single": "シンクロニシティ",
+    "single": {
+      "title": "シンクロニシティ",
+      "number": "20"
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/20/A_large.jpg",
@@ -204,9 +222,15 @@
   {
     "title": "いつかできるから今日できる",
     "key": "itsukadekiru",
-    "single": "いつかできるから今日できる",
+    "single": {
+      "title": "いつかできるから今日できる",
+      "number": "19"
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/19/A_large.jpg",
@@ -272,9 +296,15 @@
   {
     "title": "逃げ水",
     "key": "nigemizu",
-    "single": "逃げ水",
+    "single": {
+      "title": "逃げ水",
+      "number": "18"
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/18/A_large.jpg",
@@ -337,9 +367,15 @@
   {
     "title": "インフルエンサー",
     "key": "influencer",
-    "single": "インフルエンサー",
+    "single": {
+      "title": "インフルエンサー",
+      "number": "17"
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/17/A_large.jpg",
@@ -405,9 +441,15 @@
   {
     "title": "サヨナラの意味",
     "key": "sayonaranoimi",
-    "single": "サヨナラの意味",
+    "single": {
+      "title": "サヨナラの意味",
+      "number": "16"
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/16/A_large.jpg",
@@ -470,9 +512,15 @@
   {
     "title": "裸足でSummer",
     "key": "hadasummer",
-    "single": "裸足でSummer",
+    "single": {
+      "title": "裸足でSummer",
+      "number": "15"
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/15/A_large.jpg",
@@ -532,7 +580,10 @@
   {
     "title": "ハルジオンが咲く頃",
     "key": "harujion",
-    "single": "ハルジオンが咲く頃",
+    "single": {
+      "title": "ハルジオンが咲く頃",
+      "number": "14"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/14/A_large.jpg",
@@ -595,9 +646,15 @@
   {
     "title": "今、話したい誰かがいる",
     "key": "imahana",
-    "single": "今、話したい誰かがいる",
+    "single": {
+      "title": "今、話したい誰かがいる",
+      "number": "13"
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/13/A_large.jpg",
@@ -660,9 +717,15 @@
   {
     "title": "太陽ノック",
     "key": "taiyouknock",
-    "single": "太陽ノック",
+    "single": {
+      "title": "太陽ノック",
+      "number": "12"
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/12/A_large.jpg",
@@ -724,9 +787,15 @@
   {
     "title": "命は美しい",
     "key": "inochihautsukushii",
-    "single": "命は美しい",
+    "single": {
+      "title": "命は美しい",
+      "number": "11"
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/11/A_large.jpg",
@@ -788,9 +857,15 @@
   {
     "title": "何度目の青空か?",
     "key": "nandomenoaozoraka",
-    "single": "何度目の青空か?",
+    "single": {
+      "title": "何度目の青空か?",
+      "number": "10"
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/10/A_large.jpg",
@@ -850,9 +925,15 @@
   {
     "title": "夏のFree&Easy",
     "key": "natsunofreeeasy",
-    "single": "夏のFree&Easy",
+    "single": {
+      "title": "夏のFree&Easy",
+      "number": "9"
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/9/A_large.jpg",
@@ -913,9 +994,15 @@
   {
     "title": "気づいたら片想い",
     "key": "kiduitarakataomoi",
-    "single": "気づいたら片想い",
+    "single": {
+      "title": "気づいたら片想い",
+      "number": "8"
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/8/A_large.jpg",
@@ -975,9 +1062,15 @@
   {
     "title": "バレッタ",
     "key": "valletta",
-    "single": "バレッタ",
+    "single": {
+      "title": "バレッタ",
+      "number": "7"
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/7/A_large.jpg",
@@ -1038,9 +1131,15 @@
   {
     "title": "ガールズルール",
     "key": "girlsrule",
-    "single": "ガールズルール",
+    "single": {
+      "title": "ガールズルール",
+      "number": "6"
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/6/A_large.jpg",
@@ -1100,9 +1199,15 @@
   {
     "title": "君の名は希望",
     "key": "kiminonahakibou",
-    "single": "君の名は希望",
+    "single": {
+      "title": "君の名は希望",
+      "number": "5"
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/5/A_large.jpg",
@@ -1163,9 +1268,15 @@
   {
     "title": "制服のマネキン",
     "key": "seifukunomannequin",
-    "single": "制服のマネキン",
+    "single": {
+      "title": "制服のマネキン",
+      "number": "4"
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/4/A_large.jpg",
@@ -1225,9 +1336,15 @@
   {
     "title": "走れ!Bicycle",
     "key": "hashirebicycle",
-    "single": "走れ!Bicycle",
+    "single": {
+      "title": "走れ!Bicycle",
+      "number": "3"
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/3/A_large.jpg",
@@ -1298,9 +1415,15 @@
   {
     "title": "おいでシャンプー",
     "key": "oideshampo",
-    "single": "おいでシャンプー",
+    "single": {
+      "title": "おいでシャンプー",
+      "number": "2"
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/2/A_large.jpg",
@@ -1360,9 +1483,15 @@
   {
     "title": "ぐるぐるカーテン",
     "key": "gurugurucurtain",
-    "single": "ぐるぐるカーテン",
+    "single": {
+      "title": "ぐるぐるカーテン",
+      "number": "1"
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/1/A_large.jpg",
@@ -1422,9 +1551,15 @@
   {
     "title": "日常",
     "key": "nichijou",
-    "single": "帰り道は遠回りしたくなる",
+    "single": {
+      "title": "帰り道は遠回りしたくなる",
+      "number": "22"
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/22/B_large.jpg",
@@ -1488,9 +1623,15 @@
   {
     "title": "三角の空き地",
     "key": "sankakunoakichi",
-    "single": "ジコチューで行こう!",
+    "single": {
+      "title": "ジコチューで行こう!",
+      "number": "21"
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/21/A_large.jpg",
@@ -1552,9 +1693,15 @@
   {
     "title": "新しい世界",
     "key": "atarashiisekai",
-    "single": "シンクロニシティ",
+    "single": {
+      "title": "シンクロニシティ",
+      "number": "20"
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/20/B_large.jpg",
@@ -1619,10 +1766,19 @@
   {
     "title": "My rule",
     "key": "myrule",
-    "single": "いつかできるから今日できる",
+    "single": {
+      "title": "いつかできるから今日できる",
+      "number": "19"
+    },
     "albums": [
-      "僕だけの君〜Under Super Best〜",
-      "今が思い出になるまで"
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      },
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/19/C_large.jpg",
@@ -1681,10 +1837,19 @@
   {
     "title": "アンダー",
     "key": "under",
-    "single": "逃げ水",
+    "single": {
+      "title": "逃げ水",
+      "number": "18"
+    },
     "albums": [
-      "僕だけの君〜Under Super Best〜",
-      "今が思い出になるまで"
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      },
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/18/C_large.jpg",
@@ -1747,10 +1912,19 @@
   {
     "title": "風船は生きている",
     "key": "fusuenhaikiteiru",
-    "single": "インフルエンサー",
+    "single": {
+      "title": "インフルエンサー",
+      "number": "17"
+    },
     "albums": [
-      "生まれてから初めて見た夢",
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      },
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/17/C_large.jpg",
@@ -1808,10 +1982,19 @@
   {
     "title": "ブランコ",
     "key": "bulanko",
-    "single": "サヨナラの意味",
+    "single": {
+      "title": "サヨナラの意味",
+      "number": "16"
+    },
     "albums": [
-      "生まれてから初めて見た夢",
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      },
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/16/B_large.jpg",
@@ -1871,10 +2054,19 @@
   {
     "title": "シークレットグラフィティー",
     "key": "secretgravity",
-    "single": "裸足でSummer",
+    "single": {
+      "title": "裸足でSummer",
+      "number": "15"
+    },
     "albums": [
-      "生まれてから初めて見た夢",
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      },
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/15/D_large.jpg",
@@ -1937,10 +2129,19 @@
   {
     "title": "不等号",
     "key": "futoogo",
-    "single": "ハルジオンが咲く頃",
+    "single": {
+      "title": "ハルジオンが咲く頃",
+      "number": "14"
+    },
     "albums": [
-      "それぞれの椅子",
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      },
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/14/D_large.jpg",
@@ -2003,10 +2204,19 @@
   {
     "title": "嫉妬の権利",
     "key": "shittonokenri",
-    "single": "今、話したい誰かがいる",
+    "single": {
+      "title": "今、話したい誰かがいる",
+      "number": "13"
+    },
     "albums": [
-      "それぞれの椅子",
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      },
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/13/A_large.jpg",
@@ -2072,10 +2282,19 @@
   {
     "title": "別れ際、もっと好きになる",
     "key": "wakaregiwa",
-    "single": "太陽ノック",
+    "single": {
+      "title": "太陽ノック",
+      "number": "12"
+    },
     "albums": [
-      "それぞれの椅子",
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      },
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/12/C_large.jpg",
@@ -2139,10 +2358,19 @@
   {
     "title": "君は僕と会わない方がよかったのかな",
     "key": "kimihabokuto",
-    "single": "命は美しい",
+    "single": {
+      "title": "命は美しい",
+      "number": "11"
+    },
     "albums": [
-      "それぞれの椅子",
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      },
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/11/C_large.jpg",
@@ -2202,10 +2430,19 @@
   {
     "title": "あの日 僕は咄嗟に嘘をついた",
     "key": "anohibokuha",
-    "single": "何度目の青空か?",
+    "single": {
+      "title": "何度目の青空か?",
+      "number": "10"
+    },
     "albums": [
-      "透明な色",
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "透明な色",
+        "number": "1"
+      },
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/10/C_large.jpg",
@@ -2266,9 +2503,15 @@
   {
     "title": "ここにいる理由",
     "key": "kokoniiruriyuu",
-    "single": "夏のFree&Easy",
+    "single": {
+      "title": "夏のFree&Easy",
+      "number": "9"
+    },
     "albums": [
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/9/C_large.jpg",
@@ -2328,9 +2571,15 @@
   {
     "title": "生まれたままで",
     "key": "umaretamamade",
-    "single": "気づいたら片想い",
+    "single": {
+      "title": "気づいたら片想い",
+      "number": "8"
+    },
     "albums": [
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/8/C_large.jpg",
@@ -2391,9 +2640,15 @@
   {
     "title": "初恋の人を今でも",
     "key": "hatsukoinohitowo",
-    "single": "バレッタ",
+    "single": {
+      "title": "バレッタ",
+      "number": "7"
+    },
     "albums": [
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/7/C_large.jpg",
@@ -2450,9 +2705,15 @@
   {
     "title": "扇風機",
     "key": "senpuuki",
-    "single": "ガールズルール",
+    "single": {
+      "title": "ガールズルール",
+      "number": "6"
+    },
     "albums": [
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/6/B_large.jpg",
@@ -2513,10 +2774,19 @@
   {
     "title": "13日の金曜日",
     "key": "13nichinokinyoubi",
-    "single": "君の名は希望",
+    "single": {
+      "title": "君の名は希望",
+      "number": "5"
+    },
     "albums": [
-      "透明な色",
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "透明な色",
+        "number": "1"
+      },
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/5/B_large.jpg",
@@ -2577,9 +2847,15 @@
   {
     "title": "春のメロディー",
     "key": "harunomelody",
-    "single": "制服のマネキン",
+    "single": {
+      "title": "制服のマネキン",
+      "number": "4"
+    },
     "albums": [
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/4/C_large.jpg",
@@ -2641,10 +2917,19 @@
   {
     "title": "涙がまだ悲しみだった頃",
     "key": "namidagamadakanashimi",
-    "single": "走れ!Bicycle",
+    "single": {
+      "title": "走れ!Bicycle",
+      "number": "3"
+    },
     "albums": [
-      "透明な色",
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "透明な色",
+        "number": "1"
+      },
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/3/A_large.jpg",
@@ -2706,9 +2991,15 @@
   {
     "title": "狼に口笛を",
     "key": "ookaminikuchibuewo",
-    "single": "おいでシャンプー",
+    "single": {
+      "title": "おいでシャンプー",
+      "number": "2"
+    },
     "albums": [
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/2/C_large.jpg",
@@ -2770,9 +3061,15 @@
   {
     "title": "左胸の勇気",
     "key": "hidarimunenoyuuki",
-    "single": "ぐるぐるカーテン",
+    "single": {
+      "title": "ぐるぐるカーテン",
+      "number": "1"
+    },
     "albums": [
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/1/A_large.jpg",
@@ -2830,9 +3127,15 @@
   {
     "title": "キャラバンは眠らない",
     "key": "caravan",
-    "single": "帰り道は遠回りしたくなる",
+    "single": {
+      "title": "帰り道は遠回りしたくなる",
+      "number": "22"
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/22/A_large.jpg",
@@ -2890,9 +3193,15 @@
   {
     "title": "つづく",
     "key": "tsuduku",
-    "single": "帰り道は遠回りしたくなる",
+    "single": {
+      "title": "帰り道は遠回りしたくなる",
+      "number": "22"
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/22/A_large.jpg",
@@ -2933,7 +3242,10 @@
   {
     "title": "告白の順番",
     "key": "kokuhakunojunban",
-    "single": "帰り道は遠回りしたくなる",
+    "single": {
+      "title": "帰り道は遠回りしたくなる",
+      "number": "22"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/22/C_large.jpg",
@@ -2977,7 +3289,10 @@
   {
     "title": "ショパンの嘘つき",
     "key": "chopinnousotsuki",
-    "single": "帰り道は遠回りしたくなる",
+    "single": {
+      "title": "帰り道は遠回りしたくなる",
+      "number": "22"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/22/D_large.jpg",
@@ -3018,7 +3333,10 @@
   {
     "title": "知りたいこと",
     "key": "shiritaikoto",
-    "single": "帰り道は遠回りしたくなる",
+    "single": {
+      "title": "帰り道は遠回りしたくなる",
+      "number": "22"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/22/T_large.jpg",
@@ -3060,7 +3378,10 @@
   {
     "title": "空扉",
     "key": "soratobira",
-    "single": "ジコチューで行こう!",
+    "single": {
+      "title": "ジコチューで行こう!",
+      "number": "21"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/21/A_large.jpg",
@@ -3120,9 +3441,15 @@
   {
     "title": "自分じゃない感じ",
     "key": "jibunjanaikanji",
-    "single": "ジコチューで行こう!",
+    "single": {
+      "title": "ジコチューで行こう!",
+      "number": "21"
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/21/B_large.jpg",
@@ -3173,7 +3500,10 @@
   {
     "title": "心のモノローグ",
     "key": "kokoronomonolog",
-    "single": "ジコチューで行こう!",
+    "single": {
+      "title": "ジコチューで行こう!",
+      "number": "21"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/21/C_large.jpg",
@@ -3215,7 +3545,10 @@
   {
     "title": "地球が丸いなら",
     "key": "chikyuugamaruinara",
-    "single": "ジコチューで行こう!",
+    "single": {
+      "title": "ジコチューで行こう!",
+      "number": "21"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/21/D_large.jpg",
@@ -3258,7 +3591,10 @@
   {
     "title": "あんなに好きだったのに・・・",
     "key": "annarisukidatta",
-    "single": "ジコチューで行こう!",
+    "single": {
+      "title": "ジコチューで行こう!",
+      "number": "21"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/21/T_large.jpg",
@@ -3319,9 +3655,15 @@
   {
     "title": "Against",
     "key": "against",
-    "single": "シンクロニシティ",
+    "single": {
+      "title": "シンクロニシティ",
+      "number": "20"
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/20/A_large.jpg",
@@ -3383,7 +3725,10 @@
   {
     "title": "雲になればいい",
     "key": "kumoninarebaii",
-    "single": "シンクロニシティ",
+    "single": {
+      "title": "シンクロニシティ",
+      "number": "20"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/20/A_large.jpg",
@@ -3424,9 +3769,15 @@
   {
     "title": "スカウトマン",
     "key": "scoutman",
-    "single": "シンクロニシティ",
+    "single": {
+      "title": "シンクロニシティ",
+      "number": "20"
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/20/C_large.jpg",
@@ -3478,9 +3829,15 @@
   {
     "title": "トキトキメキメキ",
     "key": "tokitokimekimeki",
-    "single": "シンクロニシティ",
+    "single": {
+      "title": "シンクロニシティ",
+      "number": "20"
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/20/D_large.jpg",
@@ -3536,7 +3893,10 @@
   {
     "title": "言霊砲",
     "key": "kotodamahou",
-    "single": "シンクロニシティ",
+    "single": {
+      "title": "シンクロニシティ",
+      "number": "20"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/20/T_large.jpg",
@@ -3580,7 +3940,10 @@
   {
     "title": "不眠症",
     "key": "fumenshou",
-    "single": "いつかできるから今日できる",
+    "single": {
+      "title": "いつかできるから今日できる",
+      "number": "19"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/19/A_large.jpg",
@@ -3645,7 +4008,10 @@
   {
     "title": "まあいいか?",
     "key": "maaiika",
-    "single": "いつかできるから今日できる",
+    "single": {
+      "title": "いつかできるから今日できる",
+      "number": "19"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/19/A_large.jpg",
@@ -3687,7 +4053,10 @@
   {
     "title": "失恋お掃除人",
     "key": "shirenosoujinin",
-    "single": "いつかできるから今日できる",
+    "single": {
+      "title": "いつかできるから今日できる",
+      "number": "19"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/19/B_large.jpg",
@@ -3735,9 +4104,15 @@
   {
     "title": "僕の衝動",
     "key": "bokunoshoudou",
-    "single": "いつかできるから今日できる",
+    "single": {
+      "title": "いつかできるから今日できる",
+      "number": "19"
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/19/D_large.jpg",
@@ -3790,7 +4165,10 @@
   {
     "title": "新しい花粉 〜ミュージカル「見知らぬ世界」より〜",
     "key": "atarashiikafun",
-    "single": "いつかできるから今日できる",
+    "single": {
+      "title": "いつかできるから今日できる",
+      "number": "19"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/19/T_large.jpg",
@@ -3832,7 +4210,10 @@
   {
     "title": "女は一人じゃ眠れない",
     "key": "onnahahitorija",
-    "single": "逃げ水",
+    "single": {
+      "title": "逃げ水",
+      "number": "18"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/18/A_large.jpg",
@@ -3893,7 +4274,10 @@
   {
     "title": "ひと夏の長さより…",
     "key": "hitonatsunonagasa",
-    "single": "逃げ水",
+    "single": {
+      "title": "逃げ水",
+      "number": "18"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/18/A_large.jpg",
@@ -3952,7 +4336,10 @@
   {
     "title": "泣いたっていいじゃないか?",
     "key": "naitatteiijanaika",
-    "single": "逃げ水",
+    "single": {
+      "title": "逃げ水",
+      "number": "18"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/18/B_large.jpg",
@@ -4011,9 +4398,15 @@
   {
     "title": "ライブ神",
     "key": "liveshin",
-    "single": "逃げ水",
+    "single": {
+      "title": "逃げ水",
+      "number": "18"
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/18/D_large.jpg",
@@ -4068,9 +4461,15 @@
   {
     "title": "未来の答え",
     "key": "mirainokotae",
-    "single": "逃げ水",
+    "single": {
+      "title": "逃げ水",
+      "number": "18"
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/18/T_large.jpg",
@@ -4127,9 +4526,15 @@
   {
     "title": "人生を考えたくなる",
     "key": "jinseiwokangaetakunaru",
-    "single": "インフルエンサー",
+    "single": {
+      "title": "インフルエンサー",
+      "number": "17"
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/17/A_large.jpg",
@@ -4171,9 +4576,15 @@
   {
     "title": "意外BREAK",
     "key": "igaibreak",
-    "single": "インフルエンサー",
+    "single": {
+      "title": "インフルエンサー",
+      "number": "17"
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/17/A_large.jpg",
@@ -4217,9 +4628,15 @@
   {
     "title": "Another Ghost",
     "key": "anotherghost",
-    "single": "インフルエンサー",
+    "single": {
+      "title": "インフルエンサー",
+      "number": "17"
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/17/B_large.jpg",
@@ -4263,9 +4680,15 @@
   {
     "title": "三番目の風",
     "key": "sanbanmenokaze",
-    "single": "インフルエンサー",
+    "single": {
+      "title": "インフルエンサー",
+      "number": "17"
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/17/D_large.jpg",
@@ -4321,9 +4744,15 @@
   {
     "title": "当たり障りのない話",
     "key": "atarisawarinonaihanashi",
-    "single": "インフルエンサー",
+    "single": {
+      "title": "インフルエンサー",
+      "number": "17"
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/17/T_large.jpg",
@@ -4365,9 +4794,15 @@
   {
     "title": "孤独な青空",
     "key": "kodokunaaozora",
-    "single": "サヨナラの意味",
+    "single": {
+      "title": "サヨナラの意味",
+      "number": "16"
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/16/A_large.jpg",
@@ -4426,9 +4861,15 @@
   {
     "title": "あの教室",
     "key": "anokyoushitsu",
-    "single": "サヨナラの意味",
+    "single": {
+      "title": "サヨナラの意味",
+      "number": "16"
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/16/A_large.jpg",
@@ -4470,9 +4911,15 @@
   {
     "title": "2度目のキスから",
     "key": "nidomenokisskara",
-    "single": "サヨナラの意味",
+    "single": {
+      "title": "サヨナラの意味",
+      "number": "16"
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/16/C_large.jpg",
@@ -4518,9 +4965,15 @@
   {
     "title": "君に贈る花がない",
     "key": "kiminiokuruhanaganai",
-    "single": "サヨナラの意味",
+    "single": {
+      "title": "サヨナラの意味",
+      "number": "16"
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/16/D_large.jpg",
@@ -4565,9 +5018,15 @@
   {
     "title": "ないものねだり",
     "key": "naimononedari",
-    "single": "サヨナラの意味",
+    "single": {
+      "title": "サヨナラの意味",
+      "number": "16"
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/16/T_large.jpg",
@@ -4609,9 +5068,15 @@
   {
     "title": "僕だけの光",
     "key": "bokudakenohikari",
-    "single": "裸足でSummer",
+    "single": {
+      "title": "裸足でSummer",
+      "number": "15"
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/15/A_large.jpg",
@@ -4667,9 +5132,15 @@
   {
     "title": "オフショアガール",
     "key": "offshoregirl",
-    "single": "裸足でSummer",
+    "single": {
+      "title": "裸足でSummer",
+      "number": "15"
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/15/A_large.jpg",
@@ -4712,9 +5183,15 @@
   {
     "title": "命の真実 ミュージカル「林檎売りとカメムシ」",
     "key": "inochinoshinjitsu",
-    "single": "裸足でSummer",
+    "single": {
+      "title": "裸足でSummer",
+      "number": "15"
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/15/B_large.jpg",
@@ -4755,9 +5232,15 @@
   {
     "title": "白米様",
     "key": "hakumaisama",
-    "single": "裸足でSummer",
+    "single": {
+      "title": "裸足でSummer",
+      "number": "15"
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/15/C_large.jpg",
@@ -4802,9 +5285,15 @@
   {
     "title": "行くあてのない僕たち",
     "key": "ikuatenonaibokutachi",
-    "single": "裸足でSummer",
+    "single": {
+      "title": "裸足でSummer",
+      "number": "15"
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/15/T_large.jpg",
@@ -4844,9 +5333,15 @@
   {
     "title": "遥かなるブータン",
     "key": "harukanarubhutan",
-    "single": "ハルジオンが咲く頃",
+    "single": {
+      "title": "ハルジオンが咲く頃",
+      "number": "14"
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/14/A_large.jpg",
@@ -4892,7 +5387,10 @@
   {
     "title": "強がる蕾",
     "key": "tsuyogarutsubomi",
-    "single": "ハルジオンが咲く頃",
+    "single": {
+      "title": "ハルジオンが咲く頃",
+      "number": "14"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/14/A_large.jpg",
@@ -4935,9 +5433,15 @@
   {
     "title": "急斜面",
     "key": "kyuushamen",
-    "single": "ハルジオンが咲く頃",
+    "single": {
+      "title": "ハルジオンが咲く頃",
+      "number": "14"
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/14/B_large.jpg",
@@ -4981,7 +5485,10 @@
   {
     "title": "釣り堀",
     "key": "tsuribori",
-    "single": "ハルジオンが咲く頃",
+    "single": {
+      "title": "ハルジオンが咲く頃",
+      "number": "14"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/14/C_large.jpg",
@@ -5022,9 +5529,15 @@
   {
     "title": "憂鬱と風船ガム",
     "key": "yuuutsutofuusengamu",
-    "single": "ハルジオンが咲く頃",
+    "single": {
+      "title": "ハルジオンが咲く頃",
+      "number": "14"
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/14/T_large.jpg",
@@ -5071,9 +5584,15 @@
   {
     "title": "ポピパッパパー",
     "key": "popipappappa",
-    "single": "今、話したい誰かがいる",
+    "single": {
+      "title": "今、話したい誰かがいる",
+      "number": "13"
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/13/A_large.jpg",
@@ -5136,9 +5655,15 @@
   {
     "title": "大人への近道",
     "key": "otonahenochikamichi",
-    "single": "今、話したい誰かがいる",
+    "single": {
+      "title": "今、話したい誰かがいる",
+      "number": "13"
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/13/B_large.jpg",
@@ -5183,9 +5708,15 @@
   {
     "title": "悲しみの忘れ方",
     "key": "kanashiminowasurekata",
-    "single": "今、話したい誰かがいる",
+    "single": {
+      "title": "今、話したい誰かがいる",
+      "number": "13"
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/13/C_large.jpg",
@@ -5245,9 +5776,15 @@
   {
     "title": "隙間",
     "key": "sukima",
-    "single": "今、話したい誰かがいる",
+    "single": {
+      "title": "今、話したい誰かがいる",
+      "number": "13"
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/13/T_large.jpg",
@@ -5296,7 +5833,10 @@
   {
     "title": "もう少しの夢",
     "key": "mousukoshinoyume",
-    "single": "太陽ノック",
+    "single": {
+      "title": "太陽ノック",
+      "number": "12"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/12/A_large.jpg",
@@ -5335,7 +5875,10 @@
   {
     "title": "魚たちのLOVE SONG",
     "key": "sakanatachinolovesong",
-    "single": "太陽ノック",
+    "single": {
+      "title": "太陽ノック",
+      "number": "12"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/12/A_large.jpg",
@@ -5379,9 +5922,15 @@
   {
     "title": "無表情",
     "key": "muhyoujyou",
-    "single": "太陽ノック",
+    "single": {
+      "title": "太陽ノック",
+      "number": "12"
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/12/B_large.jpg",
@@ -5425,9 +5974,15 @@
   {
     "title": "羽根の記憶",
     "key": "hanenokioku",
-    "single": "太陽ノック",
+    "single": {
+      "title": "太陽ノック",
+      "number": "12"
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/12/T_large.jpg",
@@ -5488,9 +6043,15 @@
   {
     "title": "制服を脱いでサヨナラを…",
     "key": "seifukuwonuidesayonarawo",
-    "single": "太陽ノック",
+    "single": {
+      "title": "太陽ノック",
+      "number": "12"
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/12/T_large.jpg",
@@ -5530,9 +6091,15 @@
   {
     "title": "あらかじめ語られるロマンス",
     "key": "arakajimekatarareruromance",
-    "single": "命は美しい",
+    "single": {
+      "title": "命は美しい",
+      "number": "11"
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/11/A_large.jpg",
@@ -5583,9 +6150,15 @@
   {
     "title": "立ち直り中",
     "key": "tachinaorichuu",
-    "single": "命は美しい",
+    "single": {
+      "title": "命は美しい",
+      "number": "11"
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/11/A_large.jpg",
@@ -5634,7 +6207,10 @@
   {
     "title": "ごめんね ずっと…",
     "key": "gomennezutto",
-    "single": "命は美しい",
+    "single": {
+      "title": "命は美しい",
+      "number": "11"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/11/B_large.jpg",
@@ -5675,7 +6251,10 @@
   {
     "title": "ボーダー",
     "key": "border",
-    "single": "命は美しい",
+    "single": {
+      "title": "命は美しい",
+      "number": "11"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/11/T_large.jpg",
@@ -5721,7 +6300,10 @@
   {
     "title": "遠回りの愛情",
     "key": "toomawarinoaijou",
-    "single": "何度目の青空か?",
+    "single": {
+      "title": "何度目の青空か?",
+      "number": "10"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/10/A_large.jpg",
@@ -5770,7 +6352,10 @@
   {
     "title": "転がった鐘を鳴らせ!",
     "key": "korogattakanewonarase",
-    "single": "何度目の青空か?",
+    "single": {
+      "title": "何度目の青空か?",
+      "number": "10"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/10/A_large.jpg",
@@ -5828,7 +6413,10 @@
   {
     "title": "私、起きる。",
     "key": "watashiokiru",
-    "single": "何度目の青空か?",
+    "single": {
+      "title": "何度目の青空か?",
+      "number": "10"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/10/B_large.jpg",
@@ -5882,7 +6470,10 @@
   {
     "title": "Tender days",
     "key": "tendergays",
-    "single": "何度目の青空か?",
+    "single": {
+      "title": "何度目の青空か?",
+      "number": "10"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/10/T_large.jpg",
@@ -5930,7 +6521,10 @@
   {
     "title": "何もできずにそばにいる",
     "key": "nanimodekizunisobaniiru",
-    "single": "夏のFree&Easy",
+    "single": {
+      "title": "夏のFree&Easy",
+      "number": "9"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/9/A_large.jpg",
@@ -5989,7 +6583,10 @@
   {
     "title": "その先の出口!",
     "key": "sonosakinodeguchi",
-    "single": "夏のFree&Easy",
+    "single": {
+      "title": "夏のFree&Easy",
+      "number": "9"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/9/A_large.jpg",
@@ -6040,9 +6637,15 @@
   {
     "title": "無口なライオン",
     "key": "mukuchinalion",
-    "single": "夏のFree&Easy",
+    "single": {
+      "title": "夏のFree&Easy",
+      "number": "9"
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/9/B_large.jpg",
@@ -6094,7 +6697,10 @@
   {
     "title": "僕が行かなきゃ誰が行くんだ?",
     "key": "bokugaikanakyadaregaikunda",
-    "single": "夏のFree&Easy",
+    "single": {
+      "title": "夏のFree&Easy",
+      "number": "9"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/9/T_large.jpg",
@@ -6141,9 +6747,15 @@
   {
     "title": "ロマンスのスタート",
     "key": "romancenostart",
-    "single": "気づいたら片想い",
+    "single": {
+      "title": "気づいたら片想い",
+      "number": "8"
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/8/A_large.jpg",
@@ -6204,7 +6816,10 @@
   {
     "title": "吐息のメソッド",
     "key": "toikimethod",
-    "single": "気づいたら片想い",
+    "single": {
+      "title": "気づいたら片想い",
+      "number": "8"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/8/A_large.jpg",
@@ -6262,7 +6877,10 @@
   {
     "title": "孤独兄弟",
     "key": "kodokukyoudai",
-    "single": "気づいたら片想い",
+    "single": {
+      "title": "気づいたら片想い",
+      "number": "8"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/8/B_large.jpg",
@@ -6304,9 +6922,15 @@
   {
     "title": "ダンケシェーン",
     "key": "dankeschan",
-    "single": "気づいたら片想い",
+    "single": {
+      "title": "気づいたら片想い",
+      "number": "8"
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/8/T_large.jpg",
@@ -6356,7 +6980,10 @@
   {
     "title": "月の大きさ",
     "key": "tsukinoookisa",
-    "single": "バレッタ",
+    "single": {
+      "title": "バレッタ",
+      "number": "7"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/7/A_large.jpg",
@@ -6417,9 +7044,15 @@
   {
     "title": "私のために 誰かのために",
     "key": "watanotamenidarekanotameni",
-    "single": "バレッタ",
+    "single": {
+      "title": "バレッタ",
+      "number": "7"
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/7/A_large.jpg",
@@ -6465,9 +7098,15 @@
   {
     "title": "そんなバカな…",
     "key": "sonnabakana",
-    "single": "バレッタ",
+    "single": {
+      "title": "バレッタ",
+      "number": "7"
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/7/B_large.jpg",
@@ -6531,7 +7170,10 @@
   {
     "title": "やさしさとは",
     "key": "yasashisatoha",
-    "single": "バレッタ",
+    "single": {
+      "title": "バレッタ",
+      "number": "7"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/7/T_large.jpg",
@@ -6578,9 +7220,15 @@
   {
     "title": "世界で一番 孤独なLover",
     "key": "sekaideichibankodokuralover",
-    "single": "ガールズルール",
+    "single": {
+      "title": "ガールズルール",
+      "number": "6"
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/6/A_large.jpg",
@@ -6640,7 +7288,10 @@
   {
     "title": "コウモリよ",
     "key": "koumoriyo",
-    "single": "ガールズルール",
+    "single": {
+      "title": "ガールズルール",
+      "number": "6"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/6/A_large.jpg",
@@ -6682,9 +7333,15 @@
   {
     "title": "他の星から",
     "key": "hokanohoshikara",
-    "single": "ガールズルール",
+    "single": {
+      "title": "ガールズルール",
+      "number": "6"
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/6/C_large.jpg",
@@ -6734,7 +7391,10 @@
   {
     "title": "人間という楽器",
     "key": "ningentoiugakki",
-    "single": "ガールズルール",
+    "single": {
+      "title": "ガールズルール",
+      "number": "6"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/6/T_large.jpg",
@@ -6804,9 +7464,15 @@
   {
     "title": "シャキイズム",
     "key": "shakism",
-    "single": "君の名は希望",
+    "single": {
+      "title": "君の名は希望",
+      "number": "5"
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/5/A_large.jpg",
@@ -6865,9 +7531,15 @@
   {
     "title": "ロマンティックいか焼き",
     "key": "romanticikayaki",
-    "single": "君の名は希望",
+    "single": {
+      "title": "君の名は希望",
+      "number": "5"
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/5/A_large.jpg",
@@ -6921,7 +7593,10 @@
   {
     "title": "でこぴん",
     "key": "dekopin",
-    "single": "君の名は希望",
+    "single": {
+      "title": "君の名は希望",
+      "number": "5"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/5/C_large.jpg",
@@ -6966,7 +7641,10 @@
   {
     "title": "サイコキネシスの可能性",
     "key": "psychokinesesnokanousei",
-    "single": "君の名は希望",
+    "single": {
+      "title": "君の名は希望",
+      "number": "5"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/5/T_large.jpg",
@@ -7017,7 +7695,10 @@
   {
     "title": "指望遠鏡",
     "key": "yubibouenkyou",
-    "single": "制服のマネキン",
+    "single": {
+      "title": "制服のマネキン",
+      "number": "4"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/4/A_large.jpg",
@@ -7077,7 +7758,10 @@
   {
     "title": "やさしさなら間に合ってる",
     "key": "yasashisanaramaniatteiru",
-    "single": "制服のマネキン",
+    "single": {
+      "title": "制服のマネキン",
+      "number": "4"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/4/A_large.jpg",
@@ -7126,7 +7810,10 @@
   {
     "title": "ここじゃないどこか",
     "key": "kokojanaidokoka",
-    "single": "制服のマネキン",
+    "single": {
+      "title": "制服のマネキン",
+      "number": "4"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/4/B_large.jpg",
@@ -7169,7 +7856,10 @@
   {
     "title": "渋谷ブルース",
     "key": "shibuyablues",
-    "single": "制服のマネキン",
+    "single": {
+      "title": "制服のマネキン",
+      "number": "4"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/4/T_large.jpg",
@@ -7211,9 +7901,15 @@
   {
     "title": "せっかちなかたつむり",
     "key": "sekkachinakatatsumuri",
-    "single": "走れ!Bicycle",
+    "single": {
+      "title": "走れ!Bicycle",
+      "number": "3"
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/3/A_large.jpg",
@@ -7262,7 +7958,10 @@
   {
     "title": "人はなぜ走るのか?",
     "key": "hitohanazehashirunoka",
-    "single": "走れ!Bicycle",
+    "single": {
+      "title": "走れ!Bicycle",
+      "number": "3"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/3/B_large.jpg",
@@ -7326,7 +8025,10 @@
   {
     "title": "音が出ないギター",
     "key": "otogadenaiguitar",
-    "single": "走れ!Bicycle",
+    "single": {
+      "title": "走れ!Bicycle",
+      "number": "3"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/3/C_large.jpg",
@@ -7390,7 +8092,10 @@
   {
     "title": "海流の島よ",
     "key": "kairyuunoshimayo",
-    "single": "走れ!Bicycle",
+    "single": {
+      "title": "走れ!Bicycle",
+      "number": "3"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/3/T_large.jpg",
@@ -7437,7 +8142,10 @@
   {
     "title": "心の薬",
     "key": "kokoronokusuri",
-    "single": "おいでシャンプー",
+    "single": {
+      "title": "おいでシャンプー",
+      "number": "2"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/2/A_large.jpg",
@@ -7497,7 +8205,10 @@
   {
     "title": "偶然を言い訳にして",
     "key": "guuzenwoiiwakenishite",
-    "single": "おいでシャンプー",
+    "single": {
+      "title": "おいでシャンプー",
+      "number": "2"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/2/A_large.jpg",
@@ -7541,7 +8252,10 @@
   {
     "title": "水玉模様",
     "key": "mizutamamoyou",
-    "single": "おいでシャンプー",
+    "single": {
+      "title": "おいでシャンプー",
+      "number": "2"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/2/B_large.jpg",
@@ -7582,9 +8296,15 @@
   {
     "title": "ハウス!",
     "key": "house",
-    "single": "おいでシャンプー",
+    "single": {
+      "title": "おいでシャンプー",
+      "number": "2"
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/2/T_large.jpg",
@@ -7644,9 +8364,15 @@
   {
     "title": "乃木坂の詩",
     "key": "nogizakanouta",
-    "single": "ぐるぐるカーテン",
+    "single": {
+      "title": "ぐるぐるカーテン",
+      "number": "1"
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/1/A_large.jpg",
@@ -7721,7 +8447,10 @@
   {
     "title": "会いたかったかもしれない",
     "key": "aitakattakamoshirenai",
-    "single": "ぐるぐるカーテン",
+    "single": {
+      "title": "ぐるぐるカーテン",
+      "number": "1"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/1/B_large.jpg",
@@ -7784,9 +8513,15 @@
   {
     "title": "失いたくないから",
     "key": "ushinaitakunaikara",
-    "single": "ぐるぐるカーテン",
+    "single": {
+      "title": "ぐるぐるカーテン",
+      "number": "1"
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/1/C_large.jpg",
@@ -7849,7 +8584,10 @@
   {
     "title": "白い雲にのって",
     "key": "shiroikumoninotte",
-    "single": "ぐるぐるカーテン",
+    "single": {
+      "title": "ぐるぐるカーテン",
+      "number": "1"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/1/T_large.jpg",
@@ -7909,9 +8647,15 @@
   {
     "title": "誰かは味方",
     "key": "darekanomikata",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
@@ -7952,9 +8696,15 @@
   {
     "title": "革命の馬",
     "key": "kakumeinouma",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
@@ -7998,9 +8748,15 @@
   {
     "title": "僕がいる場所",
     "key": "bokugairubasho",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
@@ -8057,9 +8813,15 @@
   {
     "title": "あなたのために弾きたい",
     "key": "anatanotamenihikitai",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
@@ -8098,9 +8860,15 @@
   {
     "title": "傾斜する",
     "key": "keishasuru",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
@@ -8157,9 +8925,15 @@
   {
     "title": "なぞの落書き",
     "key": "nazonorakugaki",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
@@ -8200,10 +8974,19 @@
   {
     "title": "自由の彼方",
     "key": "jiyuunokanata",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "透明な色",
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "透明な色",
+        "number": "1"
+      },
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
@@ -8267,9 +9050,15 @@
   {
     "title": "ひとりよがり",
     "key": "hitoriyogari",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "透明な色"
+      {
+        "title": "透明な色",
+        "number": "1"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",
@@ -8309,9 +9098,15 @@
   {
     "title": "きっかけ",
     "key": "kikkake",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_large.jpg",
@@ -8366,9 +9161,15 @@
   {
     "title": "太陽に口説かれて",
     "key": "taiyounikudokarete",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_large.jpg",
@@ -8422,10 +9223,19 @@
   {
     "title": "欲望のリインカーネーション",
     "key": "yokuboureincarnation",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "それぞれの椅子",
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      },
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_large.jpg",
@@ -8473,9 +9283,15 @@
   {
     "title": "空気感",
     "key": "kuukikann",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_large.jpg",
@@ -8518,9 +9334,15 @@
   {
     "title": "光合成希望",
     "key": "kougouseikibou",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_large.jpg",
@@ -8559,9 +9381,15 @@
   {
     "title": "Threefold choice",
     "key": "threefoldchoice",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_large.jpg",
@@ -8602,9 +9430,15 @@
   {
     "title": "低体温のキス",
     "key": "teitaionnokiss",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/B_large.jpg",
@@ -8643,9 +9477,15 @@
   {
     "title": "失恋したら、顔を洗え!",
     "key": "shitsurenshitarakaowoarae",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_large.jpg",
@@ -8685,9 +9525,15 @@
   {
     "title": "かき氷の片想い",
     "key": "kakigoorinokataomoi",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/C_large.jpg",
@@ -8736,9 +9582,15 @@
   {
     "title": "環状六号線",
     "key": "kanjyourokugousen",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_large.jpg",
@@ -8779,9 +9631,15 @@
   {
     "title": "口約束",
     "key": "kuchiyakusoku",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "それぞれの椅子"
+      {
+        "title": "それぞれの椅子",
+        "number": "2"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/D_large.jpg",
@@ -8823,9 +9681,15 @@
   {
     "title": "スカイダイビング",
     "key": "skydiving",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_large.jpg",
@@ -8884,10 +9748,19 @@
   {
     "title": "君が扇いでくれた",
     "key": "kimigaaoidekureta",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "生まれてから初めて見た夢",
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      },
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_large.jpg",
@@ -8938,9 +9811,15 @@
   {
     "title": "思い出ファースト",
     "key": "omoidefirst",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_large.jpg",
@@ -8990,9 +9869,15 @@
   {
     "title": "設定温度",
     "key": "setteiondo",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/L_large.jpg",
@@ -9077,9 +9962,15 @@
   {
     "title": "Rewindあの日",
     "key": "Rewindanohi",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_large.jpg",
@@ -9120,9 +10011,15 @@
   {
     "title": "ごめんね、スムージー",
     "key": "gomennesmoothie",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_large.jpg",
@@ -9163,9 +10060,15 @@
   {
     "title": "醜い私",
     "key": "minikuiwatashi",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_large.jpg",
@@ -9206,9 +10109,15 @@
   {
     "title": "硬い殻のように抱きしめたい",
     "key": "karaikaranoyounidakishimetai",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_large.jpg",
@@ -9249,9 +10158,15 @@
   {
     "title": "満月が消えた",
     "key": "mangetsugakieta",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_large.jpg",
@@ -9292,9 +10207,15 @@
   {
     "title": "ワタボコリ",
     "key": "watabokori",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/B_large.jpg",
@@ -9335,9 +10256,15 @@
   {
     "title": "流星ディスコティック",
     "key": "ryuuseidiscotic",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_large.jpg",
@@ -9377,9 +10304,15 @@
   {
     "title": "忘却と美学",
     "key": "boukyakutobigaku",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "生まれてから初めて見た夢"
+      {
+        "title": "生まれてから初めて見た夢",
+        "number": "3"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/T_large.jpg",
@@ -9419,9 +10352,15 @@
   {
     "title": "自分のこと",
     "key": "jibunnokoto",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_large.jpg",
@@ -9460,9 +10399,15 @@
   {
     "title": "自惚れビーチ",
     "key": "unuborebeach",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_large.jpg",
@@ -9516,9 +10461,15 @@
   {
     "title": "その女",
     "key": "sonohito",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_large.jpg",
@@ -9572,9 +10523,15 @@
   {
     "title": "誰よりそばにいたい",
     "key": "dareyorimosobaniitai",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "僕だけの君〜Under Super Best〜"
+      {
+        "title": "僕だけの君〜Under Super Best〜",
+        "number": "U"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L2_large.jpg",
@@ -9628,9 +10585,15 @@
   {
     "title": "ありがちな恋愛",
     "key": "arigachinarenai",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_large.jpg",
@@ -9686,9 +10649,15 @@
   {
     "title": "もし君がいなければ",
     "key": "moshikimigainakereba",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_large.jpg",
@@ -9728,9 +10697,15 @@
   {
     "title": "キスの手裏剣",
     "key": "kissnoshuriken",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_large.jpg",
@@ -9779,9 +10754,15 @@
   {
     "title": "頬杖をついては眠れない",
     "key": "hoozuewotsuitehanemurenai",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/A_large.jpg",
@@ -9824,9 +10805,15 @@
   {
     "title": "ぽっち党",
     "key": "bocchitou",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/A_large.jpg",
@@ -9867,9 +10854,15 @@
   {
     "title": "さゆりんご募集中",
     "key": "sayuringoboshuuchuu",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/B_large.jpg",
@@ -9913,9 +10906,15 @@
   {
     "title": "ゴルゴンゾーラ",
     "key": "gorugonzora",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/B_large.jpg",
@@ -9956,9 +10955,15 @@
   {
     "title": "もうすぐ～ザンビ伝説～",
     "key": "mousuguzambidensetsu",
-    "single": "",
+    "single": {
+      "title": "",
+      "number": ""
+    },
     "albums": [
-      "今が思い出になるまで"
+      {
+        "title": "今が思い出になるまで",
+        "number": "4"
+      }
     ],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/T_large.jpg",
@@ -10017,7 +11022,10 @@
   {
     "title": "Sing Out!",
     "key": "singout",
-    "single": "Sing Out!",
+    "single": {
+      "title": "Sing Out!",
+      "number": "23"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
@@ -10082,7 +11090,10 @@
   {
     "title": "滑走路",
     "key": "kassouro",
-    "single": "Sing Out!",
+    "single": {
+      "title": "Sing Out!",
+      "number": "23"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
@@ -10126,7 +11137,10 @@
   {
     "title": "のような存在",
     "key": "noyounasonzai",
-    "single": "Sing Out!",
+    "single": {
+      "title": "Sing Out!",
+      "number": "23"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
@@ -10162,7 +11176,10 @@
   {
     "title": "Am I Loving",
     "key": "amiloving",
-    "single": "Sing Out!",
+    "single": {
+      "title": "Sing Out!",
+      "number": "23"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
@@ -10201,7 +11218,10 @@
   {
     "title": "平行線",
     "key": "heikousen",
-    "single": "Sing Out!",
+    "single": {
+      "title": "Sing Out!",
+      "number": "23"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
@@ -10240,7 +11260,10 @@
   {
     "title": "4番目の光",
     "key": "yonbanmenohikari",
-    "single": "Sing Out!",
+    "single": {
+      "title": "Sing Out!",
+      "number": "23"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
@@ -10285,7 +11308,10 @@
   {
     "title": "曖昧",
     "key": "aimai",
-    "single": "Sing Out!",
+    "single": {
+      "title": "Sing Out!",
+      "number": "23"
+    },
     "albums": [],
     "artwork": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
