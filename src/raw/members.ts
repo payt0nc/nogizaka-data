@@ -1060,7 +1060,7 @@ const shinuchimai: IMember = {
     small: "",
   },
   singleImages: {},
-  join: JoinedGeneration.First,
+  join: JoinedGeneration.Second,
   birthday: "1992-01-22",
   height: 165,
   bloodType: BloodType.B,
