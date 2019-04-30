@@ -138,6 +138,8 @@ export const recordCdSongTypeFromSongs = (
     for (const cdSong of cd.songs) {
       if (cdSong.title !== OVERTURE) {
         cdSong.type = songs[cdSong.title].type;
+      } else {
+        cdSong.type = SongType.Coupling;
       }
     }
   }
