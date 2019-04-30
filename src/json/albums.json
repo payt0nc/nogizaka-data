@@ -3,6 +3,7 @@
     "title": "今が思い出になるまで",
     "number": "4",
     "release": "2019-04-17",
+    "previousSingleNumber": "22",
     "artworks": {
       "L": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/4/L_large.jpg",
@@ -598,6 +599,7 @@
     "title": "僕だけの君〜Under Super Best〜",
     "number": "U",
     "release": "2018-01-10",
+    "previousSingleNumber": "19",
     "artworks": {
       "L1": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/U/L1_large.jpg",
@@ -1141,6 +1143,7 @@
     "title": "生まれてから初めて見た夢",
     "number": "3",
     "release": "2017-05-24",
+    "previousSingleNumber": "17",
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/3/A_large.jpg",
@@ -1842,6 +1845,7 @@
     "title": "それぞれの椅子",
     "number": "2",
     "release": "2016-05-25",
+    "previousSingleNumber": "14",
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/2/A_large.jpg",
@@ -2626,6 +2630,7 @@
     "title": "透明な色",
     "number": "1",
     "release": "2015-01-27",
+    "previousSingleNumber": "10",
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/albums/1/A_large.jpg",

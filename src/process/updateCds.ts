@@ -88,6 +88,7 @@ export const initializeAlbums = (rawAlbums: RawAlbum[]): ResultAlbums => {
       title: rawAlbum.title,
       number: rawAlbum.number,
       release: rawAlbum.release,
+      previousSingleNumber: rawAlbum.previousSingleNumber,
       artworks: convertArtworks(rawAlbum, ALBUM_ARTWORK_BASE_PATH),
       shopping: rawAlbum.shopping,
       songs: convertCdSongs(rawAlbum.songs),
