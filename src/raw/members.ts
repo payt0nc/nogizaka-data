@@ -35,12 +35,7 @@ const akimotomanatsu: RawMember = {
       title: "真夏の気圧配置",
       release: "2017-02-28",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
   ],
   graduation: {
@@ -78,23 +73,13 @@ const ikutaerika: RawMember = {
       title: "転調",
       release: "2016-01-21",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
     {
       title: "インターミッション",
       release: "2019-01-22",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
   ],
   graduation: {
@@ -132,12 +117,7 @@ const ikomarina: RawMember = {
       title: "君の足跡",
       release: "2016-02-24",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
   ],
   graduation: {
@@ -264,12 +244,7 @@ const inouesayuri: RawMember = {
       title: "存在",
       release: "2018-12-12",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
   ],
   graduation: {
@@ -361,23 +336,13 @@ const etoumisa: RawMember = {
       title: "彩",
       release: "2012-01-31",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
     {
       title: "話を聞こうか。",
       release: "2017-04-25",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
   ],
   graduation: {
@@ -477,12 +442,7 @@ const kitanohinako: RawMember = {
       title: "空気の色",
       release: "2018-12-27",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
   ],
   graduation: {
@@ -547,12 +507,7 @@ const saitouasuka: RawMember = {
       title: "潮騒",
       release: "2017-01-25",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
   ],
   graduation: {
@@ -648,12 +603,7 @@ const sakuraireika: RawMember = {
       title: "自由ということ",
       release: "2017-03-08",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
   ],
   graduation: {
@@ -745,34 +695,19 @@ const shiraishimai: RawMember = {
       title: "清純な大人",
       release: "2014-12-10",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
     {
       title: "MAI STYLE",
       release: "2015-01-23",
       type: PhotoAlbumType.PhotoBook,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
     {
       title: "パスポート",
       release: "2017-02-07",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
   ],
   graduation: {
@@ -810,12 +745,7 @@ const shinuchimai: RawMember = {
       title: "どこにいるの？",
       release: "2017-11-14",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
   ],
   graduation: {
@@ -884,23 +814,13 @@ const takayamakazumi: RawMember = {
       title: "恋かもしれない",
       release: "2016-09-15",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
     {
       title: "独白",
       release: "2019-02-26",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
   ],
   graduation: {
@@ -1027,34 +947,19 @@ const nishinonanase: RawMember = {
       title: "普段着",
       release: "2015-05-18",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
     {
       title: "風に着替えて",
       release: "2016-09-27",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
     {
       title: "わたしのこと",
       release: "2015-05-09",
       type: PhotoAlbumType.PhotoBook,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
   ],
   graduation: {
@@ -1150,12 +1055,7 @@ const hoshinominami: RawMember = {
       title: "いたずら",
       release: "2018-04-10",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
   ],
   graduation: {
@@ -1193,12 +1093,7 @@ const horimiona: RawMember = {
       title: "君らしさ",
       release: "2017-11-24",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
   ],
   graduation: {
@@ -1236,12 +1131,7 @@ const matsumurasayuri: RawMember = {
       title: "意外っていうか、前から可愛いと思ってた",
       release: "2017-12-12",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
   ],
   graduation: {
@@ -1387,12 +1277,7 @@ const yodayuuki: RawMember = {
       title: "日向の温度",
       release: "2017-12-26",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
   ],
   graduation: {
@@ -1430,12 +1315,7 @@ const wakatsukiyumi: RawMember = {
       title: "パレット",
       release: "2017-11-07",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
   ],
   graduation: {
@@ -1970,23 +1850,13 @@ const hashimotonanami: RawMember = {
       title: "やさしい棘",
       release: "2015-08-28",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
     {
       title: "2017",
       release: "2017-02-20",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
   ],
   graduation: {
@@ -2024,23 +1894,13 @@ const fukagawamai: RawMember = {
       title: "ずっと、そばにいたい",
       release: "2016-06-09",
       type: PhotoAlbumType.PhotoAlbum,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
     {
       title: "My magazine",
       release: "2018-02-22",
       type: PhotoAlbumType.PhotoMagazine,
-      shopping: [
-        {
-          title: "Amazon",
-          url: "",
-        },
-      ],
+      shopping: [],
     },
   ],
   graduation: {
