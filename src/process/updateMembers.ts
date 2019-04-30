@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import { IMembers } from "../models/IMember";
-import { ISingles } from "../models/ISingle";
+import { ResultSingles } from "../models/ISingle";
 import { ISongs } from "../models/ISong";
 import { ResultUnits } from "../models/IUnit";
 import {
@@ -29,7 +29,7 @@ export const recordUnits = (members: IMembers, units: ResultUnits) => {
 
 export const recordPositions = (
   members: IMembers,
-  singles: ISingles,
+  singles: ResultSingles,
   songs: ISongs,
 ) => {
   for (const member of Object.values(members)) {

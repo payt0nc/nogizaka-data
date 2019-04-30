@@ -1,8 +1,8 @@
 import { ResultAlbums } from "../models/IAlbum";
-import { ISingles } from "../models/ISingle";
+import { ResultSingles } from "../models/ISingle";
 import { ISongs } from "../models/ISong";
 
-export const recordSongSingle = (songs: ISongs, singles: ISingles) => {
+export const recordSongSingle = (songs: ISongs, singles: ResultSingles) => {
   for (const song of Object.values(songs)) {
     song.single.title = "";
 
@@ -47,7 +47,7 @@ export const recordSongAlbums = (songs: ISongs, albums: ResultAlbums) => {
 
 export const recordArtworks = (
   songs: ISongs,
-  singles: ISingles,
+  singles: ResultSingles,
   albums: ResultAlbums,
 ) => {
   for (const song of Object.values(songs)) {

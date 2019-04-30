@@ -1,4 +1,4 @@
-import { ResultCdForSingleTemp, RawCd } from "./commons";
+import { ResultCd, RawCd } from "./commons";
 
 type BehindPerformers = {
   trainees: string[];
@@ -9,10 +9,10 @@ export type RawSingle = RawCd & {
   behindPerformers: BehindPerformers;
 };
 
-export type ISingle = ResultCdForSingleTemp & {
+export type ResultSingle = ResultCd & {
   behindPerformers: BehindPerformers;
 };
 
-export type ISingles = {
-  [title: string]: ISingle;
+export type ResultSingles = {
+  [title: string]: ResultSingle;
 };

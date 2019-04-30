@@ -1,4 +1,4 @@
-import { ISingles, RawSingle } from "../models/ISingle";
+import { ResultSingles, RawSingle, ResultSingle } from "../models/ISingle";
 import { ResultAlbums, RawAlbum, ResultAlbum } from "../models/IAlbum";
 import {
   GITHUB_CONTENTS_PATH,
@@ -104,8 +104,26 @@ export const initializeAlbums = (rawAlbums: RawAlbum[]): ResultAlbums => {
   return arrayToObject(initializedArray, "title");
 };
 
+export const initializeSingles = (rawSingles: RawSingle[]): ResultSingles => {
+  const initializedArray: ResultSingle[] = rawSingles.map(
+    (rawSingle): ResultSingle => {
+      return {
+        title: rawSingle.title,
+        number: rawSingle.number,
+        release: rawSingle.release,
+        artworks: convertArtworks(rawSingle, SINGLE_ARTWORK_BASE_PATH),
+        shopping: rawSingle.shopping,
+        songs: convertCdSongs(rawSingle.songs),
+        behindPerformers: rawSingle.behindPerformers,
+      };
+    },
+  );
+
+  return arrayToObject(initializedArray, "title");
+};
+
 export const recordCdSongArtworks = (
-  cds: ISingles | ResultAlbums,
+  cds: ResultSingles | ResultAlbums,
   songs: ISongs,
 ) => {
   for (const cd of Object.values(cds)) {
@@ -119,7 +137,7 @@ export const recordCdSongArtworks = (
 };
 
 export const recordCdSongTypeFromSongs = (
-  cds: ISingles | ResultAlbums,
+  cds: ResultSingles | ResultAlbums,
   songs: ISongs,
 ) => {
   for (const cd of Object.values(cds)) {
@@ -132,7 +150,7 @@ export const recordCdSongTypeFromSongs = (
 };
 
 export const recordCdFocusPerformersFromSongs = (
-  cds: ISingles | ResultAlbums,
+  cds: ResultSingles | ResultAlbums,
   songs: ISongs,
 ) => {
   for (const cd of Object.values(cds)) {
