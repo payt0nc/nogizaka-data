@@ -2,7 +2,7 @@ import * as fs from "fs";
 import { IMembers } from "../models/IMember";
 import { ISingles } from "../models/ISingle";
 import { ISongs } from "../models/ISong";
-import { IUnits } from "../models/IUnit";
+import { ResultUnits } from "../models/IUnit";
 import {
   FukujinType,
   GITHUB_CONTENTS_PATH,
@@ -12,7 +12,7 @@ import {
 
 const PROFILE_IMAGES_PATH = "src/images/members/";
 
-export const recordUnits = (members: IMembers, units: IUnits) => {
+export const recordUnits = (members: IMembers, units: ResultUnits) => {
   for (const member of Object.values(members)) {
     member.units = [];
 

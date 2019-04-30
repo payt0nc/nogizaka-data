@@ -1,13 +1,20 @@
-import { UnitType } from "../utils/constants";
+import { UnitType, MemberNames } from "../utils/constants";
 
-export type IUnit = {
+export type RawUnit = {
   name: string;
-  members: string[];
+  members: MemberNames[];
+  type: UnitType;
+  description: string;
+};
+
+export type ResultUnit = {
+  name: string;
+  members: MemberNames[];
   type: UnitType;
   songs: string[];
   description: string;
 };
 
-export type IUnits = {
-  [name: string]: IUnit;
+export type ResultUnits = {
+  [name: string]: ResultUnit;
 };
