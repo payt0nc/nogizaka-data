@@ -1,5 +1,5 @@
 import * as fs from "fs";
-import { IMembers } from "../models/IMember";
+import { ResultMembers, RawMember, ResultMember } from "../models/IMember";
 import { ResultSingles } from "../models/ISingle";
 import { ISongs } from "../models/ISong";
 import { ResultUnits } from "../models/IUnit";
@@ -9,10 +9,42 @@ import {
   PositionType,
   SongType,
 } from "../utils/constants";
+import { arrayToObject } from "../utils/arrays";
 
 const PROFILE_IMAGES_PATH = "src/images/members/";
 
-export const recordUnits = (members: IMembers, units: ResultUnits) => {
+export const initializeMembers = (rawMembers: RawMember[]): ResultMembers => {
+  const initializedArray = rawMembers.map(
+    (rawMember): ResultMember => ({
+      name: rawMember.name,
+      nameNotations: rawMember.nameNotations,
+      profileImage: {
+        large: "",
+        small: "",
+      },
+      singleImages: {},
+      join: rawMember.join,
+      birthday: rawMember.birthday,
+      height: rawMember.height,
+      bloodType: rawMember.bloodType,
+      sites: rawMember.sites,
+      photoAlbums: rawMember.photoAlbums,
+      units: [],
+      positionsHistory: {},
+      positionsCounter: {
+        center: 0,
+        fukujin: 0,
+        selected: 0,
+        under: 0,
+      },
+      graduation: rawMember.graduation,
+    }),
+  );
+
+  return arrayToObject(initializedArray, "name");
+};
+
+export const recordUnits = (members: ResultMembers, units: ResultUnits) => {
   for (const member of Object.values(members)) {
     member.units = [];
 
@@ -28,7 +60,7 @@ export const recordUnits = (members: IMembers, units: ResultUnits) => {
 };
 
 export const recordPositions = (
-  members: IMembers,
+  members: ResultMembers,
   singles: ResultSingles,
   songs: ISongs,
 ) => {
@@ -121,7 +153,10 @@ export const recordPositions = (
   }
 };
 
-export const recordProfileImages = (members: IMembers, singleCount: number) => {
+export const recordProfileImages = (
+  members: ResultMembers,
+  singleCount: number,
+) => {
   for (const member of Object.values(members)) {
     for (let i = 1; i < singleCount + 1; i++) {
       const profileImageLargePath = `${PROFILE_IMAGES_PATH}${i}/${

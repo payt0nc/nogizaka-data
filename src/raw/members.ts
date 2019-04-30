@@ -1,7 +1,12 @@
-import { IMember, IMembers } from "../models/IMember";
-import { BloodType, JoinedGeneration, MemberNames, PhotoAlbumType } from "../utils/constants";
+import { RawMember } from "../models/IMember";
+import {
+  BloodType,
+  JoinedGeneration,
+  MemberNames,
+  PhotoAlbumType,
+} from "../utils/constants";
 
-const akimotomanatsu: IMember = {
+const akimotomanatsu: RawMember = {
   name: MemberNames.AkimotoManatsu,
   nameNotations: {
     lastName: "秋元",
@@ -11,11 +16,6 @@ const akimotomanatsu: IMember = {
     lastNameFurigana: "あきもと",
     firstNameFurigana: "まなつ",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1993-08-20",
   height: 154,
@@ -43,21 +43,13 @@ const akimotomanatsu: IMember = {
       ],
     },
   ],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const ikutaerika: IMember = {
+const ikutaerika: RawMember = {
   name: MemberNames.IkutaErika,
   nameNotations: {
     lastName: "生田",
@@ -67,11 +59,6 @@ const ikutaerika: IMember = {
     lastNameEn: "ikuta",
     firstNameEn: "erika",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1997-01-22",
   height: 160,
@@ -110,21 +97,13 @@ const ikutaerika: IMember = {
       ],
     },
   ],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const ikomarina: IMember = {
+const ikomarina: RawMember = {
   name: MemberNames.IkomaRina,
   nameNotations: {
     lastName: "生駒",
@@ -134,11 +113,6 @@ const ikomarina: IMember = {
     lastNameEn: "ikoma",
     firstNameEn: "rina",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1995-12-29",
   height: 153,
@@ -166,21 +140,13 @@ const ikomarina: IMember = {
       ],
     },
   ],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2018-05-06",
   },
 };
 
-const itoukarin: IMember = {
+const itoukarin: RawMember = {
   name: MemberNames.ItouKarin,
   nameNotations: {
     lastName: "伊藤",
@@ -190,11 +156,6 @@ const itoukarin: IMember = {
     lastNameEn: "ito",
     firstNameEn: "karin",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Second,
   birthday: "1993-05-26",
   height: 153,
@@ -210,21 +171,13 @@ const itoukarin: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const itoujunna: IMember = {
+const itoujunna: RawMember = {
   name: MemberNames.ItouJunna,
   nameNotations: {
     lastName: "伊藤",
@@ -234,11 +187,6 @@ const itoujunna: IMember = {
     lastNameEn: "ito",
     firstNameEn: "junna",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Second,
   birthday: "1998-11-30",
   height: 166,
@@ -254,21 +202,13 @@ const itoujunna: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const itouriria: IMember = {
+const itouriria: RawMember = {
   name: MemberNames.ItouRiria,
   nameNotations: {
     lastName: "伊藤",
@@ -278,11 +218,6 @@ const itouriria: IMember = {
     lastNameEn: "ito",
     firstNameEn: "riria",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Third,
   birthday: "2002-10-08",
   height: 154,
@@ -294,21 +229,13 @@ const itouriria: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const inouesayuri: IMember = {
+const inouesayuri: RawMember = {
   name: MemberNames.InoueSayuri,
   nameNotations: {
     lastName: "井上",
@@ -318,11 +245,6 @@ const inouesayuri: IMember = {
     lastNameEn: "inoue",
     firstNameEn: "sayuri",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1994-12-14",
   height: 156,
@@ -350,21 +272,13 @@ const inouesayuri: IMember = {
       ],
     },
   ],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const iwamotorenka: IMember = {
+const iwamotorenka: RawMember = {
   name: MemberNames.IwamotoRenka,
   nameNotations: {
     lastName: "岩本",
@@ -374,11 +288,6 @@ const iwamotorenka: IMember = {
     lastNameEn: "iwamoto",
     firstNameEn: "renka",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Third,
   birthday: "2004-02-02",
   height: 157,
@@ -390,21 +299,13 @@ const iwamotorenka: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const umezawaminami: IMember = {
+const umezawaminami: RawMember = {
   name: MemberNames.UmezawaMinami,
   nameNotations: {
     lastName: "梅澤",
@@ -414,11 +315,6 @@ const umezawaminami: IMember = {
     lastNameEn: "umezakwa",
     firstNameEn: "minami",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Third,
   birthday: "1999-01-06",
   height: 170,
@@ -430,21 +326,13 @@ const umezawaminami: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const etoumisa: IMember = {
+const etoumisa: RawMember = {
   name: MemberNames.EtouMisa,
   nameNotations: {
     lastName: "衛藤",
@@ -454,11 +342,6 @@ const etoumisa: IMember = {
     lastNameEn: "eto",
     firstNameEn: "misa",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1993-01-04",
   height: 163,
@@ -497,21 +380,13 @@ const etoumisa: IMember = {
       ],
     },
   ],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2019-03-31",
   },
 };
 
-const oozonomomoko: IMember = {
+const oozonomomoko: RawMember = {
   name: MemberNames.OozonoMomoko,
   nameNotations: {
     lastName: "大園",
@@ -521,11 +396,6 @@ const oozonomomoko: IMember = {
     lastNameEn: "ozono",
     firstNameEn: "momoko",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Third,
   birthday: "1999-09-13",
   height: 156,
@@ -537,21 +407,13 @@ const oozonomomoko: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const kawagohina: IMember = {
+const kawagohina: RawMember = {
   name: MemberNames.KawagoHina,
   nameNotations: {
     lastName: "川後",
@@ -561,11 +423,6 @@ const kawagohina: IMember = {
     lastNameEn: "kawago",
     firstNameEn: "hina",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1998-03-22",
   height: 161,
@@ -585,21 +442,13 @@ const kawagohina: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2018-12-20",
   },
 };
 
-const kitanohinako: IMember = {
+const kitanohinako: RawMember = {
   name: MemberNames.KitanoHinako,
   nameNotations: {
     lastName: "北野",
@@ -609,11 +458,6 @@ const kitanohinako: IMember = {
     lastNameEn: "kitano",
     firstNameEn: "hinako",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Second,
   birthday: "1996-07-17",
   height: 158,
@@ -641,21 +485,13 @@ const kitanohinako: IMember = {
       ],
     },
   ],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const kuboshiori: IMember = {
+const kuboshiori: RawMember = {
   name: MemberNames.KuboShiori,
   nameNotations: {
     lastName: "久保",
@@ -665,11 +501,6 @@ const kuboshiori: IMember = {
     lastNameEn: "kubo",
     firstNameEn: "shiori",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Third,
   birthday: "2001-07-14",
   height: 159,
@@ -681,21 +512,13 @@ const kuboshiori: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const saitouasuka: IMember = {
+const saitouasuka: RawMember = {
   name: MemberNames.SaitouAsuka,
   nameNotations: {
     lastName: "齋藤",
@@ -705,11 +528,6 @@ const saitouasuka: IMember = {
     lastNameEn: "saito",
     firstNameEn: "asuka",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1998-08-10",
   height: 158,
@@ -737,21 +555,13 @@ const saitouasuka: IMember = {
       ],
     },
   ],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const saitouyuuri: IMember = {
+const saitouyuuri: RawMember = {
   name: MemberNames.SaitouYuuri,
   nameNotations: {
     lastName: "斉藤",
@@ -761,11 +571,6 @@ const saitouyuuri: IMember = {
     lastNameEn: "saito",
     firstNameEn: "yuri",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1993-07-20",
   height: 157,
@@ -781,21 +586,13 @@ const saitouyuuri: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const sakaguchitamami: IMember = {
+const sakaguchitamami: RawMember = {
   name: MemberNames.SakaguchiTamami,
   nameNotations: {
     lastName: "阪口",
@@ -805,11 +602,6 @@ const sakaguchitamami: IMember = {
     lastNameEn: "sakaguchi",
     firstNameEn: "tamami",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Third,
   birthday: "2001-11-10",
   height: 161,
@@ -821,21 +613,13 @@ const sakaguchitamami: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const sakuraireika: IMember = {
+const sakuraireika: RawMember = {
   name: MemberNames.SakuraiReika,
   nameNotations: {
     lastName: "桜井",
@@ -845,11 +629,6 @@ const sakuraireika: IMember = {
     lastNameEn: "sakurai",
     firstNameEn: "reika",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1994-05-16",
   height: 155,
@@ -877,21 +656,13 @@ const sakuraireika: IMember = {
       ],
     },
   ],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const sasakikotoko: IMember = {
+const sasakikotoko: RawMember = {
   name: MemberNames.SasakiKotoko,
   nameNotations: {
     lastName: "佐々木",
@@ -901,11 +672,6 @@ const sasakikotoko: IMember = {
     lastNameEn: "sasaki",
     firstNameEn: "kotoko",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Second,
   birthday: "1998-08-28",
   height: 163,
@@ -917,21 +683,13 @@ const sasakikotoko: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const satoukaede: IMember = {
+const satoukaede: RawMember = {
   name: MemberNames.SatouKaede,
   nameNotations: {
     lastName: "佐藤",
@@ -941,11 +699,6 @@ const satoukaede: IMember = {
     lastNameEn: "sato",
     firstNameEn: "kaede",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Third,
   birthday: "1998-03-23",
   height: 161,
@@ -957,21 +710,13 @@ const satoukaede: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const shiraishimai: IMember = {
+const shiraishimai: RawMember = {
   name: MemberNames.ShiraishiMai,
   nameNotations: {
     lastName: "白石",
@@ -981,11 +726,6 @@ const shiraishimai: IMember = {
     lastNameEn: "shiraishi",
     firstNameEn: "mai",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1992-08-20",
   height: 162,
@@ -1035,21 +775,13 @@ const shiraishimai: IMember = {
       ],
     },
   ],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const shinuchimai: IMember = {
+const shinuchimai: RawMember = {
   name: MemberNames.ShinuchiMai,
   nameNotations: {
     lastName: "新内",
@@ -1059,11 +791,6 @@ const shinuchimai: IMember = {
     lastNameEn: "shinuchi",
     firstNameEn: "mai",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Second,
   birthday: "1992-01-22",
   height: 165,
@@ -1091,21 +818,13 @@ const shinuchimai: IMember = {
       ],
     },
   ],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const suzukiayane: IMember = {
+const suzukiayane: RawMember = {
   name: MemberNames.SuzukiAyane,
   nameNotations: {
     lastName: "鈴木",
@@ -1115,11 +834,6 @@ const suzukiayane: IMember = {
     lastNameEn: "suzuki",
     firstNameEn: "ayane",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Second,
   birthday: "1999-03-05",
   height: 160,
@@ -1135,21 +849,13 @@ const suzukiayane: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const takayamakazumi: IMember = {
+const takayamakazumi: RawMember = {
   name: MemberNames.TakayamaKazumi,
   nameNotations: {
     lastName: "高山",
@@ -1159,11 +865,6 @@ const takayamakazumi: IMember = {
     lastNameEn: "takayama",
     firstNameEn: "kazumi",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1994-02-08",
   height: 162,
@@ -1202,21 +903,13 @@ const takayamakazumi: IMember = {
       ],
     },
   ],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const teradaranze: IMember = {
+const teradaranze: RawMember = {
   name: MemberNames.TeradaRanze,
   nameNotations: {
     lastName: "寺田",
@@ -1226,11 +919,6 @@ const teradaranze: IMember = {
     lastNameEn: "terada",
     firstNameEn: "ranze",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Second,
   birthday: "1998-09-23",
   height: 155,
@@ -1242,21 +930,13 @@ const teradaranze: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const nakadakana: IMember = {
+const nakadakana: RawMember = {
   name: MemberNames.NakadaKana,
   nameNotations: {
     lastName: "中田",
@@ -1266,11 +946,6 @@ const nakadakana: IMember = {
     lastNameEn: "nakada",
     firstNameEn: "kana",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1994-08-06",
   height: 158,
@@ -1286,21 +961,13 @@ const nakadakana: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const nakamurareno: IMember = {
+const nakamurareno: RawMember = {
   name: MemberNames.NakamuraReno,
   nameNotations: {
     lastName: "中村",
@@ -1310,11 +977,6 @@ const nakamurareno: IMember = {
     lastNameEn: "nakamura",
     firstNameEn: "reno",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Third,
   birthday: "2001-09-27",
   height: 167,
@@ -1326,21 +988,13 @@ const nakamurareno: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const nishinonanase: IMember = {
+const nishinonanase: RawMember = {
   name: MemberNames.NishinoNanase,
   nameNotations: {
     lastName: "西野",
@@ -1350,11 +1004,6 @@ const nishinonanase: IMember = {
     lastNameEn: "nishino",
     firstNameEn: "nanase",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1994-05-25",
   height: 159,
@@ -1408,21 +1057,13 @@ const nishinonanase: IMember = {
       ],
     },
   ],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2018-12-31",
   },
 };
 
-const noujouami: IMember = {
+const noujouami: RawMember = {
   name: MemberNames.NoujouAmi,
   nameNotations: {
     lastName: "能條",
@@ -1432,11 +1073,6 @@ const noujouami: IMember = {
     lastNameEn: "nojo",
     firstNameEn: "ami",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1994-10-18",
   height: 162,
@@ -1448,21 +1084,13 @@ const noujouami: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2018-12-15",
   },
 };
 
-const higuchihina: IMember = {
+const higuchihina: RawMember = {
   name: MemberNames.HiguchiHina,
   nameNotations: {
     lastName: "樋口",
@@ -1472,11 +1100,6 @@ const higuchihina: IMember = {
     lastNameEn: "higuchi",
     firstNameEn: "hina",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1998-01-31",
   height: 159,
@@ -1492,21 +1115,13 @@ const higuchihina: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const hoshinominami: IMember = {
+const hoshinominami: RawMember = {
   name: MemberNames.HoshinoMinami,
   nameNotations: {
     lastName: "星野",
@@ -1516,11 +1131,6 @@ const hoshinominami: IMember = {
     lastNameEn: "hoshino",
     firstNameEn: "minami",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1998-02-06",
   height: 155,
@@ -1548,21 +1158,13 @@ const hoshinominami: IMember = {
       ],
     },
   ],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const horimiona: IMember = {
+const horimiona: RawMember = {
   name: MemberNames.HoriMiona,
   nameNotations: {
     lastName: "堀",
@@ -1572,11 +1174,6 @@ const horimiona: IMember = {
     lastNameEn: "hori",
     firstNameEn: "miona",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Second,
   birthday: "1996-10-15",
   height: 160,
@@ -1604,21 +1201,13 @@ const horimiona: IMember = {
       ],
     },
   ],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const matsumurasayuri: IMember = {
+const matsumurasayuri: RawMember = {
   name: MemberNames.MatsumuraSayuri,
   nameNotations: {
     lastName: "松村",
@@ -1628,11 +1217,6 @@ const matsumurasayuri: IMember = {
     lastNameEn: "matsumura",
     firstNameEn: "sayuri",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1992-08-27",
   height: 164,
@@ -1660,21 +1244,13 @@ const matsumurasayuri: IMember = {
       ],
     },
   ],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const mukaihazuki: IMember = {
+const mukaihazuki: RawMember = {
   name: MemberNames.MukaiHazuki,
   nameNotations: {
     lastName: "向井",
@@ -1684,11 +1260,6 @@ const mukaihazuki: IMember = {
     lastNameEn: "mukai",
     firstNameEn: "hazuki",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Third,
   birthday: "1999-08-23",
   height: 152,
@@ -1700,21 +1271,13 @@ const mukaihazuki: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const yamazakirena: IMember = {
+const yamazakirena: RawMember = {
   name: MemberNames.YamazakiRena,
   nameNotations: {
     lastName: "山崎",
@@ -1724,11 +1287,6 @@ const yamazakirena: IMember = {
     lastNameEn: "yamazaki",
     firstNameEn: "rena",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Second,
   birthday: "1998-01-31",
   height: 159,
@@ -1744,21 +1302,13 @@ const yamazakirena: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const yamashitamizuki: IMember = {
+const yamashitamizuki: RawMember = {
   name: MemberNames.YamashitaMizuki,
   nameNotations: {
     lastName: "山下",
@@ -1768,11 +1318,6 @@ const yamashitamizuki: IMember = {
     lastNameEn: "yamashita",
     firstNameEn: "mizuki",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Third,
   birthday: "1999-07-26",
   height: 159,
@@ -1784,21 +1329,13 @@ const yamashitamizuki: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const yoshidaayanochristie: IMember = {
+const yoshidaayanochristie: RawMember = {
   name: MemberNames.YoshidaAyanoChristie,
   nameNotations: {
     lastName: "吉田",
@@ -1808,11 +1345,6 @@ const yoshidaayanochristie: IMember = {
     lastNameEn: "yoshida",
     firstNameEn: "ayanochristie",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Third,
   birthday: "1995-09-06",
   height: 161,
@@ -1824,21 +1356,13 @@ const yoshidaayanochristie: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const yodayuuki: IMember = {
+const yodayuuki: RawMember = {
   name: MemberNames.YodaYuuki,
   nameNotations: {
     lastName: "与田",
@@ -1848,11 +1372,6 @@ const yodayuuki: IMember = {
     lastNameEn: "yoda",
     firstNameEn: "yuki",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Third,
   birthday: "2000-05-05",
   height: 152,
@@ -1876,21 +1395,13 @@ const yodayuuki: IMember = {
       ],
     },
   ],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const wakatsukiyumi: IMember = {
+const wakatsukiyumi: RawMember = {
   name: MemberNames.WakatsukiYumi,
   nameNotations: {
     lastName: "若月",
@@ -1900,11 +1411,6 @@ const wakatsukiyumi: IMember = {
     lastNameEn: "wakatsuki",
     firstNameEn: "yumi",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1994-06-27",
   height: 157,
@@ -1932,21 +1438,13 @@ const wakatsukiyumi: IMember = {
       ],
     },
   ],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2018-11-30",
   },
 };
 
-const watanabemiria: IMember = {
+const watanabemiria: RawMember = {
   name: MemberNames.WatanabeMiria,
   nameNotations: {
     lastName: "渡辺",
@@ -1956,11 +1454,6 @@ const watanabemiria: IMember = {
     lastNameEn: "watanabe",
     firstNameEn: "miria",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Second,
   birthday: "1999-11-01",
   height: 153,
@@ -1976,21 +1469,13 @@ const watanabemiria: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const wadamaaya: IMember = {
+const wadamaaya: RawMember = {
   name: MemberNames.WadaMaaya,
   nameNotations: {
     lastName: "和田",
@@ -2000,11 +1485,6 @@ const wadamaaya: IMember = {
     lastNameEn: "wada",
     firstNameEn: "maya",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1998-04-23",
   height: 160,
@@ -2020,21 +1500,13 @@ const wadamaaya: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const endousakura: IMember = {
+const endousakura: RawMember = {
   name: MemberNames.EndouSakura,
   nameNotations: {
     lastName: "遠藤",
@@ -2044,11 +1516,6 @@ const endousakura: IMember = {
     lastNameEn: "endo",
     firstNameEn: "sakura",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Fourth,
   birthday: "2001-10-03",
   height: 160,
@@ -2060,21 +1527,13 @@ const endousakura: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const kakiharuka: IMember = {
+const kakiharuka: RawMember = {
   name: MemberNames.KakiHaruka,
   nameNotations: {
     lastName: "賀喜",
@@ -2084,11 +1543,6 @@ const kakiharuka: IMember = {
     lastNameEn: "kaki",
     firstNameEn: "haruka",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Fourth,
   birthday: "2001-08-08",
   height: 166,
@@ -2100,21 +1554,13 @@ const kakiharuka: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const kakehashisayaka: IMember = {
+const kakehashisayaka: RawMember = {
   name: MemberNames.KakehashiSayaka,
   nameNotations: {
     lastName: "掛橋",
@@ -2124,11 +1570,6 @@ const kakehashisayaka: IMember = {
     lastNameEn: "kakehashi",
     firstNameEn: "sayaka",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Fourth,
   birthday: "2002-11-20",
   height: 156,
@@ -2140,21 +1581,13 @@ const kakehashisayaka: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const kanagawasaya: IMember = {
+const kanagawasaya: RawMember = {
   name: MemberNames.KanagawaSaya,
   nameNotations: {
     lastName: "金川",
@@ -2164,11 +1597,6 @@ const kanagawasaya: IMember = {
     lastNameEn: "kanagawa",
     firstNameEn: "saya",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Fourth,
   birthday: "2001-10-31",
   height: 164,
@@ -2180,21 +1608,13 @@ const kanagawasaya: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const kitagawayuri: IMember = {
+const kitagawayuri: RawMember = {
   name: MemberNames.KitagawaYuri,
   nameNotations: {
     lastName: "北川",
@@ -2204,11 +1624,6 @@ const kitagawayuri: IMember = {
     lastNameEn: "kitagawa",
     firstNameEn: "yuri",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Fourth,
   birthday: "2001-08-08",
   height: 163,
@@ -2220,21 +1635,13 @@ const kitagawayuri: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const shibatayuna: IMember = {
+const shibatayuna: RawMember = {
   name: MemberNames.ShibataYuna,
   nameNotations: {
     lastName: "柴田",
@@ -2244,11 +1651,6 @@ const shibatayuna: IMember = {
     lastNameEn: "shibata",
     firstNameEn: "yuna",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Fourth,
   birthday: "2003-03-03",
   height: 160,
@@ -2260,21 +1662,13 @@ const shibatayuna: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const seimiyarei: IMember = {
+const seimiyarei: RawMember = {
   name: MemberNames.SeimiyaRei,
   nameNotations: {
     lastName: "清宮",
@@ -2284,11 +1678,6 @@ const seimiyarei: IMember = {
     lastNameEn: "seimiya",
     firstNameEn: "rei",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Fourth,
   birthday: "2003-08-01",
   height: 162,
@@ -2300,21 +1689,13 @@ const seimiyarei: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const tamuramayu: IMember = {
+const tamuramayu: RawMember = {
   name: MemberNames.TamuraMayu,
   nameNotations: {
     lastName: "田村",
@@ -2324,11 +1705,6 @@ const tamuramayu: IMember = {
     lastNameEn: "tamura",
     firstNameEn: "mayu",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Fourth,
   birthday: "1999-01-12",
   height: 158,
@@ -2340,21 +1716,13 @@ const tamuramayu: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const tsutsuiayame: IMember = {
+const tsutsuiayame: RawMember = {
   name: MemberNames.TsutsuiAyame,
   nameNotations: {
     lastName: "筒井",
@@ -2364,11 +1732,6 @@ const tsutsuiayame: IMember = {
     lastNameEn: "tsutsui",
     firstNameEn: "ayame",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Fourth,
   birthday: "2004-06-08",
   height: 160,
@@ -2380,21 +1743,13 @@ const tsutsuiayame: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const hayakawaseira: IMember = {
+const hayakawaseira: RawMember = {
   name: MemberNames.HayakawaSeira,
   nameNotations: {
     lastName: "早川",
@@ -2404,11 +1759,6 @@ const hayakawaseira: IMember = {
     lastNameEn: "hayakawa",
     firstNameEn: "seira",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Fourth,
   birthday: "2000-08-24",
   height: 164,
@@ -2420,21 +1770,13 @@ const hayakawaseira: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const yakubomio: IMember = {
+const yakubomio: RawMember = {
   name: MemberNames.YakuboMio,
   nameNotations: {
     lastName: "矢久保",
@@ -2444,11 +1786,6 @@ const yakubomio: IMember = {
     lastNameEn: "yakubo",
     firstNameEn: "mio",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Fourth,
   birthday: "2002-08-14",
   height: 152,
@@ -2460,21 +1797,13 @@ const yakubomio: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: false,
     graduatedDate: "",
   },
 };
 
-const sagaraiori: IMember = {
+const sagaraiori: RawMember = {
   name: MemberNames.SagaraIori,
   nameNotations: {
     lastName: "相楽",
@@ -2484,11 +1813,6 @@ const sagaraiori: IMember = {
     lastNameEn: "sagara",
     firstNameEn: "iori",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Second,
   birthday: "1997-11-26",
   height: 164,
@@ -2504,21 +1828,13 @@ const sagaraiori: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2018-07-16",
   },
 };
 
-const saitouchiharu: IMember = {
+const saitouchiharu: RawMember = {
   name: MemberNames.SaitouChiharu,
   nameNotations: {
     lastName: "斎藤",
@@ -2528,11 +1844,6 @@ const saitouchiharu: IMember = {
     lastNameEn: "saito",
     firstNameEn: "chiharu",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1997-02-17",
   height: 166,
@@ -2544,21 +1855,13 @@ const saitouchiharu: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2018-07-16",
   },
 };
 
-const kawamuramahiro: IMember = {
+const kawamuramahiro: RawMember = {
   name: MemberNames.KawamuraMahiro,
   nameNotations: {
     lastName: "川村",
@@ -2568,11 +1871,6 @@ const kawamuramahiro: IMember = {
     lastNameEn: "kawamura",
     firstNameEn: "mahiro",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1995-07-23",
   height: 156,
@@ -2588,21 +1886,13 @@ const kawamuramahiro: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2018-03-31",
   },
 };
 
-const nakamotohimeka: IMember = {
+const nakamotohimeka: RawMember = {
   name: MemberNames.NakamotoHimeka,
   nameNotations: {
     lastName: "中元",
@@ -2612,11 +1902,6 @@ const nakamotohimeka: IMember = {
     lastNameEn: "nakamoto",
     firstNameEn: "himeka",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1996-04-13",
   height: 161,
@@ -2628,21 +1913,13 @@ const nakamotohimeka: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2017-12-31",
   },
 };
 
-const itoumarika: IMember = {
+const itoumarika: RawMember = {
   name: MemberNames.ItouMarika,
   nameNotations: {
     lastName: "伊藤",
@@ -2652,11 +1929,6 @@ const itoumarika: IMember = {
     lastNameEn: "ito",
     firstNameEn: "marika",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1996-02-20",
   height: 155,
@@ -2672,21 +1944,13 @@ const itoumarika: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2017-12-23",
   },
 };
 
-const hashimotonanami: IMember = {
+const hashimotonanami: RawMember = {
   name: MemberNames.HashimotoNanami,
   nameNotations: {
     lastName: "橋本",
@@ -2696,11 +1960,6 @@ const hashimotonanami: IMember = {
     lastNameEn: "hashimoto",
     firstNameEn: "nanami",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1993-02-20",
   height: 163,
@@ -2730,21 +1989,13 @@ const hashimotonanami: IMember = {
       ],
     },
   ],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2017-02-20",
   },
 };
 
-const fukagawamai: IMember = {
+const fukagawamai: RawMember = {
   name: MemberNames.FukagawaMai,
   nameNotations: {
     lastName: "深川",
@@ -2754,11 +2005,6 @@ const fukagawamai: IMember = {
     lastNameEn: "fukagawa",
     firstNameEn: "mai",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1991-03-29",
   height: 162,
@@ -2797,21 +2043,13 @@ const fukagawamai: IMember = {
       ],
     },
   ],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2016-06-16",
   },
 };
 
-const nagashimaseira: IMember = {
+const nagashimaseira: RawMember = {
   name: MemberNames.NagashimaSeira,
   nameNotations: {
     lastName: "永島",
@@ -2821,11 +2059,6 @@ const nagashimaseira: IMember = {
     lastNameEn: "nagashima",
     firstNameEn: "seira",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1994-05-19",
   height: 158,
@@ -2841,21 +2074,13 @@ const nagashimaseira: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2016-03-20",
   },
 };
 
-const matsuirena: IMember = {
+const matsuirena: RawMember = {
   name: MemberNames.MatsuiRena,
   nameNotations: {
     lastName: "松井",
@@ -2865,11 +2090,6 @@ const matsuirena: IMember = {
     lastNameEn: "matsui",
     firstNameEn: "rena",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Exchange,
   birthday: "1991-07-27",
   height: 162,
@@ -2885,21 +2105,13 @@ const matsuirena: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2015-05-14",
   },
 };
 
-const hatanakaseira: IMember = {
+const hatanakaseira: RawMember = {
   name: MemberNames.HatanakaSeira,
   nameNotations: {
     lastName: "畠中",
@@ -2909,11 +2121,6 @@ const hatanakaseira: IMember = {
     lastNameEn: "hatanaka",
     firstNameEn: "seira",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1995-12-05",
   height: 150,
@@ -2929,21 +2136,13 @@ const hatanakaseira: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2015-04-04",
   },
 };
 
-const yamatorina: IMember = {
+const yamatorina: RawMember = {
   name: MemberNames.YamatoRina,
   nameNotations: {
     lastName: "大和",
@@ -2953,32 +2152,19 @@ const yamatorina: IMember = {
     lastNameEn: "yamato",
     firstNameEn: "rina",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1994-12-14",
   height: 162,
   bloodType: BloodType.O,
   sites: [],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2015-04-04",
   },
 };
 
-const itounene: IMember = {
+const itounene: RawMember = {
   name: MemberNames.ItouNene,
   nameNotations: {
     lastName: "伊藤",
@@ -2988,11 +2174,6 @@ const itounene: IMember = {
     lastNameEn: "ito",
     firstNameEn: "nene",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1995-12-12",
   height: 148,
@@ -3008,21 +2189,13 @@ const itounene: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2014-10-19",
   },
 };
 
-const yonetokukyouka: IMember = {
+const yonetokukyouka: RawMember = {
   name: MemberNames.YonetokuKyouka,
   nameNotations: {
     lastName: "米徳",
@@ -3032,32 +2205,19 @@ const yonetokukyouka: IMember = {
     lastNameEn: "yonetoku",
     firstNameEn: "kyoka",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Second,
   birthday: "1999-04-14",
   height: 163,
   bloodType: BloodType.AB,
   sites: [],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2014-10-18",
   },
 };
 
-const yadarisako: IMember = {
+const yadarisako: RawMember = {
   name: MemberNames.YadaRisako,
   nameNotations: {
     lastName: "矢田",
@@ -3067,32 +2227,19 @@ const yadarisako: IMember = {
     lastNameEn: "yada",
     firstNameEn: "risako",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Second,
   birthday: "1995-03-08",
   height: 158,
   bloodType: BloodType.A,
   sites: [],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2014-10-18",
   },
 };
 
-const ichikirena: IMember = {
+const ichikirena: RawMember = {
   name: MemberNames.IchikiRena,
   nameNotations: {
     lastName: "市來",
@@ -3102,11 +2249,6 @@ const ichikirena: IMember = {
     lastNameEn: "ichiki",
     firstNameEn: "rena",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1996-01-22",
   height: 153,
@@ -3118,21 +2260,13 @@ const ichikirena: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2014-10-19",
   },
 };
 
-const nishikawananami: IMember = {
+const nishikawananami: RawMember = {
   name: MemberNames.NishikawaNanami,
   nameNotations: {
     lastName: "西川",
@@ -3142,32 +2276,19 @@ const nishikawananami: IMember = {
     lastNameEn: "nishikawa",
     firstNameEn: "nanami",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.Second,
   birthday: "1993-07-03",
   height: 165,
   bloodType: BloodType.A,
   sites: [],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2014-03-22",
   },
 };
 
-const miyazawaseira: IMember = {
+const miyazawaseira: RawMember = {
   name: MemberNames.MiyazawaSeira,
   nameNotations: {
     lastName: "宮澤",
@@ -3177,11 +2298,6 @@ const miyazawaseira: IMember = {
     lastNameEn: "miyazawa",
     firstNameEn: "seira",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1993-10-29",
   height: 166,
@@ -3197,21 +2313,13 @@ const miyazawaseira: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2013-11-17",
   },
 };
 
-const kashiwayukina: IMember = {
+const kashiwayukina: RawMember = {
   name: MemberNames.KashiwaYukina,
   nameNotations: {
     lastName: "柏",
@@ -3221,11 +2329,6 @@ const kashiwayukina: IMember = {
     lastNameEn: "kashiwa",
     firstNameEn: "yukina",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1994-08-12",
   height: 158,
@@ -3241,21 +2344,13 @@ const kashiwayukina: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2013-11-17",
   },
 };
 
-const andoumikumo: IMember = {
+const andoumikumo: RawMember = {
   name: MemberNames.AndouMikumo,
   nameNotations: {
     lastName: "安藤",
@@ -3265,32 +2360,19 @@ const andoumikumo: IMember = {
     lastNameEn: "ando",
     firstNameEn: "mikumo",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1993-05-21",
   height: 156,
   bloodType: BloodType.O,
   sites: [],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2013-06-16",
   },
 };
 
-const iwaseyumiko: IMember = {
+const iwaseyumiko: RawMember = {
   name: MemberNames.IwaseYumiko,
   nameNotations: {
     lastName: "岩瀬",
@@ -3300,11 +2382,6 @@ const iwaseyumiko: IMember = {
     lastNameEn: "iwase",
     firstNameEn: "yumiko",
   },
-  profileImage: {
-    large: "",
-    small: "",
-  },
-  singleImages: {},
   join: JoinedGeneration.First,
   birthday: "1990-06-12",
   height: 153,
@@ -3320,91 +2397,83 @@ const iwaseyumiko: IMember = {
     },
   ],
   photoAlbums: [],
-  units: [],
-  positionsHistory: {},
-  positionsCounter: {
-    center: 0,
-    fukujin: 0,
-    selected: 0,
-    under: 0,
-  },
   graduation: {
     isGraduated: true,
     graduatedDate: "2012-11-18",
   },
 };
 
-export const members: IMembers = {
-  [akimotomanatsu.name]: akimotomanatsu,
-  [ikutaerika.name]: ikutaerika,
-  [itoukarin.name]: itoukarin,
-  [itoujunna.name]: itoujunna,
-  [itouriria.name]: itouriria,
-  [inouesayuri.name]: inouesayuri,
-  [iwamotorenka.name]: iwamotorenka,
-  [umezawaminami.name]: umezawaminami,
-  [etoumisa.name]: etoumisa,
-  [oozonomomoko.name]: oozonomomoko,
-  [kitanohinako.name]: kitanohinako,
-  [kuboshiori.name]: kuboshiori,
-  [saitouasuka.name]: saitouasuka,
-  [saitouyuuri.name]: saitouyuuri,
-  [sakaguchitamami.name]: sakaguchitamami,
-  [sakuraireika.name]: sakuraireika,
-  [sasakikotoko.name]: sasakikotoko,
-  [satoukaede.name]: satoukaede,
-  [shiraishimai.name]: shiraishimai,
-  [shinuchimai.name]: shinuchimai,
-  [suzukiayane.name]: suzukiayane,
-  [takayamakazumi.name]: takayamakazumi,
-  [teradaranze.name]: teradaranze,
-  [nakadakana.name]: nakadakana,
-  [nakamurareno.name]: nakamurareno,
-  [nishinonanase.name]: nishinonanase,
-  [higuchihina.name]: higuchihina,
-  [hoshinominami.name]: hoshinominami,
-  [horimiona.name]: horimiona,
-  [matsumurasayuri.name]: matsumurasayuri,
-  [mukaihazuki.name]: mukaihazuki,
-  [yamazakirena.name]: yamazakirena,
-  [yamashitamizuki.name]: yamashitamizuki,
-  [yoshidaayanochristie.name]: yoshidaayanochristie,
-  [yodayuuki.name]: yodayuuki,
-  [watanabemiria.name]: watanabemiria,
-  [wadamaaya.name]: wadamaaya,
-  [endousakura.name]: endousakura,
-  [kakiharuka.name]: kakiharuka,
-  [kakehashisayaka.name]: kakehashisayaka,
-  [kanagawasaya.name]: kanagawasaya,
-  [kitagawayuri.name]: kitagawayuri,
-  [shibatayuna.name]: shibatayuna,
-  [seimiyarei.name]: seimiyarei,
-  [tamuramayu.name]: tamuramayu,
-  [tsutsuiayame.name]: tsutsuiayame,
-  [hayakawaseira.name]: hayakawaseira,
-  [yakubomio.name]: yakubomio,
-  [kawagohina.name]: kawagohina,
-  [noujouami.name]: noujouami,
-  [wakatsukiyumi.name]: wakatsukiyumi,
-  [saitouchiharu.name]: saitouchiharu,
-  [sagaraiori.name]: sagaraiori,
-  [ikomarina.name]: ikomarina,
-  [kawamuramahiro.name]: kawamuramahiro,
-  [itoumarika.name]: itoumarika,
-  [nakamotohimeka.name]: nakamotohimeka,
-  [hashimotonanami.name]: hashimotonanami,
-  [fukagawamai.name]: fukagawamai,
-  [nagashimaseira.name]: nagashimaseira,
-  [matsuirena.name]: matsuirena,
-  [hatanakaseira.name]: hatanakaseira,
-  [yamatorina.name]: yamatorina,
-  [itounene.name]: itounene,
-  [yonetokukyouka.name]: yonetokukyouka,
-  [yadarisako.name]: yadarisako,
-  [ichikirena.name]: ichikirena,
-  [nishikawananami.name]: nishikawananami,
-  [miyazawaseira.name]: miyazawaseira,
-  [kashiwayukina.name]: kashiwayukina,
-  [andoumikumo.name]: andoumikumo,
-  [iwaseyumiko.name]: iwaseyumiko,
-};
+export const rawMembers: RawMember[] = [
+  akimotomanatsu,
+  ikutaerika,
+  itoukarin,
+  itoujunna,
+  itouriria,
+  inouesayuri,
+  iwamotorenka,
+  umezawaminami,
+  etoumisa,
+  oozonomomoko,
+  kitanohinako,
+  kuboshiori,
+  saitouasuka,
+  saitouyuuri,
+  sakaguchitamami,
+  sakuraireika,
+  sasakikotoko,
+  satoukaede,
+  shiraishimai,
+  shinuchimai,
+  suzukiayane,
+  takayamakazumi,
+  teradaranze,
+  nakadakana,
+  nakamurareno,
+  nishinonanase,
+  higuchihina,
+  hoshinominami,
+  horimiona,
+  matsumurasayuri,
+  mukaihazuki,
+  yamazakirena,
+  yamashitamizuki,
+  yoshidaayanochristie,
+  yodayuuki,
+  watanabemiria,
+  wadamaaya,
+  endousakura,
+  kakiharuka,
+  kakehashisayaka,
+  kanagawasaya,
+  kitagawayuri,
+  shibatayuna,
+  seimiyarei,
+  tamuramayu,
+  tsutsuiayame,
+  hayakawaseira,
+  yakubomio,
+  kawagohina,
+  noujouami,
+  wakatsukiyumi,
+  saitouchiharu,
+  sagaraiori,
+  ikomarina,
+  kawamuramahiro,
+  itoumarika,
+  nakamotohimeka,
+  hashimotonanami,
+  fukagawamai,
+  nagashimaseira,
+  matsuirena,
+  hatanakaseira,
+  yamatorina,
+  itounene,
+  yonetokukyouka,
+  yadarisako,
+  ichikirena,
+  nishikawananami,
+  miyazawaseira,
+  kashiwayukina,
+  andoumikumo,
+  iwaseyumiko,
+];

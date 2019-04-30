@@ -8,21 +8,47 @@ import {
 } from "../utils/constants";
 import { Site } from "./commons";
 
+type NameNotations = {
+  firstName: string;
+  lastName: string;
+  firstNameFurigana: string;
+  lastNameFurigana: string;
+  firstNameEn: string;
+  lastNameEn: string;
+};
+
+type PhotoAlbum = {
+  title: string;
+  release: string;
+  type: PhotoAlbumType;
+  shopping: Site[];
+};
+
 type MemberProfileImage = {
   large: string;
   small: string;
 };
 
-export type IMember = {
+type Graduation = {
+  isGraduated: boolean;
+  graduatedDate: string;
+};
+
+export type RawMember = {
   name: MemberNames;
-  nameNotations: {
-    firstName: string;
-    lastName: string;
-    firstNameFurigana: string;
-    lastNameFurigana: string;
-    firstNameEn: string;
-    lastNameEn: string;
-  };
+  nameNotations: NameNotations;
+  join: JoinedGeneration;
+  birthday: string;
+  height: number;
+  bloodType: BloodType;
+  sites: Site[];
+  photoAlbums: PhotoAlbum[];
+  graduation: Graduation;
+};
+
+export type ResultMember = {
+  name: MemberNames;
+  nameNotations: NameNotations;
   profileImage: MemberProfileImage;
   singleImages: {
     [singleNumber: string]: MemberProfileImage;
@@ -32,12 +58,7 @@ export type IMember = {
   height: number;
   bloodType: BloodType;
   sites: Site[];
-  photoAlbums: {
-    title: string;
-    release: string;
-    type: PhotoAlbumType;
-    shopping: Site[];
-  }[];
+  photoAlbums: PhotoAlbum[];
   units: {
     name: string;
     type: UnitType;
@@ -51,12 +72,9 @@ export type IMember = {
     selected: number;
     under: number;
   };
-  graduation: {
-    isGraduated: boolean;
-    graduatedDate: string;
-  };
+  graduation: Graduation;
 };
 
-export type IMembers = {
-  [name: string]: IMember;
+export type ResultMembers = {
+  [name: string]: ResultMember;
 };

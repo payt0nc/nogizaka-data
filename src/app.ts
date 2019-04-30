@@ -4,7 +4,7 @@ import * as updateSongs from "./process/updateSongs";
 import * as updateUnits from "./process/updateUnits";
 import * as updateCds from "./process/updateCds";
 import { rawAlbums } from "./raw/albums";
-import { members } from "./raw/members";
+import { rawMembers } from "./raw/members";
 import { rawSingles } from "./raw/singles";
 import { songs } from "./raw/songs";
 import { rawUnits } from "./raw/units";
@@ -14,6 +14,7 @@ import { rawUnits } from "./raw/units";
 const units = updateUnits.initializeUnits(rawUnits);
 const albums = updateCds.initializeAlbums(rawAlbums);
 const singles = updateCds.initializeSingles(rawSingles);
+const members = updateMembers.initializeMembers(rawMembers);
 
 // Process the raw data.
 
@@ -24,8 +25,8 @@ updateMembers.recordUnits(members, units);
 updateMembers.recordPositions(members, singles, songs);
 updateMembers.recordProfileImages(members, Object.keys(singles).length);
 
-updateCds.recordCdFocusPerformersFromSongs(singles, songs);
-updateCds.recordCdFocusPerformersFromSongs(albums, songs);
+updateCds.recordCdFocusPerformersFromSongs(singles, songs, members);
+updateCds.recordCdFocusPerformersFromSongs(albums, songs, members);
 
 updateSongs.recordSongSingle(songs, singles);
 updateSongs.recordSongAlbums(songs, albums);

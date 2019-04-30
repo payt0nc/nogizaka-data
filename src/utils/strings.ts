@@ -1,7 +1,10 @@
 import { MemberNames } from "./constants";
-import { members } from "../raw/members";
+import { ResultMembers } from "../models/IMember";
 
-export const convertPerformerNames = (names: MemberNames[]): string[] => {
+export const convertPerformerNames = (
+  names: MemberNames[],
+  members: ResultMembers,
+): string[] => {
   return names.map(name => {
     const { lastName, firstName } = members[name].nameNotations;
     return lastName + firstName;
