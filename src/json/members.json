@@ -9,6 +9,10 @@
       "lastNameFurigana": "あきもと",
       "firstNameFurigana": "まなつ"
     },
+    "glowStickColor": {
+      "left": "red",
+      "right": "pink"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/akimotomanatsu_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/akimotomanatsu_small.jpg"
@@ -184,6 +188,10 @@
       "firstNameFurigana": "えりか",
       "lastNameEn": "ikuta",
       "firstNameEn": "erika"
+    },
+    "glowStickColor": {
+      "left": "yellow",
+      "right": "yellow"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/ikutaerika_large.jpg",
@@ -371,6 +379,10 @@
       "lastNameEn": "ito",
       "firstNameEn": "karin"
     },
+    "glowStickColor": {
+      "left": "green",
+      "right": "purple"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/itoukarin_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/itoukarin_small.jpg"
@@ -540,6 +552,10 @@
       "lastNameEn": "ito",
       "firstNameEn": "junna"
     },
+    "glowStickColor": {
+      "left": "light blue",
+      "right": "pink"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/itoujunna_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/itoujunna_small.jpg"
@@ -705,6 +721,10 @@
       "lastNameEn": "ito",
       "firstNameEn": "riria"
     },
+    "glowStickColor": {
+      "left": "purple",
+      "right": "red"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/itouriria_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/itouriria_small.jpg"
@@ -860,6 +880,10 @@
       "firstNameFurigana": "さゆり",
       "lastNameEn": "inoue",
       "firstNameEn": "sayuri"
+    },
+    "glowStickColor": {
+      "left": "white",
+      "right": "white"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/inouesayuri_large.jpg",
@@ -1037,6 +1061,10 @@
       "lastNameEn": "iwamoto",
       "firstNameEn": "renka"
     },
+    "glowStickColor": {
+      "left": "red",
+      "right": "pink"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/iwamotorenka_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/iwamotorenka_small.jpg"
@@ -1192,6 +1220,10 @@
       "firstNameFurigana": "みなみ",
       "lastNameEn": "umezakwa",
       "firstNameEn": "minami"
+    },
+    "glowStickColor": {
+      "left": "blue",
+      "right": "light blue"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/umezawaminami_large.jpg",
@@ -1353,6 +1385,10 @@
       "firstNameFurigana": "みさ",
       "lastNameEn": "eto",
       "firstNameEn": "misa"
+    },
+    "glowStickColor": {
+      "left": "red",
+      "right": "red"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/etoumisa_large.jpg",
@@ -1536,6 +1572,10 @@
       "lastNameEn": "ozono",
       "firstNameEn": "momoko"
     },
+    "glowStickColor": {
+      "left": "pink",
+      "right": "green"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/oozonomomoko_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/oozonomomoko_small.jpg"
@@ -1696,6 +1736,10 @@
       "firstNameFurigana": "ひなこ",
       "lastNameEn": "kitano",
       "firstNameEn": "hinako"
+    },
+    "glowStickColor": {
+      "left": "pink",
+      "right": "yellow green"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kitanohinako_large.jpg",
@@ -1869,6 +1913,10 @@
       "lastNameEn": "kubo",
       "firstNameEn": "shiori"
     },
+    "glowStickColor": {
+      "left": "light blue",
+      "right": "yellow"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kuboshiori_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kuboshiori_small.jpg"
@@ -2029,6 +2077,10 @@
       "firstNameFurigana": "あすか",
       "lastNameEn": "saito",
       "firstNameEn": "asuka"
+    },
+    "glowStickColor": {
+      "left": "light blue",
+      "right": "white"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/saitouasuka_large.jpg",
@@ -2202,6 +2254,10 @@
       "lastNameEn": "saito",
       "firstNameEn": "yuri"
     },
+    "glowStickColor": {
+      "left": "pink",
+      "right": "white"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/saitouyuuri_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/saitouyuuri_small.jpg"
@@ -2371,6 +2427,10 @@
       "lastNameEn": "sakaguchi",
       "firstNameEn": "tamami"
     },
+    "glowStickColor": {
+      "left": "purple",
+      "right": "yellow"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/sakaguchitamami_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/sakaguchitamami_small.jpg"
@@ -2531,6 +2591,10 @@
       "firstNameFurigana": "れいか",
       "lastNameEn": "sakurai",
       "firstNameEn": "reika"
+    },
+    "glowStickColor": {
+      "left": "red",
+      "right": "pink"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/sakuraireika_large.jpg",
@@ -2712,6 +2776,10 @@
       "lastNameEn": "sasaki",
       "firstNameEn": "kotoko"
     },
+    "glowStickColor": {
+      "left": "blue",
+      "right": "green"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/sasakikotoko_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/sasakikotoko_small.jpg"
@@ -2873,6 +2941,10 @@
       "lastNameEn": "sato",
       "firstNameEn": "kaede"
     },
+    "glowStickColor": {
+      "left": "red",
+      "right": "red"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/satoukaede_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/satoukaede_small.jpg"
@@ -3028,6 +3100,10 @@
       "firstNameFurigana": "まい",
       "lastNameEn": "shiraishi",
       "firstNameEn": "mai"
+    },
+    "glowStickColor": {
+      "left": "light blue",
+      "right": "light blue"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/shiraishimai_large.jpg",
@@ -3221,6 +3297,10 @@
       "lastNameEn": "shinuchi",
       "firstNameEn": "mai"
     },
+    "glowStickColor": {
+      "left": "blue",
+      "right": "purple"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/shinuchimai_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/shinuchimai_small.jpg"
@@ -3393,6 +3473,10 @@
       "lastNameEn": "suzuki",
       "firstNameEn": "ayane"
     },
+    "glowStickColor": {
+      "left": "white",
+      "right": "purple"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/suzukiayane_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/suzukiayane_small.jpg"
@@ -3557,6 +3641,10 @@
       "firstNameFurigana": "かずみ",
       "lastNameEn": "takayama",
       "firstNameEn": "kazumi"
+    },
+    "glowStickColor": {
+      "left": "light blue",
+      "right": "pink"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/takayamakazumi_large.jpg",
@@ -3744,6 +3832,10 @@
       "lastNameEn": "terada",
       "firstNameEn": "ranze"
     },
+    "glowStickColor": {
+      "left": "red",
+      "right": "white"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/teradaranze_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/teradaranze_small.jpg"
@@ -3908,6 +4000,10 @@
       "firstNameFurigana": "かな",
       "lastNameEn": "nakada",
       "firstNameEn": "kana"
+    },
+    "glowStickColor": {
+      "left": "black",
+      "right": "white"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/nakadakana_large.jpg",
@@ -4078,6 +4174,10 @@
       "lastNameEn": "nakamura",
       "firstNameEn": "reno"
     },
+    "glowStickColor": {
+      "left": "blue",
+      "right": "white"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/nakamurareno_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/nakamurareno_small.jpg"
@@ -4233,6 +4333,10 @@
       "firstNameFurigana": "ななせ",
       "lastNameEn": "nishino",
       "firstNameEn": "nanase"
+    },
+    "glowStickColor": {
+      "left": "green",
+      "right": "white"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/nishinonanase_large.jpg",
@@ -4426,6 +4530,10 @@
       "lastNameEn": "higuchi",
       "firstNameEn": "hina"
     },
+    "glowStickColor": {
+      "left": "purple",
+      "right": "orange"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/higuchihina_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/higuchihina_small.jpg"
@@ -4585,6 +4693,10 @@
       "firstNameFurigana": "みなみ",
       "lastNameEn": "hoshino",
       "firstNameEn": "minami"
+    },
+    "glowStickColor": {
+      "left": "white",
+      "right": "white"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/hoshinominami_large.jpg",
@@ -4757,6 +4869,10 @@
       "firstNameFurigana": "みおな",
       "lastNameEn": "hori",
       "firstNameEn": "miona"
+    },
+    "glowStickColor": {
+      "left": "white",
+      "right": "orange"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/horimiona_large.jpg",
@@ -4933,6 +5049,10 @@
       "firstNameFurigana": "さゆり",
       "lastNameEn": "matsumura",
       "firstNameEn": "sayuri"
+    },
+    "glowStickColor": {
+      "left": "red",
+      "right": "red"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/matsumurasayuri_large.jpg",
@@ -5118,6 +5238,10 @@
       "lastNameEn": "mukai",
       "firstNameEn": "hazuki"
     },
+    "glowStickColor": {
+      "left": "yellow",
+      "right": "yellow"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/mukaihazuki_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/mukaihazuki_small.jpg"
@@ -5273,6 +5397,10 @@
       "firstNameFurigana": "れな",
       "lastNameEn": "yamazaki",
       "firstNameEn": "rena"
+    },
+    "glowStickColor": {
+      "left": "yellow",
+      "right": "white"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yamazakirena_large.jpg",
@@ -5433,6 +5561,10 @@
       "firstNameFurigana": "みづき",
       "lastNameEn": "yamashita",
       "firstNameEn": "mizuki"
+    },
+    "glowStickColor": {
+      "left": "blue",
+      "right": "yellow"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yamashitamizuki_large.jpg",
@@ -5599,6 +5731,10 @@
       "lastNameEn": "yoshida",
       "firstNameEn": "ayanochristie"
     },
+    "glowStickColor": {
+      "left": "pink",
+      "right": "purple"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yoshidaayanochristie_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yoshidaayanochristie_small.jpg"
@@ -5754,6 +5890,10 @@
       "firstNameFurigana": "ゆうき",
       "lastNameEn": "yoda",
       "firstNameEn": "yuki"
+    },
+    "glowStickColor": {
+      "left": "red",
+      "right": "green"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yodayuuki_large.jpg",
@@ -5923,6 +6063,10 @@
       "lastNameEn": "watanabe",
       "firstNameEn": "miria"
     },
+    "glowStickColor": {
+      "left": "yellow",
+      "right": "yellow green"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/watanabemiria_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/watanabemiria_small.jpg"
@@ -6087,6 +6231,10 @@
       "firstNameFurigana": "まあや",
       "lastNameEn": "wada",
       "firstNameEn": "maya"
+    },
+    "glowStickColor": {
+      "left": "yellow",
+      "right": "orange"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/wadamaaya_large.jpg",
@@ -6253,6 +6401,10 @@
       "lastNameEn": "endo",
       "firstNameEn": "sakura"
     },
+    "glowStickColor": {
+      "left": "",
+      "right": ""
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/endousakura_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/endousakura_small.jpg"
@@ -6408,6 +6560,10 @@
       "firstNameFurigana": "はるか",
       "lastNameEn": "kaki",
       "firstNameEn": "haruka"
+    },
+    "glowStickColor": {
+      "left": "",
+      "right": ""
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kakiharuka_large.jpg",
@@ -6565,6 +6721,10 @@
       "lastNameEn": "kakehashi",
       "firstNameEn": "sayaka"
     },
+    "glowStickColor": {
+      "left": "",
+      "right": ""
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kakehashisayaka_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kakehashisayaka_small.jpg"
@@ -6720,6 +6880,10 @@
       "firstNameFurigana": "さや",
       "lastNameEn": "kanagawa",
       "firstNameEn": "saya"
+    },
+    "glowStickColor": {
+      "left": "",
+      "right": ""
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kanagawasaya_large.jpg",
@@ -6877,6 +7041,10 @@
       "lastNameEn": "kitagawa",
       "firstNameEn": "yuri"
     },
+    "glowStickColor": {
+      "left": "",
+      "right": ""
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kitagawayuri_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kitagawayuri_small.jpg"
@@ -7032,6 +7200,10 @@
       "firstNameFurigana": "ゆな",
       "lastNameEn": "shibata",
       "firstNameEn": "yuna"
+    },
+    "glowStickColor": {
+      "left": "",
+      "right": ""
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/shibatayuna_large.jpg",
@@ -7189,6 +7361,10 @@
       "lastNameEn": "seimiya",
       "firstNameEn": "rei"
     },
+    "glowStickColor": {
+      "left": "",
+      "right": ""
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/seimiyarei_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/seimiyarei_small.jpg"
@@ -7344,6 +7520,10 @@
       "firstNameFurigana": "まゆ",
       "lastNameEn": "tamura",
       "firstNameEn": "mayu"
+    },
+    "glowStickColor": {
+      "left": "",
+      "right": ""
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/tamuramayu_large.jpg",
@@ -7501,6 +7681,10 @@
       "lastNameEn": "tsutsui",
       "firstNameEn": "ayame"
     },
+    "glowStickColor": {
+      "left": "",
+      "right": ""
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/tsutsuiayame_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/tsutsuiayame_small.jpg"
@@ -7656,6 +7840,10 @@
       "firstNameFurigana": "せいら",
       "lastNameEn": "hayakawa",
       "firstNameEn": "seira"
+    },
+    "glowStickColor": {
+      "left": "",
+      "right": ""
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/hayakawaseira_large.jpg",
@@ -7813,6 +8001,10 @@
       "lastNameEn": "yakubo",
       "firstNameEn": "mio"
     },
+    "glowStickColor": {
+      "left": "",
+      "right": ""
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yakubomio_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yakubomio_small.jpg"
@@ -7968,6 +8160,10 @@
       "firstNameFurigana": "ひな",
       "lastNameEn": "kawago",
       "firstNameEn": "hina"
+    },
+    "glowStickColor": {
+      "left": "red",
+      "right": "red"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kawagohina_large.jpg",
@@ -8142,6 +8338,10 @@
       "lastNameEn": "nojo",
       "firstNameEn": "ami"
     },
+    "glowStickColor": {
+      "left": "orange",
+      "right": "orange"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/noujouami_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/noujouami_small.jpg"
@@ -8302,6 +8502,10 @@
       "firstNameFurigana": "ゆみ",
       "lastNameEn": "wakatsuki",
       "firstNameEn": "yumi"
+    },
+    "glowStickColor": {
+      "left": "blue",
+      "right": "blue"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/wakatsukiyumi_large.jpg",
@@ -8483,6 +8687,10 @@
       "lastNameEn": "saito",
       "firstNameEn": "chiharu"
     },
+    "glowStickColor": {
+      "left": "blue",
+      "right": "red"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/saitouchiharu_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/20/saitouchiharu_small.jpg"
@@ -8643,6 +8851,10 @@
       "firstNameFurigana": "いおり",
       "lastNameEn": "sagara",
       "firstNameEn": "iori"
+    },
+    "glowStickColor": {
+      "left": "green",
+      "right": "orange"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/sagaraiori_large.jpg",
@@ -8808,6 +9020,10 @@
       "firstNameFurigana": "りな",
       "lastNameEn": "ikoma",
       "firstNameEn": "rina"
+    },
+    "glowStickColor": {
+      "left": "blue",
+      "right": "purple"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/ikomarina_large.jpg",
@@ -8985,6 +9201,10 @@
       "lastNameEn": "kawamura",
       "firstNameEn": "mahiro"
     },
+    "glowStickColor": {
+      "left": "red",
+      "right": "white"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/kawamuramahiro_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/kawamuramahiro_small.jpg"
@@ -9149,6 +9369,10 @@
       "firstNameFurigana": "まりか",
       "lastNameEn": "ito",
       "firstNameEn": "marika"
+    },
+    "glowStickColor": {
+      "left": "green",
+      "right": "purple"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/itoumarika_large.jpg",
@@ -9319,6 +9543,10 @@
       "lastNameEn": "nakamoto",
       "firstNameEn": "himeka"
     },
+    "glowStickColor": {
+      "left": "pink",
+      "right": "pink"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/nakamotohimeka_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/17/nakamotohimeka_small.jpg"
@@ -9479,6 +9707,10 @@
       "firstNameFurigana": "ななみ",
       "lastNameEn": "hashimoto",
       "firstNameEn": "nanami"
+    },
+    "glowStickColor": {
+      "left": "green",
+      "right": "green"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/15/hashimotonanami_large.jpg",
@@ -9648,6 +9880,10 @@
       "firstNameFurigana": "まい",
       "lastNameEn": "fukagawa",
       "firstNameEn": "mai"
+    },
+    "glowStickColor": {
+      "left": "green",
+      "right": "purple"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/14/fukagawamai_large.jpg",
@@ -9822,6 +10058,10 @@
       "lastNameEn": "nagashima",
       "firstNameEn": "seira"
     },
+    "glowStickColor": {
+      "left": "yellow",
+      "right": "yellow"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/14/nagashimaseira_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/14/nagashimaseira_small.jpg"
@@ -9981,6 +10221,10 @@
       "firstNameFurigana": "れな",
       "lastNameEn": "matsui",
       "firstNameEn": "rena"
+    },
+    "glowStickColor": {
+      "left": "green",
+      "right": "green"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/11/matsuirena_large.jpg",
@@ -10142,6 +10386,10 @@
       "lastNameEn": "hatanaka",
       "firstNameEn": "seira"
     },
+    "glowStickColor": {
+      "left": "blue",
+      "right": "pink"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/10/hatanakaseira_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/10/hatanakaseira_small.jpg"
@@ -10302,6 +10550,10 @@
       "lastNameEn": "yamato",
       "firstNameEn": "rina"
     },
+    "glowStickColor": {
+      "left": "pink",
+      "right": "white"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/10/yamatorina_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/10/yamatorina_small.jpg"
@@ -10452,6 +10704,10 @@
       "firstNameFurigana": "ねね",
       "lastNameEn": "ito",
       "firstNameEn": "nene"
+    },
+    "glowStickColor": {
+      "left": "pink",
+      "right": "orange"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/9/itounene_large.jpg",
@@ -10613,6 +10869,10 @@
       "lastNameEn": "yonetoku",
       "firstNameEn": "kyoka"
     },
+    "glowStickColor": {
+      "left": "light blue",
+      "right": "blue"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/9/yonetokukyouka_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/9/yonetokukyouka_small.jpg"
@@ -10764,6 +11024,10 @@
       "lastNameEn": "yada",
       "firstNameEn": "risako"
     },
+    "glowStickColor": {
+      "left": "pink",
+      "right": "pink"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/9/yadarisako_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/9/yadarisako_small.jpg"
@@ -10914,6 +11178,10 @@
       "firstNameFurigana": "れな",
       "lastNameEn": "ichiki",
       "firstNameEn": "rena"
+    },
+    "glowStickColor": {
+      "left": "",
+      "right": ""
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/9/ichikirena_large.jpg",
@@ -11071,6 +11339,10 @@
       "lastNameEn": "nishikawa",
       "firstNameEn": "nanami"
     },
+    "glowStickColor": {
+      "left": "",
+      "right": ""
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/7/nishikawananami_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/7/nishikawananami_small.jpg"
@@ -11221,6 +11493,10 @@
       "firstNameFurigana": "せいら",
       "lastNameEn": "miyazawa",
       "firstNameEn": "seira"
+    },
+    "glowStickColor": {
+      "left": "",
+      "right": ""
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/6/miyazawaseira_large.jpg",
@@ -11382,6 +11658,10 @@
       "lastNameEn": "kashiwa",
       "firstNameEn": "yukina"
     },
+    "glowStickColor": {
+      "left": "pink",
+      "right": "pink"
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/6/kashiwayukina_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/6/kashiwayukina_small.jpg"
@@ -11542,6 +11822,10 @@
       "lastNameEn": "ando",
       "firstNameEn": "mikumo"
     },
+    "glowStickColor": {
+      "left": "",
+      "right": ""
+    },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/5/andoumikumo_large.jpg",
       "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/5/andoumikumo_small.jpg"
@@ -11692,6 +11976,10 @@
       "firstNameFurigana": "ゆみこ",
       "lastNameEn": "iwase",
       "firstNameEn": "yumiko"
+    },
+    "glowStickColor": {
+      "left": "",
+      "right": ""
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/3/iwaseyumiko_large.jpg",

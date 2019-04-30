@@ -149,9 +149,25 @@ export enum MemberNames {
   KojimaHaruna = "kojimaharuna",
 }
 
-export const GITHUB_CONTENTS_PATH = "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/";
+export const GITHUB_CONTENTS_PATH =
+  "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/";
 
 export const OVERTURE = "OVERTURE";
+
+export enum GlowStickColorType {
+  Red = "red",
+  Yellow = "yellow",
+  White = "white",
+  Blue = "blue",
+  Green = "green",
+  Purple = "purple",
+  Black = "black",
+  Pink = "pink",
+  Orange = "orange",
+  LightBlue = "light blue",
+  YellowGreen = "yellow green",
+  None = "",
+}
 
 // prettier-ignore
 export const SONGS: {

@@ -5,6 +5,7 @@ import {
   MemberNames,
   PositionType,
   JoinedGeneration,
+  GlowStickColorType,
 } from "../utils/constants";
 import { Site } from "./commons";
 
@@ -15,6 +16,11 @@ type NameNotations = {
   lastNameFurigana: string;
   firstNameEn: string;
   lastNameEn: string;
+};
+
+type GlowStickColor = {
+  left: GlowStickColorType;
+  right: GlowStickColorType;
 };
 
 type PhotoAlbum = {
@@ -37,6 +43,7 @@ type Graduation = {
 export type RawMember = {
   name: MemberNames;
   nameNotations: NameNotations;
+  glowStickColor: GlowStickColor;
   join: JoinedGeneration;
   birthday: string;
   height: number;
@@ -49,6 +56,7 @@ export type RawMember = {
 export type ResultMember = {
   name: MemberNames;
   nameNotations: NameNotations;
+  glowStickColor: GlowStickColor;
   profileImage: MemberProfileImage;
   singleImages: {
     [singleNumber: string]: MemberProfileImage;

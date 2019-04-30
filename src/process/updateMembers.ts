@@ -18,6 +18,7 @@ export const initializeMembers = (rawMembers: RawMember[]): ResultMembers => {
     (rawMember): ResultMember => ({
       name: rawMember.name,
       nameNotations: rawMember.nameNotations,
+      glowStickColor: rawMember.glowStickColor,
       profileImage: {
         large: "",
         small: "",
