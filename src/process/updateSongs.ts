@@ -2,7 +2,7 @@ import { ResultAlbums } from "../models/IAlbum";
 import { ResultSingles } from "../models/ISingle";
 import { ResultSongs, RawSong, ResultSong } from "../models/ISong";
 import { arrayToObject } from "../utils/arrays";
-import { SONGS } from "../utils/constants";
+import { SONGS, SongType } from "../utils/constants";
 
 export const initializeSongs = (rawSongs: RawSong[]): ResultSongs => {
   const initializedArray = rawSongs.map(
@@ -20,6 +20,10 @@ export const initializeSongs = (rawSongs: RawSong[]): ResultSongs => {
       type: rawSong.type,
       creators: rawSong.creators,
       performers: rawSong.performers,
+      performersTag: {
+        name: "",
+        singleNumber: "",
+      },
       formations: rawSong.formations,
     }),
   );
@@ -95,5 +99,57 @@ export const recordArtworks = (
         }
       }
     }
+  }
+};
+
+const calculatePerformersTag = (
+  song: ResultSong,
+  albums: ResultAlbums,
+): {
+  name: string;
+  singleNumber: string;
+} => {
+  if (song.type === SongType.Unit) {
+    return { name: song.performers.unit, singleNumber: "" };
+  }
+  if (song.type === SongType.FirstGeneration) {
+    return { name: "first generation", singleNumber: "" };
+  }
+  if (song.type === SongType.SecondGeneration) {
+    return { name: "second generation", singleNumber: "" };
+  }
+  if (song.type === SongType.ThirdGeneration) {
+    return { name: "third generation", singleNumber: "" };
+  }
+  if (song.type === SongType.FourthGeneration) {
+    return { name: "fourth generation", singleNumber: "" };
+  }
+  if (song.type === SongType.Title) {
+    return { name: "selected", singleNumber: song.single.number };
+  }
+  if (song.type === SongType.Under) {
+    if (song.single.number === "") {
+      if (song.albums.length > 0) {
+        return {
+          name: "under",
+          singleNumber: albums[song.albums[0].title].previousSingleNumber,
+        };
+      }
+    }
+    return { name: "under", singleNumber: song.single.number };
+  }
+
+  return {
+    name: "",
+    singleNumber: "",
+  };
+};
+
+export const recordPerformersTags = (
+  songs: ResultSongs,
+  albums: ResultAlbums,
+) => {
+  for (const song of Object.values(songs)) {
+    song.performersTag = calculatePerformersTag(song, albums);
   }
 };

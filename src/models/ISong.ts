@@ -50,6 +50,10 @@ export type ResultSong = {
   type: SongType;
   creators: Creators;
   performers: Performers;
+  performersTag: {
+    name: string;
+    singleNumber: string;
+  };
   formations: Formations;
 };
 

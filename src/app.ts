@@ -36,6 +36,8 @@ updateSongs.recordArtworks(songs, singles, albums);
 updateCds.recordCdSongArtworks(singles, songs);
 updateCds.recordCdSongArtworks(albums, songs);
 
+updateSongs.recordPerformersTags(songs, albums);
+
 updateUnits.recordUnitSongs(units, songs);
 
 // Form all property pairs into an array.
