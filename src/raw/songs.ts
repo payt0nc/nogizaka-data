@@ -1,4 +1,4 @@
-import { ISong } from "../models/ISong";
+import { RawSong } from "../models/ISong";
 import {
   FukujinType,
   MemberNames,
@@ -11,16 +11,8 @@ import {
 
 // 23rd single
 
-const singout: ISong = {
+const singout: RawSong = {
   title: SONGS["Sing Out!"].title,
-  key: SONGS["Sing Out!"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -68,16 +60,8 @@ const singout: ISong = {
   },
 };
 
-const kassouro: ISong = {
+const kassouro: RawSong = {
   title: SONGS["滑走路"].title,
-  key: SONGS["滑走路"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -111,16 +95,8 @@ const kassouro: ISong = {
   },
 };
 
-const noyounasonzai: ISong = {
+const noyounasonzai: RawSong = {
   title: SONGS["のような存在"].title,
-  key: SONGS["のような存在"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -143,16 +119,8 @@ const noyounasonzai: ISong = {
   },
 };
 
-const amiloving: ISong = {
+const amiloving: RawSong = {
   title: SONGS["Am I Loving"].title,
-  key: SONGS["Am I Loving"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -181,16 +149,8 @@ const amiloving: ISong = {
   },
 };
 
-const heikousen: ISong = {
+const heikousen: RawSong = {
   title: SONGS["平行線"].title,
-  key: SONGS["平行線"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -219,16 +179,8 @@ const heikousen: ISong = {
   },
 };
 
-const yonbanmenohikari: ISong = {
+const yonbanmenohikari: RawSong = {
   title: SONGS["4番目の光"].title,
-  key: SONGS["4番目の光"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.FourthGeneration,
   creators: {
@@ -263,16 +215,8 @@ const yonbanmenohikari: ISong = {
   },
 };
 
-const aimai: ISong = {
+const aimai: RawSong = {
   title: SONGS["曖昧"].title,
-  key: SONGS["曖昧"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -297,16 +241,8 @@ const aimai: ISong = {
 
 // 22nd single
 
-const songKaerimichi: ISong = {
+const songKaerimichi: RawSong = {
   title: SONGS["帰り道は遠回りしたくなる"].title,
-  key: SONGS["帰り道は遠回りしたくなる"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -353,16 +289,8 @@ const songKaerimichi: ISong = {
   },
 };
 
-const songNichijo: ISong = {
+const songNichijo: RawSong = {
   title: SONGS["日常"].title,
-  key: SONGS["日常"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -406,16 +334,8 @@ const songNichijo: ISong = {
   },
 };
 
-const songKyaraban: ISong = {
+const songKyaraban: RawSong = {
   title: SONGS["キャラバンは眠らない"].title,
-  key: SONGS["キャラバンは眠らない"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -455,16 +375,8 @@ const songKyaraban: ISong = {
   },
 };
 
-const songTsuduku: ISong = {
+const songTsuduku: RawSong = {
   title: SONGS["つづく"].title,
-  key: SONGS["つづく"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -487,16 +399,8 @@ const songTsuduku: ISong = {
   },
 };
 
-const songKokuhakunojunban: ISong = {
+const songKokuhakunojunban: RawSong = {
   title: SONGS["告白の順番"].title,
-  key: SONGS["告白の順番"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -524,16 +428,8 @@ const songKokuhakunojunban: ISong = {
   },
 };
 
-const songChopinnousotsuki: ISong = {
+const songChopinnousotsuki: RawSong = {
   title: SONGS["ショパンの嘘つき"].title,
-  key: SONGS["ショパンの嘘つき"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -560,16 +456,8 @@ const songChopinnousotsuki: ISong = {
   },
 };
 
-const songShiritaikoto: ISong = {
+const songShiritaikoto: RawSong = {
   title: SONGS["知りたいこと"].title,
-  key: SONGS["知りたいこと"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -599,16 +487,8 @@ const songShiritaikoto: ISong = {
 
 // 21st single
 
-const songJikochu: ISong = {
+const songJikochu: RawSong = {
   title: SONGS["ジコチューで行こう!"].title,
-  key: SONGS["ジコチューで行こう!"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -655,16 +535,8 @@ const songJikochu: ISong = {
   },
 };
 
-const songSankakunoakichi: ISong = {
+const songSankakunoakichi: RawSong = {
   title: SONGS["三角の空き地"].title,
-  key: SONGS["三角の空き地"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -708,16 +580,8 @@ const songSankakunoakichi: ISong = {
   },
 };
 
-const songSoratobira: ISong = {
+const songSoratobira: RawSong = {
   title: SONGS["空扉"].title,
-  key: SONGS["空扉"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -758,16 +622,8 @@ const songSoratobira: ISong = {
   },
 };
 
-const songJibunjanaikanji: ISong = {
+const songJibunjanaikanji: RawSong = {
   title: SONGS["自分じゃない感じ"].title,
-  key: SONGS["自分じゃない感じ"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.ThirdGeneration,
   creators: {
@@ -802,16 +658,8 @@ const songJibunjanaikanji: ISong = {
   },
 };
 
-const songKokoronomonologue: ISong = {
+const songKokoronomonologue: RawSong = {
   title: SONGS["心のモノローグ"].title,
-  key: SONGS["心のモノローグ"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -834,16 +682,8 @@ const songKokoronomonologue: ISong = {
   },
 };
 
-const songChikyugamaruinara: ISong = {
+const songChikyugamaruinara: RawSong = {
   title: SONGS["地球が丸いなら"].title,
-  key: SONGS["地球が丸いなら"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -870,16 +710,8 @@ const songChikyugamaruinara: ISong = {
   },
 };
 
-const songAnnanisukidattanoni: ISong = {
+const songAnnanisukidattanoni: RawSong = {
   title: SONGS["あんなに好きだったのに・・・"].title,
-  key: SONGS["あんなに好きだったのに・・・"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -926,16 +758,8 @@ const songAnnanisukidattanoni: ISong = {
 
 // 20th single
 
-const songSyncronicity: ISong = {
+const songSyncronicity: RawSong = {
   title: SONGS["シンクロニシティ"].title,
-  key: SONGS["シンクロニシティ"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -982,16 +806,8 @@ const songSyncronicity: ISong = {
   },
 };
 
-const songAtarashiisekai: ISong = {
+const songAtarashiisekai: RawSong = {
   title: SONGS["新しい世界"].title,
-  key: SONGS["新しい世界"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -1038,16 +854,8 @@ const songAtarashiisekai: ISong = {
   },
 };
 
-const songAgainst: ISong = {
+const songAgainst: RawSong = {
   title: SONGS["Against"].title,
-  key: SONGS["Against"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.FirstGeneration,
   creators: {
@@ -1091,16 +899,8 @@ const songAgainst: ISong = {
   },
 };
 
-const songKumoninarebaii: ISong = {
+const songKumoninarebaii: RawSong = {
   title: SONGS["雲になればいい"].title,
-  key: SONGS["雲になればいい"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -1127,16 +927,8 @@ const songKumoninarebaii: ISong = {
   },
 };
 
-const songScoutman: ISong = {
+const songScoutman: RawSong = {
   title: SONGS["スカウトマン"].title,
-  key: SONGS["スカウトマン"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.SecondGeneration,
   creators: {
@@ -1170,16 +962,8 @@ const songScoutman: ISong = {
   },
 };
 
-const songTokitokimekimeki: ISong = {
+const songTokitokimekimeki: RawSong = {
   title: SONGS["トキトキメキメキ"].title,
-  key: SONGS["トキトキメキメキ"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.ThirdGeneration,
   creators: {
@@ -1215,16 +999,8 @@ const songTokitokimekimeki: ISong = {
   },
 };
 
-const songKotodamaho: ISong = {
+const songKotodamaho: RawSong = {
   title: SONGS["言霊砲"].title,
-  key: SONGS["言霊砲"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -1254,16 +1030,8 @@ const songKotodamaho: ISong = {
 
 // 19th single
 
-const songItsukadekirukara: ISong = {
+const songItsukadekirukara: RawSong = {
   title: SONGS["いつかできるから今日できる"].title,
-  key: SONGS["いつかできるから今日できる"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -1308,16 +1076,8 @@ const songItsukadekirukara: ISong = {
   },
 };
 
-const songMyrule: ISong = {
+const songMyrule: RawSong = {
   title: SONGS["My rule"].title,
-  key: SONGS["My rule"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -1357,16 +1117,8 @@ const songMyrule: ISong = {
   },
 };
 
-const songFumensho: ISong = {
+const songFumensho: RawSong = {
   title: SONGS["不眠症"].title,
-  key: SONGS["不眠症"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -1410,16 +1162,8 @@ const songFumensho: ISong = {
   },
 };
 
-const songMaaiika: ISong = {
+const songMaaiika: RawSong = {
   title: SONGS["まあいいか?"].title,
-  key: SONGS["まあいいか?"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -1442,16 +1186,8 @@ const songMaaiika: ISong = {
   },
 };
 
-const songShitsurenosojinin: ISong = {
+const songShitsurenosojinin: RawSong = {
   title: SONGS["失恋お掃除人"].title,
-  key: SONGS["失恋お掃除人"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -1479,16 +1215,8 @@ const songShitsurenosojinin: ISong = {
   },
 };
 
-const songBokunoshodo: ISong = {
+const songBokunoshodo: RawSong = {
   title: SONGS["僕の衝動"].title,
-  key: SONGS["僕の衝動"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.ThirdGeneration,
   creators: {
@@ -1523,16 +1251,8 @@ const songBokunoshodo: ISong = {
   },
 };
 
-const songAtarashiikafun: ISong = {
+const songAtarashiikafun: RawSong = {
   title: SONGS["新しい花粉 〜ミュージカル「見知らぬ世界」より〜"].title,
-  key: SONGS["新しい花粉 〜ミュージカル「見知らぬ世界」より〜"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -1557,16 +1277,8 @@ const songAtarashiikafun: ISong = {
 
 // 18th single
 
-const songNigemizu: ISong = {
+const songNigemizu: RawSong = {
   title: SONGS["逃げ水"].title,
-  key: SONGS["逃げ水"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -1610,16 +1322,8 @@ const songNigemizu: ISong = {
   },
 };
 
-const songUnder: ISong = {
+const songUnder: RawSong = {
   title: SONGS["アンダー"].title,
-  key: SONGS["アンダー"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -1663,16 +1367,8 @@ const songUnder: ISong = {
   },
 };
 
-const songOnnahahitorija: ISong = {
+const songOnnahahitorija: RawSong = {
   title: SONGS["女は一人じゃ眠れない"].title,
-  key: SONGS["女は一人じゃ眠れない"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -1714,16 +1410,8 @@ const songOnnahahitorija: ISong = {
   },
 };
 
-const songHitonatsu: ISong = {
+const songHitonatsu: RawSong = {
   title: SONGS["ひと夏の長さより…"].title,
-  key: SONGS["ひと夏の長さより…"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -1765,16 +1453,8 @@ const songHitonatsu: ISong = {
   },
 };
 
-const songLiveshin: ISong = {
+const songLiveshin: RawSong = {
   title: SONGS["ライブ神"].title,
-  key: SONGS["ライブ神"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.SecondGeneration,
   creators: {
@@ -1811,16 +1491,8 @@ const songLiveshin: ISong = {
   },
 };
 
-const songMirainokotae: ISong = {
+const songMirainokotae: RawSong = {
   title: SONGS["未来の答え"].title,
-  key: SONGS["未来の答え"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.ThirdGeneration,
   creators: {
@@ -1858,16 +1530,8 @@ const songMirainokotae: ISong = {
   },
 };
 
-const songNaitatteii: ISong = {
+const songNaitatteii: RawSong = {
   title: SONGS["泣いたっていいじゃないか?"].title,
-  key: SONGS["泣いたっていいじゃないか?"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.ThirdGeneration,
   creators: {
@@ -1911,16 +1575,8 @@ const songNaitatteii: ISong = {
 
 // 17th single
 
-const songInfluencer: ISong = {
+const songInfluencer: RawSong = {
   title: SONGS["インフルエンサー"].title,
-  key: SONGS["インフルエンサー"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -1967,16 +1623,8 @@ const songInfluencer: ISong = {
   },
 };
 
-const songFusenhaikiteiru: ISong = {
+const songFusenhaikiteiru: RawSong = {
   title: SONGS["風船は生きている"].title,
-  key: SONGS["風船は生きている"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -2014,16 +1662,8 @@ const songFusenhaikiteiru: ISong = {
   },
 };
 
-const songJinseiwokangae: ISong = {
+const songJinseiwokangae: RawSong = {
   title: SONGS["人生を考えたくなる"].title,
-  key: SONGS["人生を考えたくなる"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -2051,16 +1691,8 @@ const songJinseiwokangae: ISong = {
   },
 };
 
-const songIgaibreak: ISong = {
+const songIgaibreak: RawSong = {
   title: SONGS["意外BREAK"].title,
-  key: SONGS["意外BREAK"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -2088,16 +1720,8 @@ const songIgaibreak: ISong = {
   },
 };
 
-const songAnotherghost: ISong = {
+const songAnotherghost: RawSong = {
   title: SONGS["Another Ghost"].title,
-  key: SONGS["Another Ghost"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -2124,16 +1748,8 @@ const songAnotherghost: ISong = {
   },
 };
 
-const songSanbanmenokaze: ISong = {
+const songSanbanmenokaze: RawSong = {
   title: SONGS["三番目の風"].title,
-  key: SONGS["三番目の風"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.ThirdGeneration,
   creators: {
@@ -2171,16 +1787,8 @@ const songSanbanmenokaze: ISong = {
   },
 };
 
-const songAtarisawarinonai: ISong = {
+const songAtarisawarinonai: RawSong = {
   title: SONGS["当たり障りのない話"].title,
-  key: SONGS["当たり障りのない話"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -2210,16 +1818,8 @@ const songAtarisawarinonai: ISong = {
 
 // 16th single
 
-const songSayonaranoimi: ISong = {
+const songSayonaranoimi: RawSong = {
   title: SONGS["サヨナラの意味"].title,
-  key: SONGS["サヨナラの意味"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -2264,16 +1864,8 @@ const songSayonaranoimi: ISong = {
   },
 };
 
-const songBulanko: ISong = {
+const songBulanko: RawSong = {
   title: SONGS["ブランコ"].title,
-  key: SONGS["ブランコ"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -2315,16 +1907,8 @@ const songBulanko: ISong = {
   },
 };
 
-const songKodokunaaozora: ISong = {
+const songKodokunaaozora: RawSong = {
   title: SONGS["孤独な青空"].title,
-  key: SONGS["孤独な青空"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -2367,16 +1951,8 @@ const songKodokunaaozora: ISong = {
   },
 };
 
-const songAnokyoshitsu: ISong = {
+const songAnokyoshitsu: RawSong = {
   title: SONGS["あの教室"].title,
-  key: SONGS["あの教室"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -2399,16 +1975,8 @@ const songAnokyoshitsu: ISong = {
   },
 };
 
-const songNidomenokisukara: ISong = {
+const songNidomenokisukara: RawSong = {
   title: SONGS["2度目のキスから"].title,
-  key: SONGS["2度目のキスから"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -2436,16 +2004,8 @@ const songNidomenokisukara: ISong = {
   },
 };
 
-const songKiminiokuruhana: ISong = {
+const songKiminiokuruhana: RawSong = {
   title: SONGS["君に贈る花がない"].title,
-  key: SONGS["君に贈る花がない"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -2474,16 +2034,8 @@ const songKiminiokuruhana: ISong = {
   },
 };
 
-const songNaimononetari: ISong = {
+const songNaimononetari: RawSong = {
   title: SONGS["ないものねだり"].title,
-  key: SONGS["ないものねだり"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -2508,16 +2060,8 @@ const songNaimononetari: ISong = {
 
 // 15th single
 
-const songHadashidesummer: ISong = {
+const songHadashidesummer: RawSong = {
   title: SONGS["裸足でSummer"].title,
-  key: SONGS["裸足でSummer"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -2559,16 +2103,8 @@ const songHadashidesummer: ISong = {
   },
 };
 
-const songSecretGravity: ISong = {
+const songSecretGravity: RawSong = {
   title: SONGS["シークレットグラフィティー"].title,
-  key: SONGS["シークレットグラフィティー"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -2613,16 +2149,8 @@ const songSecretGravity: ISong = {
   },
 };
 
-const songBokudakenohikari: ISong = {
+const songBokudakenohikari: RawSong = {
   title: SONGS["僕だけの光"].title,
-  key: SONGS["僕だけの光"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -2662,16 +2190,8 @@ const songBokudakenohikari: ISong = {
   },
 };
 
-const songOffshoregirl: ISong = {
+const songOffshoregirl: RawSong = {
   title: SONGS["オフショアガール"].title,
-  key: SONGS["オフショアガール"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -2694,16 +2214,8 @@ const songOffshoregirl: ISong = {
   },
 };
 
-const songInochinoshinjitsu: ISong = {
+const songInochinoshinjitsu: RawSong = {
   title: SONGS["命の真実 ミュージカル「林檎売りとカメムシ」"].title,
-  key: SONGS["命の真実 ミュージカル「林檎売りとカメムシ」"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -2726,16 +2238,8 @@ const songInochinoshinjitsu: ISong = {
   },
 };
 
-const songHakumaisama: ISong = {
+const songHakumaisama: RawSong = {
   title: SONGS["白米様"].title,
-  key: SONGS["白米様"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -2762,16 +2266,8 @@ const songHakumaisama: ISong = {
   },
 };
 
-const songIkuatenonaibokutachi: ISong = {
+const songIkuatenonaibokutachi: RawSong = {
   title: SONGS["行くあてのない僕たち"].title,
-  key: SONGS["行くあてのない僕たち"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -2796,16 +2292,8 @@ const songIkuatenonaibokutachi: ISong = {
 
 // 14th single
 
-const songHarujion: ISong = {
+const songHarujion: RawSong = {
   title: SONGS["ハルジオンが咲く頃"].title,
-  key: SONGS["ハルジオンが咲く頃"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -2848,16 +2336,8 @@ const songHarujion: ISong = {
   },
 };
 
-const songFutogo: ISong = {
+const songFutogo: RawSong = {
   title: SONGS["不等号"].title,
-  key: SONGS["不等号"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -2902,16 +2382,8 @@ const songFutogo: ISong = {
   },
 };
 
-const songHarukanarubhutan: ISong = {
+const songHarukanarubhutan: RawSong = {
   title: SONGS["遥かなるブータン"].title,
-  key: SONGS["遥かなるブータン"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -2941,16 +2413,8 @@ const songHarukanarubhutan: ISong = {
   },
 };
 
-const songTsuyogarutsubomi: ISong = {
+const songTsuyogarutsubomi: RawSong = {
   title: SONGS["強がる蕾"].title,
-  key: SONGS["強がる蕾"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -2973,16 +2437,8 @@ const songTsuyogarutsubomi: ISong = {
   },
 };
 
-const songKyushamen: ISong = {
+const songKyushamen: RawSong = {
   title: SONGS["急斜面"].title,
-  key: SONGS["急斜面"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -3009,16 +2465,8 @@ const songKyushamen: ISong = {
   },
 };
 
-const songTsuribori: ISong = {
+const songTsuribori: RawSong = {
   title: SONGS["釣り堀"].title,
-  key: SONGS["釣り堀"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -3041,16 +2489,8 @@ const songTsuribori: ISong = {
   },
 };
 
-const songYuutsutofusengamu: ISong = {
+const songYuutsutofusengamu: RawSong = {
   title: SONGS["憂鬱と風船ガム"].title,
-  key: SONGS["憂鬱と風船ガム"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -3082,16 +2522,8 @@ const songYuutsutofusengamu: ISong = {
 
 // 13th single
 
-const songHanashitaidarekagairu: ISong = {
+const songHanashitaidarekagairu: RawSong = {
   title: SONGS["今、話したい誰かがいる"].title,
-  key: SONGS["今、話したい誰かがいる"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -3133,16 +2565,8 @@ const songHanashitaidarekagairu: ISong = {
   },
 };
 
-const songShittonokenri: ISong = {
+const songShittonokenri: RawSong = {
   title: SONGS["嫉妬の権利"].title,
-  key: SONGS["嫉妬の権利"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -3189,16 +2613,8 @@ const songShittonokenri: ISong = {
   },
 };
 
-const songPopipappapa: ISong = {
+const songPopipappapa: RawSong = {
   title: SONGS["ポピパッパパー"].title,
-  key: SONGS["ポピパッパパー"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -3240,16 +2656,8 @@ const songPopipappapa: ISong = {
   },
 };
 
-const songOtonahenochikamichi: ISong = {
+const songOtonahenochikamichi: RawSong = {
   title: SONGS["大人への近道"].title,
-  key: SONGS["大人への近道"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -3278,16 +2686,8 @@ const songOtonahenochikamichi: ISong = {
   },
 };
 
-const songKanashiminowasurekata: ISong = {
+const songKanashiminowasurekata: RawSong = {
   title: SONGS["悲しみの忘れ方"].title,
-  key: SONGS["悲しみの忘れ方"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -3329,16 +2729,8 @@ const songKanashiminowasurekata: ISong = {
   },
 };
 
-const songSukima: ISong = {
+const songSukima: RawSong = {
   title: SONGS["隙間"].title,
-  key: SONGS["隙間"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -3371,16 +2763,8 @@ const songSukima: ISong = {
 
 // 12th single
 
-const songTaiyoknock: ISong = {
+const songTaiyoknock: RawSong = {
   title: SONGS["太陽ノック"].title,
-  key: SONGS["太陽ノック"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -3424,16 +2808,8 @@ const songTaiyoknock: ISong = {
   },
 };
 
-const songWakaregiwa: ISong = {
+const songWakaregiwa: RawSong = {
   title: SONGS["別れ際、もっと好きになる"].title,
-  key: SONGS["別れ際、もっと好きになる"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -3477,16 +2853,8 @@ const songWakaregiwa: ISong = {
   },
 };
 
-const songMosukoshinoyumewo: ISong = {
+const songMosukoshinoyumewo: RawSong = {
   title: SONGS["もう少しの夢"].title,
-  key: SONGS["もう少しの夢"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -3509,16 +2877,8 @@ const songMosukoshinoyumewo: ISong = {
   },
 };
 
-const songSakanatachinolovesong: ISong = {
+const songSakanatachinolovesong: RawSong = {
   title: SONGS["魚たちのLOVE SONG"].title,
-  key: SONGS["魚たちのLOVE SONG"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -3546,16 +2906,8 @@ const songSakanatachinolovesong: ISong = {
   },
 };
 
-const songMuhyojo: ISong = {
+const songMuhyojo: RawSong = {
   title: SONGS["無表情"].title,
-  key: SONGS["無表情"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -3578,16 +2930,8 @@ const songMuhyojo: ISong = {
   },
 };
 
-const songHanenokioku: ISong = {
+const songHanenokioku: RawSong = {
   title: SONGS["羽根の記憶"].title,
-  key: SONGS["羽根の記憶"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -3629,16 +2973,8 @@ const songHanenokioku: ISong = {
   },
 };
 
-const songSeifukuwonuide: ISong = {
+const songSeifukuwonuide: RawSong = {
   title: SONGS["制服を脱いでサヨナラを…"].title,
-  key: SONGS["制服を脱いでサヨナラを…"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -3663,16 +2999,8 @@ const songSeifukuwonuide: ISong = {
 
 // 11th single
 
-const songInochihautsukushii: ISong = {
+const songInochihautsukushii: RawSong = {
   title: SONGS["命は美しい"].title,
-  key: SONGS["命は美しい"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -3716,16 +3044,8 @@ const songInochihautsukushii: ISong = {
   },
 };
 
-const songKimihabokuto: ISong = {
+const songKimihabokuto: RawSong = {
   title: SONGS["君は僕と会わない方がよかったのかな"].title,
-  key: SONGS["君は僕と会わない方がよかったのかな"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -3765,16 +3085,8 @@ const songKimihabokuto: ISong = {
   },
 };
 
-const songArakajimeromance: ISong = {
+const songArakajimeromance: RawSong = {
   title: SONGS["あらかじめ語られるロマンス"].title,
-  key: SONGS["あらかじめ語られるロマンス"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -3804,16 +3116,8 @@ const songArakajimeromance: ISong = {
   },
 };
 
-const songTachinaorichu: ISong = {
+const songTachinaorichu: RawSong = {
   title: SONGS["立ち直り中"].title,
-  key: SONGS["立ち直り中"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -3844,16 +3148,8 @@ const songTachinaorichu: ISong = {
   },
 };
 
-const songGomennezutto: ISong = {
+const songGomennezutto: RawSong = {
   title: SONGS["ごめんね ずっと…"].title,
-  key: SONGS["ごめんね ずっと…"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -3876,16 +3172,8 @@ const songGomennezutto: ISong = {
   },
 };
 
-const songBorder: ISong = {
+const songBorder: RawSong = {
   title: SONGS["ボーダー"].title,
-  key: SONGS["ボーダー"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.SecondGeneration,
   creators: {
@@ -3917,16 +3205,8 @@ const songBorder: ISong = {
 
 // 10th single
 
-const songNandomenoaozoraka: ISong = {
+const songNandomenoaozoraka: RawSong = {
   title: SONGS["何度目の青空か?"].title,
-  key: SONGS["何度目の青空か?"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -3968,16 +3248,8 @@ const songNandomenoaozoraka: ISong = {
   },
 };
 
-const songAnohibokuha: ISong = {
+const songAnohibokuha: RawSong = {
   title: SONGS["あの日 僕は咄嗟に嘘をついた"].title,
-  key: SONGS["あの日 僕は咄嗟に嘘をついた"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -4020,16 +3292,8 @@ const songAnohibokuha: ISong = {
   },
 };
 
-const songTomawarinoaijo: ISong = {
+const songTomawarinoaijo: RawSong = {
   title: SONGS["遠回りの愛情"].title,
-  key: SONGS["遠回りの愛情"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -4061,16 +3325,8 @@ const songTomawarinoaijo: ISong = {
   },
 };
 
-const songKorogattakanewonarase: ISong = {
+const songKorogattakanewonarase: RawSong = {
   title: SONGS["転がった鐘を鳴らせ!"].title,
-  key: SONGS["転がった鐘を鳴らせ!"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -4110,16 +3366,8 @@ const songKorogattakanewonarase: ISong = {
   },
 };
 
-const songWatashiokiru: ISong = {
+const songWatashiokiru: RawSong = {
   title: SONGS["私、起きる。"].title,
-  key: SONGS["私、起きる。"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -4153,16 +3401,8 @@ const songWatashiokiru: ISong = {
   },
 };
 
-const songTenderdays: ISong = {
+const songTenderdays: RawSong = {
   title: SONGS["Tender days"].title,
-  key: SONGS["Tender days"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -4197,16 +3437,8 @@ const songTenderdays: ISong = {
 
 // 9th single
 
-const songNatsunofreeandeasy: ISong = {
+const songNatsunofreeandeasy: RawSong = {
   title: SONGS["夏のFree&Easy"].title,
-  key: SONGS["夏のFree&Easy"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -4249,16 +3481,8 @@ const songNatsunofreeandeasy: ISong = {
   },
 };
 
-const songKokoniiruriyu: ISong = {
+const songKokoniiruriyu: RawSong = {
   title: SONGS["ここにいる理由"].title,
-  key: SONGS["ここにいる理由"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -4300,16 +3524,8 @@ const songKokoniiruriyu: ISong = {
   },
 };
 
-const songNanimodekizuni: ISong = {
+const songNanimodekizuni: RawSong = {
   title: SONGS["何もできずにそばにいる"].title,
-  key: SONGS["何もできずにそばにいる"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -4352,16 +3568,8 @@ const songNanimodekizuni: ISong = {
   },
 };
 
-const songSonosakinodeguchi: ISong = {
+const songSonosakinodeguchi: RawSong = {
   title: SONGS["その先の出口!"].title,
-  key: SONGS["その先の出口!"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -4394,16 +3602,8 @@ const songSonosakinodeguchi: ISong = {
   },
 };
 
-const songMukuchinalion: ISong = {
+const songMukuchinalion: RawSong = {
   title: SONGS["無口なライオン"].title,
-  key: SONGS["無口なライオン"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -4435,16 +3635,8 @@ const songMukuchinalion: ISong = {
   },
 };
 
-const songBokugaikanakya: ISong = {
+const songBokugaikanakya: RawSong = {
   title: SONGS["僕が行かなきゃ誰が行くんだ?"].title,
-  key: SONGS["僕が行かなきゃ誰が行くんだ?"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -4477,16 +3669,8 @@ const songBokugaikanakya: ISong = {
 
 // 8th single
 
-const songKizuitarakataomoi: ISong = {
+const songKizuitarakataomoi: RawSong = {
   title: SONGS["気づいたら片想い"].title,
-  key: SONGS["気づいたら片想い"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -4528,16 +3712,8 @@ const songKizuitarakataomoi: ISong = {
   },
 };
 
-const songUmaretamamade: ISong = {
+const songUmaretamamade: RawSong = {
   title: SONGS["生まれたままで"].title,
-  key: SONGS["生まれたままで"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -4580,16 +3756,8 @@ const songUmaretamamade: ISong = {
   },
 };
 
-const songRomancenostart: ISong = {
+const songRomancenostart: RawSong = {
   title: SONGS["ロマンスのスタート"].title,
-  key: SONGS["ロマンスのスタート"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -4631,16 +3799,8 @@ const songRomancenostart: ISong = {
   },
 };
 
-const songToikimethod: ISong = {
+const songToikimethod: RawSong = {
   title: SONGS["吐息のメソッド"].title,
-  key: SONGS["吐息のメソッド"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -4684,16 +3844,8 @@ const songToikimethod: ISong = {
   },
 };
 
-const songKodokukyodai: ISong = {
+const songKodokukyodai: RawSong = {
   title: SONGS["孤独兄弟"].title,
-  key: SONGS["孤独兄弟"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -4716,16 +3868,8 @@ const songKodokukyodai: ISong = {
   },
 };
 
-const songDankeschon: ISong = {
+const songDankeschon: RawSong = {
   title: SONGS["ダンケシェーン"].title,
-  key: SONGS["ダンケシェーン"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -4759,16 +3903,8 @@ const songDankeschon: ISong = {
 
 // 7th single
 
-const songValletta: ISong = {
+const songValletta: RawSong = {
   title: SONGS["バレッタ"].title,
-  key: SONGS["バレッタ"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -4811,16 +3947,8 @@ const songValletta: ISong = {
   },
 };
 
-const songHatsukoinohito: ISong = {
+const songHatsukoinohito: RawSong = {
   title: SONGS["初恋の人を今でも"].title,
-  key: SONGS["初恋の人を今でも"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -4859,16 +3987,8 @@ const songHatsukoinohito: ISong = {
   },
 };
 
-const songTsukinookisa: ISong = {
+const songTsukinookisa: RawSong = {
   title: SONGS["月の大きさ"].title,
-  key: SONGS["月の大きさ"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -4911,16 +4031,8 @@ const songTsukinookisa: ISong = {
   },
 };
 
-const songWatashinotameni: ISong = {
+const songWatashinotameni: RawSong = {
   title: SONGS["私のために 誰かのために"].title,
-  key: SONGS["私のために 誰かのために"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -4949,16 +4061,8 @@ const songWatashinotameni: ISong = {
   },
 };
 
-const songSonnabakana: ISong = {
+const songSonnabakana: RawSong = {
   title: SONGS["そんなバカな…"].title,
-  key: SONGS["そんなバカな…"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -5004,16 +4108,8 @@ const songSonnabakana: ISong = {
   },
 };
 
-const songYasashisatoha: ISong = {
+const songYasashisatoha: RawSong = {
   title: SONGS["やさしさとは"].title,
-  key: SONGS["やさしさとは"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -5046,16 +4142,8 @@ const songYasashisatoha: ISong = {
 
 // 6th single
 
-const songGirlsrule: ISong = {
+const songGirlsrule: RawSong = {
   title: SONGS["ガールズルール"].title,
-  key: SONGS["ガールズルール"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -5097,16 +4185,8 @@ const songGirlsrule: ISong = {
   },
 };
 
-const songSenpuki: ISong = {
+const songSenpuki: RawSong = {
   title: SONGS["扇風機"].title,
-  key: SONGS["扇風機"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -5149,16 +4229,8 @@ const songSenpuki: ISong = {
   },
 };
 
-const songSekaideichiban: ISong = {
+const songSekaideichiban: RawSong = {
   title: SONGS["世界で一番 孤独なLover"].title,
-  key: SONGS["世界で一番 孤独なLover"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -5200,16 +4272,8 @@ const songSekaideichiban: ISong = {
   },
 };
 
-const songKomoriyo: ISong = {
+const songKomoriyo: RawSong = {
   title: SONGS["コウモリよ"].title,
-  key: SONGS["コウモリよ"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -5237,16 +4301,8 @@ const songKomoriyo: ISong = {
   },
 };
 
-const songHokanohoshikara: ISong = {
+const songHokanohoshikara: RawSong = {
   title: SONGS["他の星から"].title,
-  key: SONGS["他の星から"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -5277,16 +4333,8 @@ const songHokanohoshikara: ISong = {
   },
 };
 
-const sonNingentoiugaki: ISong = {
+const sonNingentoiugaki: RawSong = {
   title: SONGS["人間という楽器"].title,
-  key: SONGS["人間という楽器"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.FirstGeneration,
   creators: {
@@ -5344,16 +4392,8 @@ const sonNingentoiugaki: ISong = {
 
 // 5th single
 
-const songKiminonahakibo: ISong = {
+const songKiminonahakibo: RawSong = {
   title: SONGS["君の名は希望"].title,
-  key: SONGS["君の名は希望"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -5395,16 +4435,8 @@ const songKiminonahakibo: ISong = {
   },
 };
 
-const songjusannichinokiyobi: ISong = {
+const songjusannichinokiyobi: RawSong = {
   title: SONGS["13日の金曜日"].title,
-  key: SONGS["13日の金曜日"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -5447,16 +4479,8 @@ const songjusannichinokiyobi: ISong = {
   },
 };
 
-const songShakism: ISong = {
+const songShakism: RawSong = {
   title: SONGS["シャキイズム"].title,
-  key: SONGS["シャキイズム"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -5496,16 +4520,8 @@ const songShakism: ISong = {
   },
 };
 
-const songRomanticIkayaki: ISong = {
+const songRomanticIkayaki: RawSong = {
   title: SONGS["ロマンティックいか焼き"].title,
-  key: SONGS["ロマンティックいか焼き"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -5545,16 +4561,8 @@ const songRomanticIkayaki: ISong = {
   },
 };
 
-const songDekopin: ISong = {
+const songDekopin: RawSong = {
   title: SONGS["でこぴん"].title,
-  key: SONGS["でこぴん"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -5583,16 +4591,8 @@ const songDekopin: ISong = {
   },
 };
 
-const songPsychokineses: ISong = {
+const songPsychokineses: RawSong = {
   title: SONGS["サイコキネシスの可能性"].title,
-  key: SONGS["サイコキネシスの可能性"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -5626,16 +4626,8 @@ const songPsychokineses: ISong = {
 
 // 4th single
 
-const songSeifukunomannequin: ISong = {
+const songSeifukunomannequin: RawSong = {
   title: SONGS["制服のマネキン"].title,
-  key: SONGS["制服のマネキン"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -5677,16 +4669,8 @@ const songSeifukunomannequin: ISong = {
   },
 };
 
-const songHarunomelody: ISong = {
+const songHarunomelody: RawSong = {
   title: SONGS["春のメロディー"].title,
-  key: SONGS["春のメロディー"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -5730,16 +4714,8 @@ const songHarunomelody: ISong = {
   },
 };
 
-const songYubiboenkyo: ISong = {
+const songYubiboenkyo: RawSong = {
   title: SONGS["指望遠鏡"].title,
-  key: SONGS["指望遠鏡"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -5781,16 +4757,8 @@ const songYubiboenkyo: ISong = {
   },
 };
 
-const songYasashisanaramaniatteru: ISong = {
+const songYasashisanaramaniatteru: RawSong = {
   title: SONGS["やさしさなら間に合ってる"].title,
-  key: SONGS["やさしさなら間に合ってる"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -5822,16 +4790,8 @@ const songYasashisanaramaniatteru: ISong = {
   },
 };
 
-const songKokojanaidokoka: ISong = {
+const songKokojanaidokoka: RawSong = {
   title: SONGS["ここじゃないどこか"].title,
-  key: SONGS["ここじゃないどこか"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -5858,16 +4818,8 @@ const songKokojanaidokoka: ISong = {
   },
 };
 
-const songShibuyablues: ISong = {
+const songShibuyablues: RawSong = {
   title: SONGS["渋谷ブルース"].title,
-  key: SONGS["渋谷ブルース"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -5892,16 +4844,8 @@ const songShibuyablues: ISong = {
 
 // 3rd single
 
-const songHashirebicycle: ISong = {
+const songHashirebicycle: RawSong = {
   title: SONGS["走れ!Bicycle"].title,
-  key: SONGS["走れ!Bicycle"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -5951,16 +4895,8 @@ const songHashirebicycle: ISong = {
   },
 };
 
-const songNamidagamada: ISong = {
+const songNamidagamada: RawSong = {
   title: SONGS["涙がまだ悲しみだった頃"].title,
-  key: SONGS["涙がまだ悲しみだった頃"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -6004,16 +4940,8 @@ const songNamidagamada: ISong = {
   },
 };
 
-const songSekkachinakatatsumuri: ISong = {
+const songSekkachinakatatsumuri: RawSong = {
   title: SONGS["せっかちなかたつむり"].title,
-  key: SONGS["せっかちなかたつむり"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -6044,16 +4972,8 @@ const songSekkachinakatatsumuri: ISong = {
   },
 };
 
-const songHitohanazehashirunoka: ISong = {
+const songHitohanazehashirunoka: RawSong = {
   title: SONGS["人はなぜ走るのか?"].title,
-  key: SONGS["人はなぜ走るのか?"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -6098,16 +5018,8 @@ const songHitohanazehashirunoka: ISong = {
   },
 };
 
-const songOtogadenaiguitar: ISong = {
+const songOtogadenaiguitar: RawSong = {
   title: SONGS["音が出ないギター"].title,
-  key: SONGS["音が出ないギター"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -6152,16 +5064,8 @@ const songOtogadenaiguitar: ISong = {
   },
 };
 
-const songKairyunoshimayo: ISong = {
+const songKairyunoshimayo: RawSong = {
   title: SONGS["海流の島よ"].title,
-  key: SONGS["海流の島よ"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -6194,16 +5098,8 @@ const songKairyunoshimayo: ISong = {
 
 // 2nd single
 
-const songOideshampoo: ISong = {
+const songOideshampoo: RawSong = {
   title: SONGS["おいでシャンプー"].title,
-  key: SONGS["おいでシャンプー"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -6245,16 +5141,8 @@ const songOideshampoo: ISong = {
   },
 };
 
-const songOkaminikuchibuewo: ISong = {
+const songOkaminikuchibuewo: RawSong = {
   title: SONGS["狼に口笛を"].title,
-  key: SONGS["狼に口笛を"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -6298,16 +5186,8 @@ const songOkaminikuchibuewo: ISong = {
   },
 };
 
-const songKokoronokusuri: ISong = {
+const songKokoronokusuri: RawSong = {
   title: SONGS["心の薬"].title,
-  key: SONGS["心の薬"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -6351,16 +5231,8 @@ const songKokoronokusuri: ISong = {
   },
 };
 
-const songGuzenwoiiwakenishite: ISong = {
+const songGuzenwoiiwakenishite: RawSong = {
   title: SONGS["偶然を言い訳にして"].title,
-  key: SONGS["偶然を言い訳にして"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -6388,16 +5260,8 @@ const songGuzenwoiiwakenishite: ISong = {
   },
 };
 
-const songMizutamamoyo: ISong = {
+const songMizutamamoyo: RawSong = {
   title: SONGS["水玉模様"].title,
-  key: SONGS["水玉模様"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -6420,16 +5284,8 @@ const songMizutamamoyo: ISong = {
   },
 };
 
-const songHouse: ISong = {
+const songHouse: RawSong = {
   title: SONGS["ハウス!"].title,
-  key: SONGS["ハウス!"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -6475,16 +5331,8 @@ const songHouse: ISong = {
 
 // 1st single
 
-const songGurugurucurtain: ISong = {
+const songGurugurucurtain: RawSong = {
   title: SONGS["ぐるぐるカーテン"].title,
-  key: SONGS["ぐるぐるカーテン"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -6526,16 +5374,8 @@ const songGurugurucurtain: ISong = {
   },
 };
 
-const songHidarimurenoyuki: ISong = {
+const songHidarimurenoyuki: RawSong = {
   title: SONGS["左胸の勇気"].title,
-  key: SONGS["左胸の勇気"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -6577,16 +5417,8 @@ const songHidarimurenoyuki: ISong = {
   },
 };
 
-const songNogizakanouta: ISong = {
+const songNogizakanouta: RawSong = {
   title: SONGS["乃木坂の詩"].title,
-  key: SONGS["乃木坂の詩"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -6643,16 +5475,8 @@ const songNogizakanouta: ISong = {
   },
 };
 
-const songAitakattakamoshirenai: ISong = {
+const songAitakattakamoshirenai: RawSong = {
   title: SONGS["会いたかったかもしれない"].title,
-  key: SONGS["会いたかったかもしれない"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -6696,16 +5520,8 @@ const songAitakattakamoshirenai: ISong = {
   },
 };
 
-const songUshinaitakunaikara: ISong = {
+const songUshinaitakunaikara: RawSong = {
   title: SONGS["失いたくないから"].title,
-  key: SONGS["失いたくないから"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -6749,16 +5565,8 @@ const songUshinaitakunaikara: ISong = {
   },
 };
 
-const songShiroikumoninotte: ISong = {
+const songShiroikumoninotte: RawSong = {
   title: SONGS["白い雲にのって"].title,
-  key: SONGS["白い雲にのって"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -6809,16 +5617,8 @@ const songShiroikumoninotte: ISong = {
 
 // 5th album songs
 
-const arigachinarenai: ISong = {
+const arigachinarenai: RawSong = {
   title: SONGS["ありがちな恋愛"].title,
-  key: SONGS["ありがちな恋愛"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Lead,
   creators: {
@@ -6860,16 +5660,8 @@ const arigachinarenai: ISong = {
   },
 };
 
-const songMoshikimigainakereba: ISong = {
+const songMoshikimigainakereba: RawSong = {
   title: SONGS["もし君がいなければ"].title,
-  key: SONGS["もし君がいなければ"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -6892,16 +5684,8 @@ const songMoshikimigainakereba: ISong = {
   },
 };
 
-const songKissnoshuriken: ISong = {
+const songKissnoshuriken: RawSong = {
   title: SONGS["キスの手裏剣"].title,
-  key: SONGS["キスの手裏剣"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.FourthGeneration,
   creators: {
@@ -6936,16 +5720,8 @@ const songKissnoshuriken: ISong = {
   },
 };
 
-const songHoozue: ISong = {
+const songHoozue: RawSong = {
   title: SONGS["頬杖をついては眠れない"].title,
-  key: SONGS["頬杖をついては眠れない"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -6974,16 +5750,8 @@ const songHoozue: ISong = {
   },
 };
 
-const songPocchito: ISong = {
+const songPocchito: RawSong = {
   title: SONGS["ぽっち党"].title,
-  key: SONGS["ぽっち党"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -7010,16 +5778,8 @@ const songPocchito: ISong = {
   },
 };
 
-const songSayuringoboshuchu: ISong = {
+const songSayuringoboshuchu: RawSong = {
   title: SONGS["さゆりんご募集中"].title,
-  key: SONGS["さゆりんご募集中"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -7047,16 +5807,8 @@ const songSayuringoboshuchu: ISong = {
   },
 };
 
-const songGorugonzora: ISong = {
+const songGorugonzora: RawSong = {
   title: SONGS["ゴルゴンゾーラ"].title,
-  key: SONGS["ゴルゴンゾーラ"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -7083,16 +5835,8 @@ const songGorugonzora: ISong = {
   },
 };
 
-const songZambi: ISong = {
+const songZambi: RawSong = {
   title: SONGS["もうすぐ～ザンビ伝説～"].title,
-  key: SONGS["もうすぐ～ザンビ伝説～"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Special,
   creators: {
@@ -7139,16 +5883,8 @@ const songZambi: ISong = {
 
 // 4th album songs
 
-const songJibunnokoto: ISong = {
+const songJibunnokoto: RawSong = {
   title: SONGS["自分のこと"].title,
-  key: SONGS["自分のこと"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -7171,16 +5907,8 @@ const songJibunnokoto: ISong = {
   },
 };
 
-const songUnuborebeach: ISong = {
+const songUnuborebeach: RawSong = {
   title: SONGS["自惚れビーチ"].title,
-  key: SONGS["自惚れビーチ"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -7218,16 +5946,8 @@ const songUnuborebeach: ISong = {
   },
 };
 
-const songSonohito: ISong = {
+const songSonohito: RawSong = {
   title: SONGS["その女"].title,
-  key: SONGS["その女"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -7265,16 +5985,8 @@ const songSonohito: ISong = {
   },
 };
 
-const songDareyorisobaniitai: ISong = {
+const songDareyorisobaniitai: RawSong = {
   title: SONGS["誰よりそばにいたい"].title,
-  key: SONGS["誰よりそばにいたい"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -7314,16 +6026,8 @@ const songDareyorisobaniitai: ISong = {
 
 // 3rd album songs
 
-const songSkydiving: ISong = {
+const songSkydiving: RawSong = {
   title: SONGS["スカイダイビング"].title,
-  key: SONGS["スカイダイビング"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -7368,16 +6072,8 @@ const songSkydiving: ISong = {
   },
 };
 
-const songKimigaaoidekureta: ISong = {
+const songKimigaaoidekureta: RawSong = {
   title: SONGS["君が扇いでくれた"].title,
-  key: SONGS["君が扇いでくれた"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -7413,16 +6109,8 @@ const songKimigaaoidekureta: ISong = {
   },
 };
 
-const songOmoidefirst: ISong = {
+const songOmoidefirst: RawSong = {
   title: SONGS["思い出ファースト"].title,
-  key: SONGS["思い出ファースト"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.ThirdGeneration,
   creators: {
@@ -7458,16 +6146,8 @@ const songOmoidefirst: ISong = {
   },
 };
 
-const songSetteiondo: ISong = {
+const songSetteiondo: RawSong = {
   title: SONGS["設定温度"].title,
-  key: SONGS["設定温度"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -7538,16 +6218,8 @@ const songSetteiondo: ISong = {
   },
 };
 
-const songRewindanohi: ISong = {
+const songRewindanohi: RawSong = {
   title: SONGS["Rewindあの日"].title,
-  key: SONGS["Rewindあの日"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -7574,16 +6246,8 @@ const songRewindanohi: ISong = {
   },
 };
 
-const songGomensmoothie: ISong = {
+const songGomensmoothie: RawSong = {
   title: SONGS["ごめんね、スムージー"].title,
-  key: SONGS["ごめんね、スムージー"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -7610,16 +6274,8 @@ const songGomensmoothie: ISong = {
   },
 };
 
-const songMinikuiwatashi: ISong = {
+const songMinikuiwatashi: RawSong = {
   title: SONGS["醜い私"].title,
-  key: SONGS["醜い私"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -7646,16 +6302,8 @@ const songMinikuiwatashi: ISong = {
   },
 };
 
-const songKataikaranoyoni: ISong = {
+const songKataikaranoyoni: RawSong = {
   title: SONGS["硬い殻のように抱きしめたい"].title,
-  key: SONGS["硬い殻のように抱きしめたい"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -7678,16 +6326,8 @@ const songKataikaranoyoni: ISong = {
   },
 };
 
-const songMangetsugakieta: ISong = {
+const songMangetsugakieta: RawSong = {
   title: SONGS["満月が消えた"].title,
-  key: SONGS["満月が消えた"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -7714,16 +6354,8 @@ const songMangetsugakieta: ISong = {
   },
 };
 
-const songWatabokori: ISong = {
+const songWatabokori: RawSong = {
   title: SONGS["ワタボコリ"].title,
-  key: SONGS["ワタボコリ"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -7750,16 +6382,8 @@ const songWatabokori: ISong = {
   },
 };
 
-const songRyuseidiscotic: ISong = {
+const songRyuseidiscotic: RawSong = {
   title: SONGS["流星ディスコティック"].title,
-  key: SONGS["流星ディスコティック"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -7782,16 +6406,8 @@ const songRyuseidiscotic: ISong = {
   },
 };
 
-const songBokyakutobigaku: ISong = {
+const songBokyakutobigaku: RawSong = {
   title: SONGS["忘却と美学"].title,
-  key: SONGS["忘却と美学"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -7816,16 +6432,8 @@ const songBokyakutobigaku: ISong = {
 
 // 2nd album songs
 
-const songKikkake: ISong = {
+const songKikkake: RawSong = {
   title: SONGS["きっかけ"].title,
-  key: SONGS["きっかけ"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -7865,16 +6473,8 @@ const songKikkake: ISong = {
   },
 };
 
-const songTaiyonikudokarete: ISong = {
+const songTaiyonikudokarete: RawSong = {
   title: SONGS["太陽に口説かれて"].title,
-  key: SONGS["太陽に口説かれて"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -7914,16 +6514,8 @@ const songTaiyonikudokarete: ISong = {
   },
 };
 
-const songYokubonoReincarnation: ISong = {
+const songYokubonoReincarnation: RawSong = {
   title: SONGS["欲望のリインカーネーション"].title,
-  key: SONGS["欲望のリインカーネーション"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -7956,16 +6548,8 @@ const songYokubonoReincarnation: ISong = {
   },
 };
 
-const songKukikan: ISong = {
+const songKukikan: RawSong = {
   title: SONGS["空気感"].title,
-  key: SONGS["空気感"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -7994,16 +6578,8 @@ const songKukikan: ISong = {
   },
 };
 
-const songKogoseikibo: ISong = {
+const songKogoseikibo: RawSong = {
   title: SONGS["光合成希望"].title,
-  key: SONGS["光合成希望"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -8026,16 +6602,8 @@ const songKogoseikibo: ISong = {
   },
 };
 
-const songThreefoldchoice: ISong = {
+const songThreefoldchoice: RawSong = {
   title: SONGS["Threefold choice"].title,
-  key: SONGS["Threefold choice"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -8062,16 +6630,8 @@ const songThreefoldchoice: ISong = {
   },
 };
 
-const songTeitaionnokisu: ISong = {
+const songTeitaionnokisu: RawSong = {
   title: SONGS["低体温のキス"].title,
-  key: SONGS["低体温のキス"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -8094,16 +6654,8 @@ const songTeitaionnokisu: ISong = {
   },
 };
 
-const songShitsurenshitara: ISong = {
+const songShitsurenshitara: RawSong = {
   title: SONGS["失恋したら、顔を洗え!"].title,
-  key: SONGS["失恋したら、顔を洗え!"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -8126,16 +6678,8 @@ const songShitsurenshitara: ISong = {
   },
 };
 
-const songKakigorinokataomoi: ISong = {
+const songKakigorinokataomoi: RawSong = {
   title: SONGS["かき氷の片想い"].title,
-  key: SONGS["かき氷の片想い"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.SecondGeneration,
   creators: {
@@ -8170,16 +6714,8 @@ const songKakigorinokataomoi: ISong = {
   },
 };
 
-const songKanjorokugosen: ISong = {
+const songKanjorokugosen: RawSong = {
   title: SONGS["環状六号線"].title,
-  key: SONGS["環状六号線"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -8206,16 +6742,8 @@ const songKanjorokugosen: ISong = {
   },
 };
 
-const songKuchiyakusoku: ISong = {
+const songKuchiyakusoku: RawSong = {
   title: SONGS["口約束"].title,
-  key: SONGS["口約束"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -8245,16 +6773,8 @@ const songKuchiyakusoku: ISong = {
 
 // 1st album songs
 
-const songDarekahamikata: ISong = {
+const songDarekahamikata: RawSong = {
   title: SONGS["誰かは味方"].title,
-  key: SONGS["誰かは味方"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -8281,16 +6801,8 @@ const songDarekahamikata: ISong = {
   },
 };
 
-const songKakumeinouma: ISong = {
+const songKakumeinouma: RawSong = {
   title: SONGS["革命の馬"].title,
-  key: SONGS["革命の馬"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -8320,16 +6832,8 @@ const songKakumeinouma: ISong = {
   },
 };
 
-const songBokugairubasho: ISong = {
+const songBokugairubasho: RawSong = {
   title: SONGS["僕がいる場所"].title,
-  key: SONGS["僕がいる場所"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Coupling,
   creators: {
@@ -8369,16 +6873,8 @@ const songBokugairubasho: ISong = {
   },
 };
 
-const songAnatanotamenihikitai: ISong = {
+const songAnatanotamenihikitai: RawSong = {
   title: SONGS["あなたのために弾きたい"].title,
-  key: SONGS["あなたのために弾きたい"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -8401,16 +6897,8 @@ const songAnatanotamenihikitai: ISong = {
   },
 };
 
-const songKeishasuru: ISong = {
+const songKeishasuru: RawSong = {
   title: SONGS["傾斜する"].title,
-  key: SONGS["傾斜する"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -8450,16 +6938,8 @@ const songKeishasuru: ISong = {
   },
 };
 
-const songNazonorakugaki: ISong = {
+const songNazonorakugaki: RawSong = {
   title: SONGS["なぞの落書き"].title,
-  key: SONGS["なぞの落書き"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Unit,
   creators: {
@@ -8486,16 +6966,8 @@ const songNazonorakugaki: ISong = {
   },
 };
 
-const songJiyunokanata: ISong = {
+const songJiyunokanata: RawSong = {
   title: SONGS["自由の彼方"].title,
-  key: SONGS["自由の彼方"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Under,
   creators: {
@@ -8543,16 +7015,8 @@ const songJiyunokanata: ISong = {
   },
 };
 
-const songHitoriyogari: ISong = {
+const songHitoriyogari: RawSong = {
   title: SONGS["ひとりよがり"].title,
-  key: SONGS["ひとりよがり"].key,
-  single: { title: "", number: "" },
-  albums: [],
-  artwork: {
-    large: "",
-    medium: "",
-    small: "",
-  },
   musicVideo: "",
   type: SongType.Solo,
   creators: {
@@ -8575,197 +7039,197 @@ const songHitoriyogari: ISong = {
   },
 };
 
-export const songs = {
-  [songKaerimichi.title]: songKaerimichi,
-  [songJikochu.title]: songJikochu,
-  [songSyncronicity.title]: songSyncronicity,
-  [songItsukadekirukara.title]: songItsukadekirukara,
-  [songNigemizu.title]: songNigemizu,
-  [songInfluencer.title]: songInfluencer,
-  [songSayonaranoimi.title]: songSayonaranoimi,
-  [songHadashidesummer.title]: songHadashidesummer,
-  [songHarujion.title]: songHarujion,
-  [songHanashitaidarekagairu.title]: songHanashitaidarekagairu,
-  [songTaiyoknock.title]: songTaiyoknock,
-  [songInochihautsukushii.title]: songInochihautsukushii,
-  [songNandomenoaozoraka.title]: songNandomenoaozoraka,
-  [songNatsunofreeandeasy.title]: songNatsunofreeandeasy,
-  [songKizuitarakataomoi.title]: songKizuitarakataomoi,
-  [songValletta.title]: songValletta,
-  [songGirlsrule.title]: songGirlsrule,
-  [songKiminonahakibo.title]: songKiminonahakibo,
-  [songSeifukunomannequin.title]: songSeifukunomannequin,
-  [songHashirebicycle.title]: songHashirebicycle,
-  [songOideshampoo.title]: songOideshampoo,
-  [songGurugurucurtain.title]: songGurugurucurtain,
-  [songNichijo.title]: songNichijo,
-  [songSankakunoakichi.title]: songSankakunoakichi,
-  [songAtarashiisekai.title]: songAtarashiisekai,
-  [songMyrule.title]: songMyrule,
-  [songUnder.title]: songUnder,
-  [songFusenhaikiteiru.title]: songFusenhaikiteiru,
-  [songBulanko.title]: songBulanko,
-  [songSecretGravity.title]: songSecretGravity,
-  [songFutogo.title]: songFutogo,
-  [songShittonokenri.title]: songShittonokenri,
-  [songWakaregiwa.title]: songWakaregiwa,
-  [songKimihabokuto.title]: songKimihabokuto,
-  [songAnohibokuha.title]: songAnohibokuha,
-  [songKokoniiruriyu.title]: songKokoniiruriyu,
-  [songUmaretamamade.title]: songUmaretamamade,
-  [songHatsukoinohito.title]: songHatsukoinohito,
-  [songSenpuki.title]: songSenpuki,
-  [songjusannichinokiyobi.title]: songjusannichinokiyobi,
-  [songHarunomelody.title]: songHarunomelody,
-  [songNamidagamada.title]: songNamidagamada,
-  [songOkaminikuchibuewo.title]: songOkaminikuchibuewo,
-  [songHidarimurenoyuki.title]: songHidarimurenoyuki,
-  [songKyaraban.title]: songKyaraban,
-  [songTsuduku.title]: songTsuduku,
-  [songKokuhakunojunban.title]: songKokuhakunojunban,
-  [songChopinnousotsuki.title]: songChopinnousotsuki,
-  [songShiritaikoto.title]: songShiritaikoto,
-  [songSoratobira.title]: songSoratobira,
-  [songJibunjanaikanji.title]: songJibunjanaikanji,
-  [songKokoronomonologue.title]: songKokoronomonologue,
-  [songChikyugamaruinara.title]: songChikyugamaruinara,
-  [songAnnanisukidattanoni.title]: songAnnanisukidattanoni,
-  [songAgainst.title]: songAgainst,
-  [songKumoninarebaii.title]: songKumoninarebaii,
-  [songScoutman.title]: songScoutman,
-  [songTokitokimekimeki.title]: songTokitokimekimeki,
-  [songKotodamaho.title]: songKotodamaho,
-  [songFumensho.title]: songFumensho,
-  [songMaaiika.title]: songMaaiika,
-  [songShitsurenosojinin.title]: songShitsurenosojinin,
-  [songBokunoshodo.title]: songBokunoshodo,
-  [songAtarashiikafun.title]: songAtarashiikafun,
-  [songOnnahahitorija.title]: songOnnahahitorija,
-  [songHitonatsu.title]: songHitonatsu,
-  [songNaitatteii.title]: songNaitatteii,
-  [songLiveshin.title]: songLiveshin,
-  [songMirainokotae.title]: songMirainokotae,
-  [songJinseiwokangae.title]: songJinseiwokangae,
-  [songIgaibreak.title]: songIgaibreak,
-  [songAnotherghost.title]: songAnotherghost,
-  [songSanbanmenokaze.title]: songSanbanmenokaze,
-  [songAtarisawarinonai.title]: songAtarisawarinonai,
-  [songKodokunaaozora.title]: songKodokunaaozora,
-  [songAnokyoshitsu.title]: songAnokyoshitsu,
-  [songNidomenokisukara.title]: songNidomenokisukara,
-  [songKiminiokuruhana.title]: songKiminiokuruhana,
-  [songNaimononetari.title]: songNaimononetari,
-  [songBokudakenohikari.title]: songBokudakenohikari,
-  [songOffshoregirl.title]: songOffshoregirl,
-  [songInochinoshinjitsu.title]: songInochinoshinjitsu,
-  [songHakumaisama.title]: songHakumaisama,
-  [songIkuatenonaibokutachi.title]: songIkuatenonaibokutachi,
-  [songHarukanarubhutan.title]: songHarukanarubhutan,
-  [songTsuyogarutsubomi.title]: songTsuyogarutsubomi,
-  [songKyushamen.title]: songKyushamen,
-  [songTsuribori.title]: songTsuribori,
-  [songYuutsutofusengamu.title]: songYuutsutofusengamu,
-  [songPopipappapa.title]: songPopipappapa,
-  [songOtonahenochikamichi.title]: songOtonahenochikamichi,
-  [songKanashiminowasurekata.title]: songKanashiminowasurekata,
-  [songSukima.title]: songSukima,
-  [songMosukoshinoyumewo.title]: songMosukoshinoyumewo,
-  [songSakanatachinolovesong.title]: songSakanatachinolovesong,
-  [songMuhyojo.title]: songMuhyojo,
-  [songHanenokioku.title]: songHanenokioku,
-  [songSeifukuwonuide.title]: songSeifukuwonuide,
-  [songArakajimeromance.title]: songArakajimeromance,
-  [songTachinaorichu.title]: songTachinaorichu,
-  [songGomennezutto.title]: songGomennezutto,
-  [songBorder.title]: songBorder,
-  [songTomawarinoaijo.title]: songTomawarinoaijo,
-  [songKorogattakanewonarase.title]: songKorogattakanewonarase,
-  [songWatashiokiru.title]: songWatashiokiru,
-  [songTenderdays.title]: songTenderdays,
-  [songNanimodekizuni.title]: songNanimodekizuni,
-  [songSonosakinodeguchi.title]: songSonosakinodeguchi,
-  [songMukuchinalion.title]: songMukuchinalion,
-  [songBokugaikanakya.title]: songBokugaikanakya,
-  [songRomancenostart.title]: songRomancenostart,
-  [songToikimethod.title]: songToikimethod,
-  [songKodokukyodai.title]: songKodokukyodai,
-  [songDankeschon.title]: songDankeschon,
-  [songTsukinookisa.title]: songTsukinookisa,
-  [songWatashinotameni.title]: songWatashinotameni,
-  [songSonnabakana.title]: songSonnabakana,
-  [songYasashisatoha.title]: songYasashisatoha,
-  [songSekaideichiban.title]: songSekaideichiban,
-  [songKomoriyo.title]: songKomoriyo,
-  [songHokanohoshikara.title]: songHokanohoshikara,
-  [sonNingentoiugaki.title]: sonNingentoiugaki,
-  [songShakism.title]: songShakism,
-  [songRomanticIkayaki.title]: songRomanticIkayaki,
-  [songDekopin.title]: songDekopin,
-  [songPsychokineses.title]: songPsychokineses,
-  [songYubiboenkyo.title]: songYubiboenkyo,
-  [songYasashisanaramaniatteru.title]: songYasashisanaramaniatteru,
-  [songKokojanaidokoka.title]: songKokojanaidokoka,
-  [songShibuyablues.title]: songShibuyablues,
-  [songSekkachinakatatsumuri.title]: songSekkachinakatatsumuri,
-  [songHitohanazehashirunoka.title]: songHitohanazehashirunoka,
-  [songOtogadenaiguitar.title]: songOtogadenaiguitar,
-  [songKairyunoshimayo.title]: songKairyunoshimayo,
-  [songKokoronokusuri.title]: songKokoronokusuri,
-  [songGuzenwoiiwakenishite.title]: songGuzenwoiiwakenishite,
-  [songMizutamamoyo.title]: songMizutamamoyo,
-  [songHouse.title]: songHouse,
-  [songNogizakanouta.title]: songNogizakanouta,
-  [songAitakattakamoshirenai.title]: songAitakattakamoshirenai,
-  [songUshinaitakunaikara.title]: songUshinaitakunaikara,
-  [songShiroikumoninotte.title]: songShiroikumoninotte,
-  [songDarekahamikata.title]: songDarekahamikata,
-  [songKakumeinouma.title]: songKakumeinouma,
-  [songBokugairubasho.title]: songBokugairubasho,
-  [songAnatanotamenihikitai.title]: songAnatanotamenihikitai,
-  [songKeishasuru.title]: songKeishasuru,
-  [songNazonorakugaki.title]: songNazonorakugaki,
-  [songJiyunokanata.title]: songJiyunokanata,
-  [songHitoriyogari.title]: songHitoriyogari,
-  [songKikkake.title]: songKikkake,
-  [songTaiyonikudokarete.title]: songTaiyonikudokarete,
-  [songYokubonoReincarnation.title]: songYokubonoReincarnation,
-  [songKukikan.title]: songKukikan,
-  [songKogoseikibo.title]: songKogoseikibo,
-  [songThreefoldchoice.title]: songThreefoldchoice,
-  [songTeitaionnokisu.title]: songTeitaionnokisu,
-  [songShitsurenshitara.title]: songShitsurenshitara,
-  [songKakigorinokataomoi.title]: songKakigorinokataomoi,
-  [songKanjorokugosen.title]: songKanjorokugosen,
-  [songKuchiyakusoku.title]: songKuchiyakusoku,
-  [songSkydiving.title]: songSkydiving,
-  [songKimigaaoidekureta.title]: songKimigaaoidekureta,
-  [songOmoidefirst.title]: songOmoidefirst,
-  [songSetteiondo.title]: songSetteiondo,
-  [songRewindanohi.title]: songRewindanohi,
-  [songGomensmoothie.title]: songGomensmoothie,
-  [songMinikuiwatashi.title]: songMinikuiwatashi,
-  [songKataikaranoyoni.title]: songKataikaranoyoni,
-  [songMangetsugakieta.title]: songMangetsugakieta,
-  [songWatabokori.title]: songWatabokori,
-  [songRyuseidiscotic.title]: songRyuseidiscotic,
-  [songBokyakutobigaku.title]: songBokyakutobigaku,
-  [songJibunnokoto.title]: songJibunnokoto,
-  [songUnuborebeach.title]: songUnuborebeach,
-  [songSonohito.title]: songSonohito,
-  [songDareyorisobaniitai.title]: songDareyorisobaniitai,
-  [arigachinarenai.title]: arigachinarenai,
-  [songMoshikimigainakereba.title]: songMoshikimigainakereba,
-  [songKissnoshuriken.title]: songKissnoshuriken,
-  [songHoozue.title]: songHoozue,
-  [songPocchito.title]: songPocchito,
-  [songSayuringoboshuchu.title]: songSayuringoboshuchu,
-  [songGorugonzora.title]: songGorugonzora,
-  [songZambi.title]: songZambi,
-  [singout.title]: singout,
-  [kassouro.title]: kassouro,
-  [noyounasonzai.title]: noyounasonzai,
-  [amiloving.title]: amiloving,
-  [heikousen.title]: heikousen,
-  [yonbanmenohikari.title]: yonbanmenohikari,
-  [aimai.title]: aimai,
-};
+export const rawSongs: RawSong[] = [
+  songKaerimichi,
+  songJikochu,
+  songSyncronicity,
+  songItsukadekirukara,
+  songNigemizu,
+  songInfluencer,
+  songSayonaranoimi,
+  songHadashidesummer,
+  songHarujion,
+  songHanashitaidarekagairu,
+  songTaiyoknock,
+  songInochihautsukushii,
+  songNandomenoaozoraka,
+  songNatsunofreeandeasy,
+  songKizuitarakataomoi,
+  songValletta,
+  songGirlsrule,
+  songKiminonahakibo,
+  songSeifukunomannequin,
+  songHashirebicycle,
+  songOideshampoo,
+  songGurugurucurtain,
+  songNichijo,
+  songSankakunoakichi,
+  songAtarashiisekai,
+  songMyrule,
+  songUnder,
+  songFusenhaikiteiru,
+  songBulanko,
+  songSecretGravity,
+  songFutogo,
+  songShittonokenri,
+  songWakaregiwa,
+  songKimihabokuto,
+  songAnohibokuha,
+  songKokoniiruriyu,
+  songUmaretamamade,
+  songHatsukoinohito,
+  songSenpuki,
+  songjusannichinokiyobi,
+  songHarunomelody,
+  songNamidagamada,
+  songOkaminikuchibuewo,
+  songHidarimurenoyuki,
+  songKyaraban,
+  songTsuduku,
+  songKokuhakunojunban,
+  songChopinnousotsuki,
+  songShiritaikoto,
+  songSoratobira,
+  songJibunjanaikanji,
+  songKokoronomonologue,
+  songChikyugamaruinara,
+  songAnnanisukidattanoni,
+  songAgainst,
+  songKumoninarebaii,
+  songScoutman,
+  songTokitokimekimeki,
+  songKotodamaho,
+  songFumensho,
+  songMaaiika,
+  songShitsurenosojinin,
+  songBokunoshodo,
+  songAtarashiikafun,
+  songOnnahahitorija,
+  songHitonatsu,
+  songNaitatteii,
+  songLiveshin,
+  songMirainokotae,
+  songJinseiwokangae,
+  songIgaibreak,
+  songAnotherghost,
+  songSanbanmenokaze,
+  songAtarisawarinonai,
+  songKodokunaaozora,
+  songAnokyoshitsu,
+  songNidomenokisukara,
+  songKiminiokuruhana,
+  songNaimononetari,
+  songBokudakenohikari,
+  songOffshoregirl,
+  songInochinoshinjitsu,
+  songHakumaisama,
+  songIkuatenonaibokutachi,
+  songHarukanarubhutan,
+  songTsuyogarutsubomi,
+  songKyushamen,
+  songTsuribori,
+  songYuutsutofusengamu,
+  songPopipappapa,
+  songOtonahenochikamichi,
+  songKanashiminowasurekata,
+  songSukima,
+  songMosukoshinoyumewo,
+  songSakanatachinolovesong,
+  songMuhyojo,
+  songHanenokioku,
+  songSeifukuwonuide,
+  songArakajimeromance,
+  songTachinaorichu,
+  songGomennezutto,
+  songBorder,
+  songTomawarinoaijo,
+  songKorogattakanewonarase,
+  songWatashiokiru,
+  songTenderdays,
+  songNanimodekizuni,
+  songSonosakinodeguchi,
+  songMukuchinalion,
+  songBokugaikanakya,
+  songRomancenostart,
+  songToikimethod,
+  songKodokukyodai,
+  songDankeschon,
+  songTsukinookisa,
+  songWatashinotameni,
+  songSonnabakana,
+  songYasashisatoha,
+  songSekaideichiban,
+  songKomoriyo,
+  songHokanohoshikara,
+  sonNingentoiugaki,
+  songShakism,
+  songRomanticIkayaki,
+  songDekopin,
+  songPsychokineses,
+  songYubiboenkyo,
+  songYasashisanaramaniatteru,
+  songKokojanaidokoka,
+  songShibuyablues,
+  songSekkachinakatatsumuri,
+  songHitohanazehashirunoka,
+  songOtogadenaiguitar,
+  songKairyunoshimayo,
+  songKokoronokusuri,
+  songGuzenwoiiwakenishite,
+  songMizutamamoyo,
+  songHouse,
+  songNogizakanouta,
+  songAitakattakamoshirenai,
+  songUshinaitakunaikara,
+  songShiroikumoninotte,
+  songDarekahamikata,
+  songKakumeinouma,
+  songBokugairubasho,
+  songAnatanotamenihikitai,
+  songKeishasuru,
+  songNazonorakugaki,
+  songJiyunokanata,
+  songHitoriyogari,
+  songKikkake,
+  songTaiyonikudokarete,
+  songYokubonoReincarnation,
+  songKukikan,
+  songKogoseikibo,
+  songThreefoldchoice,
+  songTeitaionnokisu,
+  songShitsurenshitara,
+  songKakigorinokataomoi,
+  songKanjorokugosen,
+  songKuchiyakusoku,
+  songSkydiving,
+  songKimigaaoidekureta,
+  songOmoidefirst,
+  songSetteiondo,
+  songRewindanohi,
+  songGomensmoothie,
+  songMinikuiwatashi,
+  songKataikaranoyoni,
+  songMangetsugakieta,
+  songWatabokori,
+  songRyuseidiscotic,
+  songBokyakutobigaku,
+  songJibunnokoto,
+  songUnuborebeach,
+  songSonohito,
+  songDareyorisobaniitai,
+  arigachinarenai,
+  songMoshikimigainakereba,
+  songKissnoshuriken,
+  songHoozue,
+  songPocchito,
+  songSayuringoboshuchu,
+  songGorugonzora,
+  songZambi,
+  singout,
+  kassouro,
+  noyounasonzai,
+  amiloving,
+  heikousen,
+  yonbanmenohikari,
+  aimai,
+];

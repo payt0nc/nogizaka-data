@@ -8,7 +8,7 @@ import {
   CdType,
   SONGS,
 } from "../utils/constants";
-import { ISongs } from "../models/ISong";
+import { ResultSongs } from "../models/ISong";
 import { convertPerformerNames } from "../utils/strings";
 import {
   CdArtwork,
@@ -123,7 +123,7 @@ export const initializeSingles = (rawSingles: RawSingle[]): ResultSingles => {
 
 export const recordCdSongArtworks = (
   cds: ResultSingles | ResultAlbums,
-  songs: ISongs,
+  songs: ResultSongs,
 ) => {
   for (const cd of Object.values(cds)) {
     for (const cdSong of cd.songs) {
@@ -137,7 +137,7 @@ export const recordCdSongArtworks = (
 
 export const recordCdSongTypeFromSongs = (
   cds: ResultSingles | ResultAlbums,
-  songs: ISongs,
+  songs: ResultSongs,
 ) => {
   for (const cd of Object.values(cds)) {
     for (const cdSong of cd.songs) {
@@ -150,7 +150,7 @@ export const recordCdSongTypeFromSongs = (
 
 export const recordCdFocusPerformersFromSongs = (
   cds: ResultSingles | ResultAlbums,
-  songs: ISongs,
+  songs: ResultSongs,
   members: ResultMembers,
 ) => {
   for (const cd of Object.values(cds)) {

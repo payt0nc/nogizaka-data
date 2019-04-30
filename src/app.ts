@@ -6,7 +6,7 @@ import * as updateCds from "./process/updateCds";
 import { rawAlbums } from "./raw/albums";
 import { rawMembers } from "./raw/members";
 import { rawSingles } from "./raw/singles";
-import { songs } from "./raw/songs";
+import { rawSongs } from "./raw/songs";
 import { rawUnits } from "./raw/units";
 
 // Initialize raw data to result data type.
@@ -15,6 +15,7 @@ const units = updateUnits.initializeUnits(rawUnits);
 const albums = updateCds.initializeAlbums(rawAlbums);
 const singles = updateCds.initializeSingles(rawSingles);
 const members = updateMembers.initializeMembers(rawMembers);
+const songs = updateSongs.initializeSongs(rawSongs);
 
 // Process the raw data.
 

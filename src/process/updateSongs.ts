@@ -1,8 +1,36 @@
 import { ResultAlbums } from "../models/IAlbum";
 import { ResultSingles } from "../models/ISingle";
-import { ISongs } from "../models/ISong";
+import { ResultSongs, RawSong, ResultSong } from "../models/ISong";
+import { arrayToObject } from "../utils/arrays";
+import { SONGS } from "../utils/constants";
 
-export const recordSongSingle = (songs: ISongs, singles: ResultSingles) => {
+export const initializeSongs = (rawSongs: RawSong[]): ResultSongs => {
+  const initializedArray = rawSongs.map(
+    (rawSong): ResultSong => ({
+      title: rawSong.title,
+      key: SONGS[rawSong.title].key,
+      single: { title: "", number: "" },
+      albums: [],
+      artwork: {
+        large: "",
+        medium: "",
+        small: "",
+      },
+      musicVideo: rawSong.musicVideo,
+      type: rawSong.type,
+      creators: rawSong.creators,
+      performers: rawSong.performers,
+      formations: rawSong.formations,
+    }),
+  );
+
+  return arrayToObject(initializedArray, "title");
+};
+
+export const recordSongSingle = (
+  songs: ResultSongs,
+  singles: ResultSingles,
+) => {
   for (const song of Object.values(songs)) {
     song.single.title = "";
 
@@ -22,7 +50,7 @@ export const recordSongSingle = (songs: ISongs, singles: ResultSingles) => {
   }
 };
 
-export const recordSongAlbums = (songs: ISongs, albums: ResultAlbums) => {
+export const recordSongAlbums = (songs: ResultSongs, albums: ResultAlbums) => {
   for (const song of Object.values(songs)) {
     song.albums = [];
 
@@ -46,7 +74,7 @@ export const recordSongAlbums = (songs: ISongs, albums: ResultAlbums) => {
 };
 
 export const recordArtworks = (
-  songs: ISongs,
+  songs: ResultSongs,
   singles: ResultSingles,
   albums: ResultAlbums,
 ) => {

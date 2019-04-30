@@ -1,4 +1,4 @@
-import { ISongs } from "../models/ISong";
+import { ResultSongs } from "../models/ISong";
 import { ResultUnit, ResultUnits, RawUnit } from "../models/IUnit";
 import { SongType } from "../utils/constants";
 import { arrayToObject } from "../utils/arrays";
@@ -17,7 +17,7 @@ export const initializeUnits = (rawUnits: RawUnit[]): ResultUnits => {
   return arrayToObject(initializedArray, "name");
 };
 
-export const recordUnitSongs = (units: ResultUnits, songs: ISongs) => {
+export const recordUnitSongs = (units: ResultUnits, songs: ResultSongs) => {
   for (const unit of Object.values(units)) {
     for (const song of Object.values(songs)) {
       if (song.type === SongType.Unit && song.performers.unit === unit.name) {

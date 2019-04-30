@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import { ResultMembers, RawMember, ResultMember } from "../models/IMember";
 import { ResultSingles } from "../models/ISingle";
-import { ISongs } from "../models/ISong";
+import { ResultSongs } from "../models/ISong";
 import { ResultUnits } from "../models/IUnit";
 import {
   FukujinType,
@@ -62,7 +62,7 @@ export const recordUnits = (members: ResultMembers, units: ResultUnits) => {
 export const recordPositions = (
   members: ResultMembers,
   singles: ResultSingles,
-  songs: ISongs,
+  songs: ResultSongs,
 ) => {
   for (const member of Object.values(members)) {
     member.positionsCounter = {
