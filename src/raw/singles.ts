@@ -5,7 +5,7 @@ const singout: RawSingle = {
   title: "Sing Out!",
   number: "23",
   release: "2019-05-29",
-  hasArtworks: false,
+  hasArtworks: true,
   artworkTypes: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
   shopping: [],
   songs: [
