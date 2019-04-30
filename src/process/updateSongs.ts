@@ -109,40 +109,38 @@ const calculatePerformersTag = (
   name: string;
   singleNumber: string;
 } => {
-  if (song.type === SongType.Unit) {
-    return { name: song.performers.unit, singleNumber: "" };
-  }
-  if (song.type === SongType.FirstGeneration) {
-    return { name: "first generation", singleNumber: "" };
-  }
-  if (song.type === SongType.SecondGeneration) {
-    return { name: "second generation", singleNumber: "" };
-  }
-  if (song.type === SongType.ThirdGeneration) {
-    return { name: "third generation", singleNumber: "" };
-  }
-  if (song.type === SongType.FourthGeneration) {
-    return { name: "fourth generation", singleNumber: "" };
-  }
-  if (song.type === SongType.Title) {
-    return { name: "selected", singleNumber: song.single.number };
-  }
-  if (song.type === SongType.Under) {
-    if (song.single.number === "") {
-      if (song.albums.length > 0) {
-        return {
-          name: "under",
-          singleNumber: albums[song.albums[0].title].previousSingleNumber,
-        };
-      }
-    }
-    return { name: "under", singleNumber: song.single.number };
+  let name = "";
+  let singleNumber = "";
+
+  if (song.single.number !== "") {
+    singleNumber = song.single.number;
+  } else if (song.albums.length > 0) {
+    singleNumber = albums[song.albums[0].title].previousSingleNumber;
   }
 
-  return {
-    name: "",
-    singleNumber: "",
-  };
+  if (song.type === SongType.Unit) {
+    name = song.performers.unit;
+  }
+  if (song.type === SongType.FirstGeneration) {
+    name = "first generation";
+  }
+  if (song.type === SongType.SecondGeneration) {
+    name = "second generation";
+  }
+  if (song.type === SongType.ThirdGeneration) {
+    name = "third generation";
+  }
+  if (song.type === SongType.FourthGeneration) {
+    name = "fourth generation";
+  }
+  if (song.type === SongType.Title) {
+    name = "selected";
+  }
+  if (song.type === SongType.Under) {
+    name = "under";
+  }
+
+  return { name, singleNumber };
 };
 
 export const recordPerformersTags = (
