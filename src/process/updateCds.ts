@@ -5,17 +5,11 @@ import {
   OVERTURE,
   SongType,
   FocusPerformersType,
-  CdType,
   SONGS,
 } from "../utils/constants";
 import { ResultSongs } from "../models/ISong";
 import { convertPerformerNames } from "../utils/strings";
-import {
-  CdArtwork,
-  RawCdSong,
-  ResultCdSong,
-  ResultCd,
-} from "../models/commons";
+import { CdArtwork, RawCdSong, ResultCdSong } from "../models/commons";
 import { arrayToObject } from "../utils/arrays";
 import { ResultMembers } from "../models/IMember";
 
