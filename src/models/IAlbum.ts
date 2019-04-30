@@ -1,6 +1,6 @@
-import { ICd } from "./ICd";
+import { ResultCd } from "./commons";
 
-export type IAlbum = ICd;
+export type IAlbum = ResultCd;
 
 export type IAlbums = {
   [title: string]: IAlbum;

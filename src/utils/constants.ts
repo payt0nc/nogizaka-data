@@ -55,6 +55,24 @@ export enum FocusPerformersType {
   None = "",
 }
 
+export enum JoinedGeneration {
+  First = "first",
+  Second = "second",
+  Third = "third",
+  Fourth = "fourth",
+  Exchange = "exchange",
+}
+
+export enum PositionType {
+  Center = "center",
+  Fukujin = "fukujin",
+  Selected = "selected",
+  Under = "under",
+  Trainee = "trainee",
+  Skip = "skip",
+  None = "none",
+}
+
 export enum MemberNames {
   AkimotoManatsu = "akimotomanatsu",
   IkutaErika = "ikutaerika",

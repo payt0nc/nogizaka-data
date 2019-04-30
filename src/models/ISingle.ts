@@ -1,12 +1,10 @@
-import { ICd } from "./ICd";
+import { ResultCd } from "./commons";
 
-type ISingleBehindPerformers = {
-  trainees: string[];
-  skips: string[];
-};
-
-export type ISingle = ICd & {
-  behindPerformers: ISingleBehindPerformers;
+export type ISingle = ResultCd & {
+  behindPerformers: {
+    trainees: string[];
+    skips: string[];
+  };
 };
 
 export type ISingles = {

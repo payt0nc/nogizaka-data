@@ -1,12 +1,17 @@
-import { CdType, FocusPerformersType, SongType } from "../utils/constants";
-import { ISite } from "./ISite";
+import {
+  CdType,
+  FukujinType,
+  FocusPerformersType,
+  MemberNames,
+  SongType,
+} from "../utils/constants";
 
-type IFocusPerformers = {
-  type: FocusPerformersType;
-  name: string[];
+export type Site = {
+  title: string;
+  url: string;
 };
 
-export type ICdSong = {
+type CdSong = {
   number: number;
   title: string;
   key: string;
@@ -17,10 +22,13 @@ export type ICdSong = {
     medium: string;
     small: string;
   };
-  focusPerformers: IFocusPerformers;
+  focusPerformers: {
+    type: FocusPerformersType;
+    name: string[];
+  };
 };
 
-export type ICd = {
+export type ResultCd = {
   title: string;
   number: string;
   release: string;
@@ -32,6 +40,6 @@ export type ICd = {
       small: string;
     };
   };
-  shopping: ISite[];
-  songs: ICdSong[];
+  shopping: Site[];
+  songs: CdSong[];
 };

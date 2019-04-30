@@ -1,9 +1,14 @@
 import * as fs from "fs";
-import { PositionType, IMembers } from "../models/IMember";
+import { IMembers } from "../models/IMember";
 import { ISingles } from "../models/ISingle";
 import { ISongs } from "../models/ISong";
 import { IUnits } from "../models/IUnit";
-import { FukujinType, GITHUB_CONTENTS_PATH, SongType } from "../utils/constants";
+import {
+  FukujinType,
+  GITHUB_CONTENTS_PATH,
+  PositionType,
+  SongType,
+} from "../utils/constants";
 
 const PROFILE_IMAGES_PATH = "src/images/members/";
 
@@ -22,7 +27,11 @@ export const recordUnits = (members: IMembers, units: IUnits) => {
   }
 };
 
-export const recordPositions = (members: IMembers, singles: ISingles, songs: ISongs) => {
+export const recordPositions = (
+  members: IMembers,
+  singles: ISingles,
+  songs: ISongs,
+) => {
   for (const member of Object.values(members)) {
     member.positionsCounter = {
       center: 0,
@@ -53,20 +62,27 @@ export const recordPositions = (members: IMembers, singles: ISingles, songs: ISo
             member.positionsCounter.center += 1;
             member.positionsCounter.fukujin += 1;
             member.positionsCounter.selected += 1;
-          } else if (song.performers.fukujin === FukujinType.RowOne && song.formations.firstRow.includes(member.name)) {
+          } else if (
+            song.performers.fukujin === FukujinType.RowOne &&
+            song.formations.firstRow.includes(member.name)
+          ) {
             // Check Fukujin (first row case)
             singlePosition = PositionType.Fukujin;
             member.positionsCounter.fukujin += 1;
             member.positionsCounter.selected += 1;
           } else if (
             song.performers.fukujin === FukujinType.RowOneTwo &&
-            (song.formations.firstRow.includes(member.name) || song.formations.secondRow.includes(member.name))
+            (song.formations.firstRow.includes(member.name) ||
+              song.formations.secondRow.includes(member.name))
           ) {
             // Check Fukujin (first & second row case)
             singlePosition = PositionType.Fukujin;
             member.positionsCounter.fukujin += 1;
             member.positionsCounter.selected += 1;
-          } else if (song.performers.fukujin instanceof Array && song.performers.fukujin.includes(member.name)) {
+          } else if (
+            song.performers.fukujin instanceof Array &&
+            song.performers.fukujin.includes(member.name)
+          ) {
             // Check Fukujin (irregular case)
             singlePosition = PositionType.Fukujin;
             member.positionsCounter.fukujin += 1;
@@ -108,8 +124,12 @@ export const recordPositions = (members: IMembers, singles: ISingles, songs: ISo
 export const recordProfileImages = (members: IMembers, singleCount: number) => {
   for (const member of Object.values(members)) {
     for (let i = 1; i < singleCount + 1; i++) {
-      const profileImageLargePath = `${PROFILE_IMAGES_PATH}${i}/${member.name}_large.jpg`;
-      const profileImageSmallPath = `${PROFILE_IMAGES_PATH}${i}/${member.name}_small.jpg`;
+      const profileImageLargePath = `${PROFILE_IMAGES_PATH}${i}/${
+        member.name
+      }_large.jpg`;
+      const profileImageSmallPath = `${PROFILE_IMAGES_PATH}${i}/${
+        member.name
+      }_small.jpg`;
 
       let singleImage = {
         large: "",
@@ -133,10 +153,19 @@ export const recordProfileImages = (members: IMembers, singleCount: number) => {
       });
     }
 
-    if (member.singleImages[singleCount].large === "" && member.singleImages[singleCount].small === "") {
+    if (
+      member.singleImages[singleCount].large === "" &&
+      member.singleImages[singleCount].small === ""
+    ) {
       member.profileImage = {
-        large: GITHUB_CONTENTS_PATH + PROFILE_IMAGES_PATH + "member_no_image_large.png",
-        small: GITHUB_CONTENTS_PATH + PROFILE_IMAGES_PATH + "member_no_image_medium.png",
+        large:
+          GITHUB_CONTENTS_PATH +
+          PROFILE_IMAGES_PATH +
+          "member_no_image_large.png",
+        small:
+          GITHUB_CONTENTS_PATH +
+          PROFILE_IMAGES_PATH +
+          "member_no_image_medium.png",
       };
     } else {
       member.profileImage = {
