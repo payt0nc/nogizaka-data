@@ -3,7 +3,6 @@
     "title": "Sing Out!",
     "number": "23",
     "release": "2019-05-29",
-    "hasArtworks": false,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
@@ -31,12 +30,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_small.png"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
@@ -203,7 +197,6 @@
     "title": "帰り道は遠回りしたくなる",
     "number": "22",
     "release": "2018-11-14",
-    "hasArtworks": true,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/22/A_large.jpg",
@@ -231,12 +224,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/22/T_small.jpg"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
@@ -392,7 +380,6 @@
     "title": "ジコチューで行こう!",
     "number": "21",
     "release": "2018-08-08",
-    "hasArtworks": true,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/21/A_large.jpg",
@@ -420,12 +407,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/21/T_small.jpg"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
@@ -586,7 +568,6 @@
     "title": "シンクロニシティ",
     "number": "20",
     "release": "2018-04-25",
-    "hasArtworks": true,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/20/A_large.jpg",
@@ -614,12 +595,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/20/T_small.jpg"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
@@ -781,7 +757,6 @@
     "title": "いつかできるから今日できる",
     "number": "19",
     "release": "2017-10-11",
-    "hasArtworks": true,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/19/A_large.jpg",
@@ -809,12 +784,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/19/T_small.jpg"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
@@ -991,7 +961,6 @@
     "title": "逃げ水",
     "number": "18",
     "release": "2017-08-09",
-    "hasArtworks": true,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/18/A_large.jpg",
@@ -1019,12 +988,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/18/T_small.jpg"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
@@ -1202,7 +1166,6 @@
     "title": "インフルエンサー",
     "number": "17",
     "release": "2017-03-22",
-    "hasArtworks": true,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/17/A_large.jpg",
@@ -1230,12 +1193,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/17/T_small.jpg"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
@@ -1411,7 +1369,6 @@
     "title": "サヨナラの意味",
     "number": "16",
     "release": "2016-11-09",
-    "hasArtworks": true,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/16/A_large.jpg",
@@ -1439,12 +1396,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/16/T_small.jpg"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
@@ -1605,7 +1557,6 @@
     "title": "裸足でSummer",
     "number": "15",
     "release": "2016-07-27",
-    "hasArtworks": true,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/15/A_large.jpg",
@@ -1633,12 +1584,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/15/T_small.jpg"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
@@ -1799,7 +1745,6 @@
     "title": "ハルジオンが咲く頃",
     "number": "14",
     "release": "2016-03-23",
-    "hasArtworks": true,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/14/A_large.jpg",
@@ -1827,12 +1772,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/14/T_small.jpg"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
@@ -1990,7 +1930,6 @@
     "title": "今、話したい誰かがいる",
     "number": "13",
     "release": "2015-10-28",
-    "hasArtworks": true,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/13/A_large.jpg",
@@ -2013,12 +1952,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/13/T_small.jpg"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
@@ -2159,7 +2093,6 @@
     "title": "太陽ノック",
     "number": "12",
     "release": "2015-07-22",
-    "hasArtworks": true,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/12/A_large.jpg",
@@ -2182,12 +2115,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/12/T_small.jpg"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
@@ -2348,7 +2276,6 @@
     "title": "命は美しい",
     "number": "11",
     "release": "2015-03-18",
-    "hasArtworks": true,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/11/A_large.jpg",
@@ -2371,12 +2298,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/11/T_small.jpg"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
@@ -2522,7 +2444,6 @@
     "title": "何度目の青空か?",
     "number": "10",
     "release": "2014-10-08",
-    "hasArtworks": true,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/10/A_large.jpg",
@@ -2545,12 +2466,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/10/T_small.jpg"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
@@ -2695,7 +2611,6 @@
     "title": "夏のFree&Easy",
     "number": "9",
     "release": "2014-07-09",
-    "hasArtworks": true,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/9/A_large.jpg",
@@ -2718,12 +2633,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/9/T_small.jpg"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
@@ -2874,7 +2784,6 @@
     "title": "気づいたら片想い",
     "number": "8",
     "release": "2014-04-02",
-    "hasArtworks": true,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/8/A_large.jpg",
@@ -2897,12 +2806,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/8/T_small.jpg"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
@@ -3050,7 +2954,6 @@
     "title": "バレッタ",
     "number": "7",
     "release": "2013-11-27",
-    "hasArtworks": true,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/7/A_large.jpg",
@@ -3073,12 +2976,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/7/T_small.jpg"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
@@ -3232,7 +3130,6 @@
     "title": "ガールズルール",
     "number": "6",
     "release": "2013-07-03",
-    "hasArtworks": true,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/6/A_large.jpg",
@@ -3255,12 +3152,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/6/T_small.jpg"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
@@ -3394,7 +3286,6 @@
     "title": "君の名は希望",
     "number": "5",
     "release": "2013-03-31",
-    "hasArtworks": true,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/5/A_large.jpg",
@@ -3417,12 +3308,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/5/T_small.jpg"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
@@ -3558,7 +3444,6 @@
     "title": "制服のマネキン",
     "number": "4",
     "release": "2012-12-19",
-    "hasArtworks": true,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/4/A_large.jpg",
@@ -3581,12 +3466,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/4/T_small.jpg"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
@@ -3725,7 +3605,6 @@
     "title": "走れ!Bicycle",
     "number": "3",
     "release": "2012-08-22",
-    "hasArtworks": true,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/3/A_large.jpg",
@@ -3748,12 +3627,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/3/T_small.jpg"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
@@ -3893,7 +3767,6 @@
     "title": "おいでシャンプー",
     "number": "2",
     "release": "2012-05-02",
-    "hasArtworks": true,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/2/A_large.jpg",
@@ -3916,12 +3789,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/2/T_small.jpg"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
@@ -4059,7 +3927,6 @@
     "title": "ぐるぐるカーテン",
     "number": "1",
     "release": "2012-02-22",
-    "hasArtworks": true,
     "artworks": {
       "A": {
         "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/1/A_large.jpg",
@@ -4082,12 +3949,7 @@
         "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/singles/1/T_small.jpg"
       }
     },
-    "shopping": [
-      {
-        "title": "iTunes",
-        "url": ""
-      }
-    ],
+    "shopping": [],
     "songs": [
       {
         "number": 1,
