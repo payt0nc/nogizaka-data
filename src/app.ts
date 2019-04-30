@@ -3,7 +3,7 @@ import * as updateMembers from "./process/updateMembers";
 import * as updateSongs from "./process/updateSongs";
 import * as updateUnits from "./process/updateUnits";
 import * as updateCds from "./process/updateCds";
-import { albums } from "./raw/albums";
+import { rawAlbums } from "./raw/albums";
 import { members } from "./raw/members";
 import { singles } from "./raw/singles";
 import { songs } from "./raw/songs";
@@ -11,7 +11,8 @@ import { rawUnits } from "./raw/units";
 
 // Initialize raw data to result data type.
 
-const units = updateUnits.initializeUnit(rawUnits);
+const units = updateUnits.initializeUnits(rawUnits);
+const albums = updateCds.initializeAlbums(rawAlbums);
 
 // Process the raw data.
 
@@ -22,10 +23,8 @@ updateMembers.recordUnits(members, units);
 updateMembers.recordPositions(members, singles, songs);
 updateMembers.recordProfileImages(members, Object.keys(singles).length);
 
-updateCds.recordSingleArtworks(singles);
 updateCds.recordCdFocusPerformersFromSongs(singles, songs);
 
-updateCds.recordAlbumArtworks(albums);
 updateCds.recordCdFocusPerformersFromSongs(albums, songs);
 
 updateSongs.recordSongSingle(songs, singles);

@@ -1,7 +1,9 @@
-import { ResultCd } from "./commons";
+import { ResultCd, RawCd } from "./commons";
 
-export type IAlbum = ResultCd;
+export type RawAlbum = RawCd;
 
-export type IAlbums = {
-  [title: string]: IAlbum;
+export type ResultAlbum = ResultCd;
+
+export type ResultAlbums = {
+  [title: string]: ResultAlbum;
 };

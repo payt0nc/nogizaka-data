@@ -11,35 +11,52 @@ export type Site = {
   url: string;
 };
 
-type CdSong = {
+export type CdArtwork = {
+  large: string;
+  medium: string;
+  small: string;
+};
+
+export type RawCdSong = {
+  number: number;
+  title: string;
+  inCdType: CdType[];
+};
+
+export type ResultCdSong = {
   number: number;
   title: string;
   key: string;
   inCdType: CdType[];
   type: SongType;
-  artwork: {
-    large: string;
-    medium: string;
-    small: string;
-  };
+  artwork: CdArtwork;
   focusPerformers: {
     type: FocusPerformersType;
     name: string[];
   };
 };
 
-export type ResultCd = {
+export type RawCd = {
   title: string;
   number: string;
   release: string;
   hasArtworks: boolean;
+  artworkTypes: CdType[];
+  shopping: Site[];
+  songs: RawCdSong[];
+};
+
+export type ResultCd = {
+  title: string;
+  number: string;
+  release: string;
   artworks: {
-    [type: string]: {
-      large: string;
-      medium: string;
-      small: string;
-    };
+    [type: string]: CdArtwork;
   };
   shopping: Site[];
-  songs: CdSong[];
+  songs: ResultCdSong[];
+};
+
+export type ResultCdForSingleTemp = ResultCd & {
+  hasArtworks: boolean;
 };

@@ -1,48 +1,127 @@
-import { ISingles } from "../models/ISingle";
-import { IAlbums } from "../models/IAlbum";
-import { GITHUB_CONTENTS_PATH, OVERTURE, SongType, FocusPerformersType } from "../utils/constants";
+import { ISingles, RawSingle } from "../models/ISingle";
+import { ResultAlbums, RawAlbum, ResultAlbum } from "../models/IAlbum";
+import {
+  GITHUB_CONTENTS_PATH,
+  OVERTURE,
+  SongType,
+  FocusPerformersType,
+  CdType,
+  SONGS,
+} from "../utils/constants";
 import { ISongs } from "../models/ISong";
 import { convertPerformerNames } from "../utils/strings";
+import {
+  CdArtwork,
+  RawCdSong,
+  ResultCdSong,
+  ResultCd,
+} from "../models/commons";
+import { arrayToObject } from "../utils/arrays";
 
-export const recordCdArtworks = (cds: ISingles | IAlbums, basePath: string) => {
-  for (const cd of Object.values(cds)) {
-    const artworks = cd.artworks;
+const SINGLE_ARTWORK_BASE_PATH =
+  GITHUB_CONTENTS_PATH + "src/images/artworks/singles/";
+const ALBUM_ARTWORK_BASE_PATH =
+  GITHUB_CONTENTS_PATH + "src/images/artworks/albums/";
 
-    if (cd.hasArtworks) {
-      for (const key of Object.keys(artworks)) {
-        artworks[key].large = basePath + cd.number.toString() + "/" + key + "_large.jpg";
-        artworks[key].medium = basePath + cd.number.toString() + "/" + key + "_medium.jpg";
-        artworks[key].small = basePath + cd.number.toString() + "/" + key + "_small.jpg";
-      }
-    } else {
-      for (const key of Object.keys(artworks)) {
-        artworks[key].large = GITHUB_CONTENTS_PATH + "src/images/artworks/artwork_no_image_large.png";
-        artworks[key].medium = GITHUB_CONTENTS_PATH + "src/images/artworks/artwork_no_image_medium.png";
-        artworks[key].small = GITHUB_CONTENTS_PATH + "src/images/artworks/artwork_no_image_small.png";
-      }
+const convertArtworks = (
+  rawCd: RawAlbum | RawSingle,
+  basePath: string,
+): {
+  [type: string]: CdArtwork;
+} => {
+  const initialArtworks = Object.assign(
+    {},
+    ...rawCd.artworkTypes.map(artworkType => ({
+      [artworkType]: {
+        large: "",
+        medium: "",
+        small: "",
+      },
+    })),
+  );
+
+  if (rawCd.hasArtworks) {
+    for (const key of Object.keys(initialArtworks)) {
+      initialArtworks[key].large =
+        basePath + rawCd.number.toString() + "/" + key + "_large.jpg";
+      initialArtworks[key].medium =
+        basePath + rawCd.number.toString() + "/" + key + "_medium.jpg";
+      initialArtworks[key].small =
+        basePath + rawCd.number.toString() + "/" + key + "_small.jpg";
+    }
+  } else {
+    for (const key of Object.keys(initialArtworks)) {
+      initialArtworks[key].large =
+        GITHUB_CONTENTS_PATH + "src/images/artworks/artwork_no_image_large.png";
+      initialArtworks[key].medium =
+        GITHUB_CONTENTS_PATH +
+        "src/images/artworks/artwork_no_image_medium.png";
+      initialArtworks[key].small =
+        GITHUB_CONTENTS_PATH + "src/images/artworks/artwork_no_image_small.png";
     }
   }
+
+  return initialArtworks;
 };
 
-export const recordSingleArtworks = (singles: ISingles) => {
-  const ARTWORK_BASE_PATH = GITHUB_CONTENTS_PATH + "src/images/artworks/singles/";
-  recordCdArtworks(singles, ARTWORK_BASE_PATH);
+const convertCdSongs = (rawCdSongs: RawCdSong[]): ResultCdSong[] => {
+  const initializedCdSongs: ResultCdSong[] = rawCdSongs.map(
+    (rawCdSong): ResultCdSong => ({
+      number: rawCdSong.number,
+      title: rawCdSong.title,
+      key: SONGS[rawCdSong.title].key,
+      inCdType: rawCdSong.inCdType,
+      type: SongType.None,
+      artwork: {
+        large: "",
+        medium: "",
+        small: "",
+      },
+      focusPerformers: {
+        type: FocusPerformersType.None,
+        name: [],
+      },
+    }),
+  );
+
+  return initializedCdSongs;
 };
 
-export const recordAlbumArtworks = (albums: IAlbums) => {
-  const ARTWORK_BASE_PATH = GITHUB_CONTENTS_PATH + "src/images/artworks/albums/";
-  recordCdArtworks(albums, ARTWORK_BASE_PATH);
+export const initializeAlbums = (rawAlbums: RawAlbum[]): ResultAlbums => {
+  const initializedArray: ResultAlbum[] = rawAlbums.map(
+    (rawAlbum): ResultAlbum => {
+      return {
+        title: rawAlbum.title,
+        number: rawAlbum.number,
+        release: rawAlbum.release,
+        artworks: convertArtworks(rawAlbum, ALBUM_ARTWORK_BASE_PATH),
+        shopping: rawAlbum.shopping,
+        songs: convertCdSongs(rawAlbum.songs),
+      };
+    },
+  );
+
+  return arrayToObject(initializedArray, "title");
 };
 
-export const recordCdSongArtworks = (cds: ISingles | IAlbums, songs: ISongs) => {
+export const recordCdSongArtworks = (
+  cds: ISingles | ResultAlbums,
+  songs: ISongs,
+) => {
   for (const cd of Object.values(cds)) {
     for (const cdSong of cd.songs) {
-      cdSong.artwork = cdSong.title !== OVERTURE ? songs[cdSong.title].artwork : cd.artworks[cdSong.inCdType[0]];
+      cdSong.artwork =
+        cdSong.title !== OVERTURE
+          ? songs[cdSong.title].artwork
+          : cd.artworks[cdSong.inCdType[0]];
     }
   }
 };
 
-export const recordCdSongTypeFromSongs = (cds: ISingles | IAlbums, songs: ISongs) => {
+export const recordCdSongTypeFromSongs = (
+  cds: ISingles | ResultAlbums,
+  songs: ISongs,
+) => {
   for (const cd of Object.values(cds)) {
     for (const cdSong of cd.songs) {
       if (cdSong.title !== OVERTURE) {
@@ -52,7 +131,10 @@ export const recordCdSongTypeFromSongs = (cds: ISingles | IAlbums, songs: ISongs
   }
 };
 
-export const recordCdFocusPerformersFromSongs = (cds: ISingles | IAlbums, songs: ISongs) => {
+export const recordCdFocusPerformersFromSongs = (
+  cds: ISingles | ResultAlbums,
+  songs: ISongs,
+) => {
   for (const cd of Object.values(cds)) {
     for (const cdSong of cd.songs) {
       const song = songs[cdSong.title];

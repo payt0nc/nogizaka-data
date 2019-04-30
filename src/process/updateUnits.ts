@@ -3,14 +3,16 @@ import { ResultUnit, ResultUnits, RawUnit } from "../models/IUnit";
 import { SongType } from "../utils/constants";
 import { arrayToObject } from "../utils/arrays";
 
-export const initializeUnit = (rawUnits: RawUnit[]): ResultUnits => {
-  const initializedArray: ResultUnit[] = rawUnits.map(rawUnit => ({
-    name: rawUnit.name,
-    members: rawUnit.members,
-    type: rawUnit.type,
-    songs: [],
-    description: rawUnit.description,
-  }));
+export const initializeUnits = (rawUnits: RawUnit[]): ResultUnits => {
+  const initializedArray: ResultUnit[] = rawUnits.map(
+    (rawUnit): ResultUnit => ({
+      name: rawUnit.name,
+      members: rawUnit.members,
+      type: rawUnit.type,
+      songs: [],
+      description: rawUnit.description,
+    }),
+  );
 
   return arrayToObject(initializedArray, "name");
 };
