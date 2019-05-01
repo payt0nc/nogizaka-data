@@ -192,13 +192,7 @@ export const recordCdFocusPerformersFromSongs = (
               type: FocusPerformersType.Center,
               name: convertPerformerNames(song.performers.center, members),
             };
-          } else if (
-            song.formations.firstRow.length +
-              song.formations.secondRow.length +
-              song.formations.thirdRow.length +
-              song.formations.fourthRow.length <
-            3
-          ) {
+          } else {
             cdSong.focusPerformers = {
               type: FocusPerformersType.Unit,
               name: convertPerformerNames(
@@ -210,11 +204,6 @@ export const recordCdFocusPerformersFromSongs = (
                 ],
                 members,
               ),
-            };
-          } else {
-            cdSong.focusPerformers = {
-              type: FocusPerformersType.Unit,
-              name: [],
             };
           }
         } else if (song.type === SongType.None) {
