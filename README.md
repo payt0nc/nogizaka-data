@@ -28,7 +28,7 @@ npm run watch
 ## File Structure
 
 - `main.ts`: entry point
-- `/dist/`: transpiled and bundled `JS` file
+- `/dist/`: compiled `JS` file
 - `/src/types/`: data types for raw data
 - `/src/common/`: common used types
 - `/src/raw/`: raw data
