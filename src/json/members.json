@@ -115,6 +115,7 @@
     "birthday": "1993-08-20",
     "height": 154,
     "bloodType": "b",
+    "origin": "埼玉県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -295,6 +296,7 @@
     "birthday": "1997-01-22",
     "height": 160,
     "bloodType": "a",
+    "origin": "Düsseldorf, Germany",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -485,6 +487,7 @@
     "birthday": "1993-05-26",
     "height": 153,
     "bloodType": "o",
+    "origin": "神奈川県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -658,6 +661,7 @@
     "birthday": "1998-11-30",
     "height": 166,
     "bloodType": "a",
+    "origin": "神奈川県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -827,6 +831,7 @@
     "birthday": "2002-10-08",
     "height": 154,
     "bloodType": "b",
+    "origin": "沖縄県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -987,6 +992,7 @@
     "birthday": "1994-12-14",
     "height": 156,
     "bloodType": "b",
+    "origin": "埼玉県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -1167,6 +1173,7 @@
     "birthday": "2004-02-02",
     "height": 157,
     "bloodType": "b",
+    "origin": "東京都",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -1327,6 +1334,7 @@
     "birthday": "1999-01-06",
     "height": 170,
     "bloodType": "a",
+    "origin": "神奈川県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -1492,6 +1500,7 @@
     "birthday": "1993-01-04",
     "height": 163,
     "bloodType": "ab",
+    "origin": "大分県",
     "sites": [
       {
         "title": "Instagram",
@@ -1678,6 +1687,7 @@
     "birthday": "1999-09-13",
     "height": 156,
     "bloodType": "o",
+    "origin": "鹿児島県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -1843,6 +1853,7 @@
     "birthday": "1996-07-17",
     "height": 158,
     "bloodType": "o",
+    "origin": "北海道",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -2019,6 +2030,7 @@
     "birthday": "2001-07-14",
     "height": 159,
     "bloodType": "o",
+    "origin": "宮城県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -2184,6 +2196,7 @@
     "birthday": "1998-08-10",
     "height": 158,
     "bloodType": "o",
+    "origin": "東京都",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -2360,6 +2373,7 @@
     "birthday": "1993-07-20",
     "height": 157,
     "bloodType": "o",
+    "origin": "東京都",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -2533,6 +2547,7 @@
     "birthday": "2001-11-10",
     "height": 161,
     "bloodType": "a",
+    "origin": "東京都",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -2698,6 +2713,7 @@
     "birthday": "1994-05-16",
     "height": 155,
     "bloodType": "a",
+    "origin": "神奈川県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -2882,6 +2898,7 @@
     "birthday": "1998-08-28",
     "height": 163,
     "bloodType": "a",
+    "origin": "埼玉県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -3047,6 +3064,7 @@
     "birthday": "1998-03-23",
     "height": 161,
     "bloodType": "a",
+    "origin": "愛知県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -3207,6 +3225,7 @@
     "birthday": "1992-08-20",
     "height": 162,
     "bloodType": "a",
+    "origin": "群馬県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -3403,6 +3422,7 @@
     "birthday": "1992-01-22",
     "height": 165,
     "bloodType": "b",
+    "origin": "埼玉県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -3579,6 +3599,7 @@
     "birthday": "1999-03-05",
     "height": 160,
     "bloodType": "o",
+    "origin": "秋田県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -3748,6 +3769,7 @@
     "birthday": "1994-02-08",
     "height": 162,
     "bloodType": "a",
+    "origin": "千葉県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -3938,6 +3960,7 @@
     "birthday": "1998-09-23",
     "height": 155,
     "bloodType": "unknown",
+    "origin": "東京都",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -4107,6 +4130,7 @@
     "birthday": "1994-08-06",
     "height": 158,
     "bloodType": "a",
+    "origin": "埼玉県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -4280,6 +4304,7 @@
     "birthday": "2001-09-27",
     "height": 167,
     "bloodType": "unknown",
+    "origin": "東京都",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -4440,6 +4465,7 @@
     "birthday": "1994-05-25",
     "height": 159,
     "bloodType": "o",
+    "origin": "大阪府",
     "sites": [
       {
         "title": "Official",
@@ -4636,6 +4662,7 @@
     "birthday": "1998-01-31",
     "height": 159,
     "bloodType": "a",
+    "origin": "東京都",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -4800,6 +4827,7 @@
     "birthday": "1998-02-06",
     "height": 155,
     "bloodType": "b",
+    "origin": "千葉県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -4976,6 +5004,7 @@
     "birthday": "1996-10-15",
     "height": 160,
     "bloodType": "o",
+    "origin": "岐阜県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -5156,6 +5185,7 @@
     "birthday": "1992-08-27",
     "height": 164,
     "bloodType": "b",
+    "origin": "大阪府",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -5344,6 +5374,7 @@
     "birthday": "1999-08-23",
     "height": 152,
     "bloodType": "a",
+    "origin": "東京都",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -5504,6 +5535,7 @@
     "birthday": "1998-01-31",
     "height": 159,
     "bloodType": "a",
+    "origin": "東京都",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -5668,6 +5700,7 @@
     "birthday": "1999-07-26",
     "height": 159,
     "bloodType": "o",
+    "origin": "東京都",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -5837,6 +5870,7 @@
     "birthday": "1995-09-06",
     "height": 161,
     "bloodType": "a",
+    "origin": "大分県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -5997,6 +6031,7 @@
     "birthday": "2000-05-05",
     "height": 152,
     "bloodType": "o",
+    "origin": "福岡県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -6169,6 +6204,7 @@
     "birthday": "1999-11-01",
     "height": 153,
     "bloodType": "o",
+    "origin": "東京都",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -6338,6 +6374,7 @@
     "birthday": "1998-04-23",
     "height": 160,
     "bloodType": "o",
+    "origin": "広島県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -6507,6 +6544,7 @@
     "birthday": "2001-10-03",
     "height": 160,
     "bloodType": "unknown",
+    "origin": "愛知県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -6667,6 +6705,7 @@
     "birthday": "2001-08-08",
     "height": 166,
     "bloodType": "a",
+    "origin": "栃木県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -6827,6 +6866,7 @@
     "birthday": "2002-11-20",
     "height": 156,
     "bloodType": "b",
+    "origin": "岡山県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -6987,6 +7027,7 @@
     "birthday": "2001-10-31",
     "height": 164,
     "bloodType": "o",
+    "origin": "北海道",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -7147,6 +7188,7 @@
     "birthday": "2001-08-08",
     "height": 163,
     "bloodType": "unknown",
+    "origin": "California, US",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -7307,6 +7349,7 @@
     "birthday": "2003-03-03",
     "height": 160,
     "bloodType": "a",
+    "origin": "千葉県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -7467,6 +7510,7 @@
     "birthday": "2003-08-01",
     "height": 162,
     "bloodType": "o",
+    "origin": "埼玉県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -7627,6 +7671,7 @@
     "birthday": "1999-01-12",
     "height": 158,
     "bloodType": "a",
+    "origin": "埼玉県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -7787,6 +7832,7 @@
     "birthday": "2004-06-08",
     "height": 160,
     "bloodType": "o",
+    "origin": "愛知県",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -7947,6 +7993,7 @@
     "birthday": "2000-08-24",
     "height": 164,
     "bloodType": "a",
+    "origin": "大阪府",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -8107,6 +8154,7 @@
     "birthday": "2002-08-14",
     "height": 152,
     "bloodType": "b",
+    "origin": "東京都",
     "sites": [
       {
         "title": "Nogizaka46",
@@ -8267,6 +8315,7 @@
     "birthday": "1998-03-22",
     "height": 161,
     "bloodType": "o",
+    "origin": "長崎県",
     "sites": [
       {
         "title": "Official",
@@ -8444,6 +8493,7 @@
     "birthday": "1994-10-18",
     "height": 162,
     "bloodType": "a",
+    "origin": "神奈川県",
     "sites": [
       {
         "title": "Instagram",
@@ -8609,6 +8659,7 @@
     "birthday": "1994-06-27",
     "height": 157,
     "bloodType": "o",
+    "origin": "静岡県",
     "sites": [
       {
         "title": "Official",
@@ -8793,6 +8844,7 @@
     "birthday": "1997-02-17",
     "height": 166,
     "bloodType": "a",
+    "origin": "埼玉県",
     "sites": [
       {
         "title": "テレビ朝日",
@@ -8958,6 +9010,7 @@
     "birthday": "1997-11-26",
     "height": 164,
     "bloodType": "o",
+    "origin": "埼玉県",
     "sites": [
       {
         "title": "Instagram",
@@ -9127,6 +9180,7 @@
     "birthday": "1995-12-29",
     "height": 153,
     "bloodType": "ab",
+    "origin": "秋田県",
     "sites": [
       {
         "title": "Official",
@@ -9307,6 +9361,7 @@
     "birthday": "1995-07-23",
     "height": 156,
     "bloodType": "a",
+    "origin": "大阪府",
     "sites": [
       {
         "title": "Instagram",
@@ -9476,6 +9531,7 @@
     "birthday": "1996-02-20",
     "height": 155,
     "bloodType": "o",
+    "origin": "神奈川県",
     "sites": [
       {
         "title": "Official",
@@ -9649,6 +9705,7 @@
     "birthday": "1996-04-13",
     "height": 161,
     "bloodType": "o",
+    "origin": "広島県",
     "sites": [
       {
         "title": "Official",
@@ -9814,6 +9871,7 @@
     "birthday": "1993-02-20",
     "height": 163,
     "bloodType": "b",
+    "origin": "北海道",
     "sites": [],
     "photoAlbums": [
       {
@@ -9987,6 +10045,7 @@
     "birthday": "1991-03-29",
     "height": 162,
     "bloodType": "o",
+    "origin": "静岡県",
     "sites": [
       {
         "title": "Official",
@@ -10164,6 +10223,7 @@
     "birthday": "1994-05-19",
     "height": 158,
     "bloodType": "o",
+    "origin": "愛知県",
     "sites": [
       {
         "title": "Instagram",
@@ -10328,6 +10388,7 @@
     "birthday": "1991-07-27",
     "height": 162,
     "bloodType": "o",
+    "origin": "愛知県",
     "sites": [
       {
         "title": "Instagram",
@@ -10492,6 +10553,7 @@
     "birthday": "1995-12-05",
     "height": 150,
     "bloodType": "b",
+    "origin": "大分県",
     "sites": [
       {
         "title": "Instagram",
@@ -10656,6 +10718,7 @@
     "birthday": "1994-12-14",
     "height": 162,
     "bloodType": "o",
+    "origin": "宮城県",
     "sites": [],
     "photoAlbums": [],
     "units": [],
@@ -10811,6 +10874,7 @@
     "birthday": "1995-12-12",
     "height": 148,
     "bloodType": "b",
+    "origin": "岐阜県",
     "sites": [
       {
         "title": "Instagram",
@@ -10975,6 +11039,7 @@
     "birthday": "1999-04-14",
     "height": 163,
     "bloodType": "ab",
+    "origin": "神奈川県",
     "sites": [],
     "photoAlbums": [],
     "units": [],
@@ -11130,6 +11195,7 @@
     "birthday": "1995-03-08",
     "height": 158,
     "bloodType": "a",
+    "origin": "埼玉県",
     "sites": [],
     "photoAlbums": [],
     "units": [],
@@ -11285,6 +11351,7 @@
     "birthday": "1996-01-22",
     "height": 153,
     "bloodType": "a",
+    "origin": "千葉県",
     "sites": [
       {
         "title": "日本テレビ",
@@ -11445,6 +11512,7 @@
     "birthday": "1993-07-03",
     "height": 165,
     "bloodType": "a",
+    "origin": "東京都",
     "sites": [],
     "photoAlbums": [],
     "units": [],
@@ -11600,6 +11668,7 @@
     "birthday": "1993-10-29",
     "height": 166,
     "bloodType": "o",
+    "origin": "千葉県",
     "sites": [
       {
         "title": "Twitter",
@@ -11764,6 +11833,7 @@
     "birthday": "1994-08-12",
     "height": 158,
     "bloodType": "b",
+    "origin": "神奈川県",
     "sites": [
       {
         "title": "Instagram",
@@ -11928,6 +11998,7 @@
     "birthday": "1993-05-21",
     "height": 156,
     "bloodType": "o",
+    "origin": "神奈川県",
     "sites": [],
     "photoAlbums": [],
     "units": [],
@@ -12083,6 +12154,7 @@
     "birthday": "1990-06-12",
     "height": 153,
     "bloodType": "a",
+    "origin": "埼玉県",
     "sites": [
       {
         "title": "Twitter",

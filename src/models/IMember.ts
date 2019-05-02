@@ -48,6 +48,7 @@ export type RawMember = {
   birthday: string;
   height: number;
   bloodType: BloodType;
+  origin: string;
   sites: Site[];
   photoAlbums: PhotoAlbum[];
   graduation: Graduation;
@@ -65,6 +66,7 @@ export type ResultMember = {
   birthday: string;
   height: number;
   bloodType: BloodType;
+  origin: string;
   sites: Site[];
   photoAlbums: PhotoAlbum[];
   units: {

@@ -28,6 +28,7 @@ export const initializeMembers = (rawMembers: RawMember[]): ResultMembers => {
       birthday: rawMember.birthday,
       height: rawMember.height,
       bloodType: rawMember.bloodType,
+      origin: rawMember.origin,
       sites: rawMember.sites,
       photoAlbums: rawMember.photoAlbums,
       units: [],
