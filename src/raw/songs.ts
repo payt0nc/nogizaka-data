@@ -331,7 +331,7 @@ const songNichijo: RawSong = {
 const songKyaraban: RawSong = {
   title: SONGS["キャラバンは眠らない"].title,
   musicVideo: "",
-  type: SongType.Selected,
+  type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
     compose: ["CottON"],
@@ -1114,7 +1114,7 @@ const songMyrule: RawSong = {
 const songFumensho: RawSong = {
   title: SONGS["不眠症"].title,
   musicVideo: "",
-  type: SongType.Selected,
+  type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
     compose: ["大貫和紀", "河原レオ", "高木龍一"],

@@ -3343,7 +3343,7 @@
       "unit": ""
     },
     "performersTag": {
-      "name": "selected",
+      "name": "",
       "singleNumber": "22"
     },
     "formations": {
@@ -4214,7 +4214,7 @@
       "unit": ""
     },
     "performersTag": {
-      "name": "selected",
+      "name": "",
       "singleNumber": "19"
     },
     "formations": {
@@ -11329,7 +11329,7 @@
       "unit": ""
     },
     "performersTag": {
-      "name": "",
+      "name": "selected",
       "singleNumber": "22"
     },
     "formations": {

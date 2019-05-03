@@ -133,7 +133,11 @@ const calculatePerformersTag = (
   if (song.type === SongType.FourthGeneration) {
     name = "fourth generation";
   }
-  if (song.type === SongType.Title || song.type === SongType.Selected) {
+  if (
+    song.type === SongType.Title ||
+    song.type === SongType.Selected ||
+    song.type === SongType.Lead
+  ) {
     name = "selected";
   }
   if (song.type === SongType.Selected12) {
