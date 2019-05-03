@@ -331,7 +331,7 @@ const songNichijo: RawSong = {
 const songKyaraban: RawSong = {
   title: SONGS["キャラバンは眠らない"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["CottON"],
@@ -577,7 +577,7 @@ const songSankakunoakichi: RawSong = {
 const songSoratobira: RawSong = {
   title: SONGS["空扉"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["FURUTA", "Dr.Lilcom"],
@@ -707,7 +707,7 @@ const songChikyugamaruinara: RawSong = {
 const songAnnanisukidattanoni: RawSong = {
   title: SONGS["あんなに好きだったのに・・・"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["木下めろん"],
@@ -1114,7 +1114,7 @@ const songMyrule: RawSong = {
 const songFumensho: RawSong = {
   title: SONGS["不眠症"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["大貫和紀", "河原レオ", "高木龍一"],
@@ -1364,7 +1364,7 @@ const songUnder: RawSong = {
 const songOnnahahitorija: RawSong = {
   title: SONGS["女は一人じゃ眠れない"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["小形誠"],
@@ -1407,7 +1407,7 @@ const songOnnahahitorija: RawSong = {
 const songHitonatsu: RawSong = {
   title: SONGS["ひと夏の長さより…"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["aokado"],
@@ -1904,7 +1904,7 @@ const songBulanko: RawSong = {
 const songKodokunaaozora: RawSong = {
   title: SONGS["孤独な青空"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["aokado"],
@@ -2146,7 +2146,7 @@ const songSecretGravity: RawSong = {
 const songBokudakenohikari: RawSong = {
   title: SONGS["僕だけの光"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["Hiro Hoashi"],
@@ -2610,7 +2610,7 @@ const songShittonokenri: RawSong = {
 const songPopipappapa: RawSong = {
   title: SONGS["ポピパッパパー"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["Akira Sunset", "ha-j"],
@@ -2683,7 +2683,7 @@ const songOtonahenochikamichi: RawSong = {
 const songKanashiminowasurekata: RawSong = {
   title: SONGS["悲しみの忘れ方"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected12,
   creators: {
     lyrics: ["秋元康"],
     compose: ["近藤圭一"],
@@ -2927,7 +2927,7 @@ const songMuhyojo: RawSong = {
 const songHanenokioku: RawSong = {
   title: SONGS["羽根の記憶"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["杉山勝彦"],
@@ -3322,7 +3322,7 @@ const songTomawarinoaijo: RawSong = {
 const songKorogattakanewonarase: RawSong = {
   title: SONGS["転がった鐘を鳴らせ!"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["中山英二"],
@@ -3521,7 +3521,7 @@ const songKokoniiruriyu: RawSong = {
 const songNanimodekizuni: RawSong = {
   title: SONGS["何もできずにそばにいる"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["角野寿和"],
@@ -3753,7 +3753,7 @@ const songUmaretamamade: RawSong = {
 const songRomancenostart: RawSong = {
   title: SONGS["ロマンスのスタート"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["押田誠"],
@@ -3796,7 +3796,7 @@ const songRomancenostart: RawSong = {
 const songToikimethod: RawSong = {
   title: SONGS["吐息のメソッド"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["田中明仁"],
@@ -3984,7 +3984,7 @@ const songHatsukoinohito: RawSong = {
 const songTsukinookisa: RawSong = {
   title: SONGS["月の大きさ"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["古川貴浩"],
@@ -4058,7 +4058,7 @@ const songWatashinotameni: RawSong = {
 const songSonnabakana: RawSong = {
   title: SONGS["そんなバカな…"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["Akira Sunset"],
@@ -4226,7 +4226,7 @@ const songSenpuki: RawSong = {
 const songSekaideichiban: RawSong = {
   title: SONGS["世界で一番 孤独なLover"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["河原嶺旭"],
@@ -4476,7 +4476,7 @@ const songjusannichinokiyobi: RawSong = {
 const songShakism: RawSong = {
   title: SONGS["シャキイズム"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["岡本健介"],
@@ -4517,7 +4517,7 @@ const songShakism: RawSong = {
 const songRomanticIkayaki: RawSong = {
   title: SONGS["ロマンティックいか焼き"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["横健介"],
@@ -4711,7 +4711,7 @@ const songHarunomelody: RawSong = {
 const songYubiboenkyo: RawSong = {
   title: SONGS["指望遠鏡"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["北室龍馬"],
@@ -4969,7 +4969,7 @@ const songSekkachinakatatsumuri: RawSong = {
 const songHitohanazehashirunoka: RawSong = {
   title: SONGS["人はなぜ走るのか?"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["キタムラタケシ", "田上陽一"],
@@ -6023,7 +6023,7 @@ const songDareyorisobaniitai: RawSong = {
 const songSkydiving: RawSong = {
   title: SONGS["スカイダイビング"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["菅井達司"],
@@ -6143,7 +6143,7 @@ const songOmoidefirst: RawSong = {
 const songSetteiondo: RawSong = {
   title: SONGS["設定温度"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["石井亮輔"],
@@ -6429,7 +6429,7 @@ const songBokyakutobigaku: RawSong = {
 const songKikkake: RawSong = {
   title: SONGS["きっかけ"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["杉山勝彦"],
@@ -6470,7 +6470,7 @@ const songKikkake: RawSong = {
 const songTaiyonikudokarete: RawSong = {
   title: SONGS["太陽に口説かれて"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["フジノタカフミ"],
@@ -6829,7 +6829,7 @@ const songKakumeinouma: RawSong = {
 const songBokugairubasho: RawSong = {
   title: SONGS["僕がいる場所"].title,
   musicVideo: "",
-  type: SongType.Coupling,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["杉山勝彦"],

@@ -2,6 +2,8 @@ export enum SongType {
   None = "none",
   Title = "title",
   Coupling = "coupling",
+  Selected = "selected",
+  Selected12 = "selected-12",
   Lead = "lead",
   Under = "under",
   Unit = "unit",

@@ -133,8 +133,12 @@ const calculatePerformersTag = (
   if (song.type === SongType.FourthGeneration) {
     name = "fourth generation";
   }
-  if (song.type === SongType.Title) {
+  if (song.type === SongType.Title || song.type === SongType.Selected) {
     name = "selected";
+  }
+  if (song.type === SongType.Selected12) {
+    name = "selected";
+    singleNumber = "12";
   }
   if (song.type === SongType.Under) {
     name = "under";
@@ -149,5 +153,11 @@ export const recordPerformersTags = (
 ) => {
   for (const song of Object.values(songs)) {
     song.performersTag = calculatePerformersTag(song, albums);
+
+    // Set "Selected" SongType back to "Coupling"
+    // since "Selected" is a subset of "Coupling" and is only used to create performers tag.
+    if (song.type.includes(SongType.Selected)) {
+      song.type = SongType.Coupling;
+    }
   }
 };

@@ -137,7 +137,11 @@ export const recordCdSongTypeFromSongs = (
   for (const cd of Object.values(cds)) {
     for (const cdSong of cd.songs) {
       if (cdSong.title !== OVERTURE) {
-        cdSong.type = songs[cdSong.title].type;
+        if (songs[cdSong.title].type.includes(SongType.Selected)) {
+          cdSong.type = SongType.Coupling;
+        } else {
+          cdSong.type = songs[cdSong.title].type;
+        }
       } else {
         cdSong.type = SongType.Coupling;
       }
@@ -159,6 +163,8 @@ export const recordCdFocusPerformersFromSongs = (
           song.type === SongType.Title ||
           song.type === SongType.Under ||
           song.type === SongType.Coupling ||
+          song.type === SongType.Selected ||
+          song.type === SongType.Selected12 ||
           song.type === SongType.Lead ||
           song.type === SongType.FirstGeneration ||
           song.type === SongType.SecondGeneration ||
