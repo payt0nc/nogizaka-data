@@ -13,7 +13,7 @@ const singout: RawSong = {
     lyrics: ["秋元康"],
     compose: ["Ryota Saito", "TETTA"],
     arrange: ["野中“まさ”雄一"],
-    direct: [],
+    direct: ["池田一真"],
   },
   performers: {
     center: [MemberNames.SaitouAsuka],
