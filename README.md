@@ -25,6 +25,12 @@ Watch and transpile `TypeScript` to `JavaScript`
 npm run watch
 ```
 
+Generate final JSON data
+
+```bash
+npm start
+```
+
 ## File Structure
 
 - `main.ts`: entry point
