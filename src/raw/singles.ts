@@ -26,7 +26,7 @@ const singout: RawSingle = {
     },
     {
       number: 4,
-      title: SONGS["Am I Loving"].title,
+      title: SONGS["Am I Loving?"].title,
       inCdType: [CdType.B],
     },
     {

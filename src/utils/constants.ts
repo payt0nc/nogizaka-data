@@ -190,8 +190,8 @@ export const SONGS: {
     title: "のような存在",
     key: "noyounasonzai",
   },
-  "Am I Loving": {
-    title: "Am I Loving",
+  "Am I Loving?": {
+    title: "Am I Loving?",
     key: "amiloving",
   },
   "平行線": {
