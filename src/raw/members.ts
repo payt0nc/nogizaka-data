@@ -621,7 +621,14 @@ const saitouyuuri: RawMember = {
       url: "https://7gogo.jp/MM1u8Yp3Dv6C",
     },
   ],
-  photoAlbums: [],
+  photoAlbums: [
+    {
+      title: "7秒のしあわせ",
+      release: "2019-06-20",
+      type: PhotoAlbumType.PhotoAlbum,
+      shopping: [],
+    }
+  ],
   graduation: {
     isGraduated: false,
     graduatedDate: "",
