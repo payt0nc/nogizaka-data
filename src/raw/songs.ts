@@ -97,7 +97,7 @@ const noyounasonzai: RawSong = {
     lyrics: ["秋元康"],
     compose: [],
     arrange: [],
-    direct: [],
+    direct: ["伊藤衆人"],
   },
   performers: {
     center: [],
@@ -151,7 +151,7 @@ const heikousen: RawSong = {
     lyrics: ["秋元康"],
     compose: [],
     arrange: [],
-    direct: [],
+    direct: ["泉田岳"],
   },
   performers: {
     center: [],
