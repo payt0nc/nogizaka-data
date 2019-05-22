@@ -184,7 +184,7 @@ const yonbanmenohikari: RawSong = {
     direct: ["月田茂"],
   },
   performers: {
-    center: [],
+    center: [MemberNames.EndouSakura],
     fukujin: [],
     solo: "",
     unit: "",

@@ -12061,7 +12061,9 @@
       ]
     },
     "performers": {
-      "center": [],
+      "center": [
+        "endousakura"
+      ],
       "fukujin": [],
       "solo": "",
       "unit": ""
