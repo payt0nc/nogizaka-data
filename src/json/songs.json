@@ -11852,12 +11852,16 @@
       "lyrics": [
         "秋元康"
       ],
-      "compose": [],
+      "compose": [
+        "CHOCOLATE MIX"
+      ],
       "arrange": [],
       "direct": []
     },
     "performers": {
-      "center": [],
+      "center": [
+        "teradaranze"
+      ],
       "fukujin": [],
       "solo": "",
       "unit": ""
@@ -11903,7 +11907,9 @@
       "lyrics": [
         "秋元康"
       ],
-      "compose": [],
+      "compose": [
+        "Akira Sunset, APAZZI"
+      ],
       "arrange": [],
       "direct": [
         "伊藤衆人"
@@ -11948,7 +11954,9 @@
       "lyrics": [
         "秋元康"
       ],
-      "compose": [],
+      "compose": [
+        "山田智和"
+      ],
       "arrange": [],
       "direct": []
     },
@@ -11994,7 +12002,9 @@
       "lyrics": [
         "秋元康"
       ],
-      "compose": [],
+      "compose": [
+        "近藤圭一"
+      ],
       "arrange": [],
       "direct": [
         "泉田岳"
@@ -12042,7 +12052,9 @@
       "lyrics": [
         "秋元康"
       ],
-      "compose": [],
+      "compose": [
+        "杉山勝彦"
+      ],
       "arrange": [],
       "direct": []
     },
@@ -12094,7 +12106,9 @@
       "lyrics": [
         "秋元康"
       ],
-      "compose": [],
+      "compose": [
+        "doubleglass"
+      ],
       "arrange": [],
       "direct": []
     },

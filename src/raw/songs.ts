@@ -60,12 +60,12 @@ const kassouro: RawSong = {
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
-    compose: [],
+    compose: ["CHOCOLATE MIX"],
     arrange: [],
     direct: [],
   },
   performers: {
-    center: [],
+    center: [MemberNames.TeradaRanze],
     fukujin: [],
     solo: "",
     unit: "",
@@ -95,7 +95,7 @@ const noyounasonzai: RawSong = {
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
-    compose: [],
+    compose: ["Akira Sunset, APAZZI"],
     arrange: [],
     direct: ["伊藤衆人"],
   },
@@ -119,7 +119,7 @@ const amiloving: RawSong = {
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
-    compose: [],
+    compose: ["山田智和"],
     arrange: [],
     direct: [],
   },
@@ -149,7 +149,7 @@ const heikousen: RawSong = {
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
-    compose: [],
+    compose: ["近藤圭一"],
     arrange: [],
     direct: ["泉田岳"],
   },
@@ -179,7 +179,7 @@ const yonbanmenohikari: RawSong = {
   type: SongType.FourthGeneration,
   creators: {
     lyrics: ["秋元康"],
-    compose: [],
+    compose: ["杉山勝彦"],
     arrange: [],
     direct: [],
   },
@@ -215,7 +215,7 @@ const aimai: RawSong = {
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
-    compose: [],
+    compose: ["doubleglass"],
     arrange: [],
     direct: [],
   },
