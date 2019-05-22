@@ -181,7 +181,7 @@ const yonbanmenohikari: RawSong = {
     lyrics: ["秋元康"],
     compose: ["杉山勝彦"],
     arrange: [],
-    direct: [],
+    direct: ["月田茂"],
   },
   performers: {
     center: [],
