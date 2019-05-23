@@ -62,7 +62,7 @@ const kassouro: RawSong = {
     lyrics: ["秋元康"],
     compose: ["CHOCOLATE MIX"],
     arrange: [],
-    direct: [],
+    direct: ["maxilla"],
   },
   performers: {
     center: [MemberNames.TeradaRanze],
