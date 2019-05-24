@@ -6446,8 +6446,8 @@
       "firstNameEn": "sakura"
     },
     "glowStickColor": {
-      "left": "",
-      "right": ""
+      "left": "white",
+      "right": "pink"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/endousakura_large.jpg",
@@ -6607,8 +6607,8 @@
       "firstNameEn": "haruka"
     },
     "glowStickColor": {
-      "left": "",
-      "right": ""
+      "left": "green",
+      "right": "orange"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kakiharuka_large.jpg",
@@ -6768,8 +6768,8 @@
       "firstNameEn": "sayaka"
     },
     "glowStickColor": {
-      "left": "",
-      "right": ""
+      "left": "pink",
+      "right": "orange"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kakehashisayaka_large.jpg",
@@ -6929,8 +6929,8 @@
       "firstNameEn": "saya"
     },
     "glowStickColor": {
-      "left": "",
-      "right": ""
+      "left": "red",
+      "right": "light blue"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kanagawasaya_large.jpg",
@@ -7090,8 +7090,8 @@
       "firstNameEn": "yuri"
     },
     "glowStickColor": {
-      "left": "",
-      "right": ""
+      "left": "orange",
+      "right": "light blue"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/kitagawayuri_large.jpg",
@@ -7251,8 +7251,8 @@
       "firstNameEn": "yuna"
     },
     "glowStickColor": {
-      "left": "",
-      "right": ""
+      "left": "blue",
+      "right": "yellow green"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/shibatayuna_large.jpg",
@@ -7412,8 +7412,8 @@
       "firstNameEn": "rei"
     },
     "glowStickColor": {
-      "left": "",
-      "right": ""
+      "left": "orange",
+      "right": "orange"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/seimiyarei_large.jpg",
@@ -7573,8 +7573,8 @@
       "firstNameEn": "mayu"
     },
     "glowStickColor": {
-      "left": "",
-      "right": ""
+      "left": "light blue",
+      "right": "purple"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/tamuramayu_large.jpg",
@@ -7734,8 +7734,8 @@
       "firstNameEn": "ayame"
     },
     "glowStickColor": {
-      "left": "",
-      "right": ""
+      "left": "purple",
+      "right": "purple"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/tsutsuiayame_large.jpg",
@@ -7895,8 +7895,8 @@
       "firstNameEn": "seira"
     },
     "glowStickColor": {
-      "left": "",
-      "right": ""
+      "left": "blue",
+      "right": "blue"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/hayakawaseira_large.jpg",
@@ -8056,8 +8056,8 @@
       "firstNameEn": "mio"
     },
     "glowStickColor": {
-      "left": "",
-      "right": ""
+      "left": "yellow",
+      "right": "pink"
     },
     "profileImage": {
       "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/members/22/yakubomio_large.jpg",
