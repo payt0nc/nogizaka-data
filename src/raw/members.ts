@@ -173,8 +173,8 @@ const itoukarin: RawMember = {
   ],
   photoAlbums: [],
   graduation: {
-    isGraduated: false,
-    graduatedDate: "",
+    isGraduated: true,
+    graduatedDate: "2019-05-24",
   },
 };
 
