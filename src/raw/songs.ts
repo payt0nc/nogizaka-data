@@ -61,7 +61,7 @@ const kassouro: RawSong = {
   creators: {
     lyrics: ["秋元康"],
     compose: ["CHOCOLATE MIX"],
-    arrange: [],
+    arrange: ["CHOCOLATE MIX"],
     direct: ["maxilla"],
   },
   performers: {
@@ -96,7 +96,7 @@ const noyounasonzai: RawSong = {
   creators: {
     lyrics: ["秋元康"],
     compose: ["Akira Sunset, APAZZI"],
-    arrange: [],
+    arrange: ["Akira Sunset, APAZZI"],
     direct: ["伊藤衆人"],
   },
   performers: {
@@ -120,7 +120,7 @@ const amiloving: RawSong = {
   creators: {
     lyrics: ["秋元康"],
     compose: ["山田智和"],
-    arrange: [],
+    arrange: ["APAZZI"],
     direct: [],
   },
   performers: {
@@ -150,7 +150,7 @@ const heikousen: RawSong = {
   creators: {
     lyrics: ["秋元康"],
     compose: ["近藤圭一"],
-    arrange: [],
+    arrange: ["近藤圭一"],
     direct: ["泉田岳"],
   },
   performers: {
@@ -180,7 +180,7 @@ const yonbanmenohikari: RawSong = {
   creators: {
     lyrics: ["秋元康"],
     compose: ["杉山勝彦"],
-    arrange: [],
+    arrange: ["杉山勝彦", "谷地学"],
     direct: ["月田茂"],
   },
   performers: {
@@ -216,7 +216,7 @@ const aimai: RawSong = {
   creators: {
     lyrics: ["秋元康"],
     compose: ["doubleglass"],
-    arrange: [],
+    arrange: ["doubleglass"],
     direct: [],
   },
   performers: {

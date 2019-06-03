@@ -11855,7 +11855,9 @@
       "compose": [
         "CHOCOLATE MIX"
       ],
-      "arrange": [],
+      "arrange": [
+        "CHOCOLATE MIX"
+      ],
       "direct": [
         "maxilla"
       ]
@@ -11912,7 +11914,9 @@
       "compose": [
         "Akira Sunset, APAZZI"
       ],
-      "arrange": [],
+      "arrange": [
+        "Akira Sunset, APAZZI"
+      ],
       "direct": [
         "伊藤衆人"
       ]
@@ -11959,7 +11963,9 @@
       "compose": [
         "山田智和"
       ],
-      "arrange": [],
+      "arrange": [
+        "APAZZI"
+      ],
       "direct": []
     },
     "performers": {
@@ -12007,7 +12013,9 @@
       "compose": [
         "近藤圭一"
       ],
-      "arrange": [],
+      "arrange": [
+        "近藤圭一"
+      ],
       "direct": [
         "泉田岳"
       ]
@@ -12057,7 +12065,10 @@
       "compose": [
         "杉山勝彦"
       ],
-      "arrange": [],
+      "arrange": [
+        "杉山勝彦",
+        "谷地学"
+      ],
       "direct": [
         "月田茂"
       ]
@@ -12115,7 +12126,9 @@
       "compose": [
         "doubleglass"
       ],
-      "arrange": [],
+      "arrange": [
+        "doubleglass"
+      ],
       "direct": []
     },
     "performers": {
