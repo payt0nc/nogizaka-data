@@ -163,6 +163,10 @@ const itoukarin: RawMember = {
   origin: "神奈川県",
   sites: [
     {
+      title: "Instagram",
+      url: "https://www.instagram.com/karin___ito/",
+    },
+    {
       title: "Nogizaka46",
       url: "https://www.nogizaka46.com/member/detail/itoukarin.php",
     },
