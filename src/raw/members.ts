@@ -1299,6 +1299,10 @@ const matsumurasayuri: RawMember = {
       url: "https://www.nogizaka46.com/member/detail/matsumurasayuri.php",
     },
     {
+      title: "Instagram",
+      url: "https://www.instagram.com/matsumura_sayuri_official/",
+    },
+    {
       title: "755",
       url: "https://7gogo.jp/matsumura-sayuri",
     },
