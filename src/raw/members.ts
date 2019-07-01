@@ -634,8 +634,8 @@ const saitouyuuri: RawMember = {
     },
   ],
   graduation: {
-    isGraduated: false,
-    graduatedDate: "",
+    isGraduated: true,
+    graduatedDate: "2019-06-30",
   },
 };
 

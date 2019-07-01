@@ -2438,8 +2438,8 @@
       "under": 12
     },
     "graduation": {
-      "isGraduated": false,
-      "graduatedDate": ""
+      "isGraduated": true,
+      "graduatedDate": "2019-06-30"
     }
   },
   {
