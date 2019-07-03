@@ -171,6 +171,13 @@ export enum GlowStickColorType {
   None = "",
 }
 
+export enum SocialMedia {
+  Instagram = "Instagram",
+  Twitter = "Twitter",
+  Nogizaka = "Nogizaka46",
+  Nanagogo = "755",
+}
+
 // prettier-ignore
 export const SONGS: {
   [title: string]: {
