@@ -618,7 +618,10 @@ const saitouyuuri: RawMember = {
   origin: "東京都",
   sites: [
     {
-      title: "Nogizaka46",
+      title: SocialMedia.Instagram,
+      url: "https://www.instagram.com/yuuri_3ito/",
+    },
+    {
       title: SocialMedia.Nogizaka,
       url: "https://www.nogizaka46.com/member/detail/saitouyuuri.php",
     },
