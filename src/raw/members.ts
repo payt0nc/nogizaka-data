@@ -1114,7 +1114,7 @@ const nishinonanase: RawMember = {
     },
     {
       title: "わたしのこと",
-      release: "2015-05-09",
+      release: "2018-05-09",
       type: PhotoAlbumType.PhotoBook,
       shopping: [],
     },
