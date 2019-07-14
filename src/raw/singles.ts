@@ -6,13 +6,13 @@ const newSingle: RawSingle = {
   number: "24",
   release: "2019-09-04",
   hasArtworks: false,
-  artworkTypes: [],
+  artworkTypes: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
   shopping: [],
   songs: [
     {
       number: 1,
       title: SONGS["タイトル未定"].title,
-      inCdType: [],
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
     },
   ],
   behindPerformers: {
