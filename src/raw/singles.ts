@@ -1,6 +1,35 @@
 import { RawSingle } from "../models/ISingle";
 import { CdType, MemberNames, SONGS } from "../utils/constants";
 
+const newSingle: RawSingle = {
+  title: "タイトル未定",
+  number: "24",
+  release: "2019-09-04",
+  hasArtworks: false,
+  artworkTypes: [],
+  shopping: [],
+  songs: [
+    {
+      number: 1,
+      title: SONGS["タイトル未定"].title,
+      inCdType: [],
+    },
+  ],
+  behindPerformers: {
+    trainees: [
+      MemberNames.KakehashiSayaka,
+      MemberNames.KanagawaSaya,
+      MemberNames.KitagawaYuri,
+      MemberNames.ShibataYuna,
+      MemberNames.SeimiyaRei,
+      MemberNames.TamuraMayu,
+      MemberNames.HayakawaSeira,
+      MemberNames.YakuboMio,
+    ],
+    skips: [],
+  },
+};
+
 const singout: RawSingle = {
   title: "Sing Out!",
   number: "23",
@@ -1192,6 +1221,7 @@ const gurugurucurtain: RawSingle = {
 };
 
 export const rawSingles: RawSingle[] = [
+  newSingle,
   singout,
   kaerimichi,
   jikochu,

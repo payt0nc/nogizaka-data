@@ -3,6 +3,53 @@ import { FukujinType, MemberNames, SongType, SONGS } from "../utils/constants";
 
 // SINGLE SONGS
 
+// 24th single
+
+const newSingle: RawSong = {
+  title: SONGS["タイトル未定"].title,
+  musicVideo: "",
+  type: SongType.Title,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: [],
+    arrange: [],
+    direct: [],
+  },
+  performers: {
+    center: [MemberNames.EndouSakura],
+    fukujin: FukujinType.RowOneTwo,
+    solo: "",
+    unit: "",
+  },
+  formations: {
+    firstRow: [
+      MemberNames.HoriMiona,
+      MemberNames.KakiHaruka,
+      MemberNames.EndouSakura,
+      MemberNames.TsutsuiAyame,
+      MemberNames.SaitouAsuka,
+    ],
+    secondRow: [
+      MemberNames.YamashitaMizuki,
+      MemberNames.IkutaErika,
+      MemberNames.ShiraishiMai,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.SakuraiReika,
+      MemberNames.YodaYuuki,
+    ],
+    thirdRow: [
+      MemberNames.UmezawaMinami,
+      MemberNames.KitanoHinako,
+      MemberNames.AkimotoManatsu,
+      MemberNames.KuboShiori,
+      MemberNames.TakayamaKazumi,
+      MemberNames.HoshinoMinami,
+      MemberNames.ShinuchiMai,
+    ],
+    fourthRow: [],
+  },
+};
+
 // 23rd single
 
 const singout: RawSong = {
@@ -7226,4 +7273,5 @@ export const rawSongs: RawSong[] = [
   heikousen,
   yonbanmenohikari,
   aimai,
+  newSingle,
 ];

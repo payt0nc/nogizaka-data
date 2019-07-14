@@ -12150,5 +12150,63 @@
       "thirdRow": [],
       "fourthRow": []
     }
+  },
+  {
+    "title": "タイトル未定",
+    "key": "newSingle",
+    "single": {
+      "title": "タイトル未定",
+      "number": "24"
+    },
+    "albums": [],
+    "musicVideo": "",
+    "type": "title",
+    "creators": {
+      "lyrics": [
+        "秋元康"
+      ],
+      "compose": [],
+      "arrange": [],
+      "direct": []
+    },
+    "performers": {
+      "center": [
+        "endousakura"
+      ],
+      "fukujin": "row-1-2",
+      "solo": "",
+      "unit": ""
+    },
+    "performersTag": {
+      "name": "selected",
+      "singleNumber": "24"
+    },
+    "formations": {
+      "firstRow": [
+        "horimiona",
+        "kakiharuka",
+        "endousakura",
+        "tsutsuiayame",
+        "saitouasuka"
+      ],
+      "secondRow": [
+        "yamashitamizuki",
+        "ikutaerika",
+        "shiraishimai",
+        "matsumurasayuri",
+        "sakuraireika",
+        "yodayuuki"
+      ],
+      "thirdRow": [
+        "umezawaminami",
+        "kitanohinako",
+        "akimotomanatsu",
+        "kuboshiori",
+        "takayamakazumi",
+        "hoshinominami",
+        "shinuchimai"
+      ],
+      "fourthRow": []
+    }
   }
 ]

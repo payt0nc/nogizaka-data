@@ -185,6 +185,10 @@ export const SONGS: {
     key: string;
   };
 } = {
+  "タイトル未定": {
+    title: "タイトル未定",
+    key: "newSingle",
+  },
   "Sing Out!": {
     title: "Sing Out!",
     key: "singout",

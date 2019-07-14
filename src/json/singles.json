@@ -1,5 +1,40 @@
 [
   {
+    "title": "タイトル未定",
+    "number": "24",
+    "release": "2019-09-04",
+    "artworks": {},
+    "shopping": [],
+    "songs": [
+      {
+        "number": 1,
+        "title": "タイトル未定",
+        "key": "newSingle",
+        "inCdType": [],
+        "type": "title",
+        "focusPerformers": {
+          "type": "center",
+          "name": [
+            "遠藤さくら"
+          ]
+        }
+      }
+    ],
+    "behindPerformers": {
+      "trainees": [
+        "kakehashisayaka",
+        "kanagawasaya",
+        "kitagawayuri",
+        "shibatayuna",
+        "seimiyarei",
+        "tamuramayu",
+        "hayakawaseira",
+        "yakubomio"
+      ],
+      "skips": []
+    }
+  },
+  {
     "title": "Sing Out!",
     "number": "23",
     "release": "2019-05-29",
