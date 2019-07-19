@@ -26,7 +26,7 @@ const newSingle: RawSingle = {
       MemberNames.HayakawaSeira,
       MemberNames.YakuboMio,
     ],
-    skips: [],
+    skips: [MemberNames.InoueSayuri, MemberNames.OozonoMomoko],
   },
 };
 

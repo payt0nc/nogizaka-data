@@ -1078,7 +1078,7 @@
       "21": "selected",
       "22": "selected",
       "23": "selected",
-      "24": "none"
+      "24": "skip"
     },
     "positionsCounter": {
       "center": 0,
@@ -1778,7 +1778,7 @@
       "21": "fukujin",
       "22": "selected",
       "23": "fukujin",
-      "24": "none"
+      "24": "skip"
     },
     "positionsCounter": {
       "center": 1,
