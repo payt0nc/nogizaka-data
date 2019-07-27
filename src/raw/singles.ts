@@ -14,6 +14,11 @@ const newSingle: RawSingle = {
       title: SONGS["タイトル未定"].title,
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
     },
+    {
+      number: 2,
+      title: SONGS["僕の思い込み"].title,
+      inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
+    },
   ],
   behindPerformers: {
     trainees: [

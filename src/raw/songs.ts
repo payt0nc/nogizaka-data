@@ -50,6 +50,51 @@ const newSingle: RawSong = {
   },
 };
 
+const bokunoomoikomi: RawSong = {
+  title: SONGS["僕の思い込み"].title,
+  musicVideo: "",
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: [],
+    arrange: [],
+    direct: [],
+  },
+  performers: {
+    center: [MemberNames.EndouSakura],
+    fukujin: FukujinType.RowOneTwo,
+    solo: "",
+    unit: "",
+  },
+  formations: {
+    firstRow: [
+      MemberNames.HoriMiona,
+      MemberNames.KakiHaruka,
+      MemberNames.EndouSakura,
+      MemberNames.TsutsuiAyame,
+      MemberNames.SaitouAsuka,
+    ],
+    secondRow: [
+      MemberNames.YamashitaMizuki,
+      MemberNames.IkutaErika,
+      MemberNames.ShiraishiMai,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.SakuraiReika,
+      MemberNames.YodaYuuki,
+    ],
+    thirdRow: [
+      MemberNames.UmezawaMinami,
+      MemberNames.KitanoHinako,
+      MemberNames.AkimotoManatsu,
+      MemberNames.KuboShiori,
+      MemberNames.TakayamaKazumi,
+      MemberNames.HoshinoMinami,
+      MemberNames.ShinuchiMai,
+    ],
+    fourthRow: [],
+  },
+};
+
 // 23rd single
 
 const singout: RawSong = {
@@ -7274,4 +7319,5 @@ export const rawSongs: RawSong[] = [
   yonbanmenohikari,
   aimai,
   newSingle,
+  bokunoomoikomi
 ];

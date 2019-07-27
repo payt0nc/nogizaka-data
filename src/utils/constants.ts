@@ -185,6 +185,10 @@ export const SONGS: {
     key: string;
   };
 } = {
+  "僕の思い込み": {
+    title: "僕の思い込み",
+    key: "bokunoomoikomi",
+  },
   "タイトル未定": {
     title: "タイトル未定",
     key: "newSingle",
