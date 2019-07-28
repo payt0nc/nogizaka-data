@@ -5,8 +5,8 @@ import { FukujinType, MemberNames, SongType, SONGS } from "../utils/constants";
 
 // 24th single
 
-const newSingle: RawSong = {
-  title: SONGS["タイトル未定"].title,
+const yoakemade: RawSong = {
+  title: SONGS["夜明けまで強がらなくてもいい"].title,
   musicVideo: "",
   type: SongType.Title,
   creators: {
@@ -7318,6 +7318,6 @@ export const rawSongs: RawSong[] = [
   heikousen,
   yonbanmenohikari,
   aimai,
-  newSingle,
+  yoakemade,
   bokunoomoikomi
 ];

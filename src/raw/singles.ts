@@ -1,8 +1,8 @@
 import { RawSingle } from "../models/ISingle";
 import { CdType, MemberNames, SONGS } from "../utils/constants";
 
-const newSingle: RawSingle = {
-  title: "タイトル未定",
+const yoakemade: RawSingle = {
+  title: "夜明けまで強がらなくてもいい",
   number: "24",
   release: "2019-09-04",
   hasArtworks: false,
@@ -11,7 +11,7 @@ const newSingle: RawSingle = {
   songs: [
     {
       number: 1,
-      title: SONGS["タイトル未定"].title,
+      title: SONGS["夜明けまで強がらなくてもいい"].title,
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
     },
     {
@@ -1226,7 +1226,7 @@ const gurugurucurtain: RawSingle = {
 };
 
 export const rawSingles: RawSingle[] = [
-  newSingle,
+  yoakemade,
   singout,
   kaerimichi,
   jikochu,

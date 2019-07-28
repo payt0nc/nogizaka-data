@@ -189,9 +189,9 @@ export const SONGS: {
     title: "僕の思い込み",
     key: "bokunoomoikomi",
   },
-  "タイトル未定": {
-    title: "タイトル未定",
-    key: "newSingle",
+  "夜明けまで強がらなくてもいい": {
+    title: "夜明けまで強がらなくてもいい",
+    key: "yoakemade",
   },
   "Sing Out!": {
     title: "Sing Out!",
