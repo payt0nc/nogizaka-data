@@ -16,8 +16,33 @@ const yoakemade: RawSingle = {
     },
     {
       number: 2,
-      title: SONGS["僕の思い込み"].title,
+      title: SONGS["僕のこと、知ってる?"].title,
       inCdType: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
+    },
+    {
+      number: 3,
+      title: SONGS["路面電車の街"].title,
+      inCdType: [CdType.A],
+    },
+    {
+      number: 4,
+      title: SONGS["図書室の君へ"].title,
+      inCdType: [CdType.B],
+    },
+    {
+      number: 5,
+      title: SONGS["時々 思い出してください"].title,
+      inCdType: [CdType.C],
+    },
+    {
+      number: 6,
+      title: SONGS["～Do my best～じゃ意味はない"].title,
+      inCdType: [CdType.D],
+    },
+    {
+      number: 7,
+      title: SONGS["僕の思い込み"].title,
+      inCdType: [CdType.T],
     },
   ],
   behindPerformers: {

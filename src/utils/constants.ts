@@ -189,6 +189,26 @@ export const SONGS: {
     title: "僕の思い込み",
     key: "bokunoomoikomi",
   },
+  "～Do my best～じゃ意味はない": {
+    title: "～Do my best～じゃ意味はない",
+    key: "domybest",
+  },
+  "時々 思い出してください": {
+    title: "時々 思い出してください",
+    key: "tokidokiomoidashite",
+  },
+  "図書室の君へ": {
+    title: "図書室の君へ",
+    key: "toshoshitsu",
+  },
+  "路面電車の街": {
+    title: "路面電車の街",
+    key: "romendensha",
+  },
+  "僕のこと、知ってる?": {
+    title: "僕のこと、知ってる?",
+    key: "bokunokoto",
+  },
   "夜明けまで強がらなくてもいい": {
     title: "夜明けまで強がらなくてもいい",
     key: "yoakemade",

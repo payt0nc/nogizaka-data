@@ -50,6 +50,186 @@ const yoakemade: RawSong = {
   },
 };
 
+const bokunokoto: RawSong = {
+  title: SONGS["僕のこと、知ってる?"].title,
+  musicVideo: "",
+  type: SongType.Coupling,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: [],
+    arrange: [],
+    direct: [],
+  },
+  performers: {
+    center: [MemberNames.SaitouAsuka],
+    fukujin: [],
+    solo: "",
+    unit: "",
+  },
+  formations: {
+    firstRow: [
+      MemberNames.OozonoMomoko,
+      MemberNames.HoriMiona,
+      MemberNames.IkutaErika,
+      MemberNames.SaitouAsuka,
+      MemberNames.ShiraishiMai,
+      MemberNames.TakayamaKazumi,
+      MemberNames.YodaYuuki,
+    ],
+    secondRow: [
+      MemberNames.UmezawaMinami,
+      MemberNames.KitanoHinako,
+      MemberNames.AkimotoManatsu,
+      MemberNames.KuboShiori,
+      MemberNames.MatsumuraSayuri,
+      MemberNames.HoshinoMinami,
+      MemberNames.SakuraiReika,
+    ],
+    thirdRow: [
+      MemberNames.InoueSayuri,
+      MemberNames.SatouKaede,
+      MemberNames.SuzukiAyane,
+      MemberNames.IwamotoRenka,
+      MemberNames.SakaguchiTamami,
+      MemberNames.WatanabeMiria,
+      MemberNames.ItouRiria,
+      MemberNames.ShinuchiMai,
+    ],
+    fourthRow: [],
+  },
+};
+
+const romendensha: RawSong = {
+  title: SONGS["路面電車の街"].title,
+  musicVideo: "",
+  type: SongType.Unit,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: [],
+    arrange: [],
+    direct: [],
+  },
+  performers: {
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "",
+  },
+  formations: {
+    firstRow: [
+      MemberNames.SaitouAsuka,
+      MemberNames.HoriMiona,
+      MemberNames.YamashitaMizuki,
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: [],
+  },
+};
+
+const toshoshitsu: RawSong = {
+  title: SONGS["図書室の君へ"].title,
+  musicVideo: "",
+  type: SongType.FourthGeneration,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: [],
+    arrange: [],
+    direct: [],
+  },
+  performers: {
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "",
+  },
+  formations: {
+    firstRow: [
+      MemberNames.EndouSakura,
+      MemberNames.KakiHaruka,
+      MemberNames.KakehashiSayaka,
+      MemberNames.KanagawaSaya,
+      MemberNames.KitagawaYuri,
+      MemberNames.ShibataYuna,
+      MemberNames.SeimiyaRei,
+      MemberNames.TamuraMayu,
+      MemberNames.TsutsuiAyame,
+      MemberNames.HayakawaSeira,
+      MemberNames.YakuboMio,
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: [],
+  },
+};
+
+const tokidokiomoidashite: RawSong = {
+  title: SONGS["時々 思い出してください"].title,
+  musicVideo: "",
+  type: SongType.Solo,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: [],
+    arrange: [],
+    direct: [],
+  },
+  performers: {
+    center: [],
+    fukujin: [],
+    solo: MemberNames.SakuraiReika,
+    unit: "",
+  },
+  formations: {
+    firstRow: [
+      MemberNames.SakuraiReika,
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: [],
+  },
+};
+
+const domybest: RawSong = {
+  title: SONGS["～Do my best～じゃ意味はない"].title,
+  musicVideo: "",
+  type: SongType.Under,
+  creators: {
+    lyrics: ["秋元康"],
+    compose: [],
+    arrange: [],
+    direct: [],
+  },
+  performers: {
+    center: [],
+    fukujin: [],
+    solo: "",
+    unit: "",
+  },
+  formations: {
+    firstRow: [
+      MemberNames.ItouJunna,
+      MemberNames.ItouRiria,
+      MemberNames.IwamotoRenka,
+      MemberNames.SakaguchiTamami,
+      MemberNames.SasakiKotoko,
+      MemberNames.SatouKaede,
+      MemberNames.SuzukiAyane,
+      MemberNames.TeradaRanze,
+      MemberNames.NakadaKana,
+      MemberNames.NakamuraReno,
+      MemberNames.HiguchiHina,
+      MemberNames.MukaiHazuki,
+      MemberNames.YamazakiRena,
+      MemberNames.YoshidaAyanoChristie,
+      MemberNames.WatanabeMiria,
+      MemberNames.WadaMaaya,
+    ],
+    secondRow: [],
+    thirdRow: [],
+    fourthRow: [],
+  },
+};
+
 const bokunoomoikomi: RawSong = {
   title: SONGS["僕の思い込み"].title,
   musicVideo: "",
@@ -62,7 +242,7 @@ const bokunoomoikomi: RawSong = {
   },
   performers: {
     center: [MemberNames.EndouSakura],
-    fukujin: FukujinType.RowOneTwo,
+    fukujin: [],
     solo: "",
     unit: "",
   },
@@ -7319,5 +7499,10 @@ export const rawSongs: RawSong[] = [
   yonbanmenohikari,
   aimai,
   yoakemade,
+  bokunokoto,
+  romendensha,
+  toshoshitsu,
+  tokidokiomoidashite,
+  domybest,
   bokunoomoikomi
 ];

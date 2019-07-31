@@ -12215,6 +12215,268 @@
     }
   },
   {
+    "title": "僕のこと、知ってる?",
+    "key": "bokunokoto",
+    "single": {
+      "title": "夜明けまで強がらなくてもいい",
+      "number": "24"
+    },
+    "albums": [],
+    "artwork": {
+      "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
+      "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_medium.png",
+      "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_small.png"
+    },
+    "musicVideo": "",
+    "type": "coupling",
+    "creators": {
+      "lyrics": [
+        "秋元康"
+      ],
+      "compose": [],
+      "arrange": [],
+      "direct": []
+    },
+    "performers": {
+      "center": [
+        "saitouasuka"
+      ],
+      "fukujin": [],
+      "solo": "",
+      "unit": ""
+    },
+    "performersTag": {
+      "name": "",
+      "singleNumber": "24"
+    },
+    "formations": {
+      "firstRow": [
+        "oozonomomoko",
+        "horimiona",
+        "ikutaerika",
+        "saitouasuka",
+        "shiraishimai",
+        "takayamakazumi",
+        "yodayuuki"
+      ],
+      "secondRow": [
+        "umezawaminami",
+        "kitanohinako",
+        "akimotomanatsu",
+        "kuboshiori",
+        "matsumurasayuri",
+        "hoshinominami",
+        "sakuraireika"
+      ],
+      "thirdRow": [
+        "inouesayuri",
+        "satoukaede",
+        "suzukiayane",
+        "iwamotorenka",
+        "sakaguchitamami",
+        "watanabemiria",
+        "itouriria",
+        "shinuchimai"
+      ],
+      "fourthRow": []
+    }
+  },
+  {
+    "title": "路面電車の街",
+    "key": "romendensha",
+    "single": {
+      "title": "夜明けまで強がらなくてもいい",
+      "number": "24"
+    },
+    "albums": [],
+    "artwork": {
+      "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
+      "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_medium.png",
+      "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_small.png"
+    },
+    "musicVideo": "",
+    "type": "unit",
+    "creators": {
+      "lyrics": [
+        "秋元康"
+      ],
+      "compose": [],
+      "arrange": [],
+      "direct": []
+    },
+    "performers": {
+      "center": [],
+      "fukujin": [],
+      "solo": "",
+      "unit": ""
+    },
+    "performersTag": {
+      "name": "",
+      "singleNumber": "24"
+    },
+    "formations": {
+      "firstRow": [
+        "saitouasuka",
+        "horimiona",
+        "yamashitamizuki"
+      ],
+      "secondRow": [],
+      "thirdRow": [],
+      "fourthRow": []
+    }
+  },
+  {
+    "title": "図書室の君へ",
+    "key": "toshoshitsu",
+    "single": {
+      "title": "夜明けまで強がらなくてもいい",
+      "number": "24"
+    },
+    "albums": [],
+    "artwork": {
+      "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
+      "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_medium.png",
+      "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_small.png"
+    },
+    "musicVideo": "",
+    "type": "fourth generation",
+    "creators": {
+      "lyrics": [
+        "秋元康"
+      ],
+      "compose": [],
+      "arrange": [],
+      "direct": []
+    },
+    "performers": {
+      "center": [],
+      "fukujin": [],
+      "solo": "",
+      "unit": ""
+    },
+    "performersTag": {
+      "name": "fourth generation",
+      "singleNumber": "24"
+    },
+    "formations": {
+      "firstRow": [
+        "endousakura",
+        "kakiharuka",
+        "kakehashisayaka",
+        "kanagawasaya",
+        "kitagawayuri",
+        "shibatayuna",
+        "seimiyarei",
+        "tamuramayu",
+        "tsutsuiayame",
+        "hayakawaseira",
+        "yakubomio"
+      ],
+      "secondRow": [],
+      "thirdRow": [],
+      "fourthRow": []
+    }
+  },
+  {
+    "title": "時々 思い出してください",
+    "key": "tokidokiomoidashite",
+    "single": {
+      "title": "夜明けまで強がらなくてもいい",
+      "number": "24"
+    },
+    "albums": [],
+    "artwork": {
+      "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
+      "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_medium.png",
+      "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_small.png"
+    },
+    "musicVideo": "",
+    "type": "solo",
+    "creators": {
+      "lyrics": [
+        "秋元康"
+      ],
+      "compose": [],
+      "arrange": [],
+      "direct": []
+    },
+    "performers": {
+      "center": [],
+      "fukujin": [],
+      "solo": "sakuraireika",
+      "unit": ""
+    },
+    "performersTag": {
+      "name": "",
+      "singleNumber": "24"
+    },
+    "formations": {
+      "firstRow": [
+        "sakuraireika"
+      ],
+      "secondRow": [],
+      "thirdRow": [],
+      "fourthRow": []
+    }
+  },
+  {
+    "title": "～Do my best～じゃ意味はない",
+    "key": "domybest",
+    "single": {
+      "title": "夜明けまで強がらなくてもいい",
+      "number": "24"
+    },
+    "albums": [],
+    "artwork": {
+      "large": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_large.png",
+      "medium": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_medium.png",
+      "small": "https://raw.githubusercontent.com/shawnrivers/nogizaka-data/master/src/images/artworks/artwork_no_image_small.png"
+    },
+    "musicVideo": "",
+    "type": "under",
+    "creators": {
+      "lyrics": [
+        "秋元康"
+      ],
+      "compose": [],
+      "arrange": [],
+      "direct": []
+    },
+    "performers": {
+      "center": [],
+      "fukujin": [],
+      "solo": "",
+      "unit": ""
+    },
+    "performersTag": {
+      "name": "under",
+      "singleNumber": "24"
+    },
+    "formations": {
+      "firstRow": [
+        "itoujunna",
+        "itouriria",
+        "iwamotorenka",
+        "sakaguchitamami",
+        "sasakikotoko",
+        "satoukaede",
+        "suzukiayane",
+        "teradaranze",
+        "nakadakana",
+        "nakamurareno",
+        "higuchihina",
+        "mukaihazuki",
+        "yamazakirena",
+        "yoshidaayanochristie",
+        "watanabemiria",
+        "wadamaaya"
+      ],
+      "secondRow": [],
+      "thirdRow": [],
+      "fourthRow": []
+    }
+  },
+  {
     "title": "僕の思い込み",
     "key": "bokunoomoikomi",
     "single": {
@@ -12241,7 +12503,7 @@
       "center": [
         "endousakura"
       ],
-      "fukujin": "row-1-2",
+      "fukujin": [],
       "solo": "",
       "unit": ""
     },
