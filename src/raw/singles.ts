@@ -212,7 +212,7 @@ const jikochu: RawSingle = {
     },
     {
       number: 7,
-      title: SONGS["あんなに好きだったのに・・・"].title,
+      title: SONGS["あんなに好きだったのに..."].title,
       inCdType: [CdType.T],
     },
   ],

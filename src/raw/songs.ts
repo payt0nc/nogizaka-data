@@ -977,7 +977,7 @@ const songChikyugamaruinara: RawSong = {
 };
 
 const songAnnanisukidattanoni: RawSong = {
-  title: SONGS["あんなに好きだったのに・・・"].title,
+  title: SONGS["あんなに好きだったのに..."].title,
   musicVideo: "",
   type: SongType.Selected,
   creators: {

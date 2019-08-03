@@ -453,8 +453,8 @@ export const SONGS: {
     title: "地球が丸いなら",
     key: "chikyuugamaruinara",
   },
-  "あんなに好きだったのに・・・": {
-    title: "あんなに好きだったのに・・・",
+  "あんなに好きだったのに...": {
+    title: "あんなに好きだったのに...",
     key: "annarisukidatta",
   },
   "Against": {
