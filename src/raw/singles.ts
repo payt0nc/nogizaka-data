@@ -5,7 +5,7 @@ const yoakemade: RawSingle = {
   title: "夜明けまで強がらなくてもいい",
   number: "24",
   release: "2019-09-04",
-  hasArtworks: false,
+  hasArtworks: true,
   artworkTypes: [CdType.A, CdType.B, CdType.C, CdType.D, CdType.T],
   shopping: [],
   songs: [
