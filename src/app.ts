@@ -52,62 +52,30 @@ console.log("Data processing finished.\n");
 
 // Store the processed data into several JSON files.
 
-fs.writeFile(
-  "./src/json/members.json",
-  JSON.stringify(membersArray, null, 2),
-  err => {
+const writeFile = (path: string, data: any[]) => {
+  fs.writeFile(path, JSON.stringify(data, null, 2), err => {
     if (err) {
       console.log(err);
     } else {
-      console.log("members.json is successfully saved.");
+      console.log(`JSON saved in: ${path}`);
     }
-  },
-);
+  });
+};
 
-fs.writeFile(
-  "./src/json/singles.json",
-  JSON.stringify(singlesArray, null, 2),
-  err => {
-    if (err) {
-      console.log(err);
-    } else {
-      console.log("singles.json is successfully saved.");
-    }
-  },
-);
+// Write data in this project.
 
-fs.writeFile(
-  "./src/json/albums.json",
-  JSON.stringify(albumsArray, null, 2),
-  err => {
-    if (err) {
-      console.log(err);
-    } else {
-      console.log("albums.json is successfully saved.");
-    }
-  },
-);
+writeFile("./src/json/members.json", membersArray);
+writeFile("./src/json/singles.json", singlesArray);
+writeFile("./src/json/albums.json", albumsArray);
+writeFile("./src/json/songs.json", songsArray);
+writeFile("./src/json/units.json", unitsArray);
 
-fs.writeFile(
-  "./src/json/songs.json",
-  JSON.stringify(songsArray, null, 2),
-  err => {
-    if (err) {
-      console.log(err);
-    } else {
-      console.log("songs.json is successfully saved.");
-    }
-  },
-);
+// Write data to other project.
 
-fs.writeFile(
-  "./src/json/units.json",
-  JSON.stringify(unitsArray, null, 2),
-  err => {
-    if (err) {
-      console.log(err);
-    } else {
-      console.log("units.json is successfully saved.");
-    }
-  },
-);
+const PROJECT_PATH = __dirname + "/../../client/src/data";
+
+writeFile(`${PROJECT_PATH}/members.json`, membersArray);
+writeFile(`${PROJECT_PATH}/singles.json`, singlesArray);
+writeFile(`${PROJECT_PATH}/albums.json`, albumsArray);
+writeFile(`${PROJECT_PATH}/songs.json`, songsArray);
+writeFile(`${PROJECT_PATH}/units.json`, unitsArray);
