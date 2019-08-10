@@ -229,3 +229,9 @@ export const recordCdFocusPerformersFromSongs = (
     }
   }
 };
+
+export const flatArtworksToArray = (cds: ResultSingles | ResultAlbums) => {
+  for (const cd of Object.values(cds)) {
+    cd.artworks = Object.values(cd.artworks);
+  }
+};

@@ -40,6 +40,9 @@ updateSongs.recordPerformersTags(songs, albums);
 
 updateUnits.recordUnitSongs(units, songs);
 
+updateCds.flatArtworksToArray(singles);
+updateCds.flatArtworksToArray(albums);
+
 // Form all property pairs into an array.
 
 const songsArray = Object.values(songs);

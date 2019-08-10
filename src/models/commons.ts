@@ -60,3 +60,12 @@ export type ResultCd = {
 export type ResultCdForSingleTemp = ResultCd & {
   hasArtworks: boolean;
 };
+
+type FinalCd = {
+  title: string;
+  number: string;
+  release: string;
+  artworks: CdArtwork[];
+  shopping: Site[];
+  songs: ResultCdSong[];
+};
