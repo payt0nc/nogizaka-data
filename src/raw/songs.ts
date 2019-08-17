@@ -1799,7 +1799,7 @@ const songMirainokotae: RawSong = {
 const songNaitatteii: RawSong = {
   title: SONGS["泣いたっていいじゃないか?"].title,
   musicVideo: "",
-  type: SongType.ThirdGeneration,
+  type: SongType.Selected,
   creators: {
     lyrics: ["秋元康"],
     compose: ["K-WONDER", "SAS3"],
