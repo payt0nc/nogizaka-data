@@ -23,7 +23,7 @@ export const initializeMembers = (rawMembers: RawMember[]): ResultMembers => {
         large: "",
         small: "",
       },
-      singleImages: {},
+      singleImages: [],
       join: rawMember.join,
       birthday: rawMember.birthday,
       height: rawMember.height,
@@ -32,7 +32,7 @@ export const initializeMembers = (rawMembers: RawMember[]): ResultMembers => {
       sites: rawMember.sites,
       photoAlbums: rawMember.photoAlbums,
       units: [],
-      positionsHistory: {},
+      positionsHistory: [],
       positionsCounter: {
         center: 0,
         fukujin: 0,
@@ -146,12 +146,22 @@ export const recordPositions = (
             }
           }
         }
-
-        Object.assign(member.positionsHistory, {
-          [single.number]: singlePosition,
-        });
       }
+
+      // Object.assign(member.positionsHistory, {
+      //   [single.number]: singlePosition,
+      // });
+
+      member.positionsHistory.push({
+        singleNumber: single.number,
+        position: singlePosition,
+      });
     }
+
+    member.positionsHistory.sort(
+      (positionA, positionB) =>
+        Number(positionA.singleNumber) - Number(positionB.singleNumber),
+    );
   }
 };
 
@@ -160,11 +170,11 @@ export const recordProfileImages = (
   singleCount: number,
 ) => {
   for (const member of Object.values(members)) {
-    for (let i = 1; i < singleCount + 1; i++) {
-      const profileImageLargePath = `${PROFILE_IMAGES_PATH}${i}/${
+    for (let i = 0; i < singleCount; i++) {
+      const profileImageLargePath = `${PROFILE_IMAGES_PATH}${i + 1}/${
         member.name
       }_large.jpg`;
-      const profileImageSmallPath = `${PROFILE_IMAGES_PATH}${i}/${
+      const profileImageSmallPath = `${PROFILE_IMAGES_PATH}${i + 1}/${
         member.name
       }_small.jpg`;
 
@@ -176,23 +186,21 @@ export const recordProfileImages = (
       if (fs.existsSync(profileImageLargePath)) {
         singleImage.large = GITHUB_CONTENTS_PATH + profileImageLargePath;
       } else if (i > 1) {
-        singleImage.large = member.singleImages[(i - 1).toString()].large;
+        singleImage.large = member.singleImages[i - 1].large;
       }
 
       if (fs.existsSync(profileImageSmallPath)) {
         singleImage.small = GITHUB_CONTENTS_PATH + profileImageSmallPath;
       } else if (i > 1) {
-        singleImage.small = member.singleImages[(i - 1).toString()].small;
+        singleImage.small = member.singleImages[i - 1].small;
       }
 
-      Object.assign(member.singleImages, {
-        [i.toString()]: singleImage,
-      });
+      member.singleImages.push(singleImage);
     }
 
     if (
-      member.singleImages[singleCount].large === "" &&
-      member.singleImages[singleCount].small === ""
+      member.singleImages[singleCount - 1].large === "" &&
+      member.singleImages[singleCount - 1].small === ""
     ) {
       member.profileImage = {
         large:
@@ -207,13 +215,13 @@ export const recordProfileImages = (
     } else {
       member.profileImage = {
         large:
-          member.singleImages[singleCount].large !== ""
-            ? member.singleImages[singleCount].large
-            : member.singleImages[singleCount].large,
+          member.singleImages[singleCount - 1].large !== ""
+            ? member.singleImages[singleCount - 1].large
+            : member.singleImages[singleCount - 1].large,
         small:
-          member.singleImages[singleCount].small !== ""
-            ? member.singleImages[singleCount].small
-            : member.singleImages[singleCount].large,
+          member.singleImages[singleCount - 1].small !== ""
+            ? member.singleImages[singleCount - 1].small
+            : member.singleImages[singleCount - 1].large,
       };
     }
   }

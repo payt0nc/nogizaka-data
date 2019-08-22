@@ -59,9 +59,7 @@ export type ResultMember = {
   nameNotations: NameNotations;
   glowStickColor: GlowStickColor;
   profileImage: MemberProfileImage;
-  singleImages: {
-    [singleNumber: string]: MemberProfileImage;
-  };
+  singleImages: MemberProfileImage[];
   join: JoinedGeneration;
   birthday: string;
   height: number;
@@ -74,8 +72,9 @@ export type ResultMember = {
     type: UnitType;
   }[];
   positionsHistory: {
-    [singleNumber: string]: PositionType;
-  };
+    singleNumber: string;
+    position: PositionType;
+  }[];
   positionsCounter: {
     center: number;
     fukujin: number;

@@ -2633,7 +2633,7 @@ const iwaseyumiko: RawMember = {
       url: "https://twitter.com/scarf_iwase/",
     },
     {
-      title: "けつばん",
+      title: "Official",
       url: "https://ketsuban.com/",
     },
   ],
