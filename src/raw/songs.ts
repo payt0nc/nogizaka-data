@@ -13,7 +13,7 @@ const yoakemade: RawSong = {
     lyrics: ["秋元康"],
     compose: [],
     arrange: [],
-    direct: [],
+    direct: ["丸山健志"],
   },
   performers: {
     center: [MemberNames.EndouSakura],
@@ -107,7 +107,7 @@ const romendensha: RawSong = {
     lyrics: ["秋元康"],
     compose: [],
     arrange: [],
-    direct: [],
+    direct: ["山岸聖太"],
   },
   performers: {
     center: [],
@@ -135,7 +135,7 @@ const toshoshitsu: RawSong = {
     lyrics: ["秋元康"],
     compose: [],
     arrange: [],
-    direct: [],
+    direct: ["伊藤衆人"],
   },
   performers: {
     center: [],
@@ -171,7 +171,7 @@ const tokidokiomoidashite: RawSong = {
     lyrics: ["秋元康"],
     compose: [],
     arrange: [],
-    direct: [],
+    direct: ["頃安祐良"],
   },
   performers: {
     center: [],
@@ -197,7 +197,7 @@ const domybest: RawSong = {
     lyrics: ["秋元康"],
     compose: [],
     arrange: [],
-    direct: [],
+    direct: ["maxilla"],
   },
   performers: {
     center: [],
