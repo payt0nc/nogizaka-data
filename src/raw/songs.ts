@@ -138,7 +138,7 @@ const toshoshitsu: RawSong = {
     direct: ["伊藤衆人"],
   },
   performers: {
-    center: [],
+    center: [MemberNames.KakehashiSayaka],
     fukujin: [],
     solo: "",
     unit: "",
@@ -180,9 +180,7 @@ const tokidokiomoidashite: RawSong = {
     unit: "",
   },
   formations: {
-    firstRow: [
-      MemberNames.SakuraiReika,
-    ],
+    firstRow: [MemberNames.SakuraiReika],
     secondRow: [],
     thirdRow: [],
     fourthRow: [],
@@ -200,7 +198,7 @@ const domybest: RawSong = {
     direct: ["maxilla"],
   },
   performers: {
-    center: [],
+    center: [MemberNames.IwamotoRenka],
     fukujin: [],
     solo: "",
     unit: "",
@@ -7504,5 +7502,5 @@ export const rawSongs: RawSong[] = [
   toshoshitsu,
   tokidokiomoidashite,
   domybest,
-  bokunoomoikomi
+  bokunoomoikomi,
 ];

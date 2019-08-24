@@ -75,7 +75,7 @@ writeFile("./src/json/units.json", unitsArray);
 
 // Write data to other project.
 
-const PROJECT_PATH = __dirname + "/../../client/src/data";
+const PROJECT_PATH = __dirname + "/../../nogizaka-lib-redesign/src/data";
 
 writeFile(`${PROJECT_PATH}/members.json`, membersArray);
 writeFile(`${PROJECT_PATH}/singles.json`, singlesArray);
