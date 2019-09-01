@@ -714,8 +714,8 @@ const sakuraireika: RawMember = {
     },
   ],
   graduation: {
-    isGraduated: false,
-    graduatedDate: "",
+    isGraduated: true,
+    graduatedDate: "2019-09-01",
   },
 };
 
