@@ -11,8 +11,8 @@ const yoakemade: RawSong = {
   type: SongType.Title,
   creators: {
     lyrics: ["秋元康"],
-    compose: [],
-    arrange: [],
+    compose: ["山田裕介"],
+    arrange: ["APAZZI"],
     direct: ["丸山健志"],
   },
   performers: {
@@ -56,8 +56,8 @@ const bokunokoto: RawSong = {
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
-    compose: [],
-    arrange: [],
+    compose: ["中村泰輔"],
+    arrange: ["中村泰輔"],
     direct: [],
   },
   performers: {
@@ -105,8 +105,8 @@ const romendensha: RawSong = {
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
-    compose: [],
-    arrange: [],
+    compose: ["杉山勝彦"],
+    arrange: ["杉山勝彦", "谷地学"],
     direct: ["山岸聖太"],
   },
   performers: {
@@ -133,8 +133,8 @@ const toshoshitsu: RawSong = {
   type: SongType.FourthGeneration,
   creators: {
     lyrics: ["秋元康"],
-    compose: [],
-    arrange: [],
+    compose: ["杉山勝彦"],
+    arrange: ["若田部誠"],
     direct: ["伊藤衆人"],
   },
   performers: {
@@ -169,8 +169,8 @@ const tokidokiomoidashite: RawSong = {
   type: SongType.Solo,
   creators: {
     lyrics: ["秋元康"],
-    compose: [],
-    arrange: [],
+    compose: ["杉山勝彦"],
+    arrange: ["杉山勝彦", "谷地学"],
     direct: ["頃安祐良"],
   },
   performers: {
@@ -193,8 +193,8 @@ const domybest: RawSong = {
   type: SongType.Under,
   creators: {
     lyrics: ["秋元康"],
-    compose: [],
-    arrange: [],
+    compose: ["浦島健太", "APAZZI"],
+    arrange: ["浦島健太", "APAZZI"],
     direct: ["maxilla"],
   },
   performers: {
@@ -234,8 +234,8 @@ const bokunoomoikomi: RawSong = {
   type: SongType.Coupling,
   creators: {
     lyrics: ["秋元康"],
-    compose: [],
-    arrange: [],
+    compose: ["杉山勝彦"],
+    arrange: ["野中“まさ”雄一"],
     direct: [],
   },
   performers: {
