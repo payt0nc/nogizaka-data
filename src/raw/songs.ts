@@ -365,8 +365,8 @@ const noyounasonzai: RawSong = {
   type: SongType.Unit,
   creators: {
     lyrics: ["秋元康"],
-    compose: ["Akira Sunset, APAZZI"],
-    arrange: ["Akira Sunset, APAZZI"],
+    compose: ["Akira Sunset", "APAZZI"],
+    arrange: ["Akira Sunset", "APAZZI"],
     direct: ["伊藤衆人"],
   },
   performers: {
