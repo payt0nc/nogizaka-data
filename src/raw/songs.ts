@@ -6015,7 +6015,7 @@ const songHoozue: RawSong = {
 };
 
 const songPocchito: RawSong = {
-  title: SONGS["ぽっち党"].title,
+  title: SONGS["ぼっち党"].title,
   musicVideo: "",
   type: SongType.Unit,
   creators: {

@@ -965,8 +965,8 @@ export const SONGS: {
     title: "頬杖をついては眠れない",
     key: "hoozuewotsuitehanemurenai",
   },
-  "ぽっち党": {
-    title: "ぽっち党",
+  "ぼっち党": {
+    title: "ぼっち党",
     key: "bocchitou",
   },
   "さゆりんご募集中": {

@@ -92,7 +92,7 @@ const imagaomoideninarumade: RawAlbum = {
     },
     {
       number: 17,
-      title: SONGS["ぽっち党"].title,
+      title: SONGS["ぼっち党"].title,
       inCdType: [CdType.A],
     },
     {
