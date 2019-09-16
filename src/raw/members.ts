@@ -29,12 +29,16 @@ const akimotomanatsu: RawMember = {
   origin: "埼玉県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
-      url: "https://www.nogizaka46.com/member/detail/akimotomanatsu.php",
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/manatsu.akimoto/",
     },
     {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/akimoto-manatsu",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://www.nogizaka46.com/member/detail/akimotomanatsu.php",
     },
   ],
   photoAlbums: [
@@ -72,12 +76,16 @@ const ikutaerika: RawMember = {
   origin: "Düsseldorf, Germany",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
-      url: "https://www.nogizaka46.com/member/detail/ikutaerika.php",
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/erika.ikuta/",
     },
     {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/ikuta-erika",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://www.nogizaka46.com/member/detail/ikutaerika.php",
     },
   ],
   photoAlbums: [
@@ -121,7 +129,7 @@ const ikomarina: RawMember = {
   origin: "秋田県",
   sites: [
     {
-      title: "Official",
+      title: SocialMedia.Official,
       url: "https://ikomarina.com/",
     },
     {
@@ -168,10 +176,6 @@ const itoukarin: RawMember = {
       url: "https://www.instagram.com/karin___ito/",
     },
     {
-      title: SocialMedia.Nogizaka,
-      url: "https://www.nogizaka46.com/member/detail/itoukarin.php",
-    },
-    {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/itou-karin",
     },
@@ -204,12 +208,16 @@ const itoujunna: RawMember = {
   origin: "神奈川県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
-      url: "https://www.nogizaka46.com/member/detail/itoujunna.php",
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/junna.itou/",
     },
     {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/itou-junna",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://www.nogizaka46.com/member/detail/itoujunna.php",
     },
   ],
   photoAlbums: [],
@@ -240,7 +248,11 @@ const itouriria: RawMember = {
   origin: "沖縄県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/riria.itou/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/itouriria.php",
     },
   ],
@@ -272,12 +284,16 @@ const inouesayuri: RawMember = {
   origin: "埼玉県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
-      url: "https://www.nogizaka46.com/member/detail/inouesayuri.php",
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/sayuri.inoue/",
     },
     {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/inoue-sayuri",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://www.nogizaka46.com/member/detail/inouesayuri.php",
     },
   ],
   photoAlbums: [
@@ -315,7 +331,11 @@ const iwamotorenka: RawMember = {
   origin: "東京都",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/renka.iwamoto/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/iwamotorenka.php",
     },
   ],
@@ -347,7 +367,11 @@ const umezawaminami: RawMember = {
   origin: "神奈川県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/minami.umezawa/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/umezawaminami.php",
     },
   ],
@@ -428,7 +452,11 @@ const oozonomomoko: RawMember = {
   origin: "鹿児島県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/momoko.oozono/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/oozonomomoko.php",
     },
   ],
@@ -460,8 +488,8 @@ const kawagohina: RawMember = {
   origin: "長崎県",
   sites: [
     {
-      title: "Official",
-      url: "http://kawagopro.com/index.html",
+      title: SocialMedia.Official,
+      url: "https://kawagopro.com/",
     },
     {
       title: SocialMedia.Instagram,
@@ -500,12 +528,16 @@ const kitanohinako: RawMember = {
   origin: "北海道",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
-      url: "https://www.nogizaka46.com/member/detail/kitanohinako.php",
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/hinako.kitano/",
     },
     {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/kitano-hinako",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://www.nogizaka46.com/member/detail/kitanohinako.php",
     },
   ],
   photoAlbums: [
@@ -543,7 +575,11 @@ const kuboshiori: RawMember = {
   origin: "宮城県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/shiori.kubo/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/kuboshiori.php",
     },
   ],
@@ -575,12 +611,16 @@ const saitouasuka: RawMember = {
   origin: "東京都",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
-      url: "https://www.nogizaka46.com/member/detail/saitouasuka.php",
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/asuka.saito/",
     },
     {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/saito-asuka",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://www.nogizaka46.com/member/detail/saitouasuka.php",
     },
   ],
   photoAlbums: [
@@ -622,12 +662,12 @@ const saitouyuuri: RawMember = {
       url: "https://www.instagram.com/yuuri_3ito/",
     },
     {
-      title: SocialMedia.Nogizaka,
-      url: "https://www.nogizaka46.com/member/detail/saitouyuuri.php",
-    },
-    {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/MM1u8Yp3Dv6C",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://www.nogizaka46.com/member/detail/saitouyuuri.php",
     },
   ],
   photoAlbums: [
@@ -665,7 +705,11 @@ const sakaguchitamami: RawMember = {
   origin: "東京都",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/tamami.sakaguchi/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/sakaguchitamami.php",
     },
   ],
@@ -697,12 +741,16 @@ const sakuraireika: RawMember = {
   origin: "神奈川県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
-      url: "https://www.nogizaka46.com/member/detail/sakuraireika.php",
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/reika.sakurai/",
     },
     {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/sakurai-reika",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://www.nogizaka46.com/member/detail/sakuraireika.php",
     },
   ],
   photoAlbums: [
@@ -740,7 +788,11 @@ const sasakikotoko: RawMember = {
   origin: "埼玉県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/kotoko.sasaki/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/sasakikotoko.php",
     },
   ],
@@ -772,7 +824,11 @@ const satoukaede: RawMember = {
   origin: "愛知県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/kaede.satou/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/satoukaede.php",
     },
   ],
@@ -804,12 +860,16 @@ const shiraishimai: RawMember = {
   origin: "群馬県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
-      url: "https://www.nogizaka46.com/member/detail/shiraishimai.php",
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/mai.shiraishi/",
     },
     {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/shiraishi-mai",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://www.nogizaka46.com/member/detail/shiraishimai.php",
     },
   ],
   photoAlbums: [
@@ -859,12 +919,16 @@ const shinuchimai: RawMember = {
   origin: "埼玉県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
-      url: "https://www.nogizaka46.com/member/detail/shinuchimai.php",
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/mai.shinuchi/",
     },
     {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/shinuchi-mai",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://www.nogizaka46.com/member/detail/shinuchimai.php",
     },
   ],
   photoAlbums: [
@@ -902,12 +966,16 @@ const suzukiayane: RawMember = {
   origin: "秋田県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
-      url: "https://www.nogizaka46.com/member/detail/suzukiayane.php",
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/ayane.suzuki/",
     },
     {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/suzuki-ayane",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://www.nogizaka46.com/member/detail/suzukiayane.php",
     },
   ],
   photoAlbums: [],
@@ -938,12 +1006,16 @@ const takayamakazumi: RawMember = {
   origin: "千葉県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
-      url: "https://www.nogizaka46.com/member/detail/takayamakazumi.php",
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/kazumi.takayama/",
     },
     {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/takayama-kazumi",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://www.nogizaka46.com/member/detail/takayamakazumi.php",
     },
   ],
   photoAlbums: [
@@ -987,7 +1059,11 @@ const teradaranze: RawMember = {
   origin: "東京都",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/ranze.terada/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/teradaranze.php",
     },
   ],
@@ -1019,12 +1095,16 @@ const nakadakana: RawMember = {
   origin: "埼玉県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
-      url: "https://www.nogizaka46.com/member/detail/nakadakana.php",
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/kana.nakada/",
     },
     {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/nakada-kana",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://www.nogizaka46.com/member/detail/nakadakana.php",
     },
   ],
   photoAlbums: [],
@@ -1055,7 +1135,11 @@ const nakamurareno: RawMember = {
   origin: "東京都",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/reno.nakamura/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/nakamurareno.php",
     },
   ],
@@ -1087,7 +1171,7 @@ const nishinonanase: RawMember = {
   origin: "大阪府",
   sites: [
     {
-      title: "Official",
+      title: SocialMedia.Official,
       url: "https://nishinonanase.com/",
     },
     {
@@ -1178,12 +1262,16 @@ const higuchihina: RawMember = {
   origin: "東京都",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
-      url: "https://www.nogizaka46.com/member/detail/higuchihina.php",
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/hina.higuchi/",
     },
     {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/higuchi-hina",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://www.nogizaka46.com/member/detail/higuchihina.php",
     },
   ],
   photoAlbums: [],
@@ -1214,12 +1302,16 @@ const hoshinominami: RawMember = {
   origin: "千葉県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
-      url: "https://www.nogizaka46.com/member/detail/hoshinominami.php",
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/minami.hoshino/",
     },
     {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/hoshino-minami",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://www.nogizaka46.com/member/detail/hoshinominami.php",
     },
   ],
   photoAlbums: [
@@ -1257,12 +1349,16 @@ const horimiona: RawMember = {
   origin: "岐阜県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
-      url: "https://www.nogizaka46.com/member/detail/horimiona.php",
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/miona.hori/",
     },
     {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/hori-miona",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://www.nogizaka46.com/member/detail/horimiona.php",
     },
   ],
   photoAlbums: [
@@ -1300,8 +1396,8 @@ const matsumurasayuri: RawMember = {
   origin: "大阪府",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
-      url: "https://www.nogizaka46.com/member/detail/matsumurasayuri.php",
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/sayuri.matsumura/",
     },
     {
       title: SocialMedia.Instagram,
@@ -1310,6 +1406,10 @@ const matsumurasayuri: RawMember = {
     {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/matsumura-sayuri",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://www.nogizaka46.com/member/detail/matsumurasayuri.php",
     },
   ],
   photoAlbums: [
@@ -1347,7 +1447,11 @@ const mukaihazuki: RawMember = {
   origin: "東京都",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/hazuki.mukai/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/mukaihazuki.php",
     },
   ],
@@ -1379,12 +1483,16 @@ const yamazakirena: RawMember = {
   origin: "東京都",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
-      url: "https://www.nogizaka46.com/member/detail/yamazakirena.php",
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/rena.yamazaki/",
     },
     {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/yamazaki-rena",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://www.nogizaka46.com/member/detail/yamazakirena.php",
     },
   ],
   photoAlbums: [],
@@ -1415,7 +1523,11 @@ const yamashitamizuki: RawMember = {
   origin: "東京都",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/mizuki.yamashita/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/yamashitamizuki.php",
     },
   ],
@@ -1447,7 +1559,11 @@ const yoshidaayanochristie: RawMember = {
   origin: "大分県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/ayanochristie.yoshida/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/yoshidaayanochristie.php",
     },
   ],
@@ -1479,7 +1595,11 @@ const yodayuuki: RawMember = {
   origin: "福岡県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/yuuki.yoda/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/yodayuuki.php",
     },
   ],
@@ -1518,7 +1638,7 @@ const wakatsukiyumi: RawMember = {
   origin: "静岡県",
   sites: [
     {
-      title: "Official",
+      title: SocialMedia.Official,
       url: "https://wakatsukiyumi.jp/",
     },
     {
@@ -1561,12 +1681,16 @@ const watanabemiria: RawMember = {
   origin: "東京都",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
-      url: "https://www.nogizaka46.com/member/detail/watanabemiria.php",
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/miria.watanabe/",
     },
     {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/watanabe-miria",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://www.nogizaka46.com/member/detail/watanabemiria.php",
     },
   ],
   photoAlbums: [],
@@ -1597,12 +1721,16 @@ const wadamaaya: RawMember = {
   origin: "広島県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
-      url: "https://www.nogizaka46.com/member/detail/wadamaaya.php",
+      title: SocialMedia.OfficialBlog,
+      url: "https://blog.nogizaka46.com/maaya.wada/",
     },
     {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/wada-maaya",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://www.nogizaka46.com/member/detail/wadamaaya.php",
     },
   ],
   photoAlbums: [],
@@ -1633,7 +1761,11 @@ const endousakura: RawMember = {
   origin: "愛知県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.FourthGenBlog,
+      url: "https://blog.nogizaka46.com/fourth/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/endousakura.php",
     },
   ],
@@ -1665,7 +1797,11 @@ const kakiharuka: RawMember = {
   origin: "栃木県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.FourthGenBlog,
+      url: "https://blog.nogizaka46.com/fourth/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/kakiharuka.php",
     },
   ],
@@ -1697,7 +1833,11 @@ const kakehashisayaka: RawMember = {
   origin: "岡山県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.FourthGenBlog,
+      url: "https://blog.nogizaka46.com/fourth/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/kakehashisayaka.php",
     },
   ],
@@ -1729,7 +1869,11 @@ const kanagawasaya: RawMember = {
   origin: "北海道",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.FourthGenBlog,
+      url: "https://blog.nogizaka46.com/fourth/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/kanagawasaya.php",
     },
   ],
@@ -1761,7 +1905,11 @@ const kitagawayuri: RawMember = {
   origin: "California, US",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.FourthGenBlog,
+      url: "https://blog.nogizaka46.com/fourth/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/kitagawayuri.php",
     },
   ],
@@ -1793,7 +1941,11 @@ const shibatayuna: RawMember = {
   origin: "千葉県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.FourthGenBlog,
+      url: "https://blog.nogizaka46.com/fourth/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/shibatayuna.php",
     },
   ],
@@ -1825,7 +1977,11 @@ const seimiyarei: RawMember = {
   origin: "埼玉県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.FourthGenBlog,
+      url: "https://blog.nogizaka46.com/fourth/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/seimiyarei.php",
     },
   ],
@@ -1857,7 +2013,11 @@ const tamuramayu: RawMember = {
   origin: "埼玉県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.FourthGenBlog,
+      url: "https://blog.nogizaka46.com/fourth/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/tamuramayu.php",
     },
   ],
@@ -1889,7 +2049,11 @@ const tsutsuiayame: RawMember = {
   origin: "愛知県",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.FourthGenBlog,
+      url: "https://blog.nogizaka46.com/fourth/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/tsutsuiayame.php",
     },
   ],
@@ -1921,7 +2085,11 @@ const hayakawaseira: RawMember = {
   origin: "大阪府",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.FourthGenBlog,
+      url: "https://blog.nogizaka46.com/fourth/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/hayakawaseira.php",
     },
   ],
@@ -1953,7 +2121,11 @@ const yakubomio: RawMember = {
   origin: "東京都",
   sites: [
     {
-      title: SocialMedia.Nogizaka,
+      title: SocialMedia.FourthGenBlog,
+      url: "https://blog.nogizaka46.com/fourth/",
+    },
+    {
+      title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/yakubomio.php",
     },
   ],
@@ -2089,7 +2261,7 @@ const nakamotohimeka: RawMember = {
   origin: "広島県",
   sites: [
     {
-      title: "Official",
+      title: SocialMedia.Official,
       url: "https://nakamotohimeka.com/",
     },
   ],
@@ -2121,7 +2293,7 @@ const itoumarika: RawMember = {
   origin: "神奈川県",
   sites: [
     {
-      title: "Official",
+      title: SocialMedia.Official,
       url: "https://itomarika.com/",
     },
     {
@@ -2197,7 +2369,7 @@ const fukagawamai: RawMember = {
   origin: "静岡県",
   sites: [
     {
-      title: "Official",
+      title: SocialMedia.Official,
       url: "http://www.tencarat.co.jp/fukagawamai/",
     },
     {
@@ -2633,7 +2805,7 @@ const iwaseyumiko: RawMember = {
       url: "https://twitter.com/scarf_iwase/",
     },
     {
-      title: "Official",
+      title: SocialMedia.Official,
       url: "https://ketsuban.com/",
     },
   ],

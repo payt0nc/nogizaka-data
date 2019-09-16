@@ -174,7 +174,10 @@ export enum GlowStickColorType {
 export enum SocialMedia {
   Instagram = "Instagram",
   Twitter = "Twitter",
-  Nogizaka = "Nogizaka46",
+  OfficialBlog = "Official Blog",
+  FourthGenBlog = "Fourth Gen Blog",
+  Profile = "Profile",
+  Official = "Official",
   Nanagogo = "755",
 }
 
