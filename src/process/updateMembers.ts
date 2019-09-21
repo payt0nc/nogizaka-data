@@ -11,7 +11,7 @@ import {
 } from "../utils/constants";
 import { arrayToObject } from "../utils/arrays";
 
-const PROFILE_IMAGES_PATH = "src/images/members/";
+const PROFILE_IMAGES_PATH = "src/images/members";
 
 export const initializeMembers = (rawMembers: RawMember[]): ResultMembers => {
   const initializedArray = rawMembers.map(
@@ -171,10 +171,10 @@ export const recordProfileImages = (
 ) => {
   for (const member of Object.values(members)) {
     for (let i = 0; i < singleCount; i++) {
-      const profileImageLargePath = `${PROFILE_IMAGES_PATH}${i + 1}/${
+      const profileImageLargePath = `${PROFILE_IMAGES_PATH}/${i + 1}/${
         member.name
       }_large.jpg`;
-      const profileImageSmallPath = `${PROFILE_IMAGES_PATH}${i + 1}/${
+      const profileImageSmallPath = `${PROFILE_IMAGES_PATH}/${i + 1}/${
         member.name
       }_small.jpg`;
 
@@ -198,6 +198,11 @@ export const recordProfileImages = (
       member.singleImages.push(singleImage);
     }
 
+    const graduatedProfileImagePath = {
+      large: `${PROFILE_IMAGES_PATH}/graduated/${member.name}_large.jpg`,
+      small: `${PROFILE_IMAGES_PATH}/graduated/${member.name}_small.jpg`,
+    };
+
     if (
       member.singleImages[singleCount - 1].large === "" &&
       member.singleImages[singleCount - 1].small === ""
@@ -206,23 +211,34 @@ export const recordProfileImages = (
         large:
           GITHUB_CONTENTS_PATH +
           PROFILE_IMAGES_PATH +
-          "member_no_image_large.png",
+          "/member_no_image_large.png",
         small:
           GITHUB_CONTENTS_PATH +
           PROFILE_IMAGES_PATH +
-          "member_no_image_medium.png",
+          "/member_no_image_medium.png",
       };
     } else {
-      member.profileImage = {
-        large:
-          member.singleImages[singleCount - 1].large !== ""
-            ? member.singleImages[singleCount - 1].large
-            : member.singleImages[singleCount - 1].large,
-        small:
-          member.singleImages[singleCount - 1].small !== ""
-            ? member.singleImages[singleCount - 1].small
-            : member.singleImages[singleCount - 1].large,
-      };
+      if (
+        member.graduation.isGraduated &&
+        fs.existsSync(graduatedProfileImagePath.large) &&
+        fs.existsSync(graduatedProfileImagePath.small)
+      ) {
+        member.profileImage = {
+          large: GITHUB_CONTENTS_PATH + graduatedProfileImagePath.large,
+          small: GITHUB_CONTENTS_PATH + graduatedProfileImagePath.small,
+        };
+      } else {
+        member.profileImage = {
+          large:
+            member.singleImages[singleCount - 1].large !== ""
+              ? member.singleImages[singleCount - 1].large
+              : member.singleImages[singleCount - 1].large,
+          small:
+            member.singleImages[singleCount - 1].small !== ""
+              ? member.singleImages[singleCount - 1].small
+              : member.singleImages[singleCount - 1].large,
+        };
+      }
     }
   }
 };
