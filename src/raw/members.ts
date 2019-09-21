@@ -2425,6 +2425,10 @@ const nagashimaseira: RawMember = {
       title: SocialMedia.Twitter,
       url: "https://twitter.com/seira_0519n",
     },
+    {
+      title: SocialMedia.Official,
+      url: "https://www.horipro.co.jp/nagashimaseira/",
+    },
   ],
   photoAlbums: [],
   graduation: {
@@ -2460,6 +2464,10 @@ const matsuirena: RawMember = {
     {
       title: SocialMedia.Twitter,
       url: "https://twitter.com/renampme",
+    },
+    {
+      title: SocialMedia.Official,
+      url: "https://matsuirena.club/",
     },
   ],
   photoAlbums: [],
@@ -2704,6 +2712,10 @@ const miyazawaseira: RawMember = {
     {
       title: SocialMedia.Twitter,
       url: "https://twitter.com/seira_miyazawa/",
+    },
+    {
+      title: SocialMedia.Instagram,
+      url: "https://www.instagram.com/seira_miyazawa/",
     },
     {
       title: "Ameba",
