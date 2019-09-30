@@ -136,6 +136,10 @@ const ikomarina: RawMember = {
       title: SocialMedia.Instagram,
       url: "https://www.instagram.com/ikomarina_1229/",
     },
+    {
+      title: SocialMedia.Profile,
+      url: "https://n46llc.com/s/m00/artist/1",
+    },
   ],
   photoAlbums: [
     {
@@ -178,6 +182,10 @@ const itoukarin: RawMember = {
     {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/itou-karin",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://n46llc.com/s/m00/artist/2",
     },
   ],
   photoAlbums: [],
@@ -409,6 +417,10 @@ const etoumisa: RawMember = {
     {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/eto-misa",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://n46llc.com/s/m00/artist/10",
     },
   ],
   photoAlbums: [
@@ -667,7 +679,7 @@ const saitouyuuri: RawMember = {
     },
     {
       title: SocialMedia.Profile,
-      url: "https://www.nogizaka46.com/member/detail/saitouyuuri.php",
+      url: "https://n46llc.com/s/m00/artist/4",
     },
   ],
   photoAlbums: [
@@ -741,16 +753,12 @@ const sakuraireika: RawMember = {
   origin: "神奈川県",
   sites: [
     {
-      title: SocialMedia.OfficialBlog,
-      url: "https://blog.nogizaka46.com/reika.sakurai/",
-    },
-    {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/sakurai-reika",
     },
     {
       title: SocialMedia.Profile,
-      url: "https://www.nogizaka46.com/member/detail/sakuraireika.php",
+      url: "https://n46llc.com/s/m00/artist/11",
     },
   ],
   photoAlbums: [
@@ -1182,6 +1190,10 @@ const nishinonanase: RawMember = {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/nishino-nanase",
     },
+    {
+      title: SocialMedia.Profile,
+      url: "https://n46llc.com/s/m00/artist/7",
+    },
   ],
   photoAlbums: [
     {
@@ -1232,6 +1244,10 @@ const noujouami: RawMember = {
     {
       title: SocialMedia.Instagram,
       url: "https://www.instagram.com/noujoami_official/",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://n46llc.com/s/m00/artist/8",
     },
   ],
   photoAlbums: [],
@@ -1644,6 +1660,10 @@ const wakatsukiyumi: RawMember = {
     {
       title: SocialMedia.Instagram,
       url: "https://www.instagram.com/yumi_wakatsuki_official/",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://n46llc.com/s/m00/artist/9",
     },
   ],
   photoAlbums: [
@@ -2164,6 +2184,10 @@ const sagaraiori: RawMember = {
       title: SocialMedia.Nanagogo,
       url: "https://7gogo.jp/sagara-iori",
     },
+    {
+      title: SocialMedia.Profile,
+      url: "https://n46llc.com/s/m00/artist/5",
+    },
   ],
   photoAlbums: [],
   graduation: {
@@ -2264,6 +2288,10 @@ const nakamotohimeka: RawMember = {
       title: SocialMedia.Official,
       url: "https://nakamotohimeka.com/",
     },
+    {
+      title: SocialMedia.Profile,
+      url: "https://n46llc.com/s/m00/artist/6",
+    },
   ],
   photoAlbums: [],
   graduation: {
@@ -2299,6 +2327,10 @@ const itoumarika: RawMember = {
     {
       title: SocialMedia.Instagram,
       url: "https://www.instagram.com/marikaito_official/",
+    },
+    {
+      title: SocialMedia.Profile,
+      url: "https://n46llc.com/s/m00/artist/3",
     },
   ],
   photoAlbums: [],
