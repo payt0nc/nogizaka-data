@@ -33,12 +33,12 @@ const akimotomanatsu: RawMember = {
       url: "https://blog.nogizaka46.com/manatsu.akimoto/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/akimoto-manatsu",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/akimotomanatsu.php",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/akimoto-manatsu",
     },
   ],
   photoAlbums: [
@@ -80,12 +80,12 @@ const ikutaerika: RawMember = {
       url: "https://blog.nogizaka46.com/erika.ikuta/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/ikuta-erika",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/ikutaerika.php",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/ikuta-erika",
     },
   ],
   photoAlbums: [
@@ -180,12 +180,12 @@ const itoukarin: RawMember = {
       url: "https://www.instagram.com/karin___ito/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/itou-karin",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://n46llc.com/s/m00/artist/2",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/itou-karin",
     },
   ],
   photoAlbums: [],
@@ -220,12 +220,12 @@ const itoujunna: RawMember = {
       url: "https://blog.nogizaka46.com/junna.itou/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/itou-junna",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/itoujunna.php",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/itou-junna",
     },
   ],
   photoAlbums: [],
@@ -296,12 +296,12 @@ const inouesayuri: RawMember = {
       url: "https://blog.nogizaka46.com/sayuri.inoue/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/inoue-sayuri",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/inouesayuri.php",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/inoue-sayuri",
     },
   ],
   photoAlbums: [
@@ -415,12 +415,12 @@ const etoumisa: RawMember = {
       url: "https://www.instagram.com/misa_eto_official/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/eto-misa",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://n46llc.com/s/m00/artist/10",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/eto-misa",
     },
   ],
   photoAlbums: [
@@ -544,12 +544,12 @@ const kitanohinako: RawMember = {
       url: "https://blog.nogizaka46.com/hinako.kitano/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/kitano-hinako",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/kitanohinako.php",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/kitano-hinako",
     },
   ],
   photoAlbums: [
@@ -627,12 +627,12 @@ const saitouasuka: RawMember = {
       url: "https://blog.nogizaka46.com/asuka.saito/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/saito-asuka",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/saitouasuka.php",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/saito-asuka",
     },
   ],
   photoAlbums: [
@@ -674,12 +674,12 @@ const saitouyuuri: RawMember = {
       url: "https://www.instagram.com/yuuri_3ito/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/MM1u8Yp3Dv6C",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://n46llc.com/s/m00/artist/4",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/MM1u8Yp3Dv6C",
     },
   ],
   photoAlbums: [
@@ -753,12 +753,16 @@ const sakuraireika: RawMember = {
   origin: "神奈川県",
   sites: [
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/sakurai-reika",
+      title: SocialMedia.Instagram,
+      url: "https://www.instagram.com/reika_s16/",
     },
     {
       title: SocialMedia.Profile,
       url: "https://n46llc.com/s/m00/artist/11",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/sakurai-reika",
     },
   ],
   photoAlbums: [
@@ -872,12 +876,12 @@ const shiraishimai: RawMember = {
       url: "https://blog.nogizaka46.com/mai.shiraishi/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/shiraishi-mai",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/shiraishimai.php",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/shiraishi-mai",
     },
   ],
   photoAlbums: [
@@ -931,12 +935,12 @@ const shinuchimai: RawMember = {
       url: "https://blog.nogizaka46.com/mai.shinuchi/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/shinuchi-mai",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/shinuchimai.php",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/shinuchi-mai",
     },
   ],
   photoAlbums: [
@@ -978,12 +982,12 @@ const suzukiayane: RawMember = {
       url: "https://blog.nogizaka46.com/ayane.suzuki/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/suzuki-ayane",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/suzukiayane.php",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/suzuki-ayane",
     },
   ],
   photoAlbums: [],
@@ -1018,12 +1022,12 @@ const takayamakazumi: RawMember = {
       url: "https://blog.nogizaka46.com/kazumi.takayama/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/takayama-kazumi",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/takayamakazumi.php",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/takayama-kazumi",
     },
   ],
   photoAlbums: [
@@ -1107,12 +1111,12 @@ const nakadakana: RawMember = {
       url: "https://blog.nogizaka46.com/kana.nakada/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/nakada-kana",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/nakadakana.php",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/nakada-kana",
     },
   ],
   photoAlbums: [],
@@ -1187,12 +1191,12 @@ const nishinonanase: RawMember = {
       url: "https://www.instagram.com/nishino.nanase.official/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/nishino-nanase",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://n46llc.com/s/m00/artist/7",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/nishino-nanase",
     },
   ],
   photoAlbums: [
@@ -1282,12 +1286,12 @@ const higuchihina: RawMember = {
       url: "https://blog.nogizaka46.com/hina.higuchi/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/higuchi-hina",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/higuchihina.php",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/higuchi-hina",
     },
   ],
   photoAlbums: [],
@@ -1322,12 +1326,12 @@ const hoshinominami: RawMember = {
       url: "https://blog.nogizaka46.com/minami.hoshino/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/hoshino-minami",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/hoshinominami.php",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/hoshino-minami",
     },
   ],
   photoAlbums: [
@@ -1369,12 +1373,12 @@ const horimiona: RawMember = {
       url: "https://blog.nogizaka46.com/miona.hori/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/hori-miona",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/horimiona.php",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/hori-miona",
     },
   ],
   photoAlbums: [
@@ -1420,12 +1424,12 @@ const matsumurasayuri: RawMember = {
       url: "https://www.instagram.com/matsumura_sayuri_official/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/matsumura-sayuri",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/matsumurasayuri.php",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/matsumura-sayuri",
     },
   ],
   photoAlbums: [
@@ -1503,12 +1507,12 @@ const yamazakirena: RawMember = {
       url: "https://blog.nogizaka46.com/rena.yamazaki/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/yamazaki-rena",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/yamazakirena.php",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/yamazaki-rena",
     },
   ],
   photoAlbums: [],
@@ -1705,12 +1709,12 @@ const watanabemiria: RawMember = {
       url: "https://blog.nogizaka46.com/miria.watanabe/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/watanabe-miria",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/watanabemiria.php",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/watanabe-miria",
     },
   ],
   photoAlbums: [],
@@ -1745,12 +1749,12 @@ const wadamaaya: RawMember = {
       url: "https://blog.nogizaka46.com/maaya.wada/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/wada-maaya",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://www.nogizaka46.com/member/detail/wadamaaya.php",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/wada-maaya",
     },
   ],
   photoAlbums: [],
@@ -2181,12 +2185,12 @@ const sagaraiori: RawMember = {
       url: "https://www.instagram.com/_iori.sagara_/",
     },
     {
-      title: SocialMedia.Nanagogo,
-      url: "https://7gogo.jp/sagara-iori",
-    },
-    {
       title: SocialMedia.Profile,
       url: "https://n46llc.com/s/m00/artist/5",
+    },
+    {
+      title: SocialMedia.Nanagogo,
+      url: "https://7gogo.jp/sagara-iori",
     },
   ],
   photoAlbums: [],
