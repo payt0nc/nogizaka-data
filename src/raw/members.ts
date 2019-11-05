@@ -773,7 +773,7 @@ const sakuraireika: RawMember = {
       shopping: [],
     },
     {
-      title: "タイトル未定",
+      title: "視線",
       release: "2019-11-27",
       type: PhotoAlbumType.PhotoAlbum,
       shopping: [],
@@ -1399,7 +1399,7 @@ const horimiona: RawMember = {
       release: "2020-01-01",
       type: PhotoAlbumType.PhotoAlbum,
       shopping: [],
-    }
+    },
   ],
   graduation: {
     isGraduated: false,
