@@ -436,6 +436,12 @@ const etoumisa: RawMember = {
       type: PhotoAlbumType.PhotoAlbum,
       shopping: [],
     },
+    {
+      title: "タイトル未定",
+      release: "2020-01-08",
+      type: PhotoAlbumType.PhotoBook,
+      shopping: [],
+    },
   ],
   graduation: {
     isGraduated: true,
