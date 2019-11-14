@@ -1569,7 +1569,14 @@ const yamashitamizuki: RawMember = {
       url: "https://www.nogizaka46.com/member/detail/yamashitamizuki.php",
     },
   ],
-  photoAlbums: [],
+  photoAlbums: [
+    {
+      title: "タイトル未定",
+      release: "2020-01-21",
+      type: PhotoAlbumType.PhotoAlbum,
+      shopping: [],
+    }
+  ],
   graduation: {
     isGraduated: false,
     graduatedDate: "",
