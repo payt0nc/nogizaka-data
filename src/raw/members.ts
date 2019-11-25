@@ -171,7 +171,7 @@ const itoukarin: RawMember = {
   },
   join: JoinedGeneration.Second,
   birthday: "1993-05-26",
-  height: 153,
+  height: 154,
   bloodType: BloodType.O,
   origin: "神奈川県",
   sites: [
@@ -754,7 +754,7 @@ const sakuraireika: RawMember = {
   },
   join: JoinedGeneration.First,
   birthday: "1994-05-16",
-  height: 155,
+  height: 156,
   bloodType: BloodType.A,
   origin: "神奈川県",
   sites: [
@@ -1253,7 +1253,7 @@ const noujouami: RawMember = {
   },
   join: JoinedGeneration.First,
   birthday: "1994-10-18",
-  height: 162,
+  height: 163,
   bloodType: BloodType.A,
   origin: "神奈川県",
   sites: [
@@ -1516,7 +1516,7 @@ const yamazakirena: RawMember = {
   },
   join: JoinedGeneration.Second,
   birthday: "1998-01-31",
-  height: 159,
+  height: 164,
   bloodType: BloodType.A,
   origin: "東京都",
   sites: [
@@ -2345,7 +2345,7 @@ const itoumarika: RawMember = {
   },
   join: JoinedGeneration.First,
   birthday: "1996-02-20",
-  height: 155,
+  height: 158,
   bloodType: BloodType.O,
   origin: "神奈川県",
   sites: [
