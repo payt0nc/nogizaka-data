@@ -1571,7 +1571,7 @@ const yamashitamizuki: RawMember = {
   ],
   photoAlbums: [
     {
-      title: "タイトル未定",
+      title: "忘れられない人",
       release: "2020-01-21",
       type: PhotoAlbumType.PhotoAlbum,
       shopping: [],
