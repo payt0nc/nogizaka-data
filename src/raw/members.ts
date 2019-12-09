@@ -437,7 +437,7 @@ const etoumisa: RawMember = {
       shopping: [],
     },
     {
-      title: "タイトル未定",
+      title: "Decision",
       release: "2020-01-08",
       type: PhotoAlbumType.PhotoBook,
       shopping: [],
